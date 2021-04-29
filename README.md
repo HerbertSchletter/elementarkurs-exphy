@@ -1,3 +1,22 @@
+<!--
+author:   Herbert Schletter
+
+email:    herbert.schletter@physik.tu-chemnitz.de
+
+version:  0.0.1
+
+language: de
+
+narrator: Deutsch Male
+
+comment:  Skriptum zur Vorlesung „Physik (mit Experimenten)“
+
+link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
+
+script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
+
+-->
+
 # Elementarkurs Experimentalphysik
 
 Skriptum zum Kurs „Physik (mit Experimenten)“
