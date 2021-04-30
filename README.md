@@ -188,7 +188,7 @@ wobei $x_0$ die Position des Körpers (Massepunkts) zum Zeitpunkt $t=0$ angibt. 
 
 ![Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung](grafik/V02_gleichfoermig.png "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung")
 
-##### (Gleichmäßig) beschleunigte geradlinige Bewegung
+##### Beschleunigte geradlinige Bewegung
 
 Bewegungen, bei denen die Geschwindigkeit nicht konstant ist, werden als beschleunigt bezeichnet. Das Weg-Zeit-Gesetz ist dabei keine Gerade, d.h., in gleichen Zeitintervallen $\Delta t$ werden zu unterschiedlichen Zeitpunkten verschiedene Wege $\Delta x$ zurückgelegt. Zudem hängt die Bestimmung der Durchschnittsgeschwindigkeit von der Länge des betrachteten Zeitintervalls ab. Zur Bestimmung einer exakten Momentangeschwindigkeit muss daher das betrachtete Zeitintervall infintesimal klein gewählt werden. Mathematisch entspricht dies der Ableitung des Orts-Zeit-Gesetzes nach der Zeit:
 
@@ -390,7 +390,7 @@ Mit Hilfe der Newtonschen Axiome lassen sich nun (beliebige) Bewegungsprobleme l
 
     $$\vec{a}= \frac{\vec{F}_{ges}}{m}$$
 
-4.  Zeitliche Integration liefert das Geschwindigkeits-Zeit-Gesetz $\vec{v}(t)$ (siehe oben: [beschleunigte Bewegungen](#gleichmäßig-beschleunigte-geradlinige-bewegung)).
+4.  Zeitliche Integration liefert das Geschwindigkeits-Zeit-Gesetz $\vec{v}(t)$ (siehe oben: [beschleunigte Bewegungen](#beschleunigte-geradlinige-bewegung)).
 
 5.  Nochmalige zeitliche Integration ergibt das Orts-Zeit-Gesetz $\vec{r}(t)$.
 
@@ -456,3 +456,188 @@ Diese Feststellung kann für Systeme mit mehr als zwei Massepunkten verallgemein
 > In einem abgeschlossenen System ist der Gesamtimpuls eine Erhaltungsgröße, d.h. er bleibt zeitlich konstant.
 
 Anhand dieses Erhaltungssatzes lassen sich viele Bewegungsprobleme vergleichsweise einfach bearbeiten. Wir werden dies in einem späteren Kapitel im Zusammenspiel mit einem weiteren Erhaltungssatz praktizieren.
+
+#### Kräfte
+
+Während wir in den vorangegangenen Abschnitten stets eine Kraftwirkung vorausgesetzt haben, ohne die Ursache dieser Kraft zu betrachten, sollen im Folgenden einige grundlegende Kräfte, die uns aus unserer Anschauung bereits bekannt sind, in Formeln gefasst werden.
+
+##### Die Gewichtskraft
+
+Bereits in der Kinematik hatten wir festgestellt, dass ein fallender Körper – unabhängig von seiner Masse $m$ – die Beschleunigung $\vec{g}$ erfährt. Gemäß dem zweiten Newtonschen Axiom ist hierfür eine beschleunigende Kraft
+
+$$\vec{F}_G = m \vec{g}$$
+
+erforderlich. Diese wird als Gewichtskraft bezeichnet und wirkt selbstverständlich nicht nur auf fallende Körper, sondern jederzeit auf jeden Körper. Damit ein Körper nicht fällt, muss eine gleich große Gegenkraft aufgebracht werden. Da die Fallbeschleunigung in der Nähe der Erdoberfläche räumlich (annähernd) konstant ist, gilt dies auch für die Gewichtskraft.
+
+Vorsicht ist geboten bei der physikalisch korrekten Benennung von Masse und Gewicht. Die Gewichtskraft (oder Gewicht) ist eine Kraft, die neben der Masse auch von der jeweiligen Fallbeschleunigung abhängt. So wäre beispielsweise auf dem Mond, dessen Fallbeschleunigung nur etwa 16 % des Wertes auf der Erdoberfläche beträgt, die Masse eben dieselbe wie auf der Erde. Hingegen würde sich das Gewicht auf ca. 16 % reduzieren.
+
+##### Die Komponenten der Gewichtskraft - Hangabtriebskraft und Normalkraft
+
+Auf der Erdoberfläche wirkt die Gewichtskraft stets senkrecht nach unten. Bei einer geneigten Unterlage kann die Gewichtskraft gemäß dem Superpositionsprinzip in zwei Teilkräfte zerlegt werden, die parallel beziehungsweise senkrecht zur Unterlage orientiert sind (siehe Abbildung). Die Parallelkomponente heißt Hangabtriebskraft $\vec{F}_H$, die senkrechte Komponente heißt Normalkraft $\vec{F}_N$. Ist die Unterlage um den Winkel $\alpha$ gegen die Horizontale geneigt, so gilt für die Beträge dieser beiden Kräfte:
+
+$$\begin{aligned}F_H & = F_G \cdot \sin{\alpha} = m g \sin{\alpha} \\
+F_N & = F_G \cdot \cos{\alpha} = m g \cos{\alpha}\end{aligned}$$
+
+![Kräfteparallelogramm eines Körpers auf einer geneigten Unterlage mit Gewichtskraft, Normalkraft und Hangabtriebskraft](grafik/V04_FH.jpg "Schematische Darstellung der Zerlegung der Gewichtskraft $\vec F_\mathrm G$ in ihre Komponenten Hangabtriebskraft $\vec F_\mathrm H$ und Normalkraft $\vec F_\mathrm N$.")<!-- style ="width: 7cm;" -->
+
+##### Die Gravitationskraft
+
+Gravitation ist die Anziehung zwischen Körpern (Massepunkten) aufgrund ihrer Masse. Befindet sich eine Masse $M$ im Koordinatenursprung, so erfährt eine zweite Masse $m$ an einem (beliebigen) Ort $\vec{r}$ die Kraft
+
+$$\vec{F}_{Grav} = -\Gamma\frac{mM}{r^2}\cdot \vec{e}_r$$
+
+wobei $r=|\vec{r}|$ den Betrag des Ortsvektors bezeichnet. Die Gravitationskonstante $\Gamma$ hat den Wert (siehe [CODATA2018](https://physics.nist.gov/cgi-bin/cuu/Value?bg))
+
+$$\Gamma = 6{,}674\cdot 10^{-11}~\frac{\mathrm m^3}{\mathrm {kg\cdot s^2}} \, .$$
+
+Der Ausdruck $\vec{e}_r$ bezeichnet einen Einheitsvektor (d.h. seine Länge ist 1) in Richtung $\vec{r}$ und gibt damit die Richtung dieser Kraft an: Sie wirkt stets entlang des Ortsvektors zum Koordinatenursprung hin, an dem sich die Masse $M$ befindet. Damit ist die Gravitation eine Zentralkraft.
+
+Auf der Erdoberfläche spüren wir die Gravitation als Gewichtskraft. Es gilt also:
+
+$$\begin{aligned}
+F_G & = F_{Grav}(r=r_{Erde}) \\
+mg & = \Gamma\frac{mM_{Erde}}{r^2_{Erde}} \, .\end{aligned}$$
+
+Damit folgt für die Fallbeschleunigung
+
+$$g = \Gamma\frac{M_{Erde}}{r^2_{Erde}} \, .$$
+
+##### Die Federkraft
+
+Die Dehnung oder Stauchung einer (linearen) Feder um eine Auslenkung $\vec{x}$ erfordert eine Kraft, die proportional zu dieser Auslenkung ist:
+
+$$\vec{F} = k\vec{x}$$
+
+Dieser Zusammenhang wird auch als lineares Kraftgesetz oder [Hooke]{.smallcaps}sches Gesetz einer Feder bezeichnet. Selbstverständlich wird dabei davon ausgegangen, dass die Kraft entlang der Federachse angreift. Der Proportionalitätsfaktor $k$ heißt Federkonstante und wird in der Einheit $[k]=1~\frac{\mathrm N}{\mathrm m}$ angegeben. Er gibt die „Härte“ der Feder an. „Weiche“ Federn besitzen eine kleine Federkonstante, d.h. für eine Verformung um eine gewisse Strecke ist entsprechend wenig Kraft aufzubringen.
+
+Die Feder ihrerseits setzt dieser Verformung eine Kraft entgegen, die – gemäß dem dritten Newtonschen Axiom – der äußeren Kraft entgegengesetzt, aber gleich groß ist:
+
+$$\vec{F}_F = -k\vec{x} \, .$$
+
+Diese Kraft wird als Federkraft bezeichnet.
+
+##### Reibungskräfte
+
+Reale Bewegungsvorgänge unterliegen stets Einflüssen, die die Bewegung hemmen, d.h. ihre Geschwindigkeit verringern. Solche Einflüsse werden als Reibung bezeichnet. Der Reibung können verschiedene Mechanismen zu Grunde liegen; dementsprechend existieren unterschiedliche Formeln, die die einzelnen Reibungsprozesse beschreiben. Bei der Berechnung von Reibungskräften ist also stets zu prüfen, welche Art Reibung vorliegt.
+
+Wir beschränken uns hier auf eine der grundlegenden Reibungsformen: die Festkörperreibung (auch trockene Reibung oder Coulomb-Reibung). Diese wirkt, wenn zwei feste Körper miteinander in Kontakt stehen und sich gegeneinander bewegen. Dies schließt also insbesondere den Fall ein, dass sich ein Körper auf einer festen Unterlage fortbewegt. Die dabei wirkende Reibungskraft $\vec{F}_R$ ist (annähernd) unabhängig von der Geschwindigkeit:
+
+$$F_R = \mu F_N$$
+
+$F_N$ ist dabei die oben eingeführte Normalkraft, also die Kraft, mit der der Körper auf seine Unterlage wirkt. Der Proportionalitätsfaktor $\mu$ wird als Reibungskoeffizient bezeichnet und hängt von der Materialkombination von Körper und Unterlage ab. In der Regel ist $\mu<1$.
+
+Bewegt sich der Körper auf seiner Unterlage, so spricht man von Gleitreibung, und der Koeffizient wird genauer als Gleitreibungskoeffizient $\mu_\mathrm{Gleit}$ bezeichnet. Befindet sich der Körper auf seiner Unterlage in Ruhe, so wirkt eine größere Reibungskraft, die als Haftreibung bezeichnet wird. Der entsprechende Koeffizient heißt dann Haftreibungskoeffizient $\mu_\mathrm{Haft}$. Es gilt:
+
+$$\mu_{Haft}>\mu_{Gleit}$$
+
+Um einen Körper auf seiner Unterlage in Bewegung zu setzen, ist also eine größere Kraft erforderlich als für die anschließende Erhaltung dieser Bewegung.
+
+Bisher wurden nur die Beträge der Reibungskräfte beschrieben. Ihre Richtung ist stets so, dass sie die Bewegung hemmen. D.h., die Gleitreibung ist der momentanen Geschwindigkeit entgegengerichtet. Die Haftreibung ist der beschleunigenden Kraft entgegengesetzt.
+
+##### Die goldene Regel der Mechanik
+
+Es existieren verschiedene Vorrichtungen, die eine auf sie einwirkende Kraft sowohl in ihrer Richtung als auch in ihrem Betrag verändern können. Solche kraftumformende Einrichtungen haben große Bedeutung in der Technik. Zu ihren wichtigsten Vertretern gehören unter anderem Hebel und Flaschenzug.
+
+Wird ein Körper mit der Gewichtskraft $F_G$ an einem Flaschenzug mit insgesamt 4 Rollen aufgehängt, so ist an der Gegenseite des Flaschenzuges nur noch ein Viertel dieser Gewichtskraft erforderlich, um den Körper zu halten. Um den Körper hingegen um eine gewisse Höhe $h$ anzuheben, muss an der Gegenseite nun (mit der reduzierten Kraft) das Seil um das Vierfache dieser Höhe gezogen werden. Analoge Zusammenhänge gelten auch für alle weiteren kraftumformenden Einrichtungen. Dies führt zur sogenannten „goldenen Regel der Mechanik“:
+
+> Was man an Kraft spart, muss man an Weg zusetzen.
+
+Anders ausgedrückt: das Produkt aus Kraft und Weg bleibt an einer kraftumformenden Einrichtung stets dasselbe. Größen, die unter bestimmten Umständen konstant bleiben, sind stets von großer Bedeutung für die Beschreibung von Naturvorgängen. Daher führen wir das Produkt aus Kraft und Weg als eigenständige Größe – die Arbeit $W$ – ein.
+
+#### Die Arbeit
+
+Wird ein Körper unter dem Einfluss einer Kraft $\vec{F}$ um das Wegelement $\mathrm d\vec{s}$ verschoben, so wird an ihm die **Arbeit**
+
+$$\mathrm dW = \vec{F}\cdot \mathrm d\vec{s}$$
+
+verrichtet. Aus dieser Definition der Arbeit ergibt sich auch deren Einheit:
+
+$$[W] = 1~\mathrm{Nm} = 1~\mathrm J \qquad \textrm{(Joule).}$$
+
+Die obige Definition der Arbeit enthält ein Skalarprodukt aus der angreifenden Kraft und dem (gerichteten) Wegelement, um das der Körper verschoben wird. Physikalisch bedeutet dies, dass nur Kräfte bzw. Kraftkomponenten, die in Wegrichtung angreifen, auch Arbeit verrichten. Kräfte oder Kraftkomponenten, die senkrecht zum Weg angreifen, verrichten keine Arbeit. Kräfte, die schräg zum Weg angreifen, müssen entsprechend dem Superpositionsprinzip in ihre Komponenten in Wegrichtung bzw. senkrecht dazu zerlegt werden. Nur die erstere verrichtet dabei Arbeit. Wir werden im Laufe dieses Kurses noch Kräfte kennen lernen, die stets senkrecht zum momentanen Wegelement angreifen und daher niemals Arbeit verrichten.
+
+Die differentielle Schreibweise in der obigen Formel berücksichtigt den allgemeinen Fall, dass sich die Kraft entlang des Weges ändert (dies ist beispielsweise beim Spannen einer Feder der Fall, siehe unten). Die gesamte zu verrichtende Arbeit ergibt sich durch Integration entlang des Verschiebewegs:
+
+$$W = \int\limits_{\vec{r}_1}^{\vec{r}_2}\vec{F}\cdot \mathrm d \vec{s} \, .$$
+
+Sofern die Kraft über den gesamten Verschiebeweg konstant ist und stets in Wegrichtung wirkt, vereinfacht sich dieser Ausdruck zu
+
+$$W = F\cdot s \, ,$$
+
+wobei $s$ für die Länge des gesamten Verschiebewegs steht.
+
+Um die Bedeutung dieser physikalischen Größe besser zu verstehen, wollen wir anhand der uns bekannten Kräfte einige Arten der Arbeit betrachten.
+
+##### Die Beschleunigungsarbeit
+
+Ein Körper der Masse m soll aus dem Stand auf eine Geschwindigkeit $v$ beschleunigt werden. Dies geschehe mit einer konstanten Beschleunigung $a$ auf einem Weg der Länge $s$. Da die Wahl von $a$ und $s$ willkürlich ist, sollen diese beiden Größen in der endgültigen Formel eliminiert werden. Wir gehen ferner davon aus, dass die zur Beschleunigung erforderliche Kraft $\vec{F}$ konstant ist und stets parallel zur Bewegungsrichtung angreift. Wir können daher die vereinfachte Formel für die Arbeit ansetzen:
+
+$$W = F\cdot s \, .$$
+
+In diese setzen wir für die Kraft das Newtonsche Grundgesetz ein:
+
+$$W = m a\cdot s$$
+
+Für die Beschleunigung erhalten wir aus dem Weg-Zeit-Gesetz der gleichmäßig beschleunigten Bewegung:
+
+$$s = \frac{a}{2}t^2 \quad \Rightarrow \quad a = \frac{2s}{t^2} \, .$$
+
+Für die in dieser Formel auftretende Zeit formen wir das Geschwindigkeits-Zeit-Gesetz um:
+
+$$v= at \quad \Rightarrow \quad t= \frac{v}{a}$$
+
+Dies setzen wir in die Formel für die Beschleunigung ein und erhalten:
+
+$$a= \frac{2s}{t^2} = \frac{2sa^2}{v^2} \quad \Rightarrow \quad \frac{2sa}{v^2} = 1 \quad \Rightarrow \quad a = \frac{v^2}{2s} \, .$$
+
+Wird dieser Ausdruck in die Formel für die Arbeit eingesetzt, so folgt:
+
+$$W = ma \cdot s = m \frac{v^2}{2s} \cdot s = \frac{1}{2} mv^2 \, .$$
+
+Damit haben wir die zum Erreichen einer Geschwindigkeit $v$ (aus dem Stand) erforderliche Arbeit:
+
+$$W_\mathrm{Beschl}= \frac{m}{2}v^2 \, .$$
+
+##### Die Hubarbeit
+
+Ein Körper der Masse $m$ soll um eine Höhe $\Delta h$ angehoben werden. Die Kraft, die hierfür aufzubringen ist, entspricht der Gewichtskraft dieses Körpers[^1]:
+
+$$F=mg=\mathrm{const} \, .$$
+
+Wir gehen weiterhin davon aus, dass der Körper senkrecht gehoben wird, also $\vec{F} \, || \, \mathrm d\vec{s}$. Damit ergibt sich für die Hubarbeit:
+
+$$W = F \cdot s = F \cdot \Delta h = mg\Delta h \, .$$
+
+[^1]: Tatsächlich wird im ersten Moment des Anhebens der Körper zusätzlich beschleunigt, d.h. es wirkt eine größere Kraft. Im Gegenzug wirkt eine geringere Kraft, wenn der Körper bei Erreichen der neuen Höhe abgebremst wird. Diese Beiträge von zusätzlicher und verringerter Kraft kompensieren sich jedoch gegenseitig, sodass der Ansatz der (konstanten) Gewichtskraft korrekt ist.
+
+##### Die Federspannarbeit
+
+Eine Feder mit der Federkonstante $k$ soll um eine Auslenkung $x_\mathrm{max}$ gedehnt werden. Hierfür muss die Kraft $\vec{F}= k\vec{x}$ aufgewendet werden. Diese Kraft hängt selbst von der momentanen Auslenkung ab und ändert sich also im Verlauf der Dehnung. In diesem Fall muss also tatsächlich das Integral zur Berechnung der Arbeit ausgewertet werden. Wir gehen jedoch auch hier davon aus, dass die Kraft stets in Wegrichtung (d.h. entlang der Federachse) angreift, sodass $\vec F\cdot \mathrm d\vec x = F\mathrm dx$ gesetzt werden kann. Dann gilt:
+
+$$W = \int \limits_0^{x_\mathrm{max}} F \mathrm dx=
+    \int \limits_0^{x_\mathrm{max}} kx\mathrm dx= \frac{1}{2}kx^2_\mathrm{max} \, .$$
+
+##### Reibungsarbeit
+
+Wie wir oben festgestellt haben, wirken bei der Bewegung eines Körpers stets Reibungskräfte, die diese Bewegung hemmen, d.h. die Geschwindigkeit verringern. Damit sich ein Körper auch unter dem Einfluss von Reibung mit unveränderter Geschwindigkeit bewegt, muss ständig eine Kraft auf diesen Körper wirken, die den Effekt der Reibung kompensiert. Zur Aufrechterhaltung der Bewegung muss also Arbeit gegen die Reibung verrichtet werden.
+
+Damit ein Körper mit unveränderter Geschwindigkeit eine gewisse Wegstrecke $s$ gleitet, muss die Gleitreibung kompensiert werden. Dabei wird die Arbeit
+
+$$W = Fs = \mu_G F_N s$$
+verrichtet.
+
+#### Die Leistung
+
+Wir haben nun verschiedene Arten der Arbeit kennen gelernt. In vielen Situationen ist es darüber hinaus von Interesse, in welcher Zeit eine bestimmte Arbeit verrichtet wird. So ist beispielsweise bei Sportwagen die Zeitdauer für die Beschleunigungsarbeit von $0~\frac{\mathrm{km}}{\mathrm h}$ auf $100~\frac{\mathrm{km}}{\mathrm h}$ ein wichtiges Merkmal. Wir führen daher eine weitere Größe ein, die die Zeitdauer erfasst, in der eine bestimmte Arbeit verrichtet wird. Dazu teilen wir die verrichtete Arbeit durch die dafür benötigte Zeit und erhalten so die **Leistung** $P$ :
+
+$$P= \frac{W}{\Delta t} \qquad \textrm{Einheit: } [P]=1~\frac{\mathrm J}{\mathrm s}= 1~\mathrm W \quad \textrm{(Watt).}$$
+
+Genau genommen, handelt es sich hierbei um eine mittlere Leistung über den (makroskopischen) Zeitraum $\Delta t$. Durch den Übergang zu infinitesimal kleinen Zeitintervallen erhält man die momentane Leistung:
+
+$$P=\frac{\mathrm dW}{\mathrm dt} \, .$$
+
+Die Leistung ist als physikalische Größe nicht auf die Mechanik beschränkt und wird uns auch in späteren Kapiteln wieder begegnen (unter anderem als elektrische Leistung). Speziell für die Mechanik lässt sich eine weitere, äquivalente Formel für die Leistung angeben, die aus der obigen Definition der momentanen Leistung folgt:
+
+$$P= \frac{\mathrm dW}{\mathrm dt}= \frac{\vec{F}\cdot \mathrm d \vec{s}}{\mathrm dt}= \vec{F}\cdot \frac{\mathrm d\vec{s}}{\mathrm dt}= \vec{F} \cdot \vec{v} \, .$$
+
+Mechanische Leistung ist also das Produkt aus Kraft und Geschwindigkeit. Setzt man in diese Formel die Momentangeschwindigkeit ein, so erhält man die momentane Leistung. Entsprechend ergibt sich bei einer Durchschnittsgeschwindigkeit die mittlere Leistung. Beide Formeln für die Leistung sind (in der Mechanik) gleichwertig. Für die Berechnung einer konkreten Fragestellung wird schlicht die zweckmäßigere Formel ausgewählt.
