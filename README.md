@@ -317,3 +317,142 @@ Mit dieser Vorgehensweise lassen sich Orts-Zeit-Gesetze und Bahnkurven für beli
 $$\vec v_0=\begin{pmatrix} v_0 \cdot \cos(\alpha) \\ v_0 \cdot \sin(\alpha) \end{pmatrix} \, .$$
 
 Im Ergebnis ergibt sich wiederum eine parabelförmige Bahnkurve, deren Scheitelpunkt nicht mehr mit dem Abwurfpunkt übereinstimmt, sondern von $h_0, v_0$ und $\alpha$ abhängt.
+
+### Dynamik
+
+Die Dynamik befasst sich mit der Ursache von Bewegungen, bzw. genauer ausgedrückt: mit der Ursache von Bewegungszustandsänderungen. Zunächst halten wir qualitativ folgende grundlegende Beobachtungen fest:
+
+-   Körper (bzw. Massepunkte) ändern ihren Bewegungszustand nicht spontan. Für eine Änderung des Bewegungszustandes ist stets eine Wechselwirkung des Körpers mit seiner Umgebung erforderlich.
+
+-   Die Größe der Bewegungszustandsänderung wird durch die Stärke dieser Wechselwirkung bestimmt.
+
+Wir schlussfolgern daraus, dass sich Körper einer Änderung ihres Bewegungszustandes widersetzen. Diese (qualitative) Eigenschaft wird als Trägheit bezeichnet. Um diese Erkenntnis auch quantitativ zu beschreiben, benötigen wir zunächst eine Größe, die den Bewegungszustand eines Körpers oder Massepunkts beschreibt. Des Weiteren müssen wir auch die Wechselwirkung des Körpers mit seiner Umgebung durch eine physikalische Größe quantitativ erfassen. Zur Beschreibung von Bewegungen kennen wir bereits die Geschwindigkeit als physikalische Größe. Wir ergänzen dies durch eine weitere mechanische Größe: den Impuls $\vec{p}$, der als das Produkt aus Masse und Geschwindigkeit definiert ist:
+
+$$\vec{p} = m \cdot \vec{v} \qquad \textrm {Einheit: } [\vec{p}\, ]= 1~\frac{\mathrm{kg\cdot m}}{\mathrm s}$$
+Die besondere Bedeutung dieser Größe wird später noch diskutiert werden. Wir betrachten sie zunächst als quantitativen Ausdruck eines Bewegungszustands. Der Impuls ist eine vektorielle Größe. Seine Richtung stimmt mit der Bewegungsrichtung überein.
+
+Die Wechselwirkung zwischen zwei Körpern beschreiben wir durch die Kraft:
+
+$$\textrm {Kraft: } \vec{F} \qquad \textrm {Einheit: }[\vec{F} ] = 1~\frac{\mathrm{kg\cdot m}}{\mathrm s^2}=1~\mathrm N \quad \textrm{(Newton)}$$
+Der Vektorcharakter der Kraft widerspiegelt, dass die Wechselwirkung zwischen Körpern stets gerichtet ist. Entsprechend gibt die Richtung des Kraftvektors die Richtung der Wechselwirkung an, während der Betrag $|\vec{F }|$ die Stärke der Wechselwirkung beschreibt. Ferner ist für Kräfte die vektorielle Addition anzuwenden, d.h. bei mehreren auf einen Körper wirkenden Kräften:
+
+$$\vec F_{ges} = \vec F_1+\vec F_1+\cdots$$
+
+Dies bedeutet auch, dass sich die einzelnen auf einen Körper wirkenden Kräfte überlagern, ohne sich gegenseitig zu beeinflussen. Wie schon bei der [Überlagerung von Bewegungen](#überlagerung-von-bewegungen-–-mehrdimensionale-bewegung) spricht man auch hier von *Superposition* der Kräfte. Umgekehrt lässt sich eine wirkende Kraft vektoriell in einzelne Komponenten zerlegen (siehe Abbildung).
+
+![Grafische Darstellung der vektoriellen Addition von Kräften (Kräfteparallelogramm)](grafik/V03_Kräfte.jpg)<!--
+style = "width: 5cm;"
+-->
+
+Mit diesen Definitionen von Impuls und Kraft können nun die anfänglichen, qualitativen Beobachtungen auch quantitativ ausgedrückt werden. Die entsprechenden Aussagen gehen auf Sir [Isaac Newton]{.smallcaps} (1643 -- 1727) zurück.
+
+#### Die Newton<!-- style ="font-variant: small-caps;" -->schen Axiome
+
+Als Axiom bezeichnet man in der Physik einen Grundsatz, der sich nicht aus anderen Gesetzmäßigkeiten ableiten lässt, dessen Gültigkeit jedoch durch experimentelle Beobachtungen bestätigt ist.
+
+Das **erste Newtonsche Axiom** behandelt die Trägheit eines Körpers:
+
+> Ohne äußere Krafteinwirkung ist der Impuls einer Punktmasse zeitlich konstant.
+
+Alternativ kann dieses sogenannte *Trägheitsprinzip* auch anhand der Geschwindigkeit (anstelle des Impulses) formuliert werden:
+
+> Ein Massepunkt verharrt im Zustand der Ruhe oder der gleichförmig geradlinigen Bewegung, solange keine Kraft auf ihn einwirkt.
+
+Das erste Newtonsche Axiom behandelt also den Fall, dass effektiv keine Kraftwirkung auf einen Massepunkt vorliegt. Das bedeutet nicht, dass gar keine Kräfte auf ihn wirken dürfen. Gemäß dem Superpositionsprinzip können sich mehrere auf einen Körper wirkende Kräfte gegenseitig kompensieren, sodass die Gesamtkraft null ist. Auch in diesem Fall ändert der Körper seinen Impuls nicht.
+
+In umgekehrter Lesart sagt das Trägheitsprinzip bereits aus, dass für eine Änderung des Bewegungszustands eines Massepunkts stets eine Kraft einwirken muss. Das **zweite Newtonsche Axiom** (auch *Aktionsprinzip* genannt) drückt den Zusammenhang zwischen Kraft und Impuls quantitativ aus:
+
+> Eine auf eine Punktmasse einwirkende Kraft bewirkt eine Änderung des Impulses dieser Punktmasse. Es gilt der Zusammenhang:
+
+> $$\vec{F} = \frac{\mathrm d\vec{p}}{\mathrm d t} \qquad \textrm {bzw. } \int\limits_{t_1}^{t_2} \vec{F} \mathrm dt = \Delta \vec{p}$$
+
+Das Integral $\int \vec{F} \mathrm dt$ wird auch als *Kraftstoß* bezeichnet und ist identisch mit der Änderung des Impulses. Eine Impulsänderung kann auf zweierlei Weise geschehen: durch Änderung der Geschwindigkeit oder durch Änderung der Masse:
+
+$$\frac{\mathrm d \vec{p}}{\mathrm dt}= \dot{\vec{p}}= m \cdot \dot{\vec{v}} + \dot{m} \cdot \vec{v}$$
+
+Diese Formulierung gilt also auch für Systeme mit veränderlicher Masse, wie sie beispielsweise in der Relativitätstheorie zu betrachten sind. In vielen Fällen bleibt die Masse eines Körpers jedoch konstant ($\dot{m}=0$), und es kann geschrieben werden:
+
+$$\frac{\mathrm d \vec{p}}{\mathrm dt}=\vec{F} = m \dot{\vec{v}} = m \vec{a}$$
+
+Dieser Ausdruck („Kraft ist Masse mal Beschleunigung“) ist die bekanntere – aber nicht allgemeingültige – Formulierung des zweiten Newtonschen Axioms und wird als Newtonsches Grundgesetz der Mechanik bezeichnet. Aus dieser Formel wird auch ersichtlich, welche Rolle die Masse für die Bewegung der Körper spielt: Bei gleicher Kraft wird ein Körper mit größerer Masse weniger stark beschleunigt werden. D.h., er widersetzt sich stärker der Änderung seines Bewegungszustands. Damit ist die Masse das quantitative Maß der Trägheit.
+
+Des Weiteren gilt das als *Reaktionsprinzip* bezeichnete **dritte Newtonsche Axiom**:
+
+> Stehen zwei Punktmassen nur miteinander, nicht aber mit anderen Punktmassen in Wechselwirkung, so ist die Kraft $\vec{F_1}$ auf die eine Punktmasse entgegengesetzt gleich der Kraft $\vec{F_2}$ auf die zweite Punktmasse: $\vec{F_1} = -\vec{F_2}$ („Actio = Reactio“)
+
+Mit Hilfe der Newtonschen Axiome lassen sich nun (beliebige) Bewegungsprobleme lösen, d.h. ausgehend von den auf einen Massepunkt wirkenden Kräften wird dessen Orts-Zeit-Gesetz berechnet. Das prinzipielle Vorgehen folgt diesen Schritten:
+
+1.  Ermittlung aller auf einen Massepunkt wirkenden Kräfte $\vec F_i$
+
+2.  Bestimmung der Gesamtkraft durch Vektoraddition aller Teilkräfte $\vec{F}_\mathrm{ges}= \sum_i \vec{F}_i$
+
+3.  Berechnung der Beschleunigung anhand des Newtonschen Grundgesetzes (Voraussetzung: Vorgang mit konstanter Masse):
+
+    $$\vec{a}= \frac{\vec{F}_{ges}}{m}$$
+
+4.  Zeitliche Integration liefert das Geschwindigkeits-Zeit-Gesetz $\vec{v}(t)$ (siehe oben: [beschleunigte Bewegungen](#gleichmäßig-beschleunigte-geradlinige-bewegung)).
+
+5.  Nochmalige zeitliche Integration ergibt das Orts-Zeit-Gesetz $\vec{r}(t)$.
+
+#### Systeme aus mehreren Punktmassen und ihr Impuls
+
+Bisher wurden einzelne Punktmassen betrachtet, auf die in irgendeiner Weise eine Kraft einwirkt. Die Herkunft dieser Kraft wurde noch nicht berücksichtigt. Wir haben jedoch bereits zu Beginn dieses Kapitels festgestellt, dass eine Kraft immer aus der Wechselwirkung mit anderen Körpern bzw. Massepunkten resultiert. Bezieht man diese mit in die Betrachtung ein, so erhält man ein System aus mehreren Punktmassen, die jeweils einen Impuls $\vec{p_i}$ besitzen:
+
+$$\vec{p_1}=m_1 \cdot \vec{v_1} \qquad \vec{p_2} = m_2 \cdot \vec{v_2} \qquad \textrm{usw.}$$
+
+Der Gesamtimpuls dieses Systems ergibt sich als vektorielle Summe aller Einzelimpulse:
+
+$$\vec{p}_{ges}=\sum_i \vec{p_i}$$
+
+Wir betrachten im Folgenden sogenannte abgeschlossene Systeme. D.h.:
+
+-   Es wirken keine Kräfte von außen ein. Die Massepunkte des Systems stehen nur miteinander in Wechselwirkung.
+-   Es können keine Massepunkte das System verlassen oder hinzukommen.
+
+Prinzipiell können beliebig viele Punktmassen zu einem solchen System gehören. Wir betrachten hier zunächst ein einfaches System aus zwei Massepunkten in einer eindimensionalen Bewegung. Experimentell lässt sich dies realisieren durch zwei Wagen, die sich reibungsfrei auf einer Schiene bewegen können. Anfangs befinden sich beide Wagen in Ruhe. Für Einzel- und Gesamtimpuls gilt:
+
+$$p_1 = p_2 =0 \qquad p_{ges}=0$$
+
+Zwischen beiden Wagen befinde sich eine gespannte Feder, die plötzlich freigegeben wird und die Wagen auseinanderdrückt. Das bedeutet, dass die Wagen über die Feder miteinander wechselwirken. Das Experiment zeigt, dass die Wagen dabei – abhängig von ihrer Masse – unterschiedlich stark in entgegengesetzte Richtungen beschleunigt werden. Entsprechend unterscheiden sich ihre Endgeschwindigkeiten nach vollständiger Entspannung der Feder. Es gilt jedoch:
+
+$$m_1 v'_1 = -m_2 v'_2 \, .$$
+Das bedeutet
+
+$$p'_1 =-p'_2 \qquad \textrm{und } \qquad p'_{ges}= p'_1 +p'_2 =0 \, .$$
+
+Dabei geben gestrichene Größen den Zustand nach der Wechselwirkung an. Der Gesamtimpuls ändert sich bei dieser Wechselwirkung also nicht.
+
+Unter Betrachtung der Newtonschen Axiome lässt sich dieses experimentelle Ergebnis auch theoretisch begründen. Wir formulieren diese Begründung allgemein in vektorieller Schreibweise, d.h. ohne die Beschränkung auf eine eindimensionale Bewegung. Wenn zwei Massepunkte nur miteinander wechselwirken (die Feder im obigen Experiment „vermittelt“ lediglich diese Wechselwirkung), müssen zu jedem Zeitpunkt $t^*$ die auf die beiden Massepunkte wirkenden Kräfte entgegengesetzt gleich groß sein (drittes Newtonsches Axiom):
+
+$$\vec{F_1}(t^*) = - \vec{F_2}(t^*)$$
+
+Demzufolge müssen auch die Kraftstöße auf beide Massepunkte über beliebige Zeiträume stets entgegengesetzt gleich groß sein:
+
+$$\int\limits_{t_1}^{t_2} \vec{F_1} \mathrm dt = - \int\limits_{t_1}^{t_2} \vec{F_2} \mathrm dt$$
+
+Gemäß dem zweiten Newtonschen Axiom gilt für die Änderung der Impulse im Zeitraum $t_1 \to t_2$ :
+
+$$\Delta\vec{p_1}=\int\limits_{t_1}^{t_2} \vec{F_1} \mathrm dt \qquad \textrm{sowie} \qquad \Delta \vec{p_2} =\int\limits_{t_1}^{t_2} \vec{F_2} \mathrm dt$$
+und somit:
+
+$$\Delta \vec{p_1} = - \Delta \vec{p_2}$$
+
+Zum Zeitpunkt $t_1$ (im obigen Experiment war dies vor der Freigabe der Feder) gilt für den Gesamtimpuls:
+
+$$\vec{p}_{ges}(t_1) = \vec{p_1}(t_1) + \vec{p_2}(t_1)$$
+
+Zu einem beliebigen späteren Zeitpunkt $t_2$ (nicht nur nach vollständiger Entspannung der Feder) gilt:
+
+$$\begin{aligned}
+\vec{p}_{ges}(t_2) & = \vec{p_2}(t_2) + \vec{p_2}(t_2) \\
+& = \vec{p_1}(t_1) + \Delta\vec{p_1}+ \vec{p_2}(t_1) + \Delta\vec{p_2} \\
+& = \vec{p_1}(t_1) + \vec{p_2}(t_1) \\
+& =\vec{p}_{ges}(t_1)\end{aligned}$$
+
+Der Gesamtimpuls ist zu diesem Zeitpunkt also gleich dem Anfangs-Gesamtimpuls. Da dies für beliebige Zeitpunkte gilt, schlussfolgern wir, dass sich der Gesamtimpuls im Verlauf der Wechselwirkung nicht ändert.
+
+Diese Feststellung kann für Systeme mit mehr als zwei Massepunkten verallgemeinert werden. Solange keine äußeren Kräfte einwirken, treten Wechselwirkungen im System immer paarweise entgegengesetzt auf. Folglich existiert zu jeder Impulsänderung eines Massepunktes die entgegengesetzte Änderung eines anderen Massepunktes. Dies führt zum sogenannten **Impulserhaltungssatz**:
+
+> In einem abgeschlossenen System ist der Gesamtimpuls eine Erhaltungsgröße, d.h. er bleibt zeitlich konstant.
+
+Anhand dieses Erhaltungssatzes lassen sich viele Bewegungsprobleme vergleichsweise einfach bearbeiten. Wir werden dies in einem späteren Kapitel im Zusammenspiel mit einem weiteren Erhaltungssatz praktizieren.
