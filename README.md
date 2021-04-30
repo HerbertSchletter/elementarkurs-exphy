@@ -455,7 +455,7 @@ Diese Feststellung kann für Systeme mit mehr als zwei Massepunkten verallgemein
 
 > In einem abgeschlossenen System ist der Gesamtimpuls eine Erhaltungsgröße, d.h. er bleibt zeitlich konstant.
 
-Anhand dieses Erhaltungssatzes lassen sich viele Bewegungsprobleme vergleichsweise einfach bearbeiten. Wir werden dies in einem späteren Kapitel im Zusammenspiel mit einem weiteren Erhaltungssatz praktizieren.
+Anhand dieses Erhaltungssatzes lassen sich viele Bewegungsprobleme vergleichsweise einfach bearbeiten. Wir werden dies in einem [späteren Kapitel](#anwendungen-der-erhaltungssätze) im Zusammenspiel mit einem weiteren Erhaltungssatz praktizieren.
 
 #### Kräfte
 
@@ -641,3 +641,134 @@ Die Leistung ist als physikalische Größe nicht auf die Mechanik beschränkt un
 $$P= \frac{\mathrm dW}{\mathrm dt}= \frac{\vec{F}\cdot \mathrm d \vec{s}}{\mathrm dt}= \vec{F}\cdot \frac{\mathrm d\vec{s}}{\mathrm dt}= \vec{F} \cdot \vec{v} \, .$$
 
 Mechanische Leistung ist also das Produkt aus Kraft und Geschwindigkeit. Setzt man in diese Formel die Momentangeschwindigkeit ein, so erhält man die momentane Leistung. Entsprechend ergibt sich bei einer Durchschnittsgeschwindigkeit die mittlere Leistung. Beide Formeln für die Leistung sind (in der Mechanik) gleichwertig. Für die Berechnung einer konkreten Fragestellung wird schlicht die zweckmäßigere Formel ausgewählt.
+
+#### Die Energie
+
+Wenn an einem Körper Arbeit verrichtet wird, so ändert sich in irgendeiner Weise ein Zustand dieses Körpers (z.B. Bewegungszustand, Lage im Schwerefeld der Erde, Federspannung). Die dabei verrichtete Arbeit bleibt auf diese Weise im Körper gespeichert und kann von diesem genutzt werden, um seinerseits Arbeit zu verrichten. Diese „gespeicherte Arbeit“ wird als **Energie** bezeichnet. Sie ist die Fähigkeit eines Körpers, Arbeit zu verrichten. Abhängig vom „Zustand“, in dem die Energie im Körper gespeichert ist, unterscheidet man verschiedene Arten der Energie.
+
+##### Energieformen der Mechanik
+
+**Kinetische Energie** (oder Bewegungsenergie) ist die Energie, die ein Körper aufgrund seiner Geschwindigkeit besitzt. Sie ist gleich der Beschleunigungsarbeit, die erforderlich ist, um den Körper auf seine Geschwindigkeit zu beschleunigen:
+
+$$E_\mathrm{kin}=\frac{1}{2}mv^2 \, .$$
+
+Als **potentielle Energie** bezeichnet man Energie, die ein Körper auf Grund seiner Lage besitzt. Im Schwerefeld der Erde wird durch Hubarbeit die potentielle Energie verändert:
+
+$$\Delta E_{pot}= mg \Delta h \, .$$
+
+Der Nullpunkt der potentiellen Energie kann dabei willkürlich festgelegt werden (muss dann aber beibehalten werden!). Interessant sind lediglich Änderungen bzw. Differenzen der potentiellen Energie. Meist wird verkürzt geschrieben:
+
+$$E_\mathrm{pot} = mgh \, .$$
+
+Auch beim Spannen einer Feder muss Arbeit verrichtet werden, die dann als Energie in der Feder gespeichert ist. Diese Federenergie wird ebenfalls zur potentiellen Energie gezählt und ist gleich der zum Spannen erforderlichen Arbeit:
+
+$$E_\mathrm{pot,Feder}= \frac{1}{2} k x^2 \, ,$$
+
+wobei $x$ die Dehnung oder Stauchung der Feder aus dem entspannten Zustand angibt.
+
+##### Energieumwandlung
+
+Ein Körper, der sich in einer gewissen Höhe $h$ befindet, besitzt dort die entsprechende potentielle Energie $E_\mathrm{pot}=mgh$. Im freien Fall aus dieser Höhe verliert der Körper beständig potentielle Energie, da seine Höhe abnimmt. Gleichzeitig nimmt – aufgrund der beschleunigten Bewegung – seine kinetische Energie zu. Energetisch betrachtet wird also beim freien Fall die anfängliche potentielle Energie des Körpers für die Beschleunigungsarbeit aufgewendet und somit in kinetische Energie umgewandelt. Dabei gilt (als experimentelles Ergebnis):
+
+$$\Delta E_{pot} = -\Delta E_{kin} \, .$$
+
+Die mechanische Gesamtenergie des Körpers (Summe aus kinetischer und potentieller Energie) ändert sich dabei nicht.
+
+Dies gilt selbst dann noch, wenn der Körper nicht senkrecht fällt, sondern sich auf anderen (schrägen oder gekrümmten) Bahnen abwärts bewegt. Wenn alle diese Bahnen denselben Höhenunterschied bewältigen, so ist auch die Geschwindigkeit des Körpers am Ende identisch. Die Umwandlung von kinetischer und potentieller Energie geschieht unabhängig vom Weg und hängt lediglich von Anfangs- und Endpunkt ab.
+
+Energie und Reibung
+-------------------
+
+Was geschieht nun aber mit der Arbeit, die gegen die Reibungskraft verrichtet wurde? Bewegt sich ein Körper unter dem Einfluss der Reibung, ohne dass eine äußere Kraft die Reibung kompensiert, so muss der Körper selbst aus seinem Vorrat an kinetischer Energie diese Reibungsarbeit aufbringen. Dabei nimmt seine kinetische Energie ab, d.h. der Körper wird kontinuierlich langsamer und kommt schließlich zum Stillstand, wenn seine gesamte anfängliche Bewegungsenergie für die Reibungsarbeit aufgewendet wurde. In diesem Fall ändert sich – anders als im oben diskutierten Beispiel – die mechanische Gesamtenergie.
+
+Damit sich ein Körper trotz Reibung mit konstanter Geschwindigkeit bewegt, muss von außen Arbeit zur Kompensation der Reibung an ihm verrichtet werden. Diese Arbeit ändert nicht den Bewegungszustand des Körpers, erhöht also auch nicht dessen Energie.
+
+##### Der Energiesatz der Mechanik
+
+Die vorangegangene Betrachtung zeigt, dass mechanische Energie „verloren“ gehen kann. Tatsächlich existieren neben kinetischer und potentieller Energie weitere (nicht-mechanische) Energieformen wie elektrische Energie oder thermische Energie (Wärme). Auch die Reibung bewirkt eine Energieumwandlung: von kinetischer Energie in thermische Energie. Solche Prozesse, die mechanische Energie in andere Energieformen umwandeln, heißen *dissipative Prozesse* bzw. *dissipative Kräfte*. Dabei ist die Energieumwandlung nicht wegunabhängig. Den Gegensatz dazu bilden *konservative Kräfte* bzw. *konservative Prozesse*. Sie wandeln die mechanischen Energieformen nur ineinander um. Dabei ist (wie im Beispiel oben) die Umwandlung unabhängig vom Weg. Führt man diese Erkenntnisse – in verallgemeinerter Form – zusammen, so erhält man den Energiesatz der Mechanik:
+
+> Die verschiedenen Formen mechanischer Energie lassen sich ineinander und in andere Energieformen umwandeln. Wirken in einem System ausschließlich konservative Kräfte, so ist die gesamte mechanische Energie eine Erhaltungsgröße. Es gilt:
+>
+> $$E_\mathrm{ges}=E_\mathrm{pot} + E_\mathrm{kin} = \mathrm{const} \, .$$
+
+#### Anwendungen der Erhaltungssätze
+
+Wir kennen nun zwei elementare Erhaltungssätze der Mechanik: Impulssatz und Energiesatz. Ihre Anwendung bietet einen Ansatz zur Lösung zahlreicher mechanischer Probleme. Wir wollen dies an einigen Beispielen betrachten.
+
+{{1}}
+************************************************
+Beispiel 1: Pendel und Hemmungspendel
+=====================================
+
+Ein Fadenpendel der Masse $m$ wird in eine Höhe $h_1$ ausgelenkt (die Ruhelage des Pendels sei in der Höhe $h=0$). Von dort losgelassen bewegt sich das Pendel beschleunigt nach unten und erreicht bei Durchqueren der Ruhelage seine maximale Geschwindigkeit. Wenn die Reibung vernachlässigt werden kann, gilt der Energiesatz der Mechanik, und für die Maximalgeschwindigkeit folgt:
+
+$$mgh_1 = \frac{1}{2}mv^2_\mathrm{max} \quad  \Rightarrow \quad v_\mathrm{max} = \sqrt{2gh_1} \, .$$
+
+Auf der Gegenseite steigt der Pendelkörper nach oben. Dabei wird kinetische Energie in potentielle umgewandelt. Seine Maximalhöhe $h_2$ auf dieser Seite erreicht er, wenn diese Energieumwandlung vollständig ist. Also:
+
+$$mgh_2 = \frac{1}{2}mv^2_\mathrm{max} = mgh_1 \quad  \Rightarrow \quad  h_2 = h_1 \, .$$
+
+Der Pendelkörper erreicht also auf beiden Seiten dieselbe Höhe.
+
+Wird nun durch einen Anschlag die Fadenlänge des Pendels auf der zweiten Seite verkürzt (Hemmungspendel), so ändert sich zwar die Schwingungsdauer, nicht aber die erreichte Höhe des Pendelkörpers. Für die energetische Betrachtung gilt weiterhin die Gleichheit:
+
+$$mgh_2 = \frac{1}{2}mv^2_\mathrm{max} = mgh_1 \quad  \Rightarrow \quad  h_2 = h_1 \, .$$
+*******************************************
+
+{{2}}
+***********************************************
+Beispiel 2: Zentrale Stöße
+==========================
+
+Als Stoß bezeichnet man in der Physik eine (beliebige) Wechselwirkung zweier Körper, bei der Impuls übertragen wird. Da diese Wechselwirkung der beiden Stoßpartner ein abgeschlossenes System darstellt, kann der Impulssatz stets angewendet werden. Hingegen ist der Energiesatz nicht in jedem Fall anwendbar, da Stöße auch dissipative Vorgänge enthalten können, beispielsweise durch Entstehung von Wärme oder dauerhafte Verformung der Stoßpartner. Man unterscheidet daher zwischen elastischen Stößen, bei denen nur konservative Kräfte wirken und der Energiesatz der Mechanik anwendbar ist, und inelastischen Stößen, bei denen der Energiesatz der Mechanik nicht gilt. Ein Spezialfall der letzteren ist die gemeinsame Weiterbewegung beider Stoßpartner, die auch als (vollkommen) plastischer Stoß bezeichnet wird.
+
+Wir betrachten hier als einen konkreten Fall den elastischen Stoß zwischen zwei Körpern gleicher Masse ($m_1=m_2=m$), wobei Körper 2 vor dem Stoß in Ruhe sei ($v_2=0$). Gesucht sind die Geschwindigkeiten der beiden Körper nach dem Stoß, die wir – zur besseren Unterscheidung – mit $v'_1$ und $v'_2$ bezeichnen.
+
+Da es sich um einen elastischen Stoß handelt, können wir den Energiesatz anwenden. Die kinetische Energie vor dem Stoß (zu der nur Körper 1 beiträgt) muss gleich der kinetischen Gesamtenergie nach dem Stoß sein:
+
+$$\frac{1}{2}mv^2_1 + \frac{1}{2}mv^2_2 = \frac{1}{2}mv^2_1 = \frac{1}{2}mv'^2_1 + \frac{1}{2}mv'^2_2$$
+
+Daraus folgt für die Geschwindigkeiten:
+
+$$v_1^2=v'^2_1+v'^2_2 \, .$$
+
+Weiterhin gilt der Impulssatz:
+
+$$mv_1+mv_2=mv_1=mv'_1+mv'_2 \, .$$
+
+Umstellen dieser Gleichung nach $v'_1$ ergibt:
+
+$$v'_1=v_1-v'_2 \, .$$
+
+Dies wird in die obige Formel für die Geschwindigkeiten eingesetzt:
+
+$$v_1^2=(v_1-v'_2 )^2+v'^2_2=v_1^2-2v_1 v'_2+2v'^2_2 \, .$$
+
+Umstellen dieser Gleichung ergibt:
+
+$$0=v'_2 (v_1-v'_2 ) \, .$$
+
+Dies ist erfüllt, wenn gilt:
+
+$$v'_2=v_1 \, .$$
+
+Setzt man dies nun in die Formel für $v'_1$ ein, so folgt:
+
+$$v'_1=v_1-v'_2=v_1-v_1=0 \, .$$
+
+Die beiden Körper tauschen also ihre Geschwindigkeiten: Körper 1 kommt zur Ruhe, Körper 2 bewegt sich mit $v_1$ weiter.
+*********************************************************
+
+##### Zusammenfassung
+
+Wir kennen nun zwei grundsätzliche Herangehensweise zur Berechnung mechanischer Fragestellungen:
+
+-   Auswertung der auf einen Körper wirkenden Kräfte und Anwendung des 2. Newtonschen Axioms
+
+-   Betrachtung von Impuls- und Energiesatz
+
+Der Lösungsweg über das 2. Newtonsche Axiom erfordert die Kenntnis aller auf einen Körper (oder in einem System mehrerer Körper) wirkenden Kräfte in ihrer räumlichen und zeitlichen Abhängigkeit. Zudem ist er rechnerisch aufwändiger, da er die Integration der Bewegungsgesetze erfordert (Beschleunigung, Geschwindigkeit, Weg). Im Gegenzug liefert diese Herangehensweise die vollständigen Informationen über den Bewegungsablauf in Form des Geschwindigkeits-Zeit-Gesetzes und Orts-Zeit-Gesetzes.
+
+Der Ansatz über die Erhaltungssätze ist einerseits konzeptionell einfacher, da keine detaillierte Kenntnis der wirkenden Kräfte erforderlich ist. Zudem ist diese Herangehensweise auch rechnerisch einfacher, da keine Integration erforderlich ist. Allerdings liefert dieser Lösungsweg auch nicht den vollständigen Bewegungsablauf, sondern nur eine Aussage über einzelne Zustände, insbesondere Ausgangs- und Endzustand einer Wechselwirkung. Ferner sind die Erhaltungssätze nur unter bestimmten Voraussetzungen anwendbar: Der Impulssatz gilt nur in abgeschlossenen Systemen, der Energiesatz nur bei konservativen Prozessen.
+
+Welcher dieser Lösungswege im konkreten Fall zu wählen ist, hängt von der jeweiligen Problemstellung ab. Sind beide Ansätze anwendbar, wird zweckmäßigerweise der einfachere gewählt.
