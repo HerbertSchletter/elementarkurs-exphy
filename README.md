@@ -1060,7 +1060,7 @@ Kinetische Energie
 ==================
 - Translation: $E_\mathrm{trans}= \frac{1}{2}mv^2$
 - Rotation: $E_\mathrm{rot} = \frac{1}{2} J \omega^2$
-- Zusammenhang: $E_\mathrm{kin,gesamt} =$$E_\mathrm{trans} + E_\mathrm{rot}$
+- Zusammenhang: $E_\mathrm{kin,gesamt} =E_\mathrm{trans} + E_\mathrm{rot}$
 
 Impuls/ Drehimpuls
 ==================
