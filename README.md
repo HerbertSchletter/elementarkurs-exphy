@@ -772,3 +772,130 @@ Der Lösungsweg über das 2. Newtonsche Axiom erfordert die Kenntnis aller auf e
 Der Ansatz über die Erhaltungssätze ist einerseits konzeptionell einfacher, da keine detaillierte Kenntnis der wirkenden Kräfte erforderlich ist. Zudem ist diese Herangehensweise auch rechnerisch einfacher, da keine Integration erforderlich ist. Allerdings liefert dieser Lösungsweg auch nicht den vollständigen Bewegungsablauf, sondern nur eine Aussage über einzelne Zustände, insbesondere Ausgangs- und Endzustand einer Wechselwirkung. Ferner sind die Erhaltungssätze nur unter bestimmten Voraussetzungen anwendbar: Der Impulssatz gilt nur in abgeschlossenen Systemen, der Energiesatz nur bei konservativen Prozessen.
 
 Welcher dieser Lösungswege im konkreten Fall zu wählen ist, hängt von der jeweiligen Problemstellung ab. Sind beide Ansätze anwendbar, wird zweckmäßigerweise der einfachere gewählt.
+
+### Rotation — Dreh- und Kreisbewegung
+
+Die Rotation ist eine Sonderform der zweidimensionalen Bewegung, für die eigenständige Größen und Gesetzmäßigkeiten definiert werden. Diese zusätzlichen Größen vereinfachen einerseits die Berechnungen zur Rotation, andererseits ermöglichen sie eine anschaulichere Beschreibung, da sie die speziellen Eigenschaften der Rotation widerspiegeln.
+
+Zur Rotation zählen sowohl die Bewegung eines Massepunktes auf einer Kreisbahn mit festem Radius $r$ (Kreisbewegung) als auch die Eigenrotation eines ausgedehnten Körpers um seine „Körperachse“ (Drehbewegung). Letztere lässt sich nicht im Modell der Punktmasse beschreiben. Hierfür wird das Modell des starren Körpers eingeführt. Dieser stellt eine unveränderliche (insbesondere unverformbare) Masseverteilung dar.
+
+Bewegt sich ein Massepunkt auf einer Kreisbahn, so ändert sich permanent die Richtung seiner Geschwindigkeit, da diese tangential zur Kreisbahn orientiert ist. Damit ist die Kreisbewegung stets eine beschleunigte Bewegung, selbst wenn der Betrag der Geschwindigkeit konstant ist. Damit der Geschwindigkeitsvektor stets tangential zur Kreisbahn verläuft, muss diese permanente Beschleunigung radial zum Zentrum der Kreisbahn gerichtet sein. Daher wird sie als Zentripetalbeschleunigung $\vec{a}_z$ bezeichnet (siehe nachfolgende Abbildung).
+
+![Schematische Darstellung der Zentripetalbeschleunigung](grafik/V06_Zentripetalbeschl.jpg "Im Zeitraum $t_1 \rightarrow t_2$ ändert der Geschwindigkeitsvektor die Richtung von $v_1$ zu $v_2$. Dies entspricht einer zum Zentrum der Kreisbahn gerichteten Beschleunigung $a_\mathrm z$.")<!--
+style = "width: 7cm;"
+-->
+
+#### Drehwinkel und Winkelgeschwindigkeit
+
+Zur Beschreibung einer Kreisbewegung definieren wir ein kartesisches Koordinatensystem, wobei die Kreisbahn in der $(x,y)$-Ebene liegt (siehe Abbildung). Der Ursprung dieses Koordinatensystems entspricht der Drehachse, d.h. dem Zentrum der Kreisbahn. Die Drehachse selbst ist somit identisch mit der $z$-Achse des Koordinatensystems.
+
+![Kartesisches Koordinatensystem zur Beschreibung der Rotation.](grafik/V06_Koordinaten.jpg "Kartesisches Koordinatensystem mit einer Kreisbahn in der $(x,y)$-Ebene. Die Position des Massepunkts (rot) kann sowohl durch $(x,y)$-Koordinaten als auch anhand des Drehwinkels $\phi$ angegeben werden.")<!--
+style = "width: 6cm;"
+-->
+
+Neben diesen kartesischen Koordinatenachsen werden für die Kreisbewegung weitere wichtige Einheitsvektoren definiert (siehe folgende Abbildung): Die Richtung der Drehachse wird durch den axialen Einheitsvektor $\vec e_\mathrm{ax}$ repräsentiert. Weiterhin wird für jeden Punkt auf der Kreisbahn der radiale ($\vec e_\mathrm{rad}$) und der tangentiale Einheitsvektor ($\vec e_\mathrm{tang}$) definiert. Während der axiale Einheitsvektor konstant ist, ändern radialer und tangentialer Einheitsvektor eines Massepunktes bei der Kreisbewegung permanent ihre Richtung.
+
+![Darstellung von axialem, radialem und tangentialem Einheitsvektor an einer Kreisbahn.](grafik/V06_Rotation_Einheitsvektoren.png "Einheitsvektoren der Kreisbewegung: Der axiale Einheitsvektor gibt die Richtung der Drehachse an, der radiale Einheitsvektor zeigt von der Drehachse zum Massepunkt auf der Kreisbahn und der tangentiale Einheitsvektor liegt in der momentanen Position des Massepunkts an der Kreisbahn an. Diese drei Einheitsvektoren bilden ebenfalls ein Rechtssystem")<!--
+style = "width: 6cm;"
+-->
+
+Da der Ursprung des (kartesischen) Koordinatensystems im Zentrum der Kreisbahn liegt, ist folglich der Betrag des Ortsvektors $|\vec{r}|$ des betrachteten Massepunktes identisch mit dem (unveränderlichen) Radius der Kreisbahn $r$. Zur Ortsbestimmung $\vec{r}(t)$ des Massepunktes genügt dann eine skalare Angabe des aktuellen Drehwinkels $\phi(t)$ (bezogen auf die $x$-Achse, gemessen entgegen dem Uhrzeigersinn – siehe obere Abbildung). Zwischen den kartesischen Koordinaten und dem Drehwinkel bestehen die Zusammenhänge:
+
+$$\vec{r}(t) = \begin{pmatrix}
+x(t) \\ y(t) \end{pmatrix} = \begin{pmatrix}
+r \cdot \cos \phi(t) \\ r \cdot \sin \phi(t) \end{pmatrix} \, .$$
+
+Der in einer gewissen Zeitdauer zurückgelegte Weg $s$ entspricht einem Kreisbogen. Mit den Gesetzen der Geometrie gilt:
+
+$$\begin{aligned}
+& s = r (\phi_{Ende} - \phi_{Anfang}) \\
+\textrm{bzw.} \quad & s= r \cdot \Delta \phi \\
+\textrm{bzw.} \quad & \mathrm ds  = r \cdot \textrm{d} \phi \, .
+\end{aligned}$$
+
+Analog zur Geschwindigkeit der Translation (= geradlinige Bewegung) lässt sich auch für den Drehwinkel eine Änderungsrate angeben. Sie wird als Winkelgeschwindigkeit $\omega$ bezeichnet und ist definiert als:
+
+$$\omega = \frac{\textrm d \phi}{\textrm d t} \qquad \textrm{Einheit: } [\omega] = \mathrm s^{-1} \quad \textrm{(Winkelangabe im Bogenmaß).}$$
+
+Selbstverständlich ist auch die Rotation durch eine Bewegungsrichtung gekennzeichnet. Die Winkelgeschwindigkeit soll diese Richtung widerspiegeln – es muss sich also um eine vektorielle Größe $\vec{\omega}$ handeln. Dazu wird neben dem oben definierten Betrag auch eine Richtung festgelegt. Die Winkelgeschwindigkeit wird dabei als axialer Vektor definiert, d.h. ihre Richtung verläuft entlang der Drehachse. Damit steht der Winkelgeschwindigkeitsvektor senkrecht auf der Ebene der Kreisbahn. Für ihre Richtung gilt die Rechte-Hand-Regel: Zeigt der ausgestreckte Daumen der rechten Hand in Richtung des $\vec{\omega}$-Vektors, so zeigen die gekrümmten Finger dieser Hand die Drehrichtung des Massepunkts an (siehe Abb. [5](#Abb_Recht-Hand-Regel){reference-type="ref" reference="Abb_Recht-Hand-Regel"}).
+
+![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.png "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung.")<!-- style = "width: 7cm;" -->
+
+![Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/b/b9/Right-hand_screw_rule.svg "Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an. \[Quelle: [SVGguru](https://commons.wikimedia.org/wiki/User:SVGguru), [Right-hand screw rule](https://commons.wikimedia.org/wiki/File:Right-hand_screw_rule.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")<!-- style = "width: 7cm;" -->
+
+Mit den oben eingeführten Einheitsvektoren lässt sich die Winkelgeschwindigkeit folgendermaßen angeben:
+
+$$\vec\omega = \frac{\mathrm d \phi}{\mathrm d t}\cdot\vec e_\mathrm{ax} \, .$$
+
+Weiterhin kann natürlich auch für die Kreisbewegung eine (translatorische) Geschwindigkeit $\vec{v}$ als zeitliche Änderung des Ortsvektors $\vec{r}$ angegeben werden. Zur besseren Unterscheidung wird sie als Bahngeschwindigkeit bezeichnet. Für sie gilt in Komponentenschreibweise bei konstantem Bahnradius $r$:
+
+$$\begin{aligned}
+\vec{v} & = \frac{\mathrm{d}}{\mathrm dt}\vec{r} = \frac{\mathrm d}{\mathrm dt} \left[ r \cdot \begin{pmatrix} \cos \phi \\ \sin \phi \end{pmatrix} \right] \\
+& = r \cdot \frac{\mathrm{d}}{\mathrm dt} \begin{pmatrix} \cos \phi \\ \sin \phi \end{pmatrix} = r \cdot \begin{pmatrix} -\sin \phi \cdot \dot{\phi} \\ \cos \phi \cdot \dot{\phi} \end{pmatrix} \\
+& = r \cdot \dot{\phi} \cdot \begin{pmatrix}-\sin \phi (t) \\ \cos \phi (t)\end{pmatrix} \, .
+\end{aligned}$$
+
+Der letzte Klammerausdruck ist identisch mit dem Einheitsvektor $\vec e_\mathrm{tang}$. Ferner gilt $\dot{\phi}= \omega$. Damit erhält man:
+
+$$\vec{v}=\dot{\vec{r}} = r\omega \cdot  \vec{e}_{tang} \, .$$
+
+Der gleiche Ausdruck ergibt sich bei Bildung des Kreuzprodukts $\vec{\omega} \times \vec{r}$. Es gilt also (bei konstantem Bahnradius):
+
+$$\vec{v}= \dot{\vec{r}} =\vec{\omega} \times \vec{r} \, .$$
+
+Für den Betrag der Bahngeschwindigkeit folgt: $v=\omega r$. Ihre Richtung verläuft stets tangential zur Kreisbahn.
+
+#### Beschleunigung bei der Kreisbewegung
+
+Verläuft eine Rotation mit konstanter Winkelgeschwindigkeit, so spricht man von einer gleichförmigen Kreisbewegung. Wie oben bereits diskutiert, ändert sich auch in diesem Fall die Bahngeschwindigkeit. Es liegt also eine (Bahn-) Beschleunigung vor.
+
+Im allgemeinen Fall kann sich auch die Winkelgeschwindigkeit der Rotation ändern. In diesem Fall definiert man die Winkelbeschleunigung $\vec{\alpha}$ als zeitliche Änderung der Winkelgeschwindigkeit:
+
+$$\vec{\alpha} = \frac{\mathrm d \vec{\omega}}{\mathrm dt} \qquad \textrm{Einheit: } [\vec{\alpha}] = \mathrm s^{-2}$$
+
+Aus dieser Definition folgt, dass auch die Winkelbeschleunigung ein axialer Vektor ist:
+
+$$\vec\alpha=\alpha\cdot\vec e_\mathrm{ax} \, .$$
+
+Analog zur Translation lassen sich mit den Größen $\alpha, \omega$ und $\phi$ die Bewegungsgesetze der Rotation aufstellen. So gilt für die gleichmäßig beschleunigte Kreisbewegung:
+
+$$\begin{aligned}
+\alpha & = \textrm{const.} \\
+\omega(t) & = \alpha t + \omega_0 \\
+\phi (t) & = \frac{\alpha}{2} t^2 + \omega_0 t +\phi_0\end{aligned}$$
+
+Für die Bahnbeschleunigung als zeitliche Änderung der Bahngeschwindigkeit ergibt sich:
+
+$$\vec{a} = \dot{\vec{v}} = \frac{\mathrm d}{\mathrm d t } (\vec{\omega} \times \vec{r}) = \dot{\vec{\omega}} \times \vec{r} + \vec{\omega} \times \dot{\vec{r}}$$
+
+Die Bahnbeschleunigung enthält also zwei Komponenten. Für den ersten Ausdruck erhalten wir mit $\dot{\vec{\omega}}= \vec{\alpha}$:
+
+$$\dot{\vec{\omega}} \times \vec{r} = \vec{\alpha} \times  \vec{r}
+    =\alpha r\cdot\left(\vec e_\mathrm{ax}\times\vec e_\mathrm{rad}\right)
+    = \alpha r \cdot \vec{e}_{tang} \equiv \vec{a}_t \, .$$
+
+Dies ist die Tangentialkomponente der Bahnbeschleunigung, die eine Änderung des Betrages der Bahngeschwindigkeit verursacht. Sie tritt nur bei Vorliegen einer Winkelbeschleunigung auf.
+
+Für die zweite Komponente der Bahnbeschleunigung erhalten wir:
+
+$$\vec{\omega} \times \dot{\vec{r}} = \vec{\omega} \times (\vec{\omega} \times \vec{r}) \, .$$
+
+Für ein solches doppeltes Kreuzprodukt bietet die Mathematik die allgemeine Formel:
+
+$$\vec{a} \times (\vec{b} \times \vec{c}) = \vec{b} (\vec{a} \cdot \vec{c}) - \vec{c}(\vec{a} \cdot \vec{b}) \, .$$
+
+Angewendet auf obigen Ausdruck folgt:
+
+$$\vec{\omega} \times (\vec{\omega} \times \vec{r}) = \vec{\omega} (\vec{\omega} \cdot \vec{r}) - \vec{r}(\vec{\omega} \cdot \vec{\omega}) \, .$$
+
+Mit $\vec{\omega} \perp \vec{r}$ wird das Skalarprodukt $\vec{\omega} \cdot \vec{r}= 0$ und es gilt:
+
+$$\vec{\omega} \times\dot{\vec{r}} = -\omega^2 \vec{r} \equiv \vec{a}_r \, .$$
+
+Dies ist die Radialkomponente der Bahnbeschleunigung. Sie ist stets zum Koordinatenursprung gerichtet und somit identisch mit der eingangs bereits qualitativ hergeleiteten Zentripetalbeschleunigung $\vec{a}_\mathrm z$. Diese Komponente bewirkt eine permanente Richtungs-, jedoch keine Betragsänderung der Bahngeschwindigkeit. Für ihren Betrag gilt (mit $v=\omega r$):
+
+$$a_\mathrm r = \omega^2 r = \frac{v^2}{r} \, .$$
+
+Gemäß dem zweiten Newtonschen Axiom existiert zu jeder translatorischen Beschleunigung eine Kraft. Folglich muss auch zu den beiden Komponenten der Bahnbeschleunigung die zugehörige tangentiale und radiale Kraftkomponente vorliegen. Die tangentiale Kraftkomponente ändert den Betrag der Bahngeschwindigkeit und damit die kinetische Energie des Massepunkts. Sie verrichtet also Beschleunigungsarbeit, wie auch aus der Definition der Arbeit $\mathrm dW=\vec{F} \cdot \vec{\mathrm d s}$ mit $\vec{F} \, || \, \vec{\mathrm ds}$ beziehungsweise $\vec{F} \, || \, \vec{v}$ folgt.
+
+Die radiale Komponente der Kraft bewirkt lediglich eine Richtungsänderung der Bahngeschwindigkeit. Analog zur Zentripetalbeschleunigung heißt diese Kraft Zentripetalkraft $\vec{F}_\mathrm z$. Sie ändert nicht die kinetische Energie des Massepunktes, kann also keine Arbeit verrichten. Tatsächlich ergibt sich mit $\vec{F}_\mathrm z \perp \vec{\mathrm d s}$ für diese Kraft $\mathrm dW=\vec{F}_\mathrm z \cdot \vec{\mathrm ds}=0$.
