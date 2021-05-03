@@ -817,7 +817,7 @@ Analog zur Geschwindigkeit der Translation (= geradlinige Bewegung) lässt sich 
 
 $$\omega = \frac{\textrm d \phi}{\textrm d t} \qquad \textrm{Einheit: } [\omega] = \mathrm s^{-1} \quad \textrm{(Winkelangabe im Bogenmaß).}$$
 
-Selbstverständlich ist auch die Rotation durch eine Bewegungsrichtung gekennzeichnet. Die Winkelgeschwindigkeit soll diese Richtung widerspiegeln – es muss sich also um eine vektorielle Größe $\vec{\omega}$ handeln. Dazu wird neben dem oben definierten Betrag auch eine Richtung festgelegt. Die Winkelgeschwindigkeit wird dabei als axialer Vektor definiert, d.h. ihre Richtung verläuft entlang der Drehachse. Damit steht der Winkelgeschwindigkeitsvektor senkrecht auf der Ebene der Kreisbahn. Für ihre Richtung gilt die Rechte-Hand-Regel: Zeigt der ausgestreckte Daumen der rechten Hand in Richtung des $\vec{\omega}$-Vektors, so zeigen die gekrümmten Finger dieser Hand die Drehrichtung des Massepunkts an (siehe Abb. [5](#Abb_Recht-Hand-Regel){reference-type="ref" reference="Abb_Recht-Hand-Regel"}).
+Selbstverständlich ist auch die Rotation durch eine Bewegungsrichtung gekennzeichnet. Die Winkelgeschwindigkeit soll diese Richtung widerspiegeln – es muss sich also um eine vektorielle Größe $\vec{\omega}$ handeln. Dazu wird neben dem oben definierten Betrag auch eine Richtung festgelegt. Die Winkelgeschwindigkeit wird dabei als axialer Vektor definiert, d.h. ihre Richtung verläuft entlang der Drehachse. Damit steht der Winkelgeschwindigkeitsvektor senkrecht auf der Ebene der Kreisbahn. Für ihre Richtung gilt die Rechte-Hand-Regel: Zeigt der ausgestreckte Daumen der rechten Hand in Richtung des $\vec{\omega}$-Vektors, so zeigen die gekrümmten Finger dieser Hand die Drehrichtung des Massepunkts an (siehe Abbildung).
 
 ![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.png "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung.")<!-- style = "width: 7cm;" -->
 
@@ -899,3 +899,175 @@ $$a_\mathrm r = \omega^2 r = \frac{v^2}{r} \, .$$
 Gemäß dem zweiten Newtonschen Axiom existiert zu jeder translatorischen Beschleunigung eine Kraft. Folglich muss auch zu den beiden Komponenten der Bahnbeschleunigung die zugehörige tangentiale und radiale Kraftkomponente vorliegen. Die tangentiale Kraftkomponente ändert den Betrag der Bahngeschwindigkeit und damit die kinetische Energie des Massepunkts. Sie verrichtet also Beschleunigungsarbeit, wie auch aus der Definition der Arbeit $\mathrm dW=\vec{F} \cdot \vec{\mathrm d s}$ mit $\vec{F} \, || \, \vec{\mathrm ds}$ beziehungsweise $\vec{F} \, || \, \vec{v}$ folgt.
 
 Die radiale Komponente der Kraft bewirkt lediglich eine Richtungsänderung der Bahngeschwindigkeit. Analog zur Zentripetalbeschleunigung heißt diese Kraft Zentripetalkraft $\vec{F}_\mathrm z$. Sie ändert nicht die kinetische Energie des Massepunktes, kann also keine Arbeit verrichten. Tatsächlich ergibt sich mit $\vec{F}_\mathrm z \perp \vec{\mathrm d s}$ für diese Kraft $\mathrm dW=\vec{F}_\mathrm z \cdot \vec{\mathrm ds}=0$.
+
+#### Dynamik der Rotation
+
+Nachdem bisher Rotationsbewegungen nur beschrieben wurden, soll jetzt auch die Ursache dieser Bewegungen – d.h. genauer der Änderung eines Rotationsbewegungszustands – untersucht werden. Zu Beginn steht auch hier die Feststellung, dass ein rotierender Massepunkt oder Körper seinen Rotationszustand nur durch eine Wechselwirkung mit der Umgebung ändert. Zunächst muss also eine Größe gefunden werden, die die Stärke dieser Wechselwirkung ausdrückt. In der Translation wurde hierfür die Kraft eingeführt als Maß der Wechselwirkung zwischen Körpern. Für die Rotation hingegen reicht die Kraft zur Beschreibung der Wechselwirkungen nicht aus. Stattdessen ergeben sich folgende experimentelle Erkenntnisse:
+
+-   Nur tangential angreifende Kräfte ändern den Rotationszustand. Radial wirkende Kräfte haben keinen Einfluss darauf.
+
+-   Damit eine Kraft eine Rotationsänderung hervorruft, muss sie in einem endlichen Abstand von der Drehachse angreifen. Kräfte, die an der Drehachse angreifen, haben keinen Einfluss auf den Rotationszustand.
+
+-   Die Stärke der Wechselwirkung wächst mit dem Betrag der (tangential angreifenden) Kraft sowie mit zunehmendem Abstand von der Drehachse, in dem diese Kraft angreift.
+
+Diese Feststellungen führen zur Definition des **Drehmoments** $\vec{M}$:
+
+$$\vec{M} =\vec{r} \times \vec{F} \quad M= rF \cdot \sin \angle(\vec{r},\vec{F}) \quad \textrm{Einheit: } [\vec{M}] = 1~\mathrm{Nm} \, .$$
+
+Diese Definition enthält alle geforderten Eigenschaften der Wechselwirkung: Das Kreuzprodukt zwischen Radiusvektor und Kraft berücksichtigt nur tangentiale Kraftkomponenten, und der Betrag des Drehmoments widerspiegelt die gefundenen Abhängigkeiten von $r$ und $F$. Die Richtung des Drehmoments ist durch das Kreuzprodukt eindeutig festgelegt und zeigt entlang der Drehachse; es handelt sich also auch hier um einen axialen Vektor:
+
+$$\vec M = rF \cdot \sin \angle(\vec{r},\vec{F}) \cdot\vec e_\mathrm{ax} \, .$$
+
+Als Ausdruck des quantitativen Zusammenhangs zwischen Drehmoment und Rotationszustandsänderung wird eine Formel analog dem zweiten Newtonschen Axiom der Translation gesucht. Zur Bestimmung dieser Formel setzen wir das Newtonsche Grundgesetz in der Form $\vec{F}=m\vec{a}$ in die Definition des Drehmoments ein:
+
+$$\begin{aligned}
+\vec{M} & =\vec{r} \times \vec{F} = m \cdot \vec{r} \times \vec{a} \\
+& = m \cdot \vec{r} \times (\vec{a}_\mathrm t + \vec{a}_\mathrm r) \\
+& = m\vec{r} \times \vec{a}_\mathrm t + m\vec{r} \times \vec{a}_\mathrm r \, .
+\end{aligned}$$
+
+Der letzte Summand ist dabei null, da $\vec{r} \, || \, \vec{a}_\mathrm r$. Mit der Definition der Tangentialbeschleunigung (siehe oben) gilt weiterhin:
+
+$$\vec{M} = m\vec{r} \times \vec{a}_\mathrm t = m\vec{r} \times (\vec{\alpha} \times \vec{r})
+= m\vec{\alpha} r^2 - m \vec{r}(\vec{r} \cdot \vec{\alpha}) \, .$$
+
+Da $\vec{r} \perp \vec{\alpha}$ , gilt $\vec{r} \cdot \vec{\alpha} = 0$ und es folgt:
+
+$$\vec{M} = mr^2\vec{\alpha} \, .$$
+
+Diese Formel folgt dem gleichen Schema wie das Newtonsche Grundgesetz $\vec{F}=m \cdot \vec{a}$ („Wechselwirkung = Trägheit $\cdot$ Beschleunigung“), wenn der Ausdruck $mr^2$ als Maß für die Trägheit bei der Rotation aufgefasst werden kann. Tatsächlich bestätigen Experimente die Schlussfolgerung, dass für die Trägheit bezüglich der Rotation neben der Masse einer Punktmasse auch deren (quadratischer) Abstand von der Drehachse entscheidend ist. Basierend auf diesem experimentellen Ergebnis sowie auf der obigen theoretischen Herleitung definieren wir daher das **Trägheitsmoment** $J$:
+
+$$J = mr^2 \qquad \textrm{Einheit: } [J] = 1~\mathrm{kg\cdot m^2}$$
+
+Diese Formel gilt zunächst nur für eine Punktmasse. Ein ausgedehnter (starrer) Körper kann als ein Ensemble vieler infinitesimaler Punktmassen gedacht werden. Integration der Trägheitsmomente aller dieser Einzel-Punktmassen über das gesamte Körpervolumen liefert dann das Trägheitsmoment des Körpers. Für grundlegende Körperformen (Kugel, Zylinder usw.) sind die resultierenden Formeln in Nachschlagewerken zu finden.
+
+Damit kann das zweite Newtonsche Axiom der Rotation wie folgt geschrieben werden:
+
+$$\vec{M} = J\vec{\alpha} \, .$$
+
+Es ist anzumerken, dass diese Formel nur bei konstantem Trägheitsmoment gilt, d.h. sowohl Masse als auch Bahnradius der Rotation müssen konstant sein.
+
+#### Der Drehimpuls
+
+Für die Translation wurde der Impuls definiert nach dem Schema „Trägheit $\cdot$ Geschwindigkeit“. Wir können nach gleichem Schema eine analoge Größe für die Rotation definieren, indem wir das Trägheitsmoment $J$ als Maß für die Trägheit sowie die Winkelgeschwindigkeit verwenden. So erhalten wir den **Drehimpuls** $L$:
+
+$$\vec{L}= J\vec{\omega} \quad \textrm{Einheit: } [\vec{L}] = 1~\frac{\mathrm{kg\cdot m^2}}{\mathrm s}$$
+
+Tatsächlich zeigt das Experiment, dass der Drehimpuls für die Rotation die gleiche Bedeutung hat wie der Impuls für die Translation. So ist der Drehimpuls der quantitative Ausdruck eines Rotationsbewegungszustands. Damit kann das zweite Newtonsche Axiom in allgemeinerer Form ausgedrückt werden, die auch Änderungen des Trägheitsmoments zulässt:
+
+$$\vec{M}=\dot{\vec{L}} \qquad \textrm{bzw.} \qquad \int_{t_1}^{t_2} \vec{M} \mathrm dt = \Delta \vec{L} \, .$$
+
+Qualitativ ausgedrückt bedeutet diese Formel, dass durch das Einwirken eines Drehmoments der Drehimpuls eines Körpers oder Massepunkts verändert wird.
+
+Des Weiteren gilt auch für den Drehimpuls ein Erhaltungssatz innerhalb abgeschlossener Systeme. Zur bisherigen Definition eines abgeschlossenen Systems kommt nun jedoch die Forderung nach dem Fehlen äußerer Drehmomente hinzu. D.h. ein abgeschlossenes System liegt vor, wenn
+
+-   keine Teilchen das System verlassen oder betreten können,
+
+-   keine äußeren Kräfte einwirken und
+
+-   keine äußeren Drehmomente einwirken.
+
+Damit lautet der **Drehimpulserhaltungssatz**:
+
+> In einem abgeschlossenen System ist der (Gesamt-) Drehimpuls eine Erhaltungsgröße.
+
+Der Drehimpuls kann in Bezug auf den translatorischen Impuls $\vec{p}$ auch in folgender Form definiert werden:
+
+$$\vec{L}= \vec{r} \times \vec{p} \, .$$
+
+Beide Definitionen sind identisch, wie folgende Rechnung zeigt:
+
+$$\begin{aligned}
+\vec{r} \times \vec{p} & = m\vec{r} \times \vec{v} \\
+& = m\vec{r} \times (\vec{\omega} \times \vec{r})
+    = m[\vec{\omega}(\vec{r} \cdot \vec{r})- \vec{r}(\vec{r}\cdot \vec{\omega})] \\
+& = m\vec{\omega}(\vec{r}\cdot \vec{r}) = mr^2\vec{\omega} \\
+& = J\vec{\omega}
+\end{aligned}$$
+
+#### Energie der Rotation
+
+Bei der Behandlung der Translation hatten wir festgestellt, dass in der Bewegung eines Körpers Energie gespeichert ist (= kinetische Energie). Es stellt sich die Frage, ob gleiches auch für die Rotationsbewegung gilt. Um dies zu untersuchen betrachten wir folgendes Experiment: Ein Jo-Jo wird als Ganzes aus einer gewissen Höhe $h_0$ fallen gelassen. Es führt dabei einen freien Fall mit der Fallbeschleunigung $g$ aus. Energetisch betrachtet wird dabei potentielle Energie in kinetische umgewandelt. Für die Fallstrecke gilt der Zusammenhang:
+
+$$E^\mathrm{oben}_\mathrm{pot} = E^\mathrm{unten}_\mathrm{kin} \qquad \textrm{bzw.} \qquad mgh_0 = \frac{m}{2} v^2_\mathrm{unten} \, .$$
+
+Nun wird das Jo-Jo am Fadenende gehalten. Bei der Bewegung nach unten führt es keinen freien Fall aus, sondern rotiert so, dass der Faden abgewickelt wird. Dabei bewegt es sich signifikant langsamer nach unten als im freien Fall. Die kinetische Energie der Translation am Ende der Fallstrecke ist also kleiner als im obigen Fall. Der „fehlende“ Energiebetrag ist in der Rotationsbewegung gespeichert. Der allgemeine Zusammenhang
+
+$$E^\mathrm{oben}_\mathrm{pot} = E^\mathrm{unten}_\mathrm{kin}$$
+
+gilt dabei weiterhin. Die kinetische Energie setzt sich nun jedoch aus zwei Anteilen zusammen: der Translations- und der Rotationsenergie:
+
+$$E_\mathrm{kin} = E_\mathrm{trans} + E_\mathrm{rot} \, .$$
+
+In Analogie zur Translation und in Einklang mit experimentellen Ergebnissen definieren wir die Rotationsenergie:
+
+$$E_\mathrm{rot} = \frac{1}{2} J \omega^2 \, .$$
+
+Bei der Betrachtung der kinetischen Energie sind die jeweils vorliegenden Bewegungsformen (Translation / Rotation) zu unterscheiden. Bei einer reinen Translation eines Körpers besitzt dieser selbstverständlich nur Translationsenergie. Rotiert ein Körper um seine eigene Achse ohne sich als Ganzes fortzubewegen, so liegt eine reine Rotation vor und die gesamte kinetische Energie dieses Körpers ist als Rotationsenergie gespeichert. Eine Rollbewegung ist eine Überlagerung von Translation (Fortbewegung des Körpers als Ganzes) und Rotation (Drehung um die Körperachse). In diesem Fall teilt sich die kinetische Energie auf Translations- und Rotationsenergie auf. Das Verhältnis, in dem Translations- und Rotationsenergie zueinander stehen, wird bestimmt durch den Rollradius sowie die Massenverteilung bezüglich der Drehachse – eine große Masse in weiter Entfernung von der Drehachse erzeugt ein höheres Trägheitsmoment und demzufolge einen höheren Anteil Rotationsenergie $\frac{1}{2}$.
+
+#### Zusammenfassung
+
+Die folgende Übersicht stellt analoge Größen von Translation und Rotation einander gegenüber und nennt die Zusammenhänge zwischen diesen Größen.
+
+Position eines Massepunkts
+==========================
+- Translation: Ortsvektor $\vec r$ oder Weg $s$
+- Rotation: Winkel $\phi$
+- Zusammenhang: $\mathrm ds = r\cdot \mathrm d\phi$  
+
+  oder: $\Delta s = r\cdot \Delta\phi$
+
+Geschwindigkeit
+===============
+- Translation: $\vec v = \frac{\mathrm d\vec r}{\mathrm d t}$
+- Rotation: $|\vec{\omega}| = \frac{\mathrm d \phi}{\mathrm dt}$
+- Zusammenhang: $\vec{v} = \vec{\omega} \times \vec{r}$  
+
+  beziehungsweise: $v = \omega r$
+
+Beschleunigung
+==============
+- Translation: $\vec{a}= \frac{\mathrm d \vec{v}}{\mathrm dt} = \frac{\mathrm d^2 \vec{r}}{\mathrm dt^2}$
+- Rotation: $\vec{\alpha} = \frac{\mathrm d \vec{\omega}}{\mathrm dt}$
+- Zusammenhang: $\vec{a}_\mathrm t = \vec{\alpha} \times \vec{r}$  
+
+  und $\vec{a}_\mathrm z = - \omega^2 \vec{r}$
+
+Wechselwirkung
+==============
+- Translation: Kraft $\vec{F}$.
+- Rotation: Drehmoment $\vec{M}$.
+- Zusammenhang: $\vec{M}= \vec{r} \times \vec{F}$  
+
+  beziehungsweise: $M = rF$ wenn $\vec{r} \perp \vec{F}$
+
+Trägheit
+========
+- Translation: Masse $m$.
+- Rotation: Trägheitsmoment $J$.
+- Zusammenhang: $J = mr^2$ (Punktmasse)
+
+2. Newtonsches Axiom
+=====================
+- Translation: $\int_{t_1}^{t_2} \vec{F}\mathrm dt = \Delta \vec{p}$  
+
+  beziehungsweise: $\vec{F}=m\vec{a} \, \, (m=\textrm{const.})$
+- Rotation: $\int_{t_1}^{t_2} \vec{M}\mathrm dt = \Delta L$  
+
+  beziehungsweise: $\vec{M}=J\vec{\alpha} \,\,(J=\textrm{const.})$
+
+Kinetische Energie
+==================
+- Translation: $E_\mathrm{trans}= \frac{1}{2}mv^2$
+- Rotation: $E_\mathrm{rot} = \frac{1}{2} J \omega^2$
+- Zusammenhang: $E_\mathrm{kin,gesamt} =$$E_\mathrm{trans} + E_\mathrm{rot}$
+
+Impuls/ Drehimpuls
+==================
+- Translation: Impuls $\vec{p}= m\vec v$
+- Rotation: $\vec{L}=J \vec{\omega}$  
+
+  beziehungsweise: $L = J\omega$
+- Zusammenhang: $\vec{L}= \vec{r} \times \vec{p}$  
+
+  beziehungsweise: $L = rp$, wenn $\vec{r} \perp \vec{p}$
