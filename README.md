@@ -186,7 +186,7 @@ Setzt man den Beginn des betrachteten Zeitintervalls auf den Zeitpunkt $t=0$, so
 $$x(t) = vt+x_0 \, ,$$
 wobei $x_0$ die Position des Körpers (Massepunkts) zum Zeitpunkt $t=0$ angibt. Diese kann durch geeignete Wahl des Koordinatensystems häufig $x_0 = 0$ gesetzt werden.
 
-![Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung](grafik/V02_gleichfoermig.png "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung")
+![Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung](grafik/V02_gleichfoermig.svg "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung")
 
 ##### Beschleunigte geradlinige Bewegung
 
@@ -227,7 +227,7 @@ $$x(t)=\frac{1}{2} a t^2 + v_0 t + x_0$$
 
 Für ungleichmäßig beschleunigte Bewegungen ($a \neq \mathrm{const.}$) ist die Vorgehensweise prinzipiell gleich. Ausgehend vom zeitlichen Verlauf der Beschleunigung $a(t)$ erhält man durch ein- bzw. zweimalige Integration das Geschwindigkeits-Zeit-Gesetz und das Orts-Zeit-Gesetz. Die hergeleiteten Beziehungen für $x(t)$, $v(t)$ und $a(t)$ spiegeln sich auch in den grafischen Darstellungen des Orts-Zeit-Gesetzes, Geschwindigkeits-Zeit-Gesetzes und Beschleunigungs-Zeit-Gesetzes wider. Für die gleichmäßig beschleunigte Bewegung sind diese Diagramme in der nachfolgenden Abbildung dargestellt.
 
-![Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichmäßig beschleunigten geradlinigen Bewegung](grafik/V02_gleichm-beschl.png "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichmäßig beschleunigten geradlinigen Bewegung")
+![Diagramme für die gleichmäßig beschleunigte geradlinige Bewegung](grafik/V02_gleichm-beschl.svg "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichmäßig beschleunigten geradlinigen Bewegung")
 
 Ein Spezialfall der gleichmäßig beschleunigten Bewegung ist der freie Fall. Zu dessen Beschreibung definieren wir folgendes eindimensionale Koordinatensystem, wobei wir die Koordinate $x$ der Anschaulichkeit wegen durch die Höhe $h$ ersetzen (siehe Abbildung):
 
@@ -235,7 +235,9 @@ Ein Spezialfall der gleichmäßig beschleunigten Bewegung ist der freie Fall. Zu
 -   Der Nullpunkt der $h$-Achse entspricht dem Startpunkt
     der Bewegung, d.h. $h_0=0$.
 
-![Darstellung des Koordinatensystems, das zur Beschreibung des freien Falls benutzt wird.](grafik/V02_KOOS1.jpg "Darstellung des Koordinatensystems, das zur Beschreibung des freien Falls benutzt wird.")
+![Darstellung des Koordinatensystems, das zur Beschreibung des freien Falls benutzt wird.](grafik/V02_KOOS1.svg "Darstellung des Koordinatensystems, das zur Beschreibung des freien Falls benutzt wird.")<!--
+style = "width: 2cm;"
+-->
 
 Im freien Fall wird der Körper nach unten (d.h. in Richtung der negativen $h$-Achse) beschleunigt. Dabei wirkt die Fallbeschleunigung, die in der Nähe der Erdoberfläche annähernd konstant den Wert $a=g=9{,}81~\frac{\mathrm m}{\mathrm s^2}$ aufweist (siehe folgende Abbildung). Für das Orts-Zeit-Gesetz gilt demnach:
 
@@ -286,7 +288,9 @@ Wir betrachten die Bewegung auf einer gekrümmten Bahn am Beispiel des waagerech
 
     $$\vec r_0 = \begin{pmatrix} 0 \\ h_0 \end{pmatrix}$$
 
-![Darstellung des Koordinatensystems, das zur Beschreibung des waagerechten Wurfs benutzt wird.](grafik/V02_KOOS2.jpg "Darstellung des Koordinatensystems, das zur Beschreibung des waagerechten Wurfs benutzt wird.")
+![Darstellung des Koordinatensystems, das zur Beschreibung des waagerechten Wurfs benutzt wird.](grafik/V02_KOOS2.svg "Darstellung des Koordinatensystems, das zur Beschreibung des waagerechten Wurfs benutzt wird.")<!--
+style = "width: 5cm;"
+-->
 
 Diese Bewegung wird nun komponentenweise betrachtet. In $x$-Richtung liegt eine gleichförmige Bewegung mit der Geschwindigkeit $v_0$ vor:
 
@@ -340,11 +344,11 @@ $$\vec F_{ges} = \vec F_1+\vec F_1+\cdots$$
 
 Dies bedeutet auch, dass sich die einzelnen auf einen Körper wirkenden Kräfte überlagern, ohne sich gegenseitig zu beeinflussen. Wie schon bei der [Überlagerung von Bewegungen](#überlagerung-von-bewegungen-–-mehrdimensionale-bewegung) spricht man auch hier von *Superposition* der Kräfte. Umgekehrt lässt sich eine wirkende Kraft vektoriell in einzelne Komponenten zerlegen (siehe Abbildung).
 
-![Grafische Darstellung der vektoriellen Addition von Kräften (Kräfteparallelogramm)](grafik/V03_Kräfte.jpg)<!--
+![Grafische Darstellung der vektoriellen Addition von Kräften (Kräfteparallelogramm)](grafik/V03_Kräfte.svg "Zwei Kräfte überlagern sich gemäß dem Superpositionsprinzip zu einer Gesamtkraft, die anhand der *vektoriellen* Addition zu bestimmen ist.")<!--
 style = "width: 5cm;"
 -->
 
-Mit diesen Definitionen von Impuls und Kraft können nun die anfänglichen, qualitativen Beobachtungen auch quantitativ ausgedrückt werden. Die entsprechenden Aussagen gehen auf Sir [Isaac Newton]{.smallcaps} (1643 -- 1727) zurück.
+Mit diesen Definitionen von Impuls und Kraft können nun die anfänglichen, qualitativen Beobachtungen auch quantitativ ausgedrückt werden. Die entsprechenden Aussagen gehen auf Sir Isaac<!-- style ="font-variant: small-caps;" --> Newton<!-- style ="font-variant: small-caps;" --> (1643 -- 1727) zurück.
 
 #### Die Newton<!-- style ="font-variant: small-caps;" -->schen Axiome
 
@@ -478,7 +482,7 @@ Auf der Erdoberfläche wirkt die Gewichtskraft stets senkrecht nach unten. Bei e
 $$\begin{aligned}F_H & = F_G \cdot \sin{\alpha} = m g \sin{\alpha} \\
 F_N & = F_G \cdot \cos{\alpha} = m g \cos{\alpha}\end{aligned}$$
 
-![Kräfteparallelogramm eines Körpers auf einer geneigten Unterlage mit Gewichtskraft, Normalkraft und Hangabtriebskraft](grafik/V04_FH.jpg "Schematische Darstellung der Zerlegung der Gewichtskraft $\vec F_\mathrm G$ in ihre Komponenten Hangabtriebskraft $\vec F_\mathrm H$ und Normalkraft $\vec F_\mathrm N$.")<!-- style ="width: 7cm;" -->
+![Kräfteparallelogramm eines Körpers auf einer geneigten Unterlage mit Gewichtskraft, Normalkraft und Hangabtriebskraft](grafik/V04_FH.svg "Schematische Darstellung der Zerlegung der Gewichtskraft $\vec F_\mathrm G$ in ihre Komponenten Hangabtriebskraft $\vec F_\mathrm H$ und Normalkraft $\vec F_\mathrm N$.")<!-- style ="width: 7cm;" -->
 
 ##### Die Gravitationskraft
 
@@ -781,7 +785,7 @@ Zur Rotation zählen sowohl die Bewegung eines Massepunktes auf einer Kreisbahn 
 
 Bewegt sich ein Massepunkt auf einer Kreisbahn, so ändert sich permanent die Richtung seiner Geschwindigkeit, da diese tangential zur Kreisbahn orientiert ist. Damit ist die Kreisbewegung stets eine beschleunigte Bewegung, selbst wenn der Betrag der Geschwindigkeit konstant ist. Damit der Geschwindigkeitsvektor stets tangential zur Kreisbahn verläuft, muss diese permanente Beschleunigung radial zum Zentrum der Kreisbahn gerichtet sein. Daher wird sie als Zentripetalbeschleunigung $\vec{a}_z$ bezeichnet (siehe nachfolgende Abbildung).
 
-![Schematische Darstellung der Zentripetalbeschleunigung](grafik/V06_Zentripetalbeschl.jpg "Im Zeitraum $t_1 \rightarrow t_2$ ändert der Geschwindigkeitsvektor die Richtung von $v_1$ zu $v_2$. Dies entspricht einer zum Zentrum der Kreisbahn gerichteten Beschleunigung $a_\mathrm z$.")<!--
+![Schematische Darstellung der Zentripetalbeschleunigung](grafik/V06_Zentripetalbeschl.svg "Im Zeitraum $t_1 \rightarrow t_2$ ändert der Geschwindigkeitsvektor die Richtung von $v_1$ zu $v_2$. Dies entspricht einer zum Zentrum der Kreisbahn gerichteten Beschleunigung $a_\mathrm z$.")<!--
 style = "width: 7cm;"
 -->
 
@@ -789,13 +793,13 @@ style = "width: 7cm;"
 
 Zur Beschreibung einer Kreisbewegung definieren wir ein kartesisches Koordinatensystem, wobei die Kreisbahn in der $(x,y)$-Ebene liegt (siehe Abbildung). Der Ursprung dieses Koordinatensystems entspricht der Drehachse, d.h. dem Zentrum der Kreisbahn. Die Drehachse selbst ist somit identisch mit der $z$-Achse des Koordinatensystems.
 
-![Kartesisches Koordinatensystem zur Beschreibung der Rotation.](grafik/V06_Koordinaten.jpg "Kartesisches Koordinatensystem mit einer Kreisbahn in der $(x,y)$-Ebene. Die Position des Massepunkts (rot) kann sowohl durch $(x,y)$-Koordinaten als auch anhand des Drehwinkels $\phi$ angegeben werden.")<!--
+![Kartesisches Koordinatensystem zur Beschreibung der Rotation.](grafik/V06_Koordinaten.svg "Kartesisches Koordinatensystem mit einer Kreisbahn in der $(x,y)$-Ebene. Die Position des Massepunkts (rot) kann sowohl durch $(x,y)$-Koordinaten als auch anhand des Drehwinkels $\phi$ angegeben werden.")<!--
 style = "width: 6cm;"
 -->
 
 Neben diesen kartesischen Koordinatenachsen werden für die Kreisbewegung weitere wichtige Einheitsvektoren definiert (siehe folgende Abbildung): Die Richtung der Drehachse wird durch den axialen Einheitsvektor $\vec e_\mathrm{ax}$ repräsentiert. Weiterhin wird für jeden Punkt auf der Kreisbahn der radiale ($\vec e_\mathrm{rad}$) und der tangentiale Einheitsvektor ($\vec e_\mathrm{tang}$) definiert. Während der axiale Einheitsvektor konstant ist, ändern radialer und tangentialer Einheitsvektor eines Massepunktes bei der Kreisbewegung permanent ihre Richtung.
 
-![Darstellung von axialem, radialem und tangentialem Einheitsvektor an einer Kreisbahn.](grafik/V06_Rotation_Einheitsvektoren.png "Einheitsvektoren der Kreisbewegung: Der axiale Einheitsvektor gibt die Richtung der Drehachse an, der radiale Einheitsvektor zeigt von der Drehachse zum Massepunkt auf der Kreisbahn und der tangentiale Einheitsvektor liegt in der momentanen Position des Massepunkts an der Kreisbahn an. Diese drei Einheitsvektoren bilden ebenfalls ein Rechtssystem")<!--
+![Darstellung von axialem, radialem und tangentialem Einheitsvektor an einer Kreisbahn.](grafik/V06_Rotation_Einheitsvektoren.svg "Einheitsvektoren der Kreisbewegung: Der axiale Einheitsvektor gibt die Richtung der Drehachse an, der radiale Einheitsvektor zeigt von der Drehachse zum Massepunkt auf der Kreisbahn und der tangentiale Einheitsvektor liegt in der momentanen Position des Massepunkts an der Kreisbahn an. Diese drei Einheitsvektoren bilden ebenfalls ein Rechtssystem")<!--
 style = "width: 6cm;"
 -->
 
@@ -819,7 +823,7 @@ $$\omega = \frac{\textrm d \phi}{\textrm d t} \qquad \textrm{Einheit: } [\omega]
 
 Selbstverständlich ist auch die Rotation durch eine Bewegungsrichtung gekennzeichnet. Die Winkelgeschwindigkeit soll diese Richtung widerspiegeln – es muss sich also um eine vektorielle Größe $\vec{\omega}$ handeln. Dazu wird neben dem oben definierten Betrag auch eine Richtung festgelegt. Die Winkelgeschwindigkeit wird dabei als axialer Vektor definiert, d.h. ihre Richtung verläuft entlang der Drehachse. Damit steht der Winkelgeschwindigkeitsvektor senkrecht auf der Ebene der Kreisbahn. Für ihre Richtung gilt die Rechte-Hand-Regel: Zeigt der ausgestreckte Daumen der rechten Hand in Richtung des $\vec{\omega}$-Vektors, so zeigen die gekrümmten Finger dieser Hand die Drehrichtung des Massepunkts an (siehe Abbildung).
 
-![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.png "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung.")<!-- style = "width: 7cm;" -->
+![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.svg "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung.")<!-- style = "width: 7cm;" -->
 
 ![Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/b/b9/Right-hand_screw_rule.svg "Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an. \[Quelle: [SVGguru](https://commons.wikimedia.org/wiki/User:SVGguru), [Right-hand screw rule](https://commons.wikimedia.org/wiki/File:Right-hand_screw_rule.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")<!-- style = "width: 7cm;" -->
 
@@ -1039,7 +1043,7 @@ Wechselwirkung
 - Rotation: Drehmoment $\vec{M}$.
 - Zusammenhang: $\vec{M}= \vec{r} \times \vec{F}$  
 
-  beziehungsweise: $M = rF$ wenn $\vec{r} \perp \vec{F}$
+  beziehungsweise: $M = rF$, wenn $\vec{r} \perp \vec{F}$
 
 Trägheit
 ========
