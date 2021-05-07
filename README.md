@@ -825,7 +825,7 @@ Selbstverständlich ist auch die Rotation durch eine Bewegungsrichtung gekennzei
 
 ![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.svg "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung.")<!-- style = "width: 7cm;" -->
 
-![Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/b/b9/Right-hand_screw_rule.svg "Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an. \[Quelle: [SVGguru](https://commons.wikimedia.org/wiki/User:SVGguru), [Right-hand screw rule](https://commons.wikimedia.org/wiki/File:Right-hand_screw_rule.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")<!-- style = "width: 7cm;" -->
+![Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/3/3c/Winkelgeschwindigkeit_Rechte-Hand-Regel.svg "Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an. \[Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf), [Winkelgeschwindigkeit Rechte-Hand-Regel](https://commons.wikimedia.org/wiki/File:Winkelgeschwindigkeit_Rechte-Hand-Regel.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")<!-- style = "width: 7cm;" -->
 
 Mit den oben eingeführten Einheitsvektoren lässt sich die Winkelgeschwindigkeit folgendermaßen angeben:
 
@@ -1115,7 +1115,7 @@ Für die mathematische Beschreibung betrachten wir folgendes Federpendel (siehe 
 - lineare Auslenkung in $x$-Richtung,
 - Ruhelage bei $x=0$.
 
-![Schematische Darstellung eines Federpendels mit dem im Text beschriebenen Koordinatensystem](grafik/V08_KOOS_Schwingung.svg "Wird ein Federpendel, dessen Ruhelage bei $x=0$ liegt, um eine Strecke $x_0$ ausgelegt, so wirkt die rücktreibende Federkraft $\vec F_mathrm F$.")<!--
+![Schematische Darstellung eines Federpendels mit dem im Text beschriebenen Koordinatensystem](grafik/V08_KOOS_Schwingung.svg "Wird ein Federpendel, dessen Ruhelage bei $x=0$ liegt, um eine Strecke $x_0$ ausgelegt, so wirkt die rücktreibende Federkraft $\vec F_\mathrm F$.")<!--
 style = 'width: 6cm;'
 -->
 
@@ -1187,7 +1187,7 @@ Sowohl potentielle als auch kinetische Energie schwingen, d.h., sie ändern sich
 
 $$\begin{aligned}
 E_\mathrm{ges} & = E_\mathrm{pot} + E_\mathrm{kin}\\
-& = \frac{1}{2} m x_0^2 \left[\sin^2(\omega_0 t) + \cos^2(\omega_0 t)\right] \\
+& = \frac{1}{2} k x_0^2 \left[\sin^2(\omega_0 t) + \cos^2(\omega_0 t)\right] \\
 & = \frac{1}{2}k x_0^2 = \mathrm{const} \, .
 \end{aligned}$$
 
@@ -1232,3 +1232,5 @@ Ist die Erregerfrequenz sehr verschieden von der Eigenfrequenz des Pendels (deut
 Liegt die Erregerfrequenz jedoch sehr nah an der Eigenfrequenz des schwingungsfähigen Systems, so werden sehr große Amplituden erreicht. Dieser Fall wird als Resonanz bezeichnet. Dabei wird in jeder Periode Energie vom Erreger auf das Pendel übertragen, sodass dessen Amplitude stetig anwächst. Ist das schwingungsfähige System ausreichend stark gedämpft, so stellt sich früher oder später ein Gleichgewicht ein, bei dem durch die Reibung genau so viel Energie abgeführt wird, wie durch die Erregung eingebracht wird. Die Amplitude wächst dann nicht weiter an, sondern bleibt begrenzt.
 
 Bei geringer Dämpfung kann im Resonanzfall aber die Amplitude und die Bewegungsgeschwindigkeit des Pendels so stark anwachsen, dass es schließlich zu einer Beschädigung oder Zerstörung des schwingungsfähigen Systems kommen kann. Ein eindrucksvolles Beispiel für diese „Resonanzkatastrophe“ ist der Einsturz der Tacoma Narrows Bridge.
+
+## Wärmelehre
