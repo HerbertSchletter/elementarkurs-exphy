@@ -26,48 +26,98 @@ Dr. Herbert Schletter
 Wintersemester 2021/2022
 
 ## Vorwort
-Dieses Skriptum wurde konzipiert und verfasst als Lehrmaterial zur Vorlesung „Physik (mit Experimenten)“ für die Studiengänge ‚Wirtschaftsingenieurwesen‘ und ‚Lehramt an Grundschulen‘ an der
-Technischen Universität Chemnitz. Es bietet einen Überblick über grundlegende Konzepte und Arbeitsmethoden der Physik mit einem Schwerpunkt auf die Gebiete der klassischen Physik.
+Dieses Skriptum wurde konzipiert und verfasst als Lehrmaterial zur Vorlesung
+„Physik (mit Experimenten)“ für die Studiengänge ‚Wirtschaftsingenieurwesen‘ und
+‚Lehramt an Grundschulen‘ an der Technischen Universität Chemnitz. Es bietet
+einen Überblick über grundlegende Konzepte und Arbeitsmethoden der Physik mit
+einem Schwerpunkt auf die Gebiete der klassischen Physik.
 
-Da ein Skriptum auf den jeweiligen Vorlesungsinhalt abgestimmt ist, erreicht es nicht den Umfang und die Ausführlichkeit eines Lehrbuchs und kann daher auch ein solches nicht
-ersetzen. Es bietet jedoch eine didaktische Einführung in das Themengebiet.
+Da ein Skriptum auf den jeweiligen Vorlesungsinhalt abgestimmt ist, erreicht es
+nicht den Umfang und die Ausführlichkeit eines Lehrbuchs und kann daher auch ein
+solches nicht ersetzen. Es bietet jedoch eine didaktische Einführung in das
+Themengebiet.
 
-Der diesem Skriptum zu Grunde liegende Physikkurs hat einen Umfang von 15 Vorlesungen. Dieser recht geringe zeitliche Umfang erfordert eine Konzentration des
-Vorlesungsinhalts auf die zentralen physikalischen Prinzipien der einzelnen Stoffgebiete zusammen mit den grundlegenden mathematischen Herleitungen. Aufgrund dieser
-Stoffreduktion trägt dieses Skriptum die Bezeichnung „Elementarkurs“.
+Der diesem Skriptum zu Grunde liegende Physikkurs hat einen Umfang von 15
+Vorlesungen. Dieser recht geringe zeitliche Umfang erfordert eine Konzentration
+des Vorlesungsinhalts auf die zentralen physikalischen Prinzipien der einzelnen
+Stoffgebiete zusammen mit den grundlegenden mathematischen Herleitungen.
+Aufgrund dieser Stoffreduktion trägt dieses Skriptum die Bezeichnung
+„Elementarkurs“.
 
 
 ## Einführung
 
 Am Beginn dieses Kurses soll zunächst geklärt werden, welche Zielstellung hierin
 verfolgt wird. Wie der Titel bereits besagt, handelt es sich um eine
-(grundlegende) Einführung in die Physik, konkret: in die Experimentalphysik (dieser Begriff
-wird im Laufe dieser Einführung noch erklärt werden). Es muss daher zunächst in ganz
-allgemeiner Form geklärt werden, womit sich die Physik beschäftigt. Die folgenden Seiten beschreiben die grundlegende Zielstellung der Physik und verschiedene Wege, wie dieses Ziel erreicht werden kann.
+(grundlegende) Einführung in die Physik, konkret: in die Experimentalphysik
+(dieser Begriff wird im Laufe dieser Einführung noch erklärt werden). Es muss
+daher zunächst in ganz allgemeiner Form geklärt werden, womit sich die Physik
+beschäftigt. Die folgenden Seiten beschreiben die grundlegende Zielstellung der
+Physik und verschiedene Wege, wie dieses Ziel erreicht werden kann.
 
 ### Was ist Physik?
 
-> Die Physik ist eine Naturwissenschaft, die Vorgänge der (unbelebten) Natur qualitativ und quantitativ beschreibt. Sie fragt nach den Eigenschaften und gegenseitigen Wechselwirkungen physikalischer Körper.
+> Die Physik ist eine Naturwissenschaft, die Vorgänge der (unbelebten) Natur
+qualitativ und quantitativ beschreibt. Sie fragt nach den Eigenschaften und
+gegenseitigen Wechselwirkungen physikalischer Körper.
 
-Der Begriff „Körper“ bezeichnet dabei ganz allgemein eine definierte Menge an Materie. Ihm können sehr vielfältige und unterschiedliche Eigenschaften zugeordnet werden.
-Aus diesem Grund entwickelten sich im Laufe der Zeit verschiedene Teilgebiete der Physik, in denen Körper jeweils unter bestimmten Gesichtspunkten charakterisiert werden.
+Der Begriff „Körper“ bezeichnet dabei ganz allgemein eine definierte Menge an
+Materie. Ihm können sehr vielfältige und unterschiedliche Eigenschaften
+zugeordnet werden. Aus diesem Grund entwickelten sich im Laufe der Zeit
+verschiedene Teilgebiete der Physik, in denen Körper jeweils unter bestimmten
+Gesichtspunkten charakterisiert werden.
 
-Die Physik strebt danach, komplexe Phänomene auf grundlegende, allgemeingültige und möglichst einfache Gesetzmäßigkeiten zurück zu führen. Um diese Gesetzmäßigkeiten quantitativ auszudrücken, bedient sich die Physik der Mathematik. Dabei ist das wesentliche Ziel der Physik ein qualitatives *Verständnis* der Naturvorgänge. Die quantitative Beschreibung dieser Vorgänge durch mathematische Formeln ist dem nachgeordnet und kann das Verständnis nicht ersetzen.
+Die Physik strebt danach, komplexe Phänomene auf grundlegende, allgemeingültige
+und möglichst einfache Gesetzmäßigkeiten zurück zu führen. Um diese
+Gesetzmäßigkeiten quantitativ auszudrücken, bedient sich die Physik der
+Mathematik. Dabei ist das wesentliche Ziel der Physik ein qualitatives
+*Verständnis* der Naturvorgänge. Die quantitative Beschreibung dieser Vorgänge
+durch mathematische Formeln ist dem nachgeordnet und kann das Verständnis nicht
+ersetzen.
 
-Die Physik strebt eine möglichst einfache Beschreibung der Natur an. Diese Einfachheit kann jedoch nur soweit gehen, dass die Realität nicht durch zu starke Vereinfachungen verfälscht widergegeben wird. Die Komplexität physikalischer Formeln und Beschreibungen widerspiegelt daher lediglich die Komplexität der uns umgebenden Natur.
+Die Physik strebt eine möglichst einfache Beschreibung der Natur an. Diese
+Einfachheit kann jedoch nur soweit gehen, dass die Realität nicht durch zu
+starke Vereinfachungen verfälscht widergegeben wird. Die Komplexität
+physikalischer Formeln und Beschreibungen widerspiegelt daher lediglich die
+Komplexität der uns umgebenden Natur.
 
-Für eine solche einfache Beschreibung der Naturvorgänge ist es erforderlich (und charakteristisch für die Physik), diese Vorgänge auf ihre wesentlichen Eigenschaften zu reduzieren und Unwesentliches außen vor zu lassen. Ein solches vereinfachtes oder reduziertes Abbild der Natur wird als **Modell** bezeichnet. Physikalische Modelle sind stets nur unter bestimmten Voraussetzungen anwendbar. So wird uns in den ersten Kapiteln das Modell des Massepunkts begegnen, bei dem die Form und Größe eines Körpers als unwesentliche Eigenschaften ignoriert werden und lediglich die Masse berücksichtigt wird, die – modellhaft – in einem Punkt gedacht wird. Für die Beschreibung einer geradlinigen Bewegung ist dieses Modell ausreichend, für die Rotation jedoch nicht mehr. Für letztere müssen dann andere Modelle herangezogen werden.
+Für eine solche einfache Beschreibung der Naturvorgänge ist es erforderlich
+(und charakteristisch für die Physik), diese Vorgänge auf ihre wesentlichen
+Eigenschaften zu reduzieren und Unwesentliches außen vor zu lassen. Ein solches
+vereinfachtes oder reduziertes Abbild der Natur wird als **Modell** bezeichnet.
+Physikalische Modelle sind stets nur unter bestimmten Voraussetzungen anwendbar.
+So wird uns in den ersten Kapiteln das Modell des Massepunkts begegnen, bei dem
+die Form und Größe eines Körpers als unwesentliche Eigenschaften ignoriert
+werden und lediglich die Masse berücksichtigt wird, die – modellhaft – in einem
+Punkt gedacht wird. Für die Beschreibung einer geradlinigen Bewegung ist dieses
+Modell ausreichend, für die Rotation jedoch nicht mehr. Für letztere müssen dann
+andere Modelle herangezogen werden.
 
-Mitunter werden Modelle soweit reduziert, dass sie die Realität nur noch näherungsweise widergeben (z.B. durch Vernachlässigung der unvermeidbaren Reibung bei der Beschreibung von Bewegungen). Es muss dann geprüft werden, ob ein solches Modell den konkreten Sachverhalt mit ausreichender Genauigkeit beschreibt. Ist dies nicht der Fall, muss ein entsprechend aufwändigeres Modell angewendet werden.
+Mitunter werden Modelle soweit reduziert, dass sie die Realität nur noch
+näherungsweise widergeben (z.B. durch Vernachlässigung der unvermeidbaren
+Reibung bei der Beschreibung von Bewegungen). Es muss dann geprüft werden,
+ob ein solches Modell den konkreten Sachverhalt mit ausreichender Genauigkeit
+beschreibt. Ist dies nicht der Fall, muss ein entsprechend aufwändigeres Modell
+angewendet werden.
 
 #### Entwicklung der Physik
 
-Die Menschheit hatte seit jeher ein Interesse an der Naturbeobachtung. Die Physik in ihrem heutigen Sinn entstand jedoch erst im 17. Jahrhundert und ist eng mit den Personen Galileo Galilei und Isaac Newton verbunden. Seither ist die Physik geprägt durch:
+Die Menschheit hatte seit jeher ein Interesse an der Naturbeobachtung. Die
+Physik in ihrem heutigen Sinn entstand jedoch erst im 17. Jahrhundert und ist
+eng mit den Personen Galileo Galilei und Isaac Newton verbunden. Seither ist die
+Physik geprägt durch:
 
 1.  systematisches Experimentieren anstelle einer bloßen Naturbeobachtung und
 2.  eine enge Verknüpfung von Theorie und Experiment.
 
-Vom 17. bis 19. Jahrhundert entwickelten sich die Teilbereiche, die heute als klassische Physik bezeichnet werden: Mechanik, Wärmelehre, Elektrizitätslehre & Optik. Ab ca. 1900 entstand die moderne Physik, zu der (unter anderem) die relativistische Physik, Quantenphysik, Atom-, Molekül- und Festkörperphysik sowie die Elementarteilchenphysik gezählt wird. Die einzelnen Teilgebiete der Physik lassen sich nicht scharf voneinander abgrenzen. So werden beispielsweise die Gesetze der Mechanik auch in der Elektrizitäts- oder Wärmelehre angewendet und finden sich auch in der modernen Physik wieder.
+Vom 17. bis 19. Jahrhundert entwickelten sich die Teilbereiche, die heute als
+klassische Physik bezeichnet werden: Mechanik, Wärmelehre, Elektrizitätslehre &
+Optik. Ab ca. 1900 entstand die moderne Physik, zu der (unter anderem) die
+relativistische Physik, Quantenphysik, Atom-, Molekül- und Festkörperphysik
+sowie die Elementarteilchenphysik gezählt wird. Die einzelnen Teilgebiete der
+Physik lassen sich nicht scharf voneinander abgrenzen. So werden beispielsweise
+die Gesetze der Mechanik auch in der Elektrizitäts- oder Wärmelehre angewendet
+und finden sich auch in der modernen Physik wieder.
 
 ### Arbeitsmethoden der Physik
 
