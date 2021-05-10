@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg53"
+   version="1.1"
+   viewBox="0 0 728.19928 434.06796"
+   width="728.19928"
+   height="434.06796">
+  <metadata
+     id="metadata59">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs57">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path913" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path916" />
+    </marker>
+    <rect
+       id="rect1231"
+       height="390.76245"
+       width="132.7957"
+       y="-5.0830889"
+       x="-164.565" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path934" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path928" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path910" />
+    </marker>
+  </defs>
+  <clipPath
+     id="box">
+    <rect
+       id="rect2"
+       style="fill:none;stroke:none"
+       height="400"
+       width="650"
+       y="0"
+       x="0" />
+  </clipPath>
+  <rect
+     x="71.91378"
+     y="7.5861835"
+     width="650"
+     height="400"
+     style="fill:#ffffff;stroke:none"
+     id="rect5" />
+  <path
+     d="m 71.91378,407.58618 h 650 m -650,-67 h 650 m -650,-67 h 650 m -650,-66 h 650 m -650,-67 h 650 m -650,-66.999996 h 650 m -650,-66.0000005 h 650 m -650,0 V 407.58618 m 61,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618 m 62,-399.9999965 V 407.58618"
+     style="fill:#f80000;fill-opacity:1;stroke:#d0d0d0;stroke-width:1"
+     id="path7" />
+  <path
+     d="M 71.91378,7.5861835 V 407.58618"
+     style="fill:none;stroke:#000000;stroke-width:2.83465;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)"
+     id="path9" />
+  <path
+     d="m 65.41378,407.58618 h 13 m -13,-66.67 h 13 m -13,-66.66 h 13 m -13,-66.67 h 13 m -13,-66.67 h 13 m -13,-66.659996 h 13 m -13,-66.6700005 h 13"
+     style="fill:none;stroke:#000000;stroke-width:1"
+     id="path11" />
+  <path
+     d="m 71.91378,407.58618 h 650"
+     style="fill:none;stroke:#000000;stroke-width:2.83465;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
+     id="path13" />
+  <text
+     x="43.186386"
+     y="347.86725"
+     text-anchor="start"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:normal;font-family:'Droid Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;-inkscape-font-specification:'Droid Sans, Trebuchet MS, Arial, Helvetica, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     id="text17">0</text>
+  <text
+     x="43.186386"
+     y="214.53387"
+     text-anchor="start"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:normal;font-family:'Droid Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;-inkscape-font-specification:'Droid Sans, Trebuchet MS, Arial, Helvetica, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     id="text21">50</text>
+  <text
+     x="30.478661"
+     y="80.56517"
+     text-anchor="start"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:normal;font-family:'Droid Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;-inkscape-font-specification:'Droid Sans, Trebuchet MS, Arial, Helvetica, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     id="text25">100</text>
+  <text
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1231);fill:#000000;fill-opacity:1;stroke:none;"
+     id="text1229"
+     xml:space="preserve"
+     transform="translate(71.91378,7.5861835)" />
+  <text
+     id="text25-4"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:normal;font-family:'Droid Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;-inkscape-font-specification:'Droid Sans, Trebuchet MS, Arial, Helvetica, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     text-anchor="start"
+     y="25.726919"
+     x="2"><tspan
+       y="25.726919"
+       x="2"
+       id="tspan1389">ϑ / °C</tspan></text>
+  <text
+     x="696.59412"
+     y="431.88568"
+     text-anchor="start"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:normal;font-family:'Droid Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;-inkscape-font-specification:'Droid Sans, Trebuchet MS, Arial, Helvetica, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none"
+     id="text25-4-1"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;-inkscape-font-specification:'Droid Sans, Trebuchet MS, Arial, Helvetica, sans-serif Italic'"
+       id="tspan1250-4">t</tspan></text>
+  <path
+     id="path1391"
+     d="m 71.91378,407.58618 31.76931,-67.05767 h 91.4956 L 442.97927,73.66634 H 599.28426 L 628.91378,7.5861835"
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  <text
+     id="text25-3"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:normal;font-family:'Droid Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;-inkscape-font-specification:'Droid Sans, Trebuchet MS, Arial, Helvetica, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;stroke:none"
+     text-anchor="start"
+     y="322.45224"
+     x="108.68011">Schmelzen</text>
+  <text
+     id="text25-31"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:normal;font-family:'Droid Sans', 'Trebuchet MS', Arial, Helvetica, sans-serif;-inkscape-font-specification:'Droid Sans, Trebuchet MS, Arial, Helvetica, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke:none"
+     text-anchor="start"
+     y="63.850079"
+     x="507.06723">Sieden</text>
+  <path
+     id="path1414"
+     d="m 103.68309,340.52851 h 91.4956"
+     style="fill:none;stroke:#0000ff;stroke-width:1.88976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     id="path1416"
+     d="M 442.97927,73.66634 H 599.28426"
+     style="fill:none;stroke:#ff0000;stroke-width:1.88976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+</svg>
