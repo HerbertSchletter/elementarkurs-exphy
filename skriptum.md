@@ -121,83 +121,168 @@ und finden sich auch in der modernen Physik wieder.
 
 ### Arbeitsmethoden der Physik
 
-Die Physik kennt zwei grundsätzliche Herangehensweisen zur Untersuchung von Naturvorgängen:
+Die Physik kennt zwei grundsätzliche Herangehensweisen zur Untersuchung von
+Naturvorgängen:
 
-In der **Experimentalphysik** werden Naturvorgänge durch Experimente (siehe unten) empirisch untersucht. Durch systematische Veränderung der Einflussgrößen werden physikalische Zusammenhänge ermittelt. Mit Hilfe mathematischer Methoden können Beziehungen zwischen den physikalischen Größen hergestellt und die ermittelten Ergebnisse in Formeln ausgedrückt werden.
+In der **Experimentalphysik** werden Naturvorgänge durch Experimente (siehe
+unten) empirisch untersucht. Durch systematische Veränderung der Einflussgrößen
+werden physikalische Zusammenhänge ermittelt. Mit Hilfe mathematischer Methoden
+können Beziehungen zwischen den physikalischen Größen hergestellt und die
+ermittelten Ergebnisse in Formeln ausgedrückt werden.
 
-Die **theoretische Physik** orientiert sich stärker an der mathematischen Vorgehensweise. Dabei bilden physikalische Grundgesetze, Axiome oder Annahmen die Basis der Überlegungen. Darauf aufbauend werden dann – unter Anwendung der Gesetze der Mathematik – neue Zusammenhänge und Gesetze geschlussfolgert. Die zugrunde liegenden Gesetze müssen dabei so formuliert werden, dass sie die Gegebenheiten der Natur widerspiegeln.
+Die **theoretische Physik** orientiert sich stärker an der mathematischen
+Vorgehensweise. Dabei bilden physikalische Grundgesetze, Axiome oder Annahmen
+die Basis der Überlegungen. Darauf aufbauend werden dann – unter Anwendung der
+Gesetze der Mathematik – neue Zusammenhänge und Gesetze geschlussfolgert. Die
+zugrunde liegenden Gesetze müssen dabei so formuliert werden, dass sie die
+Gegebenheiten der Natur widerspiegeln.
 
-Beide Herangehensweisen ergänzen sich und müssen identische Ergebnisse liefern. So sollen experimentelle Befunde auch theoretisch (ausgehend von physikalischen Grundgesetzen) erklärt werden. Umgekehrt werden Berechnungen und Vorhersagen der theoretischen Physik experimentell überprüft.
+Beide Herangehensweisen ergänzen sich und müssen identische Ergebnisse liefern.
+So sollen experimentelle Befunde auch theoretisch (ausgehend von physikalischen
+Grundgesetzen) erklärt werden. Umgekehrt werden Berechnungen und Vorhersagen der
+theoretischen Physik experimentell überprüft.
 
-Der vorliegende Physikkurs ist in der Experimentalphysik angesiedelt. Das kann jedoch nicht bedeuten, dass auf die Anwendung der Mathematik verzichtet wird. Vielmehr werden auch hier mathematische Methoden genutzt um Beziehungen zwischen physikalischen Größen herzustellen und gefundene Zusammenhänge zu begründen.
+Der vorliegende Physikkurs ist in der Experimentalphysik angesiedelt. Das kann
+jedoch nicht bedeuten, dass auf die Anwendung der Mathematik verzichtet wird.
+Vielmehr werden auch hier mathematische Methoden genutzt um Beziehungen zwischen
+physikalischen Größen herzustellen und gefundene Zusammenhänge zu begründen.
 
 ### Experimente & Messungen
 
 Experimente sind elementarer Bestandteil jeder *Natur*wissenschaft.
 
-Ein **Experiment** ist eine gezielte Frage an die Natur. D.h. durch Experimente werden Zusammenhänge der Natur gezielt und systematisch untersucht. Der Aufbau und die Durchführung eines Experiments müssen dieser Zielstellung entsprechen:
+Ein **Experiment** ist eine gezielte Frage an die Natur. D.h. durch Experimente
+werden Zusammenhänge der Natur gezielt und systematisch untersucht. Der Aufbau
+und die Durchführung eines Experiments müssen dieser Zielstellung entsprechen:
 
--   Der Versuchsaufbau muss den relevanten Effekt widerspiegeln.
+- Der Versuchsaufbau muss den relevanten Effekt widerspiegeln.
 
--   Störende Einflussfaktoren sollen ausgeschlossen oder minimiert werden (z.B. Vermeidung von Reibungsverlusten in der Mechanik, Abschirmung gegen elektromagnetische Felder).
+- Störende Einflussfaktoren sollen ausgeschlossen oder minimiert werden (z.B.
+  Vermeidung von Reibungsverlusten in der Mechanik, Abschirmung gegen
+  elektromagnetische Felder).
 
--   Experimente müssen systematisch durchgeführt werden, indem Einflussfaktoren einzeln unter sonst gleichen Bedingungen geändert werden.
+- Experimente müssen systematisch durchgeführt werden, indem Einflussfaktoren
+  einzeln unter sonst gleichen Bedingungen geändert werden.
 
--   Messungen müssen mit ausreichender Genauigkeit erfolgen.
+- Messungen müssen mit ausreichender Genauigkeit erfolgen.
 
-Diese Anforderungen bedingen einen entsprechenden apparativen Aufwand für das Experimentieren, der sich in der Größe und den Kosten von Versuchsaufbauten widerspiegelt. Mitunter sind selbst bauliche Anforderungen an die Laborräume einzuhalten, damit ein Experiment gelingt (z.B. Sonderfundamente für atomar auflösende Elektronenmikroskope).
+Diese Anforderungen bedingen einen entsprechenden apparativen Aufwand für das
+Experimentieren, der sich in der Größe und den Kosten von Versuchsaufbauten
+widerspiegelt. Mitunter sind selbst bauliche Anforderungen an die Laborräume
+einzuhalten, damit ein Experiment gelingt (z.B. Sonderfundamente für atomar
+auflösende Elektronenmikroskope).
 
-Im Experiment sollen Zusammenhänge der Natur quantitativ erfasst werden. Dazu müssen relevante Größen gemessen werden. Eine **Messung** ist ein Vergleich einer (unbekannten) Größe mit einem Maßnormal. Dieser Vergleich kann direkt (z.B. Längenmessung mit einem Lineal) oder indirekt (z.B. Massebestimmung mit Digitalwaage) erfolgen. Die Maßnormale verkörpern eine festgelegte Quantität der zu messenden Größe. Beispiele für Maßnormale sind: Lineal für die Längenmessung, Massestücke, ein Metronom als Zeitnormal aber auch elektrische Multimeter usw. Die Maßnormale definieren dabei auch die Maßeinheiten der jeweiligen Größe.
+Im Experiment sollen Zusammenhänge der Natur quantitativ erfasst werden. Dazu
+müssen relevante Größen gemessen werden. Eine **Messung** ist ein Vergleich
+einer (unbekannten) Größe mit einem Maßnormal. Dieser Vergleich kann direkt
+(z.B. Längenmessung mit einem Lineal) oder indirekt (z.B. Massebestimmung mit
+Digitalwaage) erfolgen. Die Maßnormale verkörpern eine festgelegte Quantität der
+zu messenden Größe. Beispiele für Maßnormale sind: Lineal für die Längenmessung,
+Massestücke, ein Metronom als Zeitnormal aber auch elektrische Multimeter usw.
+Die Maßnormale definieren dabei auch die Maßeinheiten der jeweiligen Größe.
 
 Eine physikalische Größe ist definiert als:
 
 $$\textrm{Größe}=\textrm{Zahlenwert}\cdot\textrm{Einheit}$$
-Beispielsweise könnten für einen Menschen Körpergröße $h$ und Masse $m$ wie folgt angegeben werden:
+Beispielsweise könnten für einen Menschen Körpergröße $h$ und Masse $m$ wie
+folgt angegeben werden:
 
 $$\begin{array}{c}
         h=1{,}88\cdot 1~\mathrm{Meter}=1{,}88~\mathrm m \\
         m=87\cdot 1~\mathrm{Kilogramm}=87~\mathrm{kg}
 \end{array}$$
 
-Physikalische Größen ohne Maßeinheiten existieren nicht. Für jede Größe muss eine Einheit definiert sein. Daraus ergibt sich eine sehr große Zahl physikalischer Einheiten. Um diese zu systematisieren werden Einheitensysteme (oder: Maßsysteme) angewendet. Ein Einheitensystem definiert einen Satz physikalischer Grundgrößen mit den zugehörigen Grundeinheiten. Daraus können alle weiteren Größen mit ihren Einheiten abgeleitet werden.
+Physikalische Größen ohne Maßeinheiten existieren nicht. Für jede Größe muss
+eine Einheit definiert sein. Daraus ergibt sich eine sehr große Zahl
+physikalischer Einheiten. Um diese zu systematisieren werden Einheitensysteme
+(oder: Maßsysteme) angewendet. Ein Einheitensystem definiert einen Satz
+physikalischer Grundgrößen mit den zugehörigen Grundeinheiten. Daraus können
+alle weiteren Größen mit ihren Einheiten abgeleitet werden.
 
-In der Physik ist das Système international d'unités – kurz: SI-System – allgemein gebräuchlich. Die sieben SI-Grundgrößen mit ihren Grundeinheiten sind in der nachfolgenden Tabelle zusammengestellt. Alle weiteren physikalischen Einheiten lassen sich aus diesen Grundeinheiten ableiten. Für die Einheit der elektrischen Spannung – das Volt – gilt beispielsweise
+In der Physik ist das Système international d'unités – kurz: SI-System –
+allgemein gebräuchlich. Die sieben SI-Grundgrößen mit ihren Grundeinheiten sind
+in der nachfolgenden Tabelle zusammengestellt. Alle weiteren physikalischen
+Einheiten lassen sich aus diesen Grundeinheiten ableiten. Für die Einheit der
+elektrischen Spannung – das Volt – gilt beispielsweise
 
-$$1~\mathrm V=1~\frac{\mathrm{kg\cdot m^2}}{\mathrm{A\cdot s^3}}$$
+$$1~\mathrm V=1~\frac{\mathrm{kg\cdot m^2}}{\mathrm{A\cdot s^3}} \, .$$
 
 | SI-Grundgröße           | Grundeinheit                 |
 |:------------------------|:-----------------------------|
 | Länge                   | Meter ($1~\mathrm m$)        |
-| Zeit                    | Sekunde ($1~\mathrm s$)        |
-| Masse                   | Kilogram ($1~\mathrm {kg}$)     |
-| (absolute) Temperatur   | Kelvin ($1~\mathrm K$)   |
-| Stoffmenge              | Mol ($1~\mathrm{mol}$)         |
-| Elektrische Stromstärke | Ampere ($1~\mathrm A$)        |
-| Lichtstärke             | Candela ($1~\mathrm{cd}$) |
+| Zeit                    | Sekunde ($1~\mathrm s$)      |
+| Masse                   | Kilogram ($1~\mathrm {kg}$)  |
+| (absolute) Temperatur   | Kelvin ($1~\mathrm K$)       |
+| Stoffmenge              | Mol ($1~\mathrm{mol}$)       |
+| Elektrische Stromstärke | Ampere ($1~\mathrm A$)       |
+| Lichtstärke             | Candela ($1~\mathrm{cd}$)    |
 
-Vorsicht ist geboten bei Einheiten, die keine dezimalen Umrechnungsfaktoren besitzen. Das betrifft unter anderem Zeitangaben in Minuten oder Stunden. Hier sollten Angaben stets in Sekunden erfolgen. Ebenso sollten Winkelangaben im Bogenmaß (Radiant) vorgenommen werden.
+Vorsicht ist geboten bei Einheiten, die keine dezimalen Umrechnungsfaktoren
+besitzen. Das betrifft unter anderem Zeitangaben in Minuten oder Stunden. Hier
+sollten Angaben stets in Sekunden erfolgen. Ebenso sollten Winkelangaben im
+Bogenmaß (Radiant) vorgenommen werden.
 
-Wie oben bereits angegeben ist eine Messung der Vergleich einer Größe mit einem Maßnormal. Ein solcher Vergleich ist jedoch niemals völlig exakt. Es treten stets **Messunsicherheiten** (Messfehler) auf, die sich unter anderem aus Unzulänglichkeiten oder der begrenzten Anzeigegenauigkeit des Messinstruments ergeben. Diese Messunsicherheiten müssen ermittelt und zum Messwert angegeben werden. Die Angabe eines Messergebnisses ohne Unsicherheit ist für die Praxis wertlos. Die Bestimmung der Messunsicherheit ist somit ebenso wichtig (und ebenso schwierig) wie die Messung selbst.
+Wie oben bereits angegeben ist eine Messung der Vergleich einer Größe mit einem
+Maßnormal. Ein solcher Vergleich ist jedoch niemals völlig exakt. Es treten
+stets **Messunsicherheiten** (Messfehler) auf, die sich unter anderem aus
+Unzulänglichkeiten oder der begrenzten Anzeigegenauigkeit des Messinstruments
+ergeben. Diese Messunsicherheiten müssen ermittelt und zum Messwert angegeben
+werden. Die Angabe eines Messergebnisses ohne Unsicherheit ist für die Praxis
+wertlos. Die Bestimmung der Messunsicherheit ist somit ebenso wichtig (und
+  ebenso schwierig) wie die Messung selbst.
 
-Die Angabe der Messunsicherheit kann als absolute oder relative Unsicherheit erfolgen. Für die Masse der oben angegebenen Person könnte die vollständige Angabe wie folgt aussehen:
+Die Angabe der Messunsicherheit kann als absolute oder relative Unsicherheit
+erfolgen. Für die Masse der oben angegebenen Person könnte die vollständige
+Angabe wie folgt aussehen:
 
-$$m=87\pm 4~\mathrm{kg}\quad\textrm{bzw.}\quad m=87~\mathrm{kg}\pm5\,\%$$
+$$m=87\pm 4~\mathrm{kg}\quad\textrm{bzw.}\quad m=87~\mathrm{kg}\pm5\,\% \, .$$
 
 ### Bezugssysteme
 
-Die Physik beschreibt Naturvorgänge in ihrer räumlichen und zeitlichen Entwicklung. Dazu müssen physikalische Größen orts- und/oder zeitabhängig gemessen, berechnet und angegeben werden. Mathematisch bedient sich die Physik hierbei der Methoden der Vektorrechnung sowie der Integral- und Differentialrechnung. Darüber hinaus müssen geeignete Bezugsystem definiert werden, damit Orts- und Zeitangaben eindeutig erfolgen können.
+Die Physik beschreibt Naturvorgänge in ihrer räumlichen und zeitlichen
+Entwicklung. Dazu müssen physikalische Größen orts- und/oder zeitabhängig
+gemessen, berechnet und angegeben werden. Mathematisch bedient sich die Physik
+hierbei der Methoden der Vektorrechnung sowie der Integral- und
+Differentialrechnung. Darüber hinaus müssen geeignete Bezugsystem definiert
+werden, damit Orts- und Zeitangaben eindeutig erfolgen können.
 
-Für die Zeit wird ein Referenzzeitpunkt festgelegt. In vielen Fällen ist dies implizit der Beginn des Experiments oder der Messung. Es können jedoch auch beliebige andere Referenzzeiten definiert werden.
+Für die Zeit wird ein Referenzzeitpunkt festgelegt. In vielen Fällen ist dies
+implizit der Beginn des Experiments oder der Messung. Es können jedoch auch
+beliebige andere Referenzzeiten definiert werden.
 
-Für Ortsangaben muss ein geeignetes Koordinatensystem definiert werden. Dieses sollte dem betreffenden Sachverhalt so angepasst werden, dass eine einfache Beschreibung des Vorgangs möglich ist. Tatsächlich kann durch die Wahl eines geeigneten Koordinatensystems der Rechenaufwand erheblich reduziert werden. Für lineare (eindimensionale) Probleme (z.B. geradlinige Bewegung) genügt auch ein eindimensionales Koordinatensystem ($x$-Achse). Für zwei- oder dreidimensionale Beschreibungen werden entsprechend 2D $\left( x,y \right)$ oder 3D $\left( x,y,z \right)$ Koordinatensysteme verwendet.
+Für Ortsangaben muss ein geeignetes Koordinatensystem definiert werden. Dieses
+sollte dem betreffenden Sachverhalt so angepasst werden, dass eine einfache
+Beschreibung des Vorgangs möglich ist. Tatsächlich kann durch die Wahl eines
+geeigneten Koordinatensystems der Rechenaufwand erheblich reduziert werden. Für
+lineare (eindimensionale) Probleme (z.B. geradlinige Bewegung) genügt auch ein
+eindimensionales Koordinatensystem ($x$-Achse). Für zwei- oder dreidimensionale
+Beschreibungen werden entsprechend 2D $\left( x,y \right)$ oder 3D
+$\left( x,y,z \right)$ Koordinatensysteme verwendet.
 
-Die bisher genannten Koordinatensysteme sind rechtwinklige, oder kartesische Koordinatensysteme. Es handelt sich um sogenannte Rechtssysteme, d.h. die Lage der Achsen zueinander kann durch die Finger der rechten Hand ermittelt werden. Wie in der folgenden Abbildung dargestellt, entsprechen Daumen, Zeigefinger und Mittelfinger – rechtwinklig abgespreizt – der $x$-, $y$- und $z$-Achse.
+Die bisher genannten Koordinatensysteme sind rechtwinklige, oder kartesische
+Koordinatensysteme. Es handelt sich um sogenannte Rechtssysteme, d.h. die Lage
+der Achsen zueinander kann durch die Finger der rechten Hand ermittelt werden.
+Wie in der folgenden Abbildung dargestellt, entsprechen Daumen, Zeigefinger und
+Mittelfinger – rechtwinklig abgespreizt – der $x$-, $y$- und $z$-Achse.
 
 ![Veranschaulichung der Rechte-Hand-Regel](https://upload.wikimedia.org/wikipedia/commons/2/2d/Right_hand_rule_Cartesian_axes.svg "In einem kartesischen Koordinatensystem liegen die $x$-, $y$- und $z$-Achse zueinander wie Daumen, Zeige- und Mittelfinger der rechten Hand, wenn sie rechtwinklig abgespreizt werden (Rechte-Hand-Regel). \[Quelle: User:Acdx, cmglee, [„Right hand rule Cartesian axes“](https://commons.wikimedia.org/wiki/File:Right_hand_rule_Cartesian_axes.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")
 
-Anstelle dieser rechtwinkligen Koordinatensysteme können auch Winkelkoordinatensysteme verwendet werden. In zwei Dimensionen sind dies die Polarkoordinaten $\left(\phi ,r\right)$, die beispielsweise bei der Beschreibung von Kreisbewegungen angewendet werden. In 3D lassen sich anhand von Winkelangaben Zylinderkoordinaten $\left( \phi ,r,z\right)$ und Kugelkoordinaten $\left(\phi , \theta ,r\right)$ aufstellen. Letztere werden beispielsweise für Positionsangaben auf der Erde genutzt: die geografische Länge und Breite entsprechen den Winkeln $\phi$ und $\theta$ eines Kugelkoordinatensystems, dessen Ursprung im Erdmittelpunkt liegt.
+Anstelle dieser rechtwinkligen Koordinatensysteme können auch
+Winkelkoordinatensysteme verwendet werden. In zwei Dimensionen sind dies die
+Polarkoordinaten $\left(\phi ,r\right)$, die beispielsweise bei der Beschreibung
+von Kreisbewegungen angewendet werden. In 3D lassen sich anhand von
+Winkelangaben Zylinderkoordinaten $\left( \phi ,r,z\right)$ und Kugelkoordinaten
+$\left(\phi , \theta ,r\right)$ aufstellen. Letztere werden beispielsweise für
+Positionsangaben auf der Erde genutzt: die geografische Länge und Breite
+entsprechen den Winkeln $\phi$ und $\theta$ eines Kugelkoordinatensystems,
+dessen Ursprung im Erdmittelpunkt liegt.
 
-Um ein physikalisches Problem räumlich zu beschreiben, muss zunächst ein Koordinatensystem festgelegt werden. Diese Festlegung kann willkürlich erfolgen. Es existieren oftmals mehrere gleichwertige Koordinatensysteme. Nach Festlegung eines Koordinatensystems sollte dieses für die gesamte Beschreibung beibehalten werden. Der Wechsel in ein anderes System ist zwar prinzipiell möglich, jedoch mit einem mitunter erheblichen Rechenaufwand verbunden.
+Um ein physikalisches Problem räumlich zu beschreiben, muss zunächst ein
+Koordinatensystem festgelegt werden. Diese Festlegung kann willkürlich erfolgen.
+Es existieren oftmals mehrere gleichwertige Koordinatensysteme. Nach Festlegung
+eines Koordinatensystems sollte dieses für die gesamte Beschreibung beibehalten
+werden. Der Wechsel in ein anderes System ist zwar prinzipiell möglich, jedoch
+mit einem mitunter erheblichen Rechenaufwand verbunden.
 
 ## Mechanik
 
@@ -1459,3 +1544,357 @@ Die zur Phasenumwandlung erforderliche Energie ist materialabhängig und als spe
 $$[q_\mathrm u]=1~\frac{\mathrm J}{\mathrm{kg}} \, .$$
 
 Die spezifischen Umwandlungswärmen sind um Größenordnungen größer als die zur Erwärmung um $1~\mathrm K$ erforderlichen spezifischen Wärmen.
+
+## Elektrizitätslehre
+
+Die **Elektrizitätslehre** befasst sich mit den Eigenschaften und
+Wechselwirkungen elektrischer Ladungen.
+
+Tatsächlich lässt sich eine Wechselwirkung beobachten, die mit den bisher
+behandelten mechanischen Prozessen nicht zu erklären ist. Bereits in der Antike
+wurde diese Wechselwirkung beispielsweise bei Bernstein beobachtet. Daher
+stammt auch die Bezeichnung Elektrizität: das griechische Wort für Bernstein
+lautet ‚*elektron*‘ (ἤλεκτρον).
+
+### Elektrische Ladungen – Elektrostatik
+
+Zur quantitativen Beschreibung dieser neuen Wechselwirkung wird
+eine Größe eingeführt, die angibt, wie stark ein Körper auf diese
+Wechselwirkung anspricht. Diese Größe wird als **elektrische Ladung** bezeichnet
+und erhält das Formelzeichen $Q$.
+
+$$\textrm{Einheit: } [Q]= 1~\mathrm{As} = 1~\mathrm C \quad \textrm{(Coulomb)}$$
+
+Im Rahmen der Elektrostatik werden zunächst ruhende Ladungen betrachtet. Aus
+experimentellen Beobachtungen schlussfolgern wir die Eigenschaften der
+elektrischen Ladung beziehungsweise der zugehörigen Wechselwirkung:
+
+- Es gibt zwei Arten von Ladungen; diese werden als positiv ($+$) und negativ
+  ($-$) bezeichnet.
+
+- Zwischen gleichartigen Ladungen ($++$ oder $--$) herrscht eine abstoßende
+  Wechselwirkung, während sich verschiedenartige Ladungen ($+-$) gegenseitig
+  anziehen.
+
+- Ungleichnamige Ladungen kompensieren sich gegenseitig. Ein Körper ist
+  „ungeladen“, wenn er die gleiche Anzahl positiver und negativer Ladungen
+  trägt. Er ist dabei nicht frei von Ladungen.
+
+- Ladungen lassen sich trennen (z.B. durch Reibung geeigneter Materialien
+  aneinander). Dabei entsteht ein Ungleichgewicht zwischen positiven und
+  negativen Ladungen, und die betreffenden Körper sind „geladen“. Elektrische
+  Ladungen können jedoch nicht erzeugt werden. Das Aufladen eines Körpers
+  geschieht stets durch Ladungstrennung!
+
+- Ladungen sind (nahezu) beliebig teilbar.
+
+Aus dem Millikan<!-- style ="font-variant: small-caps;" -->-Experiment (auf
+dessen Behandlung hier verzichtet wird) folgt, dass die Ladung eine gequantelte
+Größe ist. D.h., es existiert eine kleinste, unteilbare Ladung, die sogenannte
+Elementarladung $e$. Jede in der Natur vorkommende Ladung ist ein ganzzahliges
+Vielfaches der Elementarladung. Sie beträgt
+
+$$e = 1{,}602\cdot 10^{-19}~\mathrm C \, .$$
+
+Beispielweise trägt ein Elektron genau diese Elementarladung:
+$Q_\mathrm{El}=-e$. Elektronen sind in vielen Fällen für den Transport von
+Ladungen verantwortlich – z.B. für den Stromfluss in Metallen, aber auch für die
+Ladungstrennung durch Reibung (Triboelektrizität).
+
+#### Coulomb<!-- style ="font-variant: small-caps;" -->kraft und elektrisches Feld
+
+Die oben qualitativ beschriebene Wechselwirkung trägt den Namen elektrostatische
+oder COULOMB-Wechselwirkung. Wie in der Mechanik wird die Stärke dieser
+Wechselwirkung durch eine Kraft – die Coulombkraft – beschrieben. Befinden sich
+zwei Ladungen $Q_1$ und $Q_2$ im Abstand $r$ voneinander, so beträgt diese
+Kraft:
+
+$$F_\mathrm C = \frac{1}{4\pi \varepsilon_0} \cdot \frac{Q_1 Q_2}{r^2} \, .$$
+
+Die im Vorfaktor auftretende Konstante $\varepsilon_0$ heißt elektrische
+Feldkonstante. Andere Bezeichnungen sind Influenzkonstante oder Permittivität
+des Vakuums. Ihr Wert beträgt
+(Quelle: [CODATA2018](https://physics.nist.gov/cgi-bin/cuu/Value?ep0)):
+
+$$\varepsilon_0 = 8{,}854\cdot 10^{-12}~\frac{\mathrm{A \, s}}{\mathrm{V \, m}} \, .$$
+
+Die obige Formel gibt nur den Betrag der Kraft an, nicht ihre Richtung. Wie oben
+bereits qualitativ diskutiert, wirkt diese Kraft immer entlang der
+Verbindungslinie beider Ladungen – entweder anziehend ($+-$) oder abstoßend
+($++$ oder $--$). Die Richtung der Coulombkraft wird also ausgedrückt durch den
+Verbindungsvektor $\vec r$ zwischen beiden Ladungen, beziehungsweise durch
+dessen Richtung $\vec e_r$:
+
+$$\vec F_\mathrm C = \frac{1}{4\pi \varepsilon_0} \cdot \frac{Q_1 Q_2}{r^2} \cdot \vec e_r \, .$$
+
+Ausgehend vom Coulombgesetz lässt sich folgende Überlegung anstellen: Befindet
+sich irgendwo im Raum eine Ladung $Q$, wird eine zweite Probeladung $q$ an jeder
+Stelle des Raumes eine Kraft spüren, die von ihrer Position relativ zu $Q$
+abhängt. Man sagt, im Raum herrsche ein **elektrisches Feld** $\vec{E}$, das
+durch die Ladung $Q$ erzeugt wird und das die Kraftwirkung vermittelt. Es gilt
+ganz allgemein:
+
+$$\vec{F}= q\vec{E} \, .$$
+
+Vergleicht man diese Formel mit der Coulombkraft, so ergibt sich für das
+elektrische Feld, das durch die Ladung $Q$ erzeugt wird:
+
+$$\vec{E} = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{Q}{r^2} \cdot \vec{e_r} \, .$$
+
+Da die Kraft eine vektorielle Größe ist, gilt gleiches auch für das elektrische
+Feld. Seine Richtung zeigt entlang des Verbindungsvektors $\vec{e_r}$ zwischen
+$Q$ und $q$.
+
+Das elektrische Feld kann in Feldlinienbildern dargestellt werden. Mit
+Feldlinien zeigt man an, in welche Richtung eine positive Probeladung eine Kraft
+erfahren würde. Der Feldlinienverlauf einer Ladungsanordnung kann auch
+experimentell sichtbar gemacht werden, da sich ungeladene Partikel im
+elektrischen Feld in Form der Feldlinien ausrichten. Zu Demonstrationszwecken
+werden hierfür in der Regel Grieskörner verwendet, die in Rhizinusöl schwimmen.
+
+Für die Darstellung von elektrischen Feldlinienbildern gelten folgende
+Konventionen, die die experimentellen Beobachtungen widerspiegeln:
+
+- Feldlinien beginnen beziehungsweise enden an elektrischen Ladungen.
+- Die Richtung der Feldlinien weist von positiven Ladungen weg und zu negativen
+  Ladungen hin (Kraftwirkung auf positive Probeladung).
+- Die Dichte der Feldlinien gibt Auskunft über die Stärke des Feldes und damit
+  auch über den Kraftbetrag. Dichtere Feldlinien widerspiegeln eine höhere
+  Feldstärke.
+
+![elektrische Feldlinien einer positiven Punktladung](https://upload.wikimedia.org/wikipedia/commons/9/95/VFPt_plus_thumb.svg "Feldlinienbild einer einzelnen positiven (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt plus thumb](https://commons.wikimedia.org/wiki/File:VFPt_plus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+
+![elektrische Feldlinien einer negativen Punktladung](https://upload.wikimedia.org/wikipedia/commons/d/d7/VFPt_minus_thumb.svg "Feldlinienbild einer einzelnen positiven (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+
+![elektrische Feldlinien zwischen positiver und negativer Punktladung](https://upload.wikimedia.org/wikipedia/commons/e/ed/VFPt_charges_plus_minus_thumb.svg "Verlauf der elektrischen Feldlinien zwischen positiver und negativer (Punkt-) Ladung. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt charges plus minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+
+
+#### Energie des elektrischen Felds – Coulomb<!-- style ="font-variant: small-caps;" -->energie
+
+Aus der Mechanik wissen wir, dass bei der Bewegung eines Körpers unter dem
+Einfluss einer Kraft Arbeit verrichtet wird. Dieser Grundsatz gilt
+selbstverständlich auch im Zusammenhang der Coulombkraft. Ausgangspunkt zur
+Berechnung der Arbeit, die bei Bewegung in einem elektrischen Feld verrichtet
+wird, ist die Kraft auf eine Probeladung $q$:
+
+$$\vec F = q \vec E \, .$$
+
+Wird die Ladung $q$ entgegen dieser Kraft bewegt, so muss die Arbeit
+
+$$\mathrm d W = \vec F \vec{\mathrm{d}s} = -q \vec E \vec{\mathrm{d}s}$$
+
+verrichtet werden. Das negative Vorzeichen bedeutet dabei, dass die Bewegung
+entgegen der Kraft erfolgt.
+
+Für die weitere Beschreibung führen wir das **elektrische Potential** $\phi$ als
+neue Größe ein, indem wir die verrichtetete Arbeit durch die Probeladung teilen.
+Auf diese Weise erhalten wir eine Größe, die vom konkreten Betrag der
+Probeladung unabhängig ist:
+
+$$\mathrm{d}\phi = \frac{1}{q}\mathrm dW \, .$$
+
+Das an dieser Stelle abstrakt eingeführte Potential $\phi$ stellt eine
+*messbare* Größe dar und beschreibt – wie auch die Feldstärke $\vec E$ – den
+felderfüllten Raum. Aus der obigen Einführung des Potentials lässt sich auch ein
+(einfacher) Zusammenhang zwischen Feldstärke und Potential ableiten:[^1]
+
+$$\mathrm{d}\phi = \frac{1}{q}\mathrm dW = -\vec E \vec{\mathrm{d}s} \, .$$
+
+[^1]: Tatsächlich ist der Zusammenhang zwischen elektrischem Potential $\phi$ und Feldstärke $\vec E$ weitaus tiefgründiger. Im Rahmen dieser Kurses wird dies jedoch nicht weiter betrachtet.
+
+Um die gesamte Arbeit zu berechnen, müssen wir entlang des Verschiebeweges von
+$\vec r_1$ nach $\vec r_2$ integrieren:
+
+$$W = \int\limits_{\vec r_1}^{\vec r_2} \mathrm{d}W = -q \int\limits_{\vec r_1}^{\vec r_2} \vec E \vec{\mathrm ds}
+= q \int\limits_{\vec r_1}^{\vec r_2} \mathrm d \phi \, .$$
+
+Aus Experimenten sowie aus einer formal-theoretischen Beschreibung des
+Coulombfeldes kann geschlussfolgert werden, dass der Wert dieses Integrals
+unabhängig ist vom konkret gewählten Weg, sondern nur von Ausgangs- und Endpunkt
+abhängt.[^2] Für die Arbeit im elektrischen Feld gilt dann:
+
+$$W = q \int\limits_{\vec r_1}^{\vec r_2} \mathrm d\phi = q \big(\phi(\vec r_2)- \phi(\vec r_1)\big) = qU \, .$$
+
+[^2]: Einen ähnlichen Sachverhalt kennen wir bereits von der Energieumwandlung im Schwerefeld der Erde.
+
+Wir definieren dabei die Differenz des elektrischen Potentials als eigenständige
+Größe: die **elektrische Spannung** $U$. Ihre Einheit ist
+
+$$[U]=1~\mathrm V \quad \textrm{(Volt)} \, .$$
+
+Die an einer Ladung $q$ verrichtete elektrische Arbeit bleibt als Coulombenergie
+in dieser Ladung gespeichert. Damit ist die Coulombkraft (im Sinne der
+Elektrizitätslehre) eine konservative Kraft. Folglich trägt jede Ladung in einem
+elektrischen Feld die Energie
+
+$$E_\mathrm {C}=qU \, .$$
+
+Überlässt man eine Ladung im elektrischen Feld sich selbst, so wird sie unter
+Einwirkung des Feldes und der damit verbundenen Coulombkraft beschleunigt. Um
+die Endgeschwindigkeit nach Durchfliegen einer Spannung $U$ berechnen zu können,
+kann in gewohnter Weise der Energiesatz genutzt werden. Es gilt:
+
+$$E_\mathrm{C}+E_\mathrm{kin} = const.$$
+
+bzw.
+
+$$\begin{aligned}
+E_\mathrm{C}^\mathrm{Anfang} & = E_\mathrm{kin}^\mathrm{Ende}\\
+qU & = \frac{m}{2}v^2\\
+v & = \sqrt{\frac{2qU}{m}}
+\end{aligned}$$
+
+#### Homogenes elektrisches Feld – Plattenkondensator
+
+Eine besondere Form des elektrischen Feldes ist das homogene elektrische Feld,
+bei dem an allen Orten dieselbe Feldstärke herrscht:
+$\vec E(\vec r)=\overrightarrow{\mathrm{const.}}$ Im Feldlinienbild äußert sich
+dies dadurch, dass alle Feldlinien parallel und in gleichen Abständen verlaufen.
+Für ein homogenes elektrisches Feld vereinfachen sich die obigen Formeln, und
+man erhält den Zusammenhang zwischen Feldstärke und Potentialdifferenz zwischen
+zwei Punkten im Abstand $d$ entlang der Feldlinien:
+
+$$Ed = U \quad \Leftrightarrow \quad E = \frac{U}{d} \, .$$
+
+![Feldlinienbild eines Plattenkondensators](https://upload.wikimedia.org/wikipedia/commons/e/eb/VFPt_capacitor-square-plate.svg "Feldlinienbild eines Plattenkondensators: Im inneren Raum zwischen den Kondensatorplatten liegt ein homogenes elektrisches Feld vor. An den Rändern wird diese Homogenität durch Randeffekte gestört. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt capacitor-square-plate](https://commons.wikimedia.org/wiki/File:VFPt_capacitor-square-plate.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons]")<!--
+style ="width: 10cm;"
+-->
+
+Praktisch realisieren lässt sich ein solches Feld mit einem Plattenkondensator
+(siehe obige Abbildung): zwei ebene, einander gegenüber parallel aufgestellte
+Platten (Fläche $A$) im Abstand $d$. Eine Platte wird positiv aufgeladen (Ladung
+$+Q$), die andere erhält eine gleich große negative Ladung $-Q$. Als Folge
+dieser Aufladung entsteht ein elektrisches Feld zwischen den Kondensatorplatten.
+Im Inneren des Kondensators ist dieses Feld homogen. Lediglich in den
+Randbereichen ist diese Homogenität gestört.
+
+Die einfache Beschreibung des homogenen elektrischen Feldes erlaubt einen
+weiteren Zugang zur Berechnung von Geschwindigkeiten, welche Ladungen im Feld
+erreichen. Ausgangspunkt ist die kinematische Beschreibung einer gleichmäßig
+beschleunigten Bewegung (ohne Anfangsgeschwindigkeit und ohne Anfangsweg):
+
+$$\begin{aligned}
+a & =\textrm{const.} \\
+v & = at \Rightarrow t=\frac{v}{a}\\
+s & =\frac{a}{2} t^2 = \frac{a}{2} \cdot \frac{v^2}{a^2}=\frac{v^2}{2a}
+\end{aligned}$$
+
+Für die Beschleunigung gilt das Grundgesetz der Mechanik:
+
+$$F = ma \, .$$
+
+Die wirkende Kraft ist die Coulombkraft im homogenen elektrischen Feld:
+
+$$F = qE = q \frac{U}{s} \, .$$
+
+Damit ergibt sich die Beschleunigung:
+
+$$a = \frac{qU}{ms} \, .$$
+
+Eingesetzt in das Weg-Zeit-Gesetz:
+
+$$s = \frac{v^2}{2a} = \frac{v^2}{2} \cdot \frac{ms}{qU}$$
+
+Umstellen dieser Formel führt zur Geschwindigkeit:
+
+$$v = \sqrt{\frac{2qU}{m}} \, .$$
+
+Dies ist identisch mit der Formel, die oben bereits aus dem Energieansatz
+abgeleitet wurde.
+
+#### Kapazität eines Kondensators
+
+Mit dem elektrischen Feld eines Plattenkondensators ist auch eine Spannung
+(Potentialdifferenz) zwischen den Kondensatorplatten verknüpft:
+
+$$U=Ed \, .$$
+
+Sowohl experimentelle Untersuchungen als auch theoretische Berechnungen zeigen,
+dass diese Spannung proportional zur Ladung auf den Kondensatorplatten ist:
+
+$$Q = C \cdot U$$
+
+Der in dieser Formel auftretende Proportionalitätsfaktor $C$ wird als
+**Kapazität** bezeichnet. Ihre Einheit ist
+
+$$[C] = 1~\frac{\mathrm A \, s}{\mathrm V} = 1~\mathrm F \quad \textrm{(Farad)} \, .$$
+
+Die Kapazität widerspiegelt das „Speichervermögen“ des Kondensators, das in
+zweierlei Weise aufgefasst werden kann:
+
+1. Auf den Kondensator wird eine definierte Ladungsmenge $Q$ aufgebracht: Die
+   dabei auftretende Spannung zwischen den Kondensatorplatten wird durch die
+   Kapazität bestimmt. Kondensatoren größerer Kapazität erreichen bei gleicher
+   Ladung kleinere Spannungen.
+
+2. Der Kondensator wird auf eine vorgegebene Spannung $U$ aufgeladen: Die
+   Kapazität des Kondensators bestimmt, welche Ladungsmenge dabei auf den
+   Kondensatorplatten gespeichert wird. Kondensatoren größerer Kapazität
+   speichern bei gleicher Spannung eine größere Ladungsmenge.
+
+Die Kapazität eines Plattenkondensators wird durch dessen Geometrie bestimmt:
+
+$$C = \frac{\varepsilon_0 \varepsilon_\mathrm r A}{d} \, .$$
+
+Der zusätzliche Faktor $\varepsilon_\mathrm r$ ist die relative Permittivität
+(Dielektrizitätszahl) des Füllmaterials zwischen den Kondensatorplatten.
+Selbstversändlich sollte dieses Füllmaterial keinen Ladungstransport
+ermöglichen, da sonst der Kondensator unmittelbar wieder entladen würde. Solche
+Materialien werden als Isolatoren oder Dielektrika bezeichnet. Für Vakuum oder
+Luft ist $\varepsilon_\mathrm r=1$. Dielektrika mit großem
+$\varepsilon_\mathrm r$ steigern die Kapazität des Kondensators.
+
+Plattenkondensatoren besitzen äußerst geringe Kapazitäten (Größenordnung: einige
+$~\mathrm{pF}$). Sie dienen hauptsächlich der Erzeugung homogener Felder für
+Experimente. Für den elektrotechnischen Einsatz existieren andere Bauformen mit
+höherer Kapazität. Alle Arten von Kondensatoren beruhen auf dem Prinzip, dass
+auf zwei voneinander isolierten Elektroden Ladungen gespeichert werden. Ebenso
+gilt für alle Bauformen die Proporptionalität $Q=CU$. Lediglich der Zusammenhang
+zwischen Kapazität und Geometrie des Kondensators hängt von der Bauform ab.
+
+#### Bewegte Ladungen
+
+Bereits im Zusammenhang mit dem
+[elektrischen Feld](#energie-des-elektrischen-felds-–-coulombenergie) wurde darauf
+hingeiwesen, dass durch eine elektrische Spannung Ladungsträger (d.h. elektrisch
+geladene Teilchen) in Bewegung versetzt werden. Eine solche gerichtete Bewegung
+elektrischer Ladungen wird als **elektrischer Strom** bezeichnet. Dieser
+Stromfluss ist charakterisiert durch die Ladungsmenge, die in einer definierten
+Zeit durch einen Querschnitt fließt. Das führt zur Definition der Stromstärke
+$I$:
+
+$$I = \frac{\mathrm dQ}{\mathrm dt} \quad \textrm{bzw.} \quad I = \frac{Q}{t} \,\textrm{(bei konstantem Strom)} \, .$$
+
+Ihre Einheit ist das Ampere:
+
+$$[I] = 1~\mathrm A \quad\textrm{(Ampere – SI-Grundeinheit).}$$
+
+Grundsätzlich können alle Arten von Ladungsträgern zu einem Stromfluss
+beitragen. In Metallen rufen Elektronen mit der Ladung $-e$ den Stromtransport
+hervor. In Flüssigkeiten oder Gasen können auch positiv oder negativ geladene
+Ionen für den Stromtransport verantwortlich sein.
+
+Der elektrische Strom als solcher ist nicht wahrnehmbar. Er äußert sich jedoch
+in verschiedenen Wirkungen, anhand derer ein Stromfluss erkannt und die
+Stromstärke gemessen werden kann:
+
+- Thermische Wirkung: Erwärmung des Materials, durch das der Strom fließt.
+
+- Magnetische Wirkung: Erzeugung eines Magnetfeldes.
+
+Darüber hinaus können in manchen Fällen mit einem Stromfluss weitere Effekte verbunden sein:
+
+-   Hervorrufen chemischer Reaktionen (z.B. Elektrolyse)
+
+-   Erzeugung von Licht (z.B. Leuchtstoffröhre, LED)
+
+-   Wärmetransport (z.B. Peltierelement)
+
+Voraussetzung für einen Stromfluss innerhalb eines Materials ist – neben dem
+Vorliegen eines elektrischen Feldes – die Existenz beweglicher Ladungsträger.
+Tatsächlich existieren in allen Materialien elektrische Ladungsträger
+(Elektronen, Ionen). In vielen Fällen sind diese jedoch so fest gebunden, dass
+sie sich nicht als einzelne Ladungen bewegen können. In solchen Materialien kann
+daher kein elektrischer Strom fließen. Sie heißen (elektrische) Isolatoren. Im
+Gegensatz dazu verfügen elektrische Leiter über bewegliche Ladungsträger. In
+ihnen können elektrische Ströme fließen.
