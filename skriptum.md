@@ -647,7 +647,7 @@ Die Dehnung oder Stauchung einer (linearen) Feder um eine Auslenkung $\vec{x}$ e
 
 $$\vec{F} = k\vec{x}$$
 
-Dieser Zusammenhang wird auch als lineares Kraftgesetz oder [Hooke]{.smallcaps}sches Gesetz einer Feder bezeichnet. Selbstverständlich wird dabei davon ausgegangen, dass die Kraft entlang der Federachse angreift. Der Proportionalitätsfaktor $k$ heißt Federkonstante und wird in der Einheit $[k]=1~\frac{\mathrm N}{\mathrm m}$ angegeben. Er gibt die „Härte“ der Feder an. „Weiche“ Federn besitzen eine kleine Federkonstante, d.h. für eine Verformung um eine gewisse Strecke ist entsprechend wenig Kraft aufzubringen.
+Dieser Zusammenhang wird auch als lineares Kraftgesetz oder Hooke<!-- style ="font-variant: small-caps;" -->sches Gesetz einer Feder bezeichnet. Selbstverständlich wird dabei davon ausgegangen, dass die Kraft entlang der Federachse angreift. Der Proportionalitätsfaktor $k$ heißt Federkonstante und wird in der Einheit $[k]=1~\frac{\mathrm N}{\mathrm m}$ angegeben. Er gibt die „Härte“ der Feder an. „Weiche“ Federn besitzen eine kleine Federkonstante, d.h. für eine Verformung um eine gewisse Strecke ist entsprechend wenig Kraft aufzubringen.
 
 Die Feder ihrerseits setzt dieser Verformung eine Kraft entgegen, die – gemäß dem dritten Newtonschen Axiom – der äußeren Kraft entgegengesetzt, aber gleich groß ist:
 
@@ -1664,7 +1664,7 @@ Konventionen, die die experimentellen Beobachtungen widerspiegeln:
 
 ![elektrische Feldlinien einer positiven Punktladung](https://upload.wikimedia.org/wikipedia/commons/9/95/VFPt_plus_thumb.svg "Feldlinienbild einer einzelnen positiven (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt plus thumb](https://commons.wikimedia.org/wiki/File:VFPt_plus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
 
-![elektrische Feldlinien einer negativen Punktladung](https://upload.wikimedia.org/wikipedia/commons/d/d7/VFPt_minus_thumb.svg "Feldlinienbild einer einzelnen positiven (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+![elektrische Feldlinien einer negativen Punktladung](https://upload.wikimedia.org/wikipedia/commons/d/d7/VFPt_minus_thumb.svg "Feldlinienbild einer einzelnen negativen (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
 
 ![elektrische Feldlinien zwischen positiver und negativer Punktladung](https://upload.wikimedia.org/wikipedia/commons/e/ed/VFPt_charges_plus_minus_thumb.svg "Verlauf der elektrischen Feldlinien zwischen positiver und negativer (Punkt-) Ladung. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt charges plus minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
 
@@ -1882,7 +1882,8 @@ Stromstärke gemessen werden kann:
 
 - Magnetische Wirkung: Erzeugung eines Magnetfeldes.
 
-Darüber hinaus können in manchen Fällen mit einem Stromfluss weitere Effekte verbunden sein:
+Darüber hinaus können in manchen Fällen mit einem Stromfluss weitere Effekte
+verbunden sein:
 
 -   Hervorrufen chemischer Reaktionen (z.B. Elektrolyse)
 
@@ -1898,3 +1899,239 @@ sie sich nicht als einzelne Ladungen bewegen können. In solchen Materialien kan
 daher kein elektrischer Strom fließen. Sie heißen (elektrische) Isolatoren. Im
 Gegensatz dazu verfügen elektrische Leiter über bewegliche Ladungsträger. In
 ihnen können elektrische Ströme fließen.
+
+### Stromkreise
+
+Um den Stromfluss durch einen Leiter kontinuierlich aufrecht zu erhalten, müssen
+permanent Ladungen zu- und abgeführt werden. Dies geschieht, indem die Enden des
+Leiters an eine Strom- beziehungsweise Spannungsquelle angeschlossen werden. So
+entsteht ein (geschlossener) Stromkreis. Der Aufbau von Stromkreisen wird in
+Schaltbildern dargestellt (siehe Abbildung).
+
+![Einfacher Stromkreis mit Spannungsquelle und ohmschem Widerstand](grafik/V11_Stromkreis1.svg "Schaltbild eines einfachen Stromkreises mit Spannungsquelle (oben) und ohmschem Widerstand (unten).")<!--
+style ="width: 5cm;"
+-->
+
+#### Elektrischer Widerstand
+
+Jedes elektrisch leitfähige Material „behindert“ die Bewegung der Ladungsträger
+(unter anderem durch Stöße mit ungeladenen oder unbeweglichen Teilchen). Als
+Folge hiervon stellt sich bei einer vorgegebenen Spannung in einem elektrischen
+Leiter eine bestimmte Stromstärke ein. Der Quotient aus Spannung und Stromstärke
+wird als elektrischer Widerstand $R$ bezeichnet und charakterisiert den Leiter:
+
+$$R = \frac{U}{I} \quad \textrm{Einheit: }[R] = 1~\frac{\mathrm V}{\mathrm A} = 1~\Omega \quad\textrm{(Ohm).}$$
+
+Der elektrische Widerstand eines Leiters ist nicht in jedem konstant. Es
+existieren zahlreiche Bauelemente, daren Widerstand von den aktuellen
+Betriebsbedingungen (Stromstärke, Spannung) abhängt. Die Angabe eines einzelnen
+Widerstandswerts reicht in diesem Fall nicht zur Charakterisierung des
+Bauelements aus. Stattdessen können Kennlinien angegeben werden, die den
+Zusammenhang $I(U)$ zwischen Spannung und Stromstärke eines Bauelements grafisch
+darstellen. Beispiele für typische Kennlinien verschiedener Bauelemente zeigt
+die folgende Abbildung.
+
+![Beispiele für Strom-Spannungs-Kennlinien elektrischer Bauelemente.](https://upload.wikimedia.org/wikipedia/commons/8/81/I_U_Kennlinien_einfach.png "Typische Strom-Spannungs-Kennlinien verschiedener Bauelemente. Die beiden linken Darstellungen weisen ohmsches Verhalten auf (konstanter Widerstand), während eine Diode (dritte Darstellung) ein Beispiel für ein nicht-ohmsches Bauelement ist. [Quelle: [Sbyrnes321](https://commons.wikimedia.org/wiki/User:Sbyrnes321), [I U Kennlinien einfach](https://commons.wikimedia.org/wiki/File:I_U_Kennlinien_einfach.png), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+
+Im einfachsten Fall ist die Kennlinie eines elektrischen Bauelements eine
+Gerade. Der Widerstand dieses Bauelements ist folglich konstant und unabhängig
+von den Betriebsbedingungen. Solche Bauelemente werden als
+ohm<!-- style ="font-variant: small-caps;" -->sche Bauelemente bezeichnet, da
+sie dem ohm<!-- style ="font-variant: small-caps;" -->schen Gesetz gehorchen:
+
+$$R = \frac{U}{I}= \mathrm{const.}$$
+
+Beispielsweise besitzen Metalle einen konstanten elektrischen Widerstand —
+zumindest, solange sie nicht durch den Stromfluss zu stark erhitzt werden. Führt
+hingegen die thermische Wirkung des Stroms zu einer Erwärmung des Metalls, so
+steigt in Folge dieser Temperaturerhöhung auch der Widerstand des metallischen
+Leiters an. Wenn dieser Effekt vermieden wird, zeigen Metalle ohmsches Verhalten.
+Damit lässt sich ein ohmscher Widerstand in Form eines homogenen Drahts
+realisieren. Bei gegebener Länge $l$ und Querschnittsfläche $A$ hat dieser einen
+elektrischen Widerstand von
+
+$$R = \rho \frac{l}{A}\, .$$
+
+Der hier auftretende spezifische elektrische Widerstand $\rho$ ist eine
+Materialkonstante, die die Leitungseigenschaften charakterisiert. Ihre Einheit
+ist:
+
+$$[\rho]=1~\frac{\mathrm{\Omega \, mm^2}}{\mathrm m} \, .$$
+
+Gute elektrische Leiter besitzen niedrige spezifische Widerstände. Z.B.:
+
+-   Kupfer: $\rho = 0{,}017~\frac{\mathrm{\Omega \, mm^2}}{\mathrm m}$ (guter Leiter)
+-   Blei: $\rho = 0{,}2~\frac{\mathrm{\Omega \, mm^2}}{\mathrm m}$ (schlechter Leiter)
+-   Glas: $\rho > 1\cdot 10^{16}~\frac{\mathrm{\Omega \, mm^2}}{\mathrm m}$ (Isolator)
+
+Anmerkung zur Bezeichnung: Die Adjektive „elektrisch“ (für die physikalische
+Größe) bzw. „ohmsch“ (für das Bauelement) werden häufig weggelassen und beides
+nur als Widerstand bezeichnet. Aus dem Zusammenhang ergibt sich dann, ob von der
+physikalischen Größe oder vom Bauelement die Rede ist.
+
+Der Widerstand anderer (nicht-ohmscher) Bauelemente kann von verschiedenen
+Einflussgrößen abhängen. Z.B.:
+
+-   Temperatur (Glühlampe, Heiß- & Kaltleiter)
+-   Spannung (Halbleiterdioden)
+-   Helligkeit (Photowiderstand)
+
+Diese Abhängigkeiten sind Grundlage verschiedenster Bauelemente und werden auch
+messtechnisch genutzt.
+
+#### Kirchhoff<!-- style ="font-variant: small-caps;" -->sche Regeln
+
+Elektrische Stromkreise können durch Verzweigungen beliebig komplex werden
+(siehe nachfolgende Abbildung). Sie bestehen jedoch stets aus einfachen
+(unverzweigten) Bausteinen, die als *Maschen* bezeichnet werden und die an
+sogenannten *Knoten* miteinander verbunden sind. Zur Berechnung der Spannungen
+und Ströme in einem Stromkreis dienen die beiden Kirchhoffschen Regeln, die auch
+als Knoten- und Maschenregel bekannt sind.
+
+![Schaltbild eines verzweigten Stromkreises mit zwei Maschen und zwei Knoten.](grafik/V11_Stromkreis2.svg "Einfache Form eines verzweigten Stromkreises mit zwei Maschen und zwei Knoten.")<!--
+style ="width: 7cm;"
+-->
+
+Die Maschenregel gibt Auskunft über die Spannungen innerhalb einer Masche:
+
+> Die Summe aller Spannungen an Verbrauchern (Widerständen) in einer Masche ist
+> gleich der Summe der Urspannungen in dieser Masche:
+>
+> $$U_0 = U_1 + U_2 + \dots$$
+
+Die Knotenregel gibt Auskunft über die Ströme an einem Knoten:
+
+> Die Summe aller in einen Knoten einfließenden Ströme ist gleich der Summe der
+> ausfließenden Ströme:
+>
+> $$I_\mathrm{ein,1} + I_\mathrm{ein,2} + \dots = I_\mathrm{aus,1} + I_\mathrm{aus,2} + \dots$$
+
+Anhand dieser Formeln lassen sich nun die Gesamtwiderstände elektrischer
+Schaltungen bestimmen. Für komplexe Stromkreise werden hierzu für jeden Knoten
+beziehungsweise für jede Masche die entsprechenden Formeln aufgeschrieben und
+das daraus resultierende Gleichungssystem gelöst.
+
+Insbesondere folgen aus den Kirchhoffschen Regeln die Formeln für Parallel- und
+Reihenschaltung von Widerständen. Wir betrachten hierfür zwei ohmsche
+Widerstände. Tatsächlich gelten diese Zusammenhänge aber für beliebige
+Bauelemente.
+
+![Reihenschaltung und Parallelschaltung von zwei ohmschen Widerständen an einer Spannungsquelle](grafik/V11_Reihen-Parallelschaltung.svg "Parallelschaltung (oben) und Reihenschaltung (unten) von zwei ohmschen Bauelementen an einer Spannungsquelle.")<!-- style="width:8cm;" -->
+
+Bei der *Reihenschaltung* zweier Widerstände befindet sich zwischen diesen keine
+Verzweigung. Aus der Knotenregel folgt, dass durch beide Widerstände derselbe
+Strom fließen muss. Die Maschenregel besagt, dass sich die Spannungsabfälle
+beider Widerstände $U_1$ und $U_2$ zur Gesamtspannung $U_\mathrm{ges}$ addieren.
+Sind keine weiteren Bauelemente an die Spannungsquelle angeschlossen, so ist
+diese Gesamtspannung gleich der Betriebsspannung der Spannungsquelle. Für den
+Gesamtwiderstand der Reihenschaltung ergibt sich damit:
+
+ $$R_{ges} = \frac{U_{ges}}{I} = \frac{U_1 + U_2 + \dots}{I} = \frac{U_1}{I} + \frac{U_2}{I} + \dots = R_1 + R_2 + \dots$$
+
+ Der Gesamtwiderstand einer Reihenschaltung ist die Summe aller
+ Einzelwiderstände.
+
+Bei einer *Parallelschaltung* zweier Widerstände bilden diese eine Masche. Laut
+Maschenregel müssen ihre Spannungsabfälle identisch sein: $U_1=U_2=U$. Der
+Spannungsabfall über einem der beiden Widerstände wird dabei als Urspannung
+dieser Masche aufgefasst. An den Knoten teilt sich der Gesamtstrom in zwei
+Teilströme auf, die über je einen der beiden Widerstände fließen:
+$I_{ges}=I_1+I_2$. Für den Gesamtwiderstand der Parallelschaltung gilt
+demzufolge:
+
+$$\frac{1}{R_{ges}} = \frac{I_{ges}}{U} = \frac{I_1 + I_2 + \dots}{U} = \frac{I_1}{U} + \frac{I_2}{U} + \dots =\frac{1}{R_1} + \frac{1}{R_2} + \dots$$
+
+Der Gesamtwiderstand ist dabei kleiner als der kleinste Teilwiderstand.
+
+#### Messung von Strom und Spannung
+
+Um den Stromfluss durch ein Bauelement zu bestimmen, muss durch das Amperemeter
+(Strommessgerät) derselbe Strom fließen wie durch das betrachtete Baulement.
+Gemäß den Kirchhoffschen Regeln müssen Amperemeter und Bauelement hierfür in
+Reihe (ohne dazwischenliegenden Knoten) angeschlossen werden. Allerdings besitzt
+das Amperemeter selbst auch einen unvermeidbaren elektrischen Widerstand
+(sogenannter Innenwiderstand). Die angelegte Spannung teilt sich folglich auf in
+einen Anteil am Bauelement und einen Anteil am Messgerät. Um die Funktion des
+Stromkreises möglichst wenig zu beeinflussen, benötigen Amperemeter einen
+möglichst kleinen Innenwiderstand. Realistisch sind dabei Werte von einigen
+$\mathrm{m\Omega}$.
+
+Bei der Spannungsmessung wiederum muss am Messgerät (Voltmeter) dieselbe
+Spannung anliegen wie am Bauelement. Folglich muss das Voltmeter parallel zum
+betrachteten Baulement angeschlossen werden. Da jedoch auch das Voltmeter einen
+endlichen Innenwiderstand besitzt, fließt ein Teil des Stroms über das
+Messgerät. Um die Funktion des Stromkreises möglichst wenig zu beeinflussen,
+muss der Stromfluss durch das Messgerät möglichst klein gehalten werden.
+Voltmeter benötigen also möglichst hohe Innenwiderstände, die in der Praxis im
+Bereich mehrerer $\mathrm{M\Omega}$ liegen.
+
+#### Elektrische Leistung
+
+Bereits im [vorangegangenen Kapitel](#energie-des-elektrischen-felds-–-coulombenergie)
+wurde festgestellt, dass elektrische Felder Arbeit an beweglichen Ladungsträgern
+verrichten, indem sie diese beschleunigen. Der Betrag dieser Arbeit war bestimmt
+durch die Größe der Ladung sowie durch die anliegende Potentialdifferenz:
+
+$$W_\mathrm{el} = QU \, .$$
+
+Auch für einen kontinuierlichen Stromfluss muss permanent Arbeit gegen den
+elektrischen Widerstand des Leiters beziehungsweise Bauelements verrichtet
+werden. Wird keine elektrische Arbeit mehr verrichtet (zum Beispiel durch
+Abschalten der Spannung), so kommt auch der Stromfluss zum Erliegen.
+
+In der Mechanik hatten wir die Leistung definiert als den Quotienten aus
+verrichteter Arbeit und der dafür benötigten Zeit. Dies lässt sich
+selbstverständlich auch auf die elektrische Arbeit anwenden:
+
+$$P_\mathrm{el} = \frac{\mathrm d W_\mathrm{el}}{\mathrm d t} = \dot{Q} U + Q \dot{U} \, .$$
+
+Für den Fall konstanter Spannung ($U=$const) erhalten wir:
+
+$$P_{el} = \dot{Q}U = UI \, .$$
+
+Die elektrische Leistung ist das Produkt aus Spannung und Strom. Hohe Ströme
+bewirken (bei fester Spannung) eine hohe Leistung. Die dabei verrichtete Arbeit
+ergibt sich aus der Leistung und der Dauer der Leistungsabgabe:
+
+$$W = \int P \mathrm dt \, .$$
+
+Diese Arbeit wird durch den Stromfluss an den elektrischen Verbrauchern
+verrrichtet. Sie ist es auch, die bei der „Stromrechung“ bezahlt werden muss.
+Aus der obigen Gleichung folgt eine weitere Einheit der Arbeit:
+
+$$[W]=1~\mathrm{Ws} \quad \textrm{bzw.} \quad [W]=1~\mathrm{kWh} \, .$$
+
+Dabei gilt
+
+$$1~\mathrm J = 1~\mathrm{Ws} \, .$$
+
+Die gemeinhin als „Stromzähler“ bezeichneten Messgeräte am Hausanschluss werden
+korrekterweise als Kilowattstundenzähler bezeichnet, denn sie zeigen die
+elektrische Arbeit an, wie das folgende Foto zeigt:
+
+![Foto eines Kilowattstundenzählers](grafik/V11_kWh-Zähler.jpg "Kilowattstundenzähler (umgangssprachlich Stromzähler) messen die zugeführte elektrische Arbeit, die vom Stromanbieter in Rechnung gestellt wird.")<!--
+  style="width:10cm;"
+-->
+
+An einem ohmschen Widerstand wird die gesamte durch den Strom verrichtete Arbeit
+in Wärme umgewandelt und an die Umgebung abgegeben (thermische Wirkung des
+Stroms). Andere Bauelemente setzen einen Teil der Arbeit entsprechend ihres
+Bestimmungszwecks um, zum Beispiel in Licht (Glühlampe, LED) oder in Bewegung
+(Elektromotor). Ein Teil der eingesetzten elektrischen Arbeit wird dabei jedoch
+stets in Wärme umgewandelt und an die Umgebung abgegeben. Der Wirkungsgrad
+$\eta$ gibt an, wie groß der Anteil der nutzbaren Arbeit beziehungsweise
+Leistung ist:
+
+$$\eta = \frac{\textrm{bestimmungsgemäß nutzbare Arbeit}}{\textrm{Gesamtarbeit}} = \frac{W_\mathrm{nutz}}{W_\mathrm{ges}}
+= \frac{P_\mathrm{nutz}}{P_\mathrm{ges}} = \frac{P_\mathrm{nutz}}{UI}$$
+
+Beispielsweise besitzt eine Glühlampe einen Wirkungsgrad von nur $\eta =(3 \dots 5)\%$.
+
+Mit dem ohmschen Gesetz lassen sich weitere Formeln für die elektrische Leistung
+angeben:
+
+$$P_{el} = UI = RI^2 = \frac{U^2}{R} \, .$$
+
+Bei gleicher Stromstärke wird an Bauelementen mit großem Widerstand eine
+entsprechend größere Leistung umgesetzt. Bei gleicher Spannung wird an
+Bauelementen mit großem Widerstand eine entsprechend kleinere Leistung umgesetzt.
