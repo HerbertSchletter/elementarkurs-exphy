@@ -286,85 +286,163 @@ mit einem mitunter erheblichen Rechenaufwand verbunden.
 
 ## Mechanik
 
-Die Mechanik ist ein Teilgebiet der klassischen Physik. Sie beschreibt die Bewegungseigenschaften von Körpern sowie die Wirkung von Kräften.
+Die Mechanik ist ein Teilgebiet der klassischen Physik. Sie beschreibt die
+Bewegungseigenschaften von Körpern sowie die Wirkung von Kräften.
 
 ### Kinematik
 
-Die Kinematik ist ein Teilgebiet der Mechanik und befasst sich mit der Beschreibung der Bewegung von Körpern. Die Ursachen der Bewegung (genauer: der Änderungen eines Bewegungszustands) werden nicht betrachtet.
+Die Kinematik ist ein Teilgebiet der Mechanik und befasst sich mit der
+Beschreibung der Bewegung von Körpern. Die Ursachen der Bewegung (genauer: der
+  Änderungen eines Bewegungszustands) werden nicht betrachtet.
 
-Für die Bewegung eines Körpers auf geraden oder gekrümmten Bahnen spielen Form und Größe dieses Körpers keine Rolle und können vernachlässigt werden. Auf diese Weise gelangt man zum Modell des Massepunktes bzw. der Punktmasse, bei dem die gesamte Masse des betrachteten Körpers in einem Punkt vereinigt ist (vgl. Hinweise zu physikalischen Modellen im Kapitel [Einführung](#was-ist-physik?)). Die Lage dieses Massepunktes innerhalb des ursprünglichen Körpers ist nicht frei wählbar, sondern entspricht dem Schwerpunkt (oder Massenmittelpunkt), für den eine genaue Berechnungsvorschrift existiert. Auf letztere wird jedoch in diesem Kurs nicht näher eingegangen. Das Modell der Punktmasse kann nicht angewendet werden zur Beschreibung einer Eigenrotation eines Körpers oder bei Verformung des Körpers.
+Für die Bewegung eines Körpers auf geraden oder gekrümmten Bahnen spielen Form
+und Größe dieses Körpers keine Rolle und können vernachlässigt werden. Auf diese
+Weise gelangt man zum Modell des Massepunktes bzw. der Punktmasse, bei dem die
+gesamte Masse des betrachteten Körpers in einem Punkt vereinigt ist (vgl.
+Hinweise zu physikalischen Modellen im Kapitel [Einführung](#was-ist-physik?)).
+Die Lage dieses Massepunktes innerhalb des ursprünglichen Körpers ist nicht frei
+wählbar, sondern entspricht dem Schwerpunkt (oder Massenmittelpunkt), für den
+eine genaue Berechnungsvorschrift existiert. Auf letztere wird jedoch in diesem
+Kurs nicht näher eingegangen. Das Modell der Punktmasse kann nicht angewendet
+werden zur Beschreibung einer Eigenrotation eines Körpers oder bei Verformung
+des Körpers.
 
-Ziel der Kinematik ist also, die Position eines Massepunktes im Raum sowie deren zeitliche Änderung (= Bewegung) anzugeben. Zu diesem Zweck benötigen wir eine Größe, die die Position erfasst. Dies ist der **Ortsvektor** $\vec r$. Er zeigt stets vom Koordinatenursprung zur aktuellen Position des Massepunktes. Im allgemeinen Fall ist der Ortsvektor dreidimensional mit den Komponenten
+Ziel der Kinematik ist also, die Position eines Massepunktes im Raum sowie deren
+zeitliche Änderung (= Bewegung) anzugeben. Zu diesem Zweck benötigen wir eine
+Größe, die die Position erfasst. Dies ist der **Ortsvektor** $\vec r$. Er zeigt
+stets vom Koordinatenursprung zur aktuellen Position des Massepunktes. Im
+allgemeinen Fall ist der Ortsvektor dreidimensional mit den Komponenten
 
 $$\vec{r}(t)=\begin{pmatrix} x(t) \\ y(t) \\ z(t) \end{pmatrix} .$$
-Bei ebenen (zweidimensionalen) Bewegungen enthält der Ortsvektor entsprechend nur zwei Komponenten. Bei geradlinigen Bewegungen reduziert sich der Ortsvektor auf eine skalare Größe.
 
-Bewegt sich der Massepunkt, so ändert sich sein Ortsvektor, d.h. der Ortsvektor ist zeitabhängig: $\vec{r}= \vec{r}(t)$. Der Zusammenhang $\vec{r}(t)$ wird als **Orts-Zeit-Gesetz** oder **Weg-Zeit-Gesetz** bezeichnet. Anhand dieses Orts-Zeit-Gesetzes lassen sich grundlegende Bewegungsformen unterscheiden, die im Folgenden zunächst für die geradlinige Bewegung betrachtet werden.
+Bei ebenen (zweidimensionalen) Bewegungen enthält der Ortsvektor entsprechend
+nur zwei Komponenten. Bei geradlinigen Bewegungen reduziert sich der Ortsvektor
+auf eine skalare Größe.
+
+Bewegt sich der Massepunkt, so ändert sich sein Ortsvektor, d.h. der Ortsvektor
+ist zeitabhängig: $\vec{r}= \vec{r}(t)$. Der Zusammenhang $\vec{r}(t)$ wird als
+**Orts-Zeit-Gesetz** oder **Weg-Zeit-Gesetz** bezeichnet. Anhand dieses
+Orts-Zeit-Gesetzes lassen sich grundlegende Bewegungsformen unterscheiden, die
+im Folgenden zunächst für die geradlinige Bewegung betrachtet werden.
 
 #### Geradlinige Bewegung
 
-Bei der Beschreibung einer geradlinigen Bewegung wird der Ortsvektor ersetzt durch eine skalare Positions- oder Wegangabe, z.B. $x(t)$.
+Bei der Beschreibung einer geradlinigen Bewegung wird der Ortsvektor ersetzt
+durch eine skalare Positions- oder Wegangabe, z.B. $x(t)$.
 
 ##### Gleichförmig geradlinige Bewegung
 
-Eine geradlinige Bewegung wird als gleichförmig bezeichnet, wenn in gleichen Zeitabschnitten $\Delta t$ jeweils gleiche Strecken $\Delta x$ zurückgelegt werden. In der grafischen Darstellung des Orts-Zeit-Gesetzes $x(t)$ entspricht dies einer Geraden (siehe nachfolgende Abbildung, links). Der Anstieg dieser Geraden gibt an, wie schnell sich die Position des Massepunktes (das heißt sein Ortsvektor) ändert und wird als Geschwindigkeit $v$ definiert:
+Eine geradlinige Bewegung wird als gleichförmig bezeichnet, wenn in gleichen
+Zeitabschnitten $\Delta t$ jeweils gleiche Strecken $\Delta x$ zurückgelegt
+werden. In der grafischen Darstellung des Orts-Zeit-Gesetzes $x(t)$ entspricht
+dies einer Geraden (siehe nachfolgende Abbildung, links). Der Anstieg dieser
+Geraden gibt an, wie schnell sich die Position des Massepunktes (das heißt sein
+Ortsvektor) ändert und wird als Geschwindigkeit $v$ definiert:
 
 $$v=\frac{\Delta x}{\Delta t} \qquad\textrm{Einheit: } \left[ v \right]=1~\frac{\mathrm m}{\mathrm s}$$
 
-Wird diese Berechnung – wie hier angegeben – für einen makroskopischen Zeitraum $\Delta t$ durchgeführt, so ergibt sich die Durchschnittsgeschwindigkeit während des betrachteten Zeitraums. Für die gleichförmige Bewegung ist die konkrete Wahl des Zeitintervalls jedoch unerheblich, da das Orts-Zeit-Gesetz eine Gerade darstellt und damit die Geschwindigkeit für alle Zeitintervalle gleich ist. Folglich ist bei der gleichförmigen Bewegung die Geschwindigkeit eine Konstante (siehe Abbildung, mittleres Diagramm).
+Wird diese Berechnung – wie hier angegeben – für einen makroskopischen Zeitraum
+$\Delta t$ durchgeführt, so ergibt sich die Durchschnittsgeschwindigkeit während
+des betrachteten Zeitraums. Für die gleichförmige Bewegung ist die konkrete Wahl
+des Zeitintervalls jedoch unerheblich, da das Orts-Zeit-Gesetz eine Gerade
+darstellt und damit die Geschwindigkeit für alle Zeitintervalle gleich ist.
+Folglich ist bei der gleichförmigen Bewegung die Geschwindigkeit eine Konstante
+(siehe Abbildung, mittleres Diagramm).
 
-Aus der Definition der Geschwindigkeit erhält man durch Umstellen für den in einem Zeitintervall zurückgelegten Weg:
+Aus der Definition der Geschwindigkeit erhält man durch Umstellen für den in
+einem Zeitintervall zurückgelegten Weg:
 
 $$\Delta x = v\cdot\Delta t \, .$$
-Setzt man den Beginn des betrachteten Zeitintervalls auf den Zeitpunkt $t=0$, so erhält man das Weg-Zeit-Gesetz der gleichförmig geradlinigen Bewegung:
+
+Setzt man den Beginn des betrachteten Zeitintervalls auf den Zeitpunkt $t=0$, so
+erhält man das Weg-Zeit-Gesetz der gleichförmig geradlinigen Bewegung:
 
 $$x(t) = vt+x_0 \, ,$$
-wobei $x_0$ die Position des Körpers (Massepunkts) zum Zeitpunkt $t=0$ angibt. Diese kann durch geeignete Wahl des Koordinatensystems häufig $x_0 = 0$ gesetzt werden.
+
+wobei $x_0$ die Position des Körpers (Massepunkts) zum Zeitpunkt $t=0$ angibt.
+Diese kann durch geeignete Wahl des Koordinatensystems häufig $x_0 = 0$ gesetzt
+werden.
 
 ![Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung](grafik/V02_gleichfoermig.svg "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung")
 
 ##### Beschleunigte geradlinige Bewegung
 
-Bewegungen, bei denen die Geschwindigkeit nicht konstant ist, werden als beschleunigt bezeichnet. Das Weg-Zeit-Gesetz ist dabei keine Gerade, d.h., in gleichen Zeitintervallen $\Delta t$ werden zu unterschiedlichen Zeitpunkten verschiedene Wege $\Delta x$ zurückgelegt. Zudem hängt die Bestimmung der Durchschnittsgeschwindigkeit von der Länge des betrachteten Zeitintervalls ab. Zur Bestimmung einer exakten Momentangeschwindigkeit muss daher das betrachtete Zeitintervall infintesimal klein gewählt werden. Mathematisch entspricht dies der Ableitung des Orts-Zeit-Gesetzes nach der Zeit:
+Bewegungen, bei denen die Geschwindigkeit nicht konstant ist, werden als
+beschleunigt bezeichnet. Das Weg-Zeit-Gesetz ist dabei keine Gerade, d.h., in
+gleichen Zeitintervallen $\Delta t$ werden zu unterschiedlichen Zeitpunkten
+verschiedene Wege $\Delta x$ zurückgelegt. Zudem hängt die Bestimmung der
+Durchschnittsgeschwindigkeit von der Länge des betrachteten Zeitintervalls ab.
+Zur Bestimmung einer exakten Momentangeschwindigkeit muss daher das betrachtete
+Zeitintervall infintesimal klein gewählt werden. Mathematisch entspricht dies
+der Ableitung des Orts-Zeit-Gesetzes nach der Zeit:
 
 $$v_\mathrm{momentan}(t) =\lim_{\Delta t \to 0}\frac{\Delta x}{\Delta t} = \frac{\mathrm d x(t)}{\mathrm dt} = \dot x(t) \, .$$
-Der Zusammenhang $v(t)$ wird dabei als **Geschwindigkeits-Zeit-Gesetz**  bezeichnet.
 
-Bei beschleunigten Bewegungen ist also die Geschwindigkeit keine Konstante: $v(t)\neq\mathrm{const.}$ Um die Änderung der Geschwindigkeit zu quantifizieren, wird die **Beschleunigung** $a$ als weitere physikalische Größe eingeführt, die die zeitliche Veränderung der Geschwindigkeit erfasst. Mathematisch bedeutet dies, dass die Ableitung der Geschwindigkeit nach der Zeit gebildet wird:
+Der Zusammenhang $v(t)$ wird dabei als **Geschwindigkeits-Zeit-Gesetz**
+bezeichnet.
+
+Bei beschleunigten Bewegungen ist also die Geschwindigkeit keine Konstante:
+$v(t)\neq\mathrm{const.}$ Um die Änderung der Geschwindigkeit zu quantifizieren,
+wird die **Beschleunigung** $a$ als weitere physikalische Größe eingeführt, die
+die zeitliche Veränderung der Geschwindigkeit erfasst. Mathematisch bedeutet
+dies, dass die Ableitung der Geschwindigkeit nach der Zeit gebildet wird:
 
 $$a (t) = \frac{\mathrm dv (t)}{\mathrm dt} = \frac{\mathrm d^2 x (t)}{\mathrm dt^2} = \ddot{x} (t) \qquad \textrm {Einheit:}\, [a] = 1~\frac{\mathrm m}{\mathrm s^2}$$
 
-In physikalischer Sprechweise ist auch das Bremsen eine Beschleunigung, jedoch mit negativem Vorzeichen $a<0$. Vektoriell ausgedrückt ist beim Bremsen die Richtung der Beschleunigung dem Geschwindigkeitsvektor entgegengesetzt.
+In physikalischer Sprechweise ist auch das Bremsen eine Beschleunigung, jedoch
+mit negativem Vorzeichen $a<0$. Vektoriell ausgedrückt ist beim Bremsen die
+Richtung der Beschleunigung dem Geschwindigkeitsvektor entgegengesetzt.
 
-Ausgehend von der Beschleunigung erhält man das Weg-Zeit-Gesetz durch zweimalige Integration. Für den Sonderfall der gleichmäßig beschleunigten Bewegung ($a= \mathrm{const.}$) folgt für das Geschwindigkeits-Zeit-Gesetz $v(t)$:
+Ausgehend von der Beschleunigung erhält man das Weg-Zeit-Gesetz durch zweimalige
+Integration. Für den Sonderfall der gleichmäßig beschleunigten Bewegung
+($a= \mathrm{const.}$) folgt für das Geschwindigkeits-Zeit-Gesetz $v(t)$:
 
 $$v (t) = \int\limits a\, \mathrm dt = a \cdot t + C_1 \,.$$
 
-Die Integrationskonstante $C_1$ folgt mathematisch aus der Lösung des unbestimmten Integrals und muss noch mit einer physikalischen Größe identifiziert werden. Aus den Anfangsbedingungen (Anfangszeitpunkt $t = 0$) folgt:
+Die Integrationskonstante $C_1$ folgt mathematisch aus der Lösung des
+unbestimmten Integrals und muss noch mit einer physikalischen Größe
+identifiziert werden. Aus den Anfangsbedingungen (Anfangszeitpunkt $t = 0$)
+folgt:
 
 $$v(t = 0) = a \cdot 0 + C_1 = C_1\,.$$
 
-Die Integrationskonstante entspricht also der Anfangsgeschwindigkeit zum Zeitpunkt $t = 0$, d.h. $C_1 = v_0$. Das Geschwindigkeits-Zeit-Gesetz der gleichmäßig beschleunigten Bewegung lautet also:
+Die Integrationskonstante entspricht also der Anfangsgeschwindigkeit zum
+Zeitpunkt $t = 0$, d.h. $C_1 = v_0$. Das Geschwindigkeits-Zeit-Gesetz der
+gleichmäßig beschleunigten Bewegung lautet also:
 
 $$v (t) = a \cdot t + v_0 \,.$$
 
-Das Weg-Zeit-Gesetz erhält man durch Integration des Geschwindigkeits-Zeit-Gesetzes:
+Das Weg-Zeit-Gesetz erhält man durch Integration des
+Geschwindigkeits-Zeit-Gesetzes:
 
 $$x(t)= \int\limits v (t)\mathrm dt = \int\limits (a \cdot t + v_0) \mathrm dt = \frac{1}{2}a t^2 + v_0 t + C_2$$
 
-Über die Anfangsbedingungen lässt sich wiederum die physikalische Bedeutung der Integrationskonstante $C_2$ finden:
+Über die Anfangsbedingungen lässt sich wiederum die physikalische Bedeutung der
+Integrationskonstante $C_2$ finden:
 
 $$x(t = 0) =\frac{a}{2} \cdot 0^2 + v_0 \cdot 0 + C_2 = C_2$$
 
-Die Konstante $C_2$ entspricht also der Anfangsposition $x_0$ des Körpers zum Zeitpunkt $t=0$. Damit erhalten wir das Weg-Zeit-Gesetz der gleichmäßig beschleunigten Bewegung:
+Die Konstante $C_2$ entspricht also der Anfangsposition $x_0$ des Körpers zum
+Zeitpunkt $t=0$. Damit erhalten wir das Weg-Zeit-Gesetz der gleichmäßig
+beschleunigten Bewegung:
 
 $$x(t)=\frac{1}{2} a t^2 + v_0 t + x_0$$
 
-Für ungleichmäßig beschleunigte Bewegungen ($a \neq \mathrm{const.}$) ist die Vorgehensweise prinzipiell gleich. Ausgehend vom zeitlichen Verlauf der Beschleunigung $a(t)$ erhält man durch ein- bzw. zweimalige Integration das Geschwindigkeits-Zeit-Gesetz und das Orts-Zeit-Gesetz. Die hergeleiteten Beziehungen für $x(t)$, $v(t)$ und $a(t)$ spiegeln sich auch in den grafischen Darstellungen des Orts-Zeit-Gesetzes, Geschwindigkeits-Zeit-Gesetzes und Beschleunigungs-Zeit-Gesetzes wider. Für die gleichmäßig beschleunigte Bewegung sind diese Diagramme in der nachfolgenden Abbildung dargestellt.
+Für ungleichmäßig beschleunigte Bewegungen ($a \neq \mathrm{const.}$) ist die
+Vorgehensweise prinzipiell gleich. Ausgehend vom zeitlichen Verlauf der
+Beschleunigung $a(t)$ erhält man durch ein- bzw. zweimalige Integration das
+Geschwindigkeits-Zeit-Gesetz und das Orts-Zeit-Gesetz. Die hergeleiteten
+Beziehungen für $x(t)$, $v(t)$ und $a(t)$ spiegeln sich auch in den grafischen
+Darstellungen des Orts-Zeit-Gesetzes, Geschwindigkeits-Zeit-Gesetzes und
+Beschleunigungs-Zeit-Gesetzes wider. Für die gleichmäßig beschleunigte Bewegung
+sind diese Diagramme in der nachfolgenden Abbildung dargestellt.
 
 ![Diagramme für die gleichmäßig beschleunigte geradlinige Bewegung](grafik/V02_gleichm-beschl.svg "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichmäßig beschleunigten geradlinigen Bewegung")
 
-Ein Spezialfall der gleichmäßig beschleunigten Bewegung ist der freie Fall. Zu dessen Beschreibung definieren wir folgendes eindimensionale Koordinatensystem, wobei wir die Koordinate $x$ der Anschaulichkeit wegen durch die Höhe $h$ ersetzen (siehe Abbildung):
+Ein Spezialfall der gleichmäßig beschleunigten Bewegung ist der freie Fall. Zu
+dessen Beschreibung definieren wir folgendes eindimensionale Koordinatensystem,
+wobei wir die Koordinate $x$ der Anschaulichkeit wegen durch die Höhe $h$
+ersetzen (siehe Abbildung):
 
 -   $h$-Achse in vertikaler Richtung, positive Richtung zeigt nach oben.
 -   Der Nullpunkt der $h$-Achse entspricht dem Startpunkt
@@ -374,15 +452,21 @@ Ein Spezialfall der gleichmäßig beschleunigten Bewegung ist der freie Fall. Zu
 style = "width: 2cm;"
 -->
 
-Im freien Fall wird der Körper nach unten (d.h. in Richtung der negativen $h$-Achse) beschleunigt. Dabei wirkt die Fallbeschleunigung, die in der Nähe der Erdoberfläche annähernd konstant den Wert $a=g=9{,}81~\frac{\mathrm m}{\mathrm s^2}$ aufweist (siehe folgende Abbildung). Für das Orts-Zeit-Gesetz gilt demnach:
+Im freien Fall wird der Körper nach unten (d.h. in Richtung der negativen
+$h$-Achse) beschleunigt. Dabei wirkt die Fallbeschleunigung, die in der Nähe der
+Erdoberfläche annähernd konstant den Wert $a=g=9{,}81~\frac{\mathrm m}{\mathrm s^2}$
+aufweist (siehe folgende Abbildung). Für das Orts-Zeit-Gesetz gilt demnach:
 
 $$h=-\frac{g}{2}t^2$$
 
-Beginnt der freie Fall nicht in der Höhe $h=0$, so ist die Anfangshöhe $h_0$ zu berücksichtigen:
+Beginnt der freie Fall nicht in der Höhe $h=0$, so ist die Anfangshöhe $h_0$ zu
+berücksichtigen:
 
 $$h=-\frac{g}{2}t^2 + h_0$$
 
-Von einem senkrechten Wurf wird gesprochen, wenn der Körper zusätzlich eine Anfangsgeschwindigkeit $v_0$ in vertikale Richtung erhält. Für das Orts-Zeit-Gesetz gilt dann:
+Von einem senkrechten Wurf wird gesprochen, wenn der Körper zusätzlich eine
+Anfangsgeschwindigkeit $v_0$ in vertikale Richtung erhält. Für das
+Orts-Zeit-Gesetz gilt dann:
 
 $$h=-\frac{g}{2}t^2 + v_0 t + h_0$$
 
@@ -390,7 +474,9 @@ $$h=-\frac{g}{2}t^2 + v_0 t + h_0$$
 
 #### Überlagerung von Bewegungen – mehrdimensionale Bewegung
 
-Bewegungen, die nicht geradlinig verlaufen, müssen in zwei- bzw. dreidimensionalen Koordinatensystemen beschrieben werden. Der Ortsvektor besitzt dann im allgemeinen Fall drei Komponenten:
+Bewegungen, die nicht geradlinig verlaufen, müssen in zwei- bzw.
+dreidimensionalen Koordinatensystemen beschrieben werden. Der Ortsvektor besitzt
+dann im allgemeinen Fall drei Komponenten:
 
 $$\vec r(t)=\begin{pmatrix}x(t) \\ y(t) \\ z(t)\end{pmatrix}\, .$$
 Gleiches gilt für die Geschwindigkeit
@@ -398,6 +484,7 @@ Gleiches gilt für die Geschwindigkeit
 $$\vec v(t) =\dot{\vec r}(t) = \frac{\mathrm d}{\mathrm dt}\vec r(t) = \frac{\mathrm d}{\mathrm dt}\begin{pmatrix}x(t) \\ y(t) \\ z(t)\end{pmatrix}
         = \begin{pmatrix}\frac{\mathrm dx(t)}{\mathrm dt} \\ \frac{\mathrm dy(t)}{\mathrm dt} \\ \frac{\mathrm dz(t)}{\mathrm dt} \end{pmatrix}
         =\begin{pmatrix}v_\mathrm x(t) \\ v_\mathrm y(t) \\ v_\mathrm z(t)\end{pmatrix}$$
+
 und die Beschleunigung
 
 $$\vec a(t) =\dot{\vec v}(t) = \frac{\mathrm d}{\mathrm dt}\vec v(t)
@@ -405,9 +492,14 @@ $$\vec a(t) =\dot{\vec v}(t) = \frac{\mathrm d}{\mathrm dt}\vec v(t)
         = \begin{pmatrix}\frac{\mathrm dv_\mathrm x(t)}{\mathrm dt} \\ \frac{\mathrm dv_\mathrm y(t)}{\mathrm dt} \\ \frac{\mathrm dv_\mathrm z(t)}{\mathrm dt} \end{pmatrix}
         =\begin{pmatrix}a_\mathrm x(t) \\ a_\mathrm y(t) \\ a_\mathrm z(t)\end{pmatrix} \, .$$
 
-Die Komponenten dieser Vektoren können getrennt voneinander jeweils als geradlinige Bewegung betrachtet werden. D.h. die Bewegungen in verschiedene Raumrichtungen überlagern sich ohne gegenseitige Beeinflussung. Diese Eigenschaft wird als *Superposition* der Bewegung bezeichnet.
+Die Komponenten dieser Vektoren können getrennt voneinander jeweils als
+geradlinige Bewegung betrachtet werden. D.h. die Bewegungen in verschiedene
+Raumrichtungen überlagern sich ohne gegenseitige Beeinflussung. Diese
+Eigenschaft wird als *Superposition* der Bewegung bezeichnet.
 
-Wir betrachten die Bewegung auf einer gekrümmten Bahn am Beispiel des waagerechten Wurfs. Für diesen definieren wir folgendes zweidimensionale Koordinatensystem mit $x$- & $z$-Achse (siehe nachfolgende Abbildung):
+Wir betrachten die Bewegung auf einer gekrümmten Bahn am Beispiel des
+waagerechten Wurfs. Für diesen definieren wir folgendes zweidimensionale
+Koordinatensystem mit $x$- & $z$-Achse (siehe nachfolgende Abbildung):
 
 -   Die x-Achse ist waagerecht orientiert, die z-Achse senkrecht
 
@@ -427,11 +519,13 @@ Wir betrachten die Bewegung auf einer gekrümmten Bahn am Beispiel des waagerech
 style = "width: 5cm;"
 -->
 
-Diese Bewegung wird nun komponentenweise betrachtet. In $x$-Richtung liegt eine gleichförmige Bewegung mit der Geschwindigkeit $v_0$ vor:
+Diese Bewegung wird nun komponentenweise betrachtet. In $x$-Richtung liegt eine
+gleichförmige Bewegung mit der Geschwindigkeit $v_0$ vor:
 
 $$x(t) = v_0 t$$
 
-In $z$-Richtung liegt eine gleichmäßig beschleunigte Bewegung mit der Anfangshöhe $h_0$ vor:
+In $z$-Richtung liegt eine gleichmäßig beschleunigte Bewegung mit der
+Anfangshöhe $h_0$ vor:
 
 $$z(t) = - \frac{g}{2} t^2 + h_0$$
 
@@ -439,9 +533,15 @@ Beide Bewegungen überlagern sich, und es gilt für den waagerechten Wurf:
 
 $$\vec{r}(t) = \begin{pmatrix} v_0t \\ h_0 - \frac{g}{2}t^2 \end{pmatrix}$$
 
-In der vertikalen Richtung führt ein Körper beim waagerechten Wurf demnach dieselbe Bewegung aus wie beim freien Fall. Hinzu kommt lediglich die waagerechte Bewegung.
+In der vertikalen Richtung führt ein Körper beim waagerechten Wurf demnach
+dieselbe Bewegung aus wie beim freien Fall. Hinzu kommt lediglich die
+waagerechte Bewegung.
 
-Mit dem eben hergeleiteten Orts-Zeit-Gesetz wird zwar der zeitliche Verlauf der Bewegung beschrieben, nicht jedoch die Bahnkurve, auf der sich der Körper bewegt. Um diese aufzustellen, muss der Parameter $t$ in der obigen Formel eliminiert werden. Man erhält so die parameterfreie Darstellung $z(x)$. Die $x$-Komponente lässt sich wie folgt umformen:
+Mit dem eben hergeleiteten Orts-Zeit-Gesetz wird zwar der zeitliche Verlauf der
+Bewegung beschrieben, nicht jedoch die Bahnkurve, auf der sich der Körper
+bewegt. Um diese aufzustellen, muss der Parameter $t$ in der obigen Formel
+eliminiert werden. Man erhält so die parameterfreie Darstellung $z(x)$. Die
+$x$-Komponente lässt sich wie folgt umformen:
 
 $$t = \frac{x}{v_0}$$
 
@@ -449,13 +549,20 @@ Eingesetzt in die $z$-Komponente erhält man:
 
 $$z = h_0 - \frac{g}{2}t^2 = h_0 - \frac{g}{2v_0^2}x^2$$
 
-Die Bahnkurve des waagerechten Wurfs ist somit eine nach unten geöffnete Parabel mit dem Scheitelpunkt $\begin{pmatrix} 0\\ h_0 \end{pmatrix}$ (= Abwurfpunkt).
+Die Bahnkurve des waagerechten Wurfs ist somit eine nach unten geöffnete Parabel
+mit dem Scheitelpunkt $\begin{pmatrix} 0\\ h_0 \end{pmatrix}$ (= Abwurfpunkt).
 
-Mit dieser Vorgehensweise lassen sich Orts-Zeit-Gesetze und Bahnkurven für beliebige Bewegungen bestimmen. Die Betrachtung des schrägen Wurfs beispielsweise unterscheidet sich vom vorigen Beispiel lediglich darin, dass der Abwurf nun um einen Winkel $\alpha$ gegen die Horizontale geneigt erfolgt. Die Anfangsgeschwindigkeit beträgt demzufolge:
+Mit dieser Vorgehensweise lassen sich Orts-Zeit-Gesetze und Bahnkurven für
+beliebige Bewegungen bestimmen. Die Betrachtung des schrägen Wurfs
+beispielsweise unterscheidet sich vom vorigen Beispiel lediglich darin, dass der
+Abwurf nun um einen Winkel $\alpha$ gegen die Horizontale geneigt erfolgt. Die
+Anfangsgeschwindigkeit beträgt demzufolge:
 
 $$\vec v_0=\begin{pmatrix} v_0 \cdot \cos(\alpha) \\ v_0 \cdot \sin(\alpha) \end{pmatrix} \, .$$
 
-Im Ergebnis ergibt sich wiederum eine parabelförmige Bahnkurve, deren Scheitelpunkt nicht mehr mit dem Abwurfpunkt übereinstimmt, sondern von $h_0, v_0$ und $\alpha$ abhängt.
+Im Ergebnis ergibt sich wiederum eine parabelförmige Bahnkurve, deren
+Scheitelpunkt nicht mehr mit dem Abwurfpunkt übereinstimmt, sondern von $h_0$,
+$v_0$ und $\alpha$ abhängt.
 
 ### Dynamik
 
@@ -1817,7 +1924,7 @@ $$Q = C \cdot U$$
 Der in dieser Formel auftretende Proportionalitätsfaktor $C$ wird als
 **Kapazität** bezeichnet. Ihre Einheit ist
 
-$$[C] = 1~\frac{\mathrm A \, s}{\mathrm V} = 1~\mathrm F \quad \textrm{(Farad)} \, .$$
+$$[C] = 1~\frac{\mathrm{A \, s}}{\mathrm V} = 1~\mathrm F \quad \textrm{(Farad)} \, .$$
 
 Die Kapazität widerspiegelt das „Speichervermögen“ des Kondensators, das in
 zweierlei Weise aufgefasst werden kann:
@@ -2135,3 +2242,274 @@ $$P_{el} = UI = RI^2 = \frac{U^2}{R} \, .$$
 Bei gleicher Stromstärke wird an Bauelementen mit großem Widerstand eine
 entsprechend größere Leistung umgesetzt. Bei gleicher Spannung wird an
 Bauelementen mit großem Widerstand eine entsprechend kleinere Leistung umgesetzt.
+
+## Optik
+
+Die Optik befasst sich mit den Eigenschaften und der Ausbreitung des Lichts.
+
+Licht ist ein Quantenphänomen, das sich in seiner Gesamtheit unserer Vorstellung
+entzieht. Zur Beschreibung des Lichts nutzen wir Modelle der klassischen Physik,
+die die beobachtbaren Eigenschaften des Lichts widergeben und die auch unserer
+Anschauung zugänglich sind. Aufbauend auf die grundlegenden Verhaltensweisen des
+Lichts haben sich im Laufe der Zeit die folgenden drei Modelle herausgebildet,
+die bis heute Anwendung finden:
+
+- Das **Strahlenmodell** beschreibt die geradlinige Ausbreitung des Lichts
+  (Strahlenoptik oder geometrische Optik).
+
+- Das **Wellenmodell** beschreibt die Welleneigenschaften des Lichts wie
+  Interferenz und Beugung (Wellenoptik oder Physikalische Optik).
+
+- Mit **Teilchenmodell** dem werden Vorgänge beschrieben, bei denen dem Licht
+  ein Impuls zuzuordnen ist (Teilchenoptik).
+
+In der klassischen Physik schließen sich Teilchen- und Welleneigenschaften
+gegenseitig aus. Das Licht trägt jedoch beide Eigenschaften und zeigt je nach
+experimentellem Aufbau eine dieser beiden Verhaltensweisen. Zur Beschreibung
+muss dann jeweils das Modell angewendet werden, das den beobachteten
+Eigenschaften entspricht. Keines der drei Modelle kann das Licht vollständig
+beschreiben. Daher ist auch eine völlige Trennung dieser Modelle nicht möglich.
+
+### Geometrische Optik – Strahlenoptik
+
+Das einfachste Modell zur Beschreibung des Lichts ist das des Lichtstrahls. Es
+erlaubt grundlegende Aussagen zur Ausbreitung des Lichts, unterliegt jedoch –
+wie jedes physikalische Modell – gewissen Einschränkungen:
+
+- Die Abmessungen und Abstände der experimentellen Aufbauten müssen wesentlich
+  größer sein als die Wellenlänge des Lichts (d.h. $\gg 0{,}5~\mathrm{\mu m}$),
+  damit keine Wellenphänomene auftreten.
+
+- Es sind keine quantitativen Aussagen zu Lichtenergien oder Intensitäten
+  möglich.
+
+- Wechselwirkungen des Lichts mit Materie können nicht beschrieben werden.
+  Hierfür wird in der Regel die Teilchenoptik benötigt.
+
+#### Ausbreitung des Lichts, Fermat<!--style="font-variant:small-caps;"-->sches Prinzip
+
+Innerhalb eines homogenen Mediums breitet sich Licht geradlinig, allseitig und
+gleichförmig aus. Ein Gegenstand wird für uns sichtbar, wenn Licht, das von ihm
+ausgeht, in unser Auge gelangt. Von jedem Punkt der Oberfläche des Gegenstandes
+geht ein Strahlenbündel aus. Dabei spielt es keine Rolle, ob das Licht von dem
+betreffenden Gegenstand selbst erzeugt oder von ihm reflektiert wird.
+
+Die Ausbreitung des Lichts erfolgt mit hoher, aber endlicher Geschwindigkeit. Im
+Vakuum beträgt die Lichtgeschwindigkeit
+
+$$c_\mathrm{Vakuum} = c_0 = 2{,}99792458\cdot 10^8~\frac{\mathrm m}{\mathrm s}
+  \approx 3\cdot 10^8~\frac{\mathrm m}{\mathrm s} \, .$$
+
+Es ist eine der Grundaussagen der Relativitätstheorie, dass dies die
+größtmögliche Geschwindigkeit in der Natur ist. Innerhalb eines Mediums breitet
+sich das Licht mit geringerer Geschwindigkeit aus. Dies wird beschrieben durch
+die Brechzahl $n$ des betreffenden Mediums, die das Verhältnis der
+Vakuumlichtgeschwindigkeit zur Lichtgeschwindigkeit in diesem Medium angibt:
+
+$$c_\mathrm{Medium} = c_\mathrm M = \frac{c_0}{n} < c_0 \quad \textrm{bzw. } \quad n= \frac{c_0}{c_M} \, .$$
+
+Medien mit hoher Brechzahl heißen **optisch dicht**, solche mit niedriger
+Brechzahl heißen **optisch dünn**. Das Vakuum ist demzufolge das optisch dünnste
+Medium. Einige Beispiele für Brechzahlen sind in der folgenden Tabelle
+zusammengefasst.
+
+| Material  |          Brechzahl $n$ | Bezeichnung   |
+|:----------|-----------------------:|:-------------:|
+| Vakuum    |                $1{,}0$ | Optisch dünn  |
+| Luft      | $1{,}000272 \approx 1$ |               |
+| Wasser    |               $1{,}33$ |               |
+| Quarzglas |               $1{,}46$ |               |
+| Plexiglas |               $1{,}49$ |               |
+| Diamant   |               $2{,}42$ | Optisch dicht |
+
+Im Rahmen der Strahlenoptik lässt sich die Ausbreitung des Lichts anhand des
+**Fermat<!-- style="font-variant:small-caps;" -->schen Prinzips** erklären:
+
+> Der Lichtweg zwischen zwei Punkten verläuft stets so, dass er ein Extremum
+> hinsichtlich der Zeit hat.
+>
+> $$T_{A\rightarrow B}\rightarrow \textrm{Extremum}$$
+
+In der Regel ist dies der Weg mit der kürzesten Laufzeit. Dies ist nicht
+notwendigerweise der geometrisch kürzeste Weg. Eine alternative Formulierung des
+Fermatschen Prinzips nutzt den optischen Weg $\sigma$:
+
+$$\sigma = n\cdot s \, ,$$
+
+wobei $s$ der geometrische (d.h. der tatsächlich zurückgelegte) Lichtweg ist.
+Damit lautet das Fermatsche Prinzip:
+
+> Das Licht folgt zwischen zwei Punkten stets dem kürzesten optischen Weg.
+>
+> $$\sigma_\mathrm{ges} = \sum \sigma_i = \sum n_i s_i \rightarrow \textrm{Min}$$
+
+Der kürzeste optische Weg besitzt die geringste Laufzeit. Somit sind beide
+Formulierungen äquivalent. Mathematisch betrachtet stellt das Fermatsche Prinzip
+eine Extremwertaufgabe dar. Aus seiner Anwendung folgen die geradlinige
+Ausbreitung innerhalb eines Mediums sowie das **Reflexions- und Brechungsgesetz**:
+
+
+
+> Trifft Licht auf eine Grenzfläche zwischen zwei Medien mit den Brechzahlen
+> $n_1$ und $n_2$, so wird im Allgemeinen ein Teil des Lichts reflektiert und ein
+> Teil transmittiert:
+>![Schematische Darstellung des Brechungs- und Reflexionsgesetzes](grafik/V12_Brechung.svg)<!-- style="width:6cm;"-->
+> Für den reflektierten Strahl gilt (Reflexionsgesetz):
+>
+> $$\alpha_r = \alpha_1$$
+>
+> Für den transmittierten Strahl gilt (Brechungsgesetz):
+>
+> $$\frac{\sin{\alpha_1}}{\sin \alpha_2} = \frac{n_2}{n_1} \quad \textrm{bzw.} \quad n_1 \sin \alpha_1 = n_2 \sin \alpha_2$$
+
+Alle Winkelangaben beziehen sich dabei auf das Einfallslot. Dieses steht
+senkrecht auf der Grenzfläche im Auftreffpunkt des einfallenden Strahls.
+Beim Übergang vom optisch dünneren in das optisch dichtere Medium ($n_1<n_2$)
+erfolgt die Brechung zum Lot hin ($\alpha_1>\alpha_2$). Im umgekehrten Fall
+erfolgt die Brechung vom Lot weg. Dabei kommt es zur Totalreflexion, wenn der
+Einfallswinkel (der dann im optisch dichteren Medium liegt) größer wird als der
+Grenzwinkel der Totalreflexion. In diesem Fall verschwindet der transmittierte
+Strahl, und die gesamte Intensität des eingestrahlten Lichts wird reflektiert.
+Für den Grenzwinkel der Totalreflexion gilt:
+
+$$\alpha_{Gr} = \arcsin \frac{n_2}{n_1} \, .$$
+
+#### Brechung an gekrümmten Grenzflächen – Linsen
+
+Bisher wurden stets ebene Grenzflächen betrachtet. Dabei spielt es keine Rolle,
+an welcher Stelle ein Lichtstrahl auftrifft. Der Einfallswinkel ist an jeder
+Stelle gleich. Folglich werden parallel einfallende Strahlen gleich gebrochen
+und verlaufen auch nach der Grenzfläche parallel.
+
+Bei gekrümmten Grenzflächen hingegen ändert sich das Einfallslot entlang der
+Grenzfläche. Folglich haben auch parallel einfallende Strahlen unterschiedliche
+Einfalls- und Brechungswinkel. Somit verlaufen sie nach der Grenzfläche nicht
+mehr parallel. Im allgemeinen Fall einer beliebigen Krümmungsgeometrie muss
+dabei tatsächlich jeder Lichtstrahl einzeln in seinem Verlauf betrachtet werden,
+wofür geeignete Computerprogramme existieren. Einen Spezialfall mit hoher
+praktischer Relevanz stellt die Brechung an sphärischen Grenzflächen dar,
+also an Grenzfläche, die Ausschnitt aus einer Kugeloberfläche sind. Für diesen
+Fall lassen sich eigene Formeln für den Verlauf der gebrochenen Strahlen
+angeben.
+
+Optische Bauelemente, die aus zwei sphärischen Flächen (bzw. einer sphärischen
+und einer ebenen Fläche) bestehen, heißen Linsen. Speziell von dünnen Linsen
+spricht man, wenn die Dicke der Linse sehr viel kleiner ist als der
+Krümmungsradius ihrer Oberflächen. Nur mit solchen Linsen wollen wir uns im
+Folgenden beschäftigen.
+
+Strahlenbündel, die parallel zur optischen Achse auf eine Linse treffen, werden
+entweder konvergent oder divergent. Im ersten Fall spricht man von einer
+Sammellinse, im zweiten von einer Zerstreuungslinse. In beiden Fällen lässt sich
+die Brennweite $f$ sowie der Brennpunkt $F$ der Linse angeben:
+
+![Schematische Darstellung des Strahlenverlaufes an einer Sammellinse](grafik/V12_Sammellinse.svg "")
+
+![Schematische Darstellung des Strahlenverlaufes an einer Zerstreuungslinse](grafik/V12_Zerstreuungslinse.svg)
+
+Bei Zerstreuungslinsen befindet sich der (virtuelle) Brennpunkt auf der
+Einfallseite des Lichts. Die Brennweite ist dabei negativ ($f<0$)!
+
+Die Brennweite einer Linse hängt ab von der Brechzahl des Linsenmaterials sowie
+der Linsengeometrie, die durch die Krümmungsradien $r_1$ und $r_2$ der beiden
+Grenzflächen angegeben wird. Die sogenannte Linsenmacherformel gibt an, wie
+diese Größen die Brennweite beeinflussen. Für eine Linse in Luft gilt:
+
+$$\frac{1}{f} = (n-1) \biggl( \frac{1}{r_1} - \frac{1}{r_2}\biggr)$$
+
+Dabei haben Sammellinsen eine konvexe (nach außen gewölbte) Geometrie, während
+Zerstreuungslinsen konkav (nach innen gewölbt) sind. Befindet sich die Linse in
+einem anderen Medium als Luft oder Vakuum, so muss auch dessen Brechzahl
+berücksichtigt werden. Die obige Formel wird dann entsprechend angepasst.
+
+#### Optische Abbildung
+
+Als optische Abbildung bezeichnet man die Erzeugung eines Bildes von einem
+Gegenstand. Dieses Bild soll auf einer Abbildungsfläche – allgemein als Schirm
+bezeichnet – sichtbar werden. Je nach konkreter Abbildungsaufgabe kann dieser
+Schirm beispielsweise die Leinwand eines Projektors, der Sensorchip einer Kamera
+oder auch die Netzhaut des Auges sein.
+
+Damit ein solches Bild entsteht, müssen die von einem Punkt des Objekts
+ausgehenden Lichtstrahlen wieder zu einem Bildpunkt auf dem Schirm vereinigt
+werden. Bilder, die auf diese Weise entstehen, heißen reelle Bilder. Das
+Gegenstück hierzu bilden virtuelle Bilder, auf die später eingegangen werden
+wird.
+
+Wie oben bereits festgestellt, besitzen Sammellinsen die Eigenschaft,
+einfallende Strahlen in einem Punkt zu vereinigen. Damit erfüllen sie die
+Grundvoraussetzung zur Erzeugung eines (reellen) Bildes. Bisher wurde dies
+lediglich auf den Brennpunkt eines achsenparallel einfallenden Strahlenbündels
+angewendet. Tatsächlich zeigt das Experiment, dass mit Sammellinsen eine
+optische Abbildung möglich ist.
+
+Zur Beschreibung der optischen Abbildung an einer Sammellinse werden zunächst
+einige Größen wie in der folgenden Abbildung gezeigt definiert:
+
+![Definition der Größen zur Beschreibung der optischen Abbildung an einer Sammellinse](grafik/V12_Definition-Sammellinse.svg "Definition wichtiger Größen an einer Sammellinse. Der Gegenstand befindet sich auf der Einfallseite des Lichts. Alle Abstände beziehen sich auf die Hauptebene der Linse.")
+
+Mit diesen Größen kann nun die Abbildung berechnet werden. Die
+Abbildungsgleichung verknüpft Gegenstands- und Bildweite der Abbildung mit der
+Brennweite der Linse:
+
+$$\frac{1}{f} = \frac{1}{b} + \frac{1}{g} \, .$$
+
+Daneben erlaubt die Definition des Abbildungsmaßstabs $V$ eine Aussage über die
+Bild- und Gegenstandsgröße:
+
+$$V = \frac{B}{G} = - \frac{b}{g} \, .$$
+
+Mit dieser Definition kann auch unterschieden werden, ob das entstandene Bild
+vergrößert oder verkleinert ist sowie, ob es aufrecht oder
+kopfstehend/seitenverkehrt ist. In letzterem Fall ist die Bildgröße negativ, was
+durch das negative Vorzeichen in der Definition des Abbildungsmaßstabs
+ausgedrückt wird.
+
+Neben der Berechnung der optischen Abbildung kann das entstehende Bild auch
+geometrisch konstruiert werden, indem die Verläufe einzelner Lichtstrahlen durch
+die Linse nachvollzogen werden. Für eine dünne Linse kann dabei die
+zweimalige Lichtbrechung an den beiden Grenzflächen ersetzt werden durch eine
+einmalige Brechung an der Hauptebene der Linse. Ferner wählt man zur
+Bildkonstruktion zweckmäßig solche Strahlen aus, deren Verlauf besonders einfach
+nachzuvollziehen ist. Dies sind Strahlen, die auf der Gegenstandsseite parallel
+zur optischen Achse (Parallelstrahl), durch den Brennpunkt (Brennpunktstrahl)
+sowie durch den Linsenmittelpunkt (Mittelpunktstrahl) verlaufen. Ob diese
+Strahlen tatsächlich zum Bild beitragen, spielt für die Bildkonstruktion keine
+Rolle. Dabei gelten die Zusammenhänge:
+
+- Ein Parallelstrahl<!-- style="color:green;" --> wird auf der Bildseite zum
+  Brennpunktstrahl.
+
+- Der Mittelpunktstrahl<!-- style="color:red;" --> verläuft ohne Brechung durch
+  die Linse.
+
+- Der Brennpunktstrahl<!-- style="color:blue;" --> wird nach der Brechung zum
+  Parallelstrahl.
+
+![Konstruktion des reellen Bilds an einer Sammellinse, wenn $g\gt f$](grafik/V12_Bildkonstruktion-Sammellinse.svg "Konstruktion des reellen Bildes an einer Sammellinse, wenn $g\gt f$, anhand der Konstruktionsstrahlen (Parallel-, Mittelpunkt- uns Brennpunktstrahl).")
+
+Befindet sich der Gegenstand innerhalb der Brennweite der Linse ($g<f$) (siehe
+folgende Abbildung), so verlaufen die Strahlen nach der Brechung divergent und
+es entsteht kein reelles Bild. Die rückwärtigen Verlängerungen der Strahlen
+treffen sich jedoch in einem virtuellen Bildpunkt auf der Objektseite der Linse.
+Die Lichtstrahlen scheinen aus diesem Punkt zu stammen. Man spricht dabei von
+einem virtuellen Bild. Virtuelle Bilder können nicht auf einem Schirm abgebildet
+werden, wohl aber mit dem Auge oder optischen Instrumenten betrachtet werden.
+Das virtuelle Bild an einer Sammellinse wird unter anderem bei der Lupe genutzt.
+
+![Konstruktion des virtuellen Bilds an einer Lupe](grafik/V12_Bildkonstruktion-Lupe.svg "Befindet bei einer Sammellinse der Gegenstand innerhalb der Brennweite so entsteht kein reelles Bild, sondern ein vituelles, vergrößertes und aufrechtes Bild auf der Gegenstandseite.")
+
+In der folgenden Tabelle sind die verschiedenen Abbildungskonstellationen einer
+Sammellinse mit den zugehörigen Bildeigenschaften zusammengefasst. Außerdem
+existieren in Internet verschiedene Simulationen der Strahlenverläufe an Linsen,
+anhand derer die Einflüsse verschiedener Parameter wie Gegenstands- oder
+Brennweite untersucht werden können, zum Beispiel auf den Seiten von
+[LEIFIphysik](https://www.leifiphysik.de/optik/optische-linsen/versuche/sammellinse-simulation).
+
+| **Gegenstandsweite** | **Bildweite** | **Abbildungsmaßstab** | **Bildeigenschaften**               |
+|:---------------------|:--------------|:----------------------|:------------------------------------|
+| $g> 2f$              | $f<b<2f$      | $|V|<1$               | reell, verkleinert, seitenverkehrt  |
+| $g= 2f$              | $b=2f$        | $|V|=1$               | reell, gleich groß, seitenverkehrt  |
+| $f<b<2f$             | $b>2f$        | $|V|>1$               | reell, vergrößert, seitenverkehrt   |
+| $g=f$                | $b=\infty$    | ---                   | virtuell                            |
+| $g<f$                | $b<0$         | $V>1$                 | virtuell, vergrößert, seitenrichtig |
