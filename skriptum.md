@@ -2401,11 +2401,12 @@ Folgenden beschäftigen.
 Strahlenbündel, die parallel zur optischen Achse auf eine Linse treffen, werden
 entweder konvergent oder divergent. Im ersten Fall spricht man von einer
 Sammellinse, im zweiten von einer Zerstreuungslinse. In beiden Fällen lässt sich
-die Brennweite $f$ sowie der Brennpunkt $F$ der Linse angeben:
+die Brennweite $f$ sowie der Brennpunkt $\mathrm F$ der Linse angeben, wie die
+folgenden Abbildungen zeigen.
 
-![Schematische Darstellung des Strahlenverlaufes an einer Sammellinse](grafik/V12_Sammellinse.svg "")
+![Schematische Darstellung des Strahlenverlaufes an einer Sammellinse](grafik/V12_Sammellinse.svg "An einer Sammellinse werden achsenparallele Strahlenbündel im Brennpunkt auf der optischen Achse gebündelt.")
 
-![Schematische Darstellung des Strahlenverlaufes an einer Zerstreuungslinse](grafik/V12_Zerstreuungslinse.svg)
+![Schematische Darstellung des Strahlenverlaufes an einer Zerstreuungslinse](grafik/V12_Zerstreuungslinse.svg "An einer Zerstreuungslinse wird ein achsenparalleles Strahlenbündel divergent gebrochen. Die rückwärtigen Verlängerungen der Strahlen treffen sich im Brennpunkt auf der Einfallseite des Lichts. Die Brennweite ist dabei negativ.")
 
 Bei Zerstreuungslinsen befindet sich der (virtuelle) Brennpunkt auf der
 Einfallseite des Lichts. Die Brennweite ist dabei negativ ($f<0$)!
