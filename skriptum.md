@@ -2861,3 +2861,281 @@ Brennweite untersucht werden können, zum Beispiel auf den Seiten von
 | $f<b<2f$             | $b>2f$        | $|V|>1$               | reell, vergrößert, seitenverkehrt   |
 | $g=f$                | $b=\infty$    | ---                   | virtuell                            |
 | $g<f$                | $b<0$         | $V>1$                 | virtuell, vergrößert, seitenrichtig |
+
+
+### Wellenoptik
+
+Bereits bei der Einführung des Modells Lichtstrahl im vorangegangenen Kapitel
+wurde darauf hingewiesen, dass dieses nur unter gewissen Einschränkungen
+anwendbar ist. Insbesondere dann, wenn die experimentellen Abmessungen in
+derselben Größenordnung liegen wie die Wellenlänge des Lichts, treten
+Wellenerscheinungen auf, die im Strahlenmodell nicht erklärt werden können.
+Hierfür muss das Wellenmodell des Lichts angewendet werden.
+
+Da bisher nicht auf die Beschreibung von Wellen eingegangen wurde, sollen an
+dieser Stelle zunächst einige allgemeine Aussagen zu Wellen getroffen werden.
+​
+#### Ausbreitung von Wellen
+​
+Eine Welle ist die Ausbreitung eines Schwingungszustands im Raum. Die einfachste
+mechanische Vorstellung einer Welle bildet ein (gespanntes) Seil, das an einem
+Ende in Schwingung versetzt wird. Diese Schwingungen laufen als Welle über das
+gesamte Seil fort. Das Seil selbst bewegt sich dabei nicht fort. Es wandert
+lediglich die Auslenkung über das Seil.
+
+Wird das Ende des Seils nicht nur einmalig, sondern periodisch und harmonisch
+ausgelenkt, so läuft auch diese harmonische Schwingung über das Seil fort und
+erzeugt ein räumlich periodisches Muster aus Wellenbergen und -tälern. Die so
+entstandene harmonische Welle ist damit ein räumlich und zeitlich periodischer
+Vorgang. Die momentane Auslenkung $A(x,t)$ zu einem bestimmten Zeitpunkt an
+einem bestimmten Ort ist dabei gegeben durch
+
+$$A(x,t) = A_0 \sin(kx- \omega t + \sigma) \, .$$
+
+Diese Formel widerspiegelt die zeitliche und räumliche Periodizität.
+
+Im eben beschriebenen Beispiel dient das Seil als Ausbreitungsmedium der Welle.
+Im Gegensatz dazu benötigen elektromagnetische Wellen (zu denen auch das Licht
+gehört) kein Medium. Sie können sich auch im Vakuum ausbreiten.
+
+Zur Beschreibung von Wellen werden die folgenden Größen genutzt, von denen
+einige bereits aus dem Zusammenhang der Schwingungen bekannt sind:
+
+-   $A_0$ … Amplitude / Maximalauslenkung (siehe [Schwingungen](#kinematik-der-schwingung))
+-   $\omega=2 \pi f$ … Kreisfrequenz (siehe [Schwingungen](#kinematik-der-schwingung))
+-   $T$ … Schwingungsdauer (siehe [Schwingungen](#kinematik-der-schwingung))
+-   $\lambda$ … Wellenlänge (siehe Abbildung), $[\lambda]=\mathrm m$
+-   $k= \frac{2\pi}{\lambda}$ … Wellenzahl, $[k]=\mathrm m^{-1}$
+-   $v_\mathrm{ph}$ … Phasengeschwindigkeit (siehe Abbildung)
+
+![Veranschaulichung von Wellenlänge und Phasengeschwindigkeit in einem Diagramm](grafik/V13_wellenausbreitung.svg "Eine harmonische Welle ist eine räumlich und zeitlich periodischer Vorgang. Sie breitet sich mit der Phasengeschwindigkeit $v_\mathrm{ph}$ im Raum aus. Die Wellenlänge $\lambda$ ist der räumliche Abstand zwischen benachbarten Stellen gleicher Phase. [Quelle: mit freundlicher Genehmigung von Thomas Franke]")<!-- style="width:15cm;"-->
+
+Die Phasengeschwindigkeit ist die Ausbreitungsgeschwindigkeit der Welle. Für sie
+gilt der Zusammenhang:
+
+$$v_\mathrm{ph} = \lambda f = \frac{\omega}{k} \, .$$
+
+Bei Licht ist die Phasengeschwindigkeit gleich der Lichtgeschwindigkeit:
+
+$$v_\mathrm{ph} = c_0 \quad \textrm{bzw.} \quad v_\mathrm{ph} = c_\mathrm M \, .$$
+
+Die Ausbreitung komplexer Wellenformen und insbesondere das Verhalten von Wellen
+an Hindernissen werden mittels sogenannter Elementarwellen beschrieben. Als
+Elementarwelle bezeichnet man eine von einem Punkt ausgehende und sich in alle
+Richtungen gleichförmig ausbreitende Welle. In zwei Dimensionen ist dies eine
+Kreiswelle, in drei Dimensionen eine Kugelwelle.
+
+Bei der Überlagerung von (Elementar-) Wellen kann sowohl eine Vergrößerung als
+auch Abschwächung der Amplitude auftreten. Dabei gilt das Prinzip der
+ungestörten Überlagerung (Superposition):
+
+> Zwei Wellen überlagern sich, ohne sich gegenseitig zu beeinflussen.
+
+Die momentane Auslenkung an einem Ort ergibt sich dabei als Summe der
+Einzelauslenkungen an diesem Ort zu diesem Zeitpunkt:
+
+$$A_\mathrm{ges}(x_0,t_0) = A_1(x_0, t_0) + A_2(x_0, t_0)+ \dots$$
+
+Auf diese Weise lassen sich durch Überlagerung von Elementarwellen beliebige
+Wellenmuster erzeugen. Dies ist Grundlage des **Huygens-Fresnelschen Prinzips**:
+
+> Jeder von einer Wellenfront getroffene Punkt ist Ausgangspunkt einer neuen
+> Elementarwelle. Die neue Wellenfront ergibt sich als Einhüllende dieser
+> Elementarwellen.
+
+Nach diesem Prinzip kann die Wellenausbreitung geometrisch (zeichnerisch)
+beschrieben werden. So lassen sich auch Brechung und Reflexion an Grenzflächen
+mittels Huygens-Fresnelschem Prinzip erklären.
+
+##### Beugung von Wellen
+
+Beugung bezeichnet das Eindringen einer Welle in den geometrischen Schattenraum
+hinter einem Hindernis. Diese charakteristische Welleneigenschaft tritt bei
+allen Arten von Wellen auf und lässt sich mittels Huygens-Fresnelschem Prinzip
+erklären: Die von der Kante des Hindernisses ausgehenden Elementarwellen
+erreichen auch den Raum hinter dem Hindernis. Die Strecke, um die die Welle in
+den Schattenraum eindringt, hängt ab von der Wellenlänge der jeweiligen Welle.
+
+![Simulierter Wellenverlauf an einer Kante](https://upload.wikimedia.org/wikipedia/commons/3/36/Ripple-tank-diffraction-half-plane.png "Beugung einer Welle an einem Hindernis (gelbe Linie): Hinter dem Hindernis dringen die Wellen in den geometrischen Schattenraum ein. [Quelle: [MikeRun](https://commons.wikimedia.org/wiki/User:MikeRun), [Ripple-tank-diffraction-half-plane](https://commons.wikimedia.org/wiki/File:Ripple-tank-diffraction-half-plane.png), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons]")<!-- style="width:8cm;" -->
+
+#### Licht als elektromagnetische Welle
+
+Das Licht weist – in den entsprechenden Experimenten – eindeutiges
+Wellenverhalten auf. So lässt sich beispielsweise die oben beschriebene Beugung
+auch für das Licht beobachten. Die Beschreibung dieser Erscheinungen muss im
+Wellenmodell erfolgen. Dabei zeigt sich das Licht als elektromagnetische Welle.
+D.h., elektrische und magnetische Felder bewegen sich oszillierend entlang der
+Ausbreitungsrichtung des Lichts fort.
+
+In Natur und Technik kommen zahlreiche elektromagnetische Wellen
+unterschiedlicher Wellenlänge vor (siehe Abbildung). Für das menschliche
+Auge sichtbar sind die Wellenlängen im Bereich
+$\lambda \approx (400 \dots 700)~\mathrm{nm}$.
+
+![Spektrum der elektromagnetischen Wellen](https://upload.wikimedia.org/wikipedia/commons/6/62/Electromagnetic_spectrum_-de_c.svg "Die Wellenlängen elektromagnetischer Wellen decken einen Bereich über viele Größenordnungen ab. Das für den Menschen sichtbare Licht nimmt nur einen sehr kleinen Teil dieses Spektrums ein. [Quelle: Horst Frank / Phrood / Anony, [Electromagnetic spectrum -de c](https://commons.wikimedia.org/wiki/File:Electromagnetic_spectrum_-de_c.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+
+#### Interferenz des Lichts
+
+Interferenz ist – neben Beugung – die zweite eindeutige Welleneigenschaft des
+Lichts. Interferenz bezeichnet die gegenseitige Verstärkung und Abschwächung von
+Wellen gleicher Wellenlänge. Sie entsteht aus der Superposition der beteiligten
+Wellen.
+
+Zum Nachweis der Interferenz des Lichts betrachten wir den auf
+Augustin<!-- style ="font-variant: small-caps;" --> Jean<!-- style ="font-variant: small-caps;" --> Fresnel<!-- style ="font-variant: small-caps;" -->
+zurückgehenden Doppelspiegelversuch (siehe nachfolgende Abbildung). Zentraler
+Bestandteil dieses Versuchs sind zwei ebene Spiegel, die um einen sehr kleinen
+Winkel gegeneinander verkippt sind. Ein Laserstrahl wird so auf diese beiden
+Spiegel gerichtet, dass ein Teil des Lichts am ersten, der andere Teil am
+zweiten Spiegel reflektiert wird. So entstehen zwei Teilstrahlen, die sich
+einmal überkreuzen und anschließend divergieren. Durch eine Sammellinse werden
+diese divergierenden Strahlen wieder zusammengeführt, sodass sie sich auf einem
+Schirm überlagern. In diesem Überlagerungsbereich beobachtet man ein
+periodisches Muster aus hellen und dunklen Linien. Es kommt also abwechselnd zur
+Verstärkung und Auslöschung der beiden Teilstrahlen.
+
+![Schematische Darstellung des Doppelspiegelversuch nach Augustin Jean Fresnel](grafik/V13_doppelspiegel.svg "Schematischer Aufbau des Fresnel<!-- style ="font-variant: small-caps;" -->schen Doppelspiegelversuchs: Ein Laserstrahl wird am Doppelspiegel in zwei Teilstrahlen aufgespalten, die anschließend durch eine Sammellinse überlagert werden.")
+
+Ein Interferenzmaximum (d.h. ein Bereich maximaler Helligkeit auf dem
+Beobachtungsschirm) tritt an den Stellen auf, wo sich beide Wellen stets
+phasengleich überlagern. D.h., die Maxima beider Teilwellen treffen stets
+zeitgleich an dieser Stelle auf (konstruktive Interferenz). An Stellen, an denen
+das Maximum der einen Welle zeitgleich mit dem Minimum der anderen Welle
+auftrifft (destruktive Interferenz), löschen sich beide Wellen aus, und es
+entsteht ein Interferenzminimum. Ursache für die unterschiedlichen
+Überlagerungen der beiden Teilwellen ist ihr Gangunterschied $\Delta s$. Dieser
+ist die Differenz der optischen Lichtwege der beiden beteiligten Wellen von der
+Quelle zum Beobachtungsort. Phasengleiche Wellen haben einen Gangunterschied von
+null oder einem ganzzahligen Vielfachen der Wellenlänge. Entgegengesetzte Phasen
+(Maximum – Minimum usw.) entsprechen einem Gangunterschied von einer halben
+Wellenlänge oder $1{,}5\lambda$, $3{,}5\lambda$, … Damit lauten die Bedingungen
+für Interferenzmaxima und -minima:
+
+-   Interferenzmaxima treten auf, wenn $\Delta s=n\cdot \lambda \quad (\textrm{mit  } n=0,1,2, \dots)$
+
+-   Interferenzminima treten auf, wenn $\Delta s=\frac{(2n-1)}{2\cdot\lambda} \quad(\textrm{mit  } n=1,2,3,\dots)$
+
+Damit ein stationäres (d.h. zeitlich unveränderliches) Interferenzmuster
+beobachtet werden kann, müssen die an einem Punkt ankommenden Wellen stets
+denselben Gangunterschied aufweisen. Z.B.:
+
+-   Nulltes Maximum: $\Delta s=0$
+
+-   Erstes Minimum: $\Delta s= \pm \frac{\lambda}{2}$
+
+-   Erstes Maximum: $\Delta s = \pm \lambda$
+
+Diese Gangunterschiede dürfen sich im Zeitverlauf nicht ändern. Dies stellt
+besondere Anforderungen an die Lichtquelle und den experimentellen Aufbau, die
+hier nicht weiter betrachtet werden sollen (Stichwort: Kohärenz). Laser erfüllen
+diese Anforderungen gut, andere Lichtquellen (z.B. Glühlampe) meist schlecht. So
+sind viele Interferenzphänomene erst mit Laserlicht beobachtbar.
+
+#### Beugung des Lichts an einem Spalt
+
+In vielen Fällen treten Interferenz und Beugung gemeinsam auf: Lichtwellen
+werden an einem Hindernis gebeugt und treten in den geometrischen Schattenraum
+ein. Diese gebeugten Wellen wiederum interferieren miteinander. Ein Beispiel
+hierfür ist der Durchgang des Lichts durch einen Spalt, dessen Breite mit der
+Wellenlänge des Lichts vergleichbar ist (siehe nachfolgende Abbildung). In der
+Praxis lassen sich signifikante Beugungserscheinungen beobachten, wenn die
+Spaltbreite $d<1~\mathrm{mm}$ beträgt, obgleich dies tatsächlich noch circa
+2000 Wellenlängen entspricht. Wird ein Laserstrahl auf einen solchen Spalt
+gerichtet, so beobachtet man auf einem dahinterliegenden Schirm eine Abfolge von
+Interferenzmaxima und -minima: senkrecht zur Spaltrichtung erscheint eine
+„Kette“ heller Lichtpunkte, die alle aus der Beugung und Interferenz des
+ursprünglichen Laserstrahls entstehen.
+
+![Grafische Veranschaulichung der Beugung an einem Spalt](grafik/V13_beugung-spalt.svg "Eine Lichtwelle wird nach dem Durchgang durch einen schmalen Spalt gebeugt und tritt in geometrischen Schattenraum ein. Dabei besitzen die von den Rändern des Spalts ausgehenden Teilwellen einen gegenseitigen Gangunterschied $\Delta s_1$, der vom jeweiligen Beugungswinkel abhängt.")<!-- style="width:12cm" -->
+
+Wir wollen die Lage dieser Maxima und Minima geometrisch anhand des
+Gangunterschieds erklären. Dazu betrachten wir zunächst die Wellen, die von den
+beiden Rändern des Spalts ausgehen. Für einen vorgegebenen Beugungswinkel
+$\alpha$ beträgt deren Gangunterschied
+
+$$\Delta s_1 = d \cdot \sin \alpha \, ,$$
+
+wobei $d$ die Breite des Spalts bezeichnet. Wir teilen nun den Spalt gedanklich
+in mehrere Teile auf und betrachten jeweils die paarweise Interferenz von
+Strahlen aus diesen Teilen.
+
+Zunächst sei der Beugungswinkel $\alpha$ so gewählt, dass der Gangunterschied
+der beiden Randwellen $\Delta s_1 = \lambda$ beträgt. Teilt man den Spalt in
+zwei Hälften der Breite $\frac{d}{2}$, so existiert zu jeder Welle aus der
+ersten Hälfte genau eine Welle der zweiten Hälfte, die um eine halbe Spaltbreite
+versetzt ist. Der Gangunterschied dieser Wellen beträgt
+
+$$\Delta s_{\frac{1}{2}} = \frac{d}{2} \cdot \sin \alpha = \frac{\lambda}{2} \, .$$
+
+Diese Wellen löschen sich gegenseitig aus. Da dies für alle Teilwellen gilt,
+kommt es unter diesem Beugungswinkel zur vollständigen Auslöschung, und es
+entsteht ein Interferenzminimum.
+
+Wird der Beugungswinkel $\alpha$ so gewählt, dass der Gangunterschied der
+Randwellen $\Delta s_1 =2 \lambda$ beträgt, so teilt man den Spalt gedanklich in
+vier Teile der Breite $\frac{d}{4}$. So entstehen Wellenpaare mit dem
+gegenseitigen Abstand $\frac{d}{4}$ (zwischen erstem und zweitem beziehungsweise
+zwischen drittem und viertem Spaltviertel) und dem Gangunterschied
+
+$$\Delta s_{\frac{1}{4}} = \frac{\lambda}{2} \, .$$
+
+Es entsteht also auch unter diesem Winkel ein Interferenzminimum.
+Verallgemeinert bedeutet dies: Interferenzminima treten am Spalt immer dann auf,
+wenn der Gangunterschied der Randwellen ein ganzzahliges Vielfaches der
+Wellenlänge beträgt (Minimabedingung):
+$$\begin{aligned}
+& d \cdot \sin \alpha_\mathrm{min} = m \lambda \\
+\textrm{bzw.} \quad & \alpha_\mathrm{min} = \arcsin \frac{m\lambda}{d}\\
+\textrm{mit} \, & m = 1, 2, 3, \dots
+\end{aligned}$$
+
+Nun wird der Beugungswinkel betrachtet, bei dem die beiden Randwellen einen
+Gangunterschied von $\Delta s_1 = 1.5~\lambda$ aufweisen. Dabei wird der Spalt
+gedanklich in drei Teile geteilt. Die Teilwellen des ersten und zweiten
+Spaltdrittels lassen sich wiederum zu Paaren zusammenstellen, deren
+gegenseitiger Abstand $\frac{d}{3}$ und deren Gangunterschied
+
+$$s_{\frac{1}{3}} = \frac{\lambda}{2}$$
+
+beträgt. Folglich löschen sich die Teilwellen dieser beiden Spaltteile
+gegenseitig aus. Für das letzte Spaltdrittel existieren jedoch keine
+korrespondierenden Wellen, die zu einer Auslöschung führen würden. Folglich
+bleibt die Intensität dieser Teilwellen erhalten und wird auf dem
+Beobachtungsschirm als Interferenzmaximum registriert.
+
+Analog erhält man ein Interferenzmaximum für den Beugungswinkel, bei dem der
+Gangunterschied der Randwellen $\Delta s_1 = 2.5 \lambda$ beträgt: Der Spalt
+wird gedanklich in fünf Teile zerlegt. Zwischen erstem und zweitem
+beziehungsweise drittem und viertem Teil führen wieder die Wellenpaare mit
+Abstand $\frac{d}{5}$ und Gangunterschied
+
+$$\Delta s_{\frac{1}{5}} = \frac{\lambda}{2}$$
+
+zur gegenseitigen Auslöschung. Die Intensität des letzten Spaltfünftels bleibt
+dabei erhalten. Daraus folgt als allgemeine Maximabedingung am Spalt:
+
+$$\begin{aligned}
+& d \cdot \sin \alpha_\mathrm{max} = \frac{2m +1}{2} \lambda \\
+\textrm{bzw.} \quad & \alpha_\mathrm{max} = \arcsin \frac{(2m + 1) \lambda}{2d} \\
+\textrm{mit} \, & m = 1, 2, 3, \dots
+\end{aligned}$$
+
+Mit diesen Formeln lässt sich die Lage der Maxima und Minima bei der Beugung am
+Spalt berechnen, nicht jedoch die Intensität an den einzelnen Stellen des
+Beugungsbilds. Es erscheint aus dieser Überlegung heraus zumindest plausibel,
+dass die Maxima mit zunehmender Ordnung immer schwächer werden, da ein immer
+kleinerer Teil der Wellen unausgelöscht bleibt.
+
+Die Formeln für Maxima- und Minimawinkel enthalten jeweils den Ausdruck
+$\frac{1}{d}$. Mit abnehmender Spaltbreite werden die Winkel also entsprechend
+größer, und das Beugungsbild wird „auseinandergezogen“. Umgekehrt rücken für
+breitere Spalte die Maxima dichter zusammen und sind schließlich für sehr breite
+Spalte nicht mehr getrennt wahrnehmbar. Dies stellt den Übergang zur
+geometrischen Optik dar.
+
+Wird die Spaltblende durch ein entsprechend kleines Loch ersetzt, so gelten die
+Maxima- und Minimabedingungen in alle Richtungen. Das Beugungsbild besteht dann
+aus konzentrischen Ringen.
+
+Mit ähnlichen geometrischen Überlegungen wie oben lassen sich auch die
+Interferenzmuster von Mehrfachspalten vorhersagen.
