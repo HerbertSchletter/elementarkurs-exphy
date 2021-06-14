@@ -19,11 +19,23 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 # Elementarkurs Experimentalphysik
 
-Skriptum zum Kurs „Physik (mit Experimenten)“
+*Skriptum zum Kurs „Physik (mit Experimenten)“*
 
-Dr. Herbert Schletter
+**Dr. Herbert Schletter**
 
 Wintersemester 2021/2022
+
+Hinweis zum Urheberrecht
+========================
+
+Dieses Skriptum steht unter einer  [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/).
+
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+
+Ausgenommen hiervon sind Inhalte (insbesondere Abbildungen), die aus externen
+Quellen übernommen wurden und dort unter einer anderslautenden Lizenz
+veröffentlicht wurden. Derartige Inhalte sind im Skript stets mit einem eigenen
+Lizenzhinweis versehen, der Vorrang vor der hier genannten Lizenz besitzt.
 
 ## Vorwort
 Dieses Skriptum wurde konzipiert und verfasst als Lehrmaterial zur Vorlesung
@@ -566,128 +578,222 @@ $v_0$ und $\alpha$ abhängt.
 
 ### Dynamik
 
-Die Dynamik befasst sich mit der Ursache von Bewegungen, bzw. genauer ausgedrückt: mit der Ursache von Bewegungszustandsänderungen. Zunächst halten wir qualitativ folgende grundlegende Beobachtungen fest:
+Die Dynamik befasst sich mit der Ursache von Bewegungen, oder genauer
+ausgedrückt: mit der Ursache von Bewegungszustandsänderungen. Zunächst halten
+wir qualitativ folgende grundlegende Beobachtungen fest:
 
--   Körper (bzw. Massepunkte) ändern ihren Bewegungszustand nicht spontan. Für eine Änderung des Bewegungszustandes ist stets eine Wechselwirkung des Körpers mit seiner Umgebung erforderlich.
+- Körper (bzw. Massepunkte) ändern ihren Bewegungszustand nicht spontan. Für
+  eine Änderung des Bewegungszustandes ist stets eine Wechselwirkung des Körpers
+  mit seiner Umgebung erforderlich.
 
--   Die Größe der Bewegungszustandsänderung wird durch die Stärke dieser Wechselwirkung bestimmt.
+- Die Größe der Bewegungszustandsänderung wird durch die Stärke dieser
+  Wechselwirkung bestimmt.
 
-Wir schlussfolgern daraus, dass sich Körper einer Änderung ihres Bewegungszustandes widersetzen. Diese (qualitative) Eigenschaft wird als Trägheit bezeichnet. Um diese Erkenntnis auch quantitativ zu beschreiben, benötigen wir zunächst eine Größe, die den Bewegungszustand eines Körpers oder Massepunkts beschreibt. Des Weiteren müssen wir auch die Wechselwirkung des Körpers mit seiner Umgebung durch eine physikalische Größe quantitativ erfassen. Zur Beschreibung von Bewegungen kennen wir bereits die Geschwindigkeit als physikalische Größe. Wir ergänzen dies durch eine weitere mechanische Größe: den Impuls $\vec{p}$, der als das Produkt aus Masse und Geschwindigkeit definiert ist:
+Wir schlussfolgern daraus, dass sich Körper einer Änderung ihres
+Bewegungszustandes widersetzen. Diese (qualitative) Eigenschaft wird als
+Trägheit bezeichnet. Um diese Erkenntnis auch quantitativ zu beschreiben,
+benötigen wir zunächst eine Größe, die den Bewegungszustand eines Körpers oder
+Massepunkts beschreibt. Des Weiteren müssen wir auch die Wechselwirkung des
+Körpers mit seiner Umgebung durch eine physikalische Größe quantitativ erfassen.
+Zur Beschreibung von Bewegungen kennen wir bereits die Geschwindigkeit als
+physikalische Größe. Wir ergänzen dies durch eine weitere mechanische Größe: den
+Impuls $\vec{p}$, der als das Produkt aus Masse und Geschwindigkeit definiert
+ist:
 
 $$\vec{p} = m \cdot \vec{v} \qquad \textrm {Einheit: } [\vec{p}\, ]= 1~\frac{\mathrm{kg\cdot m}}{\mathrm s}$$
-Die besondere Bedeutung dieser Größe wird später noch diskutiert werden. Wir betrachten sie zunächst als quantitativen Ausdruck eines Bewegungszustands. Der Impuls ist eine vektorielle Größe. Seine Richtung stimmt mit der Bewegungsrichtung überein.
+
+Die besondere Bedeutung dieser Größe wird später noch diskutiert werden. Wir
+betrachten sie zunächst als quantitativen Ausdruck eines Bewegungszustands. Der
+Impuls ist eine vektorielle Größe. Seine Richtung stimmt mit der
+Bewegungsrichtung überein.
 
 Die Wechselwirkung zwischen zwei Körpern beschreiben wir durch die Kraft:
 
 $$\textrm {Kraft: } \vec{F} \qquad \textrm {Einheit: }[\vec{F} ] = 1~\frac{\mathrm{kg\cdot m}}{\mathrm s^2}=1~\mathrm N \quad \textrm{(Newton)}$$
-Der Vektorcharakter der Kraft widerspiegelt, dass die Wechselwirkung zwischen Körpern stets gerichtet ist. Entsprechend gibt die Richtung des Kraftvektors die Richtung der Wechselwirkung an, während der Betrag $|\vec{F }|$ die Stärke der Wechselwirkung beschreibt. Ferner ist für Kräfte die vektorielle Addition anzuwenden, d.h. bei mehreren auf einen Körper wirkenden Kräften:
+
+Der Vektorcharakter der Kraft widerspiegelt, dass die Wechselwirkung zwischen
+Körpern stets gerichtet ist. Entsprechend gibt die Richtung des Kraftvektors die
+Richtung der Wechselwirkung an, während der Betrag $|\vec{F }|$ die Stärke der
+Wechselwirkung beschreibt. Ferner ist für Kräfte die vektorielle Addition
+anzuwenden. Bei mehreren auf einen Körper wirkenden Kräften ergibt sich die
+Gesamtkraft:
 
 $$\vec F_{ges} = \vec F_1+\vec F_1+\cdots$$
 
-Dies bedeutet auch, dass sich die einzelnen auf einen Körper wirkenden Kräfte überlagern, ohne sich gegenseitig zu beeinflussen. Wie schon bei der [Überlagerung von Bewegungen](#überlagerung-von-bewegungen-–-mehrdimensionale-bewegung) spricht man auch hier von *Superposition* der Kräfte. Umgekehrt lässt sich eine wirkende Kraft vektoriell in einzelne Komponenten zerlegen (siehe Abbildung).
+Dies bedeutet auch, dass sich die einzelnen auf einen Körper wirkenden Kräfte
+überlagern, ohne sich gegenseitig zu beeinflussen. Wie schon bei der
+[Überlagerung von Bewegungen](#überlagerung-von-bewegungen-–-mehrdimensionale-bewegung)
+spricht man auch hier von *Superposition* der Kräfte. Umgekehrt lässt sich eine
+wirkende Kraft vektoriell in einzelne Komponenten zerlegen (siehe Abbildung).
 
 ![Grafische Darstellung der vektoriellen Addition von Kräften (Kräfteparallelogramm)](grafik/V03_Kräfte.svg "Zwei Kräfte überlagern sich gemäß dem Superpositionsprinzip zu einer Gesamtkraft, die anhand der *vektoriellen* Addition zu bestimmen ist.")<!--
 style = "width: 5cm;"
 -->
 
-Mit diesen Definitionen von Impuls und Kraft können nun die anfänglichen, qualitativen Beobachtungen auch quantitativ ausgedrückt werden. Die entsprechenden Aussagen gehen auf Sir Isaac<!-- style ="font-variant: small-caps;" --> Newton<!-- style ="font-variant: small-caps;" --> (1643 -- 1727) zurück.
+Mit diesen Definitionen von Impuls und Kraft können nun die anfänglichen,
+qualitativen Beobachtungen auch quantitativ ausgedrückt werden. Die
+entsprechenden Aussagen gehen auf Sir Isaac<!-- style ="font-variant: small-caps;" -->
+Newton<!-- style ="font-variant: small-caps;" --> (1643 -- 1727) zurück.
 
 #### Die Newton<!-- style ="font-variant: small-caps;" -->schen Axiome
 
-Als Axiom bezeichnet man in der Physik einen Grundsatz, der sich nicht aus anderen Gesetzmäßigkeiten ableiten lässt, dessen Gültigkeit jedoch durch experimentelle Beobachtungen bestätigt ist.
+Als Axiom bezeichnet man in der Physik einen Grundsatz, der sich nicht aus
+anderen Gesetzmäßigkeiten ableiten lässt, dessen Gültigkeit jedoch durch
+experimentelle Beobachtungen bestätigt ist.
 
 Das **erste Newtonsche Axiom** behandelt die Trägheit eines Körpers:
 
 > Ohne äußere Krafteinwirkung ist der Impuls einer Punktmasse zeitlich konstant.
 
-Alternativ kann dieses sogenannte *Trägheitsprinzip* auch anhand der Geschwindigkeit (anstelle des Impulses) formuliert werden:
+Alternativ kann dieses sogenannte *Trägheitsprinzip* auch anhand der
+Geschwindigkeit (anstelle des Impulses) formuliert werden:
 
-> Ein Massepunkt verharrt im Zustand der Ruhe oder der gleichförmig geradlinigen Bewegung, solange keine Kraft auf ihn einwirkt.
+> Ein Massepunkt verharrt im Zustand der Ruhe oder der gleichförmig geradlinigen
+> Bewegung, solange keine Kraft auf ihn einwirkt.
 
-Das erste Newtonsche Axiom behandelt also den Fall, dass effektiv keine Kraftwirkung auf einen Massepunkt vorliegt. Das bedeutet nicht, dass gar keine Kräfte auf ihn wirken dürfen. Gemäß dem Superpositionsprinzip können sich mehrere auf einen Körper wirkende Kräfte gegenseitig kompensieren, sodass die Gesamtkraft null ist. Auch in diesem Fall ändert der Körper seinen Impuls nicht.
+Das erste Newtonsche Axiom behandelt also den Fall, dass effektiv keine
+Kraftwirkung auf einen Massepunkt vorliegt. Das bedeutet nicht, dass gar keine
+Kräfte auf ihn wirken dürfen. Gemäß dem Superpositionsprinzip können sich
+mehrere auf einen Körper wirkende Kräfte gegenseitig kompensieren, sodass die
+Gesamtkraft null ist. Auch in diesem Fall ändert der Körper seinen Impuls nicht.
 
-In umgekehrter Lesart sagt das Trägheitsprinzip bereits aus, dass für eine Änderung des Bewegungszustands eines Massepunkts stets eine Kraft einwirken muss. Das **zweite Newtonsche Axiom** (auch *Aktionsprinzip* genannt) drückt den Zusammenhang zwischen Kraft und Impuls quantitativ aus:
+In umgekehrter Lesart sagt das Trägheitsprinzip bereits aus, dass für eine
+Änderung des Bewegungszustands eines Massepunkts stets eine Kraft einwirken
+muss. Das **zweite Newtonsche Axiom** (auch *Aktionsprinzip* genannt) drückt den
+Zusammenhang zwischen Kraft und Impuls quantitativ aus:
 
-> Eine auf eine Punktmasse einwirkende Kraft bewirkt eine Änderung des Impulses dieser Punktmasse. Es gilt der Zusammenhang:
-
+> Eine auf eine Punktmasse einwirkende Kraft bewirkt eine Änderung des Impulses
+> dieser Punktmasse. Es gilt der Zusammenhang:
+>
 > $$\vec{F} = \frac{\mathrm d\vec{p}}{\mathrm d t} \qquad \textrm {bzw. } \int\limits_{t_1}^{t_2} \vec{F} \mathrm dt = \Delta \vec{p}$$
 
-Das Integral $\int \vec{F} \mathrm dt$ wird auch als *Kraftstoß* bezeichnet und ist identisch mit der Änderung des Impulses. Eine Impulsänderung kann auf zweierlei Weise geschehen: durch Änderung der Geschwindigkeit oder durch Änderung der Masse:
+Das Integral $\int \vec{F} \mathrm dt$ wird auch als *Kraftstoß* bezeichnet und
+ist identisch mit der Änderung des Impulses. Eine Impulsänderung kann auf
+zweierlei Weise geschehen: durch Änderung der Geschwindigkeit oder durch
+Änderung der Masse:
 
 $$\frac{\mathrm d \vec{p}}{\mathrm dt}= \dot{\vec{p}}= m \cdot \dot{\vec{v}} + \dot{m} \cdot \vec{v}$$
 
-Diese Formulierung gilt also auch für Systeme mit veränderlicher Masse, wie sie beispielsweise in der Relativitätstheorie zu betrachten sind. In vielen Fällen bleibt die Masse eines Körpers jedoch konstant ($\dot{m}=0$), und es kann geschrieben werden:
+Diese Formulierung gilt also auch für Systeme mit veränderlicher Masse, wie sie
+beispielsweise in der Relativitätstheorie zu betrachten sind. In vielen Fällen
+bleibt die Masse eines Körpers jedoch konstant ($\dot{m}=0$), und es kann
+geschrieben werden:
 
 $$\frac{\mathrm d \vec{p}}{\mathrm dt}=\vec{F} = m \dot{\vec{v}} = m \vec{a}$$
 
-Dieser Ausdruck („Kraft ist Masse mal Beschleunigung“) ist die bekanntere – aber nicht allgemeingültige – Formulierung des zweiten Newtonschen Axioms und wird als Newtonsches Grundgesetz der Mechanik bezeichnet. Aus dieser Formel wird auch ersichtlich, welche Rolle die Masse für die Bewegung der Körper spielt: Bei gleicher Kraft wird ein Körper mit größerer Masse weniger stark beschleunigt werden. D.h., er widersetzt sich stärker der Änderung seines Bewegungszustands. Damit ist die Masse das quantitative Maß der Trägheit.
+Dieser Ausdruck („Kraft ist Masse mal Beschleunigung“) ist die bekanntere – aber
+nicht allgemeingültige – Formulierung des zweiten Newtonschen Axioms und wird
+als Newtonsches Grundgesetz der Mechanik bezeichnet. Aus dieser Formel wird auch
+ersichtlich, welche Rolle die Masse für die Bewegung der Körper spielt: Bei
+gleicher Kraft wird ein Körper mit größerer Masse weniger stark beschleunigt
+werden. D.h., er widersetzt sich stärker der Änderung seines Bewegungszustands.
+Damit ist die Masse das quantitative Maß der Trägheit.
 
 Des Weiteren gilt das als *Reaktionsprinzip* bezeichnete **dritte Newtonsche Axiom**:
 
-> Stehen zwei Punktmassen nur miteinander, nicht aber mit anderen Punktmassen in Wechselwirkung, so ist die Kraft $\vec{F_1}$ auf die eine Punktmasse entgegengesetzt gleich der Kraft $\vec{F_2}$ auf die zweite Punktmasse: $\vec{F_1} = -\vec{F_2}$ („Actio = Reactio“)
+> Stehen zwei Punktmassen nur miteinander, nicht aber mit anderen Punktmassen in
+> Wechselwirkung, so ist die Kraft $\vec{F_1}$ auf die eine Punktmasse
+> entgegengesetzt gleich der Kraft $\vec{F_2}$ auf die zweite Punktmasse:
+> $\vec{F_1} = -\vec{F_2}$ („Actio = Reactio“)
 
-Mit Hilfe der Newtonschen Axiome lassen sich nun (beliebige) Bewegungsprobleme lösen, d.h. ausgehend von den auf einen Massepunkt wirkenden Kräften wird dessen Orts-Zeit-Gesetz berechnet. Das prinzipielle Vorgehen folgt diesen Schritten:
+Mit Hilfe der Newtonschen Axiome lassen sich nun (beliebige) Bewegungsprobleme
+lösen. Ausgehend von den auf einen Massepunkt wirkenden Kräften wird dabei
+dessen Orts-Zeit-Gesetz berechnet. Das prinzipielle Vorgehen folgt diesen
+Schritten:
 
 1.  Ermittlung aller auf einen Massepunkt wirkenden Kräfte $\vec F_i$
 
-2.  Bestimmung der Gesamtkraft durch Vektoraddition aller Teilkräfte $\vec{F}_\mathrm{ges}= \sum_i \vec{F}_i$
+2.  Bestimmung der Gesamtkraft durch Vektoraddition aller Teilkräfte
+    $\vec{F}_\mathrm{ges}= \sum_i \vec{F}_i$
 
-3.  Berechnung der Beschleunigung anhand des Newtonschen Grundgesetzes (Voraussetzung: Vorgang mit konstanter Masse):
+3.  Berechnung der Beschleunigung anhand des Newtonschen Grundgesetzes
+    (Voraussetzung: Vorgang mit konstanter Masse):
 
     $$\vec{a}= \frac{\vec{F}_{ges}}{m}$$
 
-4.  Zeitliche Integration liefert das Geschwindigkeits-Zeit-Gesetz $\vec{v}(t)$ (siehe oben: [beschleunigte Bewegungen](#beschleunigte-geradlinige-bewegung)).
+4.  Zeitliche Integration liefert das Geschwindigkeits-Zeit-Gesetz
+    $\vec{v}(t)$ (siehe oben: [beschleunigte Bewegungen](#beschleunigte-geradlinige-bewegung)).
 
 5.  Nochmalige zeitliche Integration ergibt das Orts-Zeit-Gesetz $\vec{r}(t)$.
 
 #### Systeme aus mehreren Punktmassen und ihr Impuls
 
-Bisher wurden einzelne Punktmassen betrachtet, auf die in irgendeiner Weise eine Kraft einwirkt. Die Herkunft dieser Kraft wurde noch nicht berücksichtigt. Wir haben jedoch bereits zu Beginn dieses Kapitels festgestellt, dass eine Kraft immer aus der Wechselwirkung mit anderen Körpern bzw. Massepunkten resultiert. Bezieht man diese mit in die Betrachtung ein, so erhält man ein System aus mehreren Punktmassen, die jeweils einen Impuls $\vec{p_i}$ besitzen:
+Bisher wurden einzelne Punktmassen betrachtet, auf die in irgendeiner Weise eine
+Kraft einwirkt. Die Herkunft dieser Kraft wurde noch nicht berücksichtigt. Wir
+haben jedoch bereits zu Beginn dieses Kapitels festgestellt, dass eine Kraft
+immer aus der Wechselwirkung mit anderen Körpern bzw. Massepunkten resultiert.
+Bezieht man diese mit in die Betrachtung ein, so erhält man ein System aus
+mehreren Punktmassen, die jeweils einen Impuls $\vec{p_i}$ besitzen:
 
 $$\vec{p_1}=m_1 \cdot \vec{v_1} \qquad \vec{p_2} = m_2 \cdot \vec{v_2} \qquad \textrm{usw.}$$
 
-Der Gesamtimpuls dieses Systems ergibt sich als vektorielle Summe aller Einzelimpulse:
+Der Gesamtimpuls dieses Systems ergibt sich als vektorielle Summe aller
+Einzelimpulse:
 
 $$\vec{p}_{ges}=\sum_i \vec{p_i}$$
 
-Wir betrachten im Folgenden sogenannte abgeschlossene Systeme. D.h.:
+Wir betrachten im Folgenden sogenannte abgeschlossene Systeme. Dafür müssen
+folgende Bedingungen erfüllt sein:
 
--   Es wirken keine Kräfte von außen ein. Die Massepunkte des Systems stehen nur miteinander in Wechselwirkung.
+-   Es wirken keine Kräfte von außen ein. Die Massepunkte des Systems stehen nur
+    miteinander in Wechselwirkung.
 -   Es können keine Massepunkte das System verlassen oder hinzukommen.
 
-Prinzipiell können beliebig viele Punktmassen zu einem solchen System gehören. Wir betrachten hier zunächst ein einfaches System aus zwei Massepunkten in einer eindimensionalen Bewegung. Experimentell lässt sich dies realisieren durch zwei Wagen, die sich reibungsfrei auf einer Schiene bewegen können. Anfangs befinden sich beide Wagen in Ruhe. Für Einzel- und Gesamtimpuls gilt:
+Prinzipiell können beliebig viele Punktmassen zu einem solchen System gehören.
+Wir betrachten hier zunächst ein einfaches System aus zwei Massepunkten in einer
+eindimensionalen Bewegung. Experimentell lässt sich dies realisieren durch zwei
+Wagen, die sich reibungsfrei auf einer Schiene bewegen können. Anfangs befinden
+sich beide Wagen in Ruhe. Für Einzel- und Gesamtimpuls gilt:
 
 $$p_1 = p_2 =0 \qquad p_{ges}=0$$
 
-Zwischen beiden Wagen befinde sich eine gespannte Feder, die plötzlich freigegeben wird und die Wagen auseinanderdrückt. Das bedeutet, dass die Wagen über die Feder miteinander wechselwirken. Das Experiment zeigt, dass die Wagen dabei – abhängig von ihrer Masse – unterschiedlich stark in entgegengesetzte Richtungen beschleunigt werden. Entsprechend unterscheiden sich ihre Endgeschwindigkeiten nach vollständiger Entspannung der Feder. Es gilt jedoch:
+Zwischen beiden Wagen befinde sich eine gespannte Feder, die plötzlich
+freigegeben wird und die Wagen auseinanderdrückt. Das bedeutet, dass die Wagen
+über die Feder miteinander wechselwirken. Das Experiment zeigt, dass die Wagen
+dabei – abhängig von ihrer Masse – unterschiedlich stark in entgegengesetzte
+Richtungen beschleunigt werden. Entsprechend unterscheiden sich ihre
+Endgeschwindigkeiten nach vollständiger Entspannung der Feder. Es gilt jedoch:
 
 $$m_1 v'_1 = -m_2 v'_2 \, .$$
+
 Das bedeutet
 
 $$p'_1 =-p'_2 \qquad \textrm{und } \qquad p'_{ges}= p'_1 +p'_2 =0 \, .$$
 
-Dabei geben gestrichene Größen den Zustand nach der Wechselwirkung an. Der Gesamtimpuls ändert sich bei dieser Wechselwirkung also nicht.
+Dabei geben gestrichene Größen den Zustand nach der Wechselwirkung an. Der
+Gesamtimpuls ändert sich bei dieser Wechselwirkung also nicht.
 
-Unter Betrachtung der Newtonschen Axiome lässt sich dieses experimentelle Ergebnis auch theoretisch begründen. Wir formulieren diese Begründung allgemein in vektorieller Schreibweise, d.h. ohne die Beschränkung auf eine eindimensionale Bewegung. Wenn zwei Massepunkte nur miteinander wechselwirken (die Feder im obigen Experiment „vermittelt“ lediglich diese Wechselwirkung), müssen zu jedem Zeitpunkt $t^*$ die auf die beiden Massepunkte wirkenden Kräfte entgegengesetzt gleich groß sein (drittes Newtonsches Axiom):
+Unter Betrachtung der Newtonschen Axiome lässt sich dieses experimentelle
+Ergebnis auch theoretisch begründen. Wir formulieren diese Begründung allgemein
+in vektorieller Schreibweise, d.h. ohne die Beschränkung auf eine
+eindimensionale Bewegung. Wenn zwei Massepunkte nur miteinander wechselwirken
+(die Feder im obigen Experiment „vermittelt“ lediglich diese Wechselwirkung),
+müssen zu jedem Zeitpunkt $t^*$ die auf die beiden Massepunkte wirkenden Kräfte
+entgegengesetzt gleich groß sein (drittes Newtonsches Axiom):
 
 $$\vec{F_1}(t^*) = - \vec{F_2}(t^*)$$
 
-Demzufolge müssen auch die Kraftstöße auf beide Massepunkte über beliebige Zeiträume stets entgegengesetzt gleich groß sein:
+Demzufolge müssen auch die Kraftstöße auf beide Massepunkte über beliebige
+Zeiträume stets entgegengesetzt gleich groß sein:
 
 $$\int\limits_{t_1}^{t_2} \vec{F_1} \mathrm dt = - \int\limits_{t_1}^{t_2} \vec{F_2} \mathrm dt$$
 
-Gemäß dem zweiten Newtonschen Axiom gilt für die Änderung der Impulse im Zeitraum $t_1 \to t_2$ :
+Gemäß dem zweiten Newtonschen Axiom gilt für die Änderung der Impulse im
+Zeitraum $t_1 \to t_2$ :
 
 $$\Delta\vec{p_1}=\int\limits_{t_1}^{t_2} \vec{F_1} \mathrm dt \qquad \textrm{sowie} \qquad \Delta \vec{p_2} =\int\limits_{t_1}^{t_2} \vec{F_2} \mathrm dt$$
+
 und somit:
 
 $$\Delta \vec{p_1} = - \Delta \vec{p_2}$$
 
-Zum Zeitpunkt $t_1$ (im obigen Experiment war dies vor der Freigabe der Feder) gilt für den Gesamtimpuls:
+Zum Zeitpunkt $t_1$ (im obigen Experiment war dies vor der Freigabe der Feder)
+gilt für den Gesamtimpuls:
 
 $$\vec{p}_{ges}(t_1) = \vec{p_1}(t_1) + \vec{p_2}(t_1)$$
 
-Zu einem beliebigen späteren Zeitpunkt $t_2$ (nicht nur nach vollständiger Entspannung der Feder) gilt:
+Zu einem beliebigen späteren Zeitpunkt $t_2$ (nicht nur nach vollständiger
+  Entspannung der Feder) gilt:
 
 $$\begin{aligned}
 \vec{p}_{ges}(t_2) & = \vec{p_2}(t_2) + \vec{p_2}(t_2) \\
@@ -695,31 +801,62 @@ $$\begin{aligned}
 & = \vec{p_1}(t_1) + \vec{p_2}(t_1) \\
 & =\vec{p}_{ges}(t_1)\end{aligned}$$
 
-Der Gesamtimpuls ist zu diesem Zeitpunkt also gleich dem Anfangs-Gesamtimpuls. Da dies für beliebige Zeitpunkte gilt, schlussfolgern wir, dass sich der Gesamtimpuls im Verlauf der Wechselwirkung nicht ändert.
+Der Gesamtimpuls ist zu diesem Zeitpunkt also gleich dem Anfangs-Gesamtimpuls.
+Da dies für beliebige Zeitpunkte gilt, schlussfolgern wir, dass sich der
+Gesamtimpuls im Verlauf der Wechselwirkung nicht ändert.
 
-Diese Feststellung kann für Systeme mit mehr als zwei Massepunkten verallgemeinert werden. Solange keine äußeren Kräfte einwirken, treten Wechselwirkungen im System immer paarweise entgegengesetzt auf. Folglich existiert zu jeder Impulsänderung eines Massepunktes die entgegengesetzte Änderung eines anderen Massepunktes. Dies führt zum sogenannten **Impulserhaltungssatz**:
+Diese Feststellung kann für Systeme mit mehr als zwei Massepunkten
+verallgemeinert werden. Solange keine äußeren Kräfte einwirken, treten
+Wechselwirkungen im System immer paarweise entgegengesetzt auf. Folglich
+existiert zu jeder Impulsänderung eines Massepunktes die entgegengesetzte
+Änderung eines anderen Massepunktes. Dies führt zum sogenannten
+**Impulserhaltungssatz**:
 
-> In einem abgeschlossenen System ist der Gesamtimpuls eine Erhaltungsgröße, d.h. er bleibt zeitlich konstant.
+> In einem abgeschlossenen System ist der Gesamtimpuls eine Erhaltungsgröße,
+> d.h. er bleibt zeitlich konstant.
 
-Anhand dieses Erhaltungssatzes lassen sich viele Bewegungsprobleme vergleichsweise einfach bearbeiten. Wir werden dies in einem [späteren Kapitel](#anwendungen-der-erhaltungssätze) im Zusammenspiel mit einem weiteren Erhaltungssatz praktizieren.
+Anhand dieses Erhaltungssatzes lassen sich viele Bewegungsprobleme
+vergleichsweise einfach bearbeiten. Wir werden dies in einem
+[späteren Kapitel](#anwendungen-der-erhaltungssätze) im Zusammenspiel mit einem
+weiteren Erhaltungssatz praktizieren.
 
 #### Kräfte
 
-Während wir in den vorangegangenen Abschnitten stets eine Kraftwirkung vorausgesetzt haben, ohne die Ursache dieser Kraft zu betrachten, sollen im Folgenden einige grundlegende Kräfte, die uns aus unserer Anschauung bereits bekannt sind, in Formeln gefasst werden.
+Während wir in den vorangegangenen Abschnitten stets eine Kraftwirkung
+vorausgesetzt haben, ohne die Ursache dieser Kraft zu betrachten, sollen im
+Folgenden einige grundlegende Kräfte, die uns aus unserer Anschauung bereits
+bekannt sind, in Formeln gefasst werden.
 
 ##### Die Gewichtskraft
 
-Bereits in der Kinematik hatten wir festgestellt, dass ein fallender Körper – unabhängig von seiner Masse $m$ – die Beschleunigung $\vec{g}$ erfährt. Gemäß dem zweiten Newtonschen Axiom ist hierfür eine beschleunigende Kraft
+Bereits in der Kinematik hatten wir festgestellt, dass ein fallender Körper –
+unabhängig von seiner Masse $m$ – die Beschleunigung $\vec{g}$ erfährt. Gemäß
+dem zweiten Newtonschen Axiom ist hierfür eine beschleunigende Kraft
 
 $$\vec{F}_G = m \vec{g}$$
 
-erforderlich. Diese wird als Gewichtskraft bezeichnet und wirkt selbstverständlich nicht nur auf fallende Körper, sondern jederzeit auf jeden Körper. Damit ein Körper nicht fällt, muss eine gleich große Gegenkraft aufgebracht werden. Da die Fallbeschleunigung in der Nähe der Erdoberfläche räumlich (annähernd) konstant ist, gilt dies auch für die Gewichtskraft.
+erforderlich. Diese wird als Gewichtskraft bezeichnet und wirkt
+selbstverständlich nicht nur auf fallende Körper, sondern jederzeit auf jeden
+Körper. Damit ein Körper nicht fällt, muss eine gleich große Gegenkraft
+aufgebracht werden. Da die Fallbeschleunigung in der Nähe der Erdoberfläche
+räumlich (annähernd) konstant ist, gilt dies auch für die Gewichtskraft.
 
-Vorsicht ist geboten bei der physikalisch korrekten Benennung von Masse und Gewicht. Die Gewichtskraft (oder Gewicht) ist eine Kraft, die neben der Masse auch von der jeweiligen Fallbeschleunigung abhängt. So wäre beispielsweise auf dem Mond, dessen Fallbeschleunigung nur etwa 16 % des Wertes auf der Erdoberfläche beträgt, die Masse eben dieselbe wie auf der Erde. Hingegen würde sich das Gewicht auf ca. 16 % reduzieren.
+Vorsicht ist geboten bei der physikalisch korrekten Benennung von Masse und
+Gewicht. Die Gewichtskraft (oder Gewicht) ist eine Kraft, die neben der Masse
+auch von der jeweiligen Fallbeschleunigung abhängt. So wäre beispielsweise auf
+dem Mond, dessen Fallbeschleunigung nur etwa 16 % des Wertes auf der
+Erdoberfläche beträgt, die Masse eben dieselbe wie auf der Erde. Hingegen würde
+sich das Gewicht auf ca. 16 % reduzieren.
 
 ##### Die Komponenten der Gewichtskraft - Hangabtriebskraft und Normalkraft
 
-Auf der Erdoberfläche wirkt die Gewichtskraft stets senkrecht nach unten. Bei einer geneigten Unterlage kann die Gewichtskraft gemäß dem Superpositionsprinzip in zwei Teilkräfte zerlegt werden, die parallel beziehungsweise senkrecht zur Unterlage orientiert sind (siehe Abbildung). Die Parallelkomponente heißt Hangabtriebskraft $\vec{F}_H$, die senkrechte Komponente heißt Normalkraft $\vec{F}_N$. Ist die Unterlage um den Winkel $\alpha$ gegen die Horizontale geneigt, so gilt für die Beträge dieser beiden Kräfte:
+Auf der Erdoberfläche wirkt die Gewichtskraft stets senkrecht nach unten. Bei
+einer geneigten Unterlage kann die Gewichtskraft gemäß dem Superpositionsprinzip
+in zwei Teilkräfte zerlegt werden, die parallel beziehungsweise senkrecht zur
+Unterlage orientiert sind (siehe Abbildung). Die Parallelkomponente heißt
+Hangabtriebskraft $\vec{F}_H$, die senkrechte Komponente heißt Normalkraft
+$\vec{F}_N$. Ist die Unterlage um den Winkel $\alpha$ gegen die Horizontale
+geneigt, so gilt für die Beträge dieser beiden Kräfte:
 
 $$\begin{aligned}F_H & = F_G \cdot \sin{\alpha} = m g \sin{\alpha} \\
 F_N & = F_G \cdot \cos{\alpha} = m g \cos{\alpha}\end{aligned}$$
@@ -728,15 +865,22 @@ F_N & = F_G \cdot \cos{\alpha} = m g \cos{\alpha}\end{aligned}$$
 
 ##### Die Gravitationskraft
 
-Gravitation ist die Anziehung zwischen Körpern (Massepunkten) aufgrund ihrer Masse. Befindet sich eine Masse $M$ im Koordinatenursprung, so erfährt eine zweite Masse $m$ an einem (beliebigen) Ort $\vec{r}$ die Kraft
+Gravitation ist die Anziehung zwischen Körpern (Massepunkten) aufgrund ihrer
+Masse. Befindet sich eine Masse $M$ im Koordinatenursprung, so erfährt eine
+zweite Masse $m$ an einem (beliebigen) Ort $\vec{r}$ die Kraft
 
-$$\vec{F}_{Grav} = -\Gamma\frac{mM}{r^2}\cdot \vec{e}_r$$
+$$\vec{F}_{Grav} = -\Gamma\frac{mM}{r^2}\cdot \vec{e}_r \, ,$$
 
-wobei $r=|\vec{r}|$ den Betrag des Ortsvektors bezeichnet. Die Gravitationskonstante $\Gamma$ hat den Wert (siehe [CODATA2018](https://physics.nist.gov/cgi-bin/cuu/Value?bg))
+wobei $r=|\vec{r}|$ den Betrag des Ortsvektors bezeichnet. Die
+Gravitationskonstante $\Gamma$ hat den Wert (siehe
+  [CODATA2018](https://physics.nist.gov/cgi-bin/cuu/Value?bg))
 
 $$\Gamma = 6{,}674\cdot 10^{-11}~\frac{\mathrm m^3}{\mathrm {kg\cdot s^2}} \, .$$
 
-Der Ausdruck $\vec{e}_r$ bezeichnet einen Einheitsvektor (d.h. seine Länge ist 1) in Richtung $\vec{r}$ und gibt damit die Richtung dieser Kraft an: Sie wirkt stets entlang des Ortsvektors zum Koordinatenursprung hin, an dem sich die Masse $M$ befindet. Damit ist die Gravitation eine Zentralkraft.
+Der Ausdruck $\vec{e}_r$ bezeichnet einen Einheitsvektor (d.h. seine Länge ist
+1) in Richtung $\vec{r}$ und gibt damit die Richtung dieser Kraft an: Sie wirkt
+stets entlang des Ortsvektors zum Koordinatenursprung hin, an dem sich die Masse
+$M$ befindet. Damit ist die Gravitation eine Zentralkraft.
 
 Auf der Erdoberfläche spüren wir die Gravitation als Gewichtskraft. Es gilt also:
 
@@ -750,13 +894,23 @@ $$g = \Gamma\frac{M_{Erde}}{r^2_{Erde}} \, .$$
 
 ##### Die Federkraft
 
-Die Dehnung oder Stauchung einer (linearen) Feder um eine Auslenkung $\vec{x}$ erfordert eine Kraft, die proportional zu dieser Auslenkung ist:
+Die Dehnung oder Stauchung einer (linearen) Feder um eine Auslenkung $\vec{x}$
+erfordert eine Kraft, die proportional zu dieser Auslenkung ist:
 
 $$\vec{F} = k\vec{x}$$
 
-Dieser Zusammenhang wird auch als lineares Kraftgesetz oder Hooke<!-- style ="font-variant: small-caps;" -->sches Gesetz einer Feder bezeichnet. Selbstverständlich wird dabei davon ausgegangen, dass die Kraft entlang der Federachse angreift. Der Proportionalitätsfaktor $k$ heißt Federkonstante und wird in der Einheit $[k]=1~\frac{\mathrm N}{\mathrm m}$ angegeben. Er gibt die „Härte“ der Feder an. „Weiche“ Federn besitzen eine kleine Federkonstante, d.h. für eine Verformung um eine gewisse Strecke ist entsprechend wenig Kraft aufzubringen.
+Dieser Zusammenhang wird auch als lineares Kraftgesetz oder
+Hooke<!-- style ="font-variant: small-caps;" -->sches Gesetz einer Feder
+bezeichnet. Selbstverständlich wird dabei davon ausgegangen, dass die Kraft
+entlang der Federachse angreift. Der Proportionalitätsfaktor $k$ heißt
+Federkonstante und wird in der Einheit $[k]=1~\frac{\mathrm N}{\mathrm m}$
+angegeben. Er gibt die „Härte“ der Feder an. „Weiche“ Federn besitzen eine
+kleine Federkonstante, das heißt für eine Verformung um eine gewisse Strecke ist
+entsprechend wenig Kraft aufzubringen.
 
-Die Feder ihrerseits setzt dieser Verformung eine Kraft entgegen, die – gemäß dem dritten Newtonschen Axiom – der äußeren Kraft entgegengesetzt, aber gleich groß ist:
+Die Feder ihrerseits setzt dieser Verformung eine Kraft entgegen, die – gemäß
+dem dritten Newtonschen Axiom – der äußeren Kraft entgegengesetzt, aber gleich
+groß ist:
 
 $$\vec{F}_F = -k\vec{x} \, .$$
 
@@ -764,35 +918,71 @@ Diese Kraft wird als Federkraft bezeichnet.
 
 ##### Reibungskräfte
 
-Reale Bewegungsvorgänge unterliegen stets Einflüssen, die die Bewegung hemmen, d.h. ihre Geschwindigkeit verringern. Solche Einflüsse werden als Reibung bezeichnet. Der Reibung können verschiedene Mechanismen zu Grunde liegen; dementsprechend existieren unterschiedliche Formeln, die die einzelnen Reibungsprozesse beschreiben. Bei der Berechnung von Reibungskräften ist also stets zu prüfen, welche Art Reibung vorliegt.
+Reale Bewegungsvorgänge unterliegen stets Einflüssen, die die Bewegung hemmen,
+das heißt ihre Geschwindigkeit verringern. Solche Einflüsse werden als Reibung
+bezeichnet. Der Reibung können verschiedene Mechanismen zu Grunde liegen;
+dementsprechend existieren unterschiedliche Formeln, die die einzelnen
+Reibungsprozesse beschreiben. Bei der Berechnung von Reibungskräften ist also
+stets zu prüfen, welche Art Reibung vorliegt.
 
-Wir beschränken uns hier auf eine der grundlegenden Reibungsformen: die Festkörperreibung (auch trockene Reibung oder Coulomb-Reibung). Diese wirkt, wenn zwei feste Körper miteinander in Kontakt stehen und sich gegeneinander bewegen. Dies schließt also insbesondere den Fall ein, dass sich ein Körper auf einer festen Unterlage fortbewegt. Die dabei wirkende Reibungskraft $\vec{F}_R$ ist (annähernd) unabhängig von der Geschwindigkeit:
+Wir beschränken uns hier auf eine der grundlegenden Reibungsformen: die
+Festkörperreibung (auch trockene Reibung oder Coulomb-Reibung). Diese wirkt,
+wenn zwei feste Körper miteinander in Kontakt stehen und sich gegeneinander
+bewegen. Dies schließt also insbesondere den Fall ein, dass sich ein Körper auf
+einer festen Unterlage fortbewegt. Die dabei wirkende Reibungskraft $\vec{F}_R$
+ist (annähernd) unabhängig von der Geschwindigkeit:
 
 $$F_R = \mu F_N$$
 
-$F_N$ ist dabei die oben eingeführte Normalkraft, also die Kraft, mit der der Körper auf seine Unterlage wirkt. Der Proportionalitätsfaktor $\mu$ wird als Reibungskoeffizient bezeichnet und hängt von der Materialkombination von Körper und Unterlage ab. In der Regel ist $\mu<1$.
+$F_N$ ist dabei die oben eingeführte Normalkraft, also die Kraft, mit der der
+Körper auf seine Unterlage wirkt. Der Proportionalitätsfaktor $\mu$ wird als
+Reibungskoeffizient bezeichnet und hängt von der Materialkombination von Körper
+und Unterlage ab. In der Regel ist $\mu<1$.
 
-Bewegt sich der Körper auf seiner Unterlage, so spricht man von Gleitreibung, und der Koeffizient wird genauer als Gleitreibungskoeffizient $\mu_\mathrm{Gleit}$ bezeichnet. Befindet sich der Körper auf seiner Unterlage in Ruhe, so wirkt eine größere Reibungskraft, die als Haftreibung bezeichnet wird. Der entsprechende Koeffizient heißt dann Haftreibungskoeffizient $\mu_\mathrm{Haft}$. Es gilt:
+Bewegt sich der Körper auf seiner Unterlage, so spricht man von Gleitreibung,
+und der Koeffizient wird genauer als Gleitreibungskoeffizient
+$\mu_\mathrm{Gleit}$ bezeichnet. Befindet sich der Körper auf seiner Unterlage
+in Ruhe, so wirkt eine größere Reibungskraft, die als Haftreibung bezeichnet
+wird. Der entsprechende Koeffizient heißt dann Haftreibungskoeffizient
+$\mu_\mathrm{Haft}$. Es gilt:
 
 $$\mu_\mathrm{Haft} \gt \mu_\mathrm{Gleit}$$
 
-Um einen Körper auf seiner Unterlage in Bewegung zu setzen, ist also eine größere Kraft erforderlich als für die anschließende Erhaltung dieser Bewegung.
+Um einen Körper auf seiner Unterlage in Bewegung zu setzen, ist also eine
+größere Kraft erforderlich als für die anschließende Erhaltung dieser Bewegung.
 
-Bisher wurden nur die Beträge der Reibungskräfte beschrieben. Ihre Richtung ist stets so, dass sie die Bewegung hemmen. D.h., die Gleitreibung ist der momentanen Geschwindigkeit entgegengerichtet. Die Haftreibung ist der beschleunigenden Kraft entgegengesetzt.
+Bisher wurden nur die Beträge der Reibungskräfte beschrieben. Ihre Richtung ist
+stets so, dass sie die Bewegung hemmen. D.h., die Gleitreibung ist der
+momentanen Geschwindigkeit entgegengerichtet. Die Haftreibung ist der
+beschleunigenden Kraft entgegengesetzt.
 
 ##### Die goldene Regel der Mechanik
 
-Es existieren verschiedene Vorrichtungen, die eine auf sie einwirkende Kraft sowohl in ihrer Richtung als auch in ihrem Betrag verändern können. Solche kraftumformende Einrichtungen haben große Bedeutung in der Technik. Zu ihren wichtigsten Vertretern gehören unter anderem Hebel und Flaschenzug.
+Es existieren verschiedene Vorrichtungen, die eine auf sie einwirkende Kraft
+sowohl in ihrer Richtung als auch in ihrem Betrag verändern können. Solche
+kraftumformende Einrichtungen haben große Bedeutung in der Technik. Zu ihren
+wichtigsten Vertretern gehören unter anderem Hebel und Flaschenzug.
 
-Wird ein Körper mit der Gewichtskraft $F_G$ an einem Flaschenzug mit insgesamt 4 Rollen aufgehängt, so ist an der Gegenseite des Flaschenzuges nur noch ein Viertel dieser Gewichtskraft erforderlich, um den Körper zu halten. Um den Körper hingegen um eine gewisse Höhe $h$ anzuheben, muss an der Gegenseite nun (mit der reduzierten Kraft) das Seil um das Vierfache dieser Höhe gezogen werden. Analoge Zusammenhänge gelten auch für alle weiteren kraftumformenden Einrichtungen. Dies führt zur sogenannten „goldenen Regel der Mechanik“:
+Wird ein Körper mit der Gewichtskraft $F_G$ an einem Flaschenzug mit insgesamt
+4 Rollen aufgehängt, so ist an der Gegenseite des Flaschenzuges nur noch ein
+Viertel dieser Gewichtskraft erforderlich, um den Körper zu halten. Um den
+Körper hingegen um eine gewisse Höhe $h$ anzuheben, muss an der Gegenseite nun
+(mit der reduzierten Kraft) das Seil um das Vierfache dieser Höhe gezogen
+werden. Analoge Zusammenhänge gelten auch für alle weiteren kraftumformenden
+Einrichtungen. Dies führt zur sogenannten „goldenen Regel der Mechanik“:
 
 > Was man an Kraft spart, muss man an Weg zusetzen.
 
-Anders ausgedrückt: das Produkt aus Kraft und Weg bleibt an einer kraftumformenden Einrichtung stets dasselbe. Größen, die unter bestimmten Umständen konstant bleiben, sind stets von großer Bedeutung für die Beschreibung von Naturvorgängen. Daher führen wir das Produkt aus Kraft und Weg als eigenständige Größe – die Arbeit $W$ – ein.
+Anders ausgedrückt: das Produkt aus Kraft und Weg bleibt an einer
+kraftumformenden Einrichtung stets dasselbe. Größen, die unter bestimmten
+Umständen konstant bleiben, sind stets von großer Bedeutung für die Beschreibung
+von Naturvorgängen. Daher führen wir das Produkt aus Kraft und Weg als
+eigenständige Größe – die Arbeit $W$ – ein.
 
 #### Die Arbeit
 
-Wird ein Körper unter dem Einfluss einer Kraft $\vec{F}$ um das Wegelement $\mathrm d\vec{s}$ verschoben, so wird an ihm die **Arbeit**
+Wird ein Körper unter dem Einfluss einer Kraft $\vec{F}$ um das Wegelement
+$\mathrm d\vec{s}$ verschoben, so wird an ihm die **Arbeit**
 
 $$\mathrm dW = \vec{F}\cdot \mathrm d\vec{s}$$
 
@@ -800,23 +990,43 @@ verrichtet. Aus dieser Definition der Arbeit ergibt sich auch deren Einheit:
 
 $$[W] = 1~\mathrm{Nm} = 1~\mathrm J \qquad \textrm{(Joule).}$$
 
-Die obige Definition der Arbeit enthält ein Skalarprodukt aus der angreifenden Kraft und dem (gerichteten) Wegelement, um das der Körper verschoben wird. Physikalisch bedeutet dies, dass nur Kräfte bzw. Kraftkomponenten, die in Wegrichtung angreifen, auch Arbeit verrichten. Kräfte oder Kraftkomponenten, die senkrecht zum Weg angreifen, verrichten keine Arbeit. Kräfte, die schräg zum Weg angreifen, müssen entsprechend dem Superpositionsprinzip in ihre Komponenten in Wegrichtung bzw. senkrecht dazu zerlegt werden. Nur die erstere verrichtet dabei Arbeit. Wir werden im Laufe dieses Kurses noch Kräfte kennen lernen, die stets senkrecht zum momentanen Wegelement angreifen und daher niemals Arbeit verrichten.
+Die obige Definition der Arbeit enthält ein Skalarprodukt aus der angreifenden
+Kraft und dem (gerichteten) Wegelement, um das der Körper verschoben wird.
+Physikalisch bedeutet dies, dass nur Kräfte bzw. Kraftkomponenten, die in
+Wegrichtung angreifen, auch Arbeit verrichten. Kräfte oder Kraftkomponenten, die
+senkrecht zum Weg angreifen, verrichten keine Arbeit. Kräfte, die schräg zum Weg
+angreifen, müssen entsprechend dem Superpositionsprinzip in ihre Komponenten in
+Wegrichtung beziehungsweise senkrecht dazu zerlegt werden. Nur die erstere
+verrichtet dabei Arbeit. Wir werden im Laufe dieses Kurses noch Kräfte kennen
+lernen, die stets senkrecht zum momentanen Wegelement angreifen und daher
+niemals Arbeit verrichten.
 
-Die differentielle Schreibweise in der obigen Formel berücksichtigt den allgemeinen Fall, dass sich die Kraft entlang des Weges ändert (dies ist beispielsweise beim Spannen einer Feder der Fall, siehe unten). Die gesamte zu verrichtende Arbeit ergibt sich durch Integration entlang des Verschiebewegs:
+Die differentielle Schreibweise in der obigen Formel berücksichtigt den
+allgemeinen Fall, dass sich die Kraft entlang des Weges ändert (dies ist
+beispielsweise beim Spannen einer Feder der Fall, siehe unten). Die gesamte zu
+verrichtende Arbeit ergibt sich durch Integration entlang des Verschiebewegs:
 
 $$W = \int\limits_{\vec{r}_1}^{\vec{r}_2}\vec{F}\cdot \mathrm d \vec{s} \, .$$
 
-Sofern die Kraft über den gesamten Verschiebeweg konstant ist und stets in Wegrichtung wirkt, vereinfacht sich dieser Ausdruck zu
+Sofern die Kraft über den gesamten Verschiebeweg konstant ist und stets in
+Wegrichtung wirkt, vereinfacht sich dieser Ausdruck zu
 
 $$W = F\cdot s \, ,$$
 
 wobei $s$ für die Länge des gesamten Verschiebewegs steht.
 
-Um die Bedeutung dieser physikalischen Größe besser zu verstehen, wollen wir anhand der uns bekannten Kräfte einige Arten der Arbeit betrachten.
+Um die Bedeutung dieser physikalischen Größe besser zu verstehen, wollen wir
+anhand der uns bekannten Kräfte einige Arten der Arbeit betrachten.
 
 ##### Die Beschleunigungsarbeit
 
-Ein Körper der Masse m soll aus dem Stand auf eine Geschwindigkeit $v$ beschleunigt werden. Dies geschehe mit einer konstanten Beschleunigung $a$ auf einem Weg der Länge $s$. Da die Wahl von $a$ und $s$ willkürlich ist, sollen diese beiden Größen in der endgültigen Formel eliminiert werden. Wir gehen ferner davon aus, dass die zur Beschleunigung erforderliche Kraft $\vec{F}$ konstant ist und stets parallel zur Bewegungsrichtung angreift. Wir können daher die vereinfachte Formel für die Arbeit ansetzen:
+Ein Körper der Masse m soll aus dem Stand auf eine Geschwindigkeit $v$
+beschleunigt werden. Dies geschehe mit einer konstanten Beschleunigung $a$ auf
+einem Weg der Länge $s$. Da die Wahl von $a$ und $s$ willkürlich ist, sollen
+diese beiden Größen in der endgültigen Formel eliminiert werden. Wir gehen
+ferner davon aus, dass die zur Beschleunigung erforderliche Kraft $\vec{F}$
+konstant ist und stets parallel zur Bewegungsrichtung angreift. Wir können daher
+die vereinfachte Formel für die Arbeit ansetzen:
 
 $$W = F\cdot s \, .$$
 
@@ -824,11 +1034,13 @@ In diese setzen wir für die Kraft das Newtonsche Grundgesetz ein:
 
 $$W = m a\cdot s$$
 
-Für die Beschleunigung erhalten wir aus dem Weg-Zeit-Gesetz der gleichmäßig beschleunigten Bewegung:
+Für die Beschleunigung erhalten wir aus dem Weg-Zeit-Gesetz der gleichmäßig
+beschleunigten Bewegung:
 
 $$s = \frac{a}{2}t^2 \quad \Rightarrow \quad a = \frac{2s}{t^2} \, .$$
 
-Für die in dieser Formel auftretende Zeit formen wir das Geschwindigkeits-Zeit-Gesetz um:
+Für die in dieser Formel auftretende Zeit formen wir das
+Geschwindigkeits-Zeit-Gesetz um:
 
 $$v= at \quad \Rightarrow \quad t= \frac{v}{a}$$
 
@@ -840,17 +1052,21 @@ Wird dieser Ausdruck in die Formel für die Arbeit eingesetzt, so folgt:
 
 $$W = ma \cdot s = m \frac{v^2}{2s} \cdot s = \frac{1}{2} mv^2 \, .$$
 
-Damit haben wir die zum Erreichen einer Geschwindigkeit $v$ (aus dem Stand) erforderliche Arbeit:
+Damit haben wir die zum Erreichen einer Geschwindigkeit $v$ (aus dem Stand)
+erforderliche Arbeit:
 
 $$W_\mathrm{Beschl}= \frac{m}{2}v^2 \, .$$
 
 ##### Die Hubarbeit
 
-Ein Körper der Masse $m$ soll um eine Höhe $\Delta h$ angehoben werden. Die Kraft, die hierfür aufzubringen ist, entspricht der Gewichtskraft dieses Körpers[^1]:
+Ein Körper der Masse $m$ soll um eine Höhe $\Delta h$ angehoben werden. Die
+Kraft, die hierfür aufzubringen ist, entspricht der Gewichtskraft dieses
+Körpers[^1]:
 
 $$F=mg=\mathrm{const} \, .$$
 
-Wir gehen weiterhin davon aus, dass der Körper senkrecht gehoben wird, also $\vec{F} \, || \, \mathrm d\vec{s}$. Damit ergibt sich für die Hubarbeit:
+Wir gehen weiterhin davon aus, dass der Körper senkrecht gehoben wird, also
+$\vec{F} \, || \, \mathrm d\vec{s}$. Damit ergibt sich für die Hubarbeit:
 
 $$W = F \cdot s = F \cdot \Delta h = mg\Delta h \, .$$
 
@@ -858,105 +1074,202 @@ $$W = F \cdot s = F \cdot \Delta h = mg\Delta h \, .$$
 
 ##### Die Federspannarbeit
 
-Eine Feder mit der Federkonstante $k$ soll um eine Auslenkung $x_\mathrm{max}$ gedehnt werden. Hierfür muss die Kraft $\vec{F}= k\vec{x}$ aufgewendet werden. Diese Kraft hängt selbst von der momentanen Auslenkung ab und ändert sich also im Verlauf der Dehnung. In diesem Fall muss also tatsächlich das Integral zur Berechnung der Arbeit ausgewertet werden. Wir gehen jedoch auch hier davon aus, dass die Kraft stets in Wegrichtung (d.h. entlang der Federachse) angreift, sodass $\vec F\cdot \mathrm d\vec x = F\mathrm dx$ gesetzt werden kann. Dann gilt:
+Eine Feder mit der Federkonstante $k$ soll um eine Auslenkung $x_\mathrm{max}$
+gedehnt werden. Hierfür muss die Kraft $\vec{F}= k\vec{x}$ aufgewendet werden.
+Diese Kraft hängt selbst von der momentanen Auslenkung ab und ändert sich also
+im Verlauf der Dehnung. In diesem Fall muss also tatsächlich das Integral zur
+Berechnung der Arbeit ausgewertet werden. Wir gehen jedoch auch hier davon aus,
+dass die Kraft stets in Wegrichtung (d.h. entlang der Federachse) angreift,
+sodass $\vec F\cdot \mathrm d\vec x = F\mathrm dx$ gesetzt werden kann. Dann
+gilt:
 
 $$W = \int \limits_0^{x_\mathrm{max}} F \mathrm dx=
     \int \limits_0^{x_\mathrm{max}} kx\mathrm dx= \frac{1}{2}kx^2_\mathrm{max} \, .$$
 
 ##### Reibungsarbeit
 
-Wie wir oben festgestellt haben, wirken bei der Bewegung eines Körpers stets Reibungskräfte, die diese Bewegung hemmen, d.h. die Geschwindigkeit verringern. Damit sich ein Körper auch unter dem Einfluss von Reibung mit unveränderter Geschwindigkeit bewegt, muss ständig eine Kraft auf diesen Körper wirken, die den Effekt der Reibung kompensiert. Zur Aufrechterhaltung der Bewegung muss also Arbeit gegen die Reibung verrichtet werden.
+Wie wir oben festgestellt haben, wirken bei der Bewegung eines Körpers stets
+Reibungskräfte, die diese Bewegung hemmen, d.h. die Geschwindigkeit verringern.
+Damit sich ein Körper auch unter dem Einfluss von Reibung mit unveränderter
+Geschwindigkeit bewegt, muss ständig eine Kraft auf diesen Körper wirken, die
+den Effekt der Reibung kompensiert. Zur Aufrechterhaltung der Bewegung muss also
+Arbeit gegen die Reibung verrichtet werden.
 
-Damit ein Körper mit unveränderter Geschwindigkeit eine gewisse Wegstrecke $s$ gleitet, muss die Gleitreibung kompensiert werden. Dabei wird die Arbeit
+Damit ein Körper mit unveränderter Geschwindigkeit eine gewisse Wegstrecke $s$
+gleitet, muss die Gleitreibung kompensiert werden. Dabei wird die Arbeit
 
 $$W = Fs = \mu_G F_N s$$
 verrichtet.
 
 #### Die Leistung
 
-Wir haben nun verschiedene Arten der Arbeit kennen gelernt. In vielen Situationen ist es darüber hinaus von Interesse, in welcher Zeit eine bestimmte Arbeit verrichtet wird. So ist beispielsweise bei Sportwagen die Zeitdauer für die Beschleunigungsarbeit von $0~\frac{\mathrm{km}}{\mathrm h}$ auf $100~\frac{\mathrm{km}}{\mathrm h}$ ein wichtiges Merkmal. Wir führen daher eine weitere Größe ein, die die Zeitdauer erfasst, in der eine bestimmte Arbeit verrichtet wird. Dazu teilen wir die verrichtete Arbeit durch die dafür benötigte Zeit und erhalten so die **Leistung** $P$ :
+Wir haben nun verschiedene Arten der Arbeit kennen gelernt. In vielen
+Situationen ist es darüber hinaus von Interesse, in welcher Zeit eine bestimmte
+Arbeit verrichtet wird. So ist beispielsweise bei Sportwagen die Zeitdauer für
+die Beschleunigungsarbeit von $0~\frac{\mathrm{km}}{\mathrm h}$ auf
+$100~\frac{\mathrm{km}}{\mathrm h}$ ein wichtiges Merkmal. Wir führen daher eine
+weitere Größe ein, die die Zeitdauer erfasst, in der eine bestimmte Arbeit
+verrichtet wird. Dazu teilen wir die verrichtete Arbeit durch die dafür
+benötigte Zeit und erhalten so die **Leistung** $P$ :
 
 $$P= \frac{W}{\Delta t} \qquad \textrm{Einheit: } [P]=1~\frac{\mathrm J}{\mathrm s}= 1~\mathrm W \quad \textrm{(Watt).}$$
 
-Genau genommen, handelt es sich hierbei um eine mittlere Leistung über den (makroskopischen) Zeitraum $\Delta t$. Durch den Übergang zu infinitesimal kleinen Zeitintervallen erhält man die momentane Leistung:
+Genau genommen, handelt es sich hierbei um eine mittlere Leistung über den
+(makroskopischen) Zeitraum $\Delta t$. Durch den Übergang zu infinitesimal
+kleinen Zeitintervallen erhält man die momentane Leistung:
 
 $$P=\frac{\mathrm dW}{\mathrm dt} \, .$$
 
-Die Leistung ist als physikalische Größe nicht auf die Mechanik beschränkt und wird uns auch in späteren Kapiteln wieder begegnen (unter anderem als elektrische Leistung). Speziell für die Mechanik lässt sich eine weitere, äquivalente Formel für die Leistung angeben, die aus der obigen Definition der momentanen Leistung folgt:
+Die Leistung ist als physikalische Größe nicht auf die Mechanik beschränkt und
+wird uns auch in späteren Kapiteln wieder begegnen (unter anderem als
+elektrische Leistung). Speziell für die Mechanik lässt sich eine weitere,
+äquivalente Formel für die Leistung angeben, die aus der obigen Definition der
+momentanen Leistung folgt:
 
 $$P= \frac{\mathrm dW}{\mathrm dt}= \frac{\vec{F}\cdot \mathrm d \vec{s}}{\mathrm dt}= \vec{F}\cdot \frac{\mathrm d\vec{s}}{\mathrm dt}= \vec{F} \cdot \vec{v} \, .$$
 
-Mechanische Leistung ist also das Produkt aus Kraft und Geschwindigkeit. Setzt man in diese Formel die Momentangeschwindigkeit ein, so erhält man die momentane Leistung. Entsprechend ergibt sich bei einer Durchschnittsgeschwindigkeit die mittlere Leistung. Beide Formeln für die Leistung sind (in der Mechanik) gleichwertig. Für die Berechnung einer konkreten Fragestellung wird schlicht die zweckmäßigere Formel ausgewählt.
+Mechanische Leistung ist also das Produkt aus Kraft und Geschwindigkeit. Setzt
+man in diese Formel die Momentangeschwindigkeit ein, so erhält man die momentane
+Leistung. Entsprechend ergibt sich bei einer Durchschnittsgeschwindigkeit die
+mittlere Leistung. Beide Formeln für die Leistung sind (in der Mechanik)
+gleichwertig. Für die Berechnung einer konkreten Fragestellung wird schlicht die
+zweckmäßigere Formel ausgewählt.
 
 #### Die Energie
 
-Wenn an einem Körper Arbeit verrichtet wird, so ändert sich in irgendeiner Weise ein Zustand dieses Körpers (z.B. Bewegungszustand, Lage im Schwerefeld der Erde, Federspannung). Die dabei verrichtete Arbeit bleibt auf diese Weise im Körper gespeichert und kann von diesem genutzt werden, um seinerseits Arbeit zu verrichten. Diese „gespeicherte Arbeit“ wird als **Energie** bezeichnet. Sie ist die Fähigkeit eines Körpers, Arbeit zu verrichten. Abhängig vom „Zustand“, in dem die Energie im Körper gespeichert ist, unterscheidet man verschiedene Arten der Energie.
+Wenn an einem Körper Arbeit verrichtet wird, so ändert sich in irgendeiner Weise
+ein Zustand dieses Körpers (z.B. Bewegungszustand, Lage im Schwerefeld der Erde,
+Federspannung). Die dabei verrichtete Arbeit bleibt auf diese Weise im Körper
+gespeichert und kann von diesem genutzt werden, um seinerseits Arbeit zu
+verrichten. Diese „gespeicherte Arbeit“ wird als **Energie** bezeichnet. Sie ist
+die Fähigkeit eines Körpers, Arbeit zu verrichten. Abhängig vom „Zustand“, in
+dem die Energie im Körper gespeichert ist, unterscheidet man verschiedene Arten
+der Energie.
 
 ##### Energieformen der Mechanik
 
-**Kinetische Energie** (oder Bewegungsenergie) ist die Energie, die ein Körper aufgrund seiner Geschwindigkeit besitzt. Sie ist gleich der Beschleunigungsarbeit, die erforderlich ist, um den Körper auf seine Geschwindigkeit zu beschleunigen:
+**Kinetische Energie** (oder Bewegungsenergie) ist die Energie, die ein Körper
+aufgrund seiner Geschwindigkeit besitzt. Sie ist gleich der
+Beschleunigungsarbeit, die erforderlich ist, um den Körper auf seine
+Geschwindigkeit zu beschleunigen:
 
 $$E_\mathrm{kin}=\frac{1}{2}mv^2 \, .$$
 
-Als **potentielle Energie** bezeichnet man Energie, die ein Körper auf Grund seiner Lage besitzt. Im Schwerefeld der Erde wird durch Hubarbeit die potentielle Energie verändert:
+Als **potentielle Energie** bezeichnet man Energie, die ein Körper auf Grund
+seiner Lage besitzt. Im Schwerefeld der Erde wird durch Hubarbeit die
+potentielle Energie verändert:
 
 $$\Delta E_{pot}= mg \Delta h \, .$$
 
-Der Nullpunkt der potentiellen Energie kann dabei willkürlich festgelegt werden (muss dann aber beibehalten werden!). Interessant sind lediglich Änderungen bzw. Differenzen der potentiellen Energie. Meist wird verkürzt geschrieben:
+Der Nullpunkt der potentiellen Energie kann dabei willkürlich festgelegt werden
+(muss dann aber beibehalten werden!). Interessant sind lediglich Änderungen
+beziehungsweise Differenzen der potentiellen Energie. Meist wird verkürzt
+geschrieben:
 
 $$E_\mathrm{pot} = mgh \, .$$
 
-Auch beim Spannen einer Feder muss Arbeit verrichtet werden, die dann als Energie in der Feder gespeichert ist. Diese Federenergie wird ebenfalls zur potentiellen Energie gezählt und ist gleich der zum Spannen erforderlichen Arbeit:
+Auch beim Spannen einer Feder muss Arbeit verrichtet werden, die dann als
+Energie in der Feder gespeichert ist. Diese Federenergie wird ebenfalls zur
+potentiellen Energie gezählt und ist gleich der zum Spannen erforderlichen
+Arbeit:
 
 $$E_\mathrm{pot,Feder}= \frac{1}{2} k x^2 \, ,$$
 
-wobei $x$ die Dehnung oder Stauchung der Feder aus dem entspannten Zustand angibt.
+wobei $x$ die Dehnung oder Stauchung der Feder aus dem entspannten Zustand
+angibt.
 
 ##### Energieumwandlung
 
-Ein Körper, der sich in einer gewissen Höhe $h$ befindet, besitzt dort die entsprechende potentielle Energie $E_\mathrm{pot}=mgh$. Im freien Fall aus dieser Höhe verliert der Körper beständig potentielle Energie, da seine Höhe abnimmt. Gleichzeitig nimmt – aufgrund der beschleunigten Bewegung – seine kinetische Energie zu. Energetisch betrachtet wird also beim freien Fall die anfängliche potentielle Energie des Körpers für die Beschleunigungsarbeit aufgewendet und somit in kinetische Energie umgewandelt. Dabei gilt (als experimentelles Ergebnis):
+Ein Körper, der sich in einer gewissen Höhe $h$ befindet, besitzt dort die
+entsprechende potentielle Energie $E_\mathrm{pot}=mgh$. Im freien Fall aus
+dieser Höhe verliert der Körper beständig potentielle Energie, da seine Höhe
+abnimmt. Gleichzeitig nimmt – aufgrund der beschleunigten Bewegung – seine
+kinetische Energie zu. Energetisch betrachtet wird also beim freien Fall die
+anfängliche potentielle Energie des Körpers für die Beschleunigungsarbeit
+aufgewendet und somit in kinetische Energie umgewandelt. Dabei gilt (als
+experimentelles Ergebnis):
 
 $$\Delta E_{pot} = -\Delta E_{kin} \, .$$
 
-Die mechanische Gesamtenergie des Körpers (Summe aus kinetischer und potentieller Energie) ändert sich dabei nicht.
+Die mechanische Gesamtenergie des Körpers (Summe aus kinetischer und
+  potentieller Energie) ändert sich dabei nicht.
 
-Dies gilt selbst dann noch, wenn der Körper nicht senkrecht fällt, sondern sich auf anderen (schrägen oder gekrümmten) Bahnen abwärts bewegt. Wenn alle diese Bahnen denselben Höhenunterschied bewältigen, so ist auch die Geschwindigkeit des Körpers am Ende identisch. Die Umwandlung von kinetischer und potentieller Energie geschieht unabhängig vom Weg und hängt lediglich von Anfangs- und Endpunkt ab.
+Dies gilt selbst dann noch, wenn der Körper nicht senkrecht fällt, sondern sich
+auf anderen (schrägen oder gekrümmten) Bahnen abwärts bewegt. Wenn alle diese
+Bahnen denselben Höhenunterschied bewältigen, so ist auch die Geschwindigkeit
+des Körpers am Ende identisch. Die Umwandlung von kinetischer und potentieller
+Energie geschieht unabhängig vom Weg und hängt lediglich von Anfangs- und
+Endpunkt ab.
 
 Energie und Reibung
 -------------------
 
-Was geschieht nun aber mit der Arbeit, die gegen die Reibungskraft verrichtet wurde? Bewegt sich ein Körper unter dem Einfluss der Reibung, ohne dass eine äußere Kraft die Reibung kompensiert, so muss der Körper selbst aus seinem Vorrat an kinetischer Energie diese Reibungsarbeit aufbringen. Dabei nimmt seine kinetische Energie ab, d.h. der Körper wird kontinuierlich langsamer und kommt schließlich zum Stillstand, wenn seine gesamte anfängliche Bewegungsenergie für die Reibungsarbeit aufgewendet wurde. In diesem Fall ändert sich – anders als im oben diskutierten Beispiel – die mechanische Gesamtenergie.
+Was geschieht nun aber mit der Arbeit, die gegen die Reibungskraft verrichtet
+wurde? Bewegt sich ein Körper unter dem Einfluss der Reibung, ohne dass eine
+äußere Kraft die Reibung kompensiert, so muss der Körper selbst aus seinem
+Vorrat an kinetischer Energie diese Reibungsarbeit aufbringen. Dabei nimmt
+seine kinetische Energie ab, d.h. der Körper wird kontinuierlich langsamer und
+kommt schließlich zum Stillstand, wenn seine gesamte anfängliche
+Bewegungsenergie für die Reibungsarbeit aufgewendet wurde. In diesem Fall ändert
+sich – anders als im oben diskutierten Beispiel – die mechanische Gesamtenergie.
 
-Damit sich ein Körper trotz Reibung mit konstanter Geschwindigkeit bewegt, muss von außen Arbeit zur Kompensation der Reibung an ihm verrichtet werden. Diese Arbeit ändert nicht den Bewegungszustand des Körpers, erhöht also auch nicht dessen Energie.
+Damit sich ein Körper trotz Reibung mit konstanter Geschwindigkeit bewegt, muss
+von außen Arbeit zur Kompensation der Reibung an ihm verrichtet werden. Diese
+Arbeit ändert nicht den Bewegungszustand des Körpers, erhöht also auch nicht
+dessen Energie.
 
 ##### Der Energiesatz der Mechanik
 
-Die vorangegangene Betrachtung zeigt, dass mechanische Energie „verloren“ gehen kann. Tatsächlich existieren neben kinetischer und potentieller Energie weitere (nicht-mechanische) Energieformen wie elektrische Energie oder thermische Energie (Wärme). Auch die Reibung bewirkt eine Energieumwandlung: von kinetischer Energie in thermische Energie. Solche Prozesse, die mechanische Energie in andere Energieformen umwandeln, heißen *dissipative Prozesse* bzw. *dissipative Kräfte*. Dabei ist die Energieumwandlung nicht wegunabhängig. Den Gegensatz dazu bilden *konservative Kräfte* bzw. *konservative Prozesse*. Sie wandeln die mechanischen Energieformen nur ineinander um. Dabei ist (wie im Beispiel oben) die Umwandlung unabhängig vom Weg. Führt man diese Erkenntnisse – in verallgemeinerter Form – zusammen, so erhält man den Energiesatz der Mechanik:
+Die vorangegangene Betrachtung zeigt, dass mechanische Energie „verloren“ gehen
+kann. Tatsächlich existieren neben kinetischer und potentieller Energie weitere
+(nicht-mechanische) Energieformen wie elektrische Energie oder thermische
+Energie (Wärme). Auch die Reibung bewirkt eine Energieumwandlung: von
+kinetischer Energie in thermische Energie. Solche Prozesse, die mechanische
+Energie in andere Energieformen umwandeln, heißen *dissipative Prozesse* bzw.
+*dissipative Kräfte*. Dabei ist die Energieumwandlung nicht wegunabhängig. Den
+Gegensatz dazu bilden *konservative Kräfte* bzw. *konservative Prozesse*. Sie
+wandeln die mechanischen Energieformen nur ineinander um. Dabei ist (wie im
+Beispiel oben) die Umwandlung unabhängig vom Weg. Führt man diese Erkenntnisse –
+in verallgemeinerter Form – zusammen, so erhält man den Energiesatz der Mechanik:
 
-> Die verschiedenen Formen mechanischer Energie lassen sich ineinander und in andere Energieformen umwandeln. Wirken in einem System ausschließlich konservative Kräfte, so ist die gesamte mechanische Energie eine Erhaltungsgröße. Es gilt:
+> Die verschiedenen Formen mechanischer Energie lassen sich ineinander und in
+> andere Energieformen umwandeln. Wirken in einem System ausschließlich
+> konservative Kräfte, so ist die gesamte mechanische Energie eine
+> Erhaltungsgröße. Es gilt:
 >
 > $$E_\mathrm{ges}=E_\mathrm{pot} + E_\mathrm{kin} = \mathrm{const} \, .$$
 
 #### Anwendungen der Erhaltungssätze
 
-Wir kennen nun zwei elementare Erhaltungssätze der Mechanik: Impulssatz und Energiesatz. Ihre Anwendung bietet einen Ansatz zur Lösung zahlreicher mechanischer Probleme. Wir wollen dies an einigen Beispielen betrachten.
+Wir kennen nun zwei elementare Erhaltungssätze der Mechanik: Impulssatz und
+Energiesatz. Ihre Anwendung bietet einen Ansatz zur Lösung zahlreicher
+mechanischer Probleme. Wir wollen dies an einigen Beispielen betrachten.
 
 {{1}}
 ************************************************
 Beispiel 1: Pendel und Hemmungspendel
 =====================================
 
-Ein Fadenpendel der Masse $m$ wird in eine Höhe $h_1$ ausgelenkt (die Ruhelage des Pendels sei in der Höhe $h=0$). Von dort losgelassen bewegt sich das Pendel beschleunigt nach unten und erreicht bei Durchqueren der Ruhelage seine maximale Geschwindigkeit. Wenn die Reibung vernachlässigt werden kann, gilt der Energiesatz der Mechanik, und für die Maximalgeschwindigkeit folgt:
+Ein Fadenpendel der Masse $m$ wird in eine Höhe $h_1$ ausgelenkt (die Ruhelage
+des Pendels sei in der Höhe $h=0$). Von dort losgelassen bewegt sich das Pendel
+beschleunigt nach unten und erreicht bei Durchqueren der Ruhelage seine maximale
+Geschwindigkeit. Wenn die Reibung vernachlässigt werden kann, gilt der
+Energiesatz der Mechanik, und für die Maximalgeschwindigkeit folgt:
 
 $$mgh_1 = \frac{1}{2}mv^2_\mathrm{max} \quad  \Rightarrow \quad v_\mathrm{max} = \sqrt{2gh_1} \, .$$
 
-Auf der Gegenseite steigt der Pendelkörper nach oben. Dabei wird kinetische Energie in potentielle umgewandelt. Seine Maximalhöhe $h_2$ auf dieser Seite erreicht er, wenn diese Energieumwandlung vollständig ist. Also:
+Auf der Gegenseite steigt der Pendelkörper nach oben. Dabei wird kinetische
+Energie in potentielle umgewandelt. Seine Maximalhöhe $h_2$ auf dieser Seite
+erreicht er, wenn diese Energieumwandlung vollständig ist. Also:
 
 $$mgh_2 = \frac{1}{2}mv^2_\mathrm{max} = mgh_1 \quad  \Rightarrow \quad  h_2 = h_1 \, .$$
 
 Der Pendelkörper erreicht also auf beiden Seiten dieselbe Höhe.
 
-Wird nun durch einen Anschlag die Fadenlänge des Pendels auf der zweiten Seite verkürzt (Hemmungspendel), so ändert sich zwar die Schwingungsdauer, nicht aber die erreichte Höhe des Pendelkörpers. Für die energetische Betrachtung gilt weiterhin die Gleichheit:
+Wird nun durch einen Anschlag die Fadenlänge des Pendels auf der zweiten Seite
+verkürzt (Hemmungspendel), so ändert sich zwar die Schwingungsdauer, nicht aber
+die erreichte Höhe des Pendelkörpers. Für die energetische Betrachtung gilt
+weiterhin die Gleichheit:
 
 $$mgh_2 = \frac{1}{2}mv^2_\mathrm{max} = mgh_1 \quad  \Rightarrow \quad  h_2 = h_1 \, .$$
 *******************************************
@@ -966,13 +1279,28 @@ $$mgh_2 = \frac{1}{2}mv^2_\mathrm{max} = mgh_1 \quad  \Rightarrow \quad  h_2 = h
 Beispiel 2: Zentrale Stöße
 ==========================
 
-Als Stoß bezeichnet man in der Physik eine (beliebige) Wechselwirkung zweier Körper, bei der Impuls übertragen wird. Da diese Wechselwirkung der beiden Stoßpartner ein abgeschlossenes System darstellt, kann der Impulssatz stets angewendet werden. Hingegen ist der Energiesatz nicht in jedem Fall anwendbar, da Stöße auch dissipative Vorgänge enthalten können, beispielsweise durch Entstehung von Wärme oder dauerhafte Verformung der Stoßpartner. Man unterscheidet daher zwischen elastischen Stößen, bei denen nur konservative Kräfte wirken und der Energiesatz der Mechanik anwendbar ist, und inelastischen Stößen, bei denen der Energiesatz der Mechanik nicht gilt. Ein Spezialfall der letzteren ist die gemeinsame Weiterbewegung beider Stoßpartner, die auch als (vollkommen) plastischer Stoß bezeichnet wird.
+Als Stoß bezeichnet man in der Physik eine (beliebige) Wechselwirkung zweier
+Körper, bei der Impuls übertragen wird. Da diese Wechselwirkung der beiden
+Stoßpartner ein abgeschlossenes System darstellt, kann der Impulssatz stets
+angewendet werden. Hingegen ist der Energiesatz nicht in jedem Fall anwendbar,
+da Stöße auch dissipative Vorgänge enthalten können, beispielsweise durch
+Entstehung von Wärme oder dauerhafte Verformung der Stoßpartner. Man
+unterscheidet daher zwischen elastischen Stößen, bei denen nur konservative
+Kräfte wirken und der Energiesatz der Mechanik anwendbar ist, und inelastischen
+Stößen, bei denen der Energiesatz der Mechanik nicht gilt. Ein Spezialfall der
+letzteren ist die gemeinsame Weiterbewegung beider Stoßpartner, die auch als
+(vollkommen) plastischer Stoß bezeichnet wird.
 
-Wir betrachten hier als einen konkreten Fall den elastischen Stoß zwischen zwei Körpern gleicher Masse ($m_1=m_2=m$), wobei Körper 2 vor dem Stoß in Ruhe sei ($v_2=0$). Gesucht sind die Geschwindigkeiten der beiden Körper nach dem Stoß, die wir – zur besseren Unterscheidung – mit $v'_1$ und $v'_2$ bezeichnen.
+Wir betrachten hier als einen konkreten Fall den elastischen Stoß zwischen zwei
+Körpern gleicher Masse ($m_1=m_2=m$), wobei Körper 2 vor dem Stoß in Ruhe sei
+($v_2=0$). Gesucht sind die Geschwindigkeiten der beiden Körper nach dem Stoß,
+die wir – zur besseren Unterscheidung – mit $v'_1$ und $v'_2$ bezeichnen.
 
-Da es sich um einen elastischen Stoß handelt, können wir den Energiesatz anwenden. Die kinetische Energie vor dem Stoß (zu der nur Körper 1 beiträgt) muss gleich der kinetischen Gesamtenergie nach dem Stoß sein:
+Da es sich um einen elastischen Stoß handelt, können wir den Energiesatz
+anwenden. Die kinetische Energie vor dem Stoß (zu der nur Körper 1 beiträgt)
+muss gleich der kinetischen Gesamtenergie nach dem Stoß sein:
 
-$$\frac{1}{2}mv^2_1 + \frac{1}{2}mv^2_2 = \frac{1}{2}mv^2_1 = \frac{1}{2}mv'^2_1 + \frac{1}{2}mv'^2_2$$
+$$\frac{1}{2}mv^2_1 + \frac{1}{2}mv^2_2 = \frac{1}{2}mv^2_1 = \frac{1}{2}mv'^2_1 + \frac{1}{2}mv'^2_2 \, .$$
 
 Daraus folgt für die Geschwindigkeiten:
 
@@ -1002,22 +1330,41 @@ Setzt man dies nun in die Formel für $v'_1$ ein, so folgt:
 
 $$v'_1=v_1-v'_2=v_1-v_1=0 \, .$$
 
-Die beiden Körper tauschen also ihre Geschwindigkeiten: Körper 1 kommt zur Ruhe, Körper 2 bewegt sich mit $v_1$ weiter.
+Die beiden Körper tauschen also ihre Geschwindigkeiten: Körper 1 kommt zur Ruhe,
+Körper 2 bewegt sich mit $v_1$ weiter.
 *********************************************************
 
 ##### Zusammenfassung
 
-Wir kennen nun zwei grundsätzliche Herangehensweise zur Berechnung mechanischer Fragestellungen:
+Wir kennen nun zwei grundsätzliche Herangehensweise zur Berechnung mechanischer
+Fragestellungen:
 
--   Auswertung der auf einen Körper wirkenden Kräfte und Anwendung des 2. Newtonschen Axioms
+-   Auswertung der auf einen Körper wirkenden Kräfte und Anwendung des 2.
+    Newtonschen Axioms
 
 -   Betrachtung von Impuls- und Energiesatz
 
-Der Lösungsweg über das 2. Newtonsche Axiom erfordert die Kenntnis aller auf einen Körper (oder in einem System mehrerer Körper) wirkenden Kräfte in ihrer räumlichen und zeitlichen Abhängigkeit. Zudem ist er rechnerisch aufwändiger, da er die Integration der Bewegungsgesetze erfordert (Beschleunigung, Geschwindigkeit, Weg). Im Gegenzug liefert diese Herangehensweise die vollständigen Informationen über den Bewegungsablauf in Form des Geschwindigkeits-Zeit-Gesetzes und Orts-Zeit-Gesetzes.
+Der Lösungsweg über das 2. Newtonsche Axiom erfordert die Kenntnis aller auf
+einen Körper (oder in einem System mehrerer Körper) wirkenden Kräfte in ihrer
+räumlichen und zeitlichen Abhängigkeit. Zudem ist er rechnerisch aufwändiger, da
+er die Integration der Bewegungsgesetze erfordert (Beschleunigung,
+Geschwindigkeit, Weg). Im Gegenzug liefert diese Herangehensweise die
+vollständigen Informationen über den Bewegungsablauf in Form des
+Geschwindigkeits-Zeit-Gesetzes und Orts-Zeit-Gesetzes.
 
-Der Ansatz über die Erhaltungssätze ist einerseits konzeptionell einfacher, da keine detaillierte Kenntnis der wirkenden Kräfte erforderlich ist. Zudem ist diese Herangehensweise auch rechnerisch einfacher, da keine Integration erforderlich ist. Allerdings liefert dieser Lösungsweg auch nicht den vollständigen Bewegungsablauf, sondern nur eine Aussage über einzelne Zustände, insbesondere Ausgangs- und Endzustand einer Wechselwirkung. Ferner sind die Erhaltungssätze nur unter bestimmten Voraussetzungen anwendbar: Der Impulssatz gilt nur in abgeschlossenen Systemen, der Energiesatz nur bei konservativen Prozessen.
+Der Ansatz über die Erhaltungssätze ist einerseits konzeptionell einfacher, da
+keine detaillierte Kenntnis der wirkenden Kräfte erforderlich ist. Zudem ist
+diese Herangehensweise auch rechnerisch einfacher, da keine Integration
+erforderlich ist. Allerdings liefert dieser Lösungsweg auch nicht den
+vollständigen Bewegungsablauf, sondern nur eine Aussage über einzelne Zustände,
+insbesondere Ausgangs- und Endzustand einer Wechselwirkung. Ferner sind die
+Erhaltungssätze nur unter bestimmten Voraussetzungen anwendbar: Der Impulssatz
+gilt nur in abgeschlossenen Systemen, der Energiesatz nur bei konservativen
+Prozessen.
 
-Welcher dieser Lösungswege im konkreten Fall zu wählen ist, hängt von der jeweiligen Problemstellung ab. Sind beide Ansätze anwendbar, wird zweckmäßigerweise der einfachere gewählt.
+Welcher dieser Lösungswege im konkreten Fall zu wählen ist, hängt von der
+jeweiligen Problemstellung ab. Sind beide Ansätze anwendbar, wird
+zweckmäßigerweise der einfachere gewählt.
 
 ### Rotation — Dreh- und Kreisbewegung
 
@@ -1067,7 +1414,7 @@ Selbstverständlich ist auch die Rotation durch eine Bewegungsrichtung gekennzei
 
 ![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.svg "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung.")<!-- style = "width: 7cm;" -->
 
-![Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/3/3c/Winkelgeschwindigkeit_Rechte-Hand-Regel.svg "Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an. \[Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf), [Winkelgeschwindigkeit Rechte-Hand-Regel](https://commons.wikimedia.org/wiki/File:Winkelgeschwindigkeit_Rechte-Hand-Regel.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")<!-- style = "width: 7cm;" -->
+![Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/3/3c/Winkelgeschwindigkeit_Rechte-Hand-Regel.svg "Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an. \[Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [SVGguru](https://commons.wikimedia.org/wiki/User:SVGguru)), [Winkelgeschwindigkeit Rechte-Hand-Regel](https://commons.wikimedia.org/wiki/File:Winkelgeschwindigkeit_Rechte-Hand-Regel.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")<!-- style = "width: 7cm;" -->
 
 Mit den oben eingeführten Einheitsvektoren lässt sich die Winkelgeschwindigkeit folgendermaßen angeben:
 
@@ -1357,7 +1704,7 @@ Für die mathematische Beschreibung betrachten wir folgendes Federpendel (siehe 
 - lineare Auslenkung in $x$-Richtung,
 - Ruhelage bei $x=0$.
 
-![Schematische Darstellung eines Federpendels mit dem im Text beschriebenen Koordinatensystem](grafik/V08_KOOS_Schwingung.svg "Wird ein Federpendel, dessen Ruhelage bei $x=0$ liegt, um eine Strecke $x_0$ ausgelegt, so wirkt die rücktreibende Federkraft $\vec F_\mathrm F$.")<!--
+![Schematische Darstellung eines Federpendels mit dem im Text beschriebenen Koordinatensystem](grafik/V08_KOOS_Schwingung.svg "Wird ein Federpendel, dessen Ruhelage bei $x=0$ liegt, um eine Strecke $x_0$ ausgelegt, so wirkt die rücktreibende Federkraft $\vec F_\mathrm F$. [Quelle: mit freundlicher Genehmigung von Thomas Franke]")<!--
 style = 'width: 6cm;'
 -->
 
