@@ -3139,3 +3139,219 @@ aus konzentrischen Ringen.
 
 Mit ähnlichen geometrischen Überlegungen wie oben lassen sich auch die
 Interferenzmuster von Mehrfachspalten vorhersagen.
+
+## Moderne Physik
+
+In den bisherigen Kapiteln wurden die Teilgebiete der *klassischen Physik* in
+sehr kompakter Form betrachtet: Mechanik, Wärmelehre, Elektrizitätslehre und
+Optik. Historisch gesehen entstand dieses Wissen wesentlich vom 17. bis zum Ende
+des 19. Jahrhunderts. Dieses beachtliche Alter der klassischen Physik schmälert
+jeodch keineswegs die Bedeutung dieser Erkenntnisse für das Verständnis unserer
+alltäglichen Naturerfahrungen.
+
+Ab etwa 1900 zeigte sich, dass die Gesetze der klassischen Physik nicht alle
+Beobachtungen unserer Umwelt erklären können. In der Folge entwickelten sich
+„neue“ Teilgebiete der Physik, die bis heute als *moderne Physik*
+zusammengefasst werden, obgleich sie auch schon über 100 Jahre zurückreichen.
+
+Die Gesetze der modernen Physik haben dabei die klassische Physik nicht
+abgelöst, sondern erweitern das Spektrum physikalischer Erklärungen. Wie wir aus
+den experimentellen Befunden der bisherigen Kapitel ersehen können, besitzen die
+Gebiete der klassischen Physik bis heute ihre Gültigkeit. Lediglich bei den
+Beobachtungen, bei denen die Gesetze der klassischen Physik versagen, liefern
+die Gebiete der modernen Physik weitergehende Erklärungen.
+
+Im Rahmen dieses Skriptums, das auf einen Physikkurs von 15 Vorlesungen
+ausgelegt ist, kann und soll keine umfassende Behandlung der modernen Physik
+erfolgen. Stattdessen werden zwei Bereiche herausgegriffen und überblicksartig
+beschrieben: die Quantenoptik und die Atomphysik.
+
+### Quantenoptik und Welle-Teilchen-Dualismus
+
+Mit dem Wellenmodell des Lichts lassen sich viele Phänomene sowohl qualitativ
+als auch quantitativ mit hoher Präzision beschreiben. Scheinbar im Widerspruch
+dazu versagt die Wellenoptik bei der Beschreibung mancher
+Wechselwirkungsprozesse des Lichts hingegen völlig. Entsprechende Beobachtungen
+stellten die Physik in der zweiten Hälfte des 19. Jahrhunderts vor große Fragen
+und führten schließlich ab 1900 zur Entstehung eines neuen Modells zu
+Beschreibung des Lichts, das parallel zum Wellenmodell existiert.
+
+Für die folgenden Betrachtungen, die sich wesentlich mit Energien von Elektronen
+und von Licht beschäftigen, ist es sinnvoll, das Elektronvolt ($\mathrm{eV}$)
+als eine weitere Einheit der Energie einzuführen. Ein Elektronvolt ist die
+(kinetische) Energie eines Elektrons, das durch eine Spannung von $1~\mathrm V$
+beschleunigt wurde:
+
+$$1~\mathrm{eV} = 1{,}602\cdot10^{-19}~\mathrm J \, .$$
+
+#### Quantenhafte Energieabgabe des Lichts
+
+Eines der Experimente, für das die Wellenoptik keine Erklärung bietet, ist der
+äußere Photoeffekt oder Hallwachs<!-- style ="font-variant: small-caps;" -->-Effekt.
+Eine mögliche Vorgehensweise, diesen Effekt zu beobachten, ist folgende: Eine
+Platte aus Zink wird an ein Elektrometer (Messgerät zur Ladungsmessung)
+angeschlossen und negativ aufgeladen. D.h., es herrscht ein Überschuss an
+Elektronen in dieser Platte, der zunächst erhalten bleibt. Wird die Platte nun
+mit dem intensiven weißen Licht einer Bogenlampe bestrahlt, so geht die
+Aufladung der Platte langsam zurück. Folglich müssen die überschüssigen
+Elektronen die Platte verlassen haben.
+
+Um diesen Versuchsteil zu verstehen, muss man zunächst berücksichtigen, dass die
+Elektronen im Metall gebunden sind. Um die Platte verlassen zu können, müssen
+sie eine Energiebarriere - die sogenannte - überwinden. Diese Energiebarriere
+ist groß genug, dass die Elektronen sie nicht spontan überwinden können, weshalb
+die negative Ladung der Platte zunächst erhalten bleibt. Offensichtlich aber
+wird durch die Bestrahlung der Platte mit Licht Energie auf die Elektronen
+übertragen, die damit die Austrittsarbeit des Zinks überwinden können und die
+Platte verlassen.
+
+In einem zweiten Versuchsteil wird das vorige Vorgehen wiederholt, jedoch wird
+nun zwischen Lampe und Zinkplatte eine Glasscheibe positioniert. Obgleich das
+sichtbare Licht diese Platte nahezu ungehindert passieren kann, tritt dabei
+keine Entladung der Zinkplatte auf. Diese Beobachtung führt zu dem Schluss, dass
+nicht das sichtbare Licht für die Entladung der Platte verantwortlich ist,
+sondern der unsichtbare, kurzwellige UV-Anteil, der im Licht der Bogenlampe
+ebenfalls mit hoher Intensität vertreten ist. Das UV-Licht wird – im Gegensatz
+zum sichtbaren Licht – von der Glasplatte vollständig absorbiert. Das sichtbare
+Licht kann offenbar nicht ausreichend Energie auf die Elektronen übertragen,
+damit diese die Austrittsarbeit überwinden könnten.
+
+Der Energieübertrag auf die Elektronen wird also bestimmt durch die Wellenlänge
+beziehungsweise Frequenz des eingestrahlten Lichts. Im Wellenmodell des Lichts
+ist dies jedoch nicht zu verstehen. Die Energie einer Welle ist bestimmt durch
+deren Amplitude: $E_\mathrm{Welle}\propto A_0^2$. Die Frequenz spielt dabei
+keine Rolle. Somit stellt das beschriebene Hallwachs-Experiment einen
+unlösbaren Widerspruch zur Wellenoptik dar.
+
+Die Erklärung dieses Effekts lieferte Albert Einstein – und erhielt hierfür den
+Physik-Nobelpreis. Dabei benutzte er die Quantenhypothese, die Max Planck
+bereits fünf Jahre zuvor aufgestellt hatte. Diese besagt, dass das Licht nicht
+beliebige Energiebeträge abgeben kann, sondern nur definierte
+„Energieportionen“, sogenannte Quanten. Der Energiebetrag eines solchen Quants
+ist dabei bestimmt durch die Frequenz des Lichts:
+
+$$E_\mathrm{Qu} = hf = h \frac{c}{\lambda}$$
+
+mit dem Planckschen Wirkunsgquantum
+
+$$h = 6{,}626\cdot 10^{-34}~\mathrm{Js} = 4{,}136\cdot10^{-15}~\mathrm{eVs} \, .$$
+
+Dabei wechselwirkt stets genau ein Lichtquant mit genau einem Elektron. Ist die
+Energie des Lichtquants kleiner als die Austrittsarbeit der Metallplatte
+($hf<W_\mathrm A$), so reicht der Energieübertrag nicht zur Freisetzung eines
+Elektrons aus. Folglich führen nur ausreichend hohe Frequenzen (kurze
+Wellenlängen) zur Entladung der Platte. Für den Fall $hf>W_\mathrm A$ kann das
+Elektron, das dieses Lichtquant absorbiert hat, die Austrittsarbeit überwinden
+und die Metallplatte verlassen. Die „überschüssige“ Energie des Lichtquants geht
+dabei in kinetische Energie des freigesetzten Elektrons über. Damit gilt die
+Energiebilanz:
+
+$$hf = W_\mathrm A + E_\mathrm{kin} \, .$$
+
+Zur experimentellen Überprüfung dieser Energiebilanz muss die kinetische Energie
+der emittierten Elektronen bestimmt werden. Dazu befindet sich die emittierende
+Metallschicht zusammen mit einer Gegenelektrode im Vakuum und wird dort mit
+monochromatischem Licht (d.h. Licht mit genau einer Wellenlänge) bestrahlt.
+Zwischen emittierender Schicht und Gegenelektrode wird durch Anlegen einer
+Gegenspannung $U_G$ ein elektrisches Feld erzeugt, dass die Elektronen abbremst.
+Ist die Gegenspannung gefunden, bei der die Elektronen vollständig abgebremst
+werden, so gilt:
+
+$$E_\mathrm{kin} = eU_G \, .$$
+
+#### Das Photon
+
+Handelt es sich bei den Lichtquanten nun lediglich um „Energieportionen“ einer
+kontinuierlich fortlaufenden Welle, oder sind es tatsächlich eigenständige
+Teilchen? Um dies zu untersuchen, betrachten wir die Detektion einzelner
+Lichtquanten. Tatsächlich können Detektoren, die auf dem äußeren Photoeffekt
+beruhen, aus einem einzelnen auftreffenden Photon einen messbaren Spannungspuls
+erzeugen. Wird ein solcher Detektor mit einer sehr geringen Lichtintensität
+bestrahlt, so können die einzelnen Lichtquanten getrennt registriert werden. Das
+Auftreffen der Quanten auf dem Detektor geschieht dabei in völlig unregelmäßigen
+Zeitabständen.
+
+Diese Beobachtung widerspricht der Annahme einer kontinuierlichen Welle, die
+lediglich feste Energieportionen überträgt. Damit zeigen sich die Lichtquanten
+als tatsächliche Teilchen. Man spricht in diesem Zusammenhang vom Teilchenmodell
+des Lichts. Die Lichtteilchen erhalten den Namen Photonen. Die Intensität des
+Lichts – die in der Wellenoptik mit der Amplitude der Lichtwelle verknüpft ist –
+ergibt sich in der Teilchenoptik aus der Anzahl der pro Zeiteinheit
+eintreffenden Photonen.
+
+Aus der Mechanik wissen wir, dass jedes bewegte Teilchen einen Impuls besitzt.
+Wenn Photonen den Charakter eines Teilchens aufweisen, dann sollten sie auch
+einen Impuls haben. Tatsächlich lässt sich auch für das Photon ein Impuls
+angeben, der mit seiner Frequenz verknüpft ist:
+
+$$p_\mathrm{Ph} = \frac{E_\mathrm{Ph}}{c} = \frac{hf}{c} = \frac{h}{\lambda} \, .$$
+
+Dieser Photonenimpuls lässt sich in Experimenten (Stichwort:
+Compton<!-- style ="font-variant: small-caps;" -->-Effekt) nachweisen. Die
+„Lichtmühle“ (Radiometer), die manchmal als Nachweis des Photonenimpulses
+angeführt wird, beruht jedoch auf anderen Effekten.
+
+Für das Licht lässt sich also sowohl ein eindeutiger Wellencharakter (Beugung,
+Interferenz) als auch ein eindeutiger Teilchencharakter (Photonenimpuls)
+nachweisen. Das Photon ist dabei weder Welle noch Teilchen im klassischen Sinn,
+sondern ein Quantenobjekt, das beide Eigenschaften in sich vereint und – je nach
+experimentellem Aufbau – diesen oder jenen Charakter zeigt. Daher lassen sich
+auch Wellen- und Teilchenmodell des Lichts nicht vollständig trennen.
+
+Dieser Dualismus von Wellen- und Teilcheneigenschaften zeigt sich unter anderem
+auch bei der Beobachtung von Interferenzen. Aus der Wellenoptik wissen wir, dass
+das Licht bei Durchgang durch einen Doppelspalt ein Interferenzmuster erzeugt.
+Nun werde ein solcher Doppelspalt mit so geringer Lichtintensität bestrahlt,
+dass niemals mehrere Photonen gleichzeitig den Doppelspalt passieren. Hinter dem
+Doppelspalt werden die Photonen wiederum durch den oben schon erwähnten
+Einzelphotonendetektor gezählt. Tatsächlich zeigt das Licht auch dann
+Interferenzverhalten: Je nach Detektorposition ergeben sich charakteristische
+Maxima und Minima in der Zählrate der Photonen. Interferenz entsteht also nicht
+aus der Überlagerung mehrerer Photonen, sondern ist eine Eigenschaft des
+einzelnen Photons.
+
+Um diesen Welle-Teilchen-Dualismus zu veranschaulichen, werden Photonen mitunter
+als „Wellenzüge“ endlicher Länge dargestellt. Doch auch diese Vorstellung gerät
+schnell an ihre Grenzen. Der Charakter des Lichts entzieht sich letztendlich
+unserer Vorstellung.
+
+#### Wellencharakter der Elektronen
+
+Die Tatsache, dass das Licht – klassisch als Welle beschrieben – unter
+bestimmten experimentellen Bedingungen auch Teilchencharakter aufweist, wirft
+die Frage auf, ob umgekehrt Objekte, die klassisch als Teilchen beschrieben
+werden, auch Wellencharakter besitzen.
+
+Wir betrachten hierfür Elektronen, die im Vakuum durch eine Spannung
+$U_B=(2 \dots 5)~\mathrm{kV}$ beschleunigt werden. Ihre Geschwindigkeit folgt
+aus dem Energieansatz (vgl. Kapitel [Energie des elektrischen Felds](#energie-des-elektrischen-felds-–-coulombenergie)):
+
+$$v = \sqrt{\frac{2eU_\mathrm B}{m_\mathrm e}} \, .$$ Damit ergibt sich für den Impuls: $$p_\mathrm e = mv = \sqrt{2m_\mathrm e e U_\mathrm B} \, .$$
+
+Diese Elektronen treffen nun im Vakuum auf eine dünne Graphitschicht. Hinter
+dieser befindet sich in einigem Abstand eine Leuchtschicht, auf der die
+Auftreffpunkte der Elektronen sichtbar werden. Dabei zeigt sich, dass der
+Elektronenstrahl bei Durchgang durch die Graphitschicht stark aufgeweitet wird
+und zugleich auf dem Leuchtschirm konzentrische Ringe hoher und niedriger
+Intensität zeigt. Dies kann nur als Beugungs- und Interferenzphänomen gedeutet
+werden und zeigt damit, dass auch Elektronen, die klassisch als Teilchen
+aufgefasst wurden, Wellencharakter besitzen. Die Anordnung der Kohlenstoffatome
+in der Graphitschicht wirkt dabei als Beugungsgitter für die Elektronen, deren
+Wellenlänge mit den Atomabständen im Graphit vergleichbar ist.
+
+Somit kann den Elektronen auch eine Wellenlänge zugeordnet werden, die mit ihrem
+Impuls verknüpft ist (Luis<!-- style ="font-variant: small-caps;" --> De<!-- style ="font-variant: small-caps;" --> Broglie<!-- style ="font-variant: small-caps;" -->, 1923):
+
+$$\lambda_\mathrm e = \frac{h}{p_\mathrm e} \, .$$
+
+Diese Formel zeigt, dass die Elektronenwellenlänge vom Impuls und damit von der
+Beschleunigungsspannung abhängt: höhere Beschleunigungsspannungen bewirken einen
+höheren Elektronenimpuls und damit eine kürzere Wellenlänge. Tatsächlich führt
+im oben beschriebenen Experiment eine Erhöhung der Beschleunigungsspannung zu
+einer Verringerung des Abstands der Interferenzmaxima. Dieser Effekt weist die
+Verkürzung der Wellenlänge nach.
+
+Natürlich zeigen Elektronen weiterhin auch Teilchencharakter. Sie sind – wie das
+Licht – Quantenobjekte, die beide Eigenschaften in sich vereinen. Ebenso zeigen
+alle anderen mikroskopischen Teilchen (Protonen, Neutronen, …) den
+Welle-Teilchen-Dualismus.
