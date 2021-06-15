@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  0.0.1
+version:  2021.1.0
 
 language: de
 
@@ -3355,3 +3355,337 @@ Natürlich zeigen Elektronen weiterhin auch Teilchencharakter. Sie sind – wie 
 Licht – Quantenobjekte, die beide Eigenschaften in sich vereinen. Ebenso zeigen
 alle anderen mikroskopischen Teilchen (Protonen, Neutronen, …) den
 Welle-Teilchen-Dualismus.
+
+### Atomphysik
+
+Die Atomphysik beschäftigt sich mit dem Aufbau und den Eigenschaften der Atome.
+
+#### Atomkern und Atomhülle
+
+Grundlegend sind Atome aus dem Atomkern und der Atomhülle, die den Kern umgibt,
+aufgebaut. Diese Erkenntnis geht zurück auf die von
+Ernest<!-- style ="font-variant: small-caps;" --> Rutherford<!-- style ="font-variant: small-caps;" -->
+durchgeführten Streuversuche, bei denen er eine $0{,}5~\mathrm{\mu m}$ dicke
+Goldfolie (das entspricht ca. 1000 Atomlagen) mit radioaktiven $\alpha$-Teilchen
+bestrahlte. Der wesentliche Teil dieser $\alpha$-Teilchen passierte die
+Goldfolie ohne oder mit nur geringer Ablenkung. Nur ein sehr geringer Teil wurde
+um große Winkel abgelenkt oder zurückgestreut. Diese Beobachtung führte zu der
+Erkenntnis, dass die Atome im Wesentlichen aus leerem Raum bestehen. Nahezu die
+gesamte Masse eines Atoms ist in dessen Kern vorhanden, der um mehrere
+Größenordnungen kleiner ist als das Atom. Als Richtwerte für den Radius eines
+Atoms sowie eines Atomkerns gelten:
+
+$$\begin{aligned}
+& r_\mathrm{Atom} \approx 10^{-10}~\mathrm m \\
+\textrm{bzw.} \quad & r_\mathrm{Kern} \approx 10^{-15}~\mathrm m \, .
+\end{aligned}$$
+
+![Das Atomium in Brüssel](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Atomium_Brussels.jpg/429px-Atomium_Brussels.jpg "Das Atomium in Brüssel besteht aus 9 Kugeln, die Eisenatome in 165-milliardenfacher Vergrößerung darstellen. Der Atomkern entspräche im selben Maßstab einer Stecknadelkuppe … [Quelle: [Sanjprak](https://commons.wikimedia.org/wiki/User:Sanjprak), [Atomium Brussels](https://commons.wikimedia.org/wiki/File:Atomium_Brussels.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode) via Wikimedia Commons]")
+![Das Kreuzfahrtschiff Harmony of the Seas](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Harmony_of_the_Seas_at_Fort_Lauderdale.jpg/640px-Harmony_of_the_Seas_at_Fort_Lauderdale.jpg "… seine Masse wäre in dieser Vergrößerung das Doppelte der Masse des Kreuzfahrtschiffs „Harmony of the Seas“. [Quelle: [Tinashocker](https://commons.wikimedia.org/wiki/User:Tinashocker), [Harmony of the Seas at Fort Lauderdale](https://commons.wikimedia.org/wiki/File:Harmony_of_the_Seas_at_Fort_Lauderdale.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) via Wikimedia Commons]")
+
+Zur Veranschaulichung dieser Größen- und Massenverhältnisse sei auf das Atomium
+in Brüssel verwiesen (siehe obige Abbildung). Dieses besteht aus 9 Kugeln von
+$18~\mathrm m$ Durchmesser, die jeweils ein Eisenatom in 165-milliardenfacher
+Vergrößerung darstellen. Die Masse eines Eisenatoms beträgt
+$m= 92{,}7\cdot10^{-27}~\mathrm{kg}$. Ein 165-milliardenfach vergrößertes
+Eisenatom müsste folglich eine Masse von $m=416\cdot10^6~\mathrm{kg}$ besitzen.
+Dies ist etwa das Doppelte der Masse des Kreuzfahrtschiffs „Harmony of the
+Seas“. Diese Masse wiederum wäre vollständig im Atomkern enthalten, der bei
+gleicher Vergrößerung einen Durchmesser von $\approx 1{,}5~\mathrm{mm}$ besäße.
+
+Der Atomkern trägt positive Ladungen. In der Atomhülle befinden sich negativ
+geladene Elektronen (daher auch die Bezeichnung Elektronenhülle). Die Anzahlen
+positiver Ladungen (im Kern) und negativer Ladungen (in der Hülle) sind
+identisch, sodass das Atom als Ganzes elektrisch neutral ist. Im Rahmen der
+Atomphysik wird der Atomkern als Ganzes mit seiner Masse und seiner Ladung
+betrachtet. Die Untersuchung der inneren Struktur der Atomkerne ist Aufgabe der
+Kernphysik, nicht der Atomphysik. Letztere beschäftigt sich mit den Vorgängen in
+der Atomhülle.
+
+Nach den Gesetzen der klassischen Physik dürfte es keine stabilen Atome geben.
+Aufgrund der Coulomb<!-- style ="font-variant: small-caps;" -->kraft zwischen
+dem Atomkern und den Elektronen müssten Letztere in den Kern „stürzen“. Der
+Aufbau der Atome lässt sich daher nur mit den Gesetzen der Quantenphysik
+erklären. Atommodelle, die auf der klassischen Physik aufbauen, sind zwar
+anschaulich, physikalisch aber nicht haltbar. Aufgrund ihrer Anschaulichkeit
+werden diese Modelle dennoch wiedergegeben in dem Wissen, dass letztendlich
+andere (quantenmechanische) Gesetzmäßigkeiten gelten.
+
+#### Das Atommodell der Quantenphysik
+
+Die Grundaussagen des quantenphysikalischen Atommodells gehen auf
+Niels<!-- style ="font-variant: small-caps;" --> Bohr<!-- style ="font-variant: small-caps;" -->
+zurück. Dieser betrachtete die Atome noch unter den Gesetzen der klassischen
+Physik und forderte lediglich, dass für Atome einige „Ausnahmen“” von diesen
+Gesetzen gelten sollten. Dies betrifft insbesondere die Aussage, dass die
+Elektronen eben nicht in den Atomkern stürzen. Damit war zwar qualitativ (und
+teilweise auch quantitativ) eine recht gute Beschreibung möglich. Eine
+Erklärung, wie das Verhalten der Atome und die geforderten „Ausnahmen“” zu
+verstehen wären, war jedoch nicht möglich. Erst durch die Entwicklung der
+Quantenmechanik war auch eine theoretische Beschreibung der Atome möglich.
+
+Die Grundaussagen des quantenphysikalischen Atommodells lauten:
+
+-   In der Atomhülle befinden sich die Elektronen in stabilen Zuständen, d.h.,
+    sie geben keine Energie ab.
+
+-   Diese Zustände werden durch die Hauptquantenzahl $n$ (und weitere
+    Quantenzahlen) beschrieben.
+
+-   Jeder dieser stabilen Zustände ist durch eine diskrete Energie
+    charakterisiert. Das bedeutet, ein Elektron im Zustand $n$ besitzt exakt
+    die Energie $E_n$.
+
+-   Übergänge zwischen den verschiedenen Zuständen sind möglich.
+    („Quantensprünge“)
+
+-   Beim Wechsel von einem Zustand mit höherer Energie $E_n$ in einen Zustand
+    mit niedrigerer Energie $E_m$ wird die Differenzenergie als
+    elektromagnetische Strahlung in Form eines Photons mit der Energie
+
+    $$E_\mathrm{Ph}=hf=\left| E_n-E_m \right|$$
+
+    abgegeben.
+
+-   Umgekehrt muss ein Elektron für einen Übergang in einen höherenergetischen
+    Zustand die erforderliche Energiedifferenz aufnehmen.
+
+Bohr identifizierte die stabilen Elektronenzustände mit Kreisbahnen
+verschiedener Radien. Diese Annahme führt jedoch zu physikalischen
+Widersprüchen. In der Quantenmechanik werden die diskreten Elektronenbahnen
+ersetzt durch abstrakte Energieniveaus, die die Energien der stabilen Zustände
+widerspiegeln und in Energieniveauschemen dargestellt werden (siehe folgende
+Abbildung). Dabei wird als Nullpunkt der Energie der ungebundene Zustand eines
+Elektrons angenommen. Dessen Hauptquantenzahl ist $n=\infty$, und es gilt
+$E_{\infty}=0$. Die gebundenen Zustände ($n<\infty$) der Elektronen haben somit
+negative Energien.
+
+![Allgemeine Darstellung eines Energieniveauschemas](https://upload.wikimedia.org/wikipedia/commons/5/56/Wasserstoff-Termschema_einfach.svg "Allgemeine Darstellung eines Energieniveauschemas mit Hauptquantenzahl (links) und Energienieveaus (rechts). [Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [w:de:user:Kiko2000](https://en.wikipedia.org/wiki/de:user:Kiko2000) and [Cepheiden](https://commons.wikimedia.org/wiki/User:Cepheiden)), [Wasserstoff-Termschema einfach](https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_einfach.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) via Wikimedia Commons]")
+
+Die Energieniveaus erlauben keine Rückschlüsse auf die Aufenthaltsorte oder die
+Bewegung der Elektronen im Atom. Tatsächlich existiert auch keine vorgegebene
+Bewegungsbahn, wie sie Bohr angenommen hatte. In der Quantenphysik werden diese
+diskreten Bahnen ersetzt durch Orbitale. Diese geben
+Aufenthaltswahrscheinlichkeiten der Elektronen an und werden meist dargestellt
+als Raumbereiche, in denen sich das Elektron mit 90 %-iger Wahrscheinlichkeit
+aufhält.
+
+![Darstellung einiger Atomorbitale](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/AOs-3D-dots.png/640px-AOs-3D-dots.png "Im quantenmechanischen Atommodell lässt sich für die Elektronen keine definierte Position oder Bewegungsbahn angeben. Stattdessen kann für jeden Zustand das zugehörige Orbital angegeben werden als Raumbereich, in dem sich das Elektron mit 90 %-iger Wahrscheinlichkeit aufhält. [Quelle: [Benjah-bmm27](https://commons.wikimedia.org/wiki/User:Benjah-bmm27), [AOs-3D-dots](https://commons.wikimedia.org/wiki/File:AOs-3D-dots.png), als gemeinfrei gekennzeichnet, Details auf [Wikimedia Commons](https://commons.wikimedia.org/wiki/Template:PD-self)]")
+
+#### Grundlegende Experimente der Atomphysik
+
+In den nachfolgenden Abschnitten sollen einige grundlegende Experimente
+betrachtet werden, die historich betrachtet zur Entwicklung des oben
+vorgestellten Atommodells geführt. Die Ergebnisse dieser Experimente lassen sich
+erst durch die Anwendung dieses Atommodells qualitativ und quantitativ
+verstehen.
+
+##### Das Hallwachs<!-- style ="font-variant: small-caps;" -->-Experiment
+
+Das Hallwachs<!-- style ="font-variant: small-caps;" -->-Experiment wurde
+bereits im Zusammenhang der [Quantenoptik](#quantenhafte-energieabgabe-des-lichts)
+eingehend erläutert. Dabei wurde geschlussfolgert, dass Photonen Energie auf die
+im Metall gebundenen Elektronen übertragen, die infolgedessen die
+Austrittsarbeit überwinden und die Metallplatte verlassen können. Die Atomphysik
+liefert nun auch die Erklärung für die Austrittsarbeit. Dies ist die
+Bindungsenergie der am schwächsten gebundenen Elektronen eines Festkörpers.
+Anders ausgedrückt: die Austrittsarbeit entspricht der Energie des höchsten
+besetzten Energieniveaus. Folglich werden nur schwach gebundene Elektronen durch
+den äußeren Photoeffekt emittiert.
+
+##### Optische Emissionsspektroskopie des Wasserstoffatoms
+
+Als Spektroskopie werden verschiedene Messverfahren bezeichnet, bei denen eine
+Strahlung analysiert und als Intensitätsverteilung (Spektrum) dargestellt wird.
+Bei der optischen Emissionsspektroskopie wird die Intensität des von einer Probe
+ausgesendeten Lichts als Funktion der Wellenlänge untersucht.
+
+Atome oder Moleküle eines Gases können beispielsweise in geeigneten
+Entladungsröhren durch Anlegen einer Hochspannung zum Leuchten angeregt werden.
+Das dabei emittierte Licht weißt eine charakteristische Farbe auf. Bei der
+spektroskopischen Untersuchung dieser Emissionen zeigen sich stets diskrete
+(d.h. einzelne, scharf begrenzte) Wellenlängen, die abgegeben werden. Diese
+Wellenlängen entsprechen den Energiedifferenzen zwischen je zwei Niveaus der
+emittierenden Atome oder Moleküle. Zudem sind diese Emissionswellenlängen
+charakteristisch für die emittierende Substanz, da in jedem Atom oder Molekül
+die Energieviveaus andere Werte der Bindungsenergie besitzen.
+
+Im vorliegenden Fall wird die Emission des atomaren Wasserstoffs analysiert.
+Da sich das Wasserstoffatom quantenmechanisch exakt berechnen lässt und somit
+eine genaue Vorhersage der Energieniveaus möglich ist, stellt die Untersuchung
+der emittierten Strahlung dieses Atoms einen wichtigen quantitativen Test des
+Atommodells dar. Für die Energieniveaus des Wasserstoffs folgt aus der
+quantenmechanischen Berechnung:
+
+$$E_n = -h \cdot R_\mathrm H \cdot \frac{1}{n^2}$$
+
+mit der Rydberg<!-- style ="font-variant: small-caps;" -->-Frequenz:
+
+$$R_\mathrm H = 3{,}29\cdot10^{15}~\mathrm{Hz} \, .$$
+
+Das resultierende Energieniveauschema ist in der folgenden Abbildung gezeigt.
+Für die ersten drei Energieniveaus ergibt sich:
+
+$$\begin{aligned}
+E_1 & = -13{,}6~\mathrm{eV} \, ,\\
+E_2 & = -3{,}4~\mathrm{eV} \, ,\\
+E_3 & = -1{,}51~\mathrm{eV} \, .
+\end{aligned}$$
+
+![Termschemas des Wasserstoffatoms ](https://upload.wikimedia.org/wikipedia/commons/5/50/Wasserstoff-Termschema_3.svg "Termschema des Wasserstoffatoms. Die möglichen Übergänge zwischen den Energieniveaus (hier durch Pfeile verdeutlicht) werden zu Serien zusammengefasst, die jeweils ein gemeinsames Endniveau besitzen. Emissionen im sichtbaren Bereich sind dabei nur in der Balmer-Serie zu erwarten. [Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [w:de:user:Kiko2000](https://en.wikipedia.org/wiki/de:user:Kiko2000) and [Cepheiden](https://commons.wikimedia.org/wiki/User:Cepheiden")), [Wasserstoff-Termschema 3](https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_3.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)]")<!-- style="width:14cm;" -->
+
+Nach den Aussagen des quantenphysikalischen Atommodells müssen die von
+Wasserstoffatomen emittierten Photonen den Differenzen dieser Energieniveaus
+entsprechen. Nicht alle dieser Photonen werden dabei im sichtbaren Bereich
+liegen. Die langwellige Grenze des sichtbaren Spektrums
+($\lambda_\mathrm{max}= 700~\mathrm{nm}$) entspricht einer Energie von
+$E_\mathrm{Ph}=1{,}77~\mathrm{eV}$. Die kurzwellige Grenze mit
+$\lambda_\mathrm{min}= 380~\mathrm{nm}$ entspricht
+$E_\mathrm{Ph}=3{,}27~\mathrm{eV}$. Daher entstehen nur bei Übergängen von einem
+höheren in das zweite Energieniveau ($E_n\rightarrow E_2$ mit $n>2$) Photonen im
+sichtbaren Bereich. Die zugehörigen Emissionswellenlängen werden als
+Balmer-Serie bezeichnet. Die folgende Abbildung zeigt eine spektrale Aufnahme
+der Balmerserie, wobei die Wellenlänge von links nach rechts zunimmt.
+
+![Spektrale Aufnahme der Balmerserie.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Visible_spectrum_of_hydrogen.jpg/799px-Visible_spectrum_of_hydrogen.jpg "Spektrale Aufnahme der Balmerserie. Die Wellenlänge nimmt von links nach rechts zu. [Quelle: [Jan Homann](https://commons.wikimedia.org/wiki/User:Jan_Homann), [Visible spectrum of hydrogen](https://commons.wikimedia.org/wiki/File:Visible_spectrum_of_hydrogen.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)]")
+
+Die größte Wellenlänge in dieser Serie ist dem Übergang mit der kleinsten
+Energiedifferenz zuzuordnen, da die Photonenenergie umgekehrt proportional zur
+Wellenlänge ist. Dies ist der Übergang $E_3 \rightarrow E_2$ mit der
+Energiedifferenz $\Delta E=1{,}89~\mathrm{eV}$. Dies entspricht einer
+Wellenlänge von $\lambda = 656~\mathrm{nm}$, was mit der roten Linie im
+Wasserstoffspektrum übereinstimmt (siehe obiges Bild). Die kleinstmögliche
+Wellenlänge ergäbe sich aus dem Übergang eines zuvor ungebundenen Elektrons in
+das zweite Energieniveau ($E_\infty \rightarrow E_2$), was einer
+Energiedifferenz von $\Delta E=|E_2 |=3{,}4~\mathrm{eV}$ und einer Wellenlänge
+$\lambda =365~\mathrm{nm}$ entspricht. Tatsächlich stellen diese beiden
+Wellenlängen die Grenzen der Balmerserie dar. Wie aus obiger Abbildung bereits
+ersichtlich ist, liegen die Emissionswellenlängen zur kurzwelligen Seite hin
+immer dichter beieinander. Dies folgt aus den abnehmenden Energiedifferenzen
+zwischen den höheren Energieniveaus, da $E_n \propto \frac{1}{n^2}$ . Zugleich
+nimmt die Intensität der Emissionslinien mit abnehmender Wellenlänge
+(zunehmender Photonenenergie) ab. Ursache hierfür ist die abnehmende
+Besetzungswahrscheinlichkeit der höheren Energieniveaus, die Ausgangspunkt für
+die zugehörigen Elektronenübergänge sind.
+
+Damit bestätigt die Untersuchung der Emissionswellenlängen des Wasserstoffatoms
+sowohl qualitativ als auch quantitativ die Aussagen des quantenphysikalischen
+Atommodells.
+
+Die Emissionsspektroskopie lässt sich selbstverständlich auch auf andere Stoffe
+anwenden. Auch dabei beobachtet man Emissionen mit diskreten und
+charakteristischen Wellenlängen. Jedoch erscheinen diese Spektren weitaus
+weniger regelmäßig als das des atomaren Wasserstoffs, da die zugrundeliegenden
+Energieniveauschemen weitaus komplexer sind. Zudem lassen sich andere Atome als
+das des Wasserstoffs sowie Moleküle nicht mehr quantenmechanisch exakt
+berechnen. So dient die Spektroskopie in diesem Fall der Identifizierung der
+Atome oder Moleküle sowie der experimentellen Bestimmung der Energieniveaus,
+nicht jedoch dem quantitativen Test des Atommodells.
+
+##### Resonanzabsorption
+
+Die bisher beschriebene Emission von Strahlung entsteht, indem ein Elektron beim
+Wechsel von einem höheren in ein niedrigeres Energieniveau die „überschüssige“
+Energie abgibt. Umgekehrt muss ein Elektron Energie aufnehmen, um in ein höheres
+Energieniveau zu wechseln. Auch dies kann durch optische Wechselwirkung
+geschehen. Am deutlichsten tritt dieser Effekt auf, wenn eine Atomsorte mit
+Licht bestrahlt wird, das von ebendieser Atomsorte auch erzeugt wurde. Dann kann
+mitunter bereits mit bloßem Auge eine deutliche Schwächung der Lichtintensität
+beobachtet werden. Diese Schwächung entsteht durch Absorption des Lichts, indem
+Elektronen in ein höheres Energieniveau übergehen. Ebenso wie die Emission
+erfolgt auch die Absorption bei diskreten und charakteristischen Wellenlängen,
+die mit den Emissionswellenlängen übereinstimmen, da die zu Grunde liegenden
+Energieniveaus dieselben sind. Dieser Effekt wird auch als Resonanzabsorption
+bezeichnet.
+
+##### Der Franck<!-- style ="font-variant: small-caps;" -->-Hertz<!-- style ="font-variant: small-caps;" -->-Versuch
+
+Für die Anregung von Atomen – also den Übergang von Elektronen innerhalb dieses
+Atoms in ein höheres Energieniveau – existieren neben den bisher betrachteten
+Mechanismen (Gasentladung, Strahlungsabsorption) weitere mögliche Prozesse.
+Hierzu zählt die Anregung durch Elektronenstoß, die erstmals von James<!-- style ="font-variant: small-caps;" -->
+Franck<!-- style ="font-variant: small-caps;" --> und Gustav<!-- style ="font-variant: small-caps;" -->
+Hertz<!-- style ="font-variant: small-caps;" --> untersucht wurde.
+
+![Leuchtzonen in einer neongefüllten Franck-Hertz-Röhre](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Franck-Hertz-Neon-3.png/279px-Franck-Hertz-Neon-3.png "Blick in eine in Betrieb befindliche Franck-Hertz-Röhre mit Neon-Füllung: Die Anregungszonen sind zwischen dem Steuergitter (unten) und der Anode (oben) durch ihr charakteristisches orange-rotes Leuchten erkennbar. [Quelle: [Infoczo](https://commons.wikimedia.org/wiki/User:Infoczo), [Franck-Hertz-Neon-3](https://commons.wikimedia.org/wiki/File:Franck-Hertz-Neon-3.png), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) via Wikimedia Commons]")
+
+Zur Durchführung dieses Versuchs wird eine evakuierte Glasröhre verwendet, die
+mit einer geringen Menge eines Gases gefüllt ist. In den ursprünglichen
+Experimenten verwendeten Franck und Hertz Quecksilberdampf; an dieser Stell soll
+die Durchführung mit Neongas beschrieben werden. Eingeschmolzen in diese
+Glasröhre sind vier Elektroden (siehe folgende Abbildung): Die Kathode (K) wird
+durch die angelegte Heizspannung $U_\mathrm H$ zum Glühen gebracht und emittiert
+so Elektronen, die durch die Beschleunigungsspannung $U_\mathrm B$ zur Anode (A)
+hin beschleunigt werden. Kurz hinter der Kathode befindet sich mit dem
+Steuergitter (SG) eine zusätzliche Elektrode, die den Stromfluss steuert, den
+eigentlichen physikalischen Effekt jedoch nicht beeinflusst. Daher wird dieses
+Gitter im Folgenden nicht weiter betrachtet. Die Anode ist als Netz ausgeführt,
+sodass die Elektronen diese passieren können und danach auf die
+Auffängerelektrode (E) treffen. Zwischen Anode und Auffängerelektrode liegt die
+Gegenspannung $U_\mathrm G$ an, die die Elektronen abbremst.
+
+![Schematischer Aufbau einer Franck-Hertz-Röhre](https://upload.wikimedia.org/wikipedia/commons/2/2b/FH_R%C3%B6hre_Ne.svg "Schematischer Aufbau einer neongefüllten Franck-Hertz-Röhre. Die Beschreibung des Aufbaus und der Abkürzungen erfolgt im Text. [Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [Sebastian Wagner](https://commons.wikimedia.org/wiki/User:RealSebix)), [FH Röhre Ne](https://commons.wikimedia.org/wiki/File:FH_Röhre_Ne.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) via Wikimedia Commons]")
+
+Gemessen wird im Franck-Hertz-Versuch der an der Auffängerelektrode ankommende
+Elektronenstrom $I_\mathrm E$ als Funktion der Beschleunigungsspannung
+$U_\mathrm B$. Eine entsprechende Messkurve ist in der folgenden Abbildung
+gezeigt.
+
+![Messkurve einer Franck-Hertz-Röhre.](grafik/V15_FH-Kurve.png "Messkurve $I_\mathrm E (U_\mathrm B)$ einer neongefüllten Franck-Hertz-Röhre. Die Erläuterung der Abschnitte 1 bis 5 erfolgt im Text.")<!-- style="width:12cm;" -->
+
+Die einzelnen Abschnitte (im Bild durch die Zahlen 1 bis 5 markiert) dieser
+$I_\mathrm E (U_\mathrm B )$-Abhängigkeit lassen sich unter Anwendung des
+Atommodells und der Gesetze der Elektrizitätslehre erklären:
+
+1.  Solange die Beschleunigungsspannung kleiner ist als die Gegenspannung
+    ($U_\mathrm B < U_\mathrm G$), werden die Elektronen vor Erreichen der
+    Auffängerelektrode vollständig abgebremst. Folglich wird an dieser kein
+    Strom gemessen. In der Messkurve in obiger Abbildung zeigt sich an dieser
+    Stelle ein Offset des Messstroms, der durch geeignete Kalibrierung der
+    Messapparatur behoben werden könnte. Da dieser Offset jedoch für die gesamte
+    Messung konstant ist, beeinflusst er die weitere Diskussion nicht.
+
+2.  Sobald die Beschleunigungsspannung die Gegenspannung übersteigt, erreichen
+    die Elektronen die Auffängerelektrode und es wird ein Strom gemessen. Mit
+    zunehmender Beschleunigungsspannung wächst dieser Strom an, da die
+    kinetische Energie der Elektronen zunimmt.
+
+3.  Oberhalb einer gewissen Beschleunigungsspannung nimmt der Auffängerstrom ab.
+    Dieser Effekt entsteht durch Anregung der Neonatome: Die Atome nehmen
+    Energie der beschleunigten Elektronen auf, sodass innerhalb der Atome
+    gebundene Elektronen in ein höheres Energieniveau übergehen können. Aufgrund
+    der diskreten Energieniveaus kann diese Anregung erst stattfinden, wenn die
+    kinetische Energie der beschleunigten Elektronen die erforderliche
+    Energiedifferenz der Niveaus übersteigt. Gleichzeitig ist in der Röhre ein
+    orange-rotes Leuchten erkennbar (siehe obere Abbildung), das durch die
+    Rückkehr der angeregten Elektronen in ihren Ausgangszustand entsteht. Diese
+    Leucht- oder Anregungszone entsteht zunächst unmittelbar vor der Anode, da
+    erst dort die beschleunigten Elektronen eine ausreichend hohe Energie
+    erreichen.
+
+4.  Bei weiterer Erhöhung der Beschleunigungsspannung wandert die Anregungszone
+    in Richtung Kathode, da die beschleunigten Elektronen bereits früher die zur
+    Anregung erfoderliche Energie besitzen. Nach dieser Energieabgabe werden die
+    Elektronen weiter zur Anode hin beschleunigt, sodass der an der
+    Auffängerelektrode gemessene Strom wieder ansteigt.
+
+5.  Bei ausreichend hoher Beschleunigungsspannung erhalten die Elektronen nach
+    der ersten Energieabgabe wieder die zur Anregung der Neon-Atome
+    erforderliche Energie. So entsteht unmittelbar vor der Anode eine zweite
+    Anregungszone, in der die beschleunigten Elektronen Energie abgeben. In der
+    Folge nimmt der Auffängerstrom wiederum ab. Bei weiterer Erhöhung von
+    $U_\mathrm B$ wandern beide Anregungszonen in Richtung Kathode. Durch die
+    weitere Beschleunigung der Elektronen nach der zweiten Anregungszone steigt
+    der Auffängerstrom wieder an. Eine dritte Anregungszone entsteht, wenn nach
+    zweimaliger Anregung der Neon-Atome die Elektronen wiederum auf die
+    erforderliche Anregungsenergie beschleunigt werden. Dabei zeigt der
+    Auffängerstrom ein drittes Minimum. Insgesamt sind dann drei Anregungszonen
+    mit ihrem orange-roten Leuchten in der Röhre erkennbar (wie in der oberen
+    Abbildung gezeigt).
+
+In einer neongefüllten Franck-Hertz-Röhre treten die Minima des Auffängerstroms
+in Abständen von $\Delta U_\mathrm B =19~\mathrm V$ auf. Dies entspricht der
+Energiedifferenz der für die Anregung relevanten Energieniveaus
+$\Delta E = 19~\mathrm{eV}$. Die Rückkehr in den Ausgangszustand erfolgt
+stufenweise über mehrere Energieniveaus, wobei nur einer der beteiligten
+Übergänge das charakteristische orange-rote Licht emittiert.
