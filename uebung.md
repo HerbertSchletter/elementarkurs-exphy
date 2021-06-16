@@ -175,3 +175,130 @@ Schlussfolgerungen aus dieser Formel sind richtig?
 [[ ]] Je größer die Masse eines Körpers, umso stärker wird er (bei gleichem Kraftstoß) beschleunigt.
 [[ ]] Die Formel erlaubt keinerlei Rückschlüsse auf die Geschwindigkeit, da nur der Impuls berechnet werden kann.
 [[X]] Auch kleine Kräfte können eine starke Impulsänderung bewirken, wenn sie über einen langen Zeitraum wirken.
+
+## Arbeit und Erhaltungssätze
+### Verständnisfragen
+
+#### Erhaltungssätze I
+
+Im Folgenden sind einige physikalische Vorgänge aus dem Bereich der Mechanik
+beschrieben. Entscheiden Sie jeweils, ob der Energiesatz der Mechanik oder der
+Impulserhaltungssatz anwendbar sind. Zu jedem Vorgang ist das System angegeben,
+das für den Impulserhaltungssatz betrachtet werden soll. Die Reibung sei bei
+allen Bewegungsvorgängen vernachlässigbar.
+
+[[Energiesatz der Mechanik anwendbar] [Impulserhaltungssatz anwendbar]]
+[ [X] [ ] ] Schwingung eines Federpendels, bestehend aus einem Massestück an einer Feder (System: Federpendel)
+[ [X] [X] ] elastischer Stoß zweier Gleiter auf der Luftkissenbahn (System: beide Gleiter)
+[ [ ] [X] ] Das Projektil einer Pistole trifft auf eine Zielscheibe und bleibt in dieser stecken. (System: Projektil und Zielscheibe)
+[ [ ] [ ] ] Vollbremsung eines PKW bis zum Stillstand (System: PKW)
+[ [ ] [X] ] Zwei Eishockeyspieler prallen zusammen und klammern sich aneinander fest. (System: beide Spieler)
+[ [X] [X] ] Ein perfekter Gummiball wird gegen eine Wand geworfen und prallt von dieser ab. (System: Gummiball und Wand)
+[ [X] [ ] ] Ein Apfel fällt vom Baum senkrecht nach unten. (System: Apfel und Apfelbaum)
+
+## Rotation und Schwingungen
+### Verständnisfragen
+
+#### Pohlsche Rollen
+
+Gegeben sind zwei Rollen (Zylinder) mit gleicher Masse und gleichen Abmessungen:
+
+*  Rolle 1 besitzt einen Kern aus Eisen, der von einem Mantel aus Holz umgeben ist.
+*  Rolle 2 besteht im Inneren aus Holz und ist von einem Eisenmantel umgeben.
+
+Beide Rollen befinden sich anfangs am oberen Ende einer geneigten Ebene und
+beginnen gleichzeitig hinabzurollen. Die Reibung sei dabei vernachlässigbar.
+
+![Darstellung des beschriebenen Aufbaus](grafik_uebung/PohlscheRollen_Grafik.svg)
+
+[[Rolle 1 (innen Eisen, außen Holz)] [Rolle 2 (innen Holz, außen Eisen)] [beide Rollen gleich]]
+[ (X) ( ) ( )] Welche Rolle erreicht das untere Ende der Bahn eher?
+[ (X*) ( ) ( )] Welche Rolle hat am unteren Ende der Bahn die höhere Geschwindigkeit?
+[ ( ) ( ) (X)] Welche Rolle hat am unteren Ende die größere kinetische Energie?
+[ ( ) (X) ( )] Welche Rolle hat am unteren Ende der Bahn die größere Rotationsenergie?
+[ ( ) (X) ( )] Welche Rolle hat das größere Trägheitsmoment?
+[ ( ) ( ) (X)] Auf welche Rolle wirkt das größere Drehmoment?
+
+#### Federpendel
+
+Gegeben ist ein Federpendel bestehend aus einer Feder mit der Federkonstanten
+$k$ und einem daran angehängten Massestück der Masse $m$. In dieser
+Konfiguration kann das Pendel als ungedämpft betrachtet werden. Seine
+Kreisfrequenz beträgt $\omega_0$.
+
+Treffen Sie möglichst präzise Aussagen, wie sich die folgenden Änderungen am
+Pendel auf dessen Kreisfrequenz auswirken. Dabei wird stets nur der in der
+jeweiligen Teilaufgabe genannte Parameter geändert. Alle anderen Größen bleiben
+wie oben beschrieben.
+
+* Die angehängte Masse wird halbiert. Die Kreisfrequenz
+[[ verdoppelt sich | (erhöht sich um den Faktor $\sqrt 2$) | erhöht sich geringfügig | ändert sich nicht | verringert sich geringfügig | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+
+* Die Feder wird gegen eine mit der vierfachen Federkonstante ausgetauscht. Die Kreisfrequenz
+[[ (verdoppelt sich) | (erhöht sich um den Faktor $\sqrt 2$) | erhöht sich geringfügig | ändert sich nicht | verringert sich geringfügig | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+
+* Das Pendel befinde sich auf dem Mond, wo die Fallbeschleunigung nur 16% des Wertes auf der Erdoberfläche beträgt. Die Kreisfrequenz
+[[ erhöht sich um 16% | erhöht sich um $\sqrt{16}$% | erhöht sich geringfügig | (ändert sich nicht) | verringert sich geringfügig | verringert sich um $\sqrt{16}$% | verringert sich um 16%]]
+
+Das Pendel befinde sich komplett unter Wasser, sodass die Reibung nun eine signifikante Rolle spielt. Die Kreisfrequenz
+[[ verdoppelt sich | erhöht sich um den Faktor $\sqrt 2$ | erhöht sich geringfügig | ändert sich nicht | (verringert sich geringfügig) | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+
+## Wärmelehre
+### Verständnisfragen
+
+#### Temperaturausgleich
+Eine kalte Teetasse wird mit frisch gebrühtem Tee gefüllt. In der Folge wird
+sich der Tee abkühlen und die Tasse erwärmen. Welche der folgenden Aussagen sind
+dabei korrekt? (Wechselwirkungen mit der weiteren Umgebung seien
+vernachlässigbar.)
+
+[[ ]] Der Temperaturausgleich endet, wenn Tee und Tasse dieselbe innere Energie besitzen.
+[[X]] Der Temperaturausgleich endet, wenn Tee und Tasse dieselbe Temperatur besitzen.
+[[X]] Die gesamte innere Energie von Tee und Tasse ändert sich nicht: $U_\mathrm{Tee} + U_\mathrm{Tasse}=const.$
+[[ ]] Es stellt sich immer genau die Temperatur ein, die dem Mittelwert der anfänglichen Tassen- und Teetemperatur entspricht.
+[[ ]] Aufgrund der hohen Wärmekapazität von Wasser gibt der Tee mehr Wärme ab, als die Tasse aufnimmt.
+[[ ]] Es stellt sich stets eine Temperatur ein, die näher an der anfänglichen Teetemperatur liegt, da das Wasser eine größere Wärmekapazität besitzt als die Tasse.
+[[X]] Die Ausgleichstemperatur von Tee und Tasse, die sich einstellt, hängt neben den Anfangstemperaturen und den relevanten Wärmekapazitäten auch von den Massen von Tasse und Tee ab.
+[[X]] Der Temperaturausgleich geschieht durch die Übertragung von Wärme zwischen Tee und Tasse.
+
+#### Innere Energie
+In einem Standzylinder, der durch einen (verschiebbaren) Kolben dicht
+verschlossen ist, befindet sich eine gewisse Stoffmenge eines (idealen) Gases.
+
+Betrachten Sie die folgenden Prozesse und bewerten Sie,
+
+*  ob Arbeit am System ($W>0$) beziehungsweise vom System ($W<0$) verrichtet wird,
+*  ob das System Wärme aufnimmt ($Q>0$) oder abgibt ($Q<0$),
+*  ob und mit welchem Vorzeichen sich die innere Energie $U$ dieses Gases ändert.
+
+1. Der Zylinder mit dem Gas wird erhitzt, wobei sich der Kolben allmählich aus
+   dem Zylinder hinausbewegt.
+
+[[$\lt 0$] [$=0$] [$\gt 0$]]
+[ [X] [ ] [ ] ] Arbeit $W$
+[ [ ] [ ] [X] ] Wärme $Q$
+[ [ ] [ ] [X] ] Innere Energie $\Delta U$
+
+2. Der Zylinder mit dem Gas wird erhitzt. Der Kolben sei dabei fixiert, sodass
+   er seine Position nicht ändert.
+
+[[$\lt 0$] [$=0$] [$\gt 0$]]
+[ [ ] [X] [ ] ] Arbeit $W$
+[ [ ] [ ] [X] ] Wärme $Q$
+[ [ ] [ ] [X] ] Innere Energie $\Delta U$
+
+3. Der Kolben wird langsam in den Zylinder gedrückt, wobei ein ständiger
+   Temperaturausgleich mit der Umgebung stattfindet.
+
+[[$\lt 0$] [$=0$] [$\gt 0$]]
+[ [ ] [ ] [X] ] Arbeit $W$
+[ [X] [ ] [ ] ] Wärme $Q$
+[ [ ] [X] [ ] ] Innere Energie $\Delta U$
+
+4. Der Kolben wird sehr schnell in den Zylinder gedrückt, sodass kein
+   Temperaturausgleich mit der Umgebung stattfindet.
+
+[[$\lt 0$] [$=0$] [$\gt 0$]]
+[ [ ] [ ] [X] ] Arbeit $W$
+[ [ ] [X] [ ] ] Wärme $Q$
+[ [ ] [ ] [X] ] Innere Energie $\Delta U$
