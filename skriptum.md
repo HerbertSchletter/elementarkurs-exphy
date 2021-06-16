@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.1.0
+version:  2021.1.1
 
 language: de
 
@@ -70,8 +70,8 @@ Physik und verschiedene Wege, wie dieses Ziel erreicht werden kann.
 ### Was ist Physik?
 
 > Die Physik ist eine Naturwissenschaft, die Vorgänge der (unbelebten) Natur
-qualitativ und quantitativ beschreibt. Sie fragt nach den Eigenschaften und
-gegenseitigen Wechselwirkungen physikalischer Körper.
+> qualitativ und quantitativ beschreibt. Sie fragt nach den Eigenschaften und
+> gegenseitigen Wechselwirkungen physikalischer Körper.
 
 Der Begriff „Körper“ bezeichnet dabei ganz allgemein eine definierte Menge an
 Materie. Ihm können sehr vielfältige und unterschiedliche Eigenschaften
@@ -3631,7 +3631,7 @@ Elektronenstrom $I_\mathrm E$ als Funktion der Beschleunigungsspannung
 $U_\mathrm B$. Eine entsprechende Messkurve ist in der folgenden Abbildung
 gezeigt.
 
-![Messkurve einer Franck-Hertz-Röhre.](grafik/V15_FH-Kurve.png "Messkurve $I_\mathrm E (U_\mathrm B)$ einer neongefüllten Franck-Hertz-Röhre. Die Erläuterung der Abschnitte 1 bis 5 erfolgt im Text.")<!-- style="width:12cm;" -->
+![Messkurve einer Franck-Hertz-Röhre.](grafik/V15_FH-kurve.png "Messkurve $I_\mathrm E (U_\mathrm B)$ einer neongefüllten Franck-Hertz-Röhre. Die Erläuterung der Abschnitte 1 bis 5 erfolgt im Text.")<!-- style="width:12cm;" -->
 
 Die einzelnen Abschnitte (im Bild durch die Zahlen 1 bis 5 markiert) dieser
 $I_\mathrm E (U_\mathrm B )$-Abhängigkeit lassen sich unter Anwendung des
