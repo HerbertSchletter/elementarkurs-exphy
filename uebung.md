@@ -298,6 +298,116 @@ und sie rollen gemeinsam weiter.
    durch dissipative Vorgänge verloren geht.
    [[ $E_\mathrm{diss} = 0{,}8~\mathrm{mJ}$ | ($E_\mathrm{diss} = 1{,}7~\mathrm{mJ}$) | $E_\mathrm{diss} = 2{,}6~\mathrm{mJ}$ | $E_\mathrm{diss} = 3{,}5~\mathrm{mJ}$]]
 
+#### Ballistisches Pendel
+Zur Bestimmung der Geschossgeschwindigkeit eines Luftgewehrs wird ein
+ballistisches Pendel verwendet: Dabei trifft das Projektil aus kurzer Entfernung
+auf einen freischwingend aufgehängten Kugelfangkasten und bleibt in diesem
+stecken. Dieser wird dabei um eine horizontale Strecke von $s=5{,}5~\mathrm{cm}$
+ausgelenkt. Die Masse des Projektils beträgt $m_\mathrm P=0{,}5~\mathrm g$, die
+des Kugelfangs $m_\mathrm K = 400~\mathrm g$. Die Pendellänge des Kugelfangs
+beträgt $l= 750~\mathrm{mm}$.
+
+1.  Bestimmen Sie die Geschwindigkeit $v_\mathrm P$ des Projektils.
+
+2.  In Deutschland ist für frei verkäufliche Waffen die Mündungsenergie (d.h.
+    die Energie des Projektils unmittelbar nach Verlassen des Laufs) auf
+    $E_\mathrm{max}=7{,}5~\mathrm J$ begrenzt. Vergleichen Sie dies mit der eben
+    errechneten Projektilgeschwindigkeit.
+
+-----
+
+*  Antwort Teilaufgabe 1:
+[[ $v_\mathrm P = 38{,}6~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm P = 84{,}4~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm P = 117{,}9~\frac{\mathrm m}{\mathrm s}$ | ($v_\mathrm P = 160{,}2~\frac{\mathrm m}{\mathrm s}$) ]]
+********************************************************************************
+
+Beim Stoß des Projektils mit dem Kugelfang wird Impuls und Energie übertragen.
+Da der Stoß plastisch verläuft (das Projektil bleibt im Kugelfang stecken), gilt
+der Energiesatz der Mechanik nicht. Der Impulserhaltungssatz hingegen kann
+angewendet werden und lautet in diesem Fall:
+
+$$\begin{aligned}
+    p_\mathrm{ges,vor} & = p_\mathrm{ges,nach} \\
+    m_\mathrm{P}v_\mathrm P & = (m_\mathrm P + m_\mathrm K) v'_\mathrm K \, ,
+\end{aligned}$$
+
+wobei die gestrichene Größe für die Geschwindigkeit nach dem Stoß steht. Für die
+anfängliche Projektilgeschwindighkeit bedeutet dies:
+
+$$v_\mathrm P = \frac{m_\mathrm P + m_\mathrm K}{m_\mathrm P}v'_\mathrm K \, .$$
+
+Die Geschwindigkeit $v'_\mathrm K$ des Kugelfangs nach dem Stoß wird aus dessen
+Pendelbewegung bestimmt. Hierfür gilt der Energiesatz der Mechanik, der für den
+Vergleich von tiefstem und höchstem Punkt (Höhe $h$) folgende Form hat:
+
+$$\begin{aligned}
+    E_\mathrm{pot,oben} & = E_\mathrm{kin,unten} \\
+    (m_\mathrm P + m_\mathrm K)gh & = \frac 12 (m_\mathrm P + m_\mathrm K) {v'_\mathrm K}^2 \, .
+\end{aligned}$$
+
+Daraus folgt
+
+$$v'_\mathrm K = \sqrt{2gh} \, .$$
+
+![Darstellung der Geometrie am ballistischen Pendel](grafik_uebung/BallistischesPendel_Skizze.svg "Geometrie des ballistischen Pendels")<!-- style="width:5cm;" -->
+
+Die Höhe des Pendels im Umkehrpunkt wurde jedoch nich direkt gemessen, sondern
+lediglich die horizontale Auslenkung. Aus der obigen Darstellung ist
+ersichtlich, dass der Satz des Pythagoras angewendet werden kann in der Form
+
+$$l^2=(l-h)^2+s^2 \, .$$
+
+Daraus lässt sich die Höhe des Pendels im Umkehrpunkt ermitteln:
+
+$$\begin{aligned}
+    (l-h)^2 & = l^2 - s^2 \\
+    l-h & = \sqrt{l^2-s^2} \\
+    h & = l-\sqrt{l^2-s^2} = 2{,}02~\mathrm{mm} \, .
+\end{aligned}$$
+
+Die zweite Lösung $h=l+\sqrt{l^2-s^2}$ wurde dabei übergangen, da $h<l$ sein
+muss (das Pendel kann nicht über den Aufhängepunkt steigen).
+
+Setzt man dies in die Geschwindigkeit des Kugelfangs nach dem Stoß (siehe oben)
+ein, so folgt:
+
+$$\begin{aligned}
+v'_\mathrm K & = \sqrt{2gh} \\
+& = \sqrt{2g\left(l-\sqrt{l^2-s^2}\right)} \\
+& = 0{,}2~\frac{\mathrm m}{\mathrm s} \, .
+\end{aligned}$$
+
+Dies wiederum wird eingesetzt in die aus dem Impulssatz gefolgerte Gleichung für
+die anfängliche Projektilgeschwindigkeit:
+
+$$\begin{aligned}
+v_\mathrm P & = \frac{m_\mathrm P + m_\mathrm K}{m_\mathrm P}v'_\mathrm K \\
+& = \frac{m_\mathrm P + m_\mathrm K}{m_\mathrm P}\sqrt{2g\left(l-\sqrt{l^2-s^2}\right)} \\
+& = 160{,}2~\frac{\mathrm m}{\mathrm s} \, .
+\end{aligned}$$
+********************************************************************************
+
+*  Antwort Teilaufgabe 2:
+[[ (Das Luftgewehr ist in Deutschland frei verkäuflich.) | Das Luftgewehr darf in Deutschland nicht frei verkauft werden. ]]
+********************************************************************************
+
+Aus der vorgegebenen maximalen kinetischen Energie
+
+$$E_\mathrm{kin,max} = \frac 12 m_\mathrm P v_\mathrm{max}^2$$
+
+ergibt sich für die gegebene Projektilmasse eine maximale
+Geschossgeschwindigkeit
+
+$$v_\mathrm{max} = \sqrt{\frac{2E_\mathrm{kin.max}}{m_\mathrm P}} = 173{,}2~\frac{\mathrm m}{\mathrm s} \, .$$
+
+Alternativ kann aus der oben ermittelten Geschossgeschwindigkeit die
+Mündungsenergie dieses Luftgewehrs bestimmt werden:
+
+$$E_\mathrm P = \frac 12 m_\mathrm P v_\mathrm P^2 = 6{,}4~\mathrm J \, .$$
+
+Beide Rechnungen führen zu der Schlussfolgerung, dass das Luftgewehr im
+zulässigen Bereich arbeitet und diesen recht gut ausnutzt.
+********************************************************************************
+
 ## Rotation und Schwingungen
 ### Verständnisfragen
 
@@ -567,6 +677,81 @@ folgenden Aussagen sind richtig?
 
 ### Rechenaufgaben
 
+#### Brechzahl des Wassers
+Zur Bestimmung der Brechzahl $n_\mathrm W$ von Wasser wird folgendes Experiment
+durchgeführt (siehe Abbildung): Über einem hohen Standzylinder aus Glas befindet
+sich ein Laser-Entfernungssensor. Dieses Messgerät sendet Lichtpulse aus, die am
+angepeilten Objekt reflektiert werden und zurück in den Sensor gelangen. Der
+Sensor misst die Laufzeit des Lichts von der Aussendung bis zur Rückkehr des
+reflektierten Lichts.
+
+![Skizze des Versuchsaufbaus](grafik_uebung/BrechzahlWasser_Skizze.svg)<!-- style="width:8cm;" -->
+
+Der Laserstrahl dieses Messgerätes ist auf eine Reflektorscheibe gerichtet, die
+sich unter dem Standzylinder befindet. Zunächst ist im Zylinder nur der Boden
+etwas mit Wasser bedeckt. Der Lasersensor bestimmt dabei eine Laufzeit von
+$t_1=5{,}18~\mathrm{ns}$. Nun wird Wasser in den Standzylinder gefüllt, sodass
+der Wasserspiegel um $\Delta h=30~\mathrm{cm}$ angehoben wird. Die Laufzeit des
+Lichts beträgt am Ende der Befüllung $t_2=5{,}92~\mathrm{ns}$. Bestimmen Sie
+daraus den Brechungsindex von Wasser $n_\mathrm W$ (der Brechungsindex von Luft
+hat den Wert $n_\mathrm L=1$).
+
+[[ $n_\mathrm W = 1{,}30$ |  $n_\mathrm W = 1{,}33$ | ($n_\mathrm W = 1{,}37$) | $n_\mathrm W = 1{,}40$ ]]
+********************************************************************************
+
+Der Laufweg des Lichts lässt sich in zwei Anteile aufspalten:
+
+1.  $s_\mathrm W=2\Delta h$: Die Strecke, um die der Wasserspiegel steigt. Zu
+    Beginn legt das Licht diesen Weg durch Luft zurück, am Ende des Experiments
+    durch Wasser. Da das Licht den Standzylinder zweimal passiert (Hin- und
+    Rückweg) ist die Höhendiffernz doppelt zu berücksichtigen.
+
+2.  $s_\mathrm R$: Die gesamte restliche Strecke durch Glas, Luft und die
+    Anfangsmenge an Wasser. Für diese Strecke tritt keine Veränderung ein.
+
+Der gesamte zurückgelegte Weg ist dann $s_\mathrm{ges}=s_\mathrm W + s_\mathrm R$.
+
+Die Laufzeit des Lichts lässt sich in analoger Weise in die beiden Anteile
+$t_\mathrm W$ und $t_\mathrm R$ aufteilen:
+$t_\mathrm{ges}=t_\mathrm W +t_\mathrm R$.
+
+Zu Beginn des Experiments:
+
+$$t_1= t_\mathrm{W(Luft)}+t_\mathrm R$$
+
+und am Ende des Experiments:
+
+$$t_2= t_\mathrm{W(Wasser)}+t_\mathrm R$$
+
+Für die Zeitdifferenz
+
+$$t_2-t_1= t_\mathrm{W(Wasser)}+t_\mathrm R-(t_\mathrm{W(Luft)}+t_\mathrm R)=t_\mathrm{W(Wasser)}- t_\mathrm{W(Luft)}$$
+
+ist dabei nur die Teilstrecke $s_\mathrm W$ relevant. Für deren zugehörige
+Laufzeit gilt am Anfang des Experiments:
+
+$$t_\mathrm{W(Luft)}=\frac{s_\mathrm W}{c_0}$$
+sowie am Ende des Experiments:
+
+$$t_\mathrm{W(Wasser)}=\frac{s_\mathrm W}{c_\mathrm W}=\frac{s_\mathrm W}{c_0}n_\mathrm W$$
+
+Einsetzen in die Formel für die Zeitdifferenz:
+
+$$\begin{aligned}
+t_2 - t_1 & =\frac{s_\mathrm W}{c_0}n_\mathrm W - \frac{s_\mathrm W}{c_0} \\
+& = \frac{s_\mathrm W}{c_0}\left( n_\mathrm W -1 \right) \\
+& = \frac{2\Delta h}{c_0}\left( n_\mathrm W -1 \right)
+\end{aligned}$$
+
+Umstellen liefert die Formel für die Brechzahl:
+
+$$n_\mathrm W = 1+\frac{c_0}{2\Delta h}\left(t_2 - t_1 \right) \, .$$
+
+Mit den Zahlenwerten aus der Aufgabenstellung ergibt sich:
+
+$$n_\mathrm W =1{,}37$$
+********************************************************************************
+
 #### Kamera
 Mit einer Fotokamera soll eine Aufnahme von einem $G= 42~\mathrm m$ hohen Turm
 gemacht werden. Das Objektiv der Kamera (das als dünne Linse behandelt wird) hat
@@ -601,3 +786,139 @@ der folgenden Aussagen sind korrekt?
 [[X]] Das Photon besitzt einen Impuls, der experimentell nachgewiesen werden kann.
 [[X]] Die Lichtintensität, die auf einem Sensor registriert wird, entspricht der Anzahl der Photonen, die pro Zeiteinheit auf diesen Sensor auftreffen.
 [[ ]] Photonen sind ein reines Gedankenmodell, das experimentell nicht zugänglich ist, da keine Detektion einzelner Photonen möglich ist.
+
+### Rechenaufgaben
+
+#### Äußerer Photoeffekt
+Eine negativ geladene Zinkplatte soll durch den äußeren Photoeffekt entladen
+werden. Welche Wellenlänge $\lambda_\mathrm{max}$ darf das dabei zur Bestrahlung eingesetzte Licht
+höchstens haben, damit dieser Effekt auftreten kann? Die Austrittsarbeit von
+Zink beträgt $W_\mathrm A=4{,}34~\mathrm{eV}$.
+
+[[ $\lambda_\mathrm{max} = 162~\mathrm{nm}$ | ($\lambda_\mathrm{max} = 286~\mathrm{nm}$) | $\lambda_\mathrm{max} = 347~\mathrm{nm}$ | $\lambda_\mathrm{max} = 491~\mathrm{nm}$ ]]
+********************************************************************************
+
+Eine Entladung durch den äußeren Photoeffekt tritt auf, wenn die Photonenenergie
+die Austrittsarbeit erreicht oder übersteigt: $E_\mathrm{Ph}\ge W_\mathrm A$.
+Für die minimale Photonenenergie bedeutet das:
+
+$$E_\mathrm{Ph,min}=\frac{hc}{\lambda_\mathrm{max}}=W_\mathrm A \, .$$
+
+Für die maximale Wellenlänge des bestrahlenden Lichts folgt daraus
+
+$$\begin{aligned}
+\lambda_\mathrm{max} & =\frac{hc}{W_\mathrm A} \\
+& = \frac{4{,}136\cdot 10^{-15}~\mathrm{eVs}\cdot 3\cdot 10^8~\frac{\mathrm m}{\mathrm s}}{4{,}34~\mathrm{eV}}\\
+& =286~\mathrm{nm} \, .
+\end{aligned}$$
+
+********************************************************************************
+#### Energiebilanz des Photoeffekts
+In einer Photozelle werden die durch den äußeren Photoeffekt emittierten
+Elektronen im Vakuum durch ein angelegtes elektrisches Gegenfeld abgebremst. In
+einer solchen Zelle befinde sich eine Kaliumschicht
+($W_\mathrm A=2{,}28~\mathrm{eV}$), die mit dem blauen Licht einer
+Quecksilberdampflampe ($\lambda=436~\mathrm{nm}$) bestrahlt wird.
+
+1. Welche kinetische Energie besitzen die dabei aus der Kaliumschicht
+   emittierten Elektronen?
+
+2. Mit welcher Spannung muss das elektrische Gegenfeld mindestens betrieben
+   werden, damit die Elektronen vollständig abgebremst werden?
+
+-----
+
+* Antwort Teilaufgabe 1
+[[ ($E_\mathrm{kin} = 0{,}54~\mathrm{eV}$) | $E_\mathrm{kin} = 1{,}08~\mathrm{eV}$ | $E_\mathrm{kin} = 1{,}38~\mathrm{eV}$ | $E_\mathrm{kin} = 2{,}13~\mathrm{eV}$]]
+********************************************************************************
+
+Die Energiebilanz des äußeren Photoeffekts lautet (unter der Voraussetzung, dass
+die Photonenenergie die Austrittsarbeit übersteigt):
+
+$$\frac{hc}{\lambda} = E_\mathrm{Ph} = W_\mathrm A + E_\mathrm{kin} \, .$$
+
+Umstellen dieser Gleichung nach der kinetischen Energie und Einsetzen der
+Zahlenwerte ergibt
+
+$$\begin{aligned}
+E_\mathrm{kin} & = \frac{hc}{\lambda}-W_\mathrm A \\
+& = \frac{4{,}136\cdot 10^{-15}~\mathrm{eVs}\cdot 2{,}99\cdot 10^8~\frac{\mathrm m}{\mathrm s}}{439\cdot 10^{-9}~\mathrm m} - 2{,}28~\mathrm{eV}\\
+&= 0{,}54~\mathrm{eV} \, .
+\end{aligned}$$
+********************************************************************************
+
+* Antwort Teilaufgabe 2
+[[ $U_\mathrm{gegen} = 0{,}27~\mathrm V$ | ($U_\mathrm{gegen} = 0{,}54~\mathrm V$) | $U_\mathrm{gegen} = 0{,}81~\mathrm V$ | $U_\mathrm{gegen} = 1{,}08~\mathrm V$ ]]
+********************************************************************************
+
+Um die emittierten Elektronen gerade abzubremsen, müssen sie ihre kinetische
+Energie als Arbeit gegen das elektrische Feld aufbringen. Für die Arbeit im
+elektrischen Feld gilt $W_\mathrm{el} =QU$.
+
+$$E_\mathrm{kin}=W_\mathrm{el}=eU_\mathrm{gegen}$$
+
+Damit ergibt sich für die Gegenspannung
+
+$$U_\mathrm{gegen}=\frac{E_\mathrm{kin}}{e} = \frac{0{,}54~\mathrm{eV}}{e} = 0{,}54~\mathrm{V} \, .$$
+********************************************************************************
+
+#### Balmerserie des Wasserstoffs
+Die Balmer-Serie enthält die von Wasserstoffatomen emittierte elektromagnetische
+Strahlung, die auf Übergänge eines Elektrons von einem höheren Energieniveau in
+das Niveau $E_2$ hervorgerufen wird. Berechnen Sie die größte und zweitgrößte
+sowie die kleinstmögliche Wellenlänge dieser Serie.
+
+-----
+*  Größte Wellenlänge der Balmerserie
+[[ $\lambda = 1875~\mathrm{nm}$ | $\lambda = 1281~\mathrm{nm}$ | $\lambda = 820~\mathrm{nm}$ | ($\lambda = 656~\mathrm{nm}$) | $\lambda = 486~\mathrm{nm}$ | $\lambda = 434~\mathrm{nm}$ | $\lambda = 389~\mathrm{nm}$ | $\lambda = 365~\mathrm{nm}$ | $\lambda = 122~\mathrm{nm}$ | $\lambda = 97~\mathrm{nm}$ ]]
+********************************************************************************
+
+Für die Energieniveaus $E_n$ im Wasserstoffatom gilt:
+
+$$E_n = -hR_\mathrm H\cdot\frac {1}{n^2} \, .$$
+
+Die Balmerserie enthält die Übergänge $E_n \rightarrow E_2$ für $n>2$. Die
+Energie des abgestrahlten Photons entspricht der Energiedifferenz der
+beteiligten Niveaus. Für die Balmerserie bedeutet das:
+
+$$\begin{aligned}
+E_\mathrm{Ph} & = E_n - E_2\\
+& = -\frac{hR_\mathrm H}{n^2} + \frac{hR_\mathrm H}{2^2} \\
+& = hR_\mathrm H\left(\frac 14-\frac{1}{n^2}\right) \\
+& = hR_\mathrm H\cdot \frac{n^2-4}{4n^2} \, .
+\end{aligned}$$
+
+Weiterhin gilt der Zusammenhang zwischen Photonenenergie und Wellenlänge:
+
+$$E_\mathrm{Ph} = \frac{hc}{\lambda} \quad \longrightarrow \quad \lambda = \frac{hc}{E_\mathrm{Ph}} \, .$$
+
+Durch Einsetzen der obigen Photonenenergie erhält man die allgemeine Gleichung
+für die Wellenlängen der Balmerserie:
+
+$$\lambda_{n\rightarrow 2} = \frac{hc}{hR_\mathrm H}\cdot\frac{4n^2}{n^2-4} = \frac{4cn^2}{R_\mathrm H\left(n^2-4\right)} \,.$$
+
+Die größte Wellenlänge dieser Serie entspricht dem Übergang mit der kleinsten
+Energiedifferenz, also $n=3$:
+
+$$\lambda_{3\rightarrow 2} = \frac{4c3^2}{R_\mathrm H\left(3^2-4\right)} = 656~\mathrm{nm} \, .$$
+
+********************************************************************************
+
+*  Zweitgrößte Wellenlänge der Balmerserie
+[[ $\lambda = 1875~\mathrm{nm}$ | $\lambda = 1281~\mathrm{nm}$ | $\lambda = 820~\mathrm{nm}$ | $\lambda = 656~\mathrm{nm}$ | ($\lambda = 486~\mathrm{nm}$) | $\lambda = 434~\mathrm{nm}$ | $\lambda = 389~\mathrm{nm}$ | $\lambda = 365~\mathrm{nm}$ | $\lambda = 122~\mathrm{nm}$ | $\lambda = 97~\mathrm{nm}$ ]]
+********************************************************************************
+
+Die nächstkürzere Wellenlänge entspricht $n=4$:
+
+$$\lambda_{4\rightarrow 2} = \frac{4c4^2}{R_\mathrm H\left(4^2-4\right)} = 486~\mathrm{nm} \, .$$
+********************************************************************************
+
+*  Kleinstmögliche Wellenlänge der Balmerserie
+[[ $\lambda = 1875~\mathrm{nm}$ | $\lambda = 1281~\mathrm{nm}$ | $\lambda = 820~\mathrm{nm}$ | $\lambda = 656~\mathrm{nm}$ | $\lambda = 486~\mathrm{nm}$ | $\lambda = 434~\mathrm{nm}$ | $\lambda = 389~\mathrm{nm}$ | ($\lambda = 365~\mathrm{nm}$) | $\lambda = 122~\mathrm{nm}$ | $\lambda = 97~\mathrm{nm}$ ]]
+********************************************************************************
+
+Die kürzeste Wellenlänge entspricht dem Übergang $E_\infty = 0 \rightarrow E_2$
+mit $E_\mathrm{Ph} = \left|E_2\right|$:
+
+$$\lambda_{\infty\rightarrow 2} = \frac{hc}{\left|E_2\right|} = \frac{4c}{R_\mathrm H} = 365~\mathrm{nm} \, .$$
+********************************************************************************
