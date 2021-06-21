@@ -115,7 +115,7 @@ Welche Aussagen über die Bewegung der Kugeln sind richtig?
 [[ ]] Die horizontale Bewegung der abgeworfenen Kugel wird immer langsamer. So entsteht die charakteristische Parabelform der Flugbahn.
 ***********************************************************************
 
-                                {{1}}
+                              {{1}}
 *  Beide Kugeln erreichen gleichzeitig den Boden, da in vertikale Richtung
    dieselbe Bewegung ausgeführt wird.
    *  **Richtig**: Für Bewegungen gilt das Prinzip der ungestörten Überlagerung
@@ -179,6 +179,36 @@ Schlussfolgerungen aus dieser Formel sind richtig?
 ## Arbeit und Erhaltungssätze
 ### Verständnisfragen
 
+#### Reibung I
+Ein PKW bremst auf trockener, horizontaler Farbahn von seiner
+Anfangsgeschwindigkeit bis zum Stillstand ab. Dabei legt er den Bremsweg $s_0$
+zurück. Treffen Sie Aussagen zum Bremsweg für die folgenden Situationen.
+
+Hinweis: Es wird nur der in der jeweiligen Teilaufgabe genannte Parameter
+geändert. Alle anderen Größen entsprechen der oben beschriebenen Situation.
+Insbesondere ist die vom Bremssystemauf die Räder ausgeübte Kraft in allen
+Fällen identisch.
+
+1. Der PKW sei mit der doppelten Anfangsgeschwindigkeit unterwegs.
+   [[ (Der Bremsweg beträgt $4\cdot s_0$.) | Der Bremsweg beträgt $2\cdot s_0$. | Der Bremsweg beträgt $1\cdot s_0$. | Der Bremsweg beträgt $0{,}5\cdot s_0$. | Der Bremsweg beträgt $0{,}25\cdot s_0$. ]]
+
+2. Die Masse des PKW werde verdoppelt.
+   [[ Der Bremsweg beträgt $4\cdot s_0$. | (Der Bremsweg beträgt $2\cdot s_0$.) | Der Bremsweg beträgt $1\cdot s_0$. | Der Bremsweg beträgt $0{,}5\cdot s_0$. | Der Bremsweg beträgt $0{,}25\cdot s_0$. ]]
+
+3. Der PKW sei auf nasser Straße unterwegs, sodass die Reibung zwischen Rad und
+   Straße verringert ist. Es kommt *nicht* zum Blockieren der Räder.
+   [[ Der Bremsweg wird größer. | (Der Bremsweg bleibt gleich.) | Der Bremsweg wird kleiner. ]]
+
+4. Der PKW sei auf nasser Straße unterwegs, sodass die Reibung zwischen Rad und
+   Straße verringert ist. Dabei blockieren die Räder und der PKW rutscht.
+   [[ (Der Bremsweg wird größer.) | Der Bremsweg bleibt gleich. | Der Bremsweg wird kleiner. ]]
+
+5. Der Bremsvorgang geschehe auf einer Gefällestrecke.
+   [[ (Der Bremsweg wird größer.) | Der Bremsweg bleibt gleich. | Der Bremsweg wird kleiner. ]]
+
+6. Während des Bremsvorgangs herrscht starker Gegenwind.
+   [[ Der Bremsweg wird größer. | Der Bremsweg bleibt gleich. | (Der Bremsweg wird kleiner.) ]]
+
 #### Erhaltungssätze I
 
 Im Folgenden sind einige physikalische Vorgänge aus dem Bereich der Mechanik
@@ -195,6 +225,78 @@ allen Bewegungsvorgängen vernachlässigbar.
 [ [ ] [X] ] Zwei Eishockeyspieler prallen zusammen und klammern sich aneinander fest. (System: beide Spieler)
 [ [X] [X] ] Ein perfekter Gummiball wird gegen eine Wand geworfen und prallt von dieser ab. (System: Gummiball und Wand)
 [ [X] [ ] ] Ein Apfel fällt vom Baum senkrecht nach unten. (System: Apfel und Apfelbaum)
+
+### Rechenaufgaben
+
+#### Achterbahn
+Der Wagen einer Achterbahn (Masse $m=5~\mathrm{t}$) wird aus dem Stand heraus
+auf horizontaler Strecke beschleunigt. Anschließend rollt der Wagen (ohne
+weiteren Antrieb) einen Hügel hinauf zum höchsten Punkt der Bahn, der sich
+$h=32~\mathrm{m}$ über der Beschleunigungsstrecke befindet. Auf diesem höchsten
+Punkt besitzt der Wagen noch eine Geschwindigkeit
+$v_\mathrm{o}=5~\frac{\mathrm m}{\mathrm s}$. Welche Beschleunigungsarbeit hat
+das Antriebssystem am Wagen verrichtet?
+
+[[ ($W_\mathrm{Beschl} = 1632~\mathrm{kJ}$) | $W_\mathrm{Beschl} = 3114~\mathrm{kJ}$ | $W_\mathrm{Beschl} = 18992~\mathrm{J}$ ]]
+
+#### Modelleisenbahn-Dynamik I
+Auf einer Modellbahnanlage fährt eine Lokomotive mit einer konstanten
+Geschwindigkeit $v=15~\frac{\mathrm{mm}}{\mathrm s}$. Dabei stößt sie gegen
+einen ruhenden Waggon der Masse $m_\mathrm{W}=75~\mathrm g$. Dieser Stoßvorgang
+erstreckt sich über eine Zeitdauer $t_\mathrm s = 0,08~\mathrm s$. Dabei rastet
+die Kupplung zwischen Lok und Waggon ein, sodass sich beide gemeinsam
+weiterbewegen. Die Lokomotive behält bei dem gesamten Vorgang ihre
+Geschwindigkeit bei.
+
+1. Welche Arbeit $W$ muss der Motor der Lokomotive beim Ankuppeln des Waggons
+   verrichten, um die ursprüngliche Geschwindigkeit beizubehalten?
+
+   [[ $W=6{,}26~\mathrm J$ | $W=7{,}63~\mathrm J$ | ($W=8{,}44~\mathrm J$) | $W=9{,}21~\mathrm J$]]
+
+2. Welche mittlere Kraft $F$ wirkt während des Stoßvorgangs auf den Waggon?
+
+   [[ $F = 8~\mathrm{mN}$ | $F = 10~\mathrm{mN}$ | $F = 12~\mathrm{mN}$ | ($F = 14~\mathrm{mN}$) ]]
+
+#### Reibung II
+Auf einer horizontalen Luftkissenbahn bewegt sich ein Gleiter (Masse
+$m=200~\mathrm g$) zunächst reibungsfrei mit einer Geschwindigkeit von
+$v_0 = 0{,}2~\frac{\mathrm m}{\mathrm s}$. Als die Luftzufuhr abgestellt wird,
+kommt der Gleiter schlagartig mit der Bahn in Kontakt und wird reibungsbedingt
+innerhalb einer Strecke von $s=2~\mathrm{cm}$ zum Stillstand gebracht.
+
+1. Gesucht ist der Gleitreibungskoeffizient $\mu_\mathrm G$ zwischen Bahn und
+   Gleiter.
+
+   [[ ($\mu_\mathrm G = 0{,}102$) | $\mu_\mathrm G = 0{,}153$ | $\mu_\mathrm G = 0{,}204$ $\mu_\mathrm G = 0{,}255$ | $\mu_\mathrm G = 0{,}306$ ]]
+
+2. Wie ändert sich der Bremsweg, wenn der Gleitreibungskoeffizient
+   $\mu_\mathrm G$ verdoppelt wird?
+
+   [[ Der Bremsweg vervierfacht sich. | Der Bremsweg verdoppelt sich. | Der Bremsweg bleibt gleich. | (Der Bremsweg beträgt die Hälfte des ursprünglichen Werts.) | Der Bremsweg beträgt ein Viertel des ursprünglichen Werts.  ]]
+
+3. Wie ändert sich der Bremsweg, wenn die Geschwindigkeit $v_0$ des Gleiters
+   verdoppelt wird?
+
+    [[ (Der Bremsweg vervierfacht sich.) | Der Bremsweg verdoppelt sich. | Der Bremsweg bleibt gleich. | Der Bremsweg beträgt die Hälfte des ursprünglichen Werts. | Der Bremsweg beträgt ein Viertel des ursprünglichen Werts.  ]]
+
+4. Wie verändert sich der Bremsweg, wenn die Masse $m$ des Gleiters verdoppelt
+   wird?
+
+   [[ (Der Bremsweg vervierfacht sich.) | Der Bremsweg verdoppelt sich. | Der Bremsweg bleibt gleich. | Der Bremsweg beträgt die Hälfte des ursprünglichen Werts. | Der Bremsweg beträgt ein Viertel des ursprünglichen Werts.  ]]
+
+#### Modelleisenbahn-Dynamik II
+Auf einer Modellbahnanlage rollt ein Waggon der Masse $m_1=65~\mathrm g$ auf
+horizontaler Strecke mit der Anfangsgeschwindigkeit
+$v_1 = 0{,}3~\frac{\mathrm m}{\mathrm s}$ gegen einen ruhenden Waggon der Masse
+$m_2 = 90~\mathrm g$. Die Kupplung zwischen beiden Waggons rastet dabei ein
+und sie rollen gemeinsam weiter.
+
+1. Gesucht ist die Geschwindigkeit $v_\mathrm n$ der beiden Wagen nach dem Zusammenstoß.
+   [[ ($v_\mathrm n = 0{,}126~\frac{\mathrm m}{\mathrm s}$) | $v_\mathrm n = 0{,}238~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm n = 0{,}300~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm n = 0{,}534~\frac{\mathrm m}{\mathrm s}$ ]]
+
+2. Berechnen Sie den Energiebetrag $E_\mathrm{diss}$, der bei diesem Vorgang
+   durch dissipative Vorgänge verloren geht.
+   [[ $E_\mathrm{diss} = 0{,}8~\mathrm{mJ}$ | ($E_\mathrm{diss} = 1{,}7~\mathrm{mJ}$) | $E_\mathrm{diss} = 2{,}6~\mathrm{mJ}$ | $E_\mathrm{diss} = 3{,}5~\mathrm{mJ}$]]
 
 ## Rotation und Schwingungen
 ### Verständnisfragen
@@ -303,6 +405,51 @@ Betrachten Sie die folgenden Prozesse und bewerten Sie,
 [ [ ] [X] [ ] ] Wärme $Q$
 [ [ ] [ ] [X] ] Innere Energie $\Delta U$
 
+### Rechenaufgaben
+
+#### Kühlschrank
+Gegeben ist ein Kühlschrank, der ein Luftvolumen von
+$V_\mathrm L = 0,8~\mathrm m^3$ enthält. Anfangs sei dieser Kühlschrank
+ausgeschaltet und habe die Temperatur $\vartheta_1 = 23~^\circ\mathrm{C}$. Dabei
+betrage der Luftdruck im Kühlschrank $p_1 = 101,325~\mathrm{kPa}$. Anschließend
+wird der Kühlschrank bei verschlossener Tür in Betrieb genommen und kühlt den
+Innenraum auf eine Temperatur von $\vartheta_2 = 4~^\circ\mathrm C$ ab.
+
+Welcher Druck $p_2$ herrscht im Kühlschrank am Ende des Abkühlvorgangs, wenn
+kein Ausgleich mit der Umgebung stattfindet?
+
+[[ $p_2 = 91{,}2~\mathrm{kPa}$ | $p_2 = 92{,}4~\mathrm{kPa}$ | $p_2 = 93{,}6~\mathrm{kPa}$ | ($p_2 = 94{,}8~\mathrm{kPa}$) | $p_2 = 96{,}0~\mathrm{kPa}$ ]]
+
+#### Kerzenheizung
+Eine Kerzenflamme gibt bei der Verbrennung innerhalb einer Stunde eine Wärme von
+$Q = 250~\mathrm{kJ}$ an die Umgebung ab.
+
+Diese Kerze befinde sich in einem geschlossenen Raum, der ein Luftvolumen von
+$V_\mathrm{L}=30~\mathrm{m}^3$ enthält. Die anfängliche Lufttemperatur betrage
+$\vartheta_1=20~^{\circ}\mathrm{C}$. Um welchen Temperaturbetrag $\Delta T$
+erwärmt die Kerze die Luft innerhalb einer Stunde? (Die Wärmeabgabe an die Wände
+oder Gegenstände im Raum sei vernachlässigbar.)
+
+Die Dichte der Luft beträgt $\rho_\mathrm{L}=1{,}204~\frac{\mathrm{kg}}{\mathrm{m}^3}$.
+Ihre Wärmekapazität ist $c_\mathrm{L}=1{,}005~\frac{\mathrm{kJ}}{\mathrm{kg \cdot K}}$.
+
+[[ ($\Delta T = 6{,}89~\mathrm K$) | $\Delta T = 8{,}96~\mathrm K$ | $\Delta T = 9{,}68~\mathrm K$ ]]
+
+#### Adiabatische Kompression
+In einem Zylinder, der durch einen (beweglichen) Kolben dicht verschlossen ist,
+befindet sich eine gewisse Menge Luft mit der Masse
+$m_\mathrm L = 0{,}5~\mathrm g$, deren Temperatur anfangs
+$\vartheta_1 = 23~^\circ\mathrm C$ beträgt. Der Kolben werde schlagartig in den
+Zylinder gepresst, wobei sich die eingeschlossene Luft auf
+$\vartheta_2 = 78~^\circ\mathrm C$ erwärmt. Ein Wärmeaustausch mit der Umgebung
+finde dabei nicht statt. Die spezifische Wärmekapazität der Luft beträgt
+$c_\mathrm L = 1{,}005~\frac{\mathrm{kJ}}{\mathrm{kg\cdot K}}$.
+
+Welche Arbeit $W$ wurde beim Hineinpressen des Kolbens in den Zylinder
+verrichtet?
+
+[[ ($W = 27{,}64~\mathrm J$) | $W = 42{,}76~\mathrm J$ | $W = 64{,}27~\mathrm J$ | $W = 76{,}42~\mathrm J$ ]]
+
 ## Elektrizitätslehre
 ### Verständnisfragen
 
@@ -360,6 +507,49 @@ Versorgungsspannung soll nicht geändert werden.
    Leistung:
    [[ $P_3 = 1~\mathrm W$ | $P_3 = 2~\mathrm W$ | $P_3 = 3~\mathrm W$ | $P_3 = 6~\mathrm W$ | $P_3 = 12~\mathrm W$ | $P_3 = 24~\mathrm W$ | ($P_3 = 48~\mathrm W$)]]
 
+### Rechenaufgaben
+
+#### Lichterbogen
+Ein Lichterbogen für die Weihnachtsbeleuchtung besitzt 7 Glühlampen und ist für
+den Anschluss an $230~\mathrm V$ (Haushaltsteckdose) vorgesehen. Die Glühlampen
+tragen jeweils die Bezeichnung „34 V / 3 W“.
+
+![Erzgebirgischer Lichterbogen](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Schwibbogen._Volkskunst._Erzgebirge._IMG_4455WI.jpg/640px-Schwibbogen._Volkskunst._Erzgebirge._IMG_4455WI.jpg "[Quelle:[Kora27](https://commons.wikimedia.org/wiki/User:Kora27), [Schwibbogen. Volkskunst. Erzgebirge. IMG 4455WI](https://commons.wikimedia.org/wiki/File:Schwibbogen._Volkskunst._Erzgebirge._IMG_4455WI.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)]")
+
+1. Wie müssen diese Lampen innerhalb des Lichterbogens angeschlossen sein, um
+   bei einem Betrieb mit 230 V nicht beschädigt zu werden?
+   [[ (Reihenschaltung) | Parallelschaltung ]]
+
+2. Berechnen Sie den elektrischen Widerstand $R_\mathrm L$ eines Lämpchens.
+   [[ $R_\mathrm L = 360~\Omega$ | $R_\mathrm L = 365~\Omega$ | $R_\mathrm L = 370~\Omega$ | $R_\mathrm L = 375~\Omega$ | $R_\mathrm L = 380~\Omega$ | ($R_\mathrm L = 385~\Omega$) ]]
+
+3. Berechnen Sieden Gesamtwiderstand $R_\mathrm{ges}$ aller 7 Lämpchen (in der
+   korrekten Schaltung).
+
+   [[ $R_\mathrm{ges} = 55~\Omega$ | $R_\mathrm{ges} = 385~\Omega$ | $R_\mathrm{ges} = 770~\Omega$ | ($R_\mathrm{ges} = 2695~\Omega$) ]]
+
+4. Berechnen Sie die Gesamtleistung $P_\mathrm{ges}$ des Lichterbogens (mit der
+   korrekten Schaltung der Glühlampen).
+   [[ $P_\mathrm{ges} = 18{,}2~\mathrm W$ | ($P_\mathrm{ges} = 19{,}6~\mathrm W$) | $P_\mathrm{ges} = 21{,}0~\mathrm W$ | $P_\mathrm{ges} = 22{,}4~\mathrm W$ ]]
+
+#### Modelleisenbahn – Motor
+Auf einer Modellbahnanlage bewegt sich ein Zug, der aus einer Lokomotive (Masse
+$m_\mathrm L = 180~\mathrm g$) und fünf identischen Wagen (Masse jeweils
+$m_\mathrm W = 62~\mathrm g$) besteht. Anfangs habe der Zug eine Geschwindigkeit
+von $v_1 = 5~\frac{\mathrm{cm}}{\mathrm s}$ und beschleunigt dann innerhalb von
+$t_\mathrm b = 4~\mathrm s$ auf $v_2 = 15~\mathrm{\frac{cm}{s}}$. Während des
+Beschleunigungsvorgangs fließt ein Strom von $I=130~\mathrm{\mu A}$ zum
+Elektromotor der Lok. Die Versorgungsspannung beträgt $U=12~\mathrm V$.
+Reibungseffekte seien vernachlässigbar.
+
+1. Welche mechanische Arbeit $W_\mathrm B$ verrichtet der Motor der Lok während
+   der Beschleunigung?
+   [[ ($W_\mathrm B = 4{,}9~\mathrm{mJ}$) | $W_\mathrm B = 5{,}8~\mathrm{mJ}$ | $W_\mathrm B = 6{,}7~\mathrm{mJ}$ | $W_\mathrm B = 7{,}6~\mathrm{mJ}$ | $W_\mathrm B = 8{,}5~\mathrm{mJ}$]]
+
+2. Welchen Wirkungsgrad $\eta$ weist der Motor der Lok bei diesem
+   Beschleunigungsvorgang auf?
+   [[ $\eta = 0{,}13$ | $\eta = 0{,}36$ | $\eta = 0{,}51$ | ($\eta = 0{,}78$) | $\eta = 0{,}94$ ]]
+
 ## Optik
 ### Verständnisfragen
 
@@ -374,6 +564,17 @@ folgenden Aussagen sind richtig?
 [[X]] Zwei Teilwellen löschen sich gegenseitig aus, wenn ihr Gangunterschied ein ungeradzahliges Vielfaches der halben Wellenlänge ist: $\Delta s = \frac{2m+1}{2}\lambda$.
 [[ ]] Eine Verbreiterung des Spalts bewirkt, dass die Abstände zwischen benachbarten Maxima größer werden.
 [[ ]] Wird der ursprüngliche rote Laser gegen einen grünen ausgetauscht, so ändern sich die Positionen der Maxima und Minima nicht.
+
+### Rechenaufgaben
+
+#### Kamera
+Mit einer Fotokamera soll eine Aufnahme von einem $G= 42~\mathrm m$ hohen Turm
+gemacht werden. Das Objektiv der Kamera (das als dünne Linse behandelt wird) hat
+eine Brennweite von $f=85~\mathrm{mm}$. Der Bildsensor der Kamera hat eine Höhe
+von $B=36~\mathrm{mm}$. In welcher Entfernung $g$ vom Turm muss sich die Kamera
+mindestens befinden, damit dieser vollständig auf dem Bild erscheint?
+
+[[ $g = 32{,}73~\mathrm m$ | $g = 59{,}51~\mathrm m$ | ($g = 99{,}25~\mathrm m$) | $g = 141{,}83~\mathrm m$ | $g = 182{,}26~\mathrm m$]]
 
 ## Moderne Physik
 ### Verständnisfragen
