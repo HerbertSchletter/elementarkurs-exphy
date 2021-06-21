@@ -302,3 +302,101 @@ Betrachten Sie die folgenden Prozesse und bewerten Sie,
 [ [ ] [ ] [X] ] Arbeit $W$
 [ [ ] [X] [ ] ] Wärme $Q$
 [ [ ] [ ] [X] ] Innere Energie $\Delta U$
+
+## Elektrizitätslehre
+### Verständnisfragen
+
+#### Glühlampen
+Gegeben sind zwei Glühlampen mit den Angaben
+
+*  6 V / 5 W (Lampe 1) und
+*  6 V / 2 W (Lampe 2).
+
+Diese beiden Lampen werden einmal parallel und einmal in Reihe an eine
+Spannungsquelle mit $U_0 = 6~\mathrm V$ angeschlossen. Entscheiden Sie für die
+angegebenen Konstellationen, ob diese in Parallelschaltung, in Reihenschaltung
+oder in keinem der beiden Fälle eintritt.
+
+[[Reihenschaltung] [Parallelschaltung] [Diese Konstellation tritt nicht auf.]]
+[( ) ( ) (X)] Keine der Lampen leuchtet.
+[( ) ( ) (X)] Nur Lampe 1 leuchtet (möglicherweise mit reduzierter Helligkeit).
+[(X) ( ) ( )] Nur Lampe 2 leuchtet (möglicherweise mit reduzierter Helligkeit).
+[( ) ( ) (X)] Beide Lampen leuchten, jedoch mit reduzierter Helligkeit.
+[( ) (X) ( )] Beide Lampen leuchten mit ihrer normalen Helligkeit.
+
+#### Sitzheizung
+Eine Heizmatte, die für den Anschluss an $U=12~\mathrm V$ vorgesehen ist,
+besitzt zwei unabhängige Heizwicklungen, die jeweils einen Widerstand von
+$R=6~\Omega$ besitzen. Durch unterschiedliche Beschaltung dieser Heizwicklungen
+lassen sich drei verschiedene Leistungsstufen der Heizmatte erreichen.
+
+Wählen Sie die Beschaltungen für diese drei Leistungsstufen aus und
+berechnen Sie die jeweilige Leistung.
+
+Heinweis: Betrachten Sie die Heizwicklungen als ohmsche Widerstände. Die
+Versorgungsspannung soll nicht geändert werden.
+
+*  **Heizstufe 1 – geringste Leistung**
+
+   Beschaltung:
+   [[ (Reihenschaltung) | Parallelschaltung | eine Heizwicklung einzeln ]]
+
+   Leistung:
+   [[ $P_1 = 1~\mathrm W$ | $P_1 = 2~\mathrm W$ | $P_1 = 3~\mathrm W$ | $P_1 = 6~\mathrm W$ | ($P_1 = 12~\mathrm W$) | $P_1 = 24~\mathrm W$ | $P_1 = 48~\mathrm W$]]
+
+*  **Heizstufe 2 – mittlere Leistung**
+
+   Beschaltung:
+   [[ Reihenschaltung | Parallelschaltung | (eine Heizwicklung einzeln) ]]
+
+   Leistung:
+   [[ $P_2 = 1~\mathrm W$ | $P_2 = 2~\mathrm W$ | $P_2 = 3~\mathrm W$ | $P_2 = 6~\mathrm W$ | $P_2 = 12~\mathrm W$ | ($P_2 = 24~\mathrm W$) | $P_2 = 48~\mathrm W$]]
+
+*  **Heizstufe 3 – größte Leistung**
+
+   Beschaltung:
+   [[ Reihenschaltung | (Parallelschaltung) | eine Heizwicklung einzeln ]]
+
+   Leistung:
+   [[ $P_3 = 1~\mathrm W$ | $P_3 = 2~\mathrm W$ | $P_3 = 3~\mathrm W$ | $P_3 = 6~\mathrm W$ | $P_3 = 12~\mathrm W$ | $P_3 = 24~\mathrm W$ | ($P_3 = 48~\mathrm W$)]]
+
+## Optik
+### Verständnisfragen
+
+#### Einzelspalt
+Ein roter Laserstrahl trifft auf eine schmale Spaltblende. Auf einem Schirm
+hinter dieser Blende ist ein Interferenzmuster zu beobachten. Welche der
+folgenden Aussagen sind richtig?
+
+[[X]] Die größte Intensität ist im nullten Maximum zu beobachten, das sich geradlinig (in Strahlrichtung) hinter dem Spalt befindet.
+[[ ]] Die Maxima höherer Ordnung weisen alle identische Intensitäten auf, da stets der gleiche Anteil an Teilwellen beiträgt.
+[[X]] Minima entstehen an Positionen, an denen sich alle ankommenden Teilwellen gegenseitig auslöschen.
+[[X]] Zwei Teilwellen löschen sich gegenseitig aus, wenn ihr Gangunterschied ein ungeradzahliges Vielfaches der halben Wellenlänge ist: $\Delta s = \frac{2m+1}{2}\lambda$.
+[[ ]] Eine Verbreiterung des Spalts bewirkt, dass die Abstände zwischen benachbarten Maxima größer werden.
+[[ ]] Wird der ursprüngliche rote Laser gegen einen grünen ausgetauscht, so ändern sich die Positionen der Maxima und Minima nicht.
+
+## Moderne Physik
+### Verständnisfragen
+
+#### Äußerer Photoeffekt
+Beim äußeren Photoeffekt trifft Licht auf eine Metallplatte und löst Elektronen
+aus dieser Platte heraus. Welche der folgenden Aussagen zu diesem Effekt sind
+richtig?
+
+[[X]] Um Elektronen aus der Metallplatte freizusetzen, muss deren Austrittsarbeit überwunden werden.
+[[X]] Es werden nur Elektronen aus den höchsten besetzten Energieniveaus freigesetzt.
+[[ ]] Der Effekt tritt nur auf, wenn die Platte mit einer sehr hohen Lichtintensiät bestrahlt wird.
+[[X]] Der Effekt tritt nur bei hinreichend kleinen Wellenlängen des bestrahlenden Lichts auf.
+[[X]] Ein Elektron nimmt stets nur die Energie eines Photons auf. Reicht dessen Energie nicht zur Freisetzung, so bleibt das Elektron in der Platte gebunden.
+[[X]] Wird ein Elektron aus der Platte freigesetzt, so besitzt es eine kinetische Energie, die der Differenz zwischen der Energie des eintreffenden Photons und der Bindungsenergie die Elektrons entspricht.
+
+#### Photon
+Im Rahmen der Quantenoptik werden Lichtteilchen als Photonen bezeichnet. Welche
+der folgenden Aussagen sind korrekt?
+
+[[X]] Die Energie eines Photons wird durch dessen Frequenz bzw. Wellenlänge bestimmt.
+[[ ]] Ein Photon kann beliebige Anteile seiner Energie abgeben.
+[[ ]] Das (einzelne) Photon besitzt nur Teilcheneigenschaften. Die Welleneigenschaften des Lichts entstehen erst durch Überlagerung vieler Photonen.
+[[X]] Das Photon besitzt einen Impuls, der experimentell nachgewiesen werden kann.
+[[X]] Die Lichtintensität, die auf einem Sensor registriert wird, entspricht der Anzahl der Photonen, die pro Zeiteinheit auf diesen Sensor auftreffen.
+[[ ]] Photonen sind ein reines Gedankenmodell, das experimentell nicht zugänglich ist, da keine Detektion einzelner Photonen möglich ist.
