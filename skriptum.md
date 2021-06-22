@@ -23,14 +23,16 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 **Dr. Herbert Schletter**
 
-Wintersemester 2021/2022
+Technische Universität Chemnitz
 
-Hinweis zum Urheberrecht
-========================
+*Wintersemester 2021/2022*
+
+![Titelbild: Newtonsches Pendel](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg/800px-M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg "[Quelle: Frank Vincentz, [Mülheim adR - Am Schloss Broich - MüGa-Park - Darlington-Park 09 ies](https://commons.wikimedia.org/wiki/File:Mülheim_adR_-_Am_Schloss_Broich_-_MüGa-Park_-_Darlington-Park_09_ies.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+
+## Hinweis zum Urheberrecht
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 Dieses Skriptum steht unter einer  [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/).
-
-[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 Ausgenommen hiervon sind Inhalte (insbesondere Abbildungen), die aus externen
 Quellen übernommen wurden und dort unter einer anderslautenden Lizenz

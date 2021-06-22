@@ -17,8 +17,23 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 -->
 
-# Übungsaufgaben
+# Übungsaufgaben zum Elementarkurs Experimentalphysik
 
+**Dr. Herbert Schletter**
+
+Technische Universität Chemnitz
+
+![Titelbild: verschiedene physikalische Formeln](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Physics_2.jpg/338px-Physics_2.jpg "[Quelle: [Eddine_saad](https://commons.wikimedia.org/wiki/User:Eddine_saad), [Physics 2](https://commons.wikimedia.org/wiki/File:Physics_2.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+
+## Hinweis zum Urheberrecht
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+
+Diese Aufgabensammlung steht unter einer  [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/).
+
+Ausgenommen hiervon sind Inhalte (insbesondere Abbildungen), die aus externen
+Quellen übernommen wurden und dort unter einer anderslautenden Lizenz
+veröffentlicht wurden. Derartige Inhalte sind im Skript stets mit einem eigenen
+Lizenzhinweis versehen, der Vorrang vor der hier genannten Lizenz besitzt.
 
 ## Kinematik und Dynamik
 
