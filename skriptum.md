@@ -3325,8 +3325,9 @@ die Frage auf, ob umgekehrt Objekte, die klassisch als Teilchen beschrieben
 werden, auch Wellencharakter besitzen.
 
 Wir betrachten hierfür Elektronen, die im Vakuum durch eine Spannung
-$U_B=(2 \dots 5)~\mathrm{kV}$ beschleunigt werden. Ihre Geschwindigkeit folgt
-aus dem Energieansatz (vgl. Kapitel [Energie des elektrischen Felds](#energie-des-elektrischen-felds-–-coulombenergie)):
+$U_\mathrm B=(2 \dots 5)~\mathrm{kV}$ beschleunigt werden. Ihre Geschwindigkeit
+folgt aus dem Energieansatz (vgl. Kapitel
+[Energie des elektrischen Felds](#energie-des-elektrischen-felds-–-coulombenergie)):
 
 $$v = \sqrt{\frac{2eU_\mathrm B}{m_\mathrm e}} \, .$$ Damit ergibt sich für den Impuls: $$p_\mathrm e = mv = \sqrt{2m_\mathrm e e U_\mathrm B} \, .$$
 
@@ -3342,7 +3343,7 @@ in der Graphitschicht wirkt dabei als Beugungsgitter für die Elektronen, deren
 Wellenlänge mit den Atomabständen im Graphit vergleichbar ist.
 
 Somit kann den Elektronen auch eine Wellenlänge zugeordnet werden, die mit ihrem
-Impuls verknüpft ist (Luis<!-- style ="font-variant: small-caps;" --> De<!-- style ="font-variant: small-caps;" --> Broglie<!-- style ="font-variant: small-caps;" -->, 1923):
+Impuls verknüpft ist (Louis<!-- style ="font-variant: small-caps;" --> De<!-- style ="font-variant: small-caps;" --> Broglie<!-- style ="font-variant: small-caps;" -->, 1923):
 
 $$\lambda_\mathrm e = \frac{h}{p_\mathrm e} \, .$$
 

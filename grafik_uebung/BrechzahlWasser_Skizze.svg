@@ -7,23 +7,18 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="136.06123mm"
    height="167.50426mm"
    viewBox="0 0 136.06123 167.50426"
    version="1.1"
-   id="svg8"
-   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="BrechzahlWasser_Skizze.svg">
+   id="svg8">
   <defs
      id="defs2">
     <pattern
        patternUnits="userSpaceOnUse"
        width="256"
        height="256"
-       id="sand_bitmap"
-       inkscape:stockid="Sand (bitmap)">
+       id="sand_bitmap">
       <!-- Seamless texture provided by FreeSeamlessTextures.com -->
       <!-- License: creative commons attribution -->
       <image
@@ -47,9 +42,7 @@
        id="Arrow2Mend"
        refX="0"
        refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Mend"
-       inkscape:isstock="true">
+       orient="auto">
       <path
          transform="scale(-0.6)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -61,9 +54,7 @@
        id="marker3613"
        refX="0"
        refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lend"
-       inkscape:isstock="true">
+       orient="auto">
       <path
          transform="matrix(-0.8,0,0,-0.8,-10,0)"
          style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
@@ -75,9 +66,7 @@
        id="Arrow2Lend"
        refX="0"
        refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend"
-       inkscape:isstock="true">
+       orient="auto">
       <path
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -89,9 +78,7 @@
        id="Arrow1Lstart"
        refX="0"
        refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart"
-       inkscape:isstock="true">
+       orient="auto">
       <path
          transform="matrix(0.8,0,0,0.8,10,0)"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
@@ -103,10 +90,7 @@
        id="Arrow1Lend"
        refX="0"
        refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lend"
-       inkscape:isstock="true"
-       inkscape:collect="always">
+       orient="auto">
       <path
          transform="matrix(-0.8,0,0,-0.8,-10,0)"
          style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
@@ -114,13 +98,11 @@
          id="path3206" />
     </marker>
     <pattern
-       inkscape:collect="always"
        patternUnits="userSpaceOnUse"
        width="2"
        height="1"
        patternTransform="translate(0,0) scale(10,10)"
-       id="Strips1_1"
-       inkscape:stockid="Stripes 1:1">
+       id="Strips1_1">
       <rect
          style="fill:black;stroke:none"
          x="0"
@@ -152,36 +134,6 @@
        x="0"
        y="0" />
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="441.41732"
-     inkscape:cy="320.85771"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     inkscape:window-width="2400"
-     inkscape:window-height="1271"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
-     lock-margins="true"
-     fit-margin-top="1"
-     fit-margin-left="1"
-     fit-margin-right="1"
-     fit-margin-bottom="1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid3199"
-       originx="-1.6458332"
-       originy="-58.391582" />
-  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -195,8 +147,6 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Ebene 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-1.6458333,-58.391583)">
     <path
@@ -222,8 +172,7 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:0.550305px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
        d="m 79.375,119.0625 h 7.9375"
-       id="path1035"
-       sodipodi:nodetypes="cc" />
+       id="path1035" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.490263px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
        d="m 79.375,203.72917 h 7.9375"
@@ -242,7 +191,6 @@
        x="105.63097"
        y="210.0294"
        id="text1051"><tspan
-         sodipodi:role="line"
          x="105.63097"
          y="210.0294"
          id="tspan1049"
@@ -257,7 +205,6 @@
        x="67.308281"
        y="74.321426"
        id="text1095"><tspan
-         sodipodi:role="line"
          x="67.308281"
          y="74.321426"
          id="tspan1093"
@@ -272,7 +219,6 @@
        x="82.716812"
        y="74.321426"
        id="text1101"><tspan
-         sodipodi:role="line"
          x="82.716812"
          y="74.321426"
          id="tspan1099"
@@ -287,7 +233,6 @@
        x="84.452385"
        y="74.321426"
        id="text1107"><tspan
-         sodipodi:role="line"
          x="84.452385"
          y="74.321426"
          id="tspan1105"

@@ -241,7 +241,7 @@ allen Bewegungsvorgängen vernachlässigbar.
 [ [X] [X] ] Ein perfekter Gummiball wird gegen eine Wand geworfen und prallt von dieser ab. (System: Gummiball und Wand)
 [ [X] [ ] ] Ein Apfel fällt vom Baum senkrecht nach unten. (System: Apfel und Apfelbaum)
 
-### Rechenaufgaben
+### Übungsaufgaben
 
 #### Achterbahn
 Der Wagen einer Achterbahn (Masse $m=5~\mathrm{t}$) wird aus dem Stand heraus
@@ -253,24 +253,6 @@ $v_\mathrm{o}=5~\frac{\mathrm m}{\mathrm s}$. Welche Beschleunigungsarbeit hat
 das Antriebssystem am Wagen verrichtet?
 
 [[ ($W_\mathrm{Beschl} = 1632~\mathrm{kJ}$) | $W_\mathrm{Beschl} = 3114~\mathrm{kJ}$ | $W_\mathrm{Beschl} = 18992~\mathrm{J}$ ]]
-
-#### Modelleisenbahn-Dynamik I
-Auf einer Modellbahnanlage fährt eine Lokomotive mit einer konstanten
-Geschwindigkeit $v=15~\frac{\mathrm{mm}}{\mathrm s}$. Dabei stößt sie gegen
-einen ruhenden Waggon der Masse $m_\mathrm{W}=75~\mathrm g$. Dieser Stoßvorgang
-erstreckt sich über eine Zeitdauer $t_\mathrm s = 0,08~\mathrm s$. Dabei rastet
-die Kupplung zwischen Lok und Waggon ein, sodass sich beide gemeinsam
-weiterbewegen. Die Lokomotive behält bei dem gesamten Vorgang ihre
-Geschwindigkeit bei.
-
-1. Welche Arbeit $W$ muss der Motor der Lokomotive beim Ankuppeln des Waggons
-   verrichten, um die ursprüngliche Geschwindigkeit beizubehalten?
-
-   [[ $W=6{,}26~\mathrm J$ | $W=7{,}63~\mathrm J$ | ($W=8{,}44~\mathrm J$) | $W=9{,}21~\mathrm J$]]
-
-2. Welche mittlere Kraft $F$ wirkt während des Stoßvorgangs auf den Waggon?
-
-   [[ $F = 8~\mathrm{mN}$ | $F = 10~\mathrm{mN}$ | $F = 12~\mathrm{mN}$ | ($F = 14~\mathrm{mN}$) ]]
 
 #### Reibung II
 Auf einer horizontalen Luftkissenbahn bewegt sich ein Gleiter (Masse
@@ -299,7 +281,50 @@ innerhalb einer Strecke von $s=2~\mathrm{cm}$ zum Stillstand gebracht.
 
    [[ (Der Bremsweg vervierfacht sich.) | Der Bremsweg verdoppelt sich. | Der Bremsweg bleibt gleich. | Der Bremsweg beträgt die Hälfte des ursprünglichen Werts. | Der Bremsweg beträgt ein Viertel des ursprünglichen Werts.  ]]
 
-#### Modelleisenbahn-Dynamik II
+#### Alpe d’Huez
+Der in den französischen Alpen gelegene Ort Alpe d'Huez gehört zu den
+berühmtesten Etappenzielen der Tour de France. Der Anstieg von Le
+Bourg-d’Oisans hinauf nach Alpe d’Huez überwindet auf einer Streckenlänge von
+$13{,}8~\mathrm{km}$ einen Höhenunterschied von $1090~\mathrm m$. Der
+(bisherige) Rekord für diese Strecke liegt bei einer Fahrzeit von 36 Minuten und
+40 Sekunden.
+
+1. Welcher mittleren Leistung entspricht dies, wenn das Fahrrad eine Masse von
+   $m_\mathrm R = 8{,}2~\mathrm{kg}$ hat und für den Radfahrer eine Masse von
+   $m_\mathrm F = 59~\mathrm{kg}$ angenommen wird?
+
+2. Angenommen, der Fahrer sei tatsächlich die gesamte Strecke über mit dieser
+   mittleren Leistung unterwegs: mit welcher Geschwindigkeit absolviert er dabei
+   einen Streckenabschnitt mit 8% Steigung?
+
+-----
+
+* Antwort Teilaufgabe 1
+  [[ $P=266{,}3~\mathrm W$ | ($P=326{,}6~\mathrm W$) | $P=632{,}6~\mathrm W$ | $P=663{,}2~\mathrm W$ ]]
+
+* Antwort Teilaufgabe 2
+  [[ $v=3{,}8~\frac{\mathrm m}{\mathrm s}$ | $v=4{,}6~\frac{\mathrm m}{\mathrm s}$ | $v=5{,}4~\frac{\mathrm m}{\mathrm s}$ | ($v=6{,}2~\frac{\mathrm m}{\mathrm s}$) ]]
+
+#### Ballschleuder
+Eine einfache Ballschleuder sei mit mit einer Feder der Federkonstante
+$k=120~\frac{\mathrm N}{\mathrm m}$ ausgestattet. Beim Spannen wird diese Feder
+um $d=20~\mathrm{cm}$ zusammengedrückt. Es wird damit ein Tennisball (Masse
+$m_\mathrm B = 58~\mathrm g$) unter einem Winkel von $\alpha = 45°$ abgeschossen.
+
+1. Welche Geschwindigkeit $v_0$ hat der Ball nach dem Abwurf?
+2. Welche maximale Höhe erreicht der Ball auf seiner Flugbahn?
+
+-----
+
+* Antwort Teilaufgabe 1
+
+  [[ ($ v_0 = 9{,}1~\frac{\mathrm m}{\mathrm s}$) | $ v_0 = 10{,}2~\frac{\mathrm m}{\mathrm s}$ | $ v_0 = 11{,}3~\frac{\mathrm m}{\mathrm s}$ | $ v_0 = 12{,}4~\frac{\mathrm m}{\mathrm s}$ | $ v_0 = 13{,}5~\frac{\mathrm m}{\mathrm s}$ ]]
+
+* Antwort Teilaufgabe 2
+
+  [[ $h_\mathrm{max} = 0{,}3~\mathrm m$ | $h_\mathrm{max} = 1{,}2~\mathrm m$ | ($h_\mathrm{max} = 2{,}1~\mathrm m$) | $h_\mathrm{max} = 3{,}0~\mathrm m$ ]]
+
+#### Modelleisenbahn I
 Auf einer Modellbahnanlage rollt ein Waggon der Masse $m_1=65~\mathrm g$ auf
 horizontaler Strecke mit der Anfangsgeschwindigkeit
 $v_1 = 0{,}3~\frac{\mathrm m}{\mathrm s}$ gegen einen ruhenden Waggon der Masse
@@ -312,6 +337,98 @@ und sie rollen gemeinsam weiter.
 2. Berechnen Sie den Energiebetrag $E_\mathrm{diss}$, der bei diesem Vorgang
    durch dissipative Vorgänge verloren geht.
    [[ $E_\mathrm{diss} = 0{,}8~\mathrm{mJ}$ | ($E_\mathrm{diss} = 1{,}7~\mathrm{mJ}$) | $E_\mathrm{diss} = 2{,}6~\mathrm{mJ}$ | $E_\mathrm{diss} = 3{,}5~\mathrm{mJ}$]]
+
+#### Eisläufer
+
+Auf einer Eislaufbahn prallen zwei Eisläufer aufeinander. Person 1 (Masse
+$m_1 = 85~\mathrm{kg}$) hatte zuvor eine Geschwindigkeit von
+$v_1 = 0{,}8~\frac{\mathrm m}{\mathrm s}$. Person 2
+(Masse $m_2 = 63~\mathrm{kg}$) hatte eine anfängliche Geschwindigkeit
+$v_2 = 1,4~\frac{\mathrm m}{\mathrm s}$. Der Zusammenstoß geschah in einem
+rechten Winkel zueinander. Um einen Sturz zu vermeiden klammern sich die beiden
+Eisläufer aneinder fest und rutschen gemeinsam weiter. Der gesamte Vorgang wird
+als reibungsfrei angenommen.
+
+1. Mit welcher Geschwindigkeit bewegen sich die Eisläufer nach dem Stoß weiter?
+2. In welche Richtung verläuft diese Bewegung (bezogen auf die ursprüngliche
+   Bewegungsrichtung der ersten Person)?
+
+-----
+
+* Antwort Teilaufgabe 1
+  [[ $v' = 0{,}60~\frac{\mathrm m}{\mathrm s}$ | ($v' = 0{,}75~\frac{\mathrm m}{\mathrm s}$) | $v' = 1{,}28~\frac{\mathrm m}{\mathrm s}$ | $v' = 1{,}66~\frac{\mathrm m}{\mathrm s}$ | $v' = 2{,}20~\frac{\mathrm m}{\mathrm s}$]]
+
+* Antwort Teilaufgabe 2
+
+  Der Winkel zwischen der Geschwindigkeit nach dem Stoß und der anfänglichen
+  Bewegungsrichtung von Person 1 beträgt
+
+  [[ $\alpha = 25°$ | $\alpha = 34°$ | $\alpha = 43°$ | ($\alpha = 52°$) | $\alpha = 61°$ | $\alpha = 70°$ ]]
+
+#### Stoß zweier Bälle
+
+Bei einer Spielshow soll eine Billardkugel (Masse $m_\mathrm B = 170~\mathrm g$)
+so mit Tischtennisbällen (Masse $m_\mathrm T = 2{,}7~\mathrm g$) beworfen
+werden, dass sie den Zielbereich des Spielfelds erreicht. Welche Geschwindigkeit
+$v_\mathrm B'$ erhält die anfangs ruhende Billardkugel, wenn sie von einem
+Tischtennisball mit der Geschwindigkeit
+$v_\mathrm T = 5~\frac{\mathrm m}{\mathrm s}$ zentral und elastisch getroffen
+wird?
+
+-----
+
+* Antwort
+  [[ $v_\mathrm B' = -0{,}24~\frac{\mathrm m}{\mathrm s}$ |  $v_\mathrm B' = -0{,}16~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm B' = -0{,}08~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm B' = 0$ | $v_\mathrm B' = 0{,}08~\frac{\mathrm m}{\mathrm s}$ | ($v_\mathrm B' = 0{,}16~\frac{\mathrm m}{\mathrm s}$) | $v_\mathrm B' = 0{,}24~\frac{\mathrm m}{\mathrm s}$ ]]
+
+### Hausaufgaben
+
+#### Modelleisenbahn II
+Auf einer Modellbahnanlage fährt eine Lokomotive mit einer konstanten
+Geschwindigkeit $v=15~\frac{\mathrm{mm}}{\mathrm s}$. Dabei stößt sie gegen
+einen ruhenden Waggon der Masse $m_\mathrm{W}=75~\mathrm g$. Dieser Stoßvorgang
+erstreckt sich über eine Zeitdauer $t_\mathrm s = 0,08~\mathrm s$. Dabei rastet
+die Kupplung zwischen Lok und Waggon ein, sodass sich beide gemeinsam
+weiterbewegen. Die Lokomotive behält bei dem gesamten Vorgang ihre
+Geschwindigkeit bei.
+
+1. Welche Arbeit $W$ muss der Motor der Lokomotive beim Ankuppeln des Waggons
+   verrichten, um die ursprüngliche Geschwindigkeit beizubehalten?
+
+2. Welche mittlere Kraft $F$ wirkt während des Stoßvorgangs auf den Waggon?
+
+-----
+
+*  Antwort Teilaufgabe 1
+
+[[ $W=6{,}26~\mathrm{\mu J}$ | $W=7{,}63~\mathrm{\mu J}$ | ($W=8{,}44~\mathrm{\mu J}$) | $W=9{,}21~\mathrm{\mu J}$]]
+********************************************************************************
+
+Da die Geschwindigkeit der Lok unverändert bleiben soll, muss der angekuppelte
+Wagen auf die Geschwindigkeit $v$ beschleunigt werden. Die dabei zu verrichtende
+Arbeit entspricht der Änderung der kinetischen Energie die Waggons:
+
+$$W = \Delta E_\mathrm{kin, Waggon} = \frac{m_\mathrm W}{2}v^2 = 8{,}44~\mathrm{\mu J} \, .$$
+********************************************************************************
+
+*  Antwort Teilaufgabe 2
+
+[[ $F = 8~\mathrm{mN}$ | $F = 10~\mathrm{mN}$ | $F = 12~\mathrm{mN}$ | ($F = 14~\mathrm{mN}$) ]]
+********************************************************************************
+
+Gemäß dem zweiten Newtonschen Axiom ist die Impulsänderung des Waggons identisch
+dem auf ihn wirkenden Kraftstoß:
+
+$$\Delta p = Ft_\mathrm s \, .$$
+
+Da der Waggon anfangs in Ruhe war, entspricht die Impulsänderung seinem Impuls
+nach dem Stoß:
+
+$$\Delta p = m_\mathrm W v \, .$$
+
+Für die mittlere Kraft während des Stoßvorgangs folgt daraus:
+
+$$F=\frac{\Delta p}{t_\mathrm s} = \frac{m_\mathrm W v}{t_\mathrm s} = 14~\mathrm{mN} \, .$$
+********************************************************************************
 
 #### Ballistisches Pendel
 Zur Bestimmung der Geschossgeschwindigkeit eines Luftgewehrs wird ein
@@ -421,6 +538,125 @@ $$E_\mathrm P = \frac 12 m_\mathrm P v_\mathrm P^2 = 6{,}4~\mathrm J \, .$$
 
 Beide Rechnungen führen zu der Schlussfolgerung, dass das Luftgewehr im
 zulässigen Bereich arbeitet und diesen recht gut ausnutzt.
+********************************************************************************
+
+#### Bewässerungsfahrzeug
+Ein Bewässerungsfahrzeug ist mit einem Wasserbehälter ausgerüstet, aus dem pro
+Sekunde 5 Liter Wasser ausfließen. Der Behälter ist anfangs mit
+$V_0 = 1{,}8~\mathrm m^3$ Wasser gefüllt. Die Leermasse des
+Bewässerungsfahrzeugs beträgt $m_\mathrm T = 2{,}9~\mathrm t$. Das Fahrzeug sei
+mit einer Geschwindigkeit von $v = 5~\frac{\mathrm m}{\mathrm s}$ auf einem Feld
+unterwegs. Der Rollreibungskoeffizient zwischen Rädern und Feldboden beträgt
+$\mu_\mathrm R = 0{,}14$. Welche mechanische Arbeit verrichtet das Fahrzeug bis
+zur vollständigen Entleerung des Wasserbehälters, wenn die Bewegung
+
+1. horizontal
+2. mit 5% Steigung
+
+erfolgt?
+
+-----
+
+*  Antwort Teilaufgabe 1
+
+[[ $W=8{,}3~\mathrm{MJ}$ | ($W=9{,}4~\mathrm{MJ}$) | $W=10{,}5~\mathrm{MJ}$ | $W=11{,}6~\mathrm{MJ}$ | $W=12{,}7~\mathrm{MJ}$ ]]
+********************************************************************************
+
+Die mechanische Arbeit ist allgemein in der Form
+
+$$\mathrm d W = \vec F \cdot \mathrm d\vec s$$
+
+definiert. Da in diesem Fall von einer Kraftwirkung entlang der
+Bewegungsrichtung ausgegangen werden kann, wird im Folgenden auf das
+Skalarprodukt verzichtet. Ferner wird das Wegelement
+$\mathrm d s = v\,\mathrm dt$ durch die gegebene Geschwindigkeit ausgedrückt:
+
+$$\mathrm d W = Fv\mathrm dt \, .$$
+
+Bei horizontaler Bewegung muss keine Hubarbeit verrichtet werden und es bleibt
+nur die Reibungskraft zu berücksichtigen:
+
+$$F=F_\mathrm R = \mu_\mathrm R F_\mathrm N = \mu_\mathrm R mg \, .$$
+
+Aufgrund der horizontalen Bewegung ist die Normalkraft in diesem Fall gleich der
+Gewichtskraft. Die Masse setzt sich zusammen aus der Leermasse des Fahrzeugs
+$m_\mathrm F$ und der (zeitabhängigen) Masse des Wassers $m_\mathrm W (t)$:
+
+$$m = m_\mathrm F + m_\mathrm W (t) = m_\mathrm F + m_0 - q t \, ,$$
+
+wobei $q$ die zeitliche Änderung der Wassermasse angibt:
+$q = 5~\frac{\mathrm{kg}}{\mathrm s}$. Die Zeit sei dabei so gewählt, dass bei
+$t=0$ die Entleerung es Behälters beginnt. Die Anfangsmasse des Wasser beträgt
+$m_0 = 1800~\mathrm{kg}$. Für die Arbeit folgt daraus:
+
+$$\mathrm d W = \mu_\mathrm R vg \left( m_\mathrm F + m_0 - qt \right) \, .$$
+
+Zur Bestimmung der gesamten verrichteten Arbeit muss dieser Ausdruck über das
+Zeitintervall $\left[t=0, t_\mathrm e \right]$ integriert werden. Der Zeitpunkt
+$t_\mathrm e$ der vollständigen Entleerung ergibt sich zu
+
+$$t_\mathrm e = \frac{m_0}{q} = 360~\mathrm s \, .$$
+
+Damit ergibt sich für die Arbeit:
+
+$$\begin{aligned}
+W & =\mu_\mathrm R vg\int\limits_{t=0}^{t_\mathrm e} \left( m_\mathrm F + m_0 -qt\right)\mathrm dt \\
+& = \mu_\mathrm R vg\left( \left( m_\mathrm F + m_0 \right) t_\mathrm e - \frac{q}{2} t_\mathrm e^2 \right) \\
+& = 9{,}4~\mathrm{MJ}
+\end{aligned}$$
+********************************************************************************
+
+*  Antwort Teilaufgabe 2
+
+[[ $W=8{,}3~\mathrm{MJ}$ | $W=9{,}4~\mathrm{MJ}$ | $W=10{,}5~\mathrm{MJ}$ | $W=11{,}6~\mathrm{MJ}$ | ($W=12{,}7~\mathrm{MJ}$) ]]
+********************************************************************************
+
+Auch bei der Bewegung auf einer ansteigenden Strecke gilt für die mechanische
+Arbeit:
+
+$$\mathrm d W = Fv\mathrm dt \, .$$
+
+Für die Kraft sind nun jedoch zwei Beitäge zu berücksichtigen:
+
+1. Die Reibungskraft
+
+   $$F_\mathrm R = \mu_\mathrm R F_\mathrm N = \mu_\mathrm R mg\cos\alpha$$
+
+2. Die Hangabtriebskraft
+
+   $$F_\mathrm H = mg\sin\alpha$$
+
+Die Gesamtkraft ist demzufolge:
+
+$$F=F_\mathrm R + F_\mathrm H = mg\left( \mu_\mathrm R \cos \alpha + \sin\alpha \right) \, .$$
+
+Zwischen der in Prozent angegebenen Steigung $S$ und dem Steigungswinkel
+$\alpha$ gilt der Zusammenhang:
+
+$$S=\tan\alpha \quad\mathrm{bzw.} \quad \alpha = \arctan S \, .$$
+
+Eingesetzt in die Formel für die mechanische Arbeit folgt:
+
+$$\mathrm dW = vg\left( \mu_\mathrm R \cos\left( \arctan S \right) + \sin\left( \arctan S \right) \right) m \mathrm dt \, .$$
+
+Der in Teilaufgabe 1 betrachtete Fall der horizontalen Bewegung folgt als
+Sonderfall aus dieser Formel mit $S=0$. Für die zeitlich veränderliche Masse
+bleibt der Ausdruck aus der ersten Teilaufgabe unverändert:
+
+$$m = m_\mathrm F + m_0 - q t \, .$$
+
+Zur Bestimmung der gesamten mechanischen Arbeit muss wiederum über das
+Zeitintervall $\left[t=0, t_\mathrm e \right]$ integriert werden:
+
+$$W = vg\left( \mu_\mathrm R \cos\left( \arctan S \right) + \sin\left( \arctan S \right) \right) \int\limits_{t=0}^{t_\mathrm e} \left( m_\mathrm F + m_0 -qt\right)\mathrm dt \, .$$
+
+Der Ausdruck im Integral hat sich gegenüber der ersten Teilaufgabe nicht
+verändert und es folgt:
+
+$$\begin{aligned}
+W &  = vg\left( \mu_\mathrm R \cos\left( \arctan S \right) + \sin\left( \arctan S \right) \right) \left( \left( m_\mathrm F + m_0 \right) t_\mathrm e - \frac{q}{2} t_\mathrm e^2 \right) \\
+& = 12{,}7~\mathrm{MJ} \, .
+\end{aligned}$$
 ********************************************************************************
 
 ## Rotation und Schwingungen
@@ -802,7 +1038,7 @@ der folgenden Aussagen sind korrekt?
 [[X]] Die Lichtintensität, die auf einem Sensor registriert wird, entspricht der Anzahl der Photonen, die pro Zeiteinheit auf diesen Sensor auftreffen.
 [[ ]] Photonen sind ein reines Gedankenmodell, das experimentell nicht zugänglich ist, da keine Detektion einzelner Photonen möglich ist.
 
-### Rechenaufgaben
+### Hausaufgaben
 
 #### Äußerer Photoeffekt
 Eine negativ geladene Zinkplatte soll durch den äußeren Photoeffekt entladen

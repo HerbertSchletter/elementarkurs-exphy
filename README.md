@@ -9,7 +9,7 @@ ersten Studienjahr, die Physik als Nebenfach belegen. Ergänzend zum
 Vorlesungsskript wird eine auf das Skript abgestimmte Sammlung von
 Übungsaufgaben verfasst.
 
-Skript und Übungsaufgaben sind abgestimmt auf einen einsemestrigen Kurs in
+Skript und Übungsaufgaben sind ausgerichtet auf einen einsemestrigen Kurs in
 Experimentalphysik mit einem Umfang von 15 Vorlesungen und 6 Übungsterminen.
 Daraus ergibt sich schließlich auch die Größe des Skriptums und der
 Aufgabensammlung. Tatsächlich erfordert dieser vergleichsweise geringe zeitliche
