@@ -926,7 +926,30 @@ folgenden Aussagen sind richtig?
 [[ ]] Eine Verbreiterung des Spalts bewirkt, dass die Abstände zwischen benachbarten Maxima größer werden.
 [[ ]] Wird der ursprüngliche rote Laser gegen einen grünen ausgetauscht, so ändern sich die Positionen der Maxima und Minima nicht.
 
-### Rechenaufgaben
+### Übungsaufgaben
+
+#### Kamera
+Mit einer Fotokamera soll eine Aufnahme von einem $G= 42~\mathrm m$ hohen Turm
+gemacht werden. Das Objektiv der Kamera (das als dünne Linse behandelt wird) hat
+eine Brennweite von $f=85~\mathrm{mm}$. Der Bildsensor der Kamera hat eine Höhe
+von $B=36~\mathrm{mm}$. In welcher Entfernung $g$ vom Turm muss sich die Kamera
+mindestens befinden, damit dieser vollständig auf dem Bild erscheint?
+
+[[ $g = 32{,}73~\mathrm m$ | $g = 59{,}51~\mathrm m$ | ($g = 99{,}25~\mathrm m$) | $g = 141{,}83~\mathrm m$ | $g = 182{,}26~\mathrm m$]]
+
+#### Interferenz am Einzelspalt
+
+Ein Laserstrahl mit der Wellenlänge $\lambda=635~\mathrm{nm}$ ist auf einen
+schmalen Spalt gerichtet. Auf einem Schirm, der sich $l=1~\mathrm m$ hinter dem
+Spalt befindet, wird dabei ein Interferenzmuster beobachtet. Die beiden Maxima
+erster Ordnung (die sich links und rechts neben dem zentralen Maximum nullter
+Ordnung befinden), haben einen Abstand $x=1{,}75~\mathrm{cm}$ voneinander.
+Berechnen sie daraus die Spaltbreite $d$.
+
+[[ ($d=0{,}11~\mathrm{mm}$) | $d=0{,}18~\mathrm{mm}$ | $d=0{,}25~\mathrm{mm}$ | $d=0{,}32~\mathrm{mm}$ | $d=0{,}39~\mathrm{mm}$ | $d=0{,}46~\mathrm{mm}$ | $d=0{,}53~\mathrm{mm}$ ]]
+
+
+### Hausaufgaben
 
 #### Brechzahl des Wassers
 Zur Bestimmung der Brechzahl $n_\mathrm W$ von Wasser wird folgendes Experiment
@@ -1003,14 +1026,42 @@ Mit den Zahlenwerten aus der Aufgabenstellung ergibt sich:
 $$n_\mathrm W =1{,}37$$
 ********************************************************************************
 
-#### Kamera
-Mit einer Fotokamera soll eine Aufnahme von einem $G= 42~\mathrm m$ hohen Turm
-gemacht werden. Das Objektiv der Kamera (das als dünne Linse behandelt wird) hat
-eine Brennweite von $f=85~\mathrm{mm}$. Der Bildsensor der Kamera hat eine Höhe
-von $B=36~\mathrm{mm}$. In welcher Entfernung $g$ vom Turm muss sich die Kamera
-mindestens befinden, damit dieser vollständig auf dem Bild erscheint?
+#### Beamer-Objektiv
+Das Objektiv eines Beamers hat die Brennweite $f=100~\mathrm{mm}$. Der Chip,
+der das zu projizierende Bild im Inneren des Beamers erzeugt hat eine Breite von
+$G=30~\mathrm{mm}$. In welcher Entfernung vom Objektiv (das als dünne Linse
+behandelt wird) muss eine $3~\mathrm m$ breite Leinwand aufgestellt werden,
+damit das entstehende Bild diese gerade ausfüllt?
 
-[[ $g = 32{,}73~\mathrm m$ | $g = 59{,}51~\mathrm m$ | ($g = 99{,}25~\mathrm m$) | $g = 141{,}83~\mathrm m$ | $g = 182{,}26~\mathrm m$]]
+[[ $b=4{,}1~\mathrm m$ | $b=6{,}1~\mathrm m$ | $b=8{,}1~\mathrm m$ | ($b=10{,}1~\mathrm m$) ]]
+********************************************************************************
+
+Die Abbildungsgleichung einer dünnen Linse lautet
+
+$$\frac 1f = \frac 1b + \frac 1g \, .$$
+
+Weiterhin ist der Abbildungsmaßstab definiert:
+
+$$\left | V \right | = \frac{\left | B \right |}{G}=\frac{b}{g} \, .$$
+
+Die Bildgröße ist negativ (kopfstehendes / seitenverkehrtes Bild). Damit ist
+auch $V$ negativ. Wir rechnen hier nur mit Beträgen und schreiben kurz:
+
+$$V= \frac BG =\frac bg \, .$$
+
+Dies wird nach $g$ umgestellt:
+
+$$g=\frac GB \cdot b$$
+
+und in die Abbildungsgleichung eingesetzt:
+
+$$\frac 1f = \frac 1b + \frac BG \cdot \frac 1b = \left( 1+ \frac BG\right)\frac 1b \, .$$
+
+Daraus ergibt sich für die Bildweite:
+
+$$b=\left(1+\frac BG\right) f = \left(1+\frac{3000~\mathrm{mm}}{30~\mathrm{mm}}\right) \cdot 100~\mathrm{mm}=10{,}1~\mathrm m \, .$$
+********************************************************************************
+
 
 ## Moderne Physik
 ### Verständnisfragen
