@@ -61,13 +61,34 @@ Aufgrund dieser Stoffreduktion trägt dieses Skriptum die Bezeichnung
 
 ## Einführung
 
-Am Beginn dieses Kurses soll zunächst geklärt werden, welche Zielstellung hierin
-verfolgt wird. Wie der Titel bereits besagt, handelt es sich um eine
-(grundlegende) Einführung in die Physik, konkret: in die Experimentalphysik
-(dieser Begriff wird im Laufe dieser Einführung noch erklärt werden). Es muss
-daher zunächst in ganz allgemeiner Form geklärt werden, womit sich die Physik
-beschäftigt. Die folgenden Seiten beschreiben die grundlegende Zielstellung der
-Physik und verschiedene Wege, wie dieses Ziel erreicht werden kann.
+         --{{0}}--
+Die erste Frage, die in diesem Skriptum beantwortet werden soll, bezieht sich
+auf die Zielstellung dieses Buchs. Da es sich um Lehrmaterial der Physik handelt,
+ist dies gleichbedeutent mit der Frage nach der Zielstellung der Physik. Deshalb
+findet sich unter der nachfolgenden Überschrift ‚Was ist Physik?‘ als erstes
+eine Definition dieser Naturwissenschaft, zusammen mit einigen Erläuterungen.
+
+          --{{1}}--
+Im Zentrum der Physik steht die Frage nach den Eigenschaften von Körpern und
+deren gegenseitigen Wechselwirkungen. Um sich diesem hochgesteckten Ziel zu
+nähern, hat die Physik zwei grundlegende Herangehensweisen entwickelt, die als
+Experimentalphysik und Theoretische Physik bezeichnet werden. Wie der Titel
+dieses Skriptums verrät, ist der vorliegende Kurs im Bereich der
+Experimentalphysik angesiedelt.
+
+          --{{2 Deutsch Female}}--
+Kennzeichnend für die Experimentalphysik ist das namensgebende Experiment, das
+als eine gezielte Frage an die Natur aufzufassen ist. Untrennbar mit dem
+Experimentieren verbunden sind Messungen physikalischer Größen. Beide Begriffe –
+Experiment und Messung – werden in den nachfolgenden Abschnitten erläutert.
+
+          --{{3}}--
+Der letzte Abschnitt dieses ersten Kapitels lenkt den Blick auf das
+mathematische Handwerkszeug der Physik. Um die Eigenschaften eines Körpers in
+ihrem räumlichen und zeitlichen Verlauf anzugeben, werden Bezugsysteme für
+Raum und Zeit definiert. Für Berechnungen innerhalb dieser Bezugsysteme bedient
+sich die Physik der Methoden der Vektorrechnung sowie der Differential- und
+Integralrechnung.
 
 ### Was ist Physik?
 
@@ -191,9 +212,9 @@ müssen relevante Größen gemessen werden. Eine **Messung** ist ein Vergleich
 einer (unbekannten) Größe mit einem Maßnormal. Dieser Vergleich kann direkt
 (z.B. Längenmessung mit einem Lineal) oder indirekt (z.B. Massebestimmung mit
 Digitalwaage) erfolgen. Die Maßnormale verkörpern eine festgelegte Quantität der
-zu messenden Größe. Beispiele für Maßnormale sind: Lineal für die Längenmessung,
+zu messenden Größe und definieren damit gleichzeitig auch die Maßeinheiten der
+jeweiligen Größe. Beispiele für Maßnormale sind: Lineal für die Längenmessung,
 Massestücke, ein Metronom als Zeitnormal aber auch elektrische Multimeter usw.
-Die Maßnormale definieren dabei auch die Maßeinheiten der jeweiligen Größe.
 
 Eine physikalische Größe ist definiert als:
 
@@ -795,13 +816,13 @@ gilt für den Gesamtimpuls:
 $$\vec{p}_{ges}(t_1) = \vec{p_1}(t_1) + \vec{p_2}(t_1)$$
 
 Zu einem beliebigen späteren Zeitpunkt $t_2$ (nicht nur nach vollständiger
-  Entspannung der Feder) gilt:
+Entspannung der Feder) gilt:
 
 $$\begin{aligned}
-\vec{p}_{ges}(t_2) & = \vec{p_2}(t_2) + \vec{p_2}(t_2) \\
+\vec{p}_\mathrm{ges}(t_2) & = \vec{p_2}(t_2) + \vec{p_2}(t_2) \\
 & = \vec{p_1}(t_1) + \Delta\vec{p_1}+ \vec{p_2}(t_1) + \Delta\vec{p_2} \\
 & = \vec{p_1}(t_1) + \vec{p_2}(t_1) \\
-& =\vec{p}_{ges}(t_1)\end{aligned}$$
+& =\vec{p}_\mathrm{ges}(t_1)\end{aligned}$$
 
 Der Gesamtimpuls ist zu diesem Zeitpunkt also gleich dem Anfangs-Gesamtimpuls.
 Da dies für beliebige Zeitpunkte gilt, schlussfolgern wir, dass sich der
@@ -1191,10 +1212,10 @@ anfängliche potentielle Energie des Körpers für die Beschleunigungsarbeit
 aufgewendet und somit in kinetische Energie umgewandelt. Dabei gilt (als
 experimentelles Ergebnis):
 
-$$\Delta E_{pot} = -\Delta E_{kin} \, .$$
+$$\Delta E_\mathrm {pot} = -\Delta E_\mathrm {kin} \, .$$
 
 Die mechanische Gesamtenergie des Körpers (Summe aus kinetischer und
-  potentieller Energie) ändert sich dabei nicht.
+potentieller Energie) ändert sich dabei nicht.
 
 Dies gilt selbst dann noch, wenn der Körper nicht senkrecht fällt, sondern sich
 auf anderen (schrägen oder gekrümmten) Bahnen abwärts bewegt. Wenn alle diese
@@ -1203,8 +1224,7 @@ des Körpers am Ende identisch. Die Umwandlung von kinetischer und potentieller
 Energie geschieht unabhängig vom Weg und hängt lediglich von Anfangs- und
 Endpunkt ab.
 
-Energie und Reibung
--------------------
+##### Energie und Reibung
 
 Was geschieht nun aber mit der Arbeit, die gegen die Reibungskraft verrichtet
 wurde? Bewegt sich ein Körper unter dem Einfluss der Reibung, ohne dass eine
@@ -1249,8 +1269,7 @@ mechanischer Probleme. Wir wollen dies an einigen Beispielen betrachten.
 
 {{1}}
 ************************************************
-Beispiel 1: Pendel und Hemmungspendel
-=====================================
+**Beispiel 1: Pendel und Hemmungspendel**
 
 Ein Fadenpendel der Masse $m$ wird in eine Höhe $h_1$ ausgelenkt (die Ruhelage
 des Pendels sei in der Höhe $h=0$). Von dort losgelassen bewegt sich das Pendel
@@ -1278,8 +1297,7 @@ $$mgh_2 = \frac{1}{2}mv^2_\mathrm{max} = mgh_1 \quad  \Rightarrow \quad  h_2 = h
 
 {{2}}
 ***********************************************
-Beispiel 2: Zentrale Stöße
-==========================
+**Beispiel 2: Zentrale Stöße**
 
 Als Stoß bezeichnet man in der Physik eine (beliebige) Wechselwirkung zweier
 Körper, bei der Impuls übertragen wird. Da diese Wechselwirkung der beiden

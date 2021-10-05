@@ -113,7 +113,7 @@ und die Beschleunigung im höchsten Punkt?
 
 ********************************************************************************
 
-#### Grimsehlversuch
+#### Grimsehlversuch I
 
 Zwei Kugeln befinden sich auf einer Startvorrichtung, von der sie gleichzeitig
 und aus gleicher Höhe ihre Bewegung beginnen: Kugel 1 fällt senkrecht nach
@@ -130,7 +130,6 @@ Welche Aussagen über die Bewegung der Kugeln sind richtig?
 [[ ]] Die horizontale Bewegung der abgeworfenen Kugel wird immer langsamer. So entsteht die charakteristische Parabelform der Flugbahn.
 ***********************************************************************
 
-                              {{1}}
 *  Beide Kugeln erreichen gleichzeitig den Boden, da in vertikale Richtung
    dieselbe Bewegung ausgeführt wird.
    *  **Richtig**: Für Bewegungen gilt das Prinzip der ungestörten Überlagerung
@@ -191,6 +190,190 @@ Schlussfolgerungen aus dieser Formel sind richtig?
 [[ ]] Die Formel erlaubt keinerlei Rückschlüsse auf die Geschwindigkeit, da nur der Impuls berechnet werden kann.
 [[X]] Auch kleine Kräfte können eine starke Impulsänderung bewirken, wenn sie über einen langen Zeitraum wirken.
 
+### Übungsaufgaben
+
+#### Achterbahn mit Katapultstart
+Der Zug einer Achterbahn werde bei einem sogenannten Katapultstart auf einer
+horizontalen Beschleunigungsstrecke durch ein Antriebssystem innerhalb von
+$2{,}5~\mathrm s$ auf eine Endgeschwindigkeit von
+$100~\frac{\mathrm {km}}{\mathrm h}$ beschleunigt.
+
+1.  Geben Sie die mittlere Beschleunigung in $\frac{\mathrm m}{\mathrm s^2}$
+    sowie in Vielfachen der Fallbeschleunigung an.
+
+    [[ $a= 5{,}5~\frac{\mathrm m}{\mathrm s^2}$ | $a= 7{,}7~\frac{\mathrm m}{\mathrm s^2}$ | $a= 9{,}9~\frac{\mathrm m}{\mathrm s^2}$ | ($a= 11{,}1~\frac{\mathrm m}{\mathrm s^2}$) ]]
+
+    [[ ($a=1{,}1~g$) | $a=3{,}3~g$ | $a=5{,}5~g$ | $a=7{,}7~g$ ]]
+
+2.  Wie lang muss die Beschleunigungsstrecke sein?
+
+    [[ ($s_\mathrm B = 34{,}75~\mathrm m$) | $s_\mathrm B = 47{,}53~\mathrm m$ | $s_\mathrm B = 53{,}47~\mathrm m$ | $s_\mathrm B = 75{,}34~\mathrm m$ ]]
+
+#### Bremsvorgang eines Zugs
+Ein Regionalexpress ist mit einer Geschwindigkeit von
+$v_0 = 140~\frac{\mathrm{km}}{\mathrm h}$ unterwegs. Bei der Annäherung an
+einen Bahnhof zeigt das Vorsignal „Halt erwarten“. Der Zug kann also nicht in
+den Bahnhof einfahren, sondern muss am Einfahrsignal, das sich $1000~\mathrm m$
+nach dem Vorsignal befindet, anhalten. Der Triebfahrzeugführer (so die korrekte
+Bezeichnung!) startet beim Passieren des Vorsignals den Bremsvorgang des Zugs.
+Die Bremsverzögerung wählt er dabei so, dass der Zug genau am Einfahrsignal zum
+Stillstand käme.
+
+1. Welche Beschleunigung erfährt der Zug bei diesem Bremsvorgang?
+
+   [[ $a=0{,}14~\frac{\mathrm m}{\mathrm s^2}$ | ($a=0{,}76~\frac{\mathrm m}{\mathrm s^2}$) | $a=1{,}29~\frac{\mathrm m}{\mathrm s^2}$ | $a=1{,}58~\frac{\mathrm m}{\mathrm s^2}$ | $a=2{,}21~\frac{\mathrm m}{\mathrm s^2}$ ]]
+
+2. Welche der folgenden Darstellungen gibt das korrekte Geschwindigkeits-Orts-Gesetz
+   für diesen Bremsvorgang wieder?
+
+   - Diagramm 1
+     ![Diagramm1](grafik_uebung/Zugbremsung_Diagramm1.svg)
+   - Diagramm 2
+     ![Diagramm2](grafik_uebung/Zugbremsung_Diagramm2.svg)   
+   - Diagramm 3
+     ![Diagramm3](grafik_uebung/Zugbremsung_Diagramm3.svg)
+
+   [[ Diagramm 1 | Diagramm 2 | (Diagramm 3) ]]
+
+3. Als sich der Zug noch $180~\mathrm m$ vor dem Einfahrsignal befindet,
+   schaltet dieses um und gibt die Einfahrt in den Bahnhof mit einer
+   Höchstgeschwindigkeit von $v=40~\frac{\mathrm{km}}{\mathrm h}$ frei. Muss der
+   Zug zu diesem Zeitpunkt noch weiter abgebremst werden oder hat er diese
+   Höchstgeschwindigkeit bereits unterschritten?
+
+   [[ (Der Zug muss weiter abbremsen.) | Der Zug hat diese Geschwindigkeit bereits unterschritten. ]]
+
+#### Zielwerfen
+Bei einer Spielshow sollen die Kandidaten von einer erhöhten Plattform aus Bälle
+auf eine auf den Boden gemalte Zielscheibe werfen. Das Zentrum der Zielscheibe
+(mit der Maximalpunktzahl 10) hat einen Durchmesser von
+$D_\mathrm Z = 80~\mathrm{cm}$. Die umgebenden Ringe (in absteigender Wertigkeit
+von 9 bis 1 Punkte) haben jeweils eine Breite von
+$b_\mathrm R = 40~\mathrm{cm}$. Der horizontale Abstand zwischen der
+Werferplattform und dem Mittelpunkt der Zielscheibe beträgt
+$x_\mathrm m = 7~\mathrm m$. Der Abwurf erfolgt in einer Höhe
+$h_0 = 9~\mathrm m$ über dem Boden. In allen Fällen wird davon ausgegangen, dass
+der Ball in horizontale Richtung abgeworfen wird.
+
+1. Mit welcher Geschwindigkeit muss der Kandidat den Ball abwerfen, damit genau
+   der Mittelpunkt der Zielscheibe getroffen wird?
+
+   [[ $v=0{,}7~\frac{\mathrm m}{\mathrm s}$ | $v=1{,}6~\frac{\mathrm m}{\mathrm s}$ | $v=2{,}5~\frac{\mathrm m}{\mathrm s}$ | $v=3{,}4~\frac{\mathrm m}{\mathrm s}$ | $v=4{,}3~\frac{\mathrm m}{\mathrm s}$ | ($v=5{,}2~\frac{\mathrm m}{\mathrm s}$) | $v=6{,}1~\frac{\mathrm m}{\mathrm s}$ | $v=7{,}0~\frac{\mathrm m}{\mathrm s}$ ]]
+
+2. Die Bewegung der Wurfarms lässt sich verständlicherweise nur mit begrenzter
+   Genauigkeit steuern. Folglich werden einige Bälle langsamer und andere
+   schneller als diese (unter 1. berechnete) optimale Geschwindigkeit
+   abgeworfen. Welche Punktzahl wird erreicht, wenn der Abwurf mit einer um 25%
+   höheren Geschwindigkeit erfolgt?
+
+   [[ 10 Punkte | 9 Punkte | 8 Punkte | 7 Punkte | (6 Punkte) |  5 Punkte | 4 Punkte | 3 Punkte | 2 Punkte | 1 Punkt | 0 Punkte ]]
+
+3. Welche Punktzahl wird erreicht, wenn der Abwurf mit einer um 25% geringeren
+   Geschwindigkeit erfolgt?
+
+   [[ 10 Punkte | 9 Punkte | 8 Punkte | 7 Punkte | (6 Punkte) |  5 Punkte | 4 Punkte | 3 Punkte | 2 Punkte | 1 Punkt | 0 Punkte ]]
+
+4. Welche Punktzahl wird erreicht, wenn der Abwurf zwar mit der (unter 1.
+   berechneten) optimalen Geschwindigkeit erfolgt, jedoch nicht exakt Richtung
+   Mittelpunkt der Zielscheibe, sondern mit einer seitlichen Abweichung von
+   $\alpha = 5°$?
+
+   [[ 10 Punkte | (9 Punkte) | 8 Punkte | 7 Punkte | 6 Punkte |  5 Punkte | 4 Punkte | 3 Punkte | 2 Punkte | 1 Punkt | 0 Punkte ]]
+
+#### Der „Kirchenflug“ von Limbach-Oberfrohna
+
+Am 25. Januar 2009 ereignete sich in Limbach-Oberfrohna ein spektakulärer
+Unfall: Ein Auto kam mit hoher Geschwindigkeit von der Straße ab und raste eine
+Böschung hinauf, die in diesem Moment wie eine Sprungschanze fungierte. Vom Ende
+der Böschung flog das Fahrzeug durch die Luft und landete schließlich im Dach
+der Kirche. Das Auto verschwand dabei fast vollständig zwischen dem Gebälk des
+Dachstuhls. Spektakulär ist der Unfall auch deshalb, weil der Fahrer zwar schwer
+verletzt aber ohne bleibende Schäden den Unfall überlebte.
+
+Aus den zahlreichen Medienberichten über diesen Unfal war zu entnehmen, dass der
+Flug eine Weite von $35~\mathrm m$ überspannte und in einer Höhe von circa
+$6~\mathrm m$ endete. Der Steigungswinkel der Böschung wird mit $17°$
+angenommen. Berechnen Sie daraus die Geschwindigkeit des Fahrzeugs zu Beginn
+des Flugs.
+
+[[ $v_0 = 55~\frac{\mathrm{km}}{\mathrm m}$ | $v_0 = 75~\frac{\mathrm{km}}{\mathrm m}$ | $v_0 = 95~\frac{\mathrm{km}}{\mathrm m}$ | $v_0 = 115~\frac{\mathrm{km}}{\mathrm m}$| ($v_0 = 135~\frac{\mathrm{km}}{\mathrm m}$)]]
+
+**Hinweis:** Die Zahlen in der Aufgabenstellung wurden überwiegend den
+Medienberichten entnommen beziehunsgweise aus den dortigen Angaben hergeleitet.
+Teilweise fanden sich unterschiedliche Angabe zur Höhe des Aufschlagpunkts.
+Insofern ist diese Aufgabe eine Anlehnung an den tatsächlichen Unfallhergang.
+Sie erhebt jedoch nicht den Anspruch, eine detaillierte Rekonstruktion
+darzustellen.
+
+### Hausaufgaben
+
+#### Grimsehlversuch II
+Im sogenannten Grimsehl-Versuch starten zwei identische Kugeln zeitgleich und
+aus gleicher Höhe ihre Bewegung: die eine führt einen freien Fall aus, während
+die andere horizontal abgeworfen wird. Die horizontal abgeworfene Kugel erreicht
+nach einer Flugzeit von $t_\mathrm f =0{,}57~\mathrm s$ den Boden. Ihr
+Auftreffpunkt liegt $d=78~\mathrm{cm}$ von dem der anderen Kugel entfernt.
+
+1.  In welcher Höhe über dem Boden befand sich der Abwurfpunkt?
+2.  Welche Anfangsgeschwindigkeit besaß die horizontal abgeworfene Kugel?
+3.  Welche Geschwindigkeiten $v_\mathrm{Fall}$ beziehungsweise $v_\mathrm{Wurf}$ besitzen die Kugeln beim Auftreffen auf den Boden?
+
+-----
+
+- Antwort Teilaufgabe 1
+
+[[ $h_0 = 0{,}36~\mathrm m$ | $h_0 = 0{,}74~\mathrm m$ | $h_0 = 1{,}07~\mathrm m$ | ($h_0 = 1{,}59~\mathrm m$) | $h_0 = 2{,}48~\mathrm m$ ]]
+********************************************************************************
+
+Zunächst ist festzuhalten, dass beide Kugeln gleichzeitig den Boden erreichen,
+da in vertikale Richtung in beiden Fällen ein freier Fall vorliegt. Das
+Höhe-Zeit-Gesetz des freien Falls lautet:
+
+$$h(t) = h_0 - \frac g2 t^2 \, .$$
+Nach der Flugzeit $t_\mathrm f$ haben beide Kugeln den Boden ($h=0$) erreicht:
+
+$$h(t_\mathrm f) = h_0 - \frac g2 t_\mathrm f^2 = 0 \, .$$
+
+Daraus ergibt sich für die Anfangshöhe:
+
+$$h_0 = \frac g2 t_\mathrm f^2 = 1{,}59~\mathrm m \, .$$
+********************************************************************************
+
+- Antwort Teilaufgabe 2
+
+[[ $v_0 = 0{,}71~\frac{\mathrm m}{\mathrm s}$ | ($v_0 = 1{,}37~\frac{\mathrm m}{\mathrm s}$) | $v_0 = 3{,}71~\frac{\mathrm m}{\mathrm s}$ | $v_0 = 7{,}13~\frac{\mathrm m}{\mathrm s}$ ]]
+********************************************************************************
+
+Die horizontale Bewegungskomponente der abgeworfenen Kugel entspricht einer
+gleichförmigen Bewegung mit der Abwurfgeschwindigkeit. Die Überlagerung mit der
+Fallbewegung beeinflusst die horizontale Bewegung nicht. Während der Flugzeit
+$t_\mathrm f$ wird die horizontale Strecke $d$ zurückgelegt. Das bedeutet für
+die Abwurfgeschwindigkeit:
+
+$$v_0 = \frac{d}{t_\mathrm f} = 1{,}37~\frac{\mathrm m}{\mathrm s} \, .$$
+********************************************************************************
+
+- Antwort Teilaufgabe 3
+
+[[ $v_\mathrm{Fall} = 1{,}4~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm{Fall} = 4{,}2~\frac{\mathrm m}{\mathrm s}$ | ($v_\mathrm{Fall} = 5{,}6~\frac{\mathrm m}{\mathrm s}$) | $v_\mathrm{Fall} = 5{,}8~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm{Fall} = 7{,}0~\frac{\mathrm m}{\mathrm s}$ ]]
+********************************************************************************
+
+Die frei fallende Kugel besitzt nur die vertikale Geschwindigkeitskomponente,
+die eine gleichmäßig beschleunigte Bewegung mit der Fallbeschleunigung
+darstellt. Die Endgeschwindigkeit nach der Fallzeit $t_\mathrm f$ ist damit:
+
+$$v_\mathrm{Fall} = g\cdot t_\mathrm f = 5{,}6~\frac{\mathrm m}{\mathrm s} \, .$$
+********************************************************************************
+
+[[ $v_\mathrm{Wurf} = 1{,}4~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm{Wurf} = 4{,}2~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm{Wurf} = 5{,}6~\frac{\mathrm m}{\mathrm s}$ | ($v_\mathrm{Wurf} = 5{,}8~\frac{\mathrm m}{\mathrm s}$) | $v_\mathrm{Wurf} = 7{,}0~\frac{\mathrm m}{\mathrm s}$ ]]
+********************************************************************************
+
+Bei der horizontal abgeworfenen Kugel überlagern sich die horizontale und vertikale Geschwindigkeitskomponente vektoriell. Die vertikale Komponente ist identisch mit der frei fallenden Kugel, die horizontale Bewegung erfolgt gleichförmig mit der Abwurfgeschwindigkeit. Als Gesamtgschwindigkeit ergibt sich daraus:
+
+$$v_\mathrm{Wurf} = \sqrt{v_\mathrm{hor}^2 + v_\mathrm{vert}^2} = \sqrt{\frac{d^2}{t_\mathrm f^2}+g^2t_\mathrm f^2}
+        = 5{,}8~\frac{\mathrm m}{\mathrm s} \, .$$
+********************************************************************************
+
 ## Arbeit und Erhaltungssätze
 ### Verständnisfragen
 
@@ -201,7 +384,7 @@ zurück. Treffen Sie Aussagen zum Bremsweg für die folgenden Situationen.
 
 Hinweis: Es wird nur der in der jeweiligen Teilaufgabe genannte Parameter
 geändert. Alle anderen Größen entsprechen der oben beschriebenen Situation.
-Insbesondere ist die vom Bremssystemauf die Räder ausgeübte Kraft in allen
+Insbesondere ist die vom Bremssystem auf die Räder ausgeübte Kraft in allen
 Fällen identisch.
 
 1. Der PKW sei mit der doppelten Anfangsgeschwindigkeit unterwegs.
@@ -344,7 +527,7 @@ Auf einer Eislaufbahn prallen zwei Eisläufer aufeinander. Person 1 (Masse
 $m_1 = 85~\mathrm{kg}$) hatte zuvor eine Geschwindigkeit von
 $v_1 = 0{,}8~\frac{\mathrm m}{\mathrm s}$. Person 2
 (Masse $m_2 = 63~\mathrm{kg}$) hatte eine anfängliche Geschwindigkeit
-$v_2 = 1,4~\frac{\mathrm m}{\mathrm s}$. Der Zusammenstoß geschah in einem
+$v_2 = 1{,}4~\frac{\mathrm m}{\mathrm s}$. Der Zusammenstoß geschah in einem
 rechten Winkel zueinander. Um einen Sturz zu vermeiden klammern sich die beiden
 Eisläufer aneinder fest und rutschen gemeinsam weiter. Der gesamte Vorgang wird
 als reibungsfrei angenommen.
