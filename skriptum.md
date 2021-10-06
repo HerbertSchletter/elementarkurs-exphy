@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.3.1
+version:  2021.3.2
 
 language: de
 
@@ -63,7 +63,7 @@ Dieses Skriptum wurde in [LiaScript](https://LiaScript.github.io/course/?https:/
 verfasst, einer Variante der Beschreibungssprache Markdown. Da es sich hierbei
 um eine reine Textdatei handelt, ist eine Anzeige des (unformatierten)
 Quelltexts in jedem Texteditor möglich. Die [formatierte Anzeige](https://liascript.github.io/course/?https://raw.githubusercontent.com/HerbertSchletter/elementarkurs-exphy/main/skriptum.md)
-erfolgt den über LiaScript-Interpreter, der zugleich eine Progressive Web App
+erfolgt über den LiaScript-Interpreter, der zugleich eine Progressive Web App
 darstellt.
 
 LiaScript bietet verschiedene Darstellungsformate des Inhalts an, die über das
