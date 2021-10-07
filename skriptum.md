@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.3.2
+version:  2021.4.0
 
 language: de
 
@@ -339,15 +339,34 @@ mit einem mitunter erheblichen Rechenaufwand verbunden.
 
 ## Mechanik
 
+          --{{0}}--
 Die Mechanik ist ein Teilgebiet der klassischen Physik. Sie beschreibt die
 Bewegungseigenschaften von Körpern sowie die Wirkung von Kräften.
+In diesem Skriptum bildet die Mechanik das umfangreichste Kapitel, da
+verschiedene Bewegungsarten unterschieden und mit ihrem jeweils eigenen
+Formalismus beschrieben werden. Am Beginn steht die Beschreibung geradliniger
+Bewegungen. Dem schließen sich Rotationsbewegungen und schließlich Schwingungen
+an.
+
 
 ### Kinematik
+          --{{0}}--
+Die Kinematik ist ein Teilgebiet der Mechanik. Sie befasst sich mit der
+Beschreibung der Bewegung von Körpern. Die Frage nach der Ursache einer Bewegung
+oder der Änderung eines Bewegungszustands wird nicht betrachtet. Dieses
+Vorgehen erscheint beinahe zu trivial. Die exakte und quantitative Beschreibung
+von Bewegungsabläufen ist jedoch Voraussetzung für die nachfolgenden
+Teilgebiete, in denen die Ursachen der Bewegung ergründet werden.
+Dementsprechend sollte die Bedeutung der Kinematik nicht unterschätzt werden.
 
-Die Kinematik ist ein Teilgebiet der Mechanik und befasst sich mit der
-Beschreibung der Bewegung von Körpern. Die Ursachen der Bewegung (genauer: der
-  Änderungen eines Bewegungszustands) werden nicht betrachtet.
+        --{{1 Deutsch Female}}--
+Im Laufe dieses Kapitels werden uns einige Größen begegnen, die aus dem
+alltäglichen Sprachgebrauch bekannt sind. Dazu zählen Geschwindigkeit und
+Beschleunigung ebenso wie die Zeit und der Aufenthaltsort eines Körpers.
+Letzterer wird durch den Ortsvektor in einem Koordinatensystem mathematisch
+exakt angegeben.
 
+#### Der Ortsvektor
 Für die Bewegung eines Körpers auf geraden oder gekrümmten Bahnen spielen Form
 und Größe dieses Körpers keine Rolle und können vernachlässigt werden. Auf diese
 Weise gelangt man zum Modell des Massepunktes bzw. der Punktmasse, bei dem die
