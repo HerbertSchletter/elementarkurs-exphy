@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.4.1
+version:  2021.4.2
 
 language: de
 
@@ -252,7 +252,7 @@ physikalischer Einheiten. Um diese zu systematisieren werden Einheitensysteme
 physikalischer Grundgrößen mit den zugehörigen Grundeinheiten. Daraus können
 alle weiteren Größen mit ihren Einheiten abgeleitet werden.
 
-In der Physik ist das Système international d'unités – kurz: SI-System –
+In der Physik ist das Système international d’unités – kurz: SI-System –
 allgemein gebräuchlich. Die sieben SI-Grundgrößen mit ihren Grundeinheiten sind
 in der nachfolgenden Tabelle zusammengestellt. Alle weiteren physikalischen
 Einheiten lassen sich aus diesen Grundeinheiten ableiten. Für die Einheit der
