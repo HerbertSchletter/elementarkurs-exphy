@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.4.0
+version:  2021.4.1
 
 language: de
 
@@ -288,7 +288,7 @@ Die Angabe der Messunsicherheit kann als absolute oder relative Unsicherheit
 erfolgen. Für die Masse der oben angegebenen Person könnte die vollständige
 Angabe wie folgt aussehen:
 
-$$m=87\pm 4~\mathrm{kg}\quad\textrm{bzw.}\quad m=87~\mathrm{kg}\pm5\,\% \, .$$
+$$m=(87\pm 4)~\mathrm{kg}\quad\textrm{bzw.}\quad m=87~\mathrm{kg}\pm5\,\% \, .$$
 
 ### Bezugssysteme
 
