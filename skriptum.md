@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.4.2
+version:  2021.5.0
 
 language: de
 
@@ -312,7 +312,7 @@ eindimensionales Koordinatensystem ($x$-Achse). Für zwei- oder dreidimensionale
 Beschreibungen werden entsprechend 2D $\left( x,y \right)$ oder 3D
 $\left( x,y,z \right)$ Koordinatensysteme verwendet.
 
-Die bisher genannten Koordinatensysteme sind rechtwinklige, oder kartesische
+Die bisher genannten Koordinatensysteme sind rechtwinklige oder kartesische
 Koordinatensysteme. Es handelt sich um sogenannte Rechtssysteme, d.h. die Lage
 der Achsen zueinander kann durch die Finger der rechten Hand ermittelt werden.
 Wie in der folgenden Abbildung dargestellt, entsprechen Daumen, Zeigefinger und
@@ -637,10 +637,39 @@ Scheitelpunkt nicht mehr mit dem Abwurfpunkt übereinstimmt, sondern von $h_0$,
 $v_0$ und $\alpha$ abhängt.
 
 ### Dynamik
-
+        --{{0}}--
 Die Dynamik befasst sich mit der Ursache von Bewegungen, oder genauer
-ausgedrückt: mit der Ursache von Bewegungszustandsänderungen. Zunächst halten
-wir qualitativ folgende grundlegende Beobachtungen fest:
+ausgedrückt: mit der Ursache von Bewegungszustandsänderungen. Eine solche
+Änderung eines Bewegungszustands erfordert immer das Einwirken einer Kraft. Das
+quantitative Zusammenspiel von Kraft und Bewegungszustandsänderung wird durch
+die drei Newtonschen Axiome ausgedrückt, die in den ersten Abschnitten zur
+Dynamik betrachtet werden.
+
+        --{{1}}--
+Ebenfalls in den ersten Abschnitten wird der Impuls als neue Größe eingeführt.
+Zunächst dient er nur als quantitativer Ausdruck eines Bewegungszustands. Im
+weiteren Verlauf der Betrachtungen zeigt sich jedoch, dass es sich beim Impuls
+um eine Erhaltungsgröße handelt. Solche Größen, die unter bestimmten
+Voraussetzungen konstant bleiben, haben immer eine große Bedeutung für die
+Beschreibung oder Berechnung von Naturvorgängen.
+
+        --{{2 Deutsch Female}}--
+Anschließend an die Betrachtung des Impulses, lenken die folgenden Abschnitte
+das Augenmerk auf den Begriff der Kraft. Dabei werden verschiedene Kräfte durch
+Formeln quantifiziert. Aufbauend auf die Kenntnis dieser Kräfte wird die Arbeit
+als physikalische Größe eingeführt. Sie wird immer dann relevant, wenn ein
+Körper unter dem Einfluss einer Kraft bewegt wird. Dies geschieht beispielsweise
+beim Anheben oder bei der Beschleunigung eines Körpers.
+
+        --{{3 Deutsch Female}}--
+Die Betrachtung der Arbeit wiederum führt zu der Erkenntnis, dass ein Körper
+die an ihm verrichtete Arbeit gewissermaßen speichern kann und damit seinerseits
+in der Lage ist, Arbeit zu verrichten. Diese „gespeicherte Arbeit“ wird als
+Energie bezeichnet. Sie ist – ähnlich wie der Impuls – eine Erhaltungsgröße.
+
+#### Bewegungszustände und Bewegungszustandsänderungen
+Den Ausgangspunkt für die Betrachtung der Dynamik bilden die beiden folgenden
+qualitativen Beobachtungen:
 
 - Körper (bzw. Massepunkte) ändern ihren Bewegungszustand nicht spontan. Für
   eine Änderung des Bewegungszustandes ist stets eine Wechselwirkung des Körpers
