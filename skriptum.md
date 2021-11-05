@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.5.0
+version:  2021.6.0
 
 language: de
 
@@ -722,7 +722,7 @@ style = "width: 5cm;"
 Mit diesen Definitionen von Impuls und Kraft können nun die anfänglichen,
 qualitativen Beobachtungen auch quantitativ ausgedrückt werden. Die
 entsprechenden Aussagen gehen auf Sir Isaac<!-- style ="font-variant: small-caps;" -->
-Newton<!-- style ="font-variant: small-caps;" --> (1643 -- 1727) zurück.
+Newton<!-- style ="font-variant: small-caps;" --> (1643 – 1727) zurück.
 
 #### Die Newton<!-- style ="font-variant: small-caps;" -->schen Axiome
 
@@ -819,7 +819,7 @@ $$\vec{p_1}=m_1 \cdot \vec{v_1} \qquad \vec{p_2} = m_2 \cdot \vec{v_2} \qquad \t
 Der Gesamtimpuls dieses Systems ergibt sich als vektorielle Summe aller
 Einzelimpulse:
 
-$$\vec{p}_{ges}=\sum_i \vec{p_i}$$
+$$\vec{p}_\mathrm{ges}=\sum_i \vec{p_i}$$
 
 Wir betrachten im Folgenden sogenannte abgeschlossene Systeme. Dafür müssen
 folgende Bedingungen erfüllt sein:
@@ -834,7 +834,7 @@ eindimensionalen Bewegung. Experimentell lässt sich dies realisieren durch zwei
 Wagen, die sich reibungsfrei auf einer Schiene bewegen können. Anfangs befinden
 sich beide Wagen in Ruhe. Für Einzel- und Gesamtimpuls gilt:
 
-$$p_1 = p_2 =0 \qquad p_{ges}=0$$
+$$p_1 = p_2 =0 \qquad p_\mathrm{ges}=0$$
 
 Zwischen beiden Wagen befinde sich eine gespannte Feder, die plötzlich
 freigegeben wird und die Wagen auseinanderdrückt. Das bedeutet, dass die Wagen
@@ -847,7 +847,7 @@ $$m_1 v'_1 = -m_2 v'_2 \, .$$
 
 Das bedeutet
 
-$$p'_1 =-p'_2 \qquad \textrm{und } \qquad p'_{ges}= p'_1 +p'_2 =0 \, .$$
+$$p'_1 =-p'_2 \qquad \textrm{und } \qquad p'_\mathrm{ges}= p'_1 +p'_2 =0 \, .$$
 
 Dabei geben gestrichene Größen den Zustand nach der Wechselwirkung an. Der
 Gesamtimpuls ändert sich bei dieser Wechselwirkung also nicht.
@@ -1333,8 +1333,9 @@ Wir kennen nun zwei elementare Erhaltungssätze der Mechanik: Impulssatz und
 Energiesatz. Ihre Anwendung bietet einen Ansatz zur Lösung zahlreicher
 mechanischer Probleme. Wir wollen dies an einigen Beispielen betrachten.
 
-{{1}}
+    {{1}}
 ************************************************
+
 **Beispiel 1: Pendel und Hemmungspendel**
 
 Ein Fadenpendel der Masse $m$ wird in eine Höhe $h_1$ ausgelenkt (die Ruhelage
@@ -1359,10 +1360,12 @@ die erreichte Höhe des Pendelkörpers. Für die energetische Betrachtung gilt
 weiterhin die Gleichheit:
 
 $$mgh_2 = \frac{1}{2}mv^2_\mathrm{max} = mgh_1 \quad  \Rightarrow \quad  h_2 = h_1 \, .$$
+
 *******************************************
 
-{{2}}
+    {{2}}
 ***********************************************
+
 **Beispiel 2: Zentrale Stöße**
 
 Als Stoß bezeichnet man in der Physik eine (beliebige) Wechselwirkung zweier
@@ -1418,6 +1421,7 @@ $$v'_1=v_1-v'_2=v_1-v_1=0 \, .$$
 
 Die beiden Körper tauschen also ihre Geschwindigkeiten: Körper 1 kommt zur Ruhe,
 Körper 2 bewegt sich mit $v_1$ weiter.
+
 *********************************************************
 
 ##### Zusammenfassung
