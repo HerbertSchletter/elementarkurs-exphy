@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.7.0
+version:  2021.7.1
 
 language: de
 
@@ -1804,7 +1804,7 @@ ein abgeschlossenes System liegt vor, wenn
 Damit lautet der **Drehimpulserhaltungssatz**:
 
 > In einem abgeschlossenen System ist der (Gesamt-) Drehimpuls eine
-  Erhaltungsgröße.
+> Erhaltungsgröße.
 
 Der Drehimpuls kann in Bezug auf den translatorischen Impuls $\vec{p}$ auch in
 folgender Form definiert werden:
