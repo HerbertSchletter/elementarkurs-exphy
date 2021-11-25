@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.7.1
+version:  2021.8.0
 
 language: de
 
@@ -1936,15 +1936,20 @@ Impuls/ Drehimpuls
 
 ### Mechanische Schwingungen
 
-Mechanische Schwingungen sind ein Spezialfall der Bewegung, bei dem sich ein definierter Bewegungsablauf permanent wiederholt. Aufgrund ihres häufigen und vielfältigen Auftretens besitzt diese Bewegungsform eine hohe praktische Bedeutung. Daher werden auch hierfür eigene Größen und Gesetze definiert, die die Charakteristik der Schwingung – den sich wiederholenden Bewegungsablauf – widerspiegeln.
+        --{{0}}--
+Mechanische Schwingungen sind ein Spezialfall der Bewegung, bei dem sich ein
+definierter Bewegungsablauf permanent wiederholt. Aufgrund ihres häufigen und
+vielfältigen Auftretens besitzt diese Bewegungsform eine hohe praktische
+Bedeutung. Daher werden auch hierfür eigene Größen und Gesetze definiert, die
+die Charakteristik der Schwingung – den sich wiederholenden Bewegungsablauf –
+widerspiegeln.
 
+#### Kinematik der Schwingung
 Schwingungen treten nicht nur in der Mechanik, sondern in allen Teilbereichen der Physik auf. Entsprechend allgemein fällt die Definition einer Schwingung aus:
 
 > Eine Schwingung ist eine zeitlich periodische Änderung einer beliebigen physikalischen Größe.
 
 Bei mechanischen Schwingungen ist es die periodische Änderung einer mechanischen Größe – in der Regel eine Auslenkung $x$. Es können sich jedoch auch beliebige andere Größen zeitlich periodisch ändern, z.B. Geschwindigkeit, Kraft, Energie…
-
-#### Kinematik der Schwingung
 
 Wir betrachten zunächst allgemein eine beliebige physikalische Größe $A(t)$, die einer periodischen Änderung unterliegt, d.h. die eine Schwingung ausführt. Inder folgende  Abbildung sind zwei mögliche Verläufe dieser periodischen Änderung durch Sinus- und Kosinusfunktion dargestellt. Tatsächlich kann der funktionale Verlauf $A(t)$ aber beliebig periodisch sein. Weitere technisch bedeutsame Schwingungen sind beispielsweise Rechteck, Dreieck und Sägezahn. Im Rahmen dieses Kurses beschäftigen wir uns jedoch nur mit sogenannten harmonischen Schwingungen. Diese werden durch eine einzelne Sinus- oder Kosinusfunktion beschrieben.
 
