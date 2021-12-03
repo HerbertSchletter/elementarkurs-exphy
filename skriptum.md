@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.8.0
+version:  2021.9.0
 
 language: de
 
@@ -2060,11 +2060,11 @@ Die Gesamtenergie des Pendels bleibt also stets konstant. Sie wird nur zwischen 
 
 Um in der mathematischen Beschreibung einer Schwingung auch die Reibung zu berücksichtigen, muss diese als weitere Kraftkomponente aufgenommen werden. Als Gesamtkraft wird dann für das Federpendel angesetzt:
 
-$$F_{gesamt} = F_F + F_{Reib} \, .$$
+$$F_\mathrm{gesamt} = F_\mathrm F + F_\mathrm{Reib} \, .$$
 
 Ausgangspunkt zur Ermittlung der Bewegungsgesetze ist nach wie vor das zweite Newtonsche Axiom, in das nun beide Kraftkomponenten eingesetzt werden müssen:
 
-$$F_{gesamt} = F_F + F_{Reib} = m \ddot{x} \, .$$
+$$F_\mathrm{gesamt} = F_\mathrm F + F_\mathrm{Reib} = m \ddot{x} \, .$$
 
 Der Reibung können unterschiedliche Mechanismen zu Grunde liegen (z.B. Festkörper-, Flüssigkeits- oder Gasreibung). Entsprechend existieren verschiedene Formeln für die Reibungskraft. Die weitere mathematische Herleitung (auf die wir hier verzichten) wird dadurch rechnerisch aufwändiger, folgt aber dem gleichen Schema wie zuvor. Im Ergebnis zeigt diese Herleitung ebenso wie das Experiment, dass auch gedämpfte Pendel eine Schwingung ausführen können. Dabei nimmt jedoch die Amplitude im zeitlichen Verlauf ab. Die mathematische Herleitung für diesen Fall liefert das Orts-Zeit-Gesetz
 
@@ -2097,72 +2097,113 @@ Liegt die Erregerfrequenz jedoch sehr nah an der Eigenfrequenz des schwingungsf�
 Bei geringer Dämpfung kann im Resonanzfall aber die Amplitude und die Bewegungsgeschwindigkeit des Pendels so stark anwachsen, dass es schließlich zu einer Beschädigung oder Zerstörung des schwingungsfähigen Systems kommen kann. Ein eindrucksvolles Beispiel für diese „Resonanzkatastrophe“ ist der Einsturz der Tacoma Narrows Bridge.
 
 ## Wärmelehre
-Die Wärmelehre beschäftigt sich mit den Zuständen und Zustandsänderungen thermodynamischer Systeme.
 
-Jeder Körper (egal ob fest, flüssig oder gasförmig) sowie jede Kombination von Körpern – eingeschlossen in einem Behälter mit definiertem Volumen – stellt ein thermodynamisches System dar.
+        --{{0}}--
+Die Wärmelehre beschäftigt sich mit den Zuständen und Zustandsänderungen
+thermodynamischer Systeme.
+Jeder Körper (egal ob fest, flüssig oder gasförmig) sowie jede Kombination von
+Körpern – eingeschlossen in einem Behälter mit definiertem Volumen – stellt ein
+thermodynamisches System dar. Der Zustand eines solchen Systems wird durch eine
+Reihe sogenannter Zustandsgrößen beschrieben. Diese bilden auch den ersten
+thematischen Schwerpunkt dieses Kapitels.
+
+        --{{1}}--
+Ein zweiter Schwerpunkt befasst sich mit der Betrachtung der Energie
+thermodynamischer Systeme. Neben den bekannten Energieformen der Mechanik wird
+in diesem Zusammenhang die innere Energie eines Systems eingeführt. Schließlich
+wird auch für thermodynamische Systeme das Prinzip der Energieerhaltung
+formuliert.
 
 ### Zustandsgrößen und Zustandsgleichung
 
-Der Zustand eines thermodynamischen Systems wird durch sogenannte Zustandsgrößen beschrieben. Dazu gehören insbesondere:
+Der Zustand eines thermodynamischen Systems wird durch sogenannte Zustandsgrößen
+beschrieben. Dazu gehören insbesondere:
 
 -   Volumen $V$: Dieses wird durch den umschließenden Behälter festgelegt.
 
--   Teilchenzahl $N$: Die Anzahl $N$ der im thermodynamischen System enthaltenen (mikroskopischen) Teilchen. Anstelle der Teilchenzahl kann auch die Masse $m$ des Systems angegeben werden. Des Weiteren ist eine Angabe der Stoffmenge $n$ möglich. Es gilt der Zusammenhang
+-   Teilchenzahl $N$: Die Anzahl $N$ der im thermodynamischen System enthaltenen
+    (mikroskopischen) Teilchen. Anstelle der Teilchenzahl kann auch die Masse
+    $m$ des Systems angegeben werden. Des Weiteren ist eine Angabe der
+    Stoffmenge $n$ möglich. Es gilt der Zusammenhang
 
-    $$N = n \cdot N_A \qquad \textrm{Einheit: } [n] =
-    1~\mathrm{mol}\, .$$
+    $$N = n \cdot N_\mathrm A \qquad \textrm{Einheit: } [n] = 1~\mathrm{mol}\, .$$
 
-    Dabei ist $N_A = 6{,}022\cdot 10^{23}~\mathrm{mol^{-1}}$
+    Dabei ist $N_\mathrm A = 6{,}022\cdot 10^{23}~\mathrm{mol^{-1}}$
     die Teilchenanzahl in einem Mol (Avogadro<!-- style ="font-variant: small-caps;" -->-Konstante).
 
--   Temperatur $\vartheta$ bzw. absolute Temperatur $T$: Die absolute Temperatur wird in der Einheit Kelvin angegeben: $[T]=1~\mathrm K$. Für die Temperatur $\vartheta$ existieren weitere Einheiten wie die Celsius-Skala. Die Umrechnung lautet:
+-   Temperatur $\vartheta$ bzw. absolute Temperatur $T$: Die absolute Temperatur
+    wird in der Einheit Kelvin angegeben: $[T]=1~\mathrm K$. Für die Temperatur
+    $\vartheta$ existieren weitere Einheiten wie die Celsius-Skala. Die
+    Umrechnung lautet:
 
-    $$\frac{T}{\mathrm K} = \frac{\vartheta}{\mathrm{°C}}
-    + 273,15 \, .$$
+    $$\frac{T}{\mathrm K} = \frac{\vartheta}{\mathrm{°C}} + 273,15 \, .$$
 
-    In den Formeln der Wärmelehre wird stets die absolute
-    Temperatur angewendet!
+    In den Formeln der Wärmelehre wird stets die absolute Temperatur angewendet!
 
--   Druck $p$: Die Teilchen, aus denen das thermodynamische System besteht, stoßen in ihrer Bewegung gegen die Wände des Behälters und üben damit eine Kraft $F$ auf diese aus. Der Druck in einem thermodynamischen System ist definiert als
+-   Druck $p$: Die Teilchen, aus denen das thermodynamische System besteht,
+    stoßen in ihrer Bewegung gegen die Wände des Behälters und üben damit eine
+    Kraft $F$ auf diese aus. Der Druck in einem thermodynamischen System ist
+    definiert als
 
-    $$p= \frac{F}{A} \qquad
-    \textrm{Einheit: } [p] = 1~\frac{\mathrm N}{\mathrm m^2}
-    = 1~\mathrm{Pa} \quad \textrm{(Pascal),}$$
+    $$p= \frac{F}{A} \qquad \textrm{Einheit: } [p] = 1~\frac{\mathrm N}{\mathrm m^2} = 1~\mathrm{Pa} \quad \textrm{(Pascal),}$$
 
-    wobei $A$ die Fläche der Gefäßwand ist, auf die die
-    Kraft $F$ wirkt.
+    wobei $A$ die Fläche der Gefäßwand ist, auf die die Kraft $F$ wirkt.
 
-Diese Größen sind nicht unabhängig voneinander. Tatsächlich bestehen zwischen ihnen funktionale Zusammenhänge. Eine mathematische Gleichung, die einen Zusammenhang zwischen Druck, Temperatur, Teilchenzahl und Volumen herstellt, wird als **Zustandsgleichung** eines thermodynamischen Systems bezeichnet.
+Diese Größen sind nicht unabhängig voneinander. Tatsächlich bestehen zwischen
+ihnen funktionale Zusammenhänge. Eine mathematische Gleichung, die einen
+Zusammenhang zwischen Druck, Temperatur, Teilchenzahl und Volumen herstellt,
+wird als **Zustandsgleichung** eines thermodynamischen Systems bezeichnet.
 
-Zur Beschreibung realer Systeme werden auch in der Wärmelehre Modelle angewendet, anhand derer Herleitungen und Berechnungen durchgeführt werden können. Das einfachste Modell eines thermodynamischen Systems ist das **ideale Gas**. Dabei gelten die folgenden vereinfachenden Annahmen:
+Zur Beschreibung realer Systeme werden auch in der Wärmelehre Modelle
+angewendet, anhand derer Herleitungen und Berechnungen durchgeführt werden
+können. Das einfachste Modell eines thermodynamischen Systems ist das
+**ideale Gas**. Dabei gelten die folgenden vereinfachenden Annahmen:
 
-1.  Die Gasteilchen werden als Punktmassen aufgefasst, deren Volumen vernachlässigbar klein ist. Dadurch steht ihnen in ihrer Bewegung das gesamte Behältervolumen zur Verfügung.
+1.  Die Gasteilchen werden als Punktmassen aufgefasst, deren Volumen
+    vernachlässigbar klein ist. Dadurch steht ihnen in ihrer Bewegung das
+    gesamte Behältervolumen zur Verfügung.
 
-2.  Die Teilchen treten miteinander und mit den Wänden nur in elastischen Stößen in Wechselwirkung. Eine gegenseitige Anziehung oder Abstoßung findet jedoch nicht statt.
+2.  Die Teilchen treten miteinander und mit den Wänden nur in elastischen Stößen
+    in Wechselwirkung. Eine gegenseitige Anziehung oder Abstoßung findet jedoch
+    nicht statt.
 
-In der Realität erfüllen Gase, die sich deutlich oberhalb ihrer Kondensationstemperatur und bei nicht zu hohem Druck befinden, diese Annahmen sehr gut. So kann beispielsweise Luft unter Normalbedingungen als ideales Gas aufgefasst werden.
+In der Realität erfüllen Gase, die sich deutlich oberhalb ihrer
+Kondensationstemperatur und bei nicht zu hohem Druck befinden, diese Annahmen
+sehr gut. So kann beispielsweise Luft unter Normalbedingungen als ideales Gas
+aufgefasst werden.
 
 Für ein ideales Gas gilt die Zustandsgleichung:
 
 $$pV = nRT \, .$$
 
-Dabei ist $R=8{,}314~\frac{\mathrm J}{\mathrm{mol\cdot K}}$ die allgemeine Gaskonstante. Alle möglichen Zustände (charakterisiert durch die Größen $p$, $V$, $n$ und $T$), die ein ideales Gas annehmen kann, erfüllen diese Zustandsgleichung. Andere Zustände sind für ein ideales Gas nicht möglich.
+Dabei ist $R=8{,}314~\frac{\mathrm J}{\mathrm{mol\cdot K}}$ die allgemeine
+Gaskonstante. Alle möglichen Zustände (charakterisiert durch die Größen $p$,
+$V$, $n$ und $T$), die ein ideales Gas annehmen kann, erfüllen diese
+Zustandsgleichung. Andere Zustände sind für ein ideales Gas nicht möglich.
 
-Mit der Zustandsgleichung können Zustandsänderungen eines thermodynamischen Systems (sogenannte thermodynamische Prozesse) berechnet werden. Um das prinzipielle Vorgehen einer solchen Berechnung zu verdeutlichen, betrachten wir beispielhaft folgenden Prozess: Ein ideales Gas wird, ausgehend von dem Druck $p_0$ und der Temperatur $T_0$ in ein festes Volumen $V$ eingesperrt und auf die Temperatur $T_1>T_0$ erwärmt. Als Folge dieser Erwärmung wird sich der Druck des Gases ändern.
+Mit der Zustandsgleichung können Zustandsänderungen eines thermodynamischen
+Systems (sogenannte thermodynamische Prozesse) berechnet werden. Um das
+prinzipielle Vorgehen einer solchen Berechnung zu verdeutlichen, betrachten wir
+beispielhaft folgenden Prozess: Ein ideales Gas wird, ausgehend von dem Druck
+$p_0$ und der Temperatur $T_0$ in ein festes Volumen $V$ eingesperrt und auf
+die Temperatur $T_1>T_0$ erwärmt. Als Folge dieser Erwärmung wird sich der Druck
+des Gases ändern.
 
-Zunächst wird unterschieden, welche Größen bei dem zu untersuchenden Vorgang konstant bleiben und welche sich verändern. Für das obige Beispiel gilt:
+Zunächst wird unterschieden, welche Größen bei dem zu untersuchenden Vorgang
+konstant bleiben und welche sich verändern. Für das obige Beispiel gilt:
 
 - konstante Größen: Stoffmenge $n$, Volumen $V$
 - veränderliche Größen: Temperatur $T$, Druck $p$
 
-Nun wird die Zustandsgleichung für Anfangs- und Endzustand
-aufgestellt:
+Nun wird die Zustandsgleichung für Anfangs- und Endzustand aufgestellt:
 
 $$\begin{aligned}
 p_0 V &= nRT_0 \\
 p_1 V &= nRT_1 \, .\end{aligned}$$
 
-Diese Gleichungen werden jeweils so umgestellt, dass die veränderlichen Größen $p$ und $T$ auf der einen Seite stehen, während die konstanten Größen $n$, $V$ und $R$ auf der anderen Seite erscheinen:
+Diese Gleichungen werden jeweils so umgestellt, dass die veränderlichen Größen
+$p$ und $T$ auf der einen Seite stehen, während die konstanten Größen $n$, $V$
+und $R$ auf der anderen Seite erscheinen:
 
 $$\frac{p_0}{T_0} = \frac{nR}{V} = \frac{p_1}{T_1} \, .$$
 
@@ -2175,53 +2216,104 @@ ergibt sich für konstante Stoffmenge und konstantes Volumen:
 
 $$\frac{p}{T} = \mathrm{const.} \qquad \textrm{bzw.} \quad p \propto T \, .$$
 
-Andere Zustandsänderungen können ganz analog behandelt werden. Nach der jeweils konstanten Zustandsgröße benennt man die Zustandsänderungen:
+Andere Zustandsänderungen können ganz analog behandelt werden. Nach der jeweils
+konstanten Zustandsgröße benennt man die Zustandsänderungen:
 
 -   isotherm: $T = \mathrm{const}$
 -   isobar: $p= \mathrm{const}$
 -   isochor: $V = \mathrm{const}$ (siehe obiges Beispiel)
 
-Neben der Berechnung einer Zustandsänderung lassen sich thermodynamische Prozesse grafisch darstellen, indem jeweils zwei Zustandsgrößen in einem Diagramm gegeneinander aufgetragen werden. Besonders häufig werden hierfür $p$-$V$-Diagramme genutzt (siehe folgende Abbildung). Dabei ergeben isotherme Prozesse eine Hyperbel ($p\propto V^{-1})$, isobare Prozesse erscheinen als horizontale Gerade ($p=\mathrm{const}$) und isochore Prozesse als vertikale Gerade ($V=\mathrm{const}$).
+Neben der Berechnung einer Zustandsänderung lassen sich thermodynamische
+Prozesse grafisch darstellen, indem jeweils zwei Zustandsgrößen in einem
+Diagramm gegeneinander aufgetragen werden. Besonders häufig werden hierfür
+$p$-$V$-Diagramme genutzt (siehe folgende Abbildung). Dabei ergeben isotherme
+Prozesse eine Hyperbel ($p\propto V^{-1})$, isobare Prozesse erscheinen als
+horizontale Gerade ($p=\mathrm{const}$) und isochore Prozesse als vertikale
+Gerade ($V=\mathrm{const}$).
 
 ![p-V-Diagramm mit zwei Isothermen, einer Isobaren und einer Isochoren](grafik/V09_pV-Diagramm.svg "Thermodynamische Prozesse werden häufig in $p$-$V$-Diagrammen dargestellt. Isochore Prozesse ergeben dabei vertikale Geraden, isobare Prozesse entsprechen horizontalen Geraden, isotherme Prozesse ergeben Hyperbeln. Die dargestellten Isothermen entsprechen einem Mol eines idealen Gases bei Temperaturen von $300~\mathrm K$ und $500~\mathrm K$.")
 
 ### Temperatur, innere Energie und Wärme
 
-Die Teilchen (Atome, Moleküle), aus denen ein thermodynamisches System besteht, sind in ständiger (ungeordneter) Bewegung, selbst dann, wenn das System insgesamt in Ruhe ist. Aufgrund des ungeordneten Charakters dieser Bewegung und der großen Teilchenanzahl realer Systeme ist die Vektorsumme aller Einzel-Geschwindigkeiten null, weswegen das Gesamtsystem keine Bewegung aufweist. Trotzdem ist in dieser ungeordneten Bewegung kinetische Energie gespeichert. Diese wird als **thermische Energie** $E_\mathrm{therm}$ oder **innere Energie** $U$ des thermodynamischen Systems bezeichnet. Auch sie ist eine Zustandsgröße des Systems.
+Die Teilchen (Atome, Moleküle), aus denen ein thermodynamisches System besteht,
+sind in ständiger (ungeordneter) Bewegung, selbst dann, wenn das System
+insgesamt in Ruhe ist. Aufgrund des ungeordneten Charakters dieser Bewegung und
+der großen Teilchenanzahl realer Systeme ist die Vektorsumme aller
+Einzel-Geschwindigkeiten null, weswegen das Gesamtsystem keine Bewegung
+aufweist. Trotzdem ist in dieser ungeordneten Bewegung kinetische Energie
+gespeichert. Diese wird als **thermische Energie** $E_\mathrm{therm}$ oder
+**innere Energie** $U$ des thermodynamischen Systems bezeichnet. Auch sie ist
+eine Zustandsgröße des Systems.
 
-Die innere Energie eines thermodynamischen Systems ist mit der Temperatur verknüpft. Exakter ausgedrückt: Die Temperatur ist ein Maß für die mittlere kinetische Energie eines Teilchens im Körper:
+Die innere Energie eines thermodynamischen Systems ist mit der Temperatur
+verknüpft. Exakter ausgedrückt: Die Temperatur ist ein Maß für die mittlere
+kinetische Energie eines Teilchens im Körper:
 
 $$\overline{E_\mathrm{kin}} = \frac{1}{2} m \overline{v^2} \propto T \, .$$
 
-Die thermische Energie eines Systems ist die Summe aller Einzelenergien der Teilchen, aus denen das System besteht. Folglich gilt:
+Die thermische Energie eines Systems ist die Summe aller Einzelenergien der
+Teilchen, aus denen das System besteht. Folglich gilt:
 
 $$E_\mathrm{therm} \propto N \cdot T \, .$$
 
-Befinden sich zwei thermodynamische Systeme miteinander in Kontakt, so wissen wir aus Erfahrung, dass sich ihre Temperaturen einander angleichen. Das wärmere System kühlt ab, während das kältere erwärmt wird. Man spricht vom thermodynamischen Gleichgewicht zweier Systeme, wenn sie dieselbe Temperatur besitzen. Allgemein können wir formulieren:
+Befinden sich zwei thermodynamische Systeme miteinander in Kontakt, so wissen
+wir aus Erfahrung, dass sich ihre Temperaturen einander angleichen. Das wärmere
+System kühlt ab, während das kältere erwärmt wird. Man spricht vom
+thermodynamischen Gleichgewicht zweier Systeme, wenn sie dieselbe Temperatur
+besitzen. Allgemein können wir formulieren:
 
-> Zwei miteinander in Kontakt stehende thermodynamische Systeme streben ein thermodynamisches Gleichgewicht an. Befinden sich die Systeme A und B im thermodynamischen Gleichgewicht und die Systeme B und C im thermodynamischen Gleichgewicht, so sind auch die Systeme A und C im thermodynamischen Gleichgewicht.
+> Zwei miteinander in Kontakt stehende thermodynamische Systeme streben ein
+> thermodynamisches Gleichgewicht an. Befinden sich die Systeme A und B im
+> thermodynamischen Gleichgewicht und die Systeme B und C im thermodynamischen
+> Gleichgewicht, so sind auch die Systeme A und C im thermodynamischen
+> Gleichgewicht.
 
 Diese Aussage wird als **Nullter Hauptsatz der Wärmelehre** bezeichnet.
 
-Beim Temperaturausgleich gibt das wärmere System thermische Energie ab und kühlt dabei ab. Das kältere System nimmt diese Energie auf, wodurch es sich erwärmt, bis die Temperaturen beider Systeme übereinstimmen. Thermische Energie kann also zwischen thermodynamischen Systemen übertragen werden. Diese übertragene thermische Energie wird als **Wärme** $Q$ bezeichnet. Ihre Einheit ist das Joule: $[Q]=1~\mathrm J$.
+Beim Temperaturausgleich gibt das wärmere System thermische Energie ab und kühlt
+dabei ab. Das kältere System nimmt diese Energie auf, wodurch es sich erwärmt,
+bis die Temperaturen beider Systeme übereinstimmen. Thermische Energie kann also
+zwischen thermodynamischen Systemen übertragen werden. Diese übertragene
+thermische Energie wird als **Wärme** $Q$ bezeichnet. Ihre Einheit ist das
+oule: $[Q]=1~\mathrm J$.
 
-Durch die Zu- oder Abfuhr von Wärme wird also die innere Energie und damit die Temperatur eines thermodynamischen Systems verändert. Wie groß diese Temperaturänderung bei einem vorgegebenen Wärmeaustausch ausfällt, hängt vom Körper bzw. dessen Material ab. In jedem Fall ist die Temperaturänderung proportional zur aufgenommenen oder abgegebenen Wärme:
+Durch die Zu- oder Abfuhr von Wärme wird also die innere Energie und damit die
+Temperatur eines thermodynamischen Systems verändert. Wie groß diese
+Temperaturänderung bei einem vorgegebenen Wärmeaustausch ausfällt, hängt vom
+Körper bzw. dessen Material ab. In jedem Fall ist die Temperaturänderung
+proportional zur aufgenommenen oder abgegebenen Wärme:
 
 $$Q \propto \Delta T \, .$$
 
-Diese Proportionalität gilt, solange keine Änderung des Aggregatzustands (fest – flüssig – gasförmig) erfolgt. Der Proportionalitätsfaktor in diesem Zusammenhang wird als **Wärmekapazität** $C$ bezeichnet und gibt an, welche Wärme einem Körper zugeführt werden muss, um dessen Temperatur um $1~\mathrm K$ zu erhöhen:
+Diese Proportionalität gilt, solange keine Änderung des Aggregatzustands
+(fest – flüssig – gasförmig) erfolgt. Der Proportionalitätsfaktor in diesem
+Zusammenhang wird als **Wärmekapazität** $C$ bezeichnet und gibt an, welche
+Wärme einem Körper zugeführt werden muss, um dessen Temperatur um $1~\mathrm K$
+zu erhöhen:
 
 $$Q = C \cdot \Delta T \qquad
 \textrm{Einheit: } [C] = 1~\frac{\mathrm J}{\mathrm K} \, .$$
 
-Die Wärmekapazität eines Körpers hängt ab von dessen Masse und dem Material, aus dem er besteht. Für jedes Material lässt sich eine **spezifische Wärmekapapzität** $c$ bestimmen, die angibt, welche Wärme erforderlich ist, um $1~\mathrm{kg}$ dieses Materials um $1~\mathrm K$ zu erwärmen. Besteht ein Körper der Masse $m$ nur aus einem Material der Wärmekapazität $c$, so gilt:
+Die Wärmekapazität eines Körpers hängt ab von dessen Masse und dem Material, aus
+dem er besteht. Für jedes Material lässt sich eine
+**spezifische Wärmekapapzität** $c$ bestimmen, die angibt, welche Wärme
+erforderlich ist, um $1~\mathrm{kg}$ dieses Materials um $1~\mathrm K$ zu
+erwärmen. Besteht ein Körper der Masse $m$ nur aus einem Material der
+Wärmekapazität $c$, so gilt:
 
 $$Q = mc \Delta T \qquad
 \textrm{Einheit: } [c]= 1~\frac{\mathrm J}{\mathrm{kg\cdot K}} \, .$$
 
-Die spezifische Wärmekapazität von Wasser beträgt $c_\mathrm W=4{,}19~\frac{\mathrm{kJ}}{\mathrm{kg\cdot K}}$. Dies ist mehr als zehnmal so viel wie für die meisten festen Körper. Daher eignet sich Wasser gut zur Wärmespeicherung oder Wärmeübertragung.
+Die spezifische Wärmekapazität von Wasser beträgt
+$c_\mathrm W=4{,}19~\frac{\mathrm{kJ}}{\mathrm{kg\cdot K}}$. Dies ist mehr als
+zehnmal so viel wie für die meisten festen Körper. Daher eignet sich Wasser gut
+zur Wärmespeicherung oder Wärmeübertragung.
 
-Mit diesen Formeln können nun auch Wärmeaustauschprozesse berechnet werden, wie sie beispielsweise beim Mischen zweier Flüssigkeiten stattfinden. Der Wärmeaustausch findet so lange statt, bis beide Körper dieselbe Temperatur $T_M$ aufweisen (Dies hatten wir oben bereits als Nullten Hauptsatz der Thermodynamik formuliert). Dabei gibt der wärmere Körper 1 die Wärme
+Mit diesen Formeln können nun auch Wärmeaustauschprozesse berechnet werden, wie
+sie beispielsweise beim Mischen zweier Flüssigkeiten stattfinden. Der
+Wärmeaustausch findet so lange statt, bis beide Körper dieselbe Temperatur $T_\mathrm M$
+aufweisen (Dies hatten wir oben bereits als Nullten Hauptsatz der Thermodynamik
+formuliert). Dabei gibt der wärmere Körper 1 die Wärme
 
 $$Q = m_1 c_1 (T_1 - T_M) = m_1 c_1 |\Delta T_1|$$
 
@@ -2229,23 +2321,42 @@ an Körper 2 ab, dessen Temperatur gemäß
 
 $$Q = m_2 c_2 (T_M - T_2) = m_2 c_2 |\Delta T_2|$$
 
-auf die Mischungstemperatur $T_M$ ansteigt. Setzt man beide Formeln gleich (da die Wärme $Q$ in beiden Fällen den gleichen Wert hat), so erhält man nach Umstellen für die Mischungstemperatur:
+auf die Mischungstemperatur $T_M$ ansteigt. Setzt man beide Formeln gleich (da
+die Wärme $Q$ in beiden Fällen den gleichen Wert hat), so erhält man nach
+Umstellen für die Mischungstemperatur:
 
-$$T_M = \frac{m_1 c_1 T_1 +m_2 c_2 T_2}{m_1 c_1 + m_2 c_2} \, .$$
+$$T_\mathrm M = \frac{m_1 c_1 T_1 +m_2 c_2 T_2}{m_1 c_1 + m_2 c_2} \, .$$
 
 ### Der erste Hauptsatz der Wärmelehre
 
-Bisher wurde nur betrachtet, dass die Innere Energie eines Systems durch Zu- oder Abfuhr von Wärme verändert wurde. Aus der Mechanik wissen wir jedoch, dass auch durch die Verrichtung von Arbeit die Energie eines Körpers erhöht werden kann. Dies gilt auch für die Innere Energie eines thermodynamischen Systems. Dies führt zum **Ersten Hauptsatz der Wärmelehre**:
+Bisher wurde nur betrachtet, dass die Innere Energie eines Systems durch Zu-
+oder Abfuhr von Wärme verändert wurde. Aus der Mechanik wissen wir jedoch, dass
+auch durch die Verrichtung von Arbeit die Energie eines Körpers erhöht werden
+kann. Dies gilt auch für die Innere Energie eines thermodynamischen Systems.
+Dies führt zum **Ersten Hauptsatz der Wärmelehre**:
 
-> Die Änderung der Inneren Energie eines thermodynamischen Systems ist gleich der Summe der Arbeit, die am oder vom System verrichtet wird, und der zu- oder abgeführten Wärme:
+> Die Änderung der Inneren Energie eines thermodynamischen Systems ist gleich
+> der Summe der Arbeit, die am oder vom System verrichtet wird, und der zu- oder
+> abgeführten Wärme:
 >
 > $$\Delta U = W +Q$$
 
-Der erste Hauptsatz der Thermodynamik ist eine Formulierung des Energieerhaltungssatzes für thermodynamische Systeme. Er kann auf alle thermodynamischen Prozesse angewendet werden.
+Der erste Hauptsatz der Thermodynamik ist eine Formulierung des
+Energieerhaltungssatzes für thermodynamische Systeme. Er kann auf alle
+thermodynamischen Prozesse angewendet werden.
 
-Hinweis zum Gebrauch der Vorzeichen: Wird Arbeit *an* einem thermodynamischen System verrichtet (z.B. indem ein Gas komprimiert wird), so erhöht dies die Innere Energie, und diese Arbeit wird positiv gerechnet ($W>0$), ebenso wie zugeführte Wärme. Abgegebene Wärme und Arbeit, die *vom* System verrichtet wird (z.B. indem sich ein Gas ausdehnt) erhalten negative Vorzeichen, da sie die Innere Energie verringern.
+Hinweis zum Gebrauch der Vorzeichen: Wird Arbeit *an* einem thermodynamischen
+System verrichtet (z.B. indem ein Gas komprimiert wird), so erhöht dies die
+Innere Energie, und diese Arbeit wird positiv gerechnet ($W>0$), ebenso wie
+zugeführte Wärme. Abgegebene Wärme und Arbeit, die *vom* System verrichtet wird
+(z.B. indem sich ein Gas ausdehnt) erhalten negative Vorzeichen, da sie die
+Innere Energie verringern.
 
-Betrachten wir nun beispielhaft ein ideales Gas, das anfangs ein Volumen $V_1$ einnimmt und dessen Volumen verkleinert werden soll. Im $p$-$V$-Diagramm (siehe Abschnitt [Zustandsgrößen und Zustandsgleichung](#zustandsgrößen-und-zustandsgleichung)) bewegen wir uns folglich von rechts nach links und sehen, dass der Druck dabei zunimmt. Dazu muss Arbeit gegen den Druck des Gases verrichtet werden:
+Betrachten wir nun beispielhaft ein ideales Gas, das anfangs ein Volumen $V_1$
+einnimmt und dessen Volumen verkleinert werden soll. Im $p$-$V$-Diagramm (siehe
+Abschnitt [Zustandsgrößen und Zustandsgleichung](#zustandsgrößen-und-zustandsgleichung))
+bewegen wir uns folglich von rechts nach links und sehen, dass der Druck dabei
+zunimmt. Dazu muss Arbeit gegen den Druck des Gases verrichtet werden:
 
 $$\mathrm{d}W = F \cdot \mathrm{d}s = p \cdot A \cdot \mathrm{d}s = p \cdot \mathrm{d}V$$
 
@@ -2253,25 +2364,60 @@ beziehungsweise
 
 $$W = \int p \mathrm{d}V \, .$$
 
-Da diese Arbeit *am* System verrichtet wird, erhöht sie die Innere Energie und damit die Temperatur des Systems. Soll der Vorgang isotherm ablaufen, so muss gleichzeitig die Wärme $-Q=W$ abgeführt werden (daher das negative Vorzeichen). Erfolgt kein Wärmeaustausch mit der Umgebung (man spricht dann auch von einem adiabatischen Prozess), so erhöht sich die Temperatur des Gases. Dieser Effekt wird unter anderem in Dieselmotoren zur Zündung des Kraftstoff-Luft-Gemischs ausgenutzt.
+Da diese Arbeit *am* System verrichtet wird, erhöht sie die Innere Energie und
+damit die Temperatur des Systems. Soll der Vorgang isotherm ablaufen, so muss
+gleichzeitig die Wärme $-Q=W$ abgeführt werden (daher das negative Vorzeichen).
+Erfolgt kein Wärmeaustausch mit der Umgebung (man spricht dann auch von einem
+adiabatischen Prozess), so erhöht sich die Temperatur des Gases. Dieser Effekt
+wird unter anderem in Dieselmotoren zur Zündung des Kraftstoff-Luft-Gemischs
+ausgenutzt.
 
 ### Aggregatzustände und Umwandlungswärme
 
-Bisher wurde stets der Fall betrachtet, dass Wärme, die einem System zugeführt wird, vollständig in thermische Energie übergeht, das heißt, sie führt zu einer Temperaturerhöhung. Wie oben bereits erwähnt, gilt dies jedoch nur, solange sich der Aggregatzustand des Systems nicht ändert. Eine kontinuierliche Temperaturerhöhung führt jedoch früher oder später zum Erreichen der Schmelz- oder Siedetemperatur eines festen bzw. flüssigen Körpers.
+Bisher wurde stets der Fall betrachtet, dass Wärme, die einem System zugeführt
+wird, vollständig in thermische Energie übergeht, das heißt, sie führt zu einer
+Temperaturerhöhung. Wie oben bereits erwähnt, gilt dies jedoch nur, solange sich
+der Aggregatzustand des Systems nicht ändert. Eine kontinuierliche
+Temperaturerhöhung führt jedoch früher oder später zum Erreichen der Schmelz-
+oder Siedetemperatur eines festen bzw. flüssigen Körpers.
 
-Beim Schmelzen oder Sieden werden die Bindungen zwischen den einzelnen Teilchen im System aufgespalten. Dafür ist Energie erforderlich, die aus der zugeführten Wärme stammt. Während dieser Umwandlungsprozesse führt die Wärmezufuhr folglich nicht zu einer Temperaturänderung. Man spricht daher auch von latenter (verborgener) Wärme, da sie keine Temperaturänderung hervorruft. Die zugeführte Wärmeenergie ist dennoch im System gespeichert (in Form von Bindungsenergie) und wird bei Abkühlung während der Kondensation oder des Gefrierens wieder abgegeben.
+Beim Schmelzen oder Sieden werden die Bindungen zwischen den einzelnen Teilchen
+im System aufgespalten. Dafür ist Energie erforderlich, die aus der zugeführten
+Wärme stammt. Während dieser Umwandlungsprozesse führt die Wärmezufuhr folglich
+nicht zu einer Temperaturänderung. Man spricht daher auch von latenter
+(verborgener) Wärme, da sie keine Temperaturänderung hervorruft. Die zugeführte
+Wärmeenergie ist dennoch im System gespeichert (in Form von Bindungsenergie) und
+wird bei Abkühlung während der Kondensation oder des Gefrierens wieder abgegeben.
 
-Beispielhaft sollen hier die Phasenübergänge von Wasser betrachtet werden, ausgehend von Eis bei einer Temperatur $\vartheta \lt 0~\mathrm{°C}$. Die Wärmezufuhr erwärmt das Eis zunächst bis auf $\vartheta = 0~\mathrm{°C}$, wobei die Temperaturänderung der zugeführten Wärme proportional ist: $\Delta T \propto Q$ (siehe Seite.  ). Bei einer Temperatur von $0~\mathrm{°C}$ schmilzt das Eis, und die Temperatur steigt (vorerst) trotz fortwährender Wärmezufuhr nicht an. Erst wenn alles Eis geschmolzen ist, steigt die Temperatur wieder proportional zur Wärmezufuhr an, solange bis die Siedetemperatur von $\vartheta = 100~\mathrm{°C}$ erreicht ist. Während des Siedens wiederum bleibt die Temperatur konstant und steigt erst dann weiter an, wenn alles Wasser in Dampf umgewandelt wurde.
+Beispielhaft sollen hier die Phasenübergänge von Wasser betrachtet werden,
+ausgehend von Eis bei einer Temperatur $\vartheta \lt 0~\mathrm{°C}$. Die
+Wärmezufuhr erwärmt das Eis zunächst bis auf $\vartheta = 0~\mathrm{°C}$, wobei
+die Temperaturänderung der zugeführten Wärme proportional ist:
+$\Delta T \propto Q$ (siehe Seite.  ). Bei einer Temperatur von $0~\mathrm{°C}$
+schmilzt das Eis, und die Temperatur steigt (vorerst) trotz fortwährender
+Wärmezufuhr nicht an. Erst wenn alles Eis geschmolzen ist, steigt die Temperatur
+wieder proportional zur Wärmezufuhr an, solange bis die Siedetemperatur von
+$\vartheta = 100~\mathrm{°C}$ erreicht ist. Während des Siedens wiederum bleibt
+die Temperatur konstant und steigt erst dann weiter an, wenn alles Wasser in
+Dampf umgewandelt wurde.
 
-Dieser Vorgang ist in seinem zeitlichen Verlauf schematisch in der folgenden Abbildung dargestellt (unter der Annahme, dass eine konstante Wärmezufuhr erfolgt, also $Q \propto \Delta t$). Man beachte, dass die Anstiege der Geraden in den drei Bereichen unterschiedlich sind, da Eis, Wasser und Dampf unterschiedliche spezifische Wärmekapazitäten aufweisen.
+Dieser Vorgang ist in seinem zeitlichen Verlauf schematisch in der folgenden
+Abbildung dargestellt (unter der Annahme, dass eine konstante Wärmezufuhr
+erfolgt, also $Q \propto \Delta t$). Man beachte, dass die Anstiege der Geraden
+in den drei Bereichen unterschiedlich sind, da Eis, Wasser und Dampf
+unterschiedliche spezifische Wärmekapazitäten aufweisen.
 
 ![Temperatur-Zeit-Diagramm der Phasenübergänge von Wasser bei konstanter Wärmezufuhr.](grafik/V09_Umwandlungskurve_Wasser.svg "Einer Menge an Wasser (anfangs in Form von Eis) wird kontinuierlich Wärme zugeführt. Solange keine Änderung des Aggregatzustands erfolgt, steigt die Temperatur dabei linear an. Während der Aggregatzustandsänderungen hingegen bleibt die Temperatur konstant, da die zugeführte Energie für die jeweilige Umwandslungswärme aufgewendet wird.")
 
-Die zur Phasenumwandlung erforderliche Energie ist materialabhängig und als spezifische Umwandlungswärme $q_\mathrm u$ (beziehungsweise genauer als spezifische Schmelzwärme $q_\mathrm s$ und spezifische Verdampfungswärme $q_\mathrm v$) tabelliert. Ihre Einheit ist
+Die zur Phasenumwandlung erforderliche Energie ist materialabhängig und als
+spezifische Umwandlungswärme $q_\mathrm u$ (beziehungsweise genauer als
+spezifische Schmelzwärme $q_\mathrm s$ und spezifische Verdampfungswärme
+$q_\mathrm v$) tabelliert. Ihre Einheit ist
 
 $$[q_\mathrm u]=1~\frac{\mathrm J}{\mathrm{kg}} \, .$$
 
-Die spezifischen Umwandlungswärmen sind um Größenordnungen größer als die zur Erwärmung um $1~\mathrm K$ erforderlichen spezifischen Wärmen.
+Die spezifischen Umwandlungswärmen sind um Größenordnungen größer als die zur
+Erwärmung um $1~\mathrm K$ erforderlichen spezifischen Wärmen.
 
 ## Elektrizitätslehre
 
