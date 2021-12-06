@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.9.0
+version:  2021.9.1
 
 language: de
 
@@ -2275,7 +2275,7 @@ dabei ab. Das kältere System nimmt diese Energie auf, wodurch es sich erwärmt,
 bis die Temperaturen beider Systeme übereinstimmen. Thermische Energie kann also
 zwischen thermodynamischen Systemen übertragen werden. Diese übertragene
 thermische Energie wird als **Wärme** $Q$ bezeichnet. Ihre Einheit ist das
-oule: $[Q]=1~\mathrm J$.
+Joule: $[Q]=1~\mathrm J$.
 
 Durch die Zu- oder Abfuhr von Wärme wird also die innere Energie und damit die
 Temperatur eines thermodynamischen Systems verändert. Wie groß diese
