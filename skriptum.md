@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.9.1
+version:  2021.10.0
 
 language: de
 
@@ -1945,33 +1945,54 @@ die Charakteristik der Schwingung – den sich wiederholenden Bewegungsablauf �
 widerspiegeln.
 
 #### Kinematik der Schwingung
-Schwingungen treten nicht nur in der Mechanik, sondern in allen Teilbereichen der Physik auf. Entsprechend allgemein fällt die Definition einer Schwingung aus:
+Schwingungen treten nicht nur in der Mechanik, sondern in allen Teilbereichen
+der Physik auf. Entsprechend allgemein fällt die Definition einer Schwingung
+aus:
 
-> Eine Schwingung ist eine zeitlich periodische Änderung einer beliebigen physikalischen Größe.
+> Eine Schwingung ist eine zeitlich periodische Änderung einer beliebigen
+> physikalischen Größe.
 
-Bei mechanischen Schwingungen ist es die periodische Änderung einer mechanischen Größe – in der Regel eine Auslenkung $x$. Es können sich jedoch auch beliebige andere Größen zeitlich periodisch ändern, z.B. Geschwindigkeit, Kraft, Energie…
+Bei mechanischen Schwingungen ist es die periodische Änderung einer mechanischen
+Größe – in der Regel eine Auslenkung $x$. Es können sich jedoch auch beliebige
+andere Größen zeitlich periodisch ändern, z.B. Geschwindigkeit, Kraft, Energie…
 
-Wir betrachten zunächst allgemein eine beliebige physikalische Größe $A(t)$, die einer periodischen Änderung unterliegt, d.h. die eine Schwingung ausführt. Inder folgende  Abbildung sind zwei mögliche Verläufe dieser periodischen Änderung durch Sinus- und Kosinusfunktion dargestellt. Tatsächlich kann der funktionale Verlauf $A(t)$ aber beliebig periodisch sein. Weitere technisch bedeutsame Schwingungen sind beispielsweise Rechteck, Dreieck und Sägezahn. Im Rahmen dieses Kurses beschäftigen wir uns jedoch nur mit sogenannten harmonischen Schwingungen. Diese werden durch eine einzelne Sinus- oder Kosinusfunktion beschrieben.
+Wir betrachten zunächst allgemein eine beliebige physikalische Größe $A(t)$, die
+einer periodischen Änderung unterliegt, d.h. die eine Schwingung ausführt. In
+der folgenden  Abbildung sind zwei mögliche Verläufe dieser periodischen
+Änderung durch Sinus- und Kosinusfunktion dargestellt. Tatsächlich kann der
+funktionale Verlauf $A(t)$ aber beliebig periodisch sein. Weitere technisch
+bedeutsame Schwingungen sind beispielsweise Rechteck, Dreieck und Sägezahn. Im
+Rahmen dieses Kurses beschäftigen wir uns jedoch nur mit sogenannten
+harmonischen Schwingungen. Diese werden durch eine einzelne Sinus- oder
+Kosinusfunktion beschrieben.
 
 ![Darstellung einer Sinus- und Kosinusschwingung in einem Diagramm](grafik/V08_Schwingung.svg "Harmonische Schwingungen lassen sich durch Sinus- oder Kosinusfunktionen darstellen. Zur Beschreibung einer Schwingung nutzt man unter Anderem die Amplitude $A_0$ und die Periodendauer T.")<!--
 style = 'width: 12cm;'
 -->
 
-Zur Beschreibung der Schwingung definieren wir neue Größen (siehe obige Abbildung):
+Zur Beschreibung der Schwingung definieren wir neue Größen (siehe obige
+Abbildung):
 
--   $A_0$ … Amplitude – Maximale Auslenkung; Die Werte von $A(t)$ liegen stets im Intervall $[-A_0;A_0 ]$.
+-   $A_0$ … Amplitude – Maximale Auslenkung; Die Werte von $A(t)$ liegen stets
+    im Intervall $[-A_0;A_0 ]$.
 
--   $T$ … Periodendauer – Zeit zum Durchlaufen einer vollständigen Periode $[T]=1~\mathrm s$
+-   $T$ … Periodendauer – Zeit zum Durchlaufen einer vollständigen Periode
+    $[T]=1~\mathrm s$
 
--   $f= \frac{1}{T}$ … Frequenz – Zahl der Schwingungen pro Zeiteinheit $[f] = 1~\mathrm s^{-1}= 1~\mathrm{Hz}\,$
+-   $f= \frac{1}{T}$ … Frequenz – Zahl der Schwingungen pro Zeiteinheit
+    $[f] = 1~\mathrm s^{-1}= 1~\mathrm{Hz}\,$
 
 -   $\omega=2\pi \cdot f=\frac{2\pi}{T}$ … Kreisfrequenz
 
 #### Die freie, ungedämpfte Schwingung (am Beispiel des Federschwingers)
 
-Eine Schwingung wird als *frei* bezeichnet, wenn sie (nach der anfänglichen Auslenkung) nicht durch eine äußere Kraft angetrieben wird. Die Bezeichnung *ungedämpft* heißt, dass keine Reibungskräfte existieren sollen, was in realen Experimenten selbstverständlich nur näherungsweise der Fall sein kann.
+Eine Schwingung wird als *frei* bezeichnet, wenn sie (nach der anfänglichen
+Auslenkung) nicht durch eine äußere Kraft angetrieben wird. Die Bezeichnung
+*ungedämpft* heißt, dass keine Reibungskräfte existieren sollen, was in realen
+Experimenten selbstverständlich nur näherungsweise der Fall sein kann.
 
-Für die mathematische Beschreibung betrachten wir folgendes Federpendel (siehe Abbildung):
+Für die mathematische Beschreibung betrachten wir folgendes Federpendel (siehe
+Abbildung):
 
 - Masse $m$ an einer
 - Feder mit Federkonstante $k$,
@@ -1982,11 +2003,15 @@ Für die mathematische Beschreibung betrachten wir folgendes Federpendel (siehe 
 style = 'width: 6cm;'
 -->
 
-Aus der Dynamik wissen wir, dass die Feder ihrer Auslenkung die Federkraft entgegensetzt, d.h., es wirkt die Kraft
+Aus der Dynamik wissen wir, dass die Feder ihrer Auslenkung die Federkraft
+entgegensetzt, d.h., es wirkt die Kraft
 
 $$F_F = -kx \, .$$
 
-Die Richtung dieser Kraft weist stets zur Ruhelage der Feder. Eine solche *rücktreibende* Kraft ist Voraussetzung für eine mechanische Schwingung. Zur Bestimmung des Bewegungsablaufs setzen wir das zweite Newtonsche Axiom (in der vereinfachten Form) an:
+Die Richtung dieser Kraft weist stets zur Ruhelage der Feder. Eine solche
+*rücktreibende* Kraft ist Voraussetzung für eine mechanische Schwingung. Zur
+Bestimmung des Bewegungsablaufs setzen wir das zweite Newtonsche Axiom (in der
+  vereinfachten Form) an:
 
 $$F= ma = m \ddot{x} \, .$$
 
@@ -1998,11 +2023,19 @@ beziehungsweise nach Umstellen:
 
 $$\ddot{x}= -\frac{k}{m}x \, .$$
 
-Mathematisch betrachtet handelt es sich hierbei um eine lineare, homogene Differentialgleichung 2. Ordnung mit konstanten Koeffizienten. Verbal ausgedrückt besagt diese Formel, dass eine Funktion $x(t)$ gesucht ist, die bei zweimaliger Ableitung wieder sich selbst (mit negativem Vorzeichen und einem Vorfaktor) ergibt. Aus der Mathematik wissen wir, dass Sinus- & Kosinusfunktionen diese Forderung erfüllen. Daher wollen wir untersuchen, ob eine solche Funktion tatsächlich diese Differentialgleichung erfüllt. Wir wählen den allgemeinen Ansatz:
+Mathematisch betrachtet handelt es sich hierbei um eine lineare, homogene
+Differentialgleichung 2. Ordnung mit konstanten Koeffizienten. Verbal
+ausgedrückt besagt diese Formel, dass eine Funktion $x(t)$ gesucht ist, die bei
+zweimaliger Ableitung wieder sich selbst (mit negativem Vorzeichen und einem
+Vorfaktor) ergibt. Aus der Mathematik wissen wir, dass Sinus- &
+Kosinusfunktionen diese Forderung erfüllen. Daher wollen wir untersuchen, ob
+eine solche Funktion tatsächlich diese Differentialgleichung erfüllt. Wir wählen
+den allgemeinen Ansatz:
 
 $$x(t)= A \cdot \sin(\omega_0 t +\sigma) \, .$$
 
-Um diesen Ansatz zu überprüfen, müssen wir die Funktion $x(t)$ zweimal ableiten und in die Bewegungsgleichung einsetzen. Es gilt:
+Um diesen Ansatz zu überprüfen, müssen wir die Funktion $x(t)$ zweimal ableiten
+und in die Bewegungsgleichung einsetzen. Es gilt:
 
 $$\dot{x}(t)= A \cdot \omega_0 \cdot \cos(\omega_0 t + \sigma)$$
 
@@ -2020,17 +2053,25 @@ Dies ist erfüllt, wenn gilt
 
 $$\omega_0 = \sqrt{\frac{k}{m}} \, .$$
 
-Damit ist unser Ansatz bestätigt und zugleich eine Formel für die Kreisfrequenz gefunden. Für die Periodendauer eines Federpendels ergibt sich
+Damit ist unser Ansatz bestätigt und zugleich eine Formel für die Kreisfrequenz
+gefunden. Für die Periodendauer eines Federpendels ergibt sich
 
 $$T = \frac{2\pi}{\omega_0} = 2\pi \sqrt{\frac{m}{k}} \, .$$
 
-Die beiden Größen $A$ und $\sigma$ sind bisher noch offengeblieben. Sie ergeben sich aus den Anfangsbedingungen. $A$ ist leicht als die Amplitude der Schwingung zu identifizieren: $A=x_0$. Die Größe $\sigma$ bestimmt, mit welchem Schwingungszustand die Schwingung zum Zeitpunkt $t=0$ startet (Ruhelage, Maximalauslenkung oder ein beliebiger Zwischenzustand). Beginnt beispielsweise die Schwingung bei maximaler Auslenkung, so gilt $\sigma= \frac{\pi}{2}$ , und das Orts-Zeit-Gesetz des Federschwingers lautet:
+Die beiden Größen $A$ und $\sigma$ sind bisher noch offengeblieben. Sie ergeben
+sich aus den Anfangsbedingungen. $A$ ist leicht als die Amplitude der Schwingung
+zu identifizieren: $A=x_0$. Die Größe $\sigma$ bestimmt, mit welchem
+Schwingungszustand die Schwingung zum Zeitpunkt $t=0$ startet (Ruhelage,
+Maximalauslenkung oder ein beliebiger Zwischenzustand). Beginnt beispielsweise
+die Schwingung bei maximaler Auslenkung, so gilt $\sigma= \frac{\pi}{2}$ , und
+das Orts-Zeit-Gesetz des Federschwingers lautet:
 
 $$x(t) = x_0 \cdot \sin(\omega_0 t + \frac{\pi}{2}) = x_0 \cdot \cos(\omega_0 t) \, .$$
 
 ##### Anmerkung zur Energie eines Federschwingers
 
-Das Federpendel besitzt – je nach aktuellem Schwingungszustand – unterschiedliche Beträge der kinetischen und potentiellen Energie:
+Das Federpendel besitzt – je nach aktuellem Schwingungszustand –
+unterschiedliche Beträge der kinetischen und potentiellen Energie:
 
 $$E_\mathrm{pot} = \frac{1}{2} k x^2$$
 
@@ -2038,7 +2079,8 @@ sowie
 
 $$E_\mathrm{kin} = \frac{1}{2}m v^2 = \frac{1}{2} m \dot{x}^2 \, .$$
 
-Setzen wir für $x$ und $\dot{x}$ unser Orts-Zeit-Gesetz beziehungsweise dessen erste Ableitung ein (siehe oben), so erhalten wir:
+Setzen wir für $x$ und $\dot{x}$ unser Orts-Zeit-Gesetz beziehungsweise dessen
+erste Ableitung ein (siehe oben), so erhalten wir:
 
 $$E_\mathrm{pot} = \frac{1}{2} k x_0^2 \cos^2(\omega_0 t)$$
 
@@ -2046,7 +2088,8 @@ und
 
 $$E_\mathrm{kin} = \frac{1}{2} m x_0^2 \frac{k}{m} \sin^2(\omega_0 t) \, .$$
 
-Sowohl potentielle als auch kinetische Energie schwingen, d.h., sie ändern sich zeitlich periodisch. Für die Gesamtenergie ergibt sich:
+Sowohl potentielle als auch kinetische Energie schwingen, d.h., sie ändern sich
+zeitlich periodisch. Für die Gesamtenergie ergibt sich:
 
 $$\begin{aligned}
 E_\mathrm{ges} & = E_\mathrm{pot} + E_\mathrm{kin}\\
@@ -2054,47 +2097,94 @@ E_\mathrm{ges} & = E_\mathrm{pot} + E_\mathrm{kin}\\
 & = \frac{1}{2}k x_0^2 = \mathrm{const} \, .
 \end{aligned}$$
 
-Die Gesamtenergie des Pendels bleibt also stets konstant. Sie wird nur zwischen kinetischer und potentieller Energie hin und her transformiert.
+Die Gesamtenergie des Pendels bleibt also stets konstant. Sie wird nur zwischen
+kinetischer und potentieller Energie hin und her transformiert.
 
 #### Die freie gedämpfte Schwingung (am Beispiel des Federschwingers)
 
-Um in der mathematischen Beschreibung einer Schwingung auch die Reibung zu berücksichtigen, muss diese als weitere Kraftkomponente aufgenommen werden. Als Gesamtkraft wird dann für das Federpendel angesetzt:
+Um in der mathematischen Beschreibung einer Schwingung auch die Reibung zu
+berücksichtigen, muss diese als weitere Kraftkomponente aufgenommen werden. Als
+Gesamtkraft wird dann für das Federpendel angesetzt:
 
 $$F_\mathrm{gesamt} = F_\mathrm F + F_\mathrm{Reib} \, .$$
 
-Ausgangspunkt zur Ermittlung der Bewegungsgesetze ist nach wie vor das zweite Newtonsche Axiom, in das nun beide Kraftkomponenten eingesetzt werden müssen:
+Ausgangspunkt zur Ermittlung der Bewegungsgesetze ist nach wie vor das zweite
+Newtonsche Axiom, in das nun beide Kraftkomponenten eingesetzt werden müssen:
 
 $$F_\mathrm{gesamt} = F_\mathrm F + F_\mathrm{Reib} = m \ddot{x} \, .$$
 
-Der Reibung können unterschiedliche Mechanismen zu Grunde liegen (z.B. Festkörper-, Flüssigkeits- oder Gasreibung). Entsprechend existieren verschiedene Formeln für die Reibungskraft. Die weitere mathematische Herleitung (auf die wir hier verzichten) wird dadurch rechnerisch aufwändiger, folgt aber dem gleichen Schema wie zuvor. Im Ergebnis zeigt diese Herleitung ebenso wie das Experiment, dass auch gedämpfte Pendel eine Schwingung ausführen können. Dabei nimmt jedoch die Amplitude im zeitlichen Verlauf ab. Die mathematische Herleitung für diesen Fall liefert das Orts-Zeit-Gesetz
+Der Reibung können unterschiedliche Mechanismen zu Grunde liegen (z.B.
+Festkörper-, Flüssigkeits- oder Gasreibung). Entsprechend existieren
+verschiedene Formeln für die Reibungskraft. Die weitere mathematische Herleitung
+(auf die wir hier verzichten) wird dadurch rechnerisch aufwändiger, folgt aber
+dem gleichen Schema wie zuvor. Im Ergebnis zeigt diese Herleitung ebenso wie das
+Experiment, dass auch gedämpfte Pendel eine Schwingung ausführen können. Dabei
+nimmt jedoch die Amplitude im zeitlichen Verlauf ab. Die mathematische
+Herleitung für diesen Fall liefert das Orts-Zeit-Gesetz
 
 $$x(t)=x_0 e^{-\delta t} \cdot \sin(\omega t + \sigma) \, .$$
 
-Die Größe $\delta$ charakterisiert die Stärke der Dämpfung. Der Ausdruck $x_0 e^{-\delta t}$ widerspiegelt die zeitliche Abnahme der Amplitude. Eine genaue Betrachtung zeigt zudem, dass die Kreisfrequenz nun abgenommen hat. D.h., die Schwingung verläuft (geringfügig) langsamer als im ungedämpften Fall: $\omega < \omega_0$.
+Die Größe $\delta$ charakterisiert die Stärke der Dämpfung. Der Ausdruck
+$x_0 e^{-\delta t}$ widerspiegelt die zeitliche Abnahme der Amplitude. Eine
+genaue Betrachtung zeigt zudem, dass die Kreisfrequenz nun abgenommen hat. D.h.,
+die Schwingung verläuft (geringfügig) langsamer als im ungedämpften Fall:
+$\omega < \omega_0$.
 
-Tatsächlich tritt dieses Verhalten jedoch nur auf, wenn die Dämpfung hinreichend klein ist. Bei zu großer Dämpfung kann das Pendel nicht mehr schwingen[^1].
+Tatsächlich tritt dieses Verhalten jedoch nur auf, wenn die Dämpfung hinreichend
+klein ist. Bei zu großer Dämpfung kann das Pendel nicht mehr schwingen[^1].
 
-[^1]: Von einer Schwingung wird gesprochen, wenn das Pendel mindestens einmal seine Ruhelage durchquert.
+[^1]: Von einer Schwingung wird gesprochen, wenn das Pendel mindestens einmal
+    seine Ruhelage durchquert.
 
-Die theoretische Herleitung liefert – ebenso wie die experimentellen Befunde – eine Unterscheidung in drei verschiedene Bewegungsabläufe, die in Abhängigkeit von der Stärke der Dämpfung auftreten können:
+Die theoretische Herleitung liefert – ebenso wie die experimentellen Befunde –
+eine Unterscheidung in drei verschiedene Bewegungsabläufe, die in Abhängigkeit
+von der Stärke der Dämpfung auftreten können:
 
--   Schwingfall: Bei hinreichend kleiner Dämpfung schwingt das System: Die Ruhelage wird mindestens einmal durchquert, bevor das Pendel zur Ruhe kommt. Die Stärke der Dämpfung bestimmt, wieviel Zeit bis zum Stillstand vergeht.
+-   Schwingfall: Bei hinreichend kleiner Dämpfung schwingt das System: Die
+    Ruhelage wird mindestens einmal durchquert, bevor das Pendel zur Ruhe kommt.
+    Die Stärke der Dämpfung bestimmt, wieviel Zeit bis zum Stillstand vergeht.
 
--   Kriechfall: Bei sehr großer Dämpfung schwingt das Pendel nicht: Die Ruhelage wird nicht durchquert. Das Pendel kehrt lediglich langsam in die Ruhelage zurück.
+-   Kriechfall: Bei sehr großer Dämpfung schwingt das Pendel nicht: Die Ruhelage
+    wird nicht durchquert. Das Pendel kehrt lediglich langsam in die Ruhelage
+    zurück.
 
--   Aperiodischer Grenzfall: Dieser tritt bei genau einem Wert der Dämpfung auf. Dabei schwingt das Pendel nicht, sondern kehrt schnellstmöglich in die Ruhelage zurück, ohne diese zu durchqueren. Kleinere Dämpfungen führen in den Schwingfall, größere in den Kriechfall.
+-   Aperiodischer Grenzfall: Dieser tritt bei genau einem Wert der Dämpfung auf.
+    Dabei schwingt das Pendel nicht, sondern kehrt schnellstmöglich in die
+    Ruhelage zurück, ohne diese zu durchqueren. Kleinere Dämpfungen führen in
+    den Schwingfall, größere in den Kriechfall.
 
-Der aperiodische Grenzfall besitzt große Bedeutung für Systeme, bei denen eine Schwingung durch geeignete Dämpfung vermieden werden soll, zum Beispiel der Stoßdämpfer am Auto oder die Dämpfung einer Schwingtür.
+Der aperiodische Grenzfall besitzt große Bedeutung für Systeme, bei denen eine
+Schwingung durch geeignete Dämpfung vermieden werden soll, zum Beispiel der
+Stoßdämpfer am Auto oder die Dämpfung einer Schwingtür.
 
 #### Erzwungene Schwingungen
 
-Bisher wurden Schwingungen betrachtet, die – abgesehen von der erstmaligen Auslenkung – ohne äußere Krafteinwirkung abliefen. Nun soll der Fall betrachtet werden, dass von außen eine Kraft auf das Pendel einwirkt und es „antreibt“. Diese Kraft soll periodisch wirken mit beliebiger Frequenz (nicht zwangsläufig die Eigenfrequenz des Pendels). Auf die mathematische Behandlung verzichten wir hier. Wir stützen unsere Feststellungen auf experimentelle Ergebnisse.
+Bisher wurden Schwingungen betrachtet, die – abgesehen von der erstmaligen
+Auslenkung – ohne äußere Krafteinwirkung abliefen. Nun soll der Fall betrachtet
+werden, dass von außen eine Kraft auf das Pendel einwirkt und es „antreibt“.
+Diese Kraft soll periodisch wirken mit beliebiger Frequenz (nicht zwangsläufig
+die Eigenfrequenz des Pendels). Auf die mathematische Behandlung verzichten wir
+hier. Wir stützen unsere Feststellungen auf experimentelle Ergebnisse.
 
-Ist die Erregerfrequenz sehr verschieden von der Eigenfrequenz des Pendels (deutlich größer oder deutlich kleiner), so werden nur sehr kleine Amplituden erreicht. Das Pendel schwingt dabei mit der Erregerfrequenz, nicht mit seiner Eigenfrequenz.
+Ist die Erregerfrequenz sehr verschieden von der Eigenfrequenz des Pendels
+(deutlich größer oder deutlich kleiner), so werden nur sehr kleine Amplituden
+erreicht. Das Pendel schwingt dabei mit der Erregerfrequenz, nicht mit seiner
+Eigenfrequenz.
 
-Liegt die Erregerfrequenz jedoch sehr nah an der Eigenfrequenz des schwingungsfähigen Systems, so werden sehr große Amplituden erreicht. Dieser Fall wird als Resonanz bezeichnet. Dabei wird in jeder Periode Energie vom Erreger auf das Pendel übertragen, sodass dessen Amplitude stetig anwächst. Ist das schwingungsfähige System ausreichend stark gedämpft, so stellt sich früher oder später ein Gleichgewicht ein, bei dem durch die Reibung genau so viel Energie abgeführt wird, wie durch die Erregung eingebracht wird. Die Amplitude wächst dann nicht weiter an, sondern bleibt begrenzt.
+Liegt die Erregerfrequenz jedoch sehr nah an der Eigenfrequenz des
+schwingungsfähigen Systems, so werden sehr große Amplituden erreicht. Dieser
+Fall wird als Resonanz bezeichnet. Dabei wird in jeder Periode Energie vom
+Erreger auf das Pendel übertragen, sodass dessen Amplitude stetig anwächst. Ist
+das schwingungsfähige System ausreichend stark gedämpft, so stellt sich früher
+oder später ein Gleichgewicht ein, bei dem durch die Reibung genau so viel
+Energie abgeführt wird, wie durch die Erregung eingebracht wird. Die Amplitude
+wächst dann nicht weiter an, sondern bleibt begrenzt.
 
-Bei geringer Dämpfung kann im Resonanzfall aber die Amplitude und die Bewegungsgeschwindigkeit des Pendels so stark anwachsen, dass es schließlich zu einer Beschädigung oder Zerstörung des schwingungsfähigen Systems kommen kann. Ein eindrucksvolles Beispiel für diese „Resonanzkatastrophe“ ist der Einsturz der Tacoma Narrows Bridge.
+Bei geringer Dämpfung kann im Resonanzfall aber die Amplitude und die
+Bewegungsgeschwindigkeit des Pendels so stark anwachsen, dass es schließlich zu
+einer Beschädigung oder Zerstörung des schwingungsfähigen Systems kommen kann.
+Ein eindrucksvolles Beispiel für diese „Resonanzkatastrophe“ ist der Einsturz
+der Tacoma Narrows Bridge.
 
 ## Wärmelehre
 
@@ -2421,14 +2511,28 @@ Erwärmung um $1~\mathrm K$ erforderlichen spezifischen Wärmen.
 
 ## Elektrizitätslehre
 
+          --{{0}}--
 Die **Elektrizitätslehre** befasst sich mit den Eigenschaften und
-Wechselwirkungen elektrischer Ladungen.
-
-Tatsächlich lässt sich eine Wechselwirkung beobachten, die mit den bisher
-behandelten mechanischen Prozessen nicht zu erklären ist. Bereits in der Antike
-wurde diese Wechselwirkung beispielsweise bei Bernstein beobachtet. Daher
+Wechselwirkungen elektrischer Ladungen. Diese Ladungen äußern sich in einer
+Wechselwirkung (also in einer Kraft) zwischen geladenen Körpern. Bereits in der
+Antike wurde diese Wechselwirkung beispielsweise bei Bernstein beobachtet. Daher
 stammt auch die Bezeichnung Elektrizität: das griechische Wort für Bernstein
 lautet ‚*elektron*‘ (ἤλεκτρον).
+
+          --{{1}}--
+Im ersten Abschnitt der Elektrizitätslehre werden die Eigenschaften dieser
+Wechselwirkung und der damit verbundenen Kraft betrachtet. Insbesondere werden
+dabei auch Arbeit und Energie für diese Kraft hergeleitet. Die Ladungen
+selbst werden dabei weitgehend als ruhend angesehen. Daher wird dieser
+Teilbereich der Elektrizitätslehre als Elektrostatik bezeichnet.
+
+          --{{2 Deutsch Female}}--
+Der zweite Teilbereich der Elektrizitätslehre in diesem Physikkurs beschäftigt
+sich mit Ladungen in kontinuierlicher Bewegung, wie sie in elektrischen
+Stromkreisen auftritt. Dort werden die Grundprinzipien zur Beschreibung des
+elektrischen Stromflusses in einfachen und verzweigten Stromkreisen behandelt.
+Ausgehend von der bereits in der Elektrostatik eingeführten elektrischen Energie
+wird hier auch auf die elektrische Leistung eingegangen.
 
 ### Elektrische Ladungen – Elektrostatik
 
