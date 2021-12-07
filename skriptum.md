@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.10.0
+version:  2021.11.0
 
 language: de
 
@@ -3884,6 +3884,14 @@ Welle-Teilchen-Dualismus.
 ### Atomphysik
 
 Die Atomphysik beschäftigt sich mit dem Aufbau und den Eigenschaften der Atome.
+Dies bezieht sich insbesondere auf den Aufbau der Atomhülle. Die innere Struktur
+der Atomkerne bleibt im Rahmen der Atomphysik unberücksichtigt und stellt mit
+der Kernphysik ein eigenes Teilgebiet der Physik dar.
+
+In den nachfolgenden Abschnitten wird zunächst der grundlegende Aufbau der Atome
+aus Kern und Hülle erläutert und anschließend das quantenmechanische Atommodell
+in seinen Grundzügen vorgestellt. Darauf aufbauend werden einige grundlegende
+(und auch historisch bedeutsame) Experimente der Atomphysik vorgestellt.
 
 #### Atomkern und Atomhülle
 
