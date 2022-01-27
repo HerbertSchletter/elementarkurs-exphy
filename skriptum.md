@@ -3722,7 +3722,8 @@ Elektronen die Platte verlassen haben.
 
 Um diesen Versuchsteil zu verstehen, muss man zunächst berücksichtigen, dass die
 Elektronen im Metall gebunden sind. Um die Platte verlassen zu können, müssen
-sie eine Energiebarriere - die sogenannte - überwinden. Diese Energiebarriere
+sie eine Energiebarriere - die sogenannte **Austrittsarbeit** $W_\mathrm A$-
+überwinden. Diese Energiebarriere
 ist groß genug, dass die Elektronen sie nicht spontan überwinden können, weshalb
 die negative Ladung der Platte zunächst erhalten bleibt. Offensichtlich aber
 wird durch die Bestrahlung der Platte mit Licht Energie auf die Elektronen
