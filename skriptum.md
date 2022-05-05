@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2021.11.0
+version:  2022.1.0
 
 language: de
 
@@ -376,8 +376,8 @@ Die Lage dieses Massepunktes innerhalb des ursprünglichen Körpers ist nicht fr
 wählbar, sondern entspricht dem Schwerpunkt (oder Massenmittelpunkt), für den
 eine genaue Berechnungsvorschrift existiert. Auf letztere wird jedoch in diesem
 Kurs nicht näher eingegangen. Das Modell der Punktmasse kann nicht angewendet
-werden zur Beschreibung einer Eigenrotation eines Körpers oder bei Verformung
-des Körpers.
+werden, wenn die Form des Körpers für einen Vorgang von Bedeutung ist. Dies
+betrifft beispielsweise die Eigenrotation eines Körpers oder dessen Verformung.
 
 Ziel der Kinematik ist also, die Position eines Massepunktes im Raum sowie deren
 zeitliche Änderung (= Bewegung) anzugeben. Zu diesem Zweck benötigen wir eine
@@ -707,7 +707,7 @@ Wechselwirkung beschreibt. Ferner ist für Kräfte die vektorielle Addition
 anzuwenden. Bei mehreren auf einen Körper wirkenden Kräften ergibt sich die
 Gesamtkraft:
 
-$$\vec F_{ges} = \vec F_1+\vec F_1+\cdots$$
+$$\vec F_\mathrm{ges} = \vec F_1+\vec F_1+\cdots$$
 
 Dies bedeutet auch, dass sich die einzelnen auf einen Körper wirkenden Kräfte
 überlagern, ohne sich gegenseitig zu beeinflussen. Wie schon bei der
@@ -785,20 +785,19 @@ Des Weiteren gilt das als *Reaktionsprinzip* bezeichnete **dritte Newtonsche Axi
 > entgegengesetzt gleich der Kraft $\vec{F_2}$ auf die zweite Punktmasse:
 > $\vec{F_1} = -\vec{F_2}$ („Actio = Reactio“)
 
-Mit Hilfe der Newtonschen Axiome lassen sich nun (beliebige) Bewegungsprobleme
+Mit Hilfe der Newtonschen Axiome lassen sich nun beliebige Bewegungsprobleme
 lösen. Ausgehend von den auf einen Massepunkt wirkenden Kräften wird dabei
 dessen Orts-Zeit-Gesetz berechnet. Das prinzipielle Vorgehen folgt diesen
-Schritten:
+Schritten (hier unter der Annahme, dass die Masse des Körpers konstant bleibt):
 
 1.  Ermittlung aller auf einen Massepunkt wirkenden Kräfte $\vec F_i$
 
 2.  Bestimmung der Gesamtkraft durch Vektoraddition aller Teilkräfte
     $\vec{F}_\mathrm{ges}= \sum_i \vec{F}_i$
 
-3.  Berechnung der Beschleunigung anhand des Newtonschen Grundgesetzes
-    (Voraussetzung: Vorgang mit konstanter Masse):
+3.  Berechnung der Beschleunigung anhand des Newtonschen Grundgesetzes:
 
-    $$\vec{a}= \frac{\vec{F}_{ges}}{m}$$
+    $$\vec{a}= \frac{\vec{F}_\mathrm{ges}}{m}$$
 
 4.  Zeitliche Integration liefert das Geschwindigkeits-Zeit-Gesetz
     $\vec{v}(t)$ (siehe oben: [beschleunigte Bewegungen](#beschleunigte-geradlinige-bewegung)).
@@ -879,7 +878,7 @@ $$\Delta \vec{p_1} = - \Delta \vec{p_2}$$
 Zum Zeitpunkt $t_1$ (im obigen Experiment war dies vor der Freigabe der Feder)
 gilt für den Gesamtimpuls:
 
-$$\vec{p}_{ges}(t_1) = \vec{p_1}(t_1) + \vec{p_2}(t_1)$$
+$$\vec{p}_\mathrm {ges}(t_1) = \vec{p_1}(t_1) + \vec{p_2}(t_1)$$
 
 Zu einem beliebigen späteren Zeitpunkt $t_2$ (nicht nur nach vollständiger
 Entspannung der Feder) gilt:
@@ -922,7 +921,7 @@ Bereits in der Kinematik hatten wir festgestellt, dass ein fallender Körper –
 unabhängig von seiner Masse $m$ – die Beschleunigung $\vec{g}$ erfährt. Gemäß
 dem zweiten Newtonschen Axiom ist hierfür eine beschleunigende Kraft
 
-$$\vec{F}_G = m \vec{g}$$
+$$\vec{F}_\mathrm G = m \vec{g}$$
 
 erforderlich. Diese wird als Gewichtskraft bezeichnet und wirkt
 selbstverständlich nicht nur auf fallende Körper, sondern jederzeit auf jeden
@@ -958,7 +957,7 @@ Gravitation ist die Anziehung zwischen Körpern (Massepunkten) aufgrund ihrer
 Masse. Befindet sich eine Masse $M$ im Koordinatenursprung, so erfährt eine
 zweite Masse $m$ an einem (beliebigen) Ort $\vec{r}$ die Kraft
 
-$$\vec{F}_{Grav} = -\Gamma\frac{mM}{r^2}\cdot \vec{e}_r \, ,$$
+$$\vec{F}_\mathrm {Grav} = -\Gamma\frac{mM}{r^2}\cdot \vec{e}_r \, ,$$
 
 wobei $r=|\vec{r}|$ den Betrag des Ortsvektors bezeichnet. Die
 Gravitationskonstante $\Gamma$ hat den Wert (siehe
@@ -974,12 +973,12 @@ $M$ befindet. Damit ist die Gravitation eine Zentralkraft.
 Auf der Erdoberfläche spüren wir die Gravitation als Gewichtskraft. Es gilt also:
 
 $$\begin{aligned}
-F_G & = F_{Grav}(r=r_{Erde}) \\
-mg & = \Gamma\frac{mM_{Erde}}{r^2_{Erde}} \, .\end{aligned}$$
+F_\mathrm G & = F_\mathrm {Grav}(r=r_\mathrm {Erde}) \\
+mg & = \Gamma\frac{mM_\mathrm{Erde}}{r^2_\mathrm{Erde}} \, .\end{aligned}$$
 
 Damit folgt für die Fallbeschleunigung
 
-$$g = \Gamma\frac{M_{Erde}}{r^2_{Erde}} \, .$$
+$$g = \Gamma\frac{M_\mathrm{Erde}}{r^2_\mathrm{Erde}} \, .$$
 
 ##### Die Federkraft
 
@@ -1001,7 +1000,7 @@ Die Feder ihrerseits setzt dieser Verformung eine Kraft entgegen, die – gemä�
 dem dritten Newtonschen Axiom – der äußeren Kraft entgegengesetzt, aber gleich
 groß ist:
 
-$$\vec{F}_F = -k\vec{x} \, .$$
+$$\vec{F}_\mathrm F = -k\vec{x} \, .$$
 
 Diese Kraft wird als Federkraft bezeichnet.
 
@@ -1018,12 +1017,12 @@ Wir beschränken uns hier auf eine der grundlegenden Reibungsformen: die
 Festkörperreibung (auch trockene Reibung oder Coulomb-Reibung). Diese wirkt,
 wenn zwei feste Körper miteinander in Kontakt stehen und sich gegeneinander
 bewegen. Dies schließt also insbesondere den Fall ein, dass sich ein Körper auf
-einer festen Unterlage fortbewegt. Die dabei wirkende Reibungskraft $\vec{F}_R$
+einer festen Unterlage fortbewegt. Die dabei wirkende Reibungskraft $\vec{F}_\mathrm R$
 ist (annähernd) unabhängig von der Geschwindigkeit:
 
-$$F_R = \mu F_N$$
+$$F_\mathrm R = \mu F_\mathrm N$$
 
-$F_N$ ist dabei die oben eingeführte Normalkraft, also die Kraft, mit der der
+$F_\mathrm N$ ist dabei die oben eingeführte Normalkraft, also die Kraft, mit der der
 Körper auf seine Unterlage wirkt. Der Proportionalitätsfaktor $\mu$ wird als
 Reibungskoeffizient bezeichnet und hängt von der Materialkombination von Körper
 und Unterlage ab. In der Regel ist $\mu<1$.
@@ -1052,7 +1051,7 @@ sowohl in ihrer Richtung als auch in ihrem Betrag verändern können. Solche
 kraftumformende Einrichtungen haben große Bedeutung in der Technik. Zu ihren
 wichtigsten Vertretern gehören unter anderem Hebel und Flaschenzug.
 
-Wird ein Körper mit der Gewichtskraft $F_G$ an einem Flaschenzug mit insgesamt
+Wird ein Körper mit der Gewichtskraft $F_\mathrm G$ an einem Flaschenzug mit insgesamt
 4 Rollen aufgehängt, so ist an der Gegenseite des Flaschenzuges nur noch ein
 Viertel dieser Gewichtskraft erforderlich, um den Körper zu halten. Um den
 Körper hingegen um eine gewisse Höhe $h$ anzuheben, muss an der Gegenseite nun
@@ -1109,7 +1108,7 @@ anhand der uns bekannten Kräfte einige Arten der Arbeit betrachten.
 
 ##### Die Beschleunigungsarbeit
 
-Ein Körper der Masse m soll aus dem Stand auf eine Geschwindigkeit $v$
+Ein Körper der Masse $m$ soll aus dem Stand auf eine Geschwindigkeit $v$
 beschleunigt werden. Dies geschehe mit einer konstanten Beschleunigung $a$ auf
 einem Weg der Länge $s$. Da die Wahl von $a$ und $s$ willkürlich ist, sollen
 diese beiden Größen in der endgültigen Formel eliminiert werden. Wir gehen
@@ -1121,7 +1120,7 @@ $$W = F\cdot s \, .$$
 
 In diese setzen wir für die Kraft das Newtonsche Grundgesetz ein:
 
-$$W = m a\cdot s$$
+$$W = m a\cdot s \, .$$
 
 Für die Beschleunigung erhalten wir aus dem Weg-Zeit-Gesetz der gleichmäßig
 beschleunigten Bewegung:
@@ -1131,7 +1130,7 @@ $$s = \frac{a}{2}t^2 \quad \Rightarrow \quad a = \frac{2s}{t^2} \, .$$
 Für die in dieser Formel auftretende Zeit formen wir das
 Geschwindigkeits-Zeit-Gesetz um:
 
-$$v= at \quad \Rightarrow \quad t= \frac{v}{a}$$
+$$v= at \quad \Rightarrow \quad t= \frac{v}{a} \, .$$
 
 Dies setzen wir in die Formel für die Beschleunigung ein und erhalten:
 
@@ -1165,7 +1164,7 @@ $$W = F \cdot s = F \cdot \Delta h = mg\Delta h \, .$$
 
 Eine Feder mit der Federkonstante $k$ soll um eine Auslenkung $x_\mathrm{max}$
 gedehnt werden. Hierfür muss die Kraft $\vec{F}= k\vec{x}$ aufgewendet werden.
-Diese Kraft hängt selbst von der momentanen Auslenkung ab und ändert sich also
+Diese Kraft hängt selbst von der momentanen Auslenkung ab und ändert sich
 im Verlauf der Dehnung. In diesem Fall muss also tatsächlich das Integral zur
 Berechnung der Arbeit ausgewertet werden. Wir gehen jedoch auch hier davon aus,
 dass die Kraft stets in Wegrichtung (d.h. entlang der Federachse) angreift,
@@ -1187,7 +1186,7 @@ Arbeit gegen die Reibung verrichtet werden.
 Damit ein Körper mit unveränderter Geschwindigkeit eine gewisse Wegstrecke $s$
 gleitet, muss die Gleitreibung kompensiert werden. Dabei wird die Arbeit
 
-$$W = Fs = \mu_G F_N s$$
+$$W = Fs = \mu_\mathrm G F_\mathrm N s$$
 verrichtet.
 
 #### Die Leistung
@@ -1227,8 +1226,9 @@ zweckmäßigere Formel ausgewählt.
 #### Die Energie
 
 Wenn an einem Körper Arbeit verrichtet wird, so ändert sich in irgendeiner Weise
-ein Zustand dieses Körpers (z.B. Bewegungszustand, Lage im Schwerefeld der Erde,
-Federspannung). Die dabei verrichtete Arbeit bleibt auf diese Weise im Körper
+ein Zustand dieses Körpers. Dies kann der Bewegungszustand (im Falle der
+Beschleunigungsarbeit), seine Lage im Schwerefeld der Erde (Hubarbeit), oder die
+Spannung einer Feder sein. Die verrichtete Arbeit bleibt auf diese Weise im Körper
 gespeichert und kann von diesem genutzt werden, um seinerseits Arbeit zu
 verrichten. Diese „gespeicherte Arbeit“ wird als **Energie** bezeichnet. Sie ist
 die Fähigkeit eines Körpers, Arbeit zu verrichten. Abhängig vom „Zustand“, in
@@ -1248,7 +1248,7 @@ Als **potentielle Energie** bezeichnet man Energie, die ein Körper auf Grund
 seiner Lage besitzt. Im Schwerefeld der Erde wird durch Hubarbeit die
 potentielle Energie verändert:
 
-$$\Delta E_{pot}= mg \Delta h \, .$$
+$$\Delta E_\mathrm{pot}= mg \Delta h \, .$$
 
 Der Nullpunkt der potentiellen Energie kann dabei willkürlich festgelegt werden
 (muss dann aber beibehalten werden!). Interessant sind lediglich Änderungen
@@ -1262,7 +1262,7 @@ Energie in der Feder gespeichert ist. Diese Federenergie wird ebenfalls zur
 potentiellen Energie gezählt und ist gleich der zum Spannen erforderlichen
 Arbeit:
 
-$$E_\mathrm{pot,Feder}= \frac{1}{2} k x^2 \, ,$$
+$$E_\mathrm{Feder}= \frac{1}{2} k x^2 \, ,$$
 
 wobei $x$ die Dehnung oder Stauchung der Feder aus dem entspannten Zustand
 angibt.
@@ -1281,7 +1281,9 @@ experimentelles Ergebnis):
 $$\Delta E_\mathrm {pot} = -\Delta E_\mathrm {kin} \, .$$
 
 Die mechanische Gesamtenergie des Körpers (Summe aus kinetischer und
-potentieller Energie) ändert sich dabei nicht.
+potentieller Energie) ändert sich dabei nicht:
+
+$$E_\mathrm{ges} = E_\mathrm{pot} + E_\mathrm{kin} = \mathrm{const} \, .$$
 
 Dies gilt selbst dann noch, wenn der Körper nicht senkrecht fällt, sondern sich
 auf anderen (schrägen oder gekrümmten) Bahnen abwärts bewegt. Wenn alle diese
@@ -1497,9 +1499,9 @@ ist. Damit ist die Kreisbewegung stets eine beschleunigte Bewegung, selbst wenn
 der Betrag der Geschwindigkeit konstant ist. Damit der Geschwindigkeitsvektor
 stets tangential zur Kreisbahn verläuft, muss diese permanente Beschleunigung
 radial zum Zentrum der Kreisbahn gerichtet sein. Daher wird sie als
-Zentripetalbeschleunigung $\vec{a}_z$ bezeichnet (siehe nachfolgende Abbildung).
+Zentripetalbeschleunigung $\vec{a}_\mathrm z$ bezeichnet (siehe nachfolgende Abbildung).
 
-![Schematische Darstellung der Zentripetalbeschleunigung](grafik/V06_Zentripetalbeschl.svg "Im Zeitraum $t_1 \rightarrow t_2$ ändert der Geschwindigkeitsvektor die Richtung von $v_1$ zu $v_2$. Dies entspricht einer zum Zentrum der Kreisbahn gerichteten Beschleunigung $a_\mathrm z$.")<!--
+![Schematische Darstellung der Zentripetalbeschleunigung](grafik/V06_Zentripetalbeschl.svg "Im Zeitraum $t_1 \rightarrow t_2$ ändert der Geschwindigkeitsvektor die Richtung von $\vec v_1$ zu $\vec v_2$. Dies entspricht einer zum Zentrum der Kreisbahn gerichteten Beschleunigung $\vec a_\mathrm z$.")<!--
 style = "width: 7cm;"
 -->
 
@@ -1524,13 +1526,13 @@ repräsentiert. Weiterhin wird für jeden Punkt auf der Kreisbahn der radiale
 ist, ändern radialer und tangentialer Einheitsvektor eines Massepunktes bei der
 Kreisbewegung permanent ihre Richtung.
 
-![Darstellung von axialem, radialem und tangentialem Einheitsvektor an einer Kreisbahn.](grafik/V06_Rotation_Einheitsvektoren.svg "Einheitsvektoren der Kreisbewegung: Der axiale Einheitsvektor gibt die Richtung der Drehachse an, der radiale Einheitsvektor zeigt von der Drehachse zum Massepunkt auf der Kreisbahn und der tangentiale Einheitsvektor liegt in der momentanen Position des Massepunkts an der Kreisbahn an. Diese drei Einheitsvektoren bilden ebenfalls ein Rechtssystem")<!--
+![Darstellung von axialem, radialem und tangentialem Einheitsvektor an einer Kreisbahn.](grafik/V06_Rotation_Einheitsvektoren.svg "Einheitsvektoren der Kreisbewegung: Der axiale Einheitsvektor gibt die Richtung der Drehachse an, der radiale Einheitsvektor zeigt von der Drehachse zum Massepunkt auf der Kreisbahn und der tangentiale Einheitsvektor liegt in der momentanen Position des Massepunkts an der Kreisbahn an. Diese drei Einheitsvektoren bilden ebenfalls ein Rechtssystem.")<!--
 style = "width: 6cm;"
 -->
 
 Da der Ursprung des (kartesischen) Koordinatensystems im Zentrum der Kreisbahn
 liegt, ist folglich der Betrag des Ortsvektors $|\vec{r}|$ des betrachteten
-Massepunktes identisch mit dem (unveränderlichen) Radius der Kreisbahn $r$. Zur
+Massepunkts identisch mit dem (unveränderlichen) Radius der Kreisbahn $r$. Zur
 Ortsbestimmung $\vec{r}(t)$ des Massepunktes genügt dann eine skalare Angabe des
 aktuellen Drehwinkels $\phi(t)$ (bezogen auf die $x$-Achse, gemessen entgegen
 dem Uhrzeigersinn – siehe obere Abbildung). Zwischen den kartesischen
@@ -1544,7 +1546,7 @@ Der in einer gewissen Zeitdauer zurückgelegte Weg $s$ entspricht einem
 Kreisbogen. Mit den Gesetzen der Geometrie gilt:
 
 $$\begin{aligned}
-& s = r (\phi_{Ende} - \phi_{Anfang}) \\
+& s = r (\phi_\mathrm{Ende} - \phi_\mathrm{Anfang}) \\
 \textrm{bzw.} \quad & s= r \cdot \Delta \phi \\
 \textrm{bzw.} \quad & \mathrm ds  = r \cdot \textrm{d} \phi \, .
 \end{aligned}$$
@@ -1566,7 +1568,7 @@ Richtung gilt die Rechte-Hand-Regel: Zeigt der ausgestreckte Daumen der rechten
 Hand in Richtung des $\vec{\omega}$-Vektors, so zeigen die gekrümmten Finger
 dieser Hand die Drehrichtung des Massepunkts an (siehe Abbildung).
 
-![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.svg "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung.")<!-- style = "width: 7cm;" -->
+![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.svg "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung $\vec e_\mathrm{ax}$.")<!-- style = "width: 7cm;" -->
 
 ![Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/3/3c/Winkelgeschwindigkeit_Rechte-Hand-Regel.svg "Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an. \[Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [SVGguru](https://commons.wikimedia.org/wiki/User:SVGguru)), [Winkelgeschwindigkeit Rechte-Hand-Regel](https://commons.wikimedia.org/wiki/File:Winkelgeschwindigkeit_Rechte-Hand-Regel.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")<!-- style = "width: 7cm;" -->
 
@@ -1637,7 +1639,7 @@ erhalten wir mit $\dot{\vec{\omega}}= \vec{\alpha}$:
 
 $$\dot{\vec{\omega}} \times \vec{r} = \vec{\alpha} \times  \vec{r}
     =\alpha r\cdot\left(\vec e_\mathrm{ax}\times\vec e_\mathrm{rad}\right)
-    = \alpha r \cdot \vec{e}_{tang} \equiv \vec{a}_t \, .$$
+    = \alpha r \cdot \vec{e}_\mathrm{tang} \equiv \vec{a}_\mathrm t \, .$$
 
 Dies ist die Tangentialkomponente der Bahnbeschleunigung, die eine Änderung des
 Betrages der Bahngeschwindigkeit verursacht. Sie tritt nur bei Vorliegen einer
@@ -1659,7 +1661,7 @@ $$\vec{\omega} \times (\vec{\omega} \times \vec{r}) = \vec{\omega} (\vec{\omega}
 Mit $\vec{\omega} \perp \vec{r}$ wird das Skalarprodukt
 $\vec{\omega} \cdot \vec{r}= 0$ und es gilt:
 
-$$\vec{\omega} \times\dot{\vec{r}} = -\omega^2 \vec{r} \equiv \vec{a}_r \, .$$
+$$\vec{\omega} \times\dot{\vec{r}} = -\omega^2 \vec{r} \equiv \vec{a}_\mathrm r \, .$$
 
 Dies ist die Radialkomponente der Bahnbeschleunigung. Sie ist stets zum
 Koordinatenursprung gerichtet und somit identisch mit der eingangs bereits
@@ -1754,7 +1756,7 @@ die Trägheit bezüglich der Rotation neben der Masse einer Punktmasse auch dere
 experimentellen Ergebnis sowie auf der obigen theoretischen Herleitung
 definieren wir daher das **Trägheitsmoment** $J$:
 
-$$J = mr^2 \qquad \textrm{Einheit: } [J] = 1~\mathrm{kg\cdot m^2}$$
+$$J = mr^2 \qquad \textrm{Einheit: } [J] = 1~\mathrm{kg\cdot m^2} \, .$$
 
 Diese Formel gilt zunächst nur für eine Punktmasse. Ein ausgedehnter (starrer)
 Körper kann als ein Ensemble vieler infinitesimaler Punktmassen gedacht werden.
@@ -1864,7 +1866,7 @@ kinetische Energie auf Translations- und Rotationsenergie auf. Das Verhältnis,
 in dem Translations- und Rotationsenergie zueinander stehen, wird bestimmt durch
 den Rollradius sowie die Massenverteilung bezüglich der Drehachse – eine große
 Masse in weiter Entfernung von der Drehachse erzeugt ein höheres Trägheitsmoment
-und demzufolge einen höheren Anteil Rotationsenergie $\frac{1}{2}$.
+und demzufolge einen höheren Anteil Rotationsenergie.
 
 #### Zusammenfassung
 
@@ -1954,7 +1956,7 @@ aus:
 
 Bei mechanischen Schwingungen ist es die periodische Änderung einer mechanischen
 Größe – in der Regel eine Auslenkung $x$. Es können sich jedoch auch beliebige
-andere Größen zeitlich periodisch ändern, z.B. Geschwindigkeit, Kraft, Energie…
+andere Größen zeitlich periodisch ändern, z.B. Geschwindigkeit, Kraft, Energie,…
 
 Wir betrachten zunächst allgemein eine beliebige physikalische Größe $A(t)$, die
 einer periodischen Änderung unterliegt, d.h. die eine Schwingung ausführt. In
@@ -2006,7 +2008,7 @@ style = 'width: 6cm;'
 Aus der Dynamik wissen wir, dass die Feder ihrer Auslenkung die Federkraft
 entgegensetzt, d.h., es wirkt die Kraft
 
-$$F_F = -kx \, .$$
+$$F_\mathrm F = -kx \, .$$
 
 Die Richtung dieser Kraft weist stets zur Ruhelage der Feder. Eine solche
 *rücktreibende* Kraft ist Voraussetzung für eine mechanische Schwingung. Zur
@@ -2226,7 +2228,7 @@ beschrieben. Dazu gehören insbesondere:
     $\vartheta$ existieren weitere Einheiten wie die Celsius-Skala. Die
     Umrechnung lautet:
 
-    $$\frac{T}{\mathrm K} = \frac{\vartheta}{\mathrm{°C}} + 273,15 \, .$$
+    $$\frac{T}{\mathrm K} = \frac{\vartheta}{\mathrm{°C}} + 273{,}15 \, .$$
 
     In den Formeln der Wärmelehre wird stets die absolute Temperatur angewendet!
 
@@ -2275,7 +2277,7 @@ Mit der Zustandsgleichung können Zustandsänderungen eines thermodynamischen
 Systems (sogenannte thermodynamische Prozesse) berechnet werden. Um das
 prinzipielle Vorgehen einer solchen Berechnung zu verdeutlichen, betrachten wir
 beispielhaft folgenden Prozess: Ein ideales Gas wird, ausgehend von dem Druck
-$p_0$ und der Temperatur $T_0$ in ein festes Volumen $V$ eingesperrt und auf
+$p_0$ und der Temperatur $T_0$ in ein festes Volumen $V$ eingeschlossen und auf
 die Temperatur $T_1>T_0$ erwärmt. Als Folge dieser Erwärmung wird sich der Druck
 des Gases ändern.
 
@@ -2483,7 +2485,7 @@ Beispielhaft sollen hier die Phasenübergänge von Wasser betrachtet werden,
 ausgehend von Eis bei einer Temperatur $\vartheta \lt 0~\mathrm{°C}$. Die
 Wärmezufuhr erwärmt das Eis zunächst bis auf $\vartheta = 0~\mathrm{°C}$, wobei
 die Temperaturänderung der zugeführten Wärme proportional ist:
-$\Delta T \propto Q$ (siehe Seite.  ). Bei einer Temperatur von $0~\mathrm{°C}$
+$\Delta T \propto Q$. Bei einer Temperatur von $0~\mathrm{°C}$
 schmilzt das Eis, und die Temperatur steigt (vorerst) trotz fortwährender
 Wärmezufuhr nicht an. Erst wenn alles Eis geschmolzen ist, steigt die Temperatur
 wieder proportional zur Wärmezufuhr an, solange bis die Siedetemperatur von
@@ -2512,9 +2514,12 @@ Erwärmung um $1~\mathrm K$ erforderlichen spezifischen Wärmen.
 ## Elektrizitätslehre
 
           --{{0}}--
-Die **Elektrizitätslehre** befasst sich mit den Eigenschaften und
-Wechselwirkungen elektrischer Ladungen. Diese Ladungen äußern sich in einer
-Wechselwirkung (also in einer Kraft) zwischen geladenen Körpern. Bereits in der
+Die Behandlung der Elektrizitätslehre beginnt mit der Feststellung einer
+Wechselwirkung, die mit den bisherigen Erkenntnissen dieses Kurses nicht erklärt
+werden kann. Darauf aufbauend wird der Begriff der elektrischen Ladung
+eingeführt, die den Ursprung dieser Wechselwirkung darstellt. Die
+Elektrizitätslehre kann dann als Lehre von den Eigenschaften und
+Wechselwirkungen elektrischer Ladungen definiert werden. Bereits in der
 Antike wurde diese Wechselwirkung beispielsweise bei Bernstein beobachtet. Daher
 stammt auch die Bezeichnung Elektrizität: das griechische Wort für Bernstein
 lautet ‚*elektron*‘ (ἤλεκτρον).
@@ -2536,15 +2541,14 @@ wird hier auch auf die elektrische Leistung eingegangen.
 
 ### Elektrische Ladungen – Elektrostatik
 
-Zur quantitativen Beschreibung dieser neuen Wechselwirkung wird
-eine Größe eingeführt, die angibt, wie stark ein Körper auf diese
-Wechselwirkung anspricht. Diese Größe wird als **elektrische Ladung** bezeichnet
-und erhält das Formelzeichen $Q$.
+Zunächst soll die in der Einführung bereits erwähnte Wechselwirkung qualitativ
+beschrieben werden. Beobachten lässt sie sich beispielsweise, wenn geeignete
+Materialien aneinander gerieben werden (z.B. Bernstein an einem Katzenfell).
+Offensichtlich sprechen Körper sehr unterschiedlich auf diese Wechselwirkung an.
+Wir führen daher den Begriff der Ladung ein, der – zunächst als qualitative
+Eigenschaft – angibt, wie stark ein Körper auf diese Wechselwirkung reagiert.
 
-$$\textrm{Einheit: } [Q]= 1~\mathrm{As} = 1~\mathrm C \quad \textrm{(Coulomb)}$$
-
-Im Rahmen der Elektrostatik werden zunächst ruhende Ladungen betrachtet. Aus
-experimentellen Beobachtungen schlussfolgern wir die Eigenschaften der
+Aus experimentellen Beobachtungen schlussfolgern wir die Eigenschaften der
 elektrischen Ladung beziehungsweise der zugehörigen Wechselwirkung:
 
 - Es gibt zwei Arten von Ladungen; diese werden als positiv ($+$) und negativ
@@ -2566,6 +2570,30 @@ elektrischen Ladung beziehungsweise der zugehörigen Wechselwirkung:
 
 - Ladungen sind (nahezu) beliebig teilbar.
 
+Ladungen sind immer an Materie gebunden. Mikroskopische Teilchen, die stets
+dieselbe Ladung tragen, werden als Ladungsträger bezeichnet. Hierzu zählen
+insbesondere Elektronen und Protonen; aber auch Ionen können als mikroskopische
+Ladungsträger betrachtet werden. Im Rahmen der Elektrostatik werden diese
+Ladungstäger zunächst als ruhend betrachtet.
+
+Bei Verwendung des Begriffs ‚Ladung‘ wird oftmals nicht scharf zwischen den
+Ladungsträgern und der (qualitativen und später auch quantitativen) Eigenschaft
+eines Körpers und den unterschieden. Wenn beispielsweise von der
+Übertragung von Ladungen gesprochen wird, bedeutet dies stets, dass
+Ladungsträger übertragen werden.
+
+#### Coulomb<!-- style ="font-variant: small-caps;" -->kraft und elektrisches Feld
+
+Die oben qualitativ beschriebene Wechselwirkung trägt den Namen elektrostatische
+oder Coulomb<!-- style ="font-variant: small-caps;" -->-Wechselwirkung.
+Wie in der Mechanik wird die Stärke dieser
+Wechselwirkung durch eine Kraft – die Coulombkraft – beschrieben. Um diese Kraft
+quantitativ ausdrücken zu können, wird nunmehr auch die Ladung nicht
+mehr nur als qualitative Eigenschaft, sondern als physikalische Größe
+eingeführt. Die **elektrische Ladung** erhält das Formelzeichen $Q$.
+
+$$\textrm{Einheit: } [Q]= 1~\mathrm{As} = 1~\mathrm C \quad \textrm{(Coulomb)}$$
+
 Aus dem Millikan<!-- style ="font-variant: small-caps;" -->-Experiment (auf
 dessen Behandlung hier verzichtet wird) folgt, dass die Ladung eine gequantelte
 Größe ist. D.h., es existiert eine kleinste, unteilbare Ladung, die sogenannte
@@ -2579,11 +2607,8 @@ $Q_\mathrm{El}=-e$. Elektronen sind in vielen Fällen für den Transport von
 Ladungen verantwortlich – z.B. für den Stromfluss in Metallen, aber auch für die
 Ladungstrennung durch Reibung (Triboelektrizität).
 
-#### Coulomb<!-- style ="font-variant: small-caps;" -->kraft und elektrisches Feld
-
-Die oben qualitativ beschriebene Wechselwirkung trägt den Namen elektrostatische
-oder COULOMB-Wechselwirkung. Wie in der Mechanik wird die Stärke dieser
-Wechselwirkung durch eine Kraft – die Coulombkraft – beschrieben. Befinden sich
+Mit der elektrischen Ladung kann nun eine Formel für die Coulombkraft angegeben
+werden: Befinden sich
 zwei Ladungen $Q_1$ und $Q_2$ im Abstand $r$ voneinander, so beträgt diese
 Kraft:
 
@@ -2680,8 +2705,9 @@ $$\mathrm{d}\phi = \frac{1}{q}\mathrm dW = -\vec E \vec{\mathrm{d}s} \, .$$
 
 [^1]: Tatsächlich ist der Zusammenhang zwischen elektrischem Potential $\phi$ und Feldstärke $\vec E$ weitaus tiefgründiger. Im Rahmen dieser Kurses wird dies jedoch nicht weiter betrachtet.
 
-Um die gesamte Arbeit zu berechnen, müssen wir entlang des Verschiebeweges von
-$\vec r_1$ nach $\vec r_2$ integrieren:
+Die Probeladung soll nun vom Anfangsort $\vec r_1$ zum Ort $\vec r_2$ bewegt
+werden. Um die gesamte Arbeit zu berechnen, müssen wir entlang des
+Verschiebeweges von $\vec r_1$ nach $\vec r_2$ integrieren:
 
 $$W = \int\limits_{\vec r_1}^{\vec r_2} \mathrm{d}W = -q \int\limits_{\vec r_1}^{\vec r_2} \vec E \vec{\mathrm ds}
 = q \int\limits_{\vec r_1}^{\vec r_2} \mathrm d \phi \, .$$
@@ -2712,21 +2738,21 @@ Einwirkung des Feldes und der damit verbundenen Coulombkraft beschleunigt. Um
 die Endgeschwindigkeit nach Durchfliegen einer Spannung $U$ berechnen zu können,
 kann in gewohnter Weise der Energiesatz genutzt werden. Es gilt:
 
-$$E_\mathrm{C}+E_\mathrm{kin} = const.$$
+$$E_\mathrm{C}+E_\mathrm{kin} = \mathrm{const}$$
 
 bzw.
 
 $$\begin{aligned}
 E_\mathrm{C}^\mathrm{Anfang} & = E_\mathrm{kin}^\mathrm{Ende}\\
 qU & = \frac{m}{2}v^2\\
-v & = \sqrt{\frac{2qU}{m}}
+v & = \sqrt{\frac{2qU}{m}} \, .
 \end{aligned}$$
 
 #### Homogenes elektrisches Feld – Plattenkondensator
 
 Eine besondere Form des elektrischen Feldes ist das homogene elektrische Feld,
 bei dem an allen Orten dieselbe Feldstärke herrscht:
-$\vec E(\vec r)=\overrightarrow{\mathrm{const.}}$ Im Feldlinienbild äußert sich
+$\vec E(\vec r)=\overrightarrow{\mathrm{const}}$. Im Feldlinienbild äußert sich
 dies dadurch, dass alle Feldlinien parallel und in gleichen Abständen verlaufen.
 Für ein homogenes elektrisches Feld vereinfachen sich die obigen Formeln, und
 man erhält den Zusammenhang zwischen Feldstärke und Potentialdifferenz zwischen
@@ -2752,7 +2778,7 @@ erreichen. Ausgangspunkt ist die kinematische Beschreibung einer gleichmäßig
 beschleunigten Bewegung (ohne Anfangsgeschwindigkeit und ohne Anfangsweg):
 
 $$\begin{aligned}
-a & =\textrm{const.} \\
+a & =\textrm{const} \\
 v & = at \Rightarrow t=\frac{v}{a}\\
 s & =\frac{a}{2} t^2 = \frac{a}{2} \cdot \frac{v^2}{a^2}=\frac{v^2}{2a}
 \end{aligned}$$
@@ -2834,7 +2860,7 @@ zwischen Kapazität und Geometrie des Kondensators hängt von der Bauform ab.
 
 Bereits im Zusammenhang mit dem
 [elektrischen Feld](#energie-des-elektrischen-felds-–-coulombenergie) wurde darauf
-hingeiwesen, dass durch eine elektrische Spannung Ladungsträger (d.h. elektrisch
+hingewiesen, dass durch eine elektrische Spannung Ladungsträger (d.h. elektrisch
 geladene Teilchen) in Bewegung versetzt werden. Eine solche gerichtete Bewegung
 elektrischer Ladungen wird als **elektrischer Strom** bezeichnet. Dieser
 Stromfluss ist charakterisiert durch die Ladungsmenge, die in einer definierten
@@ -2900,8 +2926,8 @@ wird als elektrischer Widerstand $R$ bezeichnet und charakterisiert den Leiter:
 
 $$R = \frac{U}{I} \quad \textrm{Einheit: }[R] = 1~\frac{\mathrm V}{\mathrm A} = 1~\Omega \quad\textrm{(Ohm).}$$
 
-Der elektrische Widerstand eines Leiters ist nicht in jedem konstant. Es
-existieren zahlreiche Bauelemente, daren Widerstand von den aktuellen
+Der elektrische Widerstand eines Leiters ist nicht in jedem Fall konstant. Es
+existieren zahlreiche Bauelemente, deren Widerstand von den aktuellen
 Betriebsbedingungen (Stromstärke, Spannung) abhängt. Die Angabe eines einzelnen
 Widerstandswerts reicht in diesem Fall nicht zur Charakterisierung des
 Bauelements aus. Stattdessen können Kennlinien angegeben werden, die den
@@ -2919,7 +2945,7 @@ sie dem ohm<!-- style ="font-variant: small-caps;" -->schen Gesetz gehorchen:
 
 $$R = \frac{U}{I}= \mathrm{const.}$$
 
-Beispielsweise besitzen Metalle einen konstanten elektrischen Widerstand —
+Beispielsweise besitzen Metalle einen konstanten elektrischen Widerstand –
 zumindest, solange sie nicht durch den Stromfluss zu stark erhitzt werden. Führt
 hingegen die thermische Wirkung des Stroms zu einer Erwärmung des Metalls, so
 steigt in Folge dieser Temperaturerhöhung auch der Widerstand des metallischen
@@ -2943,7 +2969,7 @@ Gute elektrische Leiter besitzen niedrige spezifische Widerstände. Z.B.:
 -   Glas: $\rho > 1\cdot 10^{16}~\frac{\mathrm{\Omega \, mm^2}}{\mathrm m}$ (Isolator)
 
 Anmerkung zur Bezeichnung: Die Adjektive „elektrisch“ (für die physikalische
-Größe) bzw. „ohmsch“ (für das Bauelement) werden häufig weggelassen und beides
+Größe) und „ohmsch“ (für das Bauelement) werden häufig weggelassen und beides
 nur als Widerstand bezeichnet. Aus dem Zusammenhang ergibt sich dann, ob von der
 physikalischen Größe oder vom Bauelement die Rede ist.
 
@@ -3004,7 +3030,7 @@ Sind keine weiteren Bauelemente an die Spannungsquelle angeschlossen, so ist
 diese Gesamtspannung gleich der Betriebsspannung der Spannungsquelle. Für den
 Gesamtwiderstand der Reihenschaltung ergibt sich damit:
 
- $$R_{ges} = \frac{U_{ges}}{I} = \frac{U_1 + U_2 + \dots}{I} = \frac{U_1}{I} + \frac{U_2}{I} + \dots = R_1 + R_2 + \dots$$
+ $$R_\mathrm{ges} = \frac{U_\mathrm{ges}}{I} = \frac{U_1 + U_2 + \dots}{I} = \frac{U_1}{I} + \frac{U_2}{I} + \dots = R_1 + R_2 + \dots$$
 
  Der Gesamtwiderstand einer Reihenschaltung ist die Summe aller
  Einzelwiderstände.
@@ -3014,10 +3040,10 @@ Maschenregel müssen ihre Spannungsabfälle identisch sein: $U_1=U_2=U$. Der
 Spannungsabfall über einem der beiden Widerstände wird dabei als Urspannung
 dieser Masche aufgefasst. An den Knoten teilt sich der Gesamtstrom in zwei
 Teilströme auf, die über je einen der beiden Widerstände fließen:
-$I_{ges}=I_1+I_2$. Für den Gesamtwiderstand der Parallelschaltung gilt
+$I_\mathrm{ges}=I_1+I_2$. Für den Gesamtwiderstand der Parallelschaltung gilt
 demzufolge:
 
-$$\frac{1}{R_{ges}} = \frac{I_{ges}}{U} = \frac{I_1 + I_2 + \dots}{U} = \frac{I_1}{U} + \frac{I_2}{U} + \dots =\frac{1}{R_1} + \frac{1}{R_2} + \dots$$
+$$\frac{1}{R_\mathrm{ges}} = \frac{I_\mathrm{ges}}{U} = \frac{I_1 + I_2 + \dots}{U} = \frac{I_1}{U} + \frac{I_2}{U} + \dots =\frac{1}{R_1} + \frac{1}{R_2} + \dots$$
 
 Der Gesamtwiderstand ist dabei kleiner als der kleinste Teilwiderstand.
 
@@ -3065,7 +3091,7 @@ $$P_\mathrm{el} = \frac{\mathrm d W_\mathrm{el}}{\mathrm d t} = \dot{Q} U + Q \d
 
 Für den Fall konstanter Spannung ($U=$const) erhalten wir:
 
-$$P_{el} = \dot{Q}U = UI \, .$$
+$$P_\mathrm{el} = \dot{Q}U = UI \, .$$
 
 Die elektrische Leistung ist das Produkt aus Spannung und Strom. Hohe Ströme
 bewirken (bei fester Spannung) eine hohe Leistung. Die dabei verrichtete Arbeit
@@ -3108,7 +3134,7 @@ Beispielsweise besitzt eine Glühlampe einen Wirkungsgrad von nur $\eta =(3 \dot
 Mit dem ohmschen Gesetz lassen sich weitere Formeln für die elektrische Leistung
 angeben:
 
-$$P_{el} = UI = RI^2 = \frac{U^2}{R} \, .$$
+$$P_\mathrm{el} = UI = RI^2 = \frac{U^2}{R} \, .$$
 
 Bei gleicher Stromstärke wird an Bauelementen mit großem Widerstand eine
 entsprechend größere Leistung umgesetzt. Bei gleicher Spannung wird an
@@ -3177,7 +3203,7 @@ sich das Licht mit geringerer Geschwindigkeit aus. Dies wird beschrieben durch
 die Brechzahl $n$ des betreffenden Mediums, die das Verhältnis der
 Vakuumlichtgeschwindigkeit zur Lichtgeschwindigkeit in diesem Medium angibt:
 
-$$c_\mathrm{Medium} = c_\mathrm M = \frac{c_0}{n} < c_0 \quad \textrm{bzw. } \quad n= \frac{c_0}{c_M} \, .$$
+$$c_\mathrm{Medium} = c_\mathrm M = \frac{c_0}{n} < c_0 \quad \textrm{bzw. } \quad n= \frac{c_0}{c_\mathrm M} \, .$$
 
 Medien mit hoher Brechzahl heißen **optisch dicht**, solche mit niedriger
 Brechzahl heißen **optisch dünn**. Das Vakuum ist demzufolge das optisch dünnste
@@ -3199,7 +3225,7 @@ Im Rahmen der Strahlenoptik lässt sich die Ausbreitung des Lichts anhand des
 > Der Lichtweg zwischen zwei Punkten verläuft stets so, dass er ein Extremum
 > hinsichtlich der Zeit hat.
 >
-> $$T_{A\rightarrow B}\rightarrow \textrm{Extremum}$$
+> $$T_\mathrm{A\rightarrow B}\rightarrow \textrm{Extremum}$$
 
 In der Regel ist dies der Weg mit der kürzesten Laufzeit. Dies ist nicht
 notwendigerweise der geometrisch kürzeste Weg. Eine alternative Formulierung des
@@ -3227,7 +3253,7 @@ Ausbreitung innerhalb eines Mediums sowie das **Reflexions- und Brechungsgesetz*
 >![Schematische Darstellung des Brechungs- und Reflexionsgesetzes](grafik/V12_Brechung.svg)<!-- style="width:6cm;"-->
 > Für den reflektierten Strahl gilt (Reflexionsgesetz):
 >
-> $$\alpha_r = \alpha_1$$
+> $$\alpha_\mathrm r = \alpha_1$$
 >
 > Für den transmittierten Strahl gilt (Brechungsgesetz):
 >
@@ -3243,7 +3269,7 @@ Grenzwinkel der Totalreflexion. In diesem Fall verschwindet der transmittierte
 Strahl, und die gesamte Intensität des eingestrahlten Lichts wird reflektiert.
 Für den Grenzwinkel der Totalreflexion gilt:
 
-$$\alpha_{Gr} = \arcsin \frac{n_2}{n_1} \, .$$
+$$\alpha_\mathrm{Gr} = \arcsin \frac{n_2}{n_1} \, .$$
 
 #### Brechung an gekrümmten Grenzflächen – Linsen
 
@@ -3259,40 +3285,46 @@ mehr parallel. Im allgemeinen Fall einer beliebigen Krümmungsgeometrie muss
 dabei tatsächlich jeder Lichtstrahl einzeln in seinem Verlauf betrachtet werden,
 wofür geeignete Computerprogramme existieren. Einen Spezialfall mit hoher
 praktischer Relevanz stellt die Brechung an sphärischen Grenzflächen dar,
-also an Grenzfläche, die Ausschnitt aus einer Kugeloberfläche sind. Für diesen
-Fall lassen sich eigene Formeln für den Verlauf der gebrochenen Strahlen
-angeben.
-
-Optische Bauelemente, die aus zwei sphärischen Flächen (bzw. einer sphärischen
-und einer ebenen Fläche) bestehen, heißen Linsen. Speziell von dünnen Linsen
+also an Grenzfläche, die Ausschnitt aus einer Kugeloberfläche sind. Optische
+Bauelemente, die aus zwei sphärischen Flächen, bzw. einer sphärischen
+und einer ebenen Fläche, bestehen, heißen Linsen. Speziell von dünnen Linsen
 spricht man, wenn die Dicke der Linse sehr viel kleiner ist als der
 Krümmungsradius ihrer Oberflächen. Nur mit solchen Linsen wollen wir uns im
 Folgenden beschäftigen.
+
+Beim Durchgang durch eine Linse passiert das Licht zwei Grenzflächen, an denen
+es jeweils gebrochen wird. Zur Vereinfachung wird eine dünne Linse in der
+geometrischen und rechnerischen Beschreibung zumeist durch ihre Hauptebene
+ersetzt und nur eine einmalige Brechung betrachtet. Auch die untenstehenden
+Abbildungen folgen diesem Schema.
 
 Strahlenbündel, die parallel zur optischen Achse auf eine Linse treffen, werden
 entweder konvergent oder divergent. Im ersten Fall spricht man von einer
 Sammellinse, im zweiten von einer Zerstreuungslinse. In beiden Fällen lässt sich
 die Brennweite $f$ sowie der Brennpunkt $\mathrm F$ der Linse angeben, wie die
-folgenden Abbildungen zeigen.
+folgenden Abbildungen zeigen. Bei Zerstreuungslinsen befindet sich der
+(virtuelle) Brennpunkt auf der Einfallseite des Lichts. Die Brennweite ist dabei
+negativ ($f<0$)!
 
-![Schematische Darstellung des Strahlenverlaufes an einer Sammellinse](grafik/V12_Sammellinse.svg "An einer Sammellinse werden achsenparallele Strahlenbündel im Brennpunkt auf der optischen Achse gebündelt.")
+![Schematische Darstellung des Strahlenverlaufes an einer Sammellinse](grafik/V12_Sammellinse.svg "An einer Sammellinse werden achsenparallele Strahlenbündel im Brennpunkt auf der optischen Achse vereinigt.")
 
 ![Schematische Darstellung des Strahlenverlaufes an einer Zerstreuungslinse](grafik/V12_Zerstreuungslinse.svg "An einer Zerstreuungslinse wird ein achsenparalleles Strahlenbündel divergent gebrochen. Die rückwärtigen Verlängerungen der Strahlen treffen sich im Brennpunkt auf der Einfallseite des Lichts. Die Brennweite ist dabei negativ.")
 
-Bei Zerstreuungslinsen befindet sich der (virtuelle) Brennpunkt auf der
-Einfallseite des Lichts. Die Brennweite ist dabei negativ ($f<0$)!
-
-Die Brennweite einer Linse hängt ab von der Brechzahl des Linsenmaterials sowie
+Die Brennweite ist die entscheidende Größe zur Charakterisierung einer Linse.
+Ihr Wert wird bestimmt von der Brechzahl des Linsenmaterials sowie
 der Linsengeometrie, die durch die Krümmungsradien $r_1$ und $r_2$ der beiden
-Grenzflächen angegeben wird. Die sogenannte Linsenmacherformel gibt an, wie
-diese Größen die Brennweite beeinflussen. Für eine Linse in Luft gilt:
+Grenzflächen angegeben wird. Aus dem Brechungsgesetz folgt die sogenannte
+Linsenmacherformel, die angibt, wie diese Größen die Brennweite beeinflussen.
+Für eine Linse in Luft gilt:
 
 $$\frac{1}{f} = (n-1) \biggl( \frac{1}{r_1} - \frac{1}{r_2}\biggr)$$
 
 Dabei haben Sammellinsen eine konvexe (nach außen gewölbte) Geometrie, während
 Zerstreuungslinsen konkav (nach innen gewölbt) sind. Befindet sich die Linse in
 einem anderen Medium als Luft oder Vakuum, so muss auch dessen Brechzahl
-berücksichtigt werden. Die obige Formel wird dann entsprechend angepasst.
+berücksichtigt werden. Die obige Formel wird dann entsprechend ergänzt:
+
+$$\frac{1}{f} = \left(\frac{n_\mathrm{Linse}}{n_\mathrm{Umgebung}}-1\right) \biggl( \frac{1}{r_1} - \frac{1}{r_2}\biggr)$$
 
 #### Optische Abbildung
 
@@ -3332,15 +3364,16 @@ Bild- und Gegenstandsgröße:
 $$V = \frac{B}{G} = - \frac{b}{g} \, .$$
 
 Mit dieser Definition kann auch unterschieden werden, ob das entstandene Bild
-vergrößert oder verkleinert ist sowie, ob es aufrecht oder
-kopfstehend/seitenverkehrt ist. In letzterem Fall ist die Bildgröße negativ, was
-durch das negative Vorzeichen in der Definition des Abbildungsmaßstabs
+vergrößert oder verkleinert ist, sowie, ob es aufrecht oder invertiert
+(kopfstehend/seitenverkehrt) ist. In letzterem Fall ist die Bildgröße negativ,
+was durch das negative Vorzeichen in der Definition des Abbildungsmaßstabs
 ausgedrückt wird.
 
 Neben der Berechnung der optischen Abbildung kann das entstehende Bild auch
 geometrisch konstruiert werden, indem die Verläufe einzelner Lichtstrahlen durch
-die Linse nachvollzogen werden. Für eine dünne Linse kann dabei die
-zweimalige Lichtbrechung an den beiden Grenzflächen ersetzt werden durch eine
+die Linse nachvollzogen werden. Wie im vorangegangenen Abschnitt bereits
+angemerkt, kann für eine dünne Linse die zweimalige Lichtbrechung an den beiden
+Grenzflächen ersetzt werden durch eine
 einmalige Brechung an der Hauptebene der Linse. Ferner wählt man zur
 Bildkonstruktion zweckmäßig solche Strahlen aus, deren Verlauf besonders einfach
 nachzuvollziehen ist. Dies sind Strahlen, die auf der Gegenstandsseite parallel
@@ -3380,10 +3413,10 @@ Brennweite untersucht werden können, zum Beispiel auf den Seiten von
 
 | **Gegenstandsweite** | **Bildweite** | **Abbildungsmaßstab** | **Bildeigenschaften**               |
 |:---------------------|:--------------|:----------------------|:------------------------------------|
-| $g> 2f$              | $f<b<2f$      | $|V|<1$               | reell, verkleinert, seitenverkehrt  |
-| $g= 2f$              | $b=2f$        | $|V|=1$               | reell, gleich groß, seitenverkehrt  |
-| $f<b<2f$             | $b>2f$        | $|V|>1$               | reell, vergrößert, seitenverkehrt   |
-| $g=f$                | $b=\infty$    | ---                   | virtuell                            |
+| $g> 2f$              | $f<b<2f$      | $|V|<1$               | reell, verkleinert, invertiert      |
+| $g= 2f$              | $b=2f$        | $|V|=1$               | reell, gleich groß, invertiert      |
+| $f<b<2f$             | $b>2f$        | $|V|>1$               | reell, vergrößert, invertiert       |
+| $g=f$                | $b=\infty$    | —                     | virtuell                            |
 | $g<f$                | $b<0$         | $V>1$                 | virtuell, vergrößert, seitenrichtig |
 
 
@@ -3537,7 +3570,7 @@ für Interferenzmaxima und -minima:
 
 -   Interferenzmaxima treten auf, wenn $\Delta s=n\cdot \lambda \quad (\textrm{mit  } n=0,1,2, \dots)$
 
--   Interferenzminima treten auf, wenn $\Delta s=\frac{(2n-1)}{2\cdot\lambda} \quad(\textrm{mit  } n=1,2,3,\dots)$
+-   Interferenzminima treten auf, wenn $\Delta s=\frac{2n-1}{2}\lambda \quad(\textrm{mit  } n=1,2,3,\dots)$
 
 Damit ein stationäres (d.h. zeitlich unveränderliches) Interferenzmuster
 beobachtet werden kann, müssen die an einem Punkt ankommenden Wellen stets
@@ -3570,7 +3603,7 @@ Interferenzmaxima und -minima: senkrecht zur Spaltrichtung erscheint eine
 „Kette“ heller Lichtpunkte, die alle aus der Beugung und Interferenz des
 ursprünglichen Laserstrahls entstehen.
 
-![Grafische Veranschaulichung der Beugung an einem Spalt](grafik/V13_beugung-spalt.svg "Eine Lichtwelle wird nach dem Durchgang durch einen schmalen Spalt gebeugt und tritt in geometrischen Schattenraum ein. Dabei besitzen die von den Rändern des Spalts ausgehenden Teilwellen einen gegenseitigen Gangunterschied $\Delta s_1$, der vom jeweiligen Beugungswinkel abhängt.")<!-- style="width:12cm" -->
+![Grafische Veranschaulichung der Beugung an einem Spalt](grafik/V13_beugung-spalt.svg "Eine Lichtwelle wird nach dem Durchgang durch einen schmalen Spalt gebeugt und tritt in den geometrischen Schattenraum ein. Dabei besitzen die von den Rändern des Spalts ausgehenden Teilwellen einen gegenseitigen Gangunterschied $\Delta s_1$, der vom jeweiligen Beugungswinkel abhängt.")<!-- style="width:10cm" -->
 
 Wir wollen die Lage dieser Maxima und Minima geometrisch anhand des
 Gangunterschieds erklären. Dazu betrachten wir zunächst die Wellen, die von den
@@ -3614,7 +3647,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 Nun wird der Beugungswinkel betrachtet, bei dem die beiden Randwellen einen
-Gangunterschied von $\Delta s_1 = 1.5~\lambda$ aufweisen. Dabei wird der Spalt
+Gangunterschied von $\Delta s_1 = 1{,}5~\lambda$ aufweisen. Dabei wird der Spalt
 gedanklich in drei Teile geteilt. Die Teilwellen des ersten und zweiten
 Spaltdrittels lassen sich wiederum zu Paaren zusammenstellen, deren
 gegenseitiger Abstand $\frac{d}{3}$ und deren Gangunterschied
@@ -3628,7 +3661,7 @@ bleibt die Intensität dieser Teilwellen erhalten und wird auf dem
 Beobachtungsschirm als Interferenzmaximum registriert.
 
 Analog erhält man ein Interferenzmaximum für den Beugungswinkel, bei dem der
-Gangunterschied der Randwellen $\Delta s_1 = 2.5 \lambda$ beträgt: Der Spalt
+Gangunterschied der Randwellen $\Delta s_1 = 2{,}5 \lambda$ beträgt: Der Spalt
 wird gedanklich in fünf Teile zerlegt. Zwischen erstem und zweitem
 beziehungsweise drittem und viertem Teil führen wieder die Wellenpaare mit
 Abstand $\frac{d}{5}$ und Gangunterschied
@@ -3697,8 +3730,12 @@ als auch quantitativ mit hoher Präzision beschreiben. Scheinbar im Widerspruch
 dazu versagt die Wellenoptik bei der Beschreibung mancher
 Wechselwirkungsprozesse des Lichts hingegen völlig. Entsprechende Beobachtungen
 stellten die Physik in der zweiten Hälfte des 19. Jahrhunderts vor große Fragen
-und führten schließlich ab 1900 zur Entstehung eines neuen Modells zu
+und führten schließlich ab 1900 zur Entstehung eines neuen Modells[^1] zur
 Beschreibung des Lichts, das parallel zum Wellenmodell existiert.
+
+[^1]: Die Vorstellung, dass das Licht aus einem Strom von Teilchen besteht,
+      existierte bereits in der Antike. Wenn hier von einem neuen Modell die
+      Rede ist, so meint dies konkret die Quantenoptik in ihrer heutigen Form.
 
 Für die folgenden Betrachtungen, die sich wesentlich mit Energien von Elektronen
 und von Licht beschäftigen, ist es sinnvoll, das Elektronvolt ($\mathrm{eV}$)
@@ -3714,7 +3751,7 @@ Eines der Experimente, für das die Wellenoptik keine Erklärung bietet, ist der
 äußere Photoeffekt oder Hallwachs<!-- style ="font-variant: small-caps;" -->-Effekt.
 Eine mögliche Vorgehensweise, diesen Effekt zu beobachten, ist folgende: Eine
 Platte aus Zink wird an ein Elektrometer (Messgerät zur Ladungsmessung)
-angeschlossen und negativ aufgeladen. D.h., es herrscht ein Überschuss an
+angeschlossen und negativ aufgeladen. Es herrscht also ein Überschuss an
 Elektronen in dieser Platte, der zunächst erhalten bleibt. Wird die Platte nun
 mit dem intensiven weißen Licht einer Bogenlampe bestrahlt, so geht die
 Aufladung der Platte langsam zurück. Folglich müssen die überschüssigen
@@ -3722,7 +3759,7 @@ Elektronen die Platte verlassen haben.
 
 Um diesen Versuchsteil zu verstehen, muss man zunächst berücksichtigen, dass die
 Elektronen im Metall gebunden sind. Um die Platte verlassen zu können, müssen
-sie eine Energiebarriere - die sogenannte **Austrittsarbeit** $W_\mathrm A$-
+sie eine Energiebarriere – die sogenannte **Austrittsarbeit** $W_\mathrm A$ –
 überwinden. Diese Energiebarriere
 ist groß genug, dass die Elektronen sie nicht spontan überwinden können, weshalb
 die negative Ladung der Platte zunächst erhalten bleibt. Offensichtlich aber
@@ -3778,11 +3815,11 @@ der emittierten Elektronen bestimmt werden. Dazu befindet sich die emittierende
 Metallschicht zusammen mit einer Gegenelektrode im Vakuum und wird dort mit
 monochromatischem Licht (d.h. Licht mit genau einer Wellenlänge) bestrahlt.
 Zwischen emittierender Schicht und Gegenelektrode wird durch Anlegen einer
-Gegenspannung $U_G$ ein elektrisches Feld erzeugt, dass die Elektronen abbremst.
+Gegenspannung $U_\mathrm G$ ein elektrisches Feld erzeugt, dass die Elektronen abbremst.
 Ist die Gegenspannung gefunden, bei der die Elektronen vollständig abgebremst
 werden, so gilt:
 
-$$E_\mathrm{kin} = eU_G \, .$$
+$$E_\mathrm{kin} = eU_\mathrm G \, .$$
 
 #### Das Photon
 
@@ -3790,7 +3827,7 @@ Handelt es sich bei den Lichtquanten nun lediglich um „Energieportionen“ ein
 kontinuierlich fortlaufenden Welle, oder sind es tatsächlich eigenständige
 Teilchen? Um dies zu untersuchen, betrachten wir die Detektion einzelner
 Lichtquanten. Tatsächlich können Detektoren, die auf dem äußeren Photoeffekt
-beruhen, aus einem einzelnen auftreffenden Photon einen messbaren Spannungspuls
+beruhen, aus einem einzelnen auftreffenden Lichtquant einen messbaren Spannungspuls
 erzeugen. Wird ein solcher Detektor mit einer sehr geringen Lichtintensität
 bestrahlt, so können die einzelnen Lichtquanten getrennt registriert werden. Das
 Auftreffen der Quanten auf dem Detektor geschieht dabei in völlig unregelmäßigen
@@ -3950,11 +3987,12 @@ andere (quantenmechanische) Gesetzmäßigkeiten gelten.
 Die Grundaussagen des quantenphysikalischen Atommodells gehen auf
 Niels<!-- style ="font-variant: small-caps;" --> Bohr<!-- style ="font-variant: small-caps;" -->
 zurück. Dieser betrachtete die Atome noch unter den Gesetzen der klassischen
-Physik und forderte lediglich, dass für Atome einige „Ausnahmen“” von diesen
-Gesetzen gelten sollten. Dies betrifft insbesondere die Aussage, dass die
+Physik und forderte lediglich, dass für Atome einige „Ausnahmen“ von diesen
+Gesetzen gelten sollten, die unter der Bezeichnung Bohrsche Postulate
+zusammengefasst werden. Dies betrifft insbesondere die Aussage, dass die
 Elektronen eben nicht in den Atomkern stürzen. Damit war zwar qualitativ (und
 teilweise auch quantitativ) eine recht gute Beschreibung möglich. Eine
-Erklärung, wie das Verhalten der Atome und die geforderten „Ausnahmen“” zu
+Erklärung, wie das Verhalten der Atome und die geforderten „Ausnahmen“ zu
 verstehen wären, war jedoch nicht möglich. Erst durch die Entwicklung der
 Quantenmechanik war auch eine theoretische Beschreibung der Atome möglich.
 
@@ -4145,7 +4183,7 @@ Hertz<!-- style ="font-variant: small-caps;" --> untersucht wurde.
 
 Zur Durchführung dieses Versuchs wird eine evakuierte Glasröhre verwendet, die
 mit einer geringen Menge eines Gases gefüllt ist. In den ursprünglichen
-Experimenten verwendeten Franck und Hertz Quecksilberdampf; an dieser Stell soll
+Experimenten verwendeten Franck und Hertz Quecksilberdampf; an dieser Stelle soll
 die Durchführung mit Neongas beschrieben werden. Eingeschmolzen in diese
 Glasröhre sind vier Elektroden (siehe folgende Abbildung): Die Kathode (K) wird
 durch die angelegte Heizspannung $U_\mathrm H$ zum Glühen gebracht und emittiert
