@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2022.1.0
+version:  2022.1.1
 
 language: de
 
@@ -942,12 +942,12 @@ Auf der Erdoberfläche wirkt die Gewichtskraft stets senkrecht nach unten. Bei
 einer geneigten Unterlage kann die Gewichtskraft gemäß dem Superpositionsprinzip
 in zwei Teilkräfte zerlegt werden, die parallel beziehungsweise senkrecht zur
 Unterlage orientiert sind (siehe Abbildung). Die Parallelkomponente heißt
-Hangabtriebskraft $\vec{F}_H$, die senkrechte Komponente heißt Normalkraft
-$\vec{F}_N$. Ist die Unterlage um den Winkel $\alpha$ gegen die Horizontale
+Hangabtriebskraft $\vec{F}_\mathrm H$, die senkrechte Komponente heißt Normalkraft
+$\vec{F}_\mathrm N$. Ist die Unterlage um den Winkel $\alpha$ gegen die Horizontale
 geneigt, so gilt für die Beträge dieser beiden Kräfte:
 
-$$\begin{aligned}F_H & = F_G \cdot \sin{\alpha} = m g \sin{\alpha} \\
-F_N & = F_G \cdot \cos{\alpha} = m g \cos{\alpha}\end{aligned}$$
+$$\begin{aligned}F_\mathrm H & = F_\mathrm G \cdot \sin{\alpha} = m g \sin{\alpha} \\
+F_\mathrm N & = F_\mathrm G \cdot \cos{\alpha} = m g \cos{\alpha}\end{aligned}$$
 
 ![Kräfteparallelogramm eines Körpers auf einer geneigten Unterlage mit Gewichtskraft, Normalkraft und Hangabtriebskraft](grafik/V04_FH.svg "Schematische Darstellung der Zerlegung der Gewichtskraft $\vec F_\mathrm G$ in ihre Komponenten Hangabtriebskraft $\vec F_\mathrm H$ und Normalkraft $\vec F_\mathrm N$.")<!-- style ="width: 7cm;" -->
 
@@ -1592,7 +1592,7 @@ $$\begin{aligned}
 Der letzte Klammerausdruck ist identisch mit dem Einheitsvektor
 $\vec e_\mathrm{tang}$. Ferner gilt $\dot{\phi}= \omega$. Damit erhält man:
 
-$$\vec{v}=\dot{\vec{r}} = r\omega \cdot  \vec{e}_{tang} \, .$$
+$$\vec{v}=\dot{\vec{r}} = r\omega \cdot  \vec{e}_\mathrm{tang} \, .$$
 
 Der gleiche Ausdruck ergibt sich bei Bildung des Kreuzprodukts
 $\vec{\omega} \times \vec{r}$. Es gilt also (bei konstantem Bahnradius):
@@ -2578,7 +2578,7 @@ Ladungstäger zunächst als ruhend betrachtet.
 
 Bei Verwendung des Begriffs ‚Ladung‘ wird oftmals nicht scharf zwischen den
 Ladungsträgern und der (qualitativen und später auch quantitativen) Eigenschaft
-eines Körpers und den unterschieden. Wenn beispielsweise von der
+eines Körpers unterschieden. Wenn beispielsweise von der
 Übertragung von Ladungen gesprochen wird, bedeutet dies stets, dass
 Ladungsträger übertragen werden.
 
@@ -3643,7 +3643,7 @@ Wellenlänge beträgt (Minimabedingung):
 $$\begin{aligned}
 & d \cdot \sin \alpha_\mathrm{min} = m \lambda \\
 \textrm{bzw.} \quad & \alpha_\mathrm{min} = \arcsin \frac{m\lambda}{d}\\
-\textrm{mit} \, & m = 1, 2, 3, \dots
+\textrm{mit} \quad & m = 1, 2, 3, \dots
 \end{aligned}$$
 
 Nun wird der Beugungswinkel betrachtet, bei dem die beiden Randwellen einen
@@ -3674,7 +3674,7 @@ dabei erhalten. Daraus folgt als allgemeine Maximabedingung am Spalt:
 $$\begin{aligned}
 & d \cdot \sin \alpha_\mathrm{max} = \frac{2m +1}{2} \lambda \\
 \textrm{bzw.} \quad & \alpha_\mathrm{max} = \arcsin \frac{(2m + 1) \lambda}{2d} \\
-\textrm{mit} \, & m = 1, 2, 3, \dots
+\textrm{mit} \quad & m = 1, 2, 3, \dots
 \end{aligned}$$
 
 Mit diesen Formeln lässt sich die Lage der Maxima und Minima bei der Beugung am
