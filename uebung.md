@@ -239,11 +239,17 @@ Stillstand käme.
 2. Welche der folgenden Darstellungen gibt das korrekte Geschwindigkeits-Orts-Gesetz
    für diesen Bremsvorgang wieder?
 
-   - Diagramm 1 ![Diagramm1](grafik_uebung/Zugbremsung_Diagramm1.svg)
+   - Diagramm 1
 
-   - Diagramm 2 ![Diagramm2](grafik_uebung/Zugbremsung_Diagramm2.svg)   
+     ![Diagramm1](grafik_uebung/Zugbremsung_Diagramm1.svg)
+     
+   - Diagramm 2
 
-   - Diagramm 3 ![Diagramm3](grafik_uebung/Zugbremsung_Diagramm3.svg)
+     ![Diagramm2](grafik_uebung/Zugbremsung_Diagramm2.svg)   
+
+   - Diagramm 3
+
+     ![Diagramm3](grafik_uebung/Zugbremsung_Diagramm3.svg)
 
    [[ Diagramm 1 | Diagramm 2 | (Diagramm 3) ]]
 
