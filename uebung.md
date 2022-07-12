@@ -355,6 +355,7 @@ $$h(t_\mathrm f) = h_0 - \frac g2 t_\mathrm f^2 = 0 \, .$$
 Daraus ergibt sich für die Anfangshöhe:
 
 $$h_0 = \frac g2 t_\mathrm f^2 = 1{,}59~\mathrm m \, .$$
+
 ********************************************************************************
 
 - Antwort Teilaufgabe 2
@@ -369,6 +370,7 @@ $t_\mathrm f$ wird die horizontale Strecke $d$ zurückgelegt. Das bedeutet für
 die Abwurfgeschwindigkeit:
 
 $$v_0 = \frac{d}{t_\mathrm f} = 1{,}37~\frac{\mathrm m}{\mathrm s} \, .$$
+
 ********************************************************************************
 
 - Antwort Teilaufgabe 3
@@ -381,6 +383,7 @@ die eine gleichmäßig beschleunigte Bewegung mit der Fallbeschleunigung
 darstellt. Die Endgeschwindigkeit nach der Fallzeit $t_\mathrm f$ ist damit:
 
 $$v_\mathrm{Fall} = g\cdot t_\mathrm f = 5{,}6~\frac{\mathrm m}{\mathrm s} \, .$$
+
 ********************************************************************************
 
 [[ $v_\mathrm{Wurf} = 1{,}4~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm{Wurf} = 4{,}2~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm{Wurf} = 5{,}6~\frac{\mathrm m}{\mathrm s}$ | ($v_\mathrm{Wurf} = 5{,}8~\frac{\mathrm m}{\mathrm s}$) | $v_\mathrm{Wurf} = 7{,}0~\frac{\mathrm m}{\mathrm s}$ ]]
@@ -390,6 +393,7 @@ Bei der horizontal abgeworfenen Kugel überlagern sich die horizontale und verti
 
 $$v_\mathrm{Wurf} = \sqrt{v_\mathrm{hor}^2 + v_\mathrm{vert}^2} = \sqrt{\frac{d^2}{t_\mathrm f^2}+g^2t_\mathrm f^2}
         = 5{,}8~\frac{\mathrm m}{\mathrm s} \, .$$
+
 ********************************************************************************
 
 ## Arbeit und Erhaltungssätze
