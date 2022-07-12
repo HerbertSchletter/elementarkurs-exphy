@@ -613,6 +613,7 @@ Wagen auf die Geschwindigkeit $v$ beschleunigt werden. Die dabei zu verrichtende
 Arbeit entspricht der Änderung der kinetischen Energie die Waggons:
 
 $$W = \Delta E_\mathrm{kin, Waggon} = \frac{m_\mathrm W}{2}v^2 = 8{,}44~\mathrm{\mu J} \, .$$
+
 ********************************************************************************
 
 *  Antwort Teilaufgabe 2
@@ -633,6 +634,7 @@ $$\Delta p = m_\mathrm W v \, .$$
 Für die mittlere Kraft während des Stoßvorgangs folgt daraus:
 
 $$F=\frac{\Delta p}{t_\mathrm s} = \frac{m_\mathrm W v}{t_\mathrm s} = 14~\mathrm{mN} \, .$$
+
 ********************************************************************************
 
 #### Ballistisches Pendel
@@ -721,6 +723,7 @@ v_\mathrm P & = \frac{m_\mathrm P + m_\mathrm K}{m_\mathrm P}v'_\mathrm K \\
 & = \frac{m_\mathrm P + m_\mathrm K}{m_\mathrm P}\sqrt{2g\left(l-\sqrt{l^2-s^2}\right)} \\
 & = 160{,}2~\frac{\mathrm m}{\mathrm s} \, .
 \end{aligned}$$
+
 ********************************************************************************
 
 *  Antwort Teilaufgabe 2:
@@ -743,6 +746,7 @@ $$E_\mathrm P = \frac 12 m_\mathrm P v_\mathrm P^2 = 6{,}4~\mathrm J \, .$$
 
 Beide Rechnungen führen zu der Schlussfolgerung, dass das Luftgewehr im
 zulässigen Bereich arbeitet und diesen recht gut ausnutzt.
+
 ********************************************************************************
 
 #### Bewässerungsfahrzeug
@@ -809,6 +813,7 @@ W & =\mu_\mathrm R vg\int\limits_{t=0}^{t_\mathrm e} \left( m_\mathrm F + m_0 -q
 & = \mu_\mathrm R vg\left( \left( m_\mathrm F + m_0 \right) t_\mathrm e - \frac{q}{2} t_\mathrm e^2 \right) \\
 & = 9{,}4~\mathrm{MJ}
 \end{aligned}$$
+
 ********************************************************************************
 
 *  Antwort Teilaufgabe 2
@@ -862,6 +867,7 @@ $$\begin{aligned}
 W &  = vg\left( \mu_\mathrm R \cos\left( \arctan S \right) + \sin\left( \arctan S \right) \right) \left( \left( m_\mathrm F + m_0 \right) t_\mathrm e - \frac{q}{2} t_\mathrm e^2 \right) \\
 & = 12{,}7~\mathrm{MJ} \, .
 \end{aligned}$$
+
 ********************************************************************************
 
 ## Rotation und Schwingungen
@@ -881,7 +887,7 @@ beginnen gleichzeitig hinabzurollen. Die Reibung sei dabei vernachlässigbar.
 
 [[Rolle 1 (innen Eisen, außen Holz)] [Rolle 2 (innen Holz, außen Eisen)] [beide Rollen gleich]]
 [ (X) ( ) ( )] Welche Rolle erreicht das untere Ende der Bahn eher?
-[ (X*) ( ) ( )] Welche Rolle hat am unteren Ende der Bahn die höhere Geschwindigkeit?
+[ (X) ( ) ( )] Welche Rolle hat am unteren Ende der Bahn die höhere Geschwindigkeit?
 [ ( ) ( ) (X)] Welche Rolle hat am unteren Ende die größere kinetische Energie?
 [ ( ) (X) ( )] Welche Rolle hat am unteren Ende der Bahn die größere Rotationsenergie?
 [ ( ) (X) ( )] Welche Rolle hat das größere Trägheitsmoment?
@@ -1229,6 +1235,7 @@ $$n_\mathrm W = 1+\frac{c_0}{2\Delta h}\left(t_2 - t_1 \right) \, .$$
 Mit den Zahlenwerten aus der Aufgabenstellung ergibt sich:
 
 $$n_\mathrm W =1{,}37$$
+
 ********************************************************************************
 
 #### Beamer-Objektiv
@@ -1265,6 +1272,7 @@ $$\frac 1f = \frac 1b + \frac BG \cdot \frac 1b = \left( 1+ \frac BG\right)\frac
 Daraus ergibt sich für die Bildweite:
 
 $$b=\left(1+\frac BG\right) f = \left(1+\frac{3000~\mathrm{mm}}{30~\mathrm{mm}}\right) \cdot 100~\mathrm{mm}=10{,}1~\mathrm m \, .$$
+
 ********************************************************************************
 
 
@@ -1352,6 +1360,7 @@ E_\mathrm{kin} & = \frac{hc}{\lambda}-W_\mathrm A \\
 & = \frac{4{,}136\cdot 10^{-15}~\mathrm{eVs}\cdot 2{,}99\cdot 10^8~\frac{\mathrm m}{\mathrm s}}{439\cdot 10^{-9}~\mathrm m} - 2{,}28~\mathrm{eV}\\
 &= 0{,}54~\mathrm{eV} \, .
 \end{aligned}$$
+
 ********************************************************************************
 
 * Antwort Teilaufgabe 2
@@ -1367,6 +1376,7 @@ $$E_\mathrm{kin}=W_\mathrm{el}=eU_\mathrm{gegen}$$
 Damit ergibt sich für die Gegenspannung
 
 $$U_\mathrm{gegen}=\frac{E_\mathrm{kin}}{e} = \frac{0{,}54~\mathrm{eV}}{e} = 0{,}54~\mathrm{V} \, .$$
+
 ********************************************************************************
 
 #### Balmerserie des Wasserstoffs
@@ -1418,6 +1428,7 @@ $$\lambda_{3\rightarrow 2} = \frac{4c3^2}{R_\mathrm H\left(3^2-4\right)} = 656~\
 Die nächstkürzere Wellenlänge entspricht $n=4$:
 
 $$\lambda_{4\rightarrow 2} = \frac{4c4^2}{R_\mathrm H\left(4^2-4\right)} = 486~\mathrm{nm} \, .$$
+
 ********************************************************************************
 
 *  Kleinstmögliche Wellenlänge der Balmerserie
@@ -1428,4 +1439,5 @@ Die kürzeste Wellenlänge entspricht dem Übergang $E_\infty = 0 \rightarrow E_
 mit $E_\mathrm{Ph} = \left|E_2\right|$:
 
 $$\lambda_{\infty\rightarrow 2} = \frac{hc}{\left|E_2\right|} = \frac{4c}{R_\mathrm H} = 365~\mathrm{nm} \, .$$
+
 ********************************************************************************
