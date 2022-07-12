@@ -128,30 +128,41 @@ Welche Aussagen über die Bewegung der Kugeln sind richtig?
 [[X]] Der Abstand zwischen den Kugeln nimmt kontinuierlich zu.
 [[ ]] Die senkrecht fallende Kugel erreicht den Boden eher, da sie einen kürzeren Weg zurücklegt.
 [[ ]] Die horizontale Bewegung der abgeworfenen Kugel wird immer langsamer. So entsteht die charakteristische Parabelform der Flugbahn.
-***********************************************************************
+*****************************************************************************
 
 *  Beide Kugeln erreichen gleichzeitig den Boden, da in vertikale Richtung
    dieselbe Bewegung ausgeführt wird.
+
    *  **Richtig**: Für Bewegungen gilt das Prinzip der ungestörten Überlagerung
       (Superposition). Die vertikale Bewegung ist demnach unabhänhgig von der
       horizontalen Bewegung und für beide Kugeln identisch.
+
 *  Beide Kugeln haben bei Auftreffen auf den Boden dieselbe Geschwindigkeit, da
    auf beide Kugeln dieselbe Beschleunigung (Fallbeschleunigung) wirkt.
+
    *  **Falsch**: Die vertikale Geschwindigkeitskomponente ist für beide Kugeln
       identisch. Die abgeworfene Kugel besitzt zusätzlich eine horizontale
       Geschwindigkeitskomponente, sodass ihre Gesamtgeschwindigkeit größer ist.
+
 *  Die waagerecht abgeworfene Kugel behält in horizontale Richtung ihre
    Anfangsgeschwindigkeit bei.
+
    *  **Richtig**: Bei Vernachlässigung der Luftreibung (was hier gerechtfertigt
       ist) liegt in horizontale Richtung keinerlei Beschleunigung vor.
+
 *  Die Kugeln befinden sich zu jedem Zeitpunkt in derselben Höhe.
+
    *  **Richtig**: Dies ist gleichbedeutend mit der ersten Aussage.
+
 *  Der Abstand zwischen den Kugeln nimmt kontinuierlich zu.
+
    *  **Richtig**: Die abgeworfene Kugel bewegt sich mit konstanter
       Geschwindigkeit in horizontale Richtung und entfernt sich dabei von der
       anderen Kugel.
+
 *  Die senkrecht fallende Kugel erreicht den Boden eher, da sie einen kürzeren
    Weg zurücklegt.
+
    *  **Falsch**: Für die Bestimmung der Fallzeit spielt nur der vertikale
       Bewegungsablauf eine Rolle. Dieser ist für beide Kugeln identisch. Somit
       erreichen auch beide Kugeln gleichzeitig den Boden. Die zusätzliche
@@ -159,13 +170,15 @@ Welche Aussagen über die Bewegung der Kugeln sind richtig?
       Natürlich legt die abgeworfene Kugel einen längeren Weg zurück, sie
       besitzt jedoch auch (aufgrund der Abwurfs) eine höhere
       Gesamtgeschwindigkeit.
+
 *  Die horizontale Bewegung der abgeworfenen Kugel wird immer langsamer. So
    entsteht die charakteristische Parabelform der Flugbahn.
+
    *  **Falsch**: Die horizontale Geschwindigkeit der abgeworfenen Kugel bleibt
       konstant (siehe dritte Aussage). Die Parabelform entsteht durch die
       aufgrund der Fallbeschleunigung zunehmende vertikale Geschwindigkeit.
 
-***********************************************************************
+****************************************************************************
 
 #### Erster Newtonsches Axiom
 
@@ -226,12 +239,9 @@ Stillstand käme.
 2. Welche der folgenden Darstellungen gibt das korrekte Geschwindigkeits-Orts-Gesetz
    für diesen Bremsvorgang wieder?
 
-   - Diagramm 1
-     ![Diagramm1](grafik_uebung/Zugbremsung_Diagramm1.svg)
-   - Diagramm 2
-     ![Diagramm2](grafik_uebung/Zugbremsung_Diagramm2.svg)   
-   - Diagramm 3
-     ![Diagramm3](grafik_uebung/Zugbremsung_Diagramm3.svg)
+   - Diagramm 1 ![Diagramm1](grafik_uebung/Zugbremsung_Diagramm1.svg)
+   - Diagramm 2 ![Diagramm2](grafik_uebung/Zugbremsung_Diagramm2.svg)   
+   - Diagramm 3 ![Diagramm3](grafik_uebung/Zugbremsung_Diagramm3.svg)
 
    [[ Diagramm 1 | Diagramm 2 | (Diagramm 3) ]]
 
