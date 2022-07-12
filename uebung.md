@@ -242,10 +242,10 @@ Stillstand käme.
    - Diagramm 1
 
      ![Diagramm1](grafik_uebung/Zugbremsung_Diagramm1.svg)
-     
+
    - Diagramm 2
 
-     ![Diagramm2](grafik_uebung/Zugbremsung_Diagramm2.svg)   
+     ![Diagramm2](grafik_uebung/Zugbremsung_Diagramm2.svg)
 
    - Diagramm 3
 
