@@ -205,22 +205,22 @@ Schlussfolgerungen aus dieser Formel sind richtig?
 
 ### Übungsaufgaben
 
-#### Achterbahn mit Katapultstart
-Der Zug einer Achterbahn werde bei einem sogenannten Katapultstart auf einer
-horizontalen Beschleunigungsstrecke durch ein Antriebssystem innerhalb von
-$2{,}5~\mathrm s$ auf eine Endgeschwindigkeit von
-$100~\frac{\mathrm {km}}{\mathrm h}$ beschleunigt.
+#### Von 0 auf 100
+Bei Autos wird gelegentlich angegeben, wie lange sie „von 0 auf 100“ brauchen.
+Gemeint ist die Zeitdauer für die Beschleunigung aus dem Stand auf
+$v_\mathrm{end} = 100~\frac{\mathrm{km}}{\mathrm h}$. Für die folgenden
+Berechnungen wird davon ausgegangen, dass die Beschleunigung während des
+gesamten Vorgangs konstant ist.
 
-1.  Geben Sie die mittlere Beschleunigung in $\frac{\mathrm m}{\mathrm s^2}$
-    sowie in Vielfachen der Fallbeschleunigung an.
+1.  Wie groß ist die Beschleunigung $a$, wenn die Geschwindigkeit von
+    $v_\mathrm{end} = 100~\frac{\mathrm{km}}{\mathrm h}$ nach
+    $t=12{,}3~\mathrm s$ erreicht wird?
 
-    [[ $a= 5{,}5~\frac{\mathrm m}{\mathrm s^2}$ | $a= 7{,}7~\frac{\mathrm m}{\mathrm s^2}$ | $a= 9{,}9~\frac{\mathrm m}{\mathrm s^2}$ | ($a= 11{,}1~\frac{\mathrm m}{\mathrm s^2}$) ]]
+    [[ $0{,}48~\frac{\mathrm m}{\mathrm s^2}$ | $1{,}37~\frac{\mathrm m}{\mathrm s^2}$ | ($2{,}26~\frac{\mathrm m}{\mathrm s^2}$) | $3{,}15~\frac{\mathrm m}{\mathrm s^2}$ ]]
 
-    [[ ($a=1{,}1~g$) | $a=3{,}3~g$ | $a=5{,}5~g$ | $a=7{,}7~g$ ]]
+2.  Welche Strecke $s$ legt das Fahrzeug dabei zurück?
 
-2.  Wie lang muss die Beschleunigungsstrecke sein?
-
-    [[ ($s_\mathrm B = 34{,}75~\mathrm m$) | $s_\mathrm B = 47{,}53~\mathrm m$ | $s_\mathrm B = 53{,}47~\mathrm m$ | $s_\mathrm B = 75{,}34~\mathrm m$ ]]
+    [[ $s=53~\mathrm m$ | ($s=171~\mathrm m$) | $s=224~\mathrm m$ | $s=396~\mathrm m$ ]]
 
 #### Bremsvorgang eines Zugs
 Ein Regionalexpress ist mit einer Geschwindigkeit von
@@ -322,6 +322,54 @@ Teilweise fanden sich unterschiedliche Angabe zur Höhe des Aufschlagpunkts.
 Insofern ist diese Aufgabe eine Anlehnung an den tatsächlichen Unfallhergang.
 Sie erhebt jedoch nicht den Anspruch, eine detaillierte Rekonstruktion
 darzustellen.
+
+#### Achterbahn mit Katapultstart
+Der Zug einer Achterbahn werde bei einem sogenannten Katapultstart auf einer
+horizontalen Beschleunigungsstrecke auf eine Endgeschwindigkeit von
+$v_\mathrm e = 100~\frac{\mathrm {km}}{\mathrm h}$ beschleunigt. Das
+Antriebssystem übt dabei eine Kraft von $F = 80~\mathrm{kN}$ auf den
+Achterbahnzug aus, der eine Masse von $m = 7{,}5~\mathrm t$ besitzt.
+
+1.  Wie lang muss die Beschleunigungsstrecke sein?
+
+    [[ ($s_\mathrm B = 36{,}17~\mathrm m$) | $s_\mathrm B = 47{,}53~\mathrm m$ | $s_\mathrm B = 53{,}47~\mathrm m$ | $s_\mathrm B = 75{,}34~\mathrm m$ ]]
+
+2.  Geben Sie die Beschleunigung des Achterbahnzugs in $\frac{\mathrm m}{\mathrm s^2}$
+    sowie in Vielfachen der Fallbeschleunigung an.
+
+    [[ $a= 4{,}8~\frac{\mathrm m}{\mathrm s^2}$ | $a= 6{,}1~\frac{\mathrm m}{\mathrm s^2}$ | $a= 8{,}4~\frac{\mathrm m}{\mathrm s^2}$ | ($a= 10{,}7~\frac{\mathrm m}{\mathrm s^2}$) ]]
+
+    [[ ($a=1{,}1~g$) | $a=3{,}3~g$ | $a=5{,}5~g$ | $a=7{,}7~g$ ]]
+
+#### Dynamik mit Modellbahnwagen
+Auf einer geradlinigen, horizontalen Modellbahnschiene stehen zwei
+identische Güterwagen. Außerdem befindet sich in der Mitte der Schiene eine
+Halterung mit einer gespannten Feder. Die beiden Wagen liegen links und rechts
+an dieser Feder an, sodass sie nach deren Freigabe auseinandergedrückt werden.
+Die Feder selbst ist in der Halterung nicht fixiert, sondern wird lediglich für
+eine Bewegung parallel zum Gleis geführt. Die Bewegungsstrecke der beiden Wagen
+wird jeweils durch einen Prellbock festgelegt, der auf dem Gleis fixiert ist.
+
+Die Leermasse beider Wagen beträgt $m_\mathrm W =63~\mathrm g$. Wagen 2 besitzt
+zudem eine Beladung unbekannter Masse. Die Prellböcke wurden so eingestellt,
+dass beide Wagen nach Entspannung der Feder das Bahnende gleichzeitig
+nach $t=0{,}87~\mathrm s$ erreichen. Die Bewegungsstrecken der beiden Wagen
+betragen dabei $s_1 = 43~\mathrm{cm}$ und $s_2 = 27~\mathrm{cm}$.
+
+Reibungseffekte können vernachlässigt werden. Weiterhin kann davon ausgegangen
+werden, dass die Dehnung der Feder sehr klein im Vergleich zu den
+Bewegungsstrecken ist. Die gesamte Bewegung kann daher als gleichförmig
+angenommen werden (Vernachlässigung der Beschleunigungsstrecke).
+
+1.  Welche Masse hat die Beladung des zweiten Wagens?
+
+    [[ $m_\mathrm B = 17~\mathrm g$ | ($m_\mathrm B = 37~\mathrm g$) | $m_\mathrm B = 57~\mathrm g$ | $m_\mathrm B = 77~\mathrm g$ | $m_\mathrm B = 97~\mathrm g$ ]]
+
+2.  Am Prellbock des Wagens 1 wurde beim Aufprall eine durchschnittliche Kraft
+    von $F= 420~\mathrm{mN}$ gemessen. Wie lang dauerte dieser Aufprall, bei dem der
+    Wagen zum Stillstand kam?
+
+    [[ ($t = 74~\mathrm{ms}$) | $t = 165~\mathrm{ms}$ | $t = 254~\mathrm{ms}$ | $t = 345~\mathrm{ms}$ ]]
 
 ### Hausaufgaben
 
