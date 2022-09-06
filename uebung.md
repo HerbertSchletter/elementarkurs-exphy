@@ -1040,6 +1040,21 @@ kein Ausgleich mit der Umgebung stattfindet?
 
 [[ $p_2 = 91{,}2~\mathrm{kPa}$ | $p_2 = 92{,}4~\mathrm{kPa}$ | $p_2 = 93{,}6~\mathrm{kPa}$ | ($p_2 = 94{,}8~\mathrm{kPa}$) | $p_2 = 96{,}0~\mathrm{kPa}$ ]]
 
+#### Solar-Luftschiff
+Sogenannte Solar-Luftschiffe sind ein Outdoor-Spielzeug. Sie bestehen aus einer
+dünnen schwarzen schlauchförmigen Folie, die mit Luft gefüllt und verschlossen
+wird. Durch Sonnenbestrahlung erwärmt sich die Luft soweit, dass das Luftschiff
+aufsteigt.
+
+Ein solches Solarluftschiff sei anfänglich mit einem Volumen von
+$V_\mathrm a = 1~\mathrm m^3$ Luft bei einer Temperatur von
+$\vartheta_\mathrm a = 13~\mathrm{°C}$ befüllt. Sobald sich das Volumen des
+Luftschiffs um $40~\mathrm l$ vergrößert hat, beginnt es zu schweben. Auf welche
+Temperatur $\vartheta_\mathrm e$ hat sich die eingeschlossene Luft dabei erwärmt?
+
+[[ ($\vartheta_\mathrm e = 24{,}4~\mathrm{°C}$) | $\vartheta_\mathrm e = 36{,}6~\mathrm{°C}$ | $\vartheta_\mathrm e = 48{,}8~\mathrm{°C}$ | $\vartheta_\mathrm e = 60{,}0~\mathrm{°C}$ | $\vartheta_\mathrm e = 72{,}2~\mathrm{°C}$ ]]
+
+
 #### Kerzenheizung
 Eine Kerzenflamme gibt bei der Verbrennung innerhalb einer Stunde eine Wärme von
 $Q = 250~\mathrm{kJ}$ an die Umgebung ab.
@@ -1054,6 +1069,17 @@ Die Dichte der Luft beträgt $\rho_\mathrm{L}=1{,}204~\frac{\mathrm{kg}}{\mathrm
 Ihre Wärmekapazität ist $c_\mathrm{L}=1{,}005~\frac{\mathrm{kJ}}{\mathrm{kg \cdot K}}$.
 
 [[ ($\Delta T = 6{,}89~\mathrm K$) | $\Delta T = 8{,}96~\mathrm K$ | $\Delta T = 9{,}68~\mathrm K$ ]]
+
+#### Teekanne
+Bei der Zubereitung eines Tees werden $m_\mathrm W = 850~\mathrm g$ kochendes
+Wasser in eine Teekanne aus Keramik (Masse $m_\mathrm K = 880~\mathrm g$,
+spezifische Wärmekapazität $c_\mathrm K = 0{,}73~\frac{\mathrm{kJ}}{\mathrm{kg\cdot K}}$)
+gegossen. Welche Temperatur $\vartheta_\mathrm M$ hat das Wasser nach dem
+Temperaturausgleich mit der Kanne? Vor dem Befüllen besaß die Kanne
+Raumtemperatur ($\vartheta_\mathrm K = 22~\mathrm{°C}$). Wärmeabgabe an die
+Umgebung darf vernachlässigt werden.
+
+[[ $\vartheta_\mathrm M = 76~\mathrm{°C}$ | $\vartheta_\mathrm M = 82~\mathrm{°C}$ | ($\vartheta_\mathrm M = 88~\mathrm{°C}$) | $\vartheta_\mathrm M = 94~\mathrm{°C}$]]
 
 #### Adiabatische Kompression
 In einem Zylinder, der durch einen (beweglichen) Kolben dicht verschlossen ist,
@@ -1129,6 +1155,36 @@ Versorgungsspannung soll nicht geändert werden.
 
 ### Rechenaufgaben
 
+#### Elektrostatische Wechselwirkung
+Zum Nachweis der elektrostatischen Wechselwirkung werden zwei Tischtennisbälle
+(Masse $m=2{,}7~\mathrm g$, Durchmesser $D=40~\mathrm{mm}$)
+genutzt, die jeweils an einem $l=1~\mathrm m$ langen Faden im Abstand
+$d=10~\mathrm{cm}$ voneinander aufgehängt sind (Abstand gemessen zwischen den
+Mittelpunkten der Bälle). Beide Bälle werden mit derselben
+elektrischen Ladung $Q$ aufgeladen. Dabei werden sie jeweils um eine horizontale
+Strecke $\Delta x = 4~\mathrm{cm}$ aus ihrer Ruhelage ausgelenkt. Welchen Betrag
+hat die Ladung $Q$ auf jedem der Bälle?
+
+[[ ($Q=145~\mathrm{nC}$) | $Q=381~\mathrm{\mu C}$ | $Q=571~\mathrm{mC}$ | $Q=219~\mathrm{C}$ ]]
+
+#### Tauchsieder
+Ein Fahrrad-Heimtrainer ist mit einem Generator zur Stromerzeugung ausgestattet.
+Damit kann – abhängig von der Drehzahl – eine Spannung von maximal
+$50~\mathrm V$ erzeugt werden.
+
+An diesen Generator ist ein Tauchsieder angeschlossen, der für einen Betrieb mit
+Netzspannung ($U_0 = 230~\mathrm V$) ausgelegt ist und dabei eine Leistung von
+$P_0=1000~\mathrm W$ aufweist. Tatsächlich wird der Tauchsieder vom Generator
+aber lediglich mit einer Spannung von $U_\mathrm G = 42~\mathrm V$ versorgt.
+
+1. Welcher Strom $I_\mathrm G$ fließt dabei durch den Tauchsieder?
+
+   [[ $I_\mathrm G = 0{,}15~\mathrm A$ | $I_\mathrm G = 0{,}47~\mathrm A$ | ($I_\mathrm G = 0{,}79~\mathrm A$) | $I_\mathrm G = 1{,}11~\mathrm A$ | $I_\mathrm G = 1{,}43~\mathrm A$ ]]
+
+2. Welche Leistung $P_\mathrm G$ weist der Tauchsieder dabei auf?
+
+   [[ ($P_\mathrm G = 33~\mathrm W$) | $P_\mathrm G = 77~\mathrm W$ | $P_\mathrm G = 121~\mathrm W$ | $P_\mathrm G = 165~\mathrm W$ | $P_\mathrm G = 209~\mathrm W$ | $P_\mathrm G = 253~\mathrm W$ ]]
+
 #### Lichterbogen
 Ein Lichterbogen für die Weihnachtsbeleuchtung besitzt 7 Glühlampen und ist für
 den Anschluss an $230~\mathrm V$ (Haushaltsteckdose) vorgesehen. Die Glühlampen
@@ -1169,6 +1225,32 @@ Reibungseffekte seien vernachlässigbar.
 2. Welchen Wirkungsgrad $\eta$ weist der Motor der Lok bei diesem
    Beschleunigungsvorgang auf?
    [[ $\eta = 0{,}13$ | $\eta = 0{,}36$ | $\eta = 0{,}51$ | ($\eta = 0{,}78$) | $\eta = 0{,}94$ ]]
+
+#### Pumpspeicherwerk
+Das Pumpspeicherwerk Markersbach im Erzgebirge ist das zweitgrößte seiner Art in
+Deutschland. Auf den Internetseiten des Betreibers finden sich hierzu folgende
+Informationen: Das Kraftwerk liefert eine maximale elektrische Leistung von
+$P_\mathrm{el} = 1046~\mathrm{MW}$. Hierfür nutzt es sechs Turbinen, die jeweils
+einen Wasserdurchfluss von $70~\frac{\mathrm m^3}{\mathrm s}$ aufweisen. Die
+Fallhöhe (Höhenunterschied zwischen Ober- und Unterbecken) beträgt
+$\Delta h = 288~\mathrm m$. Bei vollständig gefülltem Oberbecken kann das
+Kraftwerk vier Stunden unter Volllast betrieben werden.
+
+1. Welches Wasservolumen muss im Oberbecken gespeichert sein, um die genannte
+   Betriebsdauer zu gewährleisten?
+
+   [[ $V=3{,}012\cdot 10^3~\mathrm{m^3}$ | $V=4{,}024\cdot 10^4~\mathrm{m^3}$ | $V=5{,}036\cdot 10^5~\mathrm{m^3}$ | ($V=6{,}048\cdot 10^6~\mathrm{m^3}$) | $V=7{,}060\cdot 10^7~\mathrm{m^3}$ | $V=8{,}072\cdot 10^8~\mathrm{m^3}$ ]]
+
+2. Berechnen Sie den Wirkungsgrad der Stromerzeugung in diesem Kraftwerk
+   (bezogen auf die mechanische Energie des Wassers).
+
+   [[ $\eta = 97~\%$ | $\eta = 94~\%$ | $\eta = 91~\%$ | ($\eta = 88~\%$) | $\eta = 85~\%$ | $\eta = 82~\%$ | $\eta = 79~\%$ ]]
+
+3. Die erzeugte elektrische Energie wird mit einer Spannung von $U=380~\mathrm{kV}$
+   in das Übertragungsnetz eingespeist. Welcher Strom fließt dabei, wenn das
+   Kraftwerk mit maximaler Leistung arbeitet?
+
+   [[ $I=1{,}25~\mathrm{kA}$ | $I=1{,}50~\mathrm{kA}$ | $I=1{,}75~\mathrm{kA}$ | $I=2{,}00~\mathrm{kA}$ | $I=2{,}25~\mathrm{kA}$ | $I=2{,}50~\mathrm{kA}$ | ($I=2{,}75~\mathrm{kA}$) ]]
 
 ## Optik
 ### Verständnisfragen
