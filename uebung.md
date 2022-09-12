@@ -3,7 +3,7 @@ author:   Herbert schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  0.0.1
+version:  1.0.0
 
 language: de
 
@@ -35,7 +35,277 @@ Quellen übernommen wurden und dort unter einer anderslautenden Lizenz
 veröffentlicht wurden. Derartige Inhalte sind im Skript stets mit einem eigenen
 Lizenzhinweis versehen, der Vorrang vor der hier genannten Lizenz besitzt.
 
-## Kinematik und Dynamik
+## Verwendung dieser Aufgabensammlung
+Diese Aufgabensammlung ist abgestimmt auf das Vorlesungsskriptum „Elementarkurs
+Experimentalphysik“ und vertieft dessen Inhalten durch Verständnisfragen und
+Berechnungsaufgaben. Der Aufgabenumfang ist auf eine Dauer von einem Semester
+mit einer Doppelstunde (90 Minuten) Übung alle zwei Wochen ausgelegt. Die
+Aufgabenkomplexe sind nach dem Verlauf des Skriptums geordnet und in einzelne
+Übungen gegliedert, die jeweils auf einen Übungstermin ausgerichtet sind.
+
+Mit Ausnahme der ersten Übung enthalten die Übungen in der Regeln drei
+Aufgabenbereiche:
+
+- Verständnisfragen: Hier sollen physikalische Sachverhalte qualitativ beurteilt
+  oder beschrieben werden. Die Beantwortung kann in LiaScript direkt in der
+  Aufgabe vorgenommen und es erfolgt eine Ergebniskontrolle. Bei einigen
+  Aufgaben werden mit der Lösung zusätzliche Erläuterungen eingeblendet.
+  Die Verständnisfragen dienen vor allem dem Selbststudium. Eine Besprechung im
+  Übungstermin erfolgt nur auf Nachfrage seitens der Studenten.
+- Übungsaufgaben: Hierbei handelt es sich um Berechnungsaufgaben, die für eine
+  Besprechung in den Übungen vorgesehen sind. Die Aufgaben selbst
+  sollten bereits vor dem jeweiligen Übungstermin bearbeitet werden, damit
+  eventuelle Unklarheiten bei der Herangehensweise zielgerichtet diskutiert
+  werden können. Zur Selbstkontrolle kann bei jeder Aufgabe der Ergebniswert
+  überprüft werden. Weitere Erläuterungen sind nicht bei den Aufgaben
+  hinterlegt. Diese sollen in der Übung erfolgen.
+- Hausaufgaben: Dies sind Berechnungsaufgaben, die für das Selbststudium
+  vorgesehen sind. Ebenso wie bei den Übungsaufgaben ist auch hier eine
+  Ergebniskontrolle möglich. Zusätzlich wird bei den Hausaufgaben zusammen
+  mit der Lösung ein vollständiger Lösungsweg eingeblendet. Eine Besprechung
+  dieser Aufgaben in der Übung erfolgt nur auf Nachfrage.
+
+## Übung 1: Mathematische & physikalische Grundlagen
+Die erste Übung enthält vor allem eine Wiederholung mathematischer (und in
+geringerem Umfang auch physikalischer) Methoden, die als „Handwerkszeug“ in
+Vorlesungen und Übungen des Physikkurses wichtig sind. Wenn alle Aufgaben dieses
+Komplexes sorgfältig bearbeitet wurden, kann diese Übung auch als kompaktes
+Kompendium für die weiteren Übungen dienen.
+
+Da es sich bei den meisten Aufgaben um ein Zusammentragen von Informationen
+handelt, ist in dieser ersten Übung keine Ergebniskontrolle vorgesehen. Ebenso
+entfällt die Unterteilung in Verständnisfragen, Übungs- und Hausaufgaben. Der
+gesamte Komplex wird im ersten Übungstermin besprochen werden.
+
+### Differentialrechnung
+Ziel der Differentialrechnung ist die Bestimmung der Ableitung einer gegebenen
+Funktion. Die Ableitung der Funktion $f(x)$ ist definiert als
+
+$$\left .\frac{\mathrm{d}f(x)}{\mathrm{d}x}\right |_{x=x_0} = \lim_{x\rightarrow x_0} \frac{f(x)-f(x_0)}{x-x_0}$$
+
+und gibt den Anstieg der Funktion im Punkt $x_0$ an. Funktionen können von
+beliebigen Größen abhängen und entsprechend nach jeder dieser Größen abgeleitet
+werden. In der Physik treten besonders häufig Ableitungen nach einer
+Ortskoordinate $x$ sowie nach der Zeit $t$ auf. Für diese haben sich die
+folgenden Kurzschreibweisen etabliert:
+
+$$\frac{\mathrm d f(x)}{\mathrm d x} = f'(x) \qquad \frac{\mathrm d^2 f(x)}{\mathrm d x^2} = f''(x)$$
+$$\frac{\mathrm d f(t)}{\mathrm d t} = \dot f(t) \qquad \frac{\mathrm d^2 f(t)}{\mathrm d t^2} = \ddot f(t)$$
+
+#### Ableitungsregeln
+Vervollständigen Sie die folgenden Ableitungsregeln:
+
+- Ableitung konstanter Faktoren:
+  $$\frac{\mathrm d}{\mathrm dx}\left( c\cdot f(x) \right) =$$
+- Ableitung von Summen und Differenzen:
+  $$\frac{\mathrm d}{\mathrm dx}\left( f(x) \pm g(x) \right) =$$
+- Produktregel:
+  $$\frac{\mathrm d}{\mathrm dx}\left( f(x) \cdot g(x) \right) =$$
+- Quotientenregel:
+  $$\frac{\mathrm d}{\mathrm dx}\left( \frac{f(x)}{g(x)} \right) =$$
+- Kettenregel:
+  $$\frac{\mathrm d}{\mathrm dx}\left( f(g(x)) \right) =$$
+
+#### Spezielle Ableitungen
+Ergänzen Sie die Ableitungen folgender Funktionen:
+
+$$\frac{\mathrm d}{\mathrm dx}\left( \mathrm{const.} \right) = \qquad \frac{\mathrm d^2}{\mathrm dx^2}\left( \mathrm{const.} \right) =$$
+
+$$\frac{\mathrm d}{\mathrm dx}\left( x^n \right) = \qquad \frac{\mathrm d^2}{\mathrm dx^2}\left( x^n \right) =$$
+
+$$\frac{\mathrm d}{\mathrm dx}\left( \sin x \right) = \qquad \frac{\mathrm d^2}{\mathrm dx^2}\left( \sin x \right) =$$
+
+$$\frac{\mathrm d}{\mathrm dx}\left( e^x \right) = \qquad \frac{\mathrm d^2}{\mathrm dx^2}\left( e^x \right) =$$
+
+$$\frac{\mathrm d}{\mathrm dx}\left( \ln x \right) = \qquad \frac{\mathrm d^2}{\mathrm dx^2}\left( \ln x \right) =$$
+
+### Integralrechnung
+Ziel der Integralrechnung ist die Bestimmung einer Stammfunktion $G(x)$ zu einer
+gegebenen Funktion $g(x)$:
+
+$$G(x)=\int g(x)\mathrm dx \, .$$
+
+Dabei gilt:
+
+$$\frac{\mathrm d}{\mathrm dx}G(x) = G'(x) = g(x) \, .$$
+
+Der Ausdruck $\int g(x)\mathrm dx$ wird als unbestimmtes Integral bezeichnet und
+ergibt die Funktion $G(x)$. Das Ergebnis einer (unbestimmten) Integration kann
+überprüft werden, indem die ermittelte Stammfunktion $G(x)$abgeleitet wird.
+Dabei muss die ursprüngliche Funktion $g(x)$ reproduziert werden.
+
+Die Bestimmung einer Stammfunktion ist nicht eindeutig: Es tritt stets eine
+(zunächst unbestimmte) additive Konstante auf (sogenannte
+Integrationskonstante). Für ein konkretes physikalisches Problem wird der Wert
+dieser Konstante aus den Anfangs- oder Randbedingungen bestimmt.
+
+Ein bestimmtes Integral
+
+$$\int_a^b g(x)\mathrm dx = \left. G(x)\right|_a^b = G(b) - G(a)$$
+
+ist durch seine Integrationsgrenzen $a$ und $b$ gekennzeichnet und liefert einen
+Zahlenwert, der der Fläche unter der Funktion im Intervall $[a,b]$ entspricht.
+
+#### Unbestimmte Integrale spezieller Funktionen
+Lösen Sie die folgenden unbestimmten Integrale:
+
+$$\int c\mathrm dx =$$
+
+$$\int x^n \mathrm dx =$$
+
+$$\int\sin x\mathrm dx =$$
+
+$$\int\cos x\mathrm dx =$$
+
+$$\int e^x \mathrm dx =$$
+
+$$\int\frac 1x \mathrm dx =$$
+
+$$\int f'(x) \mathrm dx =$$
+
+#### Integrationsregeln
+Ergänzen Sie die folgenden Integrationsregeln:
+
+- Vielfache oder Bruchteile einer Funktion:
+  $$\int c\cdot f(x)\mathrm dx =$$
+- Summen von Funktionen:
+  $$\int \left[ f(x) \pm g(x) \right] \mathrm dx =$$
+- gleiche Integrationsgrenzen:
+  $$\int_a^a f(x) \mathrm dx =$$
+- vertauschte Intgerationsgrenzen:
+  $$\int _b^a f(x) \mathrm dx = \dots \int _a^b f(x) \mathrm dx$$
+
+### Vektoren
+Zahlreiche Größen der Physik sind neben ihrem Betrag (einschließlich Einheit)
+auch durch eine Richtung gekennzeichnet (z.B. Geschwindigkeit, Kraft). Diese
+gerichteten (oder vektoriellen) Größen werden mathematisch durch Vektoren
+beschrieben. Das Gegenstück zu den vektoriellen Größen bilden skalare Größen,
+die nur duch ihren Betrag gekennzeichnet sind (z.B. Masse. Energie).
+
+Veranschaulicht werden Vektoren durch Pfeile, deren Länge den Betrag den Betrag
+des Vektors widerspiegelt. In einem kartesischen Koordinatensystem werden
+Vektoren angegeben durch ihre Komponenten in $x$-, $y$- und $z$-Richtung:
+
+$$\vec a = \begin{pmatrix}a_\mathrm x \\ a_\mathrm y \\ a_\mathrm z \end{pmatrix} \, .$$
+
+Alternativ kann ein Vektor als Betrag und Richtung angegeben werden:
+
+$$\vec a = \left |\vec a \right | \cdot \vec e_a \, ,$$
+
+wobei der Ausdruck $\vec e_a$ einen sogenannten Einheitsvektor mit dem Betrag
+$1$ bezeichnet. Einheitsvektoren können für beliebige Richtungen angegeben
+werden. Von grundlegender Bedeutung sind die Einheitsvektoren entlang der
+Koordinatenachsen:
+
+$$\vec e_x =\begin{pmatrix}1\\0\\0\end{pmatrix} \qquad \vec e_y =\begin{pmatrix}0\\1\\0\end{pmatrix} \qquad \vec e_z =\begin{pmatrix}0\\0\\1\end{pmatrix} \, .$$
+Damit kann ein Vektor auch in der Form
+
+$$\vec a = a_\mathrm x\vec e_x + a_\mathrm y\vec e_y + a_\mathrm z\vec e_z$$
+
+angegeben werden.
+
+#### Rechenregeln für Vektoren
+Vervollständigen Sie die folgenden Rechenregeln für Vektoren:
+
+- Addition von Vektoren:
+  $$\vec a + \vec b =$$
+- Subtraktion von Vektoren:
+  $$\vec a - \vec b =$$
+- Multiplikation mit einem Skalar:
+  $$c\cdot\vec a =$$
+- Berechnung des Betrags:
+  $$\left |\vec a\right | =$$
+- Berechnung eines Einheitsvektors:
+  $$\vec e_a =$$
+- Gelten für die Vektoraddition das Kommutativ- und das Assoziativgesetz?
+
+#### Skalarprodukt
+Das Skalarprodukt ist das Produkt zweier Vektoren, das eine Zahl (Skalar)
+ergibt. Es wird durch einen Punkt dargestellt. Ergänzen Sie hierzu die folgenden
+Informationen:
+
+- Berechnung des Skalarprodukts:
+  $$\vec a\cdot\vec b =$$
+- Wie verhält sich das Skalarprodukt bei parallelen bzw. bei zueinander
+  senkrechten Vektoren?
+- Gelten für das Skalarprodukt das Kommutativgesetz, das Assoziativgesetz und
+  das Distributivgesetz (in Verbindung mit der Vektoraddition)?
+- Wie lässt sich das Skalarprodukt geometrisch veranschaulichen?
+
+#### Kreuzprodukt
+Das Kreuzprodukt (oder Vektorprodukt) ist das Produkt zweier Vektoren, das einen
+Vektor ergibt. Es wird durch ein Kreuz dargestellt. Ergänzen Sie hierzu die
+folgenden Informationen:
+
+- Berechnung des Kreuzprodukts:
+  $$\vec a \times\vec b = \begin{pmatrix}a_\mathrm x \\ a_\mathrm y \\ a_\mathrm z\end{pmatrix}\times\begin{pmatrix}b_\mathrm x \\ b_\mathrm y \\ b_\mathrm z\end{pmatrix}=$$
+- Betrag des Kreuzprodukts:
+  $$\left | \vec a \times \vec b \right | =$$
+- Welche Orientierung besitzt der Ergebnisvektor des Kreuzprodukts (bezogen auf
+  die beiden Ausgangsvektoren)?
+- Wie verhält sich das Kreuzprodukt bei parallen bzw. zueinander senkrechten
+  Vektoren?
+- Wie lassen sich Richtung und Betrag des Kreuzprodukts geometrisch
+  veranschaulichen?
+- Wie verhalten sich die Kreuzprodukte der Einheitsvektoren entlang der
+  Koordinatenachsen:
+  $$\vec e_x \times \vec e_y =$$
+  $$\vec e_y \times \vec e_z =$$
+  $$\vec e_z \times \vec e_x =$$
+- Gelten für das Kreuzprodukt das Kommutativgesetz, das Assoziativgesetz und das
+  Distributivgesetz (in Verbindung mit der Vektoraddition)?
+
+### Größen und Einheiten
+
+#### Einheitenvorsätze
+Ergänzen sie die Faktoren, die durch folgende Einheitenvorsätze angegeben werden:
+
+- Bruchteile:
+  $$\textrm{Dezi}\quad\mathrm d=$$
+  $$\textrm{Zenti}\quad\mathrm c=$$
+  $$\textrm{Milli}\quad\mathrm m=$$
+  $$\textrm{Mikro}\quad\mathrm \mu=$$
+  $$\textrm{Nano}\quad\mathrm n=$$
+- Vielfache:
+  $$\textrm{Deka}\quad\mathrm {da}=$$
+  $$\textrm{Hekto}\quad\mathrm h=$$
+  $$\textrm{Kilo}\quad\mathrm k=$$
+  $$\textrm{Mega}\quad\mathrm M=$$
+  $$\textrm{Giga}\quad\mathrm G=$$
+
+#### Einheitenumrechnung I
+Rechnen Sie folgende Einheiten ineinander um:
+
+- $\mathrm{dam}$ in $\mathrm{mm}$
+- $\mathrm{m^2}$ in $\mathrm{mm^2}$
+- $\mathrm{h}$ in $\mathrm{s}$
+- $\frac{\mathrm{m}}{\mathrm s}$ in $\frac{\mathrm{km}}{\mathrm h}$
+- $\frac{\mathrm{g}}{\mathrm{cm^3}}$ in $\frac{\mathrm{kg}}{\mathrm{m^3}}$
+
+#### Einheitenumrechnung II
+In den folgenden Formeln werden diese Größen mit ihren Einheiten verwendet:
+
+- Weg $s$ in $\mathrm m$,
+- Geschwindigkeit $v$ in $\frac{\mathrm m}{\mathrm s}$,
+- Zeit $t$ in $\mathrm s$,
+- Masse $m$ in $\mathrm{kg}$.
+
+Eventuell vorhandene Indizes ändern nicht die genannten Einheiten. Ermitteln Sie
+die Einheit des Ergebnisses folgender Formeln:
+
+$$v_0 \cdot t + s_0$$
+
+$$\frac{v_0^2}{2\cdot s}$$
+
+$$m\cdot v$$
+
+$$\sqrt{v_0^2 \left ( 1-\frac{s}{s_\mathrm B} \right)}$$
+
+$$\frac{m}{2}v^2$$
+
+$$\frac{s}{v}$$
+
+## Übung 2: Kinematik und Dynamik
 
 ### Verständnisfragen
 
@@ -444,7 +714,7 @@ $$v_\mathrm{Wurf} = \sqrt{v_\mathrm{hor}^2 + v_\mathrm{vert}^2} = \sqrt{\frac{d^
 
 ********************************************************************************
 
-## Arbeit und Erhaltungssätze
+## Übung 3: Arbeit und Erhaltungssätze
 ### Verständnisfragen
 
 #### Reibung I
@@ -918,7 +1188,15 @@ W &  = vg\left( \mu_\mathrm R \cos\left( \arctan S \right) + \sin\left( \arctan 
 
 ********************************************************************************
 
-## Rotation und Schwingungen
+## Übung 4: Rotation und Schwingungen
+Der vierte Übungstermin im Semesterverlauf schließt das Gebiet der Mechanik ab.
+Das Aufgabenpensum hierfür wurde bewusst niedrig gewählt. So soll diese Übung
+auch einen zeitlichen Puffer darstellen um mögliche Überhänge aus den vorherigen
+Übungen aufzuholen. Neben den hier aufgeführten Fragen zur Rotation und zu
+mechanischen Schwingungen können – je nach zeitlichem Fortschritt – auch
+Hausaufgaben der vorhergehenden Übungen oder ergänzende Aufgaben zur Mechanik
+besprochen werden.
+
 ### Verständnisfragen
 
 #### Pohlsche Rollen
@@ -965,7 +1243,7 @@ wie oben beschrieben.
 Das Pendel befinde sich komplett unter Wasser, sodass die Reibung nun eine signifikante Rolle spielt. Die Kreisfrequenz
 [[ verdoppelt sich | erhöht sich um den Faktor $\sqrt 2$ | erhöht sich geringfügig | ändert sich nicht | (verringert sich geringfügig) | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
 
-## Wärmelehre
+## Übung 5: Wärmelehre
 ### Verständnisfragen
 
 #### Temperaturausgleich
@@ -1096,7 +1374,7 @@ verrichtet?
 
 [[ ($W = 27{,}64~\mathrm J$) | $W = 42{,}76~\mathrm J$ | $W = 64{,}27~\mathrm J$ | $W = 76{,}42~\mathrm J$ ]]
 
-## Elektrizitätslehre
+## Übung 6: Elektrizitätslehre
 ### Verständnisfragen
 
 #### Glühlampen
@@ -1252,7 +1530,7 @@ Kraftwerk vier Stunden unter Volllast betrieben werden.
 
    [[ $I=1{,}25~\mathrm{kA}$ | $I=1{,}50~\mathrm{kA}$ | $I=1{,}75~\mathrm{kA}$ | $I=2{,}00~\mathrm{kA}$ | $I=2{,}25~\mathrm{kA}$ | $I=2{,}50~\mathrm{kA}$ | ($I=2{,}75~\mathrm{kA}$) ]]
 
-## Optik
+## Übung 7: Optik
 ### Verständnisfragen
 
 #### Einzelspalt
@@ -1269,6 +1547,74 @@ folgenden Aussagen sind richtig?
 
 ### Übungsaufgaben
 
+#### Rettungsschwimmer
+An einem Badestrand beobachtet ein Rettungsschwimmer von einem Aussichtspunkt
+aus das Geschehen am und im Wasser. Dabei entdeckt er einen Schwimmer, der
+offensichtlich Hilfe benötigt und den der Rettungsschwimmer in möglichst kurzer
+Zeit erreichen muss.
+
+Zur besseren Beschreibung dieses Sachverhalts wird folgendes Koordinatensystem
+verwendet:
+
+- Der Ausgangspunkt des Rettungsschwimmers befindet sich im Koordinatenursprung.
+- Die Grenze zwischen Strand und Wasser verläuft geradlinig parallel zur
+  $x$-Achse bei $y=25~\mathrm m$.
+- Der Schwimmer im Wasser, den der Rettungsschwimmer erreichen muss, befindet
+  an der Position $\vec r_\mathrm s = \left( 35~\mathrm m , 45~\mathrm m \right)$.
+
+Auf dem Festland läuft der Rettungsschwimmer mit einer
+Geschwindigkeit von
+$v_\mathrm l = 3~\frac{\mathrm m}{\mathrm s}$. Im Wasser erreicht er eine
+Geschwindigkeit von $v_\mathrm w = 0{,}9~\frac{\mathrm m}{\mathrm s}$.
+
+1. Berechnen Sie die Zeiten, die der Rettungsschwimmer benötigt um den Schwimmer
+   zu erreichen, für die folgenden verschiedenen Wege:
+
+   1. Zunächst zum Punkt $\left( 35~\mathrm m, 0 \right)$, danach nach
+      $\vec r_\mathrm s$.
+   2. Zunächst zum Punkt $\left( 35~\mathrm m, 25~\mathrm m \right)$, danach nach
+      $\vec r_\mathrm s$.
+   3. Zunächst zum Punkt $\left( \dots~\mathrm m, 25~\mathrm m \right)$, danach nach
+      $\vec r_\mathrm s$.
+   4. Auf geradlinigem Weg von $\left( 0, 0 \right)$ nach $\vec r_\mathrm s$.
+
+2. Welchen Bezug hat diese Aufgabe zur Optik?
+
+#### Regensensor
+Regensensoren im Auto funktionieren nach folgendem Prinzip: An der Innenseite
+der Windschutzscheibe befindet sich eine Infrarot-Lichtquelle, deren Licht in
+das Glas der Windschutzscheibe gelangt (in der Regel wird zur Einkopplung des
+Lichts in das Glas ein zusätzliches Prisma genutzt, das hier jedoch nicht
+betrachtet wird). Der Strahlenverlauf ist dabei so gewählt, dass das Licht an
+der (trockenen) Oberfläche der Windschutzscheibe totalreflektiert wird und
+zurück in den Sensor gelangt. Dort wird die Intensität des ankommenden IR-Lichts
+gemessen. Das Glas der Windschutzscheibe habe einen Brechungsindex von
+$n_\mathrm g = 1{,}536$.
+
+1. Berechnen Sie den Grenzwinkel der Totalreflexion am Übergang zwischen
+   Windschutzscheibe und Luft.
+
+   [[ ($\alpha_\mathrm g = 40{,}6°$) | $\alpha_\mathrm g = 46{,}2°$ | $\alpha_\mathrm g = 52{,}0°$ | $\alpha_\mathrm g = 60{,}8°$ | $\alpha_\mathrm g = 68{,}1°$ ]]
+
+   Muss der Lichtstrahl des Regensensors steiler
+   oder flacher auf die Grenzfläche treffen?
+
+   [[ Der Lichtstrahl muss steiler auf die Grenzfläche treffen. | (Der Lichtstrahl muss flacher auf die Grenzfläche treffen.) ]]
+
+2. Der Lichtstrahl des Regensensors treffe unter einem Winkel von $45°$ auf die
+   Grenzfläche. Die Außenseite der Scheibe sei mit einem geschlossenen
+   Wasserfilm ($n_\mathrm w = 1{,}33$) bedeckt. Unter welchen Brechungswinkel
+   tritt der Lichtstrahl in die Wasserschicht ein?
+
+   [[ $\alpha_\mathrm w = 47{,}5°$ | ($\alpha_\mathrm w = 54{,}7°$) | $\alpha_\mathrm w = 75{,}4°$ ]]
+
+3. Kann der Lichtstrahl unter den oben genannten Bedingungen einen homogenen
+   Wasserfilm auf der Windschutzscheibe verlassen?
+
+   [[ Ja, der Lichtstrahl kann die Grenzfläche zwischen Wasser und Luft passieren. | (Nein, der Lichtstrahl wird an der Grenzfläche zwischen Wasser und Luft totalreflektiert.) ]]
+
+   Wieso eignet sich das geschilderte Prinzip trotzdem als Regensensor?
+
 #### Kamera
 Mit einer Fotokamera soll eine Aufnahme von einem $G= 42~\mathrm m$ hohen Turm
 gemacht werden. Das Objektiv der Kamera (das als dünne Linse behandelt wird) hat
@@ -1277,6 +1623,17 @@ von $B=36~\mathrm{mm}$. In welcher Entfernung $g$ vom Turm muss sich die Kamera
 mindestens befinden, damit dieser vollständig auf dem Bild erscheint?
 
 [[ $g = 32{,}73~\mathrm m$ | $g = 59{,}51~\mathrm m$ | ($g = 99{,}25~\mathrm m$) | $g = 141{,}83~\mathrm m$ | $g = 182{,}26~\mathrm m$]]
+
+#### Fotoobjektiv
+Auf einem Fotoobjektiv befinden sich folgende Angaben: Brennweite
+$70~\mathrm{mm}$, Fokussierbereich: $0{,}85~\mathrm m\dots\infty$ (gemessen als
+Abstand zwischen Objekt und Sensorebene). Die Scharfstellung erfolgt durch
+Verschieben des Objektivs entlang der optischen Achse. Um welche Strecke $d$
+muss das Objektiv an der Kamera verschoben werden können, um diesen
+Fokussierbereich zu realisieren? (Das Objektiv kann dabei wie eine dünne Linse
+behandelt werden.)
+
+[[ $d=1~\mathrm{mm}$ | $d=3~\mathrm{mm}$ | $d=5~\mathrm{mm}$ | ($d=7~\mathrm{mm}$) | $d=9~\mathrm{mm}$ | $d=11~\mathrm{mm}$ ]]
 
 #### Interferenz am Einzelspalt
 
@@ -1406,7 +1763,16 @@ $$b=\left(1+\frac BG\right) f = \left(1+\frac{3000~\mathrm{mm}}{30~\mathrm{mm}}\
 ********************************************************************************
 
 
-## Moderne Physik
+## Übung 8: Moderne Physik
+Das letzte Kapitel dieser Übungssammlung enthält Fragen, die über die klassische
+Physik hinausgehen, entsprechend dem letzen Kapitel des Vorlesungsskriptums. In
+der Regel wird im Semesterverlauf kein eigener Übungstermin für diesen
+Aufgabenkomplex zur Verfügung stehen. Folgerichtig wurde auf Übungsaufgaben
+verzichtet und lediglich Verständnisfragen und Hausaufgaben hier aufgenommen.
+Die Bearbeitung sollte mit den Mitteln der Vorlesung selbstständig möglich sein.
+Gelegenheit zu Rückfragen gibt es im letzten regulären Übungstermin, bei einem
+Konsultationstermin oder jederzeit bei Vorlesdendem oder Übungsleiter.
+
 ### Verständnisfragen
 
 #### Äußerer Photoeffekt
