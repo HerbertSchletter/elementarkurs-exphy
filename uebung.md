@@ -3,7 +3,7 @@ author:   Herbert schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  1.0.0
+version:  1.0.1
 
 language: de
 
@@ -75,7 +75,7 @@ Kompendium für die weiteren Übungen dienen.
 Da es sich bei den meisten Aufgaben um ein Zusammentragen von Informationen
 handelt, ist in dieser ersten Übung keine Ergebniskontrolle vorgesehen. Ebenso
 entfällt die Unterteilung in Verständnisfragen, Übungs- und Hausaufgaben. Der
-gesamte Komplex wird im ersten Übungstermin besprochen werden.
+gesamte Komplex wird zum ersten Übungstermin besprochen werden.
 
 ### Differentialrechnung
 Ziel der Differentialrechnung ist die Bestimmung der Ableitung einer gegebenen
@@ -95,7 +95,7 @@ $$\frac{\mathrm d f(t)}{\mathrm d t} = \dot f(t) \qquad \frac{\mathrm d^2 f(t)}{
 #### Ableitungsregeln
 Vervollständigen Sie die folgenden Ableitungsregeln:
 
-- Ableitung konstanter Faktoren:
+- Ableitung mit konstanten Faktoren:
   $$\frac{\mathrm d}{\mathrm dx}\left( c\cdot f(x) \right) =$$
 - Ableitung von Summen und Differenzen:
   $$\frac{\mathrm d}{\mathrm dx}\left( f(x) \pm g(x) \right) =$$
@@ -258,7 +258,7 @@ folgenden Informationen:
 ### Größen und Einheiten
 
 #### Einheitenvorsätze
-Ergänzen sie die Faktoren, die durch folgende Einheitenvorsätze angegeben werden:
+Ergänzen Sie die Faktoren, die durch folgende Einheitenvorsätze angegeben werden:
 
 - Bruchteile:
   $$\textrm{Dezi}\quad\mathrm d=$$
@@ -1771,7 +1771,7 @@ Aufgabenkomplex zur Verfügung stehen. Folgerichtig wurde auf Übungsaufgaben
 verzichtet und lediglich Verständnisfragen und Hausaufgaben hier aufgenommen.
 Die Bearbeitung sollte mit den Mitteln der Vorlesung selbstständig möglich sein.
 Gelegenheit zu Rückfragen gibt es im letzten regulären Übungstermin, bei einem
-Konsultationstermin oder jederzeit bei Vorlesdendem oder Übungsleiter.
+Konsultationstermin oder jederzeit bei Vorlesendem oder Übungsleiter.
 
 ### Verständnisfragen
 
