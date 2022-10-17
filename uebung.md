@@ -3,7 +3,7 @@ author:   Herbert schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  1.0.1
+version:  1.0.2
 
 language: de
 
@@ -548,7 +548,7 @@ der Ball in horizontale Richtung abgeworfen wird.
 
    [[ $v=0{,}7~\frac{\mathrm m}{\mathrm s}$ | $v=1{,}6~\frac{\mathrm m}{\mathrm s}$ | $v=2{,}5~\frac{\mathrm m}{\mathrm s}$ | $v=3{,}4~\frac{\mathrm m}{\mathrm s}$ | $v=4{,}3~\frac{\mathrm m}{\mathrm s}$ | ($v=5{,}2~\frac{\mathrm m}{\mathrm s}$) | $v=6{,}1~\frac{\mathrm m}{\mathrm s}$ | $v=7{,}0~\frac{\mathrm m}{\mathrm s}$ ]]
 
-2. Die Bewegung der Wurfarms lässt sich verständlicherweise nur mit begrenzter
+2. Die Bewegung des Wurfarms lässt sich verständlicherweise nur mit begrenzter
    Genauigkeit steuern. Folglich werden einige Bälle langsamer und andere
    schneller als diese (unter 1. berechnete) optimale Geschwindigkeit
    abgeworfen. Welche Punktzahl wird erreicht, wenn der Abwurf mit einer um 25%
@@ -662,7 +662,7 @@ Auftreffpunkt liegt $d=78~\mathrm{cm}$ von dem der anderen Kugel entfernt.
 ********************************************************************************
 
 Zunächst ist festzuhalten, dass beide Kugeln gleichzeitig den Boden erreichen,
-da in vertikale Richtung in beiden Fällen ein freier Fall vorliegt. Das
+da in vertikaler Richtung in beiden Fällen ein freier Fall vorliegt. Das
 Höhe-Zeit-Gesetz des freien Falls lautet:
 
 $$h(t) = h_0 - \frac g2 t^2 \, .$$
