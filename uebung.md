@@ -3,7 +3,7 @@ author:   Herbert schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  1.0.2
+version:  1.1.0
 
 language: de
 
@@ -802,7 +802,7 @@ innerhalb einer Strecke von $s=2~\mathrm{cm}$ zum Stillstand gebracht.
 4. Wie verändert sich der Bremsweg, wenn die Masse $m$ des Gleiters verdoppelt
    wird?
 
-   [[ (Der Bremsweg vervierfacht sich.) | Der Bremsweg verdoppelt sich. | Der Bremsweg bleibt gleich. | Der Bremsweg beträgt die Hälfte des ursprünglichen Werts. | Der Bremsweg beträgt ein Viertel des ursprünglichen Werts.  ]]
+   [[ Der Bremsweg vervierfacht sich. | Der Bremsweg verdoppelt sich. | (Der Bremsweg bleibt gleich.) | Der Bremsweg beträgt die Hälfte des ursprünglichen Werts. | Der Bremsweg beträgt ein Viertel des ursprünglichen Werts.  ]]
 
 #### Alpe d’Huez
 Der in den französischen Alpen gelegene Ort Alpe d'Huez gehört zu den
