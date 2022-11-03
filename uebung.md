@@ -450,7 +450,7 @@ Welche Aussagen über die Bewegung der Kugeln sind richtig?
 
 ****************************************************************************
 
-#### Erster Newtonsches Axiom
+#### Erstes Newtonsches Axiom
 
 Ein Körper bewegt sich geradlinig mit konstanter Geschwindigkeit. Was lässt sich
 dabei über die auf den Körper wirkenden Kräfte schlussfolgern?
@@ -502,7 +502,8 @@ Bezeichnung!) startet beim Passieren des Vorsignals den Bremsvorgang des Zugs.
 Die Bremsverzögerung wählt er dabei so, dass der Zug genau am Einfahrsignal zum
 Stillstand käme.
 
-1. Welche Beschleunigung erfährt der Zug bei diesem Bremsvorgang?
+1. Berechnen Sie den Betrag der Beschleunigung, die der Zug bei diesem
+   Bremsvorgang erfährt.
 
    [[ $a=0{,}14~\frac{\mathrm m}{\mathrm s^2}$ | ($a=0{,}76~\frac{\mathrm m}{\mathrm s^2}$) | $a=1{,}29~\frac{\mathrm m}{\mathrm s^2}$ | $a=1{,}58~\frac{\mathrm m}{\mathrm s^2}$ | $a=2{,}21~\frac{\mathrm m}{\mathrm s^2}$ ]]
 
@@ -1558,7 +1559,7 @@ verwendet:
 
 - Der Ausgangspunkt des Rettungsschwimmers befindet sich im Koordinatenursprung.
 - Die Grenze zwischen Strand und Wasser verläuft geradlinig parallel zur
-  $x$-Achse bei $y=25~\mathrm m$.
+  $x$-Achse bei $y=20~\mathrm m$.
 - Der Schwimmer im Wasser, den der Rettungsschwimmer erreichen muss, befindet
   an der Position $\vec r_\mathrm s = \left( 35~\mathrm m , 45~\mathrm m \right)$.
 
@@ -1570,13 +1571,11 @@ Geschwindigkeit von $v_\mathrm w = 0{,}9~\frac{\mathrm m}{\mathrm s}$.
 1. Berechnen Sie die Zeiten, die der Rettungsschwimmer benötigt um den Schwimmer
    zu erreichen, für die folgenden verschiedenen Wege:
 
-   1. Zunächst zum Punkt $\left( 35~\mathrm m, 0 \right)$, danach nach
+   1. Zunächst zum Punkt $\left( 35~\mathrm m, 20~\mathrm m \right)$, danach nach
       $\vec r_\mathrm s$.
-   2. Zunächst zum Punkt $\left( 35~\mathrm m, 25~\mathrm m \right)$, danach nach
+   2. Zunächst zum Punkt $\left( 28{,}65~\mathrm m, 20~\mathrm m \right)$, danach nach
       $\vec r_\mathrm s$.
-   3. Zunächst zum Punkt $\left( \dots~\mathrm m, 25~\mathrm m \right)$, danach nach
-      $\vec r_\mathrm s$.
-   4. Auf geradlinigem Weg von $\left( 0, 0 \right)$ nach $\vec r_\mathrm s$.
+   3. Auf geradlinigem Weg von $\left( 0, 0 \right)$ nach $\vec r_\mathrm s$.
 
 2. Welchen Bezug hat diese Aufgabe zur Optik?
 
