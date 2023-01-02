@@ -1444,7 +1444,7 @@ elektrischen Ladung $Q$ aufgeladen. Dabei werden sie jeweils um eine horizontale
 Strecke $\Delta x = 4~\mathrm{cm}$ aus ihrer Ruhelage ausgelenkt. Welchen Betrag
 hat die Ladung $Q$ auf jedem der Bälle?
 
-[[ ($Q=145~\mathrm{nC}$) | $Q=381~\mathrm{\mu C}$ | $Q=571~\mathrm{mC}$ | $Q=219~\mathrm{C}$ ]]
+[[ ($Q=61{,}8~\mathrm{nC}$) | $Q=38{,}1~\mathrm{\mu C}$ | $Q=57{,}1~\mathrm{mC}$ | $Q=21{,}9~\mathrm{C}$ ]]
 
 #### Tauchsieder
 Ein Fahrrad-Heimtrainer ist mit einem Generator zur Stromerzeugung ausgestattet.
