@@ -1618,7 +1618,7 @@ $n_\mathrm g = 1{,}536$.
 Mit einer Fotokamera soll eine Aufnahme von einem $G= 42~\mathrm m$ hohen Turm
 gemacht werden. Das Objektiv der Kamera (das als dünne Linse behandelt wird) hat
 eine Brennweite von $f=85~\mathrm{mm}$. Der Bildsensor der Kamera hat eine Höhe
-von $B=36~\mathrm{mm}$. In welcher Entfernung $g$ vom Turm muss sich die Kamera
+von $|B|=36~\mathrm{mm}$. In welcher Entfernung $g$ vom Turm muss sich die Kamera
 mindestens befinden, damit dieser vollständig auf dem Bild erscheint?
 
 [[ $g = 32{,}73~\mathrm m$ | $g = 59{,}51~\mathrm m$ | ($g = 99{,}25~\mathrm m$) | $g = 141{,}83~\mathrm m$ | $g = 182{,}26~\mathrm m$]]
