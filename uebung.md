@@ -1478,7 +1478,7 @@ tragen jeweils die Bezeichnung „34 V / 3 W“.
 2. Berechnen Sie den elektrischen Widerstand $R_\mathrm L$ eines Lämpchens.
    [[ $R_\mathrm L = 360~\Omega$ | $R_\mathrm L = 365~\Omega$ | $R_\mathrm L = 370~\Omega$ | $R_\mathrm L = 375~\Omega$ | $R_\mathrm L = 380~\Omega$ | ($R_\mathrm L = 385~\Omega$) ]]
 
-3. Berechnen Sieden Gesamtwiderstand $R_\mathrm{ges}$ aller 7 Lämpchen (in der
+3. Berechnen Sie den Gesamtwiderstand $R_\mathrm{ges}$ aller 7 Lämpchen (in der
    korrekten Schaltung).
 
    [[ $R_\mathrm{ges} = 55~\Omega$ | $R_\mathrm{ges} = 385~\Omega$ | $R_\mathrm{ges} = 770~\Omega$ | ($R_\mathrm{ges} = 2695~\Omega$) ]]
