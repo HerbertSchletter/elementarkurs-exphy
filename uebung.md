@@ -1781,7 +1781,7 @@ richtig?
 
 [[X]] Um Elektronen aus der Metallplatte freizusetzen, muss deren Austrittsarbeit überwunden werden.
 [[X]] Es werden nur Elektronen aus den höchsten besetzten Energieniveaus freigesetzt.
-[[ ]] Der Effekt tritt nur auf, wenn die Platte mit einer sehr hohen Lichtintensiät bestrahlt wird.
+[[ ]] Der Effekt tritt nur auf, wenn die Platte mit einer sehr hohen Lichtintensität bestrahlt wird.
 [[X]] Der Effekt tritt nur bei hinreichend kleinen Wellenlängen des bestrahlenden Lichts auf.
 [[X]] Ein Elektron nimmt stets nur die Energie eines Photons auf. Reicht dessen Energie nicht zur Freisetzung, so bleibt das Elektron in der Platte gebunden.
 [[X]] Wird ein Elektron aus der Platte freigesetzt, so besitzt es eine kinetische Energie, die der Differenz zwischen der Energie des eintreffenden Photons und der Bindungsenergie die Elektrons entspricht.
@@ -1839,7 +1839,7 @@ Quecksilberdampflampe ($\lambda=436~\mathrm{nm}$) bestrahlt wird.
 -----
 
 * Antwort Teilaufgabe 1
-[[ ($E_\mathrm{kin} = 0{,}54~\mathrm{eV}$) | $E_\mathrm{kin} = 1{,}08~\mathrm{eV}$ | $E_\mathrm{kin} = 1{,}38~\mathrm{eV}$ | $E_\mathrm{kin} = 2{,}13~\mathrm{eV}$]]
+[[ ($E_\mathrm{kin} = 0{,}56~\mathrm{eV}$) | $E_\mathrm{kin} = 1{,}08~\mathrm{eV}$ | $E_\mathrm{kin} = 1{,}38~\mathrm{eV}$ | $E_\mathrm{kin} = 2{,}13~\mathrm{eV}$]]
 ********************************************************************************
 
 Die Energiebilanz des äußeren Photoeffekts lautet (unter der Voraussetzung, dass
@@ -1852,14 +1852,14 @@ Zahlenwerte ergibt
 
 $$\begin{aligned}
 E_\mathrm{kin} & = \frac{hc}{\lambda}-W_\mathrm A \\
-& = \frac{4{,}136\cdot 10^{-15}~\mathrm{eVs}\cdot 2{,}99\cdot 10^8~\frac{\mathrm m}{\mathrm s}}{439\cdot 10^{-9}~\mathrm m} - 2{,}28~\mathrm{eV}\\
-&= 0{,}54~\mathrm{eV} \, .
+& = \frac{4{,}136\cdot 10^{-15}~\mathrm{eVs}\cdot 2{,}99\cdot 10^8~\frac{\mathrm m}{\mathrm s}}{436\cdot 10^{-9}~\mathrm m} - 2{,}28~\mathrm{eV}\\
+&= 0{,}56~\mathrm{eV} \, .
 \end{aligned}$$
 
 ********************************************************************************
 
 * Antwort Teilaufgabe 2
-[[ $U_\mathrm{gegen} = 0{,}27~\mathrm V$ | ($U_\mathrm{gegen} = 0{,}54~\mathrm V$) | $U_\mathrm{gegen} = 0{,}81~\mathrm V$ | $U_\mathrm{gegen} = 1{,}08~\mathrm V$ ]]
+[[ $U_\mathrm{gegen} = 0{,}27~\mathrm V$ | ($U_\mathrm{gegen} = 0{,}56~\mathrm V$) | $U_\mathrm{gegen} = 0{,}81~\mathrm V$ | $U_\mathrm{gegen} = 1{,}08~\mathrm V$ ]]
 ********************************************************************************
 
 Um die emittierten Elektronen gerade abzubremsen, müssen sie ihre kinetische
@@ -1870,7 +1870,7 @@ $$E_\mathrm{kin}=W_\mathrm{el}=eU_\mathrm{gegen}$$
 
 Damit ergibt sich für die Gegenspannung
 
-$$U_\mathrm{gegen}=\frac{E_\mathrm{kin}}{e} = \frac{0{,}54~\mathrm{eV}}{e} = 0{,}54~\mathrm{V} \, .$$
+$$U_\mathrm{gegen}=\frac{E_\mathrm{kin}}{e} = \frac{0{,}56~\mathrm{eV}}{e} = 0{,}56~\mathrm{V} \, .$$
 
 ********************************************************************************
 
