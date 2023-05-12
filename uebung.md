@@ -1887,7 +1887,7 @@ sowie die kleinstmögliche Wellenlänge dieser Serie.
 
 Für die Energieniveaus $E_n$ im Wasserstoffatom gilt:
 
-$$E_n = -hR_\mathrm H\cdot\frac {1}{n^2} \, .$$
+$$E_n = -hcR_\infty\cdot\frac {1}{n^2} \, .$$
 
 Die Balmerserie enthält die Übergänge $E_n \rightarrow E_2$ für $n>2$. Die
 Energie des abgestrahlten Photons entspricht der Energiedifferenz der
@@ -1895,9 +1895,9 @@ beteiligten Niveaus. Für die Balmerserie bedeutet das:
 
 $$\begin{aligned}
 E_\mathrm{Ph} & = E_n - E_2\\
-& = -\frac{hR_\mathrm H}{n^2} + \frac{hR_\mathrm H}{2^2} \\
-& = hR_\mathrm H\left(\frac 14-\frac{1}{n^2}\right) \\
-& = hR_\mathrm H\cdot \frac{n^2-4}{4n^2} \, .
+& = -\frac{hcR_\infty}{n^2} + \frac{hcR_\infty}{2^2} \\
+& = hcR_\infty\left(\frac 14-\frac{1}{n^2}\right) \\
+& = hcR_\infty\cdot \frac{n^2-4}{4n^2} \, .
 \end{aligned}$$
 
 Weiterhin gilt der Zusammenhang zwischen Photonenenergie und Wellenlänge:
@@ -1907,12 +1907,12 @@ $$E_\mathrm{Ph} = \frac{hc}{\lambda} \quad \longrightarrow \quad \lambda = \frac
 Durch Einsetzen der obigen Photonenenergie erhält man die allgemeine Gleichung
 für die Wellenlängen der Balmerserie:
 
-$$\lambda_{n\rightarrow 2} = \frac{hc}{hR_\mathrm H}\cdot\frac{4n^2}{n^2-4} = \frac{4cn^2}{R_\mathrm H\left(n^2-4\right)} \,.$$
+$$\lambda_{n\rightarrow 2} = \frac{hc}{hcR_\infty}\cdot\frac{4n^2}{n^2-4} = \frac{4n^2}{R_\infty\left(n^2-4\right)} \,.$$
 
 Die größte Wellenlänge dieser Serie entspricht dem Übergang mit der kleinsten
 Energiedifferenz, also $n=3$:
 
-$$\lambda_{3\rightarrow 2} = \frac{4c3^2}{R_\mathrm H\left(3^2-4\right)} = 656~\mathrm{nm} \, .$$
+$$\lambda_{3\rightarrow 2} = \frac{4\cdot 3^2}{R_\infty\left(3^2-4\right)} = 656~\mathrm{nm} \, .$$
 
 ********************************************************************************
 
@@ -1922,7 +1922,7 @@ $$\lambda_{3\rightarrow 2} = \frac{4c3^2}{R_\mathrm H\left(3^2-4\right)} = 656~\
 
 Die nächstkürzere Wellenlänge entspricht $n=4$:
 
-$$\lambda_{4\rightarrow 2} = \frac{4c4^2}{R_\mathrm H\left(4^2-4\right)} = 486~\mathrm{nm} \, .$$
+$$\lambda_{4\rightarrow 2} = \frac{4\cdot 4^2}{R_\infty\left(4^2-4\right)} = 486~\mathrm{nm} \, .$$
 
 ********************************************************************************
 
@@ -1933,6 +1933,6 @@ $$\lambda_{4\rightarrow 2} = \frac{4c4^2}{R_\mathrm H\left(4^2-4\right)} = 486~\
 Die kürzeste Wellenlänge entspricht dem Übergang $E_\infty = 0 \rightarrow E_2$
 mit $E_\mathrm{Ph} = \left|E_2\right|$:
 
-$$\lambda_{\infty\rightarrow 2} = \frac{hc}{\left|E_2\right|} = \frac{4c}{R_\mathrm H} = 365~\mathrm{nm} \, .$$
+$$\lambda_{\infty\rightarrow 2} = \frac{hc}{\left|E_2\right|} = \frac{4}{R_\infty} = 365~\mathrm{nm} \, .$$
 
 ********************************************************************************

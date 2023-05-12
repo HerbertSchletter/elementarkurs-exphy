@@ -4089,14 +4089,16 @@ der emittierten Strahlung dieses Atoms einen wichtigen quantitativen Test des
 Atommodells dar. Für die Energieniveaus des Wasserstoffs folgt aus der
 quantenmechanischen Berechnung:
 
-$$E_n = -h \cdot R_\mathrm H \cdot \frac{1}{n^2}$$
+$$E_n = -h \cdot c\cdot R_\infty \cdot \frac{1}{n^2}$$
 
-mit der Rydberg<!-- style ="font-variant: small-caps;" -->-Frequenz:
+mit der Rydberg<!-- style ="font-variant: small-caps;" -->-Konstante:
 
-$$R_\mathrm H = 3{,}29\cdot10^{15}~\mathrm{Hz} \, .$$
+$$R_\infty = 1{,}097\cdot10^{7}~\mathrm{m^{-1}} \, .$$
 
-Das resultierende Energieniveauschema ist in der folgenden Abbildung gezeigt.
-Für die ersten drei Energieniveaus ergibt sich:
+Das Produkt $c\cdot R_\infty$ wird dabei auch als
+Rydberg<!-- style ="font-variant: small-caps;" -->-Frequenz $R_\mathrm H$
+bezeichnet. Das resultierende Energieniveauschema ist in der folgenden Abbildung
+gezeigt. Für die ersten drei Energieniveaus ergibt sich:
 
 $$\begin{aligned}
 E_1 & = -13{,}6~\mathrm{eV} \, ,\\
@@ -4104,7 +4106,7 @@ E_2 & = -3{,}4~\mathrm{eV} \, ,\\
 E_3 & = -1{,}51~\mathrm{eV} \, .
 \end{aligned}$$
 
-![Termschemas des Wasserstoffatoms ](https://upload.wikimedia.org/wikipedia/commons/5/50/Wasserstoff-Termschema_3.svg "Termschema des Wasserstoffatoms. Die möglichen Übergänge zwischen den Energieniveaus (hier durch Pfeile verdeutlicht) werden zu Serien zusammengefasst, die jeweils ein gemeinsames Endniveau besitzen. Emissionen im sichtbaren Bereich sind dabei nur in der Balmer-Serie zu erwarten. [Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [w:de:user:Kiko2000](https://en.wikipedia.org/wiki/de:user:Kiko2000) and [Cepheiden](https://commons.wikimedia.org/wiki/User:Cepheiden")), [Wasserstoff-Termschema 3](https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_3.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)]")<!-- style="width:14cm;" -->
+![Termschemas des Wasserstoffatoms](https://upload.wikimedia.org/wikipedia/commons/5/50/Wasserstoff-Termschema_3.svg "Termschema des Wasserstoffatoms. Die möglichen Übergänge zwischen den Energieniveaus (hier durch Pfeile verdeutlicht) werden zu Serien zusammengefasst, die jeweils ein gemeinsames Endniveau besitzen. Emissionen im sichtbaren Bereich sind dabei nur in der Balmer-Serie zu erwarten. [Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [w:de:user:Kiko2000](https://en.wikipedia.org/wiki/de:user:Kiko2000) and [Cepheiden](https://commons.wikimedia.org/wiki/User:Cepheiden")), [Wasserstoff-Termschema 3](https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_3.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)]")<!-- style="width:14cm;" -->
 
 Nach den Aussagen des quantenphysikalischen Atommodells müssen die von
 Wasserstoffatomen emittierten Photonen den Differenzen dieser Energieniveaus
