@@ -2665,15 +2665,120 @@ Konventionen, die die experimentellen Beobachtungen widerspiegeln:
   auch über den Kraftbetrag. Dichtere Feldlinien widerspiegeln eine höhere
   Feldstärke.
 
+Für Punktladungen ergeben sich damit die nachfolgend gezeigten Feldlinienbilder:
+
 ![elektrische Feldlinien einer positiven Punktladung](https://upload.wikimedia.org/wikipedia/commons/9/95/VFPt_plus_thumb.svg "Feldlinienbild einer einzelnen positiven (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt plus thumb](https://commons.wikimedia.org/wiki/File:VFPt_plus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
 
 ![elektrische Feldlinien einer negativen Punktladung](https://upload.wikimedia.org/wikipedia/commons/d/d7/VFPt_minus_thumb.svg "Feldlinienbild einer einzelnen negativen (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
 
 ![elektrische Feldlinien zwischen positiver und negativer Punktladung](https://upload.wikimedia.org/wikipedia/commons/e/ed/VFPt_charges_plus_minus_thumb.svg "Verlauf der elektrischen Feldlinien zwischen positiver und negativer (Punkt-) Ladung. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt charges plus minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
 
+#### Homogenes elektrisches Feld — Plattenkondensator
+
+In den bisher gezeigten Feldlinienbildern ist die Feldstärke ortsabhängig: die
+Feldlinien verlaufen je nach Position in unterschiedliche Richtungen und mit
+unterschiedlicher Dichte. Solche Felder werden als *inhomogen* bezeichnet. Den
+Gegensatz dazu bildet ein *homogenes* Feld, wie es in der nachfolgenden
+Abbildung gezeigt ist. Dort stehen sich zwei ebene, homogen geladene
+Metallplatten parallel gegenüber. Im Zentrum zwischen diesen Platten verlaufen
+die Feldlinien parallel im gleichen Abstand zueinander. Die Feldstärke ist in
+diesem Bereich nicht mehr ortsabhängig: $\vec E(\vec r)=\overrightarrow{\mathrm{const}}$.
+
+![Feldlinienbild eines Plattenkondensators](https://upload.wikimedia.org/wikipedia/commons/e/eb/VFPt_capacitor-square-plate.svg "Feldlinienbild eines Plattenkondensators: Im inneren Raum zwischen den Kondensatorplatten liegt ein homogenes elektrisches Feld vor. An den Rändern wird diese Homogenität durch Randeffekte gestört. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt capacitor-square-plate](https://commons.wikimedia.org/wiki/File:VFPt_capacitor-square-plate.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons]")<!--
+style ="width: 10cm;"
+-->
+
+Die im obigen Bild gezeigte Anordnung aus zwei parallelen geladenen Platten wird
+als Plattenkondensator bezeichnet. Wie in der Darstellung erkennbar ist, treten
+an den Rändern der Platten Inhomogenitäten des elektrischen Felds auf. Ein
+idealer Plattenkondensator müsste zur Vermeidung dieser Inhomogenitäten
+theoretisch unendlich ausgedehnt sein. Praktisch sollte der Plattenabstand um
+mindestens eine Größenordnung kleiner sein als der Plattendurchmesser, um im
+Inneren ein ausgedehntes homogenes Feld zu erhalten.
+
+#### Die elektrische Spannung
+
+Anhand des Plattenkondensators lässt sich die **elektrische Spannung $U$** als
+eine weitere zentrale Größe der Elektrizitätslehre einführen: Werden die beiden
+Platten wie oben gezeigt unterschiedlich aufgeladen, so liegt zwischen Ihnen
+eine Spannung an, die durch
+
+$$U = Ed$$
+
+gegeben ist, wobei $d$ den Abstand der Kondensatorplatten und $E$ den Betrag
+der (homogenen) elektrischen Feldstärke bezeichnet. Die Einheit der Spannung ist
+das Volt:
+
+$$[U] = 1~\mathrm V = 1~\frac{\mathrm{kg\cdot m^2}}{\mathrm{A\cdot s^3}} \, .$$
+
+Dieser Zusammenhang gilt nicht nur für die beiden Kondensatorplatten, sondern
+allgemein innerhalb eines homogenen Felds zwischen zwei Punkten, die im Abstand
+$d$ entlang der Feldlinien voneinander entfernt liegen.
+Stellt man die obige Gleichung um, so erhält man die Feldstärke in einem
+Plattenkondensator bei vorgegebener Spannung:
+
+$$E = \frac{U}{d} \, .$$
+
+Für beliebige
+(inhomogene) elektrische Felder lässt sich kein einfacher Zusammenhang zwischen
+Feldstärke und Spannung angeben. Doch auch dort gilt, dass das elektrische Feld
+immer mit einer Spannung verknüpft ist. Innerhalb eines elektrischen Felds lässt
+sich stets eine Spannung zwischen zwei beliebigen Punkten angeben
+beziehungsweise messen.
+
+#### Kapazität eines Kondensators
+
+Das elektrische Feld des Plattenkondensators wird durch die auf den Platten befindlichen
+Ladungen verursacht. Gleiches gilt für die Spannung zwischen den
+Kondensatorplatten, die ja unmittelbar mit dem elektrischen Feld verknüpft ist.
+Sowohl experimentelle Untersuchungen als auch theoretische Berechnungen zeigen,
+dass diese Spannung proportional zur Ladung auf den Kondensatorplatten ist:
+
+$$Q = C \cdot U$$
+
+Der in dieser Formel auftretende Proportionalitätsfaktor $C$ wird als
+**Kapazität** bezeichnet. Ihre Einheit ist
+
+$$[C] = 1~\frac{\mathrm{A \, s}}{\mathrm V} = 1~\mathrm F \quad \textrm{(Farad)} \, .$$
+
+Die Kapazität widerspiegelt das „Speichervermögen“ des Kondensators, das in
+zweierlei Weise aufgefasst werden kann:
+
+1. Auf den Kondensator wird eine definierte Ladungsmenge $Q$ aufgebracht: Die
+   dabei auftretende Spannung zwischen den Kondensatorplatten wird durch die
+   Kapazität bestimmt. Kondensatoren größerer Kapazität erreichen bei gleicher
+   Ladung kleinere Spannungen.
+
+2. Der Kondensator wird auf eine vorgegebene Spannung $U$ aufgeladen: Die
+   Kapazität des Kondensators bestimmt, welche Ladungsmenge dabei auf den
+   Kondensatorplatten gespeichert wird. Kondensatoren größerer Kapazität
+   speichern bei gleicher Spannung eine größere Ladungsmenge.
+
+Die Kapazität eines Plattenkondensators wird durch dessen Geometrie bestimmt:
+
+$$C = \frac{\varepsilon_0 \varepsilon_\mathrm r A}{d} \, .$$
+
+Der zusätzliche Faktor $\varepsilon_\mathrm r$ ist die relative Permittivität
+(Dielektrizitätszahl) des Füllmaterials zwischen den Kondensatorplatten.
+Selbstversändlich sollte dieses Füllmaterial keinen Ladungstransport
+ermöglichen, da sonst der Kondensator unmittelbar wieder entladen würde. Solche
+Materialien werden als Isolatoren oder Dielektrika bezeichnet. Für Vakuum oder
+Luft ist $\varepsilon_\mathrm r=1$. Dielektrika mit großem
+$\varepsilon_\mathrm r$ steigern die Kapazität des Kondensators.
+
+Plattenkondensatoren besitzen äußerst geringe Kapazitäten (Größenordnung: einige
+$~\mathrm{pF}$). Sie dienen hauptsächlich der Erzeugung homogener Felder für
+Experimente. Für den elektrotechnischen Einsatz existieren andere Bauformen mit
+höherer Kapazität. Alle Arten von Kondensatoren beruhen auf dem Prinzip, dass
+auf zwei voneinander isolierten Elektroden Ladungen gespeichert werden. Ebenso
+gilt für alle Bauformen die Proporptionalität $Q=CU$. Lediglich der Zusammenhang
+zwischen Kapazität und Geometrie des Kondensators hängt von der Bauform ab.
 
 #### Energie des elektrischen Felds – Coulomb<!-- style ="font-variant: small-caps;" -->energie
 
+Bewegt sich ein Ladungsträger oder ein (makroskopischer) geladener Körper durch
+ein elektrisches Feld, so geschieht dies unter permanenter Einwirkung der
+Coulombkraft.
 Aus der Mechanik wissen wir, dass bei der Bewegung eines Körpers unter dem
 Einfluss einer Kraft Arbeit verrichtet wird. Dieser Grundsatz gilt
 selbstverständlich auch im Zusammenhang der Coulombkraft. Ausgangspunkt zur
@@ -2721,26 +2826,49 @@ $$W = q \int\limits_{\vec r_1}^{\vec r_2} \mathrm d\phi = q \big(\phi(\vec r_2)-
 
 [^2]: Einen ähnlichen Sachverhalt kennen wir bereits von der Energieumwandlung im Schwerefeld der Erde.
 
-Wir definieren dabei die Differenz des elektrischen Potentials als eigenständige
-Größe: die **elektrische Spannung** $U$. Ihre Einheit ist
-
-$$[U]=1~\mathrm V \quad \textrm{(Volt)} \, .$$
+Hier findet sich der Ursprung der oben bereits eingeführten elektrischen
+Spannung: Sie entspricht der Differenz des elektrischen Potentials zwischen
+zwei Punkten.
 
 Die an einer Ladung $q$ verrichtete elektrische Arbeit bleibt als Coulombenergie
 in dieser Ladung gespeichert. Damit ist die Coulombkraft (im Sinne der
-Elektrizitätslehre) eine konservative Kraft. Folglich trägt jede Ladung in einem
-elektrischen Feld die Energie
+Elektrizitätslehre) eine konservative Kraft. Folglich trägt jede Ladung $q$ in
+einem elektrischen Feld die Energie
 
 $$E_\mathrm {C}=qU \, .$$
 
-Überlässt man eine Ladung im elektrischen Feld sich selbst, so wird sie unter
-Einwirkung des Feldes und der damit verbundenen Coulombkraft beschleunigt. Um
-die Endgeschwindigkeit nach Durchfliegen einer Spannung $U$ berechnen zu können,
-kann in gewohnter Weise der Energiesatz genutzt werden. Es gilt:
+#### Bewegte Ladungen
 
-$$E_\mathrm{C}+E_\mathrm{kin} = \mathrm{const}$$
+Freibewegliche Ladungsträger (oder auch makroskopische geladene Körper) erfahren
+durch die Coulombkraft eine Beschleunigung. Unter Benutzung des zweiten
+Newtonschen Axioms gilt:
 
-bzw.
+$$qE = F = ma \, .$$
+
+Für die Beschleunigung folgt daraus:
+
+$$a = \frac{qE}{m} \, ,$$
+
+wobei $m$ die Masse des geladenen Körpers angibt.
+Speziell für ein homogenes Feld lässt sich die Feldstärke durch die Spannung $U$
+zwischen zwei Punkten im Abstand $d$ ersetzen:
+
+$$a = \frac{qU}{md} \, .$$
+
+Sind alle diese Größen (insbesondere die Spannung) zeitlich konstant, so gilt
+$a = \mathrm{const}$ und es liegt eine gleichmäßig beschleunigte Bewegung vor,
+die mit den entsprechenden [Formeln aus der Kinematik](#beschleunigte-geradlinige-bewegung)
+beschrieben werden kann.
+
+Bei der Beschleunigung einer Ladung im elektrischen Feld wird Coulombenergie in
+kinetische Energie umgewandelt. Auch hierbei gilt das Prinzip der
+Energierhaltung:
+
+$$E_\mathrm{C}+E_\mathrm{kin} = \mathrm{const} \, .$$
+
+Dieser Ansatz kann genutzt werden, um die Geschwindigkeit eines geladenen
+Körpers oder Teilchens nach Durchfliegen einer Spannung $U$ zu berechnen.
+Befindet sich das Teilchen anfangs in Ruhe, so gilt:
 
 $$\begin{aligned}
 E_\mathrm{C}^\mathrm{Anfang} & = E_\mathrm{kin}^\mathrm{Ende}\\
@@ -2748,124 +2876,13 @@ qU & = \frac{m}{2}v^2\\
 v & = \sqrt{\frac{2qU}{m}} \, .
 \end{aligned}$$
 
-#### Homogenes elektrisches Feld – Plattenkondensator
+#### Elektrischer Strom & Stromstärke
 
-Eine besondere Form des elektrischen Feldes ist das homogene elektrische Feld,
-bei dem an allen Orten dieselbe Feldstärke herrscht:
-$\vec E(\vec r)=\overrightarrow{\mathrm{const}}$. Im Feldlinienbild äußert sich
-dies dadurch, dass alle Feldlinien parallel und in gleichen Abständen verlaufen.
-Für ein homogenes elektrisches Feld vereinfachen sich die obigen Formeln, und
-man erhält den Zusammenhang zwischen Feldstärke und Potentialdifferenz zwischen
-zwei Punkten im Abstand $d$ entlang der Feldlinien:
-
-$$Ed = U \quad \Leftrightarrow \quad E = \frac{U}{d} \, .$$
-
-![Feldlinienbild eines Plattenkondensators](https://upload.wikimedia.org/wikipedia/commons/e/eb/VFPt_capacitor-square-plate.svg "Feldlinienbild eines Plattenkondensators: Im inneren Raum zwischen den Kondensatorplatten liegt ein homogenes elektrisches Feld vor. An den Rändern wird diese Homogenität durch Randeffekte gestört. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt capacitor-square-plate](https://commons.wikimedia.org/wiki/File:VFPt_capacitor-square-plate.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons]")<!--
-style ="width: 10cm;"
--->
-
-Praktisch realisieren lässt sich ein solches Feld mit einem Plattenkondensator
-(siehe obige Abbildung): zwei ebene, einander gegenüber parallel aufgestellte
-Platten (Fläche $A$) im Abstand $d$. Eine Platte wird positiv aufgeladen (Ladung
-$+Q$), die andere erhält eine gleich große negative Ladung $-Q$. Als Folge
-dieser Aufladung entsteht ein elektrisches Feld zwischen den Kondensatorplatten.
-Im Inneren des Kondensators ist dieses Feld homogen. Lediglich in den
-Randbereichen ist diese Homogenität gestört.
-
-Die einfache Beschreibung des homogenen elektrischen Feldes erlaubt einen
-weiteren Zugang zur Berechnung von Geschwindigkeiten, welche Ladungen im Feld
-erreichen. Ausgangspunkt ist die kinematische Beschreibung einer gleichmäßig
-beschleunigten Bewegung (ohne Anfangsgeschwindigkeit und ohne Anfangsweg):
-
-$$\begin{aligned}
-a & =\textrm{const} \\
-v & = at \Rightarrow t=\frac{v}{a}\\
-s & =\frac{a}{2} t^2 = \frac{a}{2} \cdot \frac{v^2}{a^2}=\frac{v^2}{2a}
-\end{aligned}$$
-
-Für die Beschleunigung gilt das Grundgesetz der Mechanik:
-
-$$F = ma \, .$$
-
-Die wirkende Kraft ist die Coulombkraft im homogenen elektrischen Feld:
-
-$$F = qE = q \frac{U}{s} \, .$$
-
-Damit ergibt sich die Beschleunigung:
-
-$$a = \frac{qU}{ms} \, .$$
-
-Eingesetzt in das Weg-Zeit-Gesetz:
-
-$$s = \frac{v^2}{2a} = \frac{v^2}{2} \cdot \frac{ms}{qU}$$
-
-Umstellen dieser Formel führt zur Geschwindigkeit:
-
-$$v = \sqrt{\frac{2qU}{m}} \, .$$
-
-Dies ist identisch mit der Formel, die oben bereits aus dem Energieansatz
-abgeleitet wurde.
-
-#### Kapazität eines Kondensators
-
-Mit dem elektrischen Feld eines Plattenkondensators ist auch eine Spannung
-(Potentialdifferenz) zwischen den Kondensatorplatten verknüpft:
-
-$$U=Ed \, .$$
-
-Sowohl experimentelle Untersuchungen als auch theoretische Berechnungen zeigen,
-dass diese Spannung proportional zur Ladung auf den Kondensatorplatten ist:
-
-$$Q = C \cdot U$$
-
-Der in dieser Formel auftretende Proportionalitätsfaktor $C$ wird als
-**Kapazität** bezeichnet. Ihre Einheit ist
-
-$$[C] = 1~\frac{\mathrm{A \, s}}{\mathrm V} = 1~\mathrm F \quad \textrm{(Farad)} \, .$$
-
-Die Kapazität widerspiegelt das „Speichervermögen“ des Kondensators, das in
-zweierlei Weise aufgefasst werden kann:
-
-1. Auf den Kondensator wird eine definierte Ladungsmenge $Q$ aufgebracht: Die
-   dabei auftretende Spannung zwischen den Kondensatorplatten wird durch die
-   Kapazität bestimmt. Kondensatoren größerer Kapazität erreichen bei gleicher
-   Ladung kleinere Spannungen.
-
-2. Der Kondensator wird auf eine vorgegebene Spannung $U$ aufgeladen: Die
-   Kapazität des Kondensators bestimmt, welche Ladungsmenge dabei auf den
-   Kondensatorplatten gespeichert wird. Kondensatoren größerer Kapazität
-   speichern bei gleicher Spannung eine größere Ladungsmenge.
-
-Die Kapazität eines Plattenkondensators wird durch dessen Geometrie bestimmt:
-
-$$C = \frac{\varepsilon_0 \varepsilon_\mathrm r A}{d} \, .$$
-
-Der zusätzliche Faktor $\varepsilon_\mathrm r$ ist die relative Permittivität
-(Dielektrizitätszahl) des Füllmaterials zwischen den Kondensatorplatten.
-Selbstversändlich sollte dieses Füllmaterial keinen Ladungstransport
-ermöglichen, da sonst der Kondensator unmittelbar wieder entladen würde. Solche
-Materialien werden als Isolatoren oder Dielektrika bezeichnet. Für Vakuum oder
-Luft ist $\varepsilon_\mathrm r=1$. Dielektrika mit großem
-$\varepsilon_\mathrm r$ steigern die Kapazität des Kondensators.
-
-Plattenkondensatoren besitzen äußerst geringe Kapazitäten (Größenordnung: einige
-$~\mathrm{pF}$). Sie dienen hauptsächlich der Erzeugung homogener Felder für
-Experimente. Für den elektrotechnischen Einsatz existieren andere Bauformen mit
-höherer Kapazität. Alle Arten von Kondensatoren beruhen auf dem Prinzip, dass
-auf zwei voneinander isolierten Elektroden Ladungen gespeichert werden. Ebenso
-gilt für alle Bauformen die Proporptionalität $Q=CU$. Lediglich der Zusammenhang
-zwischen Kapazität und Geometrie des Kondensators hängt von der Bauform ab.
-
-#### Bewegte Ladungen
-
-Bereits im Zusammenhang mit dem
-[elektrischen Feld](#energie-des-elektrischen-felds-–-coulombenergie) wurde darauf
-hingewiesen, dass durch eine elektrische Spannung Ladungsträger (d.h. elektrisch
-geladene Teilchen) in Bewegung versetzt werden. Eine solche gerichtete Bewegung
+Eine gerichtete Bewegung
 elektrischer Ladungen wird als **elektrischer Strom** bezeichnet. Dieser
 Stromfluss ist charakterisiert durch die Ladungsmenge, die in einer definierten
-Zeit durch einen Querschnitt fließt. Das führt zur Definition der Stromstärke
-$I$:
+Zeit durch einen Querschnitt fließt. Das führt zur Definition der
+**Stromstärke** $I$:
 
 $$I = \frac{\mathrm dQ}{\mathrm dt} \quad \textrm{bzw.} \quad I = \frac{Q}{t} \,\textrm{(bei konstantem Strom)} \, .$$
 
