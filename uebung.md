@@ -357,6 +357,62 @@ horizontale Achse entspricht in allen Diagrammen der Zeit $t$.
 [  [ ]     [ ]     [X]     [ ]     [ ]     [ ]     [ ]  ] Darstellung $v(t)$
 [  [ ]     [ ]     [ ]     [X]     [ ]     [ ]     [ ]  ] Darstellung $a(t)$
 
+#### Bewegung auf der Luftkissenbahn
+
+Eine Luftkissenbahn mit einer Gesamtlänge von $2~\mathrm m$ sei geneigt aufgestellt, sodass das obere Ende um $\Delta h = 14{,}5~\mathrm{cm}$ höher liegt als das untere Ende. Positionen auf der Luftkissenbahn werden durch die Koordinate $x$ angegeben. Das untere Ende der Bahn entspricht $x = 0$, das obere Ende liegt bei $x = 2~\mathrm m$.
+
+Am unteren Ende der Bahn wird ein Gleiter nach oben angeschoben (Anfangsgeschwindigkeit $v_0$). Danach erfolgt kein weiterer Eingriff in die Bewegung des Gleiters. Sobald der Gleiter die Stelle $x = 10~\mathrm{cm}$ erreicht, startet die automatische Aufzeichnung des Orts-Zeit-Gesetzes. Das resultierende Diagramm $x(t)$ ist in der nachfolgenden Abbildung gezeigt. Die $x$-Koordinate (vertikale Achse) ist dabei in Metern angegeben. Zeitangaben (horizontale Achse) erfolgen in Sekunden.
+
+![Diagramm der Bewegung auf der Luftkissenbahn](grafik_uebung/luftkissenbahn.svg "$s(t)$-Diagramm der Bewegung auf der Luftkissenbahn")<!-- style="width:16cm;" -->
+
+Welche der folgenden Aussagen bezüglich der ober dargestellten Bewegung sind
+richtig?
+
+[[X]] Der Betrag der auf den Gleiter wirkenden Beschleunigung wird durch die Fallbeschleunigung $g$ und den Neigungswinkel der Bahn bestimmt.
+[[ ]] Aussagen zur Geschwindigkeit oder Beschleunigung des Gleiters können nicht getroffen werden, da nur das Orts-Zeit-Gesetz gezeigt ist.
+[[X]] Auf den Gleiter wirkt permanent eine konstante Beschleunigung, die zum unteren Bahnende gerichtet ist.
+[[ ]] Nach etwa 2 Sekunden erreicht der Gleiter seine größte Geschwindigkeit.
+[[X]] Am Ende der Messdauer (bei $t = 4~\mathrm s$) befindet sich der Gleiter unmittelbar vor dem unteren Bahnende.
+[[X]] Das zugehörige Geschwindigkeits-Zeit-Diagramm zeigt eine fallende Gerade.
+[[ ]] Die auf den Gleiter wirkende Beschleunigung ist zunächst positiv und wechselt im Umkehrpunkt ($t \approx 2~\mathrm s$) das Vorzeichen. Der Betrag ändert sich dabei nicht.
+[[ ]] Der Gleiter bewegt sich während der gesamten Messdauer aufwärts.
+********************************************************************************
+
+* Der Betrag der auf den Gleiter wirkenden Beschleunigung wird durch die Fallbeschleunigung g und den Neigungswinkel der Bahn bestimmt.
+
+  * **Richtig**: Die Fallbeschleunigung ist stets senkrecht orientiert. Die Beschleunigung des Gleiters entspricht dem Anteil der Fallbeschleunigung parallel zur Luftkissenbahn.
+
+* Aussagen zur Geschwindigkeit oder Beschleunigung des Gleiters können nicht getroffen werden, da nur das Orts-Zeit-Gesetz gezeigt ist.
+
+  * **Falsch**: Geschwindigkeit und Beschleunigung entsprechen der ersten beziehungsweise zweiten Ableitung der Orts-Zeit-Kurve. Aus dem Kurvenverlauf lassen sich somit auch Rückschlüsse auf diese beiden Größen ziehen.
+
+* Auf den Gleiter wirkt permanent eine konstante Beschleunigung, die zum unteren Bahnende gerichtet ist.
+
+  * **Richtig**: Da die Bahn gerade ist, wirkt auch eine konstante Beschleunigung (siehe auch Aussage 1).
+
+* Nach etwa 2 Sekunden erreicht der Gleiter seine größte Geschwindigkeit.
+
+  * **Falsch**: Zu diesem Zeitpunkt befindet sich der Gleiter etwa im Umkehrpunkt seiner Bahn. Die Geschwindigkeit wechselt im Umkehrpunkt das Vorzeichen und ist für einen Moment Null. Große Geschwindigkeiten zeigen sich durch steile Anstiege der Orts-Zeit-Kurve, wie sie zu Beginn und am Ende der Messdauer vorliegen.
+
+* Am Ende der Messdauer (bei $t = 4~\mathrm s$) befindet sich der Gleiter unmittelbar vor dem unteren Bahnende.
+
+  * **Richtig**: Am rechten Rand des Diagramms endet die Kurve in der Nähe der Position $x = 0$.
+
+* Das zugehörige Geschwindigkeits-Zeit-Diagramm zeigt eine fallende Gerade.
+
+  * **Richtig**: Die Orts-Zeit-Kurve ist eine nach unten geöffnete Parabel. Deren Ableitung ist eine fallende Gerade. Ebenso lässt sich aus der konstanten Beschleunigung (Aussagen 1 und 3) auf eine linear abnehmende Geschwindigkeit schließen.
+
+* Die auf den Gleiter wirkende Beschleunigung ist zunächst positiv und wechselt im Umkehrpunkt ($t \approx 2~\mathrm s$) das Vorzeichen. Der Betrag ändert sich dabei nicht.
+
+  * **Falsch**: Im Umkehrpunkt wechselt zwar die Geschwindigkeit das Vorzeichen, nicht aber die Beschleunigung. Letztere ist konstant und negativ.
+
+* Der Gleiter bewegt sich während der gesamten Messdauer aufwärts.
+
+  * **Falsch**: Anfangs bewegt sich der Gleiter aufwärts und erreicht dann seinen Umkehrpunkt (Scheitelpunkt der Orts-Zeit-Kurve). Danach bewegt sich der Gleiter abwärts (fallender Ast der Parabel).
+
+********************************************************************************
+
+
 #### Senkrechter Wurf II
 
 Ein Körper wird senkrecht nach oben geworfen. Was gilt für die Geschwindigkeit
@@ -368,17 +424,23 @@ und die Beschleunigung im höchsten Punkt?
 [[X]] Der Betrag der Beschleunigung ist größer als null: $\left| a \right| > 0$.
 ********************************************************************************
 
-                                  {{1}}
 *  Der Betrag der Geschwindigkeit ist null: $\left| v \right| = 0$.
+
    *  **Richtig**: Im höchsten Punkt der Bahn ändert sich die Bewegungsrichtung
       von *aufwärts* zu *abwärts*. Die Geschwindigkeit wechselt dabei das
       Vorzeichen und ist für einen Moment Null.
+
 *  Der Betrag der Geschwindigkeit ist größer als null: $\left| v \right| > 0$.
+
    * **Falsch**: siehe oben.
+
 *  Der Betrag der Beschleunigung ist null: $\left| a \right| = 0$.
+
    * **Falsch**: Während des gesamten Vorgangs wirkt konstant die
       Fallbeschleunigung $\left | a \right | = g$.
+
 *  Der Betrag der Beschleunigung ist größer als null: $\left| a \right| > 0$.
+
    *  **Richtig**: siehe oben.
 
 ********************************************************************************
