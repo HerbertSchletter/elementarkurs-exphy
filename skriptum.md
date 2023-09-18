@@ -2781,7 +2781,7 @@ ein elektrisches Feld, so geschieht dies unter permanenter Einwirkung der
 Coulombkraft.
 Aus der Mechanik wissen wir, dass bei der Bewegung eines Körpers unter dem
 Einfluss einer Kraft Arbeit verrichtet wird. Dieser Grundsatz gilt
-selbstverständlich auch im Zusammenhang der Coulombkraft. Ausgangspunkt zur
+selbstverständlich auch im Zusammenhang mit der Coulombkraft. Ausgangspunkt zur
 Berechnung der Arbeit, die bei Bewegung in einem elektrischen Feld verrichtet
 wird, ist die Kraft auf eine Probeladung $q$:
 
@@ -2808,7 +2808,7 @@ felderfüllten Raum. Aus der obigen Einführung des Potentials lässt sich auch 
 
 $$\mathrm{d}\phi = \frac{1}{q}\mathrm dW = -\vec E \vec{\mathrm{d}s} \, .$$
 
-[^1]: Tatsächlich ist der Zusammenhang zwischen elektrischem Potential $\phi$ und Feldstärke $\vec E$ weitaus tiefgründiger. Im Rahmen dieser Kurses wird dies jedoch nicht weiter betrachtet.
+[^1]: Tatsächlich ist der Zusammenhang zwischen elektrischem Potential $\phi$ und Feldstärke $\vec E$ weitaus tiefgründiger. Im Rahmen dieses Kurses wird dies jedoch nicht weiter betrachtet.
 
 Die Probeladung soll nun vom Anfangsort $\vec r_1$ zum Ort $\vec r_2$ bewegt
 werden. Um die gesamte Arbeit zu berechnen, müssen wir entlang des
@@ -2862,7 +2862,7 @@ beschrieben werden kann.
 
 Bei der Beschleunigung einer Ladung im elektrischen Feld wird Coulombenergie in
 kinetische Energie umgewandelt. Auch hierbei gilt das Prinzip der
-Energierhaltung:
+Energieerhaltung:
 
 $$E_\mathrm{C}+E_\mathrm{kin} = \mathrm{const} \, .$$
 
@@ -2880,9 +2880,9 @@ v & = \sqrt{\frac{2qU}{m}} \, .
 
 Eine gerichtete Bewegung
 elektrischer Ladungen wird als **elektrischer Strom** bezeichnet. Dieser
-Stromfluss ist charakterisiert durch die Ladungsmenge, die in einer definierten
-Zeit durch einen Querschnitt fließt. Das führt zur Definition der
-**Stromstärke** $I$:
+Stromfluss ist charakterisiert durch die Ladungsmenge $\mathrm d Q$, die in
+einer definierten Zeit $\mathrm d t$ durch einen Querschnitt fließt. Das führt
+zur Definition der **Stromstärke** $I$:
 
 $$I = \frac{\mathrm dQ}{\mathrm dt} \quad \textrm{bzw.} \quad I = \frac{Q}{t} \,\textrm{(bei konstantem Strom)} \, .$$
 
@@ -2917,9 +2917,10 @@ Vorliegen eines elektrischen Feldes – die Existenz beweglicher Ladungsträger.
 Tatsächlich existieren in allen Materialien elektrische Ladungsträger
 (Elektronen, Ionen). In vielen Fällen sind diese jedoch so fest gebunden, dass
 sie sich nicht als einzelne Ladungen bewegen können. In solchen Materialien kann
-daher kein elektrischer Strom fließen. Sie heißen (elektrische) Isolatoren. Im
-Gegensatz dazu verfügen elektrische Leiter über bewegliche Ladungsträger. In
-ihnen können elektrische Ströme fließen.
+daher kein elektrischer Strom fließen. Sie heißen (elektrische) Isolatoren.
+Im Gegensatz dazu können sich die Ladungsträger in elektrischen Leitern mehr
+oder minder frei bewegen. In solchen Materialien können elektrische Ströme
+fließen.
 
 ### Stromkreise
 
