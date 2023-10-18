@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2022.1.1
+version:  2023.10.18
 
 language: de
 
@@ -25,7 +25,7 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 Technische Universität Chemnitz
 
-*Wintersemester 2021/2022*
+*Wintersemester 2023/2024*
 
 ![Titelbild: Newtonsches Pendel](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg/800px-M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg "[Quelle: Frank Vincentz, [Mülheim adR - Am Schloss Broich - MüGa-Park - Darlington-Park 09 ies](https://commons.wikimedia.org/wiki/File:Mülheim_adR_-_Am_Schloss_Broich_-_MüGa-Park_-_Darlington-Park_09_ies.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
 

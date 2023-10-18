@@ -309,7 +309,7 @@ $$\frac{s}{v}$$
 
 ### Verständnisfragen
 
-#### Horizontale Bewegung
+#### Züge
 
 An einem Bahnhof fährt ein ICE gerade in dem Moment los, als auf dem
 Nachbargleis ein Güterzug mit konstanter Geschwindigkeit an ihm vorbeifährt. Die
@@ -328,6 +328,48 @@ Welche der folgenden Aussagen sind richtig?
 [[X]] Zu einem Zeitpunkt $t<40~\mathrm s$ haben beide Züge dieselbe Geschwindigkeit.
 [[ ]] Über die Geschwindigkeiten der Züge kann keine Aussage getroffen werden, da nur die Orts-Zeit-Gesetze dargestellt sind.
 [[ ]] Wenn der Güterzug nicht gebremst hätte, wäre er nicht vom ICE eingeholt worden.
+********************************************************************************
+
+- Zum Zeitpunkt $t=40~\mathrm{s}$ hat der ICE den Güterzug eingeholt.
+
+  - **Richtig**: Zu diesem Zeitpunkt schneiden sich die beiden Orts-Zeit-Kurven.
+    Beide Züge befinden sich also an gleicher Position.
+
+- Zum Zeitpunkt $t=40~\mathrm{s}$ haben beide Züge dieselbe Geschwindigkeit.
+
+  - **Falsch**: Die Anstiege der beiden Kurven sind zu diesem Zeitpunkt
+    unterschiedlich. Bei gleicher Geschwindigkeit könnte der ICE den Güterzug
+    nicht überholen.
+
+- Die Durchschnittsgeschwindigkeit auf dem Streckenintervall
+  $[0\dots 800~\mathrm m]$ ist für beide Züge gleich.
+
+  - **Richtig:** Für diesen Streckenabschnitt benötigen beide Züge 40 Sekunden.
+    Die Durchschnittsgeschwindigkeit ist unabhängig von der Bewegungsform
+    (gleichförmige Bewegung des Güterzugs, gleichmäßig beschleunigte Bewegung
+    des ICE).
+
+- Zu einem Zeitpunkt $t<40~\mathrm s$ haben beide Züge dieselbe Geschwindigkeit.
+
+  - **Richtig**: Der Güterzug fährt die ganze Zeit über mit konstanter
+    Geschwindigkeit. Der ICE ist anfangs langsamer, nach 40 Sekunden überholt er
+    den Güterzug mit höherer Geschwindigkeit. Zu einem Zeitpunkt dazwischen muss
+    der ICE ebenso schnell wie der Güterzug gewesen sein.
+
+- Über die Geschwindigkeiten der Züge kann keine Aussage getroffen werden, da
+  nur die Orts-Zeit-Gesetze dargestellt sind.
+
+  - **Falsch**: Die Geschwindigkeit kann aus den Anstiegen der dargestellten
+    Kurven abgelesen werden.
+
+- Wenn der Güterzug nicht gebremst hätte, wäre er nicht vom ICE eingeholt
+  worden.
+
+  - **Falsch**: Der Güterzug war die gesamte dargestellte Zeit über mit konstanter
+    Geschwindigkeit unterwegs. Er ist eingeholt und überholt worden, ohne dass
+    er gebremst hat.
+
+********************************************************************************
 
 #### Senkrechter Wurf I
 
@@ -356,12 +398,42 @@ horizontale Achse entspricht in allen Diagrammen der Zeit $t$.
 [  [X]     [ ]     [ ]     [ ]     [ ]     [ ]     [ ]  ] Darstellung $h(t)$
 [  [ ]     [ ]     [X]     [ ]     [ ]     [ ]     [ ]  ] Darstellung $v(t)$
 [  [ ]     [ ]     [ ]     [X]     [ ]     [ ]     [ ]  ] Darstellung $a(t)$
+********************************************************************************
+
+- **Höhe-Zeit-Diagramm** $h(t)$: Der Zusammenhang $h(t)$ wird durch **Diagramm 1**
+  beschrieben: Die Bewegung beginnt in einer Höhe $h>0$. Anschließend nimmt die
+  Höhe zunächst zu, da der Körper senkrecht nach oben geworfen wird. Nach
+  Erreichen der maximalen Wurfhöhe, die durch den Scheitelpunkt der Kurve
+  gegeben ist, nimmt die Höhe des Körpers wieder ab. Am Ende des dargestellten
+  Vorgangs beträgt die Höhe $h=0$.
+- **Geschwindigkeit-Zeit-Diagramm** $v(t)$: Der Zusammenhang $v(t)$ wird durch
+  **Diagramm 3** beschrieben: Da der Körper nach oben geworfen wird, ist seine
+  Geschwindigkeit anfangs positiv. Aufgrund der konstant wirkenden
+  Fallbeschleunigung nimmt die Geschwindigkeit linear ab. Bei der maximalen
+  Wurfhöhe wechselt die Geschwindigkeit das Vorzeichen und ist während der
+  Abwärtsbewegung negativ.
+- **Beschleunigung-Zeit-Diagramm** $a(t)$: Der Zusammenhang $a(t)$ wird durch
+  **Diagramm 4** beschrieben: Die wirkende Beschleunigung ist konstant. Es ist
+  die nach unten gerichtete (d.h. negative) Fallbeschleunigung
+  $a = -g = -9{,}81~\frac{\mathrm m}{\mathrm s^2}$.
+
+********************************************************************************
 
 #### Bewegung auf der Luftkissenbahn
 
-Eine Luftkissenbahn mit einer Gesamtlänge von $2~\mathrm m$ sei geneigt aufgestellt, sodass das obere Ende um $\Delta h = 14{,}5~\mathrm{cm}$ höher liegt als das untere Ende. Positionen auf der Luftkissenbahn werden durch die Koordinate $x$ angegeben. Das untere Ende der Bahn entspricht $x = 0$, das obere Ende liegt bei $x = 2~\mathrm m$.
+Eine Luftkissenbahn mit einer Gesamtlänge von $2~\mathrm m$ sei geneigt
+aufgestellt, sodass das obere Ende um $\Delta h = 14{,}5~\mathrm{cm}$ höher
+liegt als das untere Ende. Positionen auf der Luftkissenbahn werden durch die
+Koordinate $x$ angegeben. Das untere Ende der Bahn entspricht $x = 0$, das obere
+Ende liegt bei $x = 2~\mathrm m$.
 
-Am unteren Ende der Bahn wird ein Gleiter nach oben angeschoben (Anfangsgeschwindigkeit $v_0$). Danach erfolgt kein weiterer Eingriff in die Bewegung des Gleiters. Sobald der Gleiter die Stelle $x = 10~\mathrm{cm}$ erreicht, startet die automatische Aufzeichnung des Orts-Zeit-Gesetzes. Das resultierende Diagramm $x(t)$ ist in der nachfolgenden Abbildung gezeigt. Die $x$-Koordinate (vertikale Achse) ist dabei in Metern angegeben. Zeitangaben (horizontale Achse) erfolgen in Sekunden.
+Am unteren Ende der Bahn wird ein Gleiter nach oben angeschoben
+(Anfangsgeschwindigkeit $v_0$). Danach erfolgt kein weiterer Eingriff in die
+Bewegung des Gleiters. Sobald der Gleiter die Stelle $x = 10~\mathrm{cm}$
+erreicht, startet die automatische Aufzeichnung des Orts-Zeit-Gesetzes. Das
+resultierende Diagramm $x(t)$ ist in der nachfolgenden Abbildung gezeigt. Die
+$x$-Koordinate (vertikale Achse) ist dabei in Metern angegeben. Zeitangaben
+(horizontale Achse) erfolgen in Sekunden.
 
 ![Diagramm der Bewegung auf der Luftkissenbahn](grafik_uebung/luftkissenbahn.svg "$s(t)$-Diagramm der Bewegung auf der Luftkissenbahn")<!-- style="width:16cm;" -->
 
@@ -378,37 +450,59 @@ richtig?
 [[ ]] Der Gleiter bewegt sich während der gesamten Messdauer aufwärts.
 ********************************************************************************
 
-* Der Betrag der auf den Gleiter wirkenden Beschleunigung wird durch die Fallbeschleunigung g und den Neigungswinkel der Bahn bestimmt.
+* Der Betrag der auf den Gleiter wirkenden Beschleunigung wird durch die
+  Fallbeschleunigung g und den Neigungswinkel der Bahn bestimmt.
 
-  * **Richtig**: Die Fallbeschleunigung ist stets senkrecht orientiert. Die Beschleunigung des Gleiters entspricht dem Anteil der Fallbeschleunigung parallel zur Luftkissenbahn.
+  * **Richtig**: Die Fallbeschleunigung ist stets senkrecht orientiert. Die
+    Beschleunigung des Gleiters entspricht dem Anteil der Fallbeschleunigung
+    parallel zur Luftkissenbahn.
 
-* Aussagen zur Geschwindigkeit oder Beschleunigung des Gleiters können nicht getroffen werden, da nur das Orts-Zeit-Gesetz gezeigt ist.
+* Aussagen zur Geschwindigkeit oder Beschleunigung des Gleiters können nicht
+  getroffen werden, da nur das Orts-Zeit-Gesetz gezeigt ist.
 
-  * **Falsch**: Geschwindigkeit und Beschleunigung entsprechen der ersten beziehungsweise zweiten Ableitung der Orts-Zeit-Kurve. Aus dem Kurvenverlauf lassen sich somit auch Rückschlüsse auf diese beiden Größen ziehen.
+  * **Falsch**: Geschwindigkeit und Beschleunigung entsprechen der ersten
+    beziehungsweise zweiten Ableitung der Orts-Zeit-Kurve. Aus dem Kurvenverlauf
+    lassen sich somit auch Rückschlüsse auf diese beiden Größen ziehen.
 
-* Auf den Gleiter wirkt permanent eine konstante Beschleunigung, die zum unteren Bahnende gerichtet ist.
+* Auf den Gleiter wirkt permanent eine konstante Beschleunigung, die zum unteren
+  Bahnende gerichtet ist.
 
-  * **Richtig**: Da die Bahn gerade ist, wirkt auch eine konstante Beschleunigung (siehe auch Aussage 1).
+  * **Richtig**: Da die Bahn gerade ist, wirkt auch eine konstante
+    Beschleunigung (siehe auch Aussage 1).
 
 * Nach etwa 2 Sekunden erreicht der Gleiter seine größte Geschwindigkeit.
 
-  * **Falsch**: Zu diesem Zeitpunkt befindet sich der Gleiter etwa im Umkehrpunkt seiner Bahn. Die Geschwindigkeit wechselt im Umkehrpunkt das Vorzeichen und ist für einen Moment Null. Große Geschwindigkeiten zeigen sich durch steile Anstiege der Orts-Zeit-Kurve, wie sie zu Beginn und am Ende der Messdauer vorliegen.
+  * **Falsch**: Zu diesem Zeitpunkt befindet sich der Gleiter etwa im
+    Umkehrpunkt seiner Bahn. Die Geschwindigkeit wechselt im Umkehrpunkt das
+    Vorzeichen und ist für einen Moment Null. Große Geschwindigkeiten zeigen
+    sich durch steile Anstiege der Orts-Zeit-Kurve, wie sie zu Beginn und am
+    Ende der Messdauer vorliegen.
 
-* Am Ende der Messdauer (bei $t = 4~\mathrm s$) befindet sich der Gleiter unmittelbar vor dem unteren Bahnende.
+* Am Ende der Messdauer (bei $t = 4~\mathrm s$) befindet sich der Gleiter
+  unmittelbar vor dem unteren Bahnende.
 
-  * **Richtig**: Am rechten Rand des Diagramms endet die Kurve in der Nähe der Position $x = 0$.
+  * **Richtig**: Am rechten Rand des Diagramms endet die Kurve in der Nähe der
+    Position $x = 0$.
 
 * Das zugehörige Geschwindigkeits-Zeit-Diagramm zeigt eine fallende Gerade.
 
-  * **Richtig**: Die Orts-Zeit-Kurve ist eine nach unten geöffnete Parabel. Deren Ableitung ist eine fallende Gerade. Ebenso lässt sich aus der konstanten Beschleunigung (Aussagen 1 und 3) auf eine linear abnehmende Geschwindigkeit schließen.
+  * **Richtig**: Die Orts-Zeit-Kurve ist eine nach unten geöffnete Parabel.
+    Deren Ableitung ist eine fallende Gerade. Ebenso lässt sich aus der
+    konstanten Beschleunigung (Aussagen 1 und 3) auf eine linear abnehmende
+    Geschwindigkeit schließen.
 
-* Die auf den Gleiter wirkende Beschleunigung ist zunächst positiv und wechselt im Umkehrpunkt ($t \approx 2~\mathrm s$) das Vorzeichen. Der Betrag ändert sich dabei nicht.
+* Die auf den Gleiter wirkende Beschleunigung ist zunächst positiv und wechselt
+  im Umkehrpunkt ($t \approx 2~\mathrm s$) das Vorzeichen. Der Betrag ändert
+  sich dabei nicht.
 
-  * **Falsch**: Im Umkehrpunkt wechselt zwar die Geschwindigkeit das Vorzeichen, nicht aber die Beschleunigung. Letztere ist konstant und negativ.
+  * **Falsch**: Im Umkehrpunkt wechselt zwar die Geschwindigkeit das Vorzeichen,
+    nicht aber die Beschleunigung. Letztere ist konstant und negativ.
 
 * Der Gleiter bewegt sich während der gesamten Messdauer aufwärts.
 
-  * **Falsch**: Anfangs bewegt sich der Gleiter aufwärts und erreicht dann seinen Umkehrpunkt (Scheitelpunkt der Orts-Zeit-Kurve). Danach bewegt sich der Gleiter abwärts (fallender Ast der Parabel).
+  * **Falsch**: Anfangs bewegt sich der Gleiter aufwärts und erreicht dann
+    seinen Umkehrpunkt (Scheitelpunkt der Orts-Zeit-Kurve). Danach bewegt sich
+    der Gleiter abwärts (fallender Ast der Parabel).
 
 ********************************************************************************
 
@@ -521,6 +615,34 @@ dabei über die auf den Körper wirkenden Kräfte schlussfolgern?
 [[ ]] Es können nur Kräfte senkrecht zur Bewegungsrichtung angreifen.
 [[X]] Es können beliebige Kräfte auf den Körper einwirken, solange ihre (vektorielle) Summe null ist.
 [[ ]] Jede einzelne Kraft, die auf den Körper wirkt, muss zeitlich konstant sein.
+********************************************************************************
+
+* Es dürfen keinerlei Kräfte auf den Körper einwirken, da sich sonst seine
+  Geschwindigkeit in jedem Fall ändern würde.
+
+  * **Falsch**: Entscheidend ist die resultierende Gesamtkraft. Diese kann Null
+    sein, selbts wenn verschiedene (Einzel-) Kräfte auf den Körper einwirken.
+
+* Es können nur Kräfte senkrecht zur Bewegungsrichtung angreifen.
+
+  * **Falsch**: Diese Aussage ist doppelt inkorrekt: Einerseits bewirken auch
+    senkrecht angreifende Kräfte eine Beschleunigung, wenn sie nicht kompensiert
+    werden. Andererseits lassen sich auch Kräfte in Bewegungsrichtung
+    kompensieren, sodass sie keine Änderung des Bewegungszustands verursachen.
+
+* Es können beliebige Kräfte auf den Körper einwirken, solange ihre
+  (vektorielle) Summe null ist.
+
+  * **Richtig**: Kräfte überlagern sich vektoriell gemäß dem
+    Superpositionsprinzip. Entscheidend für eine Änderung des Bewegungszustands
+    ist eine von Null verschiedene Gesamtkraft.
+
+* Jede einzelne Kraft, die auf den Körper wirkt, muss zeitlich konstant sein.
+
+  * **Falsch**: Auch zeitlich veränderliche Kräfte können sich gegenseitig
+    kompensieren, sodass die Gesamtkraft unverändert Null ist.
+
+********************************************************************************
 
 #### Zweites Newtonsches Axiom
 
@@ -534,6 +656,50 @@ Schlussfolgerungen aus dieser Formel sind richtig?
 [[ ]] Je größer die Masse eines Körpers, umso stärker wird er (bei gleichem Kraftstoß) beschleunigt.
 [[ ]] Die Formel erlaubt keinerlei Rückschlüsse auf die Geschwindigkeit, da nur der Impuls berechnet werden kann.
 [[X]] Auch kleine Kräfte können eine starke Impulsänderung bewirken, wenn sie über einen langen Zeitraum wirken.
+********************************************************************************
+
+* Ein Körper ändert seinen Impuls, wenn die Summe aller auf ihn wirkenden Kräfte
+  nicht null ist.
+
+  * **Richtig**: Eine Änderung des Bewegungszustands (was gleichbedeutend ist
+    mit einer Änderung des Impulses) geschieht stets durch die Einwirkung einer
+    (resultierenden) Kraft.
+
+* Die Änderung des Impulses ist unabhängig vom gewählten Zeitintervall
+  $[t_1, t_2]$.
+
+  * **Falsch**: Je länger die Kraft einwirkt, umso größer wird die resultierende
+    Impulsänderung sein.
+
+* Die Formel $\vec F=m\cdot \vec a$ ist ein Sonderfall der obigen Formel (bei
+  konstanter Masse).
+
+  * **Richtig**: Die obige Formel lautet in differenzieller Schreibweise
+    $\vec F = \dot{\vec p}$. Bei konstanter Masse gilt $\dot{\vec p} = m\vec a$.
+
+* Je größer die Masse eines Körpers, umso stärker wird er (bei gleichem
+  Kraftstoß) beschleunigt.
+
+  * **Falsch**: Der Gegenteil ist der Fall: Bei größerer Masse erfordert
+    dieselbe Impulsänderung eine kleinere Geschwindigkeitsänderung. Körper mit
+    größerer Masse werden also weniger stark beschleunigt bei gleichem
+    Kraftstoß.
+
+* Die Formel erlaubt keinerlei Rückschlüsse auf die Geschwindigkeit, da nur der
+  Impuls berechnet werden kann.
+
+  * **Falsch**: Da \vec p = m\vec v gilt, können aus der Impulsänderung auch
+    Rückschlüsse auf die Geschwindigkeit gezogen werden, wenn Informationen über
+    die Masse vorliegen.
+
+* Auch kleine Kräfte können eine starke Impulsänderung bewirken, wenn sie über
+  einen langen Zeitraum wirken.
+
+  * **Richtig**: Je länger eine Kraft einwirkt, umso größer wird resultierende
+    Impulsänderung. Bei konstanter Kraft ist die Impulsänderung proportional zur
+    Länge des Zeitintervalls.
+
+********************************************************************************
 
 ### Übungsaufgaben
 
@@ -706,6 +872,145 @@ angenommen werden (Vernachlässigung der Beschleunigungsstrecke).
 
 ### Hausaufgaben
 
+#### Achterbahn mit Katapultstart II
+Der Zug einer Achterbahn werde bei einem sogenannten Katapultstart auf einer
+horizontalen Beschleunigungsstrecke durch ein Antriebssystem innerhalb von
+$2{,}5~\mathrm s$ auf eine Endgeschwindigkeit von $100~\frac{\mathrm {km}}{\mathrm h}$
+beschleunigt.
+
+1. Geben Sie die mittlere Beschleunigung in $\frac{\mathrm m}{\mathrm s^2}$
+   sowie in Vielfachen der Fallbeschleunigung an.
+
+2. Wie lang muss die Beschleunigungsstrecke sein?
+
+-----
+
+- Antwort Teilaufgabe 1
+
+[[ ($a=11{,}1~\frac{\mathrm m}{\mathrm s^2} = 1{,}1~g$) | $a=22{,}2~\frac{\mathrm m}{\mathrm s^2} = 2{,}2~g$ | $a=33{,}3~\frac{\mathrm m}{\mathrm s^2} = 3{,}3~g$ | $a=44{,}4~\frac{\mathrm m}{\mathrm s^2} = 4{,}4~g$ ]]
+********************************************************************************
+
+Da die mittlere Beschleunigung ermittelt werden soll, kann von einer gleichmäßig
+beschleunigten Bewegung ausgegangen werden. Für diese gilt das
+Geschwindigkeits-Zeit-Gesetz
+
+$$v(t) = at+v_0 \qquad \textrm{mit }v_0 =0 \, .$$
+
+Mit der gegebenen Endgeschwindigkeit $v_\mathrm e = 100~\frac{\mathrm{km}}{\mathrm h} = 27{,}8~\frac{\mathrm m}{\mathrm s}$
+und der Beschleunigungsdauer $t_\mathrm B = 2{,}5~\mathrm s$ folgt daraus:
+
+$$v_\mathrm e=a\cdot t_\mathrm B$$
+
+beziehungsweise
+
+$$a=\frac{v_\mathrm e}{t_\mathrm B} = 11{,}1~\frac{\mathrm m}{\mathrm s^2} = 1{,}1~\mathrm g \, .$$
+
+********************************************************************************
+
+- Antwort Teilaufgabe 2
+
+[[ $s_\mathrm B=16{,}35~\mathrm m$ | $s_\mathrm B=25{,}55~\mathrm m$ | ($s_\mathrm B=34{,}75~\mathrm m$) | $s_\mathrm B=43{,}95~\mathrm m$]]
+********************************************************************************
+
+Das Weg-Zeit-Gesetz der gleichmäßig beschleunigten Bewegung lautet:
+
+$$s(t) = \frac a2 t^2 + v_0 t + s_0 \, .$$
+
+Mit $v_0 = 0$ und $s_0 = 0$ folgt daraus:
+
+$$s_\mathrm B = \frac a2 t_\mathrm B^2 = \frac 12 \frac{v_\mathrm e}{t_\mathrm B}\cdot t_\mathrm B^2 = \frac 12 v_\mathrm et_\mathrm B = 34{,}75~\mathrm m \, .$$
+
+********************************************************************************
+
+#### Freifallturm
+In einem „shot’n’drop“ Freifallturm wird die Gondel mit den Fahrgästen zunächst
+vom Boden aus nach oben katapultiert. Dieser „Abschuss“ dauere
+$0{,}92~\mathrm s$. Anschließend steige die Gondel weitere $35~\mathrm m$ in die
+Höhe, bevor sie ihren freien Fall beginnt. In einer Höhe von $17~\mathrm m$ über
+dem Boden werde das Bremssystem aktiviert, das die Gondel zum Stillstand am
+Boden bringt.
+
+1.  Berechnen Sie die Geschwindigkeit der Gondel unmittelbar nach dem Abschuss.
+
+2.  Berechnen Sie die mittlere Beschleunigung während des Abschussvorgangs.
+    Geben Sie diese in $\frac{\mathrm m}{\mathrm s^2}$ sowie in Vielfachen der
+    Fallbeschleunigung an.
+
+3.  Welche Maximalhöhe erreicht die Gondel?
+
+4.  Berechnen Sie die mittlere Beschleunigung während des Bremsvorgangs.
+
+5.  Skizzieren Sie für den gesamten Vorgang die Diagramme $h(t)$ (Höhe-Zeit),
+    $v(t)$ (Geschwindigkeit-Zeit) und $a(t)$ (Beschleunigung-Zeit). Nehmen Sie
+    dabei konstante Beschleunigungen bei Abschuss und Bremsvorgang an.
+
+-----
+
+* Antwort Teilaufgabe 1
+
+[[ $v_0 = 17{,}8~\frac{\mathrm m}{\mathrm s}$ | ($v_0 = 26{,}2~\frac{\mathrm m}{\mathrm s}$) | $v_0 = 35{,}9~\frac{\mathrm m}{\mathrm s}$ | $v_0 = 44{,}1~\frac{\mathrm m}{\mathrm s}$ | $v_0 = 53{,}2~\frac{\mathrm m}{\mathrm s}$ ]]
+********************************************************************************
+
+Die Bewegung der Gondel zwischen Abschuss und Bremsvorgang entspricht einem
+senkrechten Wurf nach oben. Dabei gilt das allgemeine Höhe-Zeit-Gesetz:
+
+$$h(t) = h_0 + v_0 t - \frac g2 t^2 \, .$$
+
+Für die gegebene Steighöhe $h_\mathrm s =35~\mathrm m$ folgt daraus:
+
+$$h_\mathrm s = v_0t_\mathrm s-\frac g2 t_\mathrm s^2 \, ,$$
+
+wobei $t_\mathrm s$ die Steigzeit angibt. Für diese folgt aus dem
+Geschwindigkeits-Zeit-Gesetz:
+
+$$v(t_\mathrm s) = v_0-gt_\mathrm s = 0 \qquad \Longrightarrow \qquad t_\mathrm s = \frac{v_0}{g} \, .$$
+
+Eingesetzt in die Formel der Steighöhe ergibt sich:
+
+$$h_\mathrm s = v_0 \cdot \frac{v_0}{g} - \frac g2\cdot \frac{v_0^2}{g^2} = \frac{v_0^2}{2g}\, .$$
+
+Damit ergibt sich als Anfangsgeschwindigkeit unmittelbar nach dem Abschuss:
+
+$$v_0 = \sqrt{2gh_\mathrm s} = 26{,}2~\frac{\mathrm m}{\mathrm s}$$
+
+********************************************************************************
+
+* Antwort Teilaufgabe 2
+
+[[ $a=4{,}9~\frac{\mathrm m}{\mathrm s^2} = 0{,}5~\mathrm g$ | $a=12{,}8~\frac{\mathrm m}{\mathrm s^2} = 1{,}3~\mathrm g$ | $a=19{,}1~\frac{\mathrm m}{\mathrm s^2} = 1{,}9~\mathrm g$ | $a=24{,}7~\frac{\mathrm m}{\mathrm s^2} = 2{,}5~\mathrm g$ | ($a=28{,}5~\frac{\mathrm m}{\mathrm s^2} = 2{,}9~\mathrm g$) ]]
+********************************************************************************
+
+Zur Berechnung der mittleren Beschleunigung kann von einer gleichmäßig
+beschleunigten Bewegung ausgegangen werden. Es gilt das
+Geschwindigkeits-Zeit-Gesetz (ohne Anfangsgeschwindigkeit):
+
+$$v(t) = at \, .$$
+
+Dabei wird nach der Beschleunigungsdauer $t_\mathrm B=0{,}92~\mathrm s$ die oben
+errechnete Geschwindigkeit erreicht. Für die Beschleunigung folgt daraus:
+
+$$a=\frac{v_0}{t_\mathrm B} = \frac{\sqrt{2gh_\mathrm s}}{t_\mathrm B} = 28{,}5~\frac{\mathrm m}{\mathrm s^2} = 2{,}9~\mathrm g \, .$$
+
+********************************************************************************
+
+* Antwort Teilaufgabe 3
+
+[[ $h_\mathrm{max} = 23{,}2~{\mathrm m}$ | $h_\mathrm{max} = 36{,}8~{\mathrm m}$ | ($h_\mathrm{max} = 47{,}1~{\mathrm m}$) | $h_\mathrm{max} = 52{,}4~{\mathrm m}$ ]]
+********************************************************************************
+
+Zur Ermittlung der Gesamthöhe kommt zur gegebenen Steighöhe (nach dem Abschuss)
+noch die während des Abschussvorgangs zurückgelegte Strecke $h_\mathrm B$ hinzu.
+Es wird wieder eine gleichmäßig beschleunigte Bewegung angenommen und das
+Höhe-Zeit-Gesetz (ohne Anfangshöhe & und ohne Anfangsgeschwindigkeit) angesetzt:
+
+$$h_\mathrm B = \frac 12 at_\mathrm B^2 = \frac 12\frac{\sqrt{2gh_\mathrm s}}{t_\mathrm B}t_\mathrm B^2 = \sqrt{\frac{gh_\mathrm s}{2}}t_\mathrm B = 12{,}1~\mathrm m \, .$$
+
+Für die Maximalhöhe folgt dann
+
+$$h_\mathrm{max} = h_\mathrm B + h_\mathrm s = 47{,}1~{\mathrm m} \, .$$
+
+********************************************************************************
+
 #### Grimsehlversuch II
 Im sogenannten Grimsehl-Versuch starten zwei identische Kugeln zeitgleich und
 aus gleicher Höhe ihre Bewegung: die eine führt einen freien Fall aus, während
@@ -754,7 +1059,7 @@ $$v_0 = \frac{d}{t_\mathrm f} = 1{,}37~\frac{\mathrm m}{\mathrm s} \, .$$
 
 ********************************************************************************
 
-- Antwort Teilaufgabe 3
+- Antworten Teilaufgabe 3
 
 [[ $v_\mathrm{Fall} = 1{,}4~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm{Fall} = 4{,}2~\frac{\mathrm m}{\mathrm s}$ | ($v_\mathrm{Fall} = 5{,}6~\frac{\mathrm m}{\mathrm s}$) | $v_\mathrm{Fall} = 5{,}8~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm{Fall} = 7{,}0~\frac{\mathrm m}{\mathrm s}$ ]]
 ********************************************************************************
