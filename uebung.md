@@ -1239,7 +1239,7 @@ allen Bewegungsvorgängen vernachlässigbar.
 Beim Stabhochsprung nutzen die Sportler einen biegsamen Stab, um große Höhen zu überspringen. Zum Ende des Anlaufs wird der Stab auf den Boden aufgesetzt, während der Springer weiterläuft. Dabei biegt sich der Stab durch. Nach dem Absprung „katapultiert“ der Stab den Springer nach oben.
 
 <figure>
-<img src="grafik_uebung/stabhochsprung.jpg" alt="Sportler beim Stabhochsprung">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/13._Volksbank-Stabhochsprung-Meeting_der_Frauen_(10577093083).jpg/400px-13._Volksbank-Stabhochsprung-Meeting_der_Frauen_(10577093083).jpg" alt="Sportler beim Stabhochsprung">
 <figcaption>Bildquelle:  <a href="https://www.flickr.com/people/107086296@N08">Dirk Vorderstraße</a>, <a href="https://commons.wikimedia.org/wiki/File:13._Volksbank-Stabhochsprung-Meeting_der_Frauen_(10577093083).jpg">13. Volksbank-Stabhochsprung-Meeting der Frauen (10577093083)</a>, <a href="https://creativecommons.org/licenses/by/2.0/legalcode" rel="license">CC BY 2.0</a> </figcaption>
 </figure>
 
