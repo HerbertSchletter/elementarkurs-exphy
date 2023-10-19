@@ -1011,6 +1011,109 @@ $$h_\mathrm{max} = h_\mathrm B + h_\mathrm s = 47{,}1~{\mathrm m} \, .$$
 
 ********************************************************************************
 
+* Antwort Teilaufgabe 4
+
+[[ $a_\mathrm{Br}= 0{,}173~\frac{\mathrm m}{\mathrm s^2}$ | $a_\mathrm{Br}= 1{,}73~\frac{\mathrm m}{\mathrm s^2}$ | ($a_\mathrm{Br}= 17{,}3~\frac{\mathrm m}{\mathrm s^2}$) | $a_\mathrm{Br}= 173~\frac{\mathrm m}{\mathrm s^2}$ ]]
+********************************************************************************
+
+Für den Bremsvorgang steht ein Bremsweg $s_\mathrm{Br} = 17~\mathrm m$ zur
+Verfügung. Zur Ermittlung der mittleren Bremsverzögerung wird wiederum eine
+gleichmäßig beschleunigte Bewegung angesetzt. Dabei gelten das Weg-Zeit- und das
+Geschwindigkeits-Zeit-Gesetz:
+
+$$s(t) = v_\mathrm F t - \frac{a_\mathrm{Br}}{2} t^2$$
+
+$$v(t) = v_\mathrm F - a_\mathrm{Br}t \, ,$$
+
+wobei $v_\mathrm F$ die im freien Fall bis zum Einsetzen der Bremsen erreichte
+Geschwindigkeit bezeichnet. Die Dauer des Bremsvorgangs $t_\mathrm{Br}$ ist
+unbekannt. Daher muss die Zeit aus den obigen Formeln eliminiert werden. Am Ende
+des Bremsvorgangs ist die Geschwindigkeit auf 0 abgesunken, d.h.
+
+$$v(t_\mathrm{Br}) = v_\mathrm F - at_\mathrm{Br} = 0 \qquad \Longrightarrow \qquad t_\mathrm{Br} = \frac{v_\mathrm F}{a_\mathrm{Br}} \, .$$
+
+Eingesetzt in das Weg-Zeit-Gesetz folgt für den Bremsweg
+
+$$s(t_\mathrm{Br}) = s_\mathrm{Br} = v_\mathrm F \cdot \frac{v_\mathrm F}{a_\mathrm{Br}} - \frac 12 a_\mathrm{Br} \frac{v_\mathrm F^2}{a_\mathrm{Br}^2} = \frac{v_\mathrm F^2}{2a_\mathrm{Br}} \, .$$
+
+Für die Bremsverzögerung folgt daraus:
+
+$$a_\mathrm{Br} = \frac{v_\mathrm F^2}{2s_\mathrm{Br}} \, .$$
+
+Die Fallgeschwindigkeit $v_\mathrm F$ folgt aus der Fallhöhe $h_\mathrm F$ vom
+höchsten Punkt bis zum Einsetzen der Bremsen:
+
+$$h_\mathrm F = h_\mathrm{max} - s_\mathrm{Br} \, .$$
+
+Aus dem Weg-Zeit-Gesetz dieses freien Falls folgt:
+
+$$h_\mathrm F = \frac g2 t_\mathrm F^2 \qquad \Longrightarrow \qquad t_\mathrm F = \sqrt{\frac{2h_\mathrm F}{g}} \, .$$
+
+Damit ergibt sich für die erreichte Fallgeschwindigkeit:
+
+$$v_\mathrm F = gt_\mathrm F = g\sqrt{\frac{2h_\mathrm F}{g}} = \sqrt{2gh_\mathrm F} \, .$$
+
+Dies wird in die Formel für die Bremsverzögerung eingesetzt:
+
+$$a_\mathrm{Br} = \frac{v_\mathrm F^2}{2s_\mathrm{Br}} = \frac{\sqrt{2gh_\mathrm F}^2}{2s_\mathrm{Br}} = g\cdot \frac{h_\mathrm F}{s_\mathrm{Br}} = 17{,}3~\frac{\mathrm m}{\mathrm s^2} \, .$$
+
+********************************************************************************
+
+* Antwort Teilaufgabe 5
+
+[[ (Musterlösung anzeigen) | Musterlösung nicht anzeigen ]]
+********************************************************************************
+
+Die nachfolgenden Abbildungen zeigen die geforderten Diagramme mit den berechneten Kurven der Höhe $h(t)$, der Geschwindigkeit $v(t)$ und der Beschleunigung $a(t)$. Die Berechnung erfolgte anhand der in der Aufgabenstellung gegebenen Werte. Die einzelnen Kurven widerspiegeln den Bewegungsablauf des Freifallturms daher nicht nur qualitativ, sondern auch quantitativ. Da in der Aufgabenstellung nur Skizzen gefordert waren, sind die quantitativen Beschriftungen der Diagrammachsen zur Lösung der Aufgabe nicht erforderlich. Die angegebenen Zeiten haben folgende Bedeutungen:
+
+-   $t_1$: Ende des Abschussvorgangs,
+
+-   $t_2$: Erreichen des Umkehrpunkts,
+
+-   $t_3$: Einsetzen der Bremsen,
+
+-   $t_4$ (rechter Rand der Diagramme): Ende des Bremsvorgangs, Stillstand am Boden.
+
+<figure>
+<img src="grafik_uebung/freifallturm_hoehe-zeit.svg" alt="Höhe-Zeit-Diagramm des Freifallturms" style="width: 45em;">
+</figure>
+
+Beschreibung des $h(t)$-Diagramms:
+
+-   $t=0 \rightarrow t_1$: Nach oben geöffneter Parabelast
+
+-   $t_1 \rightarrow t_3$: Nach unten geöffnete Parabel, Scheitelpunkt bei $t_2$
+
+-   $t_3 \rightarrow t_4$: Nach oben geöffnete Parabel
+
+-   Bei $t_1$ und $t_3$ darf die Kurve keinen Knick aufweisen!
+
+<figure>
+<img src="grafik_uebung/freifallturm_geschwindigkeit-zeit.svg" alt="Geschwindigkeit-Zeit-Diagramm des Freifallturms" style="width: 45em;">
+</figure>
+
+Beschreibung des $v(t)$-Diagramms:
+
+-   $t=0 \rightarrow t_1$: Linearer Anstieg $v=0 \rightarrow v_0$
+
+-   $t_1 \rightarrow t_3$: Lineare Abnahme $v_0 \rightarrow v_\mathrm F$, Nulldurchgang bei $t_2$
+
+-   $t_3 \rightarrow t_4$: Linearer Anstieg $v_\mathrm F \rightarrow v=0$
+
+<figure>
+<img src="grafik_uebung/freifallturm_beschleunigung-zeit.svg" alt="Beschleunigung-Zeit-Diagramm des Freifallturms" style="width: 45em;">
+</figure>
+
+Beschreibung des $a(t)$-Diagramms:
+
+-   $t=0 \rightarrow t_1$: $a= \mathrm{const.} \approx 3~\mathrm g$
+
+-   $t_1 \rightarrow t_3$: $a= \mathrm{const.} = -\mathrm g$
+
+-   $t_3 \rightarrow t_4$: $a= \mathrm{const.} \approx 2~\mathrm g$
+
+********************************************************************************
+
 #### Grimsehlversuch II
 Im sogenannten Grimsehl-Versuch starten zwei identische Kugeln zeitgleich und
 aus gleicher Höhe ihre Bewegung: die eine führt einen freien Fall aus, während
@@ -1085,7 +1188,7 @@ $$v_\mathrm{Wurf} = \sqrt{v_\mathrm{hor}^2 + v_\mathrm{vert}^2} = \sqrt{\frac{d^
 ## Übung 3: Arbeit und Erhaltungssätze
 ### Verständnisfragen
 
-#### Reibung I
+#### Bremsweg
 Ein PKW bremst auf trockener, horizontaler Farbahn von seiner
 Anfangsgeschwindigkeit bis zum Stillstand ab. Dabei legt er den Bremsweg $s_0$
 zurück. Treffen Sie Aussagen zum Bremsweg für die folgenden Situationen.
@@ -1132,6 +1235,64 @@ allen Bewegungsvorgängen vernachlässigbar.
 [ [X] [X] ] Ein perfekter Gummiball wird gegen eine Wand geworfen und prallt von dieser ab. (System: Gummiball und Wand)
 [ [X] [ ] ] Ein Apfel fällt vom Baum senkrecht nach unten. (System: Apfel und Apfelbaum)
 
+#### Stabhochsprung
+Beim Stabhochsprung nutzen die Sportler einen biegsamen Stab, um große Höhen zu überspringen. Zum Ende des Anlaufs wird der Stab auf den Boden aufgesetzt, während der Springer weiterläuft. Dabei biegt sich der Stab durch. Nach dem Absprung „katapultiert“ der Stab den Springer nach oben.
+
+<figure>
+<img src="grafik_uebung/stabhochsprung.jpg" alt="Sportler beim Stabhochsprung">
+<figcaption>Bildquelle:  <a href="https://www.flickr.com/people/107086296@N08">Dirk Vorderstraße</a>, <a href="https://commons.wikimedia.org/wiki/File:13._Volksbank-Stabhochsprung-Meeting_der_Frauen_(10577093083).jpg">13. Volksbank-Stabhochsprung-Meeting der Frauen (10577093083)</a>, <a href="https://creativecommons.org/licenses/by/2.0/legalcode" rel="license">CC BY 2.0</a> </figcaption>
+</figure>
+
+Die folgenden Aussagen behandeln den Stabhochsprung aus Sicht der (mechanischen) Energie. Beurteilen Sie die Richtigkeit dieser Aussagen.
+
+[[X]] Der Sportler gewinnt beim Anlauf kinetische Energie. Ein Teil dieser Energie wird auf den Stab übertragen, wenn dieser sich durchbiegt. 		
+[[X]] Nachdem der Springer den höchsten Punkt seiner Flugbahn erreicht hat, wird seine potenzielle Energie in kinetische Energie umgewandelt. 		
+[[X]] Der Stab sollte so elastisch sein, dass möglichst wenig Energie durch dissipative Prozesse verloren geht. 		
+[[X]] Die Sprungmatte, auf der der Springer landet, sollte einen möglichst großen Teil der auf sie übertragenen Energie in dissipativen Vorgängen aufbrauchen. 		
+[[X]] Zum Durchbiegen des Stabs wird Arbeit verrichtet, die als Energie im Stab gespeichert ist. 		
+[[X]] Die gesamte für den Sprung erforderliche Energie muss der Sportler durch den Anlauf und Absprung aufbringen. Der Stab kann keine zusätzliche Energie erzeugen.
+********************************************************************************
+
+* Der Sportler gewinnt beim Anlauf kinetische Energie. Ein Teil dieser Energie
+  wird auf den Stab übertragen, wenn dieser sich durchbiegt.
+
+  * **Richtig**: Der Stab fungiert gewissermaßen als Energiespeicher. Nach dem
+    Absprung wird diese Energie bei der Streckung des Stabs wieder auf den
+    Springer übertragen.
+
+* Nachdem der Springer den höchsten Punkt seiner Flugbahn erreicht hat, wird
+  seine potenzielle Energie in kinetische Energie umgewandelt.
+
+  * **Richtig**: Dies trifft auf jede Fallbewegung zu.
+
+* Der Stab sollte so elastisch sein, dass möglichst wenig Energie durch
+  dissipative Prozesse verloren geht.
+
+  * **Richtig**: Die zur Durchbiegung des Stabs aufgebrachte Arbeit soll
+    möglichst vollständig in die Aufwärtsbewegung des Springers übergehen.
+
+* Die Sprungmatte, auf der der Springer landet, sollte einen möglichst großen
+  Teil der auf sie übertragenen Energie in dissipativen Vorgängen aufbrauchen.
+
+  * **Richtig**: Hier soll die Fallbewegung des Springers gebremst, also seine
+    kinetische Energie abgeführt werden. Eine elastische Sprungmatte würde den
+    Springer wieder nach oben katapultieren.
+
+* Zum Durchbiegen des Stabs wird Arbeit verrichtet, die als Energie im Stab
+  gespeichert ist.
+
+  * **Richtig**: Die Verformungsarbeit geht in elastische Energie des Stabs
+    über.
+
+* Die gesamte für den Sprung erforderliche Energie muss der Sportler durch den
+  Anlauf und Absprung aufbringen. Der Stab kann keine zusätzliche Energie erzeugen.
+
+  * **Richtig**: Durch die Verformung des Stabs kann dieser lediglich Energie
+    speichern, die ihm zugeführt wurde.
+
+********************************************************************************
+
+
 ### Übungsaufgaben
 
 #### Achterbahn
@@ -1145,7 +1306,7 @@ das Antriebssystem am Wagen verrichtet?
 
 [[ ($W_\mathrm{Beschl} = 1632~\mathrm{kJ}$) | $W_\mathrm{Beschl} = 3114~\mathrm{kJ}$ | $W_\mathrm{Beschl} = 18992~\mathrm{J}$ ]]
 
-#### Reibung II
+#### Reibungsarbeit
 Auf einer horizontalen Luftkissenbahn bewegt sich ein Gleiter (Masse
 $m=200~\mathrm g$) zunächst reibungsfrei mit einer Geschwindigkeit von
 $v_0 = 0{,}2~\frac{\mathrm m}{\mathrm s}$. Als die Luftzufuhr abgestellt wird,
@@ -1553,6 +1714,145 @@ $$\begin{aligned}
 W &  = vg\left( \mu_\mathrm R \cos\left( \arctan S \right) + \sin\left( \arctan S \right) \right) \left( \left( m_\mathrm F + m_0 \right) t_\mathrm e - \frac{q}{2} t_\mathrm e^2 \right) \\
 & = 12{,}7~\mathrm{MJ} \, .
 \end{aligned}$$
+
+********************************************************************************
+
+#### Achterbahn II
+Bei einer Achterbahn werden die Wagen zu Beginn der Fahrt durch einen
+Kettenaufzug auf den ersten (und höchsten) Berg der Strecke befördert und rollen
+danach die gesamte Strecke ohne weiteren Antrieb. Für die folgenden Aufgaben
+wird eine Achterbahn betrachtet, deren Wagen eine Masse von jeweils
+$2{,}7~\mathrm t$ besitzen. Der erste Berg besitzt eine Höhe von $32~\mathrm m$
+über dem Boden. Der Bahnhof befindet sich auf Höhe des Erdbodens.
+
+1. Nach der Abfahrt vom ersten Berg rollt der Wagen einen weiteren Anstieg
+   hinauf, auf dessen Scheitelpunkt er eine Geschwindigkeit von
+   $4~\frac{\mathrm m}{\mathrm s}$ besitzt. Wie hoch ist dieser zweite Berg
+   maximal?
+2. Das Antriebssystem des Kettenaufzugs hat eine maximale Leistung von
+   $50~\mathrm{kW}$ und soll den Wagen mit einer Geschwindigkeit von
+   $2~\frac{\mathrm m}{\mathrm s}$ befördern. Welche Neigung darf der Aufzug
+   dabei maximal aufweisen? (Angabe als Neigungswinkel oder Prozentwert)
+3. Am Ende der Bahn wird der Wagen vor Einfahrt in den Bahnhof durch ein in die
+   Schiene integriertes Bremssystem auf eine Geschwindigkeit von
+   $1~\frac{\mathrm m}{\mathrm s}$ abgebremst. Die Bremsen üben dabei eine
+   konstante Kraft von $45~\mathrm{kN}$ aus. Dieser Bremsvorgang dauert
+   $1{,}2~\mathrm s$. Berechnen Sie die durch dissipative Vorgänge auf der
+   Strecke bis zum Erreichen der Schlussbremse verlorene mechanische Energie des
+   Wagens.
+
+-----
+
+* Antwort Teilaufgabe 1
+[[ $h_2= 28{,}6~\mathrm m$ | $h_2= 29{,}1~\mathrm m$ | $h_2= 30{,}4~\mathrm m$ | ($h_2= 31{,}2~\mathrm m$) | $h_2= 32{,}0~\mathrm m$ ]]
+********************************************************************************
+
+Betrachtet wird die mechanische Energie des Wagens auf dem ersten und zweiten
+Berg der Strecke. Es wird davon ausgegangen, dass der Wagen seine Abfahrt vom
+ersten Berg aus dem Stillstand beginnt. Seine kinetische an dieser Stelle ist
+folglich Null und es gilt für den ersten Berg:
+
+$$E_1 = mgh_1 \, .$$
+
+Auf dem zweiten Berg gilt:
+
+$$E_2 = mgh_2 + \frac{m}{2} v_2^2 \, .$$
+
+Da nach der maximal denkbaren Höhe des zweiten Bergs gefragt ist, werden
+Reibungsverluste vernachlässigt und es wird angesetzt:
+
+$$\begin{aligned}
+E_1 & = E_2 \\
+mgh_1 & = mgh_2 + \frac{m}{2} v_2^2 \, .
+\end{aligned}$$
+
+Umgestellt nach der gesuchten Höhe $h_2$ ergibt sich:
+
+$$\begin{aligned}
+h_2 & = h_1 - \frac{v_2^2}{2g} \\
+& = 31{,}2~\mathrm m \, .
+\end{aligned}$$
+
+********************************************************************************
+
+* Antwort Teilaufgabe 2
+[[ $\alpha_\mathrm{max} = 43{,}4°$ (Steigung $95\%$) | $\alpha_\mathrm{max} = 56{,}9°$ (Steigung $153\%$) | ($\alpha_\mathrm{max} = 70{,}7°$ (Steigung $286\%$)) | $\alpha_\mathrm{max} = 84{,}1°$ (Steigung $968\%$) ]]
+********************************************************************************
+
+Für die mechanische Leistung gilt allgemein:
+
+$$P = Fv \, .$$
+
+Die Kraft, die der Kettenaufzug hier aufbringen muss, entspricht der
+Hangabtriebskraft:
+
+$$F = F_\mathrm H = mg\sin\alpha \, .$$
+
+Für die Leistung bedeutet das:
+
+$$P = mgv\sin\alpha \, .$$
+
+Dies wird nach dem Winkel $\alpha$ umgestellt:
+
+$$\begin{aligned}
+\sin\alpha & = \frac{P}{mgv} \\
+\alpha & = \arcsin\left( \frac{P}{mgv} \right) \, .
+\end{aligned}$$
+
+Der maximale Anstiegswinkel ergibt sich, wenn in diese Formel die
+Maximalleistung eingesetzt wird:
+
+$$\alpha_\mathrm{max} = \arcsin\left( \frac{P_\mathrm{max}}{mgv} \right) = 70{,}7° \, .$$
+
+Soll der Anstieg nicht als Winkel, sondern als Prozentwert $S$ angegeben werden,
+so muss der Tangens des Anstiegswinkels berechnet werden:
+
+$$S_\mathrm{max} = \tan\alpha_\mathrm{max}\cdot 100\% = \tan\left[ \arcsin\left( \frac{P_\mathrm{max}}{mgv} \right) \right] \cdot 100\% = 286\% \, .$$
+
+********************************************************************************
+
+* Antwort Teilaufgabe 3
+[[ $E_\mathrm{Diss} = 17{,}3~\mathrm{kJ}$ | ($E_\mathrm{Diss} = 252~\mathrm{kJ}$) | $E_\mathrm{Diss} = 756~\mathrm{kJ}$ | $E_\mathrm{Diss} = 9{,}12~\mathrm{MJ}$ | $E_\mathrm{Diss} = 24{,}8~\mathrm{MJ}$ ]]
+********************************************************************************
+
+Durch dissipative Vorgänge ist die mechanische Energie am eines Vorgangs (hier
+konkret: am Ende der Achterbahnfahrt) kleiner als zu Beginn. Der Betrag der
+dissipierten Energie ergibt sich als Differenz zwischen Anfangs- und Endwert der
+mechanischen Energie:
+
+$$E_\mathrm{Diss} = E_\mathrm{Anfang} - E_\mathrm{Ende} \, .$$
+
+Dabei ist
+
+$$E_\mathrm{Anfang} = E_1 = mgh_1$$
+
+und
+
+$$E_\mathrm{Ende} = \frac{m}{2}v_\mathrm{Ende}^2 \, ,$$
+
+wobei $v_\mathrm{Ende}$ die Geschwindigkeit am Ende der Strecke *vor* der in der
+Aufgabenstellung beschriebenen Schlussbremse bezeichnet. Gegeben ist jedoch nur
+die Geschwindigkeit $v_\mathrm B$, mit der der Wagen nach der Schlussbremse in
+den Bahnhof einfährt. Zur Bestimmung von $v_\mathrm{Ende}$ wird der durch die
+Schlussbremse auf den Wagen ausgeübte Kraftstoß betrachtet. Bei konstanter Kraft
+(und konstanter Masse) gilt:
+
+$$F_\mathrm{Br} t_\mathrm{Br} = m\Delta v \, ,$$
+
+beziehungsweise
+
+$$\Delta v = \frac{F_\mathrm{Br}t_\mathrm{Br}}{m} \, .$$
+
+Das bedeutet für die Geschwindigkeit unmittelbar vor der Schlussbremse:
+
+$$\begin{aligned}
+v_\mathrm{Ende} & = v_\mathrm B + \Delta v \\
+& = v_\mathrm B + \frac{F_\mathrm{Br}t_\mathrm{Br}}{m} \, .
+\end{aligned}$$
+
+Dies wird in die Formel für die dissipierte Energie eingesetzt:
+
+$$E_\mathrm{Diss} = mgh_1 - \frac{m}{2}\left( v_\mathrm B + \frac{F_\mathrm{Br}t_\mathrm{Br}}{m} \right)^2 = 252~\mathrm{kJ} \, .$$
 
 ********************************************************************************
 
