@@ -1200,25 +1200,65 @@ Fällen identisch.
 
 1. Der PKW sei mit der doppelten Anfangsgeschwindigkeit unterwegs.
    [[ (Der Bremsweg beträgt $4\cdot s_0$.) | Der Bremsweg beträgt $2\cdot s_0$. | Der Bremsweg beträgt $1\cdot s_0$. | Der Bremsweg beträgt $0{,}5\cdot s_0$. | Der Bremsweg beträgt $0{,}25\cdot s_0$. ]]
+   *****************************************************************************
+
+   Eine Verdopplung der Geschwindigkeit bewirkt eine Vervierfachung der
+   kinetischen Energie. Bei gleicher Kraft vervierfacht sich der zum Aufbringen
+   der Reibungsarbeit erforderliche Bremsweg.
+
+   *****************************************************************************
 
 2. Die Masse des PKW werde verdoppelt.
    [[ Der Bremsweg beträgt $4\cdot s_0$. | (Der Bremsweg beträgt $2\cdot s_0$.) | Der Bremsweg beträgt $1\cdot s_0$. | Der Bremsweg beträgt $0{,}5\cdot s_0$. | Der Bremsweg beträgt $0{,}25\cdot s_0$. ]]
+   *****************************************************************************
+
+   Der PKW hat in diesem Fall die doppelte kinetische Energie und benötigt
+   entsprechend die doppelte Reibungsarbeit, um zum Stillstand zu kommen.
+
+   *****************************************************************************
 
 3. Der PKW sei auf nasser Straße unterwegs, sodass die Reibung zwischen Rad und
    Straße verringert ist. Es kommt *nicht* zum Blockieren der Räder.
    [[ Der Bremsweg wird größer. | (Der Bremsweg bleibt gleich.) | Der Bremsweg wird kleiner. ]]
+   *****************************************************************************
+
+   An den wirkenden Kräften ändert sich in diesem Fall nichts. Solange die
+   Reibung zwischen Rad und Straße ausreichend ist, dass die Räder nicht ins
+   Rutschen geraten, tritt keine Verminderung der Bremswirkung auf.
+
+   *****************************************************************************
 
 4. Der PKW sei auf nasser Straße unterwegs, sodass die Reibung zwischen Rad und
    Straße verringert ist. Dabei blockieren die Räder und der PKW rutscht.
    [[ (Der Bremsweg wird größer.) | Der Bremsweg bleibt gleich. | Der Bremsweg wird kleiner. ]]
+   *****************************************************************************
+
+   In diesem wirkt nich die Bremskraft der Fahrzeugbremsen, sondern lediglich
+   die (geringere) Gleitreibung zwischen Rädern und Straße.
+
+   *****************************************************************************
 
 5. Der Bremsvorgang geschehe auf einer Gefällestrecke.
    [[ (Der Bremsweg wird größer.) | Der Bremsweg bleibt gleich. | Der Bremsweg wird kleiner. ]]
+   *****************************************************************************
+
+   Die Hangabtriebskraft wirkt als zusätzliche beschleunigende Kraft. Zur
+   Verminderung der Geschwindigkeit trägt nur der Teil der Bremskraft bei, der
+   die Hangabtriebskraft übersteigt.
+
+   *****************************************************************************
 
 6. Während des Bremsvorgangs herrscht starker Gegenwind.
    [[ Der Bremsweg wird größer. | Der Bremsweg bleibt gleich. | (Der Bremsweg wird kleiner.) ]]
+   *****************************************************************************
 
-#### Erhaltungssätze I
+   Der PKW muss Arbeit gegen den Widerstand der entgegenströmenden Luft
+   verrichten. Auch diese Arbeit wird aus dem Vorrat an kinetischer Energie des
+   Fahrzeugs gespeist.
+
+   *****************************************************************************
+
+#### Erhaltungssätze
 
 Im Folgenden sind einige physikalische Vorgänge aus dem Bereich der Mechanik
 beschrieben. Entscheiden Sie jeweils, ob der Energiesatz der Mechanik oder der
@@ -1234,6 +1274,63 @@ allen Bewegungsvorgängen vernachlässigbar.
 [ [ ] [X] ] Zwei Eishockeyspieler prallen zusammen und klammern sich aneinander fest. (System: beide Spieler)
 [ [X] [X] ] Ein perfekter Gummiball wird gegen eine Wand geworfen und prallt von dieser ab. (System: Gummiball und Wand)
 [ [X] [ ] ] Ein Apfel fällt vom Baum senkrecht nach unten. (System: Apfel und Apfelbaum)
+********************************************************************************
+
+Die Erhaltungssätze gelten stets nur unter gewissen Voraussetzungen: Der
+Energiesatz der Mechanik erfordert das Vorliegen rein konservativer Kräfte. Der
+Impulssatz gilt nur in abgeschlossenen Systemen. Ist die jeweilige Voraussetzung
+nicht erfüllt, kann auch der entsprechende Erhaltungssatz nicht angewendet werden.
+
+* Schwingung eines Federpendels, bestehend aus einem Massestück an einer Feder
+  (System: Federpendel)
+
+  * **Energiesatz anwendbar**
+  * **Impulssatz nicht anwendbar**: Das Federpendel ist kein abgeschlossenes System.
+    Es wirken Kräfte auf den Aufhängepunkt der Feder. Bei senkrecht schwingendem
+    Pendel wirkt zudem die Erdanziehungskraft.
+
+* Elastischer Stoß zweier Gleiter auf der Luftkissenbahn (System: beide Gleiter)
+
+  * **Energiesatz anwendbar**
+  * **Impulssatz anwendbar**
+
+* Das Projektil einer Pistole trifft auf eine Zielscheibe und bleibt in dieser
+  stecken. (System: Projektil und Zielscheibe)
+
+  * **Energiesatz nicht anwendbar**: Das Projektil wird in der Zielscheibe
+    reibungsbedingt abgebremst. Möglicherweise tritt auch eine (plastische)
+    Verformung ein. Beides sind dissipative Vorgänge.
+  * **Impulssatz anwendbar**
+
+* Vollbremsung eines PKW bis zum Stillstand (System: PKW)
+
+  * **Energiesatz nicht anwendbar**: Beim Bremsen wird die kinetische Energie des
+    PKW in Wärme dissipiert.
+  * **Impulssatz nicht anwendbar**: Durch die Reibung zwischen Rädern und Straße
+    erfolgt ein Impulsübertrag auf den Untergrund.
+
+* Zwei Eishockeyspieler prallen zusammen und klammern sich aneinander fest.
+  (System: beide Spieler)
+
+  * **Energiesatz nicht anwendbar**: Hierbei handelt es sich um einen inelastischen
+    Stoß. Das Aneinander-Festklammern und die gemeinsame Weiterbewegung
+    erfordern stets nichtkonservative Kräfte.
+  * **Impulssatz anwendbar**
+
+* Ein perfekter Gummiball wird gegen eine Wand geworfen und prallt von dieser
+  ab. (System: Gummiball und Wand)
+
+  * **Energiesatz anwendbar**
+  * **Impulssatz anwendbar**
+
+* Ein Apfel fällt vom Baum senkrecht nach unten. (System: Apfel und Apfelbaum)
+
+  * **Energiesatz anwendbar**
+  * **Impulssatz nicht anwendbar**: Auf den Apfel wirkt die Erdanziehungskraft, die
+    ihren Ursprung außerhalb des genannten Systems hat.
+
+********************************************************************************
+
 
 #### Stabhochsprung
 Beim Stabhochsprung nutzen die Sportler einen biegsamen Stab, um große Höhen zu überspringen. Zum Ende des Anlaufs wird der Stab auf den Boden aufgesetzt, während der Springer weiterläuft. Dabei biegt sich der Stab durch. Nach dem Absprung „katapultiert“ der Stab den Springer nach oben.
@@ -1886,6 +1983,135 @@ beginnen gleichzeitig hinabzurollen. Die Reibung sei dabei vernachlässigbar.
 [ ( ) (X) ( )] Welche Rolle hat am unteren Ende der Bahn die größere Rotationsenergie?
 [ ( ) (X) ( )] Welche Rolle hat das größere Trägheitsmoment?
 [ ( ) ( ) (X)] Auf welche Rolle wirkt das größere Drehmoment?
+********************************************************************************
+
+Zunächst einige allgemeine Überlegungen, die der Beantwortung der einzelnen
+Fragen dienen:
+
+* Da beide Rollen identische Massen haben, besitzen sie zu Beginn dieselbe
+  potenzielle Energie. Bei der Abwärtsbewegung erfolgt die Umwandlung in
+  kinetische Energie.
+* Aufgrund der unterschiedlichen Massenverteilung besitzen die Rollen
+  unterschiedliche Trägheitsmomente. Bei Rolle 2 befindet sich das Material mit
+  der größeren Dichte außen. Folglich weist sie das höhere Trägheitsmoment auf.
+* Bei der Rollbewegung überlagern sich Rotations- und Translationsbewegung. Die
+  kinetische Energie teilt sich entsprechend in Rotations- und
+  Translationsanteil auf.
+
+Die Auflösung der Aussagen im Einzelnen:
+
+* Welche Rolle erreicht das untere Ende der Bahn eher?
+
+  * **Rolle 1 (innen Eisen, außen Holz)**: Aufgrund des kleineren
+    Trägheitsmoments besitzt diese Rolle bei gleicher kinetischer Energie eine
+    höhere Translationsenergie und damit eine höhere Geschwindigkeit, sodass sie
+    die Strecke der geneigten Ebene in kürzerer Zeit zurücklegt.
+
+* Welche Rolle hat am unteren Ende der Bahn die höhere Geschwindigkeit?
+
+  * **Rolle 1 (innen Eisen, außen Holz)**: Aufgrund des kleineren
+    Trägheitsmoments besitzt diese Rolle bei gleicher kinetischer Energie eine
+    höhere Translationsenergie und damit eine höhere Geschwindigkeit.
+
+* Welche Rolle hat am unteren Ende die größere kinetische Energie?
+
+  * **Beide Rollen gleich**: Da beide Rollen anfangs dieselbe potentielle
+    Energie besaßen, weisen sie auch dieselbe kinetische Energie am Ende auf.
+    Lediglich die Aufteilung auf Rotations- und Translationsenergie ist
+    unterschiedlich.
+
+* Welche Rolle hat am unteren Ende der Bahn die größere Rotationsenergie?
+
+  * **Rolle 2 (innen Holz, außen Eisen)**: Aufgrund des größeren
+    Trägheitsmoments mus bei dieser Rolle ein größerer der Anteil der
+    kinetischen Energie in der Rotationsbewegung gespeichert sein.
+
+* Welche Rolle hat das größere Trägheitsmoment?
+
+  * **Rolle 2 (innen Holz, außen Eisen)**: Das Trägheitsmoment wird durch die
+    Masseverteilung bestimmt. Bei dieser Rolle liegt das Material mit der
+    größeren Dichte weiter von der Drehachse entfernt, wodurch das
+    Trägheitsmoment vergrößert wird.
+
+* Auf welche Rolle wirkt das größere Drehmoment?
+
+  * **Beide Rollen gleich**: Das Drehmoment auf der geneigten Ebene entsteht, da
+    der Schwerpunkt der Rollen nicht über dem Auflagepunkt liegt. Bei beiden
+    Rollen liegt der Schwerpunkt im Zentrum der Rolle. Da beide Rollen zudem
+    gleiche Massen aufweisen, ist das Drehmoment identisch.
+
+********************************************************************************
+
+#### Karussell
+Das folgende Bild zeigt ein Sitzkarussell, wie es häufig auf Spielplätzen zu
+finden ist. Es besteht aus einer drehbaren Scheibe mit Sitzbank. Der „Tisch“ in
+der Mitte ist nicht drehbar, sondern starr mit der Achse verbunden, um die sich
+das Karussell dreht. Angeschoben werden kann das Karussell sowohl von außen als
+auch von den Mitfahrern selbst, indem diese den Tisch als Angriffspunkt nutzen.
+
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/de/thumb/4/47/Sitzkarussell_und_Schaukel_in_Aulzhausen.jpg/431px-Sitzkarussell_und_Schaukel_in_Aulzhausen.jpg" alt="Foto eines Sitzkarussells auf einem Spielplatz">
+<figcaption>Bildquelle: <a href="/wiki/Benutzerin:Wikida">Benutzerin:Wikida</a> (eigene Arbeit), <a href="https://de.wikipedia.org/wiki/Datei:Sitzkarussell_und_Schaukel_in_Aulzhausen.jpg">Sitzkarussell und Schaukel in Aulzhausen</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/de/legalcode" rel="license">CC BY-SA 3.0 DE</a>, via Wikimedia Commons</figcaption>
+</figure>
+
+Wir nehmen an, vier Kindern spielen mit diesem Karussell: Drei von ihnen haben
+auf der Sitzbank Platz genommen, das vierte steht als Anschieber außerhalb des
+Karussells.
+
+Welche der folgenden Aussagen sind richtig?
+
+[[X]] Wenn anstelle des Anschiebers, der außen steht, eines der Kinder im Karussell anschieben will und hierfür den „Tisch“ als Angriffspunkt nutzt, dann muss es für die gleiche (Winkel-) Beschleunigung eine größere Kraft aufwenden als der Anschieber von außen.
+[[X]] Die beim Anschieben auf das Karussell ausgeübte Kraft bewirkt ein Drehmoment, das letztendlich für die (Winkel-) Beschleunigung verantwortlich ist.
+[[X]] Um das Karussell möglichst stark zu beschleunigen, sollte der Anschieber seine Kraft tangential (bezogen auf die Kreisform der Karussellscheibe bzw. des Geländers) ausrichten.
+[[X]] Solange sich das Karussell dreht, wirkt auf die drei Kinder auf der Sitzbank eine (Bahn-) Beschleunigung; selbst dann noch, wenn sich die Winkelgeschwindigkeit nicht ändert.
+[[X]] Auf die Kinder im Karussell wirkt eine tangentiale Bahnbeschleunigung genau dann, wenn sich die Winkelgeschwindigkeit des Karussells ändert.
+[[X]] Wenn die drei Mitfahrer bei drehendem Karussell ihr Gewicht weiter nach innen verlagern, dann dreht sich das Karussell schneller, ohne dass hierfür angeschoben werden müsste.
+********************************************************************************
+
+* Wenn anstelle des Anschiebers, der außen steht, eines der Kinder im Karussell
+  anschieben will und hierfür den „Tisch“ als Angriffspunkt nutzt, dann muss es
+  für die gleiche (Winkel-) Beschleunigung eine größere Kraft aufwenden als der
+  Anschieber von außen.
+
+  * **Richtig**: Für die gleiche Winkelbeschleunigung muss dasselbe Drehmoment
+    wirken. Bei kürzerem Kraftarm ist hierfür eine größere Kraft erforderlich.
+
+* Die beim Anschieben auf das Karussell ausgeübte Kraft bewirkt ein Drehmoment,
+  das letztendlich für die (Winkel-) Beschleunigung verantwortlich ist.
+
+  * **Richtig**: Änderungen der Winkelgeschwindigkeit erfolgen stets aufgrund
+    eines Drehmoments (Zweites Newtonsches Axiom der Rotation).
+
+* Um das Karussell möglichst stark zu beschleunigen, sollte der Anschieber seine
+  Kraft tangential (bezogen auf die Kreisform der Karussellscheibe bzw. des
+  Geländers) ausrichten.
+
+  * **Richtig**: Nur tangential angreifende Kräfte bewirken ein Drehmoment.
+
+* Solange sich das Karussell dreht, wirkt auf die drei Kinder auf der Sitzbank
+  eine (Bahn-) Beschleunigung; selbst dann noch, wenn sich die
+  Winkelgeschwindigkeit nicht ändert.
+
+  * **Richtig**: Es wirkt stets die Zentripetalbeschleunigung in Richtung der
+    Drehachse. Auch ohne Änderung des Betrags der Geschwindigkeit erfordert die
+    permanente Richtungsänderung der Bewegung eine Beschleunigung.
+
+* Auf die Kinder im Karussell wirkt eine tangentiale Bahnbeschleunigung genau
+  dann, wenn sich die Winkelgeschwindigkeit des Karussells ändert.
+
+  * **Richtig**: Eine Änderung der Winkelgeschwindigkeit bewirkt eine Änderung
+    des Betrags der Bahngeschwindigkeit, was zu einer tangentialen
+    Beschleunigung führt.
+
+* Wenn die drei Mitfahrer bei drehendem Karussell ihr Gewicht weiter nach innen
+  verlagern, dann dreht sich das Karussell schneller, ohne dass hierfür
+  angeschoben werden müsste.
+
+  * **Richtig**: Dies folgt aus der Drehimpulserhaltung: Die Verlagerung der
+    Masse in Richtung Drehachse verringert das Trägheitsmoment, was bei
+    konstantem Drehimpuls zu einer Vergrößerung der Winkelgeschwindigkeit führt.
+
+********************************************************************************
 
 #### Federpendel
 
@@ -1900,16 +2126,45 @@ jeweiligen Teilaufgabe genannte Parameter geändert. Alle anderen Größen bleib
 wie oben beschrieben.
 
 * Die angehängte Masse wird halbiert. Die Kreisfrequenz
-[[ verdoppelt sich | (erhöht sich um den Faktor $\sqrt 2$) | erhöht sich geringfügig | ändert sich nicht | verringert sich geringfügig | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+  [[ verdoppelt sich | (erhöht sich um den Faktor $\sqrt 2$) | erhöht sich geringfügig | ändert sich nicht | verringert sich geringfügig | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+  ******************************************************************************
 
-* Die Feder wird gegen eine mit der vierfachen Federkonstante ausgetauscht. Die Kreisfrequenz
-[[ (verdoppelt sich) | (erhöht sich um den Faktor $\sqrt 2$) | erhöht sich geringfügig | ändert sich nicht | verringert sich geringfügig | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+  Die Kreisfrequenz ist umgekehrt proportional zur Wurzel der Masse.
 
-* Das Pendel befinde sich auf dem Mond, wo die Fallbeschleunigung nur 16% des Wertes auf der Erdoberfläche beträgt. Die Kreisfrequenz
-[[ erhöht sich um 16% | erhöht sich um $\sqrt{16}$% | erhöht sich geringfügig | (ändert sich nicht) | verringert sich geringfügig | verringert sich um $\sqrt{16}$% | verringert sich um 16%]]
+  ******************************************************************************
 
-Das Pendel befinde sich komplett unter Wasser, sodass die Reibung nun eine signifikante Rolle spielt. Die Kreisfrequenz
-[[ verdoppelt sich | erhöht sich um den Faktor $\sqrt 2$ | erhöht sich geringfügig | ändert sich nicht | (verringert sich geringfügig) | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+* Die Feder wird gegen eine mit der vierfachen Federkonstante ausgetauscht. Die
+  Kreisfrequenz
+  [[ (verdoppelt sich) | (erhöht sich um den Faktor $\sqrt 2$) | erhöht sich geringfügig | ändert sich nicht | verringert sich geringfügig | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+  ******************************************************************************
+
+  Die Federkonstante steht unter der Wurzel im Zähler.
+
+  ******************************************************************************
+
+* Das Pendel befinde sich auf dem Mond, wo die Fallbeschleunigung nur 16% des
+  Wertes auf der Erdoberfläche beträgt. Die Kreisfrequenz
+  [[ erhöht sich um 16% | erhöht sich um $\sqrt{16}$% | erhöht sich geringfügig | (ändert sich nicht) | verringert sich geringfügig | verringert sich um $\sqrt{16}$% | verringert sich um 16%]]
+  ******************************************************************************
+
+  Anders als bei einem Fadenpendel ist die Kreisfrequenz eines Federpendels
+  nicht von der Fallbeschleunigung abhängig.
+
+  ******************************************************************************
+
+* Das Pendel befinde sich komplett unter Wasser, sodass die Reibung nun eine
+  signifikante Rolle spielt. Die Kreisfrequenz
+  [[ verdoppelt sich | erhöht sich um den Faktor $\sqrt 2$ | erhöht sich geringfügig | ändert sich nicht | (verringert sich geringfügig) | verringert sich um den Faktor $\sqrt 2$ | halbiert sich]]
+  ******************************************************************************
+
+  Hier liegt nun eine gedämpfte Schwingung vor, deren Kreisfrequenz gegenüber
+  der ungedämpften Schwingung verringert ist. Die Änderung der Kreisfrequenz ist
+  abhängig von der Stärke der Dämpfung. Solange aber der Schwingfall vorliegt
+  (was in der Aufgabenstellung implizit durch die Frage nach der Kreisfrequenz
+  gegeben ist), handelt es sich um lediglich eine kleine Änderung der
+  ursprünglichen Kreisfrequenz.
+
+  ******************************************************************************
 
 ## Übung 5: Wärmelehre
 ### Verständnisfragen
