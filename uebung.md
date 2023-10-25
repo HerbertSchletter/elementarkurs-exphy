@@ -807,7 +807,7 @@ der Kirche. Das Auto verschwand dabei fast vollständig zwischen dem Gebälk des
 Dachstuhls. Spektakulär ist der Unfall auch deshalb, weil der Fahrer zwar schwer
 verletzt aber ohne bleibende Schäden den Unfall überlebte.
 
-Aus den zahlreichen Medienberichten über diesen Unfal war zu entnehmen, dass der
+Aus den zahlreichen Medienberichten über diesen Unfall war zu entnehmen, dass der
 Flug eine Weite von $35~\mathrm m$ überspannte und in einer Höhe von circa
 $6~\mathrm m$ endete. Der Steigungswinkel der Böschung wird mit $17°$
 angenommen. Berechnen Sie daraus die Geschwindigkeit des Fahrzeugs zu Beginn
@@ -2165,6 +2165,213 @@ wie oben beschrieben.
   ursprünglichen Kreisfrequenz.
 
   ******************************************************************************
+
+#### Gedämpfte Schwingung – Stoßdämpfer
+
+Der Stoßdämpfer eines Autos kann (ein wenig vereinfacht) als gedämpftes
+Federpendel beschrieben werden. Das gesamte Fahrzeug stellt dabei den
+Pendelkörper (Masse m) dar, die Feder (Federkonstante k) ist im Stoßdämpfer
+enthalten. Die Bewegung der Feder wird dabei gedämpft, indem sie sich in einem
+zähflüssigen Öl befindet.
+
+Bewerten Sie die Richtigkeit der folgenden Aussagen bezüglich eines gedämpften
+Federpendels für den konkreten Anwendungsfall eines Stoßdämpfers im Auto.
+
+[[X]] Die Feder sollte so gedämpft sein, dass der Stoßdämpfer nach einmaliger Belastung zügig wieder in seine Ausgangslage zurückkehrt. Dies entspricht dem aperiodischen Grenzfall eines gedämpften Pendels. 		
+[[X]] Ist die Dämpfung der Feder zu schwach, so schwingt das Fahrzeug nach jeder Straßenunebenheit nach. 		
+[[ ]] Selbst mit einer sehr starken Dämpfung der Feder lässt sich eine Schwingung nicht völlig vermeiden. Der Stoßdämpfer wird sich nach einer Auslenkung immer mehrfach auf- und abbewegen. 		
+[[ ]] Die Dämpfung der Feder hat keinen Einfluss auf das Schwingungsverhalten des Stoßdämpfers. Sie dient lediglich dazu, den Verschleiß zu verringern.
+********************************************************************************
+
+* Die Feder sollte so gedämpft sein, dass der Stoßdämpfer nach einmaliger
+  Belastung zügig wieder in seine Ausgangslage zurückkehrt. Dies entspricht
+  dem aperiodischen Grenzfall eines gedämpften Pendels.
+
+  * **Richtig**: Dies ist das gewünschte Verhalten eines Stoßdämpfers. Ein
+    Nachschwingen des Stoßdämpfers (Schwingfall) ist ebenso wenig sinnvoll wie
+    ein langes Verharren im ausgelekten Zustand (Kriechfall).
+
+* Ist die Dämpfung der Feder zu schwach, so schwingt das Fahrzeug nach jeder
+  Straßenunebenheit nach.
+
+  * **Richtig**: Dieses Verhalten entspricht dem Schwingfall eines gedämpften
+    Pendels.
+
+* Selbst mit einer sehr starken Dämpfung der Feder lässt sich eine Schwingung
+  nicht völlig vermeiden. Der Stoßdämpfer wird sich nach einer Auslenkung immer
+  mehrfach auf- und abbewegen.
+
+  * **Falsch**: Bei (hinreichend) großer Dämpfung tritt der aperiodische
+    Grenzfall oder der Kriechfall auf, bei denen keine Schwingung vorliegt.
+
+* Die Dämpfung der Feder hat keinen Einfluss auf das Schwingungsverhalten des
+  Stoßdämpfers. Sie dient lediglich dazu, den Verschleiß zu verringern.
+
+  * **Falsch**: Die Stärke der Dämpfung entscheidet darüber, ob der Schwingfall,
+    der aperiodische Grenzfall oder der Kriechfall vorliegt.
+
+********************************************************************************
+
+#### Gefederte Aufhängung – Resonanz
+
+In einem Labor soll eine empfindliche Messapparatur möglichst wenig durch
+Schwingungen des Gebäudes beeinflusst werden. Hierzu befindet sich die Apparatur
+in einer Rahmenkonstruktion, die über eine Feder an der Decke des Labors
+aufgehangen ist. Die gesamte Vorrichtung bildet in dieser Form ein Federpendel.
+
+Nachdem diese Vorrichtung aufgebaut wurde, zeigte sich, dass das Pendel durch
+Gebäudeschwingungen bisweilen in Resonanz gerät. Die folgenden Aussagen beziehen
+sich auf diese Situation. Beurteilen Sie deren Richtigkeit.
+
+[[X]] Nur Gebäudeschwingungen einer bestimmten Frequenz können die Resonanz auslösen. 		
+[[X]] Der Austausch der Feder gegen eine mit anderer Federkonstante ist ein vielversprechender Ansatz zur Vermeidung der Resonanz. 		
+[[ ]] Da die Resonanz unabhängig von der Eigenfrequenz des Pendels ist, kann die Resonanz nicht durch Veränderungen an der Aufhängung oder der Rahmenkonstruktion vermieden werden. 		
+[[X]] Durch eine geeignete Dämpfung der Bewegung der Feder oder der Rahmenkonstruktion lässt sich das Anwachsen der Amplitude vermeiden.
+********************************************************************************
+
+* Nur Gebäudeschwingungen einer bestimmten Frequenz können die Resonanz auslösen.
+
+  * **Richtig**: Resonanz tritt auf, wenn die Erregerfrequenz (hier die Frequenz
+    der Gebäudeschwingung) mit der Eigenfrequenz des Pendels übereinstimmt.
+
+* Der Austausch der Feder gegen eine mit anderer Federkonstante ist ein
+  vielversprechender Ansatz zur Vermeidung der Resonanz.
+
+  * **Richtig**: Dies ändert die Eigenfrequenz des Federpendels.
+
+* Da die Resonanz unabhängig von der Eigenfrequenz des Pendels ist, kann die
+  Resonanz nicht durch Veränderungen an der Aufhängung oder der
+  Rahmenkonstruktion vermieden werden.
+
+  * **Falsch**: Resonanz tritt auf, wenn ein Pendel mit seiner Eigenfrequenz
+    erregt wird. Änderungen der Eigenfrequenz (durch Veränderungen am Pendel)
+    können somit die Resonanz vermeiden.
+
+* Durch eine geeignete Dämpfung der Bewegung der Feder oder der
+  Rahmenkonstruktion lässt sich das Anwachsen der Amplitude vermeiden.
+
+  * **Richtig**: Dies verhindert nicht zwangsläufig den Resonanzfall, kann aber
+    die Amplitude hinreichend klein halten.
+
+********************************************************************************
+
+### Hausaufgaben
+
+#### Kurvenfahrt
+
+Bei einer Zugfahrt wirken auf die Fahrgäste Beschleunigungen sowohl entlang der
+Fahrtrichtung als auch quer zur Fahrtrichtung (sogenannte seitliche
+Beschleunigungen). Um den Fahrkomfort nicht zu beeinträchtigen, sollen die
+seitlichen Beschleunigungen den Wert
+$a_\mathrm{max} = 0{,}85~\frac{\mathrm m}{\mathrm s^2}$ nicht übersteigen.
+Welchen Radius müssen die Kurven auf einer Bahnstrecke, die mit
+$200~\frac{\mathrm{km}}{\mathrm h}$ befahren werden soll, mindestens aufweisen,
+um diesen Wert der Beschleunigung nicht zu übersteigen?
+
+Hinweis: Betrachten Sie die Kurven als Kreisausschnitte. Der Radius dieses
+Kreises entspricht dem Kurvenradius.
+
+[[ $r_\mathrm{min} = 1633~\mathrm m$ | $r_\mathrm{min} = 3136~\mathrm m$ | ($r_\mathrm{min} = 3631~\mathrm m$) | $r_\mathrm{min} = 6331~\mathrm m$ ]]
+********************************************************************************
+
+Die in der Aufgabe genannten seitlichen Beschleunigungen entsprechen der
+Radialbeschleunigung (oder Zentripetalbeschleunigung) der Kreisbewegung:
+
+$$a_\mathrm{seit} = a_\mathrm r = \frac{v^2}{r} \, ,$$
+
+wobei r den Radius der Kreisbahn bezeichnet. Umgestellt nach dieser Größe ergibt
+sich
+
+$$r = \frac{v^2}{a_\mathrm r} \, .$$
+
+Der Mindestkurvenradius ergibt sich, wenn in diese Formel die maximale seitliche
+Beschleunigung eingesetzt wird:
+
+$$r_\mathrm{min} = \frac{v^2}{a_\mathrm{max}} = 3631~\mathrm m \, .$$
+
+Anmerkung: Um kleinere Kurvenradien realisieren zu können, ohne die
+Streckengeschwindigkeit herabzusetzen, werden Kurven meist mit einer Überhöhung
+gebaut.
+
+********************************************************************************
+
+#### Federkonstante
+
+Um die Federkonstante einer Feder zu bestimmen, wird folgender Versuch
+durchgeführt: Die Feder wird mit einem angehängten Massestück
+($m = 100~\mathrm g$) in Schwingung versetzt. Für 10 vollständige Perioden wird
+dabei eine Gesamtdauer von $7{,}1~\mathrm s$ gemessen. Ermitteln Sie daraus den
+resultierenden Wert der Federkonstante.
+
+[[ $k=1{,}56~\frac{\mathrm N}{\mathrm m}$ | $k=3{,}65~\frac{\mathrm N}{\mathrm m}$ | $k=5{,}74~\frac{\mathrm N}{\mathrm m}$ | ($k=7{,}83~\frac{\mathrm N}{\mathrm m}$) | $k=9{,}92~\frac{\mathrm N}{\mathrm m}$ ]]
+********************************************************************************
+
+Für die Kreisfrequenz eines Federpendels gilt
+
+$$\omega = \sqrt{\frac{k}{m}} \, .$$
+
+Für die Periodendauer folgt daraus
+
+$$T = 2\pi\sqrt{\frac{m}{k}} \, .$$
+
+Umgestellt nach der Federkonstanten folgt
+
+$$k = \frac{4\pi^2 m}{T^2} = \frac{4\pi^2 m}{(0{,}1\cdot t_{10})^2} \, ,$$
+
+wobei $t_{10}$ die gegebene Gesamtdauer für 10 Schwingungen bezeichnet. Als
+Ergebnis folgt
+
+$$k=7{,}83~\frac{\mathrm N}{\mathrm m} \, .$$
+
+********************************************************************************
+
+#### Gefederte Aufhängung
+
+In einem Labor soll eine empfindliche Messapparatur möglichst wenig durch
+Schwingungen des Gebäudes beeinflusst werden. Hierzu befindet sich die Apparatur
+in einer Rahmenkonstruktion, die über eine Feder an der Decke des Labors
+aufgehangen ist. Die Rahmenkonstruktion besteht aus einem Metallgestell (Masse
+$8~\mathrm{kg}$), das eine massive Steinplatte (Masse $35~\mathrm{kg}$) trägt.
+Auf dieser Platte wird die Apparatur (Masse $1{,}4~\mathrm{kg}$) aufgestellt.
+Die Feder, die im unbelasteten Zustand eine Länge von $30~\mathrm{cm}$ aufweist,
+wird durch das Anhängen der kompletten Rahmenkonstruktion (einschließlich
+Messapparatur) um $5\%$ gedehnt. Welche Eigenfrequenz weist das so entstandene
+Federpendel auf?
+
+[[ ($f= 4{,}1~\mathrm{Hz}$) | $f= 7{,}3~\mathrm{Hz}$ | $f= 15{,}6~\mathrm{Hz}$ | $f= 23{,}9~\mathrm{Hz}$ ]]
+********************************************************************************
+
+Die Kreisfrequenz eines Federpendels ist allgemein gegeben durch
+
+$$\omega = \sqrt{\frac{k}{m}} \, .$$
+
+Die Frequenz ist demnach
+
+$$f = \frac{\omega}{2\pi} = \frac{1}{2\pi}\sqrt{\frac{k}{m}} \, .$$
+
+Im konkreten Fall der Aufgabenstellung ist für die Masse $m=m_\mathrm{ges}$ die
+Gesamtmasse von Metallgestell, Steinplatte und Messapparatur einzusetzen. Die
+Federkonstante $k$ ist nicht direkt gegeben, lässt sich aber aus der gegebenen
+Längenänderung der Feder bestimmen. Hierfür wird das Hooke’sche Gesetz der Feder
+angesetzt:
+
+$$F= k\Delta l \, .$$
+
+Die Längenänderung beträgt $5\%$ der Ausgangslänge: $\Delta l = 0{,}05\cdot l$.
+Die wirkende Kraft ist hier die Gewichtskraft der angehängten
+Rahmenkonstruktion:
+
+$$F = F_\mathrm G = m_\mathrm{ges}g \, .$$
+
+Für die Federkonstante ergibt dies:
+
+$$k = \frac{m_\mathrm{ges}g}{0{,}05 l} \, .$$
+
+Dies wird in die Formel der Frequenz eingesetzt:
+
+$$f = \frac{1}{2\pi}\sqrt{\frac{k}{m_\mathrm{ges}}} = \frac{1}{2\pi}\sqrt{\frac{g}{0{,}05 l}} = 4{,}1~\mathrm{Hz} \, .$$
+
+********************************************************************************
 
 ## Übung 5: Wärmelehre
 ### Verständnisfragen
