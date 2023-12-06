@@ -2390,6 +2390,66 @@ vernachlässigbar.)
 [[ ]] Es stellt sich stets eine Temperatur ein, die näher an der anfänglichen Teetemperatur liegt, da das Wasser eine größere Wärmekapazität besitzt als die Tasse.
 [[X]] Die Ausgleichstemperatur von Tee und Tasse, die sich einstellt, hängt neben den Anfangstemperaturen und den relevanten Wärmekapazitäten auch von den Massen von Tasse und Tee ab.
 [[X]] Der Temperaturausgleich geschieht durch die Übertragung von Wärme zwischen Tee und Tasse.
+********************************************************************************
+
+* Der Temperaturausgleich endet, wenn Tee und Tasse dieselbe innere Energie
+  besitzen.
+
+  * **Falsch**: Wie die Bezeichnung Temperaturausgleich bereits besagt, gleichen
+    sich die Temperaturen von Tee und Tasse an. Die inneren Energien sind auch
+    bei gleichen Temperaturen im Allgemeinen unterschiedlich.
+
+* Der Temperaturausgleich endet, wenn Tee und Tasse dieselbe Temperatur
+  besitzen.
+
+  * **Richtig**: Dies ist die Aussage des Nullten Hauptsatzes der Wärmelehre.
+
+* Die gesamte innere Energie von Tee und Tasse ändert sich nicht:
+  $U_\mathrm{Tee} + U_\mathrm{Tasse}=\mathrm{const}$.
+
+  * **Richtig**: Auch hier gilt das Prinzip der Energieerhaltung. Da keine
+    Arbeit verrichtet wird und keine Wechselwirkung mit der Umgebung stattfinden
+    soll, kann nur Wärme zwischen Tee und Tasse übertragen werden.
+
+* Es stellt sich immer genau die Temperatur ein, die dem Mittelwert der
+  anfänglichen Tassen- und Teetemperatur entspricht.
+
+  * **Falsch**: Die Endtemperatur, die sich einstellt, hängt von den Massen und
+    den Wärmekapazitäten von Tee und Tasse ab.
+
+* Aufgrund der hohen Wärmekapazität von Wasser gibt der Tee mehr Wärme ab, als
+  die Tasse aufnimmt.
+
+  * **Falsch**: ES gilt das Prinzip der Energieerhaltung. Da keine
+    Wechselwirkung mit der Umgebung stattfinden soll, nimmt die Tasse die
+    gesamte vom Tee abgegebene Wärme auf. Die daraus resultierenden
+    Temperaturänderungen von Tee und Tasse werden im Allgemeinen unterschiedlich
+    sein.
+
+* Es stellt sich stets eine Temperatur ein, die näher an der anfänglichen
+  Teetemperatur liegt, da das Wasser eine größere Wärmekapazität besitzt als die
+  Tasse.
+
+  * **Falsch**: Neben den Wärmekapazitäten entscheiden auch die Massen über die
+    Endtemperatur. Wird eine kleine Menge Tee in eine sehr große Tasse gegeben,
+    so wird die Endtemperatur näher an der ursprünglichen Tassentemperatur
+    liegen.
+
+* Die Ausgleichstemperatur von Tee und Tasse, die sich einstellt, hängt neben
+  den Anfangstemperaturen und den relevanten Wärmekapazitäten auch von den
+  Massen von Tasse und Tee ab.
+
+  * **Richtig**: Die für eine bestimmte Temperaturänderung erforderliche Wärme
+    wird durch (spezifische) Wärmekapazität und Masse bestimmt.
+
+* Der Temperaturausgleich geschieht durch die Übertragung von Wärme zwischen Tee
+  und Tasse.
+
+  * **Richtig**: Der Tee gibt Wärme ab. Dadurch sinkt seine innere Energie und
+    folglich seine Temperatur. Im Gegenzug nimmt die Tasse ebendiese Wärme auf,
+    wodurch ihre innere Energie ind ihre Temperatur zunimmt.
+
+********************************************************************************
 
 #### Innere Energie
 In einem Standzylinder, der durch einen (verschiebbaren) Kolben dicht
@@ -2404,34 +2464,134 @@ Betrachten Sie die folgenden Prozesse und bewerten Sie,
 1. Der Zylinder mit dem Gas wird erhitzt, wobei sich der Kolben allmählich aus
    dem Zylinder hinausbewegt.
 
-[[$\lt 0$] [$=0$] [$\gt 0$]]
-[ [X] [ ] [ ] ] Arbeit $W$
-[ [ ] [ ] [X] ] Wärme $Q$
-[ [ ] [ ] [X] ] Innere Energie $\Delta U$
+   [[$\lt 0$] [$=0$] [$\gt 0$]]
+   [ [X] [ ] [ ] ] Arbeit $W$
+   [ [ ] [ ] [X] ] Wärme $Q$
+   [ [ ] [ ] [X] ] Innere Energie $\Delta U$
+   *****************************************************************************
+
+   * $W<0$: Beim Hinausdrücken des Kolbens verrichtet das eingeschlossene Gas
+     Arbeit gegen den äußeren Luftdruck.
+   * $Q>0$: Beim Erhitzen wird Wärme zugeführt.
+   * $\Delta U >0$: Durch das Erhitzen erhöht sich die Temperatur und demzufolge
+     die innere Energie des eingeschlossenen Gases.
+
+   *****************************************************************************
 
 2. Der Zylinder mit dem Gas wird erhitzt. Der Kolben sei dabei fixiert, sodass
    er seine Position nicht ändert.
 
-[[$\lt 0$] [$=0$] [$\gt 0$]]
-[ [ ] [X] [ ] ] Arbeit $W$
-[ [ ] [ ] [X] ] Wärme $Q$
-[ [ ] [ ] [X] ] Innere Energie $\Delta U$
+   [[$\lt 0$] [$=0$] [$\gt 0$]]
+   [ [ ] [X] [ ] ] Arbeit $W$
+   [ [ ] [ ] [X] ] Wärme $Q$
+   [ [ ] [ ] [X] ] Innere Energie $\Delta U$
+   *****************************************************************************
+
+   * $W=0$: Da der Kolben fixiert ist, findet keine Änderung des Volumens des
+     eingeschlossenen Gases statt.
+   * $Q>0$: Beim Erhitzen wird Wärme zugeführt.
+   * $\Delta U>0$: Durch das Erhitzen erhöht sich die Temperatur und demzufolge
+     die innere Energie des eingeschlossenen Gases.
+
+   *****************************************************************************
 
 3. Der Kolben wird langsam in den Zylinder gedrückt, wobei ein ständiger
    Temperaturausgleich mit der Umgebung stattfindet.
 
-[[$\lt 0$] [$=0$] [$\gt 0$]]
-[ [ ] [ ] [X] ] Arbeit $W$
-[ [X] [ ] [ ] ] Wärme $Q$
-[ [ ] [X] [ ] ] Innere Energie $\Delta U$
+   [[$\lt 0$] [$=0$] [$\gt 0$]]
+   [ [ ] [ ] [X] ] Arbeit $W$
+   [ [X] [ ] [ ] ] Wärme $Q$
+   [ [ ] [X] [ ] ] Innere Energie $\Delta U$
+   *****************************************************************************
+
+   * $W>0$: Beim Hineindrücken des Kolbens wird von außen Arbeit am
+     eingeschlossenen Gas verrichtet.
+   * $Q<0$: Für den Temperaturausgleich muss die zugeführte Arbeit als Wärme
+     wieder abgeführt werden.
+   * $\Delta U=0$: Da die Temperatur konstant auf dem Wert der
+     Umgebungstemperatur bleibt, ändert sich die innere Energie nicht.
+
+   *****************************************************************************
 
 4. Der Kolben wird sehr schnell in den Zylinder gedrückt, sodass kein
    Temperaturausgleich mit der Umgebung stattfindet.
 
-[[$\lt 0$] [$=0$] [$\gt 0$]]
-[ [ ] [ ] [X] ] Arbeit $W$
-[ [ ] [X] [ ] ] Wärme $Q$
-[ [ ] [ ] [X] ] Innere Energie $\Delta U$
+   [[$\lt 0$] [$=0$] [$\gt 0$]]
+   [ [ ] [ ] [X] ] Arbeit $W$
+   [ [ ] [X] [ ] ] Wärme $Q$
+   [ [ ] [ ] [X] ] Innere Energie $\Delta U$
+   *****************************************************************************
+
+   * $W>0$: Beim Hineindrücken wird von außen Arbeit am eingeschlossenen Gas
+     verrichtet.
+   * $Q=0$: Es findet kein Temperaturausgleich statt.
+   * $\Delta U>0$: Da keine Wärme abgeführt wird, führt die am eingeschlossenen
+     Gas verrichtete Arbeit zur Erhöhung der inneren Energie.
+
+   *****************************************************************************
+
+#### Luftpumpe
+Mit einer Luftpumpe soll ein Fahrradreifen aufgepumpt werden. Wenn der Kolben
+der Luftpumpe in den Pumpenzylinder hinheingedrückt wird, dichtet er diesen
+vollständig ab, sodass die Stoffmenge der eingeschlossenen Luft konstant bleibt.
+Bei Herausziehen des Kolbens hingegen ist dieser nicht dicht, sodass neue Luft
+von außen in den Pumpenzylinder gelangt. Zudem verhindert ein sogenanntes
+Rückschlagventil das Zurückströmen von Luft aus dem Fahrradreifen in die
+Luftpumpe.
+
+Die folgenden Aussagen betrachten diesen Vorgang aus physikalischer Sicht.
+Bewerten Sie deren Richtigkeit.
+
+
+[[X]] Beim Hineindrücken des Pumpenkolbens wird Arbeit an der eingeschlossenen Luft verrichtet.
+[[X]] Je größer der Druck im Innenraum der Luftpumpe ist, umso mehr Kraft muss auf den Kolben ausgeübt werden, um ihn in den Pumpenzylinder hinein zu pressen.
+[[ ]] Das Hineindrücken des Pumpenkolbens ändert die innere Energie der eingeschlossenen Luft nicht.
+[[X]] Die eingeschlossene Luft erwärmt sich, wenn der Pumpenkolben hineingedrückt wird. Dieser Effekt ist umso stärker, je schneller das Hineindrücken geschieht.
+[[ ]] Die in der Luftpumpe eingeschlossene Luft wird nicht komprimiert, sondern ohne Druckänderung in den Fahrradreifen „verschoben“.
+[[X]] Das Hineindrücken des Pumpenkolbens verringert das Volumen der eingeschlossenen Luft, wodurch sich der Druck erhöht.
+********************************************************************************
+
+* Beim Hineindrücken des Pumpenkolbens wird Arbeit an der eingeschlossenen Luft
+  verrichtet.
+
+  * **Richtig**: Die eingeschlossene Luft muss soweit komprimiert werden, dass
+    ihr Druck den Innendruck im Reifen übersteigt.
+
+* Je größer der Druck im Innenraum der Luftpumpe ist, umso mehr Kraft muss auf
+  den Kolben ausgeübt werden, um ihn in den Pumpenzylinder hinein zu pressen.
+
+  * **Richtig**: Je größer der Druck im Reifen, umso größer ist auch der Druck,
+    der in der Luftpumpe erreicht werden muss. Dieser Druck wiederum wirkt von
+    innen auf den Pumpenkolben.
+
+* Das Hineindrücken des Pumpenkolbens ändert die innere Energie der
+  eingeschlossenen Luft nicht.
+
+  * **Falsch**: Die an der eingeschlossenen Luft verrichtete Kompressionsarbeit
+    erhöht deren innere Energie, was zu einer Erwärmung führt.
+
+* Die eingeschlossene Luft erwärmt sich, wenn der Pumpenkolben hineingedrückt
+  wird. Dieser Effekt ist umso stärker, je schneller das Hineindrücken geschieht.
+
+  * **Richtig**: Die Erwärmung ist eine Folge der an der eingeschlossenen Luft
+    verrichteten Kompressionsarbeit. Je schneller diese erfolgt, umso weniger
+    Zeit bleibt der Luft, Wärme an die Umgebung abzugeben (annähernd
+      adiabatischer Prozess).
+
+* Die in der Luftpumpe eingeschlossene Luft wird nicht komprimiert, sondern ohne
+  Druckänderung in den Fahrradreifen „verschoben“.
+
+  * **Falsch**: Um Luft in den Fahrradreifen zu bringen, muss dessen Innendruck
+    überwunden werden. In der Luftpumpe muss die Luft mindestens auf diesen
+    Druck komprimiert werden.
+
+* Das Hineindrücken des Pumpenkolbens verringert das Volumen der
+  eingeschlossenen Luft, wodurch sich der Druck erhöht.
+
+  * **Richtig**: Aus der Zustandsgleichung kann abgelesen werden, dass
+    Volumenverringerungen zu einer Druckzunahme führen.
+
+********************************************************************************
 
 ### Rechenaufgaben
 
@@ -2504,8 +2664,377 @@ verrichtet?
 
 [[ ($W = 27{,}64~\mathrm J$) | $W = 42{,}76~\mathrm J$ | $W = 64{,}27~\mathrm J$ | $W = 76{,}42~\mathrm J$ ]]
 
+### Hausaufgaben
+
+#### Weinflasche
+
+Eine Weinflasche ist mit einem Korken verschlossen. Dieser hat eine Höhe von
+$h = 4~\mathrm{cm}$ und steckt vollständig im Flaschenhals, sodass er mit dem
+oberen Rand der Flasche abschließt. Unterhalb des Korkens befindet sich in der
+Flasche eine $2~\mathrm{cm}$ hohe Luftsäule. Der Rest der Flasche ist mit Wein
+gefüllt. Der Flaschenhals hat einen Durchmesser von $2~\mathrm{cm}$. Anfangs
+befinde sich die Flasche und ihr gesamter Inhalt auf Raumtemperatur
+($\vartheta_1 = 23~\mathrm{°C}$) und der Druck im Inneren entspreche dem
+normalen Luftdruck ($p = 101{,}3~\mathrm{kPa}$). Die Luft kann in beiden Fällen
+als ideales Gas aufgefasst werden.
+
+1. Der Korken wird nun mit einem Korkenzieher herausgezogen. Welcher Druck
+   herrscht in der Flasche, unmittelbar bevor der Korken komplett entfernt ist?
+   Es wird davon ausgegangen, dass der Korken dicht schließt (es kann also keine
+   Luft in die Flasche nachströmen) und dass am Wein keinerlei Veränderungen
+   erfolgen.
+2. Bei einer anderen Art des Öffnens soll die eingeschlossene Luft soweit
+   erhitzt werden, dass der Korken durch den entstehenden Überdruck aus der
+   Flasche herausgedrückt wird. Damit sich der Korken in Bewegung setzt, muss
+   auf ihn eine Kraft von $F = 250~\mathrm N$ wirken. Auf welche Temperatur muss
+   die eingeschlossene Luft hierfür erhitzt werden? Auch hier sollen
+   Temperaturänderungen des Weins unberücksichtigt bleiben.
+
+* Antwort Teilaufgabe 1:
+
+[[ $p_2 = 11{,}99~\mathrm{kPa}$ | ($p_2 = 33{,}77~\mathrm{kPa}$) | $p_2 = 55{,}55~\mathrm{kPa}$ | $p_2 = 77{,}33~\mathrm{kPa}$ | $p_2 = 99{,}11~\mathrm{kPa}$ ]]
+********************************************************************************
+
+Ausgangspunkt ist die Zustandsgleichung des idealen Gases:
+
+$$pV = nRT \, .$$
+
+Die Aufgabenstellung fragt nach dem Zusammenhang zwischen Volumen und Druck. Da
+keine weiteren Angaben zur Temperatur gemacht sind, wird von einem isothermen
+($T = \mathrm{const}$) Vorgang ausgegangen. Dann gilt
+
+$$p_1 V_1 = nRT = p_2 V_2 \, ,$$
+
+beziehungsweise
+
+$$p_2 = \frac{V_1}{V_2} p_1 \, .$$
+
+Das Volumen ist nicht direkt gegeben, lässt sich aber aus Durchmesser und Höhe
+der Luftsäule bestimmen:
+
+$$V_1 = \frac{\pi}{4} d^2 h_1 \quad \textrm{und} \quad V_2 = \frac{\pi}{4}d^2h_2 \, .$$
+
+Für $h_2$ gilt dabei: $h_2 = 6~\mathrm{cm}$. Für den Enddruck folgt dann:
+
+$$p_2 = \frac{h_1}{h_2}p_1 = 33{,}77~\mathrm{kPa} \, .$$
+
+********************************************************************************
+
+* Antwort Teilaufgabe 2:
+
+[[ $\vartheta_2 = 78~\mathrm{°C}$ | $\vartheta_2 = 216~\mathrm{°C}$ | $\vartheta_2 = 743~\mathrm{°C}$ | $\vartheta_2 = 1486~\mathrm{°C}$ | ($\vartheta_2 = 2053~\mathrm{°C}$) ]]
+********************************************************************************
+
+Auch hier wird die Zustandsgleichung des idealen Gases angesetzt, wobei jetzt
+ein isochorer Vorgang ($V=\mathrm{const}$) vorliegt und der Zusammenhang
+zwischen Druck und Temperatur gesucht ist:
+
+$$\frac{p_1}{T_1} = \frac{nR}{V} = \frac{p_2}{T_2}$$
+
+beziehungsweise
+
+$$T_2 = \frac{p_2}{p_1}T_1 \, .$$
+
+Der erforderliche Enddruck ergibt sich aus der gegebenen Kraft auf den Korken:
+
+$$p_2 = \frac{F}{A} = \frac{F}{\frac{\pi}{4}d^2} = \frac{4F}{\pi d^2} \, ,$$
+
+wobei die Formel für den Flächeninhalt eines Kreises verwendet wurde. Für die
+gesuchte Temperatur bedeutet das:
+
+$$T_2 = \frac{4F}{\pi d^2}\frac{T_1}{p_1} = 2326~\mathrm{K}$$
+
+beziehungsweise
+
+$$\vartheta_2 = 2053~\mathrm{°C}\, .$$
+
+********************************************************************************
+
+Anmerkungen:
+
+* Selbstverständlich muss in den Formeln stets die absolute Temperatur
+  (in Kelvin) eingesetzt werden. Im hier dargestellten Lösungsweg wurden die
+  jeweiligen Umrechnungen nicht explizit aufgeführt.
+* Tatsächlich wird sich eine Erwärmung der Luft in der Flasche wie im zweiten
+  Aufgabenteil nicht realisieren lassen, ohne auch den Wein zu erwärmen. Durch
+  die Verdunstung von Wein in der Flasche wäre dann die Stoffmenge des Gases
+  nicht mehr konstant und eine exakte Berechnung kaum noch möglich.
+* Die Inspiration für diese Rechenaufgabe entstammt dem Buch „Physik mit
+  Barrique“ von Lutz Kasper und Patrik Vogt (Springer 2022)
+
+#### Brennwert von Lebensmitteln
+
+Auf Lebensmitteln wird der sogenannte Brennwert angegeben, also die Energie, die
+eine bestimmte Masse (in der Regel $100~\mathrm g$) dieses Lebensmittels dem
+Körper zuführt. Um diesen Brennwert zu bestimmen, werden im Labor tatsächlich
+kleine Mengen des jeweiligen Lebensmittels in einer Messapparatur verbrannt.
+Diese Messapparatur besteht aus einem Wasserbad, das nach außen gut isoliert
+ist, sodass kein Wärmeaustausch mit der Umgebung stattfindet. In diesem
+Wasserbad befindet sich eine Probenkapsel aus Edelstahl, in der das betreffende
+Lebensmittel kontrolliert verbrannt wird. Aus der Erwärmung des Wassers wird die
+bei der Verbrennung freigesetzte Energie ermittelt.
+
+Eine solche Apparatur beinhalte eine Masse von $0{,}75~\mathrm{kg}$ Wasser. Die
+Probenkapsel habe eine Masse von $165~\mathrm g$. In dieser Apparatur werden
+$0{,}5~\mathrm g$ Vollmilchschokolade verbrannt. Das Wasser erwärmt sich dabei
+von der Anfangstemperatur $\vartheta_1=23{,}47~\mathrm{°C}$ auf
+$\vartheta_2=27{,}20~\mathrm{°C}$. Berechnen Sie die bei der Verbrennung der
+Schokolade freigesetzte Wärmemenge.
+
+Hinweis: Die spezifische Wärmekapazität von Edelstahl beträgt
+$c_\mathrm s = 0{,}47~\frac{\mathrm{kJ}}{\mathrm{kg\cdot K}}$.
+
+[[ $Q = 48~\mathrm{J}$ | $Q = 769~\mathrm{J}$ | ($Q = 12~\mathrm{kJ}$) | $Q = 467~\mathrm{kJ}$ | $Q = 3{,}4~\mathrm{MJ}$ ]]
+********************************************************************************
+
+Der allgemeine Zusammenhang zwischen zugeführter Wärme und Temperaturänderung
+ist durch die Wärmekapazität eines Körpers oder Systems gegeben:
+
+$$Q = \Delta U = C\Delta T \, .$$
+
+In der oben beschriebenen Apparatur werden sowohl das Wasser als auch die
+Probenkapsel erwärmt. Beide Beiträge müssen also jeweils mit Masse und
+spezifischer Wärmekapazität berücksichtigt werden:
+
+$$Q = (m_\mathrm w c_\mathrm w + m_\mathrm k c_\mathrm s)\Delta T = 12~\mathrm{kJ} \, .$$
+
+********************************************************************************
+
 ## Übung 6: Elektrizitätslehre
 ### Verständnisfragen
+
+#### Kräfte zwischen geladenen Körpern
+
+Die Wechselwirkung zwischen elektrisch geladenen Körpern soll in einem
+Experiment qualitativ untersucht werden. Hierfür werden folgende Materialien
+verwendet (siehe Foto):
+
+* Ein Tischtennisball, der an einem dünnen Faden freischwingend aufgehängt ist
+* Kuntstoffstab und Nylontuch
+* Glasstab und Fell
+
+Alle diese Materialien sind zu Beginn des Versuchs elektrisch ungeladen.
+
+<figure>
+<img src="grafik_uebung/elektrostatik.jpg" alt="Versuchsmaterialien wie im Text beschrieben">
+<figcaption>Die für den Versuch verwendeten Geräte und Materialien</figcaption>
+</figure>
+
+Die Vorgehensweise ist folgende:
+
+1. Kuntstoffstab und Nylontuch werden kräftig aneinander gerieben.
+
+   *  Hinweis: Der Kunststoffstab wird hierdurch negativ aufgeladen.
+
+2. Der Kunststoffstab wird in Kontakt zum Tischtennisball gebracht.
+3. Anschließend wird der Kunststoffstab in die Nähe des Balls gebracht, ohne
+   diesen weiter zu berühren.
+4. Glasstab und Fell werden kräftig aneinander gerieben.
+5. Der Glasstab wird in die Nähe des Tischtennisballs gebracht ohne diesen zu
+   berühren.
+
+   * Beobachtung: Dabei wird der Ball zum Stab hin angezogen.
+
+Beurteilen Sie die Richtigkeit der folgenden Aussagen zu diesem Versuch!
+
+[[ ]]  In Schritt 3 wird der Tischtennisball zum Kunststoffstab hin angezogen. 		
+[[X]] Der Glasstab ist nach Schritt 4 positiv geladen. 		
+[[X]] In Schritt 2 werden Ladungsträger auf den Tischtennisball übertragen, sodass der Ball anschließend ebenfalls negativ geladen ist. 		
+[[ ]] Da der Kunststoffstab nach Schritt 1 negativ geladen ist, kann er keinerlei positive Ladungsträger mehr besitzen. 		
+[[ ]] Die beiden Stäbe besitzen zu Versuchsbeginn keine Ladungsträger. Diese werden erst durch die Reibungsvorgänge (Schritte 1 und 4) erzeugt. 		
+[[ ]] Die Anziehungskraft zwischen Ball und Glasstab (Schritt 5) entsteht, da ein Strom zwischen beiden Körpern fließt.
+********************************************************************************
+
+* In Schritt 3 wird der Tischtennisball zum Kunststoffstab hin angezogen.
+
+  * **Falsch**: Kunststoffstab und Ball sind beide negativ geladen, sodass es
+    zur Abstoßung zwischen gleichartig geladenen Körpern kommt.
+
+* Der Glasstab ist nach Schritt 4 positiv geladen.
+
+  * **Richtig**: So kommt es zur Anziehung zwischen ungleichartig geladenen
+    Körpern im Schritt 5.
+
+* In Schritt 2 werden Ladungsträger auf den Tischtennisball übertragen, sodass
+  der Ball anschließend ebenfalls negativ geladen ist.
+
+  * **Richtig**: Ladungen lassen sich von einem Körper auf einen anderen
+    übertragen. Aus der im letzten Schritt beobachteten Anziehung kann die
+    Aufladung des Balls geschlussfolgert werden.
+
+* Da der Kunststoffstab nach Schritt 1 negativ geladen ist, kann er keinerlei
+  positive Ladungsträger mehr besitzen.
+
+  * **Falsch**: Positive und negative Ladungsträger sind immer vorhanden. Die
+    negative Aufladung des Stabs bedeutet lediglich einen Überschuss an
+    negativen Ladungsträgern.
+
+* Die beiden Stäbe besitzen zu Versuchsbeginn keine Ladungsträger. Diese werden
+  erst durch die Reibungsvorgänge (Schritte 1 und 4) erzeugt.
+
+  * **Falsch**: Positive und negative Ladungsträger sind immer vorhanden und
+    können nicht erzeugt werden. Die Aufladung erfolgt durch Ladungstrennung,
+    die zu einem Ungleichgewicht zwischen positiven und negativen Ladungen
+    führt.
+
+* Die Anziehungskraft zwischen Ball und Glasstab (Schritt 5) entsteht, da ein
+  Strom zwischen beiden Körpern fließt.
+
+  * **Falsch**: Die Wechselwirkung zwischen Ladungen erfolgt unabhängig von
+    deren Bewegung. Ein Stromfluss würde zu einem Ladungsausgleich führen und
+    die beobachtete Kraftwirkung würde sehr schnell verschwinden.
+
+********************************************************************************
+
+#### Elektrisches Feld
+Die folgende Abbildung zeigt elektrische Feldlinienbilder einer einzelnen
+Punktladung (links), zweier Punktladungen (Mitte) sowie eines
+Plattenkondensators (rechts):
+
+<figure>
+<img src="grafik_uebung/E-Felder.svg" alt="Feldlinienbilder">
+<figcaption>Bildquellen:  <a href="https://commons.wikimedia.org/wiki/User:Geek3">Geek3</a>, <a href="https://commons.wikimedia.org/wiki/File:VFPt_capacitor-square-plate.svg">VFPt capacitor-square-plate</a>, abgewandelt von Herbert Schletter, <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="license">CC BY-SA 4.0</a>;  <a href="https://commons.wikimedia.org/wiki/User:Geek3">Geek3</a>, <a href="https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus.svg">VFPt charges plus minus</a>, abgewandelt von Herbert Schletter, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>;  <a href="https://commons.wikimedia.org/wiki/User:Geek3">Geek3</a>, <a href="https://commons.wikimedia.org/wiki/File:VFPt_plus.svg">VFPt plus</a>, abgewandelt von Herbert Schletter, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a></figcaption>
+</figure>
+
+Blaue Punkte / Flächen stehen dabei jeweils für Ladungen beziehungsweise
+geladene Körper. Die grünen Kreise markieren bestimmte Positionen für die
+nachfolgenden Aussagen.
+
+Die nachfolgenden Aussagen beziehen sich auf die obigen Darstellungen.
+Beurteilen Sie deren Richtigkeit.
+
+[[ ]] Die Punktladung in der linken Darstellung ist negativ. 		
+[[X]] Die beiden Punktladungen in der mittleren Darstellung tragen entgegengesetzte Vorzeichen. 		
+[[X]] Im Zentrum des Plattenkondensators liegt ein homogenes Feld vor. 		
+[[X]] Platziert man an Position 1 eine positive Probeladung, so wirkt auf diese eine Kraft nach oben (d.h. in Richtung oberer Bildrand). 		
+[[ ]] Da sich Position 2 genau mittig zwischen den beiden Punktladungen befindet, erfährt eine dort befindliche Probeladung keine Kraftwirkung. 		
+[[ ]] Da an Position 3 die Feldlinien parallel verlaufen, erfährt eine dort befindliche Probeladung keine Kraftwirkung.
+********************************************************************************
+
+Grundsätzlich gilt für elektrische Feldlinienbilder:
+
+* Die Pfeilrichtung entspricht der Richtung der Kraft auf eine positive Probeladung.
+* Die Dichte der Feldlinien widerspiegelt den Betrag der Feldstärke: eine hohe
+  Feldliniendichte entspricht einer großen Feldstärke.
+
+Damit ergibt sich für die einzelnen Aussagen:
+
+* Die Punktladung in der linken Darstellung ist negativ.
+
+  * **Falsch**: Da positive Probeladungen abgestoßen werden (siehe Pfeilrichtung),
+    muss es sich um eine positive Ladung handeln.
+
+* Die beiden Punktladungen in der mittleren Darstellung tragen entgegengesetzte
+  Vorzeichen.
+
+  * **Richtig**: Die Feldlinien führen von der linken Ladung weg und zur rechten
+    Ladung hin.
+
+* Im Zentrum des Plattenkondensators liegt ein homogenes Feld vor.
+
+  * **Richtig**: Die Feldlinien verlaufen dort parallel (gleiche Richtung des
+    Felds) und in gleichen Abständen (konstanter Betrag der Feldstärke).
+
+* Platziert man an Position 1 eine positive Probeladung, so wirkt auf diese eine
+  Kraft nach oben (d.h. in Richtung oberer Bildrand).
+
+  * **Richtig**: Die Pfeilrichtung gibt die Richtung der Kraft auf eine positive
+    Probeladung an. An Position 1 entspricht dies der Richtung zum oberen Bildrand.
+
+* Da sich Position 2 genau mittig zwischen den beiden Punktladungen befindet,
+  erfährt eine dort befindliche Probeladung keine Kraftwirkung.
+
+  * **Falsch**: In diesem Bereich ist die Feldliniendichte dieser
+    Ladungsanordnung am größten. Folglich ist dort auch die wirkende Kraft maximal.
+
+* Da an Position 3 die Feldlinien parallel verlaufen, erfährt eine dort
+  befindliche Probeladung keine Kraftwirkung.
+
+  * **Falsch**: In jedem Bereich, der von Feldlinien durchsetzt ist, liegt auch
+    eine Kraftwirkung auf Probeladungen vor.
+
+********************************************************************************
+
+#### Elektrostatische Aufladungen
+Elektrostatische Aufladungen sind ein sehr alltägliches Phänomen. Es dürfte wohl
+jede Person schon einmal die Erfahrung gemacht haben, bei Berührung eines
+metallischen Gegenstands einen „elektrischen Schlag“ erhalten zu haben. Dieser
+entsteht durch die Entladung einer zuvor aufgebauten elektrostatischen Ladung.
+
+Die folgenden Aussagen beziehen sich auf elektrostatische Aufladungen
+beziehungsweise die daraus resultierende Entladung. Beurteilen Sie deren
+Richtigkeit.
+
+[[X]] Elektrostatische Aufladungen können entstehen durch Reibung zweier verschiedener Materialien aneinander (sogenannte Reibungselektrizität). 		
+[[ ]] Bei der Aufladung eines Körpers werden positive beziehungsweise negative Ladungsträger erzeugt. 		
+[[X]] Da elektrostatische Aufladungen leicht Spannungen von mehreren Kilovolt erreichen können, können empfindliche elektronische Geräte dadurch beschädigt werden. 		
+[[ ]] Die gegensätzliche Aufladung zwischen aufgeladener Person und Fußboden erzeugt eine anziehende Coulombkraft, die ähnlich groß ist wie die Gewichtskraft. 		
+[[X]] Bei der Entladung fließt kurzzeitig ein kleiner elektrischer Strom, der zu einem Ausgleich der unterschiedlichen Ladungen führt. 		
+[[X]] Da bei der oben beschriebenen elektrostatischen Aufladung nur sehr kleine Beträge der elektrischen Ladung auftreten, sind derartige Aufladungen bzw. die daraus resultierenden Entladungen in aller Regel unbedenklich. 		
+[[X]] Werden zwei (zuvor elektrisch neutrale) Körper durch Reibung aneinander aufgeladen, so tragen sie im Anschluss gleiche Beträge der elektrischen Ladung mit entgegengesetztem Vorzeichen. 		
+[[ ]] Bei der Entladung werden die positiven und negativen Ladungsträger vernichtet. Ihre Masse wird gemäß der Formel $E=mc^2$ in Energie umgewandelt, die als Funke sichtbar wird.
+********************************************************************************
+
+* Elektrostatische Aufladungen können entstehen durch Reibung zweier
+  verschiedener Materialien aneinander (sogenannte Reibungselektrizität).
+
+  * **Richtig**: Bestimmte Materialkombinationen erzeugen sehr schnell eine
+    elektrische Aufladung. Im Alltag sind dies beispielsweise verschiedene
+    Textilien.
+
+* Bei der Aufladung eines Körpers werden positive beziehungsweise negative
+  Ladungsträger erzeugt.
+
+  * **Falsch**: Ladungen sind grundsätzlich immer vorhanden und können nicht
+    erzeugt werden. Die Aufladung geschieht durch Ladungstrennung, sodass ein
+    Ungleichgewicht zwischen positiven und negativen Ladungsträgern entsteht.
+
+* Da elektrostatische Aufladungen leicht Spannungen von mehreren Kilovolt
+  erreichen können, können empfindliche elektronische Geräte dadurch beschädigt
+  werden.
+
+  * **Richtig**: Dies betrifft vor allem offene Bauelemente oder Schaltkreise,
+    bei deren Benutzung eine Aufladung vermieden werden sollte.
+
+* Die gegensätzliche Aufladung zwischen aufgeladener Person und Fußboden erzeugt
+  eine anziehende Coulombkraft, die ähnlich groß ist wie die Gewichtskraft.
+
+  * **Falsch**: Zwar bewirkt die gegensätzliche Aufladung tatsächlich eine
+    anziehende Coulombkraft. Deren Größenordnung ist jedoch wesentlich kleiner
+    als die Gewichtskraft eines Menschen, sodass sie praktisch zumeist ignoriert
+    werden kann.
+
+* Bei der Entladung fließt kurzzeitig ein kleiner elektrischer Strom, der zu
+  einem Ausgleich der unterschiedlichen Ladungen führt.
+
+  * **Richtig**: Die zuvor getrennten Ladungen bewegen sich solange, bis wieder
+    ein Gleichgewicht zwischen positiven und negativen Ladungsträgern besteht.
+
+* Da bei der oben beschriebenen elektrostatischen Aufladung nur sehr kleine
+  Beträge der elektrischen Ladung auftreten, sind derartige Aufladungen bzw. die
+  daraus resultierenden Entladungen in aller Regel unbedenklich.
+
+  * **Richtig**: Die hohe Spannung allein ist für den Menschen in aller Regel
+    unproblematisch, solange sehr kleine Beträge der Ladung beteiligt sind und
+    somit bei einer Entladung nur sehr kleine Ströme fließen.
+
+* Werden zwei (zuvor elektrisch neutrale) Körper durch Reibung aneinander
+  aufgeladen, so tragen sie im Anschluss gleiche Beträge der elektrischen Ladung
+  mit entgegengesetztem Vorzeichen.
+
+  * **Richtig**: Da Ladungen weder erzeugt noch vernichtet werden, sondern
+    lediglich getrennt werden, muss das anfangs vorhandene Gleichgewicht
+    positiver und negativer Ladungsträger bestehen bleiben.
+
+* Bei der Entladung werden die positiven und negativen Ladungsträger vernichtet.
+  Ihre Masse wird gemäß der Formel $E=mc^2$ in Energie umgewandelt, die als
+  Funke sichtbar wird.
+
+  * **Falsch**: Die Entladung geschieht durch einen Stromfluss, der zu einem
+    Ladungsausgleich führt. Die Energie des Funkens entstammt der Coulombenergie
+    der zuvor getrennten Ladungen.
+
+********************************************************************************
 
 #### Glühlampen
 Gegeben sind zwei Glühlampen mit den Angaben
@@ -2524,6 +3053,31 @@ oder in keinem der beiden Fälle eintritt.
 [(X) ( ) ( )] Nur Lampe 2 leuchtet (möglicherweise mit reduzierter Helligkeit).
 [( ) ( ) (X)] Beide Lampen leuchten, jedoch mit reduzierter Helligkeit.
 [( ) (X) ( )] Beide Lampen leuchten mit ihrer normalen Helligkeit.
+********************************************************************************
+
+Zunächst ist festzustellen, dass Lampe 1 einen geringeren elektrischen
+Widerstand aufweist als Lampe 2, da bei gleicher Spannung eine höhere Leistung
+erzielt wird. Ausgehend davon lässt sich vorhersagen, welche Lämpchen bei
+Reihen- bzw. Parallelschaltung leuchten.
+
+* In Reihenschaltung teilt sich die Spannung entsprechend den Widerständen auf
+  die einzelnen Verbraucher auf. Der größte Teil der Spannung fällt folglich an
+  Lampe 2 ab, die dadurch zum Leuchten gebracht wird. Lampe 1 bleibt aufgrund#
+  des zu geringen Spannungsabfalls dunkel.
+
+  Andere Betrachtung: In Reihenschaltung fließt durch beide Lämpchen derselbe
+  Strom, dessen Betrag durch den Gesamtwiderstand bestimmt wird. Dieser Strom
+  reicht aus, um Lämpchen 2 zum Leuchten zu bringen. Das leistungsstärkere
+  Lämpchen 1 bleibt jedoch dunkel, da dieses einen deutlich größeren Strom
+  benötigen würde.
+
+* In Parallelschaltung liegt an beiden Lämpchen die Versorgungsspannung der
+  Spannungsquelle an. Da beide Lämpchen mit ihrer vorgesehenen Betriebsspannung
+  versorgt werden, leuchten beide mit ihrer normalen Helligkeit.
+
+Die anderen aufgeführten Konstellationen treten nicht auf.
+
+********************************************************************************
 
 #### Sitzheizung
 Eine Heizmatte, die für den Anschluss an $U=12~\mathrm V$ vorgesehen ist,
@@ -2537,29 +3091,229 @@ berechnen Sie die jeweilige Leistung.
 Heinweis: Betrachten Sie die Heizwicklungen als ohmsche Widerstände. Die
 Versorgungsspannung soll nicht geändert werden.
 
-*  **Heizstufe 1 – geringste Leistung**
+* **Heizstufe 1 – geringste Leistung**
 
-   Beschaltung:
-   [[ (Reihenschaltung) | Parallelschaltung | eine Heizwicklung einzeln ]]
+  Beschaltung:
+  [[ (Reihenschaltung) | Parallelschaltung | eine Heizwicklung einzeln ]]
+  *****************************************************************************
 
-   Leistung:
-   [[ $P_1 = 1~\mathrm W$ | $P_1 = 2~\mathrm W$ | $P_1 = 3~\mathrm W$ | $P_1 = 6~\mathrm W$ | ($P_1 = 12~\mathrm W$) | $P_1 = 24~\mathrm W$ | $P_1 = 48~\mathrm W$]]
+  Für die elektrische Leistung gilt bei vorgegebener Spannung:
 
-*  **Heizstufe 2 – mittlere Leistung**
+  $$P = \frac{U^2}{R} \, .$$
 
-   Beschaltung:
-   [[ Reihenschaltung | Parallelschaltung | (eine Heizwicklung einzeln) ]]
+  Schaltungen mit größerem elektrischen Widerstand weisen folglich eine kleinere
+  Leistung auf. Die geringste Leistung ergibt sich bei maximalem Widerstand,
+  der bei Reihenschaltung erreicht wird.
 
-   Leistung:
-   [[ $P_2 = 1~\mathrm W$ | $P_2 = 2~\mathrm W$ | $P_2 = 3~\mathrm W$ | $P_2 = 6~\mathrm W$ | $P_2 = 12~\mathrm W$ | ($P_2 = 24~\mathrm W$) | $P_2 = 48~\mathrm W$]]
+  *****************************************************************************
 
-*  **Heizstufe 3 – größte Leistung**
+  Leistung:
+  [[ $P_1 = 1~\mathrm W$ | $P_1 = 2~\mathrm W$ | $P_1 = 3~\mathrm W$ | $P_1 = 6~\mathrm W$ | ($P_1 = 12~\mathrm W$) | $P_1 = 24~\mathrm W$ | $P_1 = 48~\mathrm W$]]
+  ******************************************************************************
 
-   Beschaltung:
-   [[ Reihenschaltung | (Parallelschaltung) | eine Heizwicklung einzeln ]]
+  In Reihenschaltung ist der Gesamtwiderstand die Summe der Einzelwiderstände:
 
-   Leistung:
-   [[ $P_3 = 1~\mathrm W$ | $P_3 = 2~\mathrm W$ | $P_3 = 3~\mathrm W$ | $P_3 = 6~\mathrm W$ | $P_3 = 12~\mathrm W$ | $P_3 = 24~\mathrm W$ | ($P_3 = 48~\mathrm W$)]]
+  $$R_\mathrm{ges} = 2\cdot R = 12~\Omega \, .$$
+
+  Für die Leistung folgt daraus:
+
+  $$P_1 = \frac{U^2}{R_\mathrm{ges}} = 12~\mathrm W \, .$$
+
+  ******************************************************************************
+
+* **Heizstufe 2 – mittlere Leistung**
+
+  Beschaltung:
+  [[ Reihenschaltung | Parallelschaltung | (eine Heizwicklung einzeln) ]]
+  ******************************************************************************
+
+  In Reihenschaltung liegt der größte Widerstand vor (siehe oben). In
+  Parallelschaltung ist der Gesamtwiderstand stets kleiner als der kleinste
+  Teilwiderstand. Der Widerstand einer einzelnen Heizwicklung liegt folglich
+  zwischen diesen beiden Werten.
+
+  ******************************************************************************
+
+  Leistung:
+  [[ $P_2 = 1~\mathrm W$ | $P_2 = 2~\mathrm W$ | $P_2 = 3~\mathrm W$ | $P_2 = 6~\mathrm W$ | $P_2 = 12~\mathrm W$ | ($P_2 = 24~\mathrm W$) | $P_2 = 48~\mathrm W$]]
+  ******************************************************************************
+
+  Hier gilt:
+
+  $$R_\mathrm{ges} = R = 6~\Omega \, .$$
+
+  Für die Leistung folgt daraus:
+
+  $$P_2 = \frac{U^2}{R_\mathrm{ges}} = 24~\mathrm W \, .$$
+
+  ******************************************************************************
+
+* **Heizstufe 3 – größte Leistung**
+
+  Beschaltung:
+  [[ Reihenschaltung | (Parallelschaltung) | eine Heizwicklung einzeln ]]
+  ******************************************************************************
+
+  In Parallelschaltung ist der Gesamtwiderstand stets kleiner als der kleinste
+  Teilwiderstand.
+
+  ******************************************************************************
+
+  Leistung:
+  [[ $P_3 = 1~\mathrm W$ | $P_3 = 2~\mathrm W$ | $P_3 = 3~\mathrm W$ | $P_3 = 6~\mathrm W$ | $P_3 = 12~\mathrm W$ | $P_3 = 24~\mathrm W$ | ($P_3 = 48~\mathrm W$)]]
+  ******************************************************************************
+
+  In Parallelschaltung zweier identischer Widerstände gilt für den
+  Gesamtwiderstand:
+
+  $$\frac{1}{R_\mathrm{ges}} = \frac{1}{R} + \frac{1}{R} \, .$$
+
+  Daraus ergibt sich:
+
+  $$R_\mathrm{ges} = \frac{1}{2}R \, .$$
+
+  Für die Leistung folgt daraus:
+
+  $$P_3 = \frac{U^2}{R_\mathrm{ges}} = 48~\mathrm W \, .$$
+
+  ******************************************************************************
+
+#### Stromerzeugung
+Ein Fahrrad-Heimtrainer ist mit einem Generator zur Stromerzeugung ausgestattet.
+Die Spannung, die dieser Generator erzeugt, ist abhängig von der Drehzahl des
+Heimtrainers: je größer die Drehzahl, desto höher die Spannung. Maximal können
+$50~\mathrm V$ erreicht werden. Der Strom, der dabei fließt, wird durch den
+Widerstand des angeschlossenen Verbrauchers bestimmt. Als Verbraucher können
+angeschlossen werden: ein Wasserkocher (Widerstand $R = 60~\Omega$) sowie eine
+Halogenlampe mit $R = 2{,}4~\Omega$. Beide Verbraucher können für den Zweck
+dieser Aufgabe als ohmsche Bauelemente aufgefasst werden. Beurteilen Sie die
+Richtigkeit der folgenden Aussagen.
+
+[[X]] Ist die Lampe angeschlossen, so gibt der Generator bei gleicher Spannung eine größere Leistung ab als bei Anschluss des Wasserkochers. 		
+[[X]] Die Person auf dem Heimtrainer muss (mindestens) dieselbe Leistung beim Treten aufbringen, die vom Generator als elektrische Leistung an den Verbraucher abgegeben werden soll (Prinzip der Energieerhaltung). 		
+[[X]] Je kleiner der Widerstand des angeschlossenen Verbrauchers, umso mehr Kraft muss beim Treten in die Pedale bei gleicher Drehzahl (also auch gleicher Spannung) aufgewendet werden. 		
+[[ ]] Wird der Wasserkocher mit der Maximalspannung des Generators betrieben, so wird eine Leistung von 3000 W umgesetzt.
+********************************************************************************
+
+* Ist die Lampe angeschlossen, so gibt der Generator bei gleicher Spannung eine
+  größere Leistung ab als bei Anschluss des Wasserkochers.
+
+  * **Richtig**: Aufgrund des kleineren Widerstands der Lampe fließt bei
+    gleicher Spannung ein größerer Strom, was zu einer höheren Leistung führt.
+
+* Die Person auf dem Heimtrainer muss (mindestens) dieselbe Leistung beim Treten
+  aufbringen, die vom Generator als elektrische Leistung an den Verbraucher
+  abgegeben werden soll (Prinzip der Energieerhaltung).
+
+  * **Richtig**: Auch hier kann keine Energie aus dem Nichts entstehen. Die
+    abgegebene elektrische Leistung muss auch (als mechanische Leistung)
+    zugeführt werden. Da in der Realität der Wirkungsgrad der Energiewandlung
+    kleiner als 100% ist, muss tatsächlich sogar eine höhere mechanische
+    Leistung aufgebracht werde.
+
+* Je kleiner der Widerstand des angeschlossenen Verbrauchers, umso mehr Kraft
+  muss beim Treten in die Pedale bei gleicher Drehzahl (also auch gleicher
+  Spannung) aufgewendet werden.
+
+  * **Richtig**: Bei kleinerem Widerstand wird bei gleicher Spannung eine höhere
+    elektrische Leistung abgegeben (siehe erste Aussage). Dies erfordert eine
+    größere mechanische Leistung, die bei gleicher Drehzahl durch eine höhere
+    Trittkraft realisiert wird.
+
+* Wird der Wasserkocher mit der Maximalspannung des Generators betrieben, so
+  wird eine Leistung von 3000 W umgesetzt.
+
+  * **Falsch**: Für die Leistung gilt $P=UI = \frac{U^2}{R}$, was in diesem Fall
+    lediglich $\approx 42~\mathrm W$ ergibt. Der Zahlenwert 3000 ergibt sich,
+    wenn der Wert der Spannung (in Volt) mit dem des Widerstands (in Ohm)
+    multipliziert wird. Das Produkt $UR$ ergibt jedoch nicht die Leistung.
+
+********************************************************************************
+
+Die folgenden beiden Aussagen beziehen sich auf die Situation, dass Wasserkocher
+und Halogenlampe in Parallelschaltung an den Generator angeschlossen sind.
+
+[[X]] An beiden Verbrauchern liegt dieselbe Spannung an. 		
+[[X]] Der Generator gibt (bei gleicher Spannung) eine höhere Leistung ab als bei Anschluss eines einzelnen Verbrauchers.
+********************************************************************************
+
+* An beiden Verbrauchern liegt dieselbe Spannung an.
+
+  * **Richtig**: Dies ist die Aussage der Kirchhoff’schen Maschenregel.
+
+* Der Generator gibt (bei gleicher Spannung) eine höhere Leistung ab als bei
+  Anschluss eines einzelnen Verbrauchers.
+
+  * **Richtig**: Der Gesamtstrom ist die Summe der beiden Teilströme durch die
+    beiden Verbraucher. Ebenso addieren sich die beiden Einzelleistungen zur
+    Gesamtleistung.
+
+********************************************************************************
+
+Die folgenden beiden Aussagen beziehen sich auf die Situation, dass Wasserkocher
+und Halogenlampe in Reihenschaltung an den Generator angeschlossen sind.
+
+[[ ]] Aufgrund ihres kleineren Widerstands fließt durch die Lampe ein größerer Strom als durch den Wasserkocher. 		
+[[X]] Aufgrund seines größeren Widerstands liegt am Wasserkocher eine höhere Spannung an als an der Lampe.
+********************************************************************************
+
+* Aufgrund ihres kleineren Widerstands fließt durch die Lampe ein größerer Strom
+  als durch den Wasserkocher.
+
+  * **Falsch**: Laut Knotenregel muss durch Lampe und Wasserkocher derselbe
+    Strom fließen.
+
+* Aufgrund seines größeren Widerstands liegt am Wasserkocher eine höhere
+  Spannung an als an der Lampe.
+
+  * **Richtig**: In Reihenschaltung teilt sich die Gesamtspannung entsprechend
+    der Widerstände auf die einzelnen Verbraucher auf.
+
+********************************************************************************
+
+#### Wasserkraftwerk
+In einem Wasserkraftwerk strömt Wasser aus einem höhergelegenen Reservoir
+(natürlicher oder künstlicher See, Zuleitungsgraben, Talsperre oder Ähnliches)
+durch eine (oder mehrere) Turbine(n). Die Turbinen wiederum treiben Generatoren
+an, die aus dieser Bewegung schließlich elektrischen Strom erzeugen. Die
+folgenden Aussagen befassen sich mit dieser Art der Stromerzeugung. Beurteilen
+Sie deren Richtigkeit.
+
+[[X]] In einem Wasserkraftwerk wird die mechanische Energie des Wassers in elektrische Energie umgewandelt. 		
+[[ ]] Die maximal erreichbare elektrische Leistung wird durch die Durchflussmenge des Wassers (gemessen in $\frac{\mathrm m^3}{\mathrm s}$) bestimmt. Der Höhenunterschied zwischen Reservoir und Turbinen hat keinen Einfluss. 		
+[[ ]] Die maximal erreichbare elektrische Leistung wird durch den Höhenunterschied zwischen Reservoir und Turbinen bestimmt. Die Durchflussmenge des Wassers hat keinen Einfluss. 		
+[[X]] Die abgegebene elektrische Leistung ist kleiner als die zugeführte mechanische Leistung des durch die Turbinen fließenden Wassers.
+********************************************************************************
+
+* In einem Wasserkraftwerk wird die mechanische Energie des Wassers in
+  elektrische Energie umgewandelt.
+
+  * **Richtig**: Die mechanische Energie des Wassers liegt anfangs als
+    potenzielle (aufgrund der erhöhten Lage des Reservoirs) und / oder
+    kinetische (aufgrund der Fließgeschwindigkeit) vor.
+
+* Die maximal erreichbare elektrische Leistung wird durch die Durchflussmenge
+  des Wassers (gemessen in $\frac{\mathrm m^3}{\mathrm s}$) bestimmt. Der
+  Höhenunterschied zwischen Reservoir und Turbinen hat keinen Einfluss.
+
+  * **Falsch**: Die maximal erreichbare Leistung wird bestimmt durch das Produkt
+    von Durchflussmenge und Höhendifferenz.
+
+* Die maximal erreichbare elektrische Leistung wird durch den Höhenunterschied
+  zwischen Reservoir und Turbinen bestimmt. Die Durchflussmenge des Wassers hat
+  keinen Einfluss.
+
+  * **Falsch**: Die maximal erreichbare Leistung wird bestimmt durch das Produkt
+    von Durchflussmenge und Höhendifferenz.
+
+* Die abgegebene elektrische Leistung ist kleiner als die zugeführte mechanische
+  Leistung des durch die Turbinen fließenden Wassers.
+
+  * **Richtig**: Auch Wasserkraftwerke weisen in ihrer Energieumwandlung einen
+    Wirkungsgrad $<1$ auf. Ein Teil der Energie geht stets durch dissipative
+    Prozesse „verloren“.
+
+********************************************************************************
 
 ### Rechenaufgaben
 
@@ -2660,8 +3414,463 @@ Kraftwerk vier Stunden unter Volllast betrieben werden.
 
    [[ $I=1{,}25~\mathrm{kA}$ | $I=1{,}50~\mathrm{kA}$ | $I=1{,}75~\mathrm{kA}$ | $I=2{,}00~\mathrm{kA}$ | $I=2{,}25~\mathrm{kA}$ | $I=2{,}50~\mathrm{kA}$ | ($I=2{,}75~\mathrm{kA}$) ]]
 
+### Hausaufgaben
+
+#### Glühlampen in Parallel‐ und Reihenschaltung
+
+Gegeben sind zwei Glühlampen, die die Angaben „6 V / 5 W“ beziehungsweise
+„6 V / 2 W“ tragen. Diese beiden Lampen werden einmal parallel und einmal in
+Reihe an eine Spannungsquelle mit $U_0=6~\mathrm V$ angeschlossen.
+
+1. Berechnen Sie für die Parallelschaltung der beiden Glühlampen den von der
+   Spannungsquelle abgegebenen Gesamtstrom sowie die Gesamtleistung.
+2. Berechnen Sie für die Reihenschaltung der beiden Glühlampen den von der
+   Spannungsquelle abgegebenen Gesamtstrom sowie die Gesamtleistung.
+
+-----
+
+* Lösung Teil 1
+
+[[ $I_\mathrm{ges} = 0{,}42~\mathrm A$, $P_\mathrm{ges} = 2{,}5~\mathrm{W}$ | $I_\mathrm{ges} = 0{,}5~\mathrm A$, $P_\mathrm{ges} = 3~\mathrm{W}$ | ($I_\mathrm{ges} = 1{,}17~\mathrm A$, $P_\mathrm{ges} = 7~\mathrm{W}$) | $I_\mathrm{ges} = 1{,}67~\mathrm A$, $P_\mathrm{ges} = 10~\mathrm{W}$ ]]
+********************************************************************************
+
+Wir betrachten die Glühlampen vereinfacht als ohmsche Bauelemente. Aus den
+nominellen Spannungs- und Leistungsangaben lässt sich der Widerstand der beiden
+Lampen ermitteln:
+
+$$\begin{aligned}
+R=\frac{U^2}{P} \quad \longrightarrow \quad R_1 & = \frac{U_1^2}{P_1} =\frac{(6~\mathrm V)^2}{5~\mathrm W} = 7{,}2~\Omega \\
+R_2 & = 18~\Omega
+\end{aligned}$$
+
+In Parallelschaltung ergibt sich daraus ein Gesamtwiderstand von
+
+$$R_\mathrm{ges} = \left(\frac{1}{R_1} + \frac{1}{R_2}\right)^{-1} = \frac{R_1R_2}{R_1 + R_2} = 5{,}14~\Omega \, .$$
+
+Demzufolge wird von der Spannungsquelle der Gesamtstrom
+
+$$I_\mathrm{ges} = \frac{U_0}{R_\mathrm{ges}} = 1{,}17~\mathrm A$$
+
+abgegeben. Daraus ergibt sich eine Gesamtleistung von
+
+$$P_\mathrm{ges} = U_0 I_\mathrm{ges} = 7~\mathrm W \, .$$
+
+Die Gesamtleistung ist die Summe der Einzelleistungen beider Lampen.
+
+********************************************************************************
+
+* Lösung Teil 2
+
+[[ $I_\mathrm{ges} = 0{,}08~\mathrm A$, $P_\mathrm{ges} = 0{,}48~\mathrm{W}$ | $I_\mathrm{ges} = 0{,}13~\mathrm A$, $P_\mathrm{ges} = 0{,}78~\mathrm{W}$ | ($I_\mathrm{ges} = 0{,}24~\mathrm A$, $P_\mathrm{ges} = 1{,}44~\mathrm{W}$) | $I_\mathrm{ges} = 0{,}38~\mathrm A$, $P_\mathrm{ges} = 2{,}28~\mathrm{W}$ ]]
+********************************************************************************
+
+Für die Reihenschaltung der beiden Lampen ergibt sich ein Gesamtwiderstand von
+
+$$R_\mathrm{ges} = R_1 + R_2 = 25{,}2~\Omega \, .$$
+
+Folglich fließt ein Gesamtstrom von
+
+$$I_\mathrm{ges} = \frac{U_0}{R_\mathrm{ges}} = 0{,}24~\mathrm A \, ,$$
+
+woraus sich eine Gesamtleistung
+
+$$P_\mathrm{ges} = U_0 I_\mathrm{ges} = 1{,}44~\mathrm W$$
+
+ergibt. Die Gesamtleistung ist kleiner als die kleinste Einzelleistung.
+
+********************************************************************************
+
+#### Straßenbahn
+
+Die Oberleitung eines Straßenbahnnetzes weist eine Spannung von
+$U = 600~\mathrm V$ auf. Für den Beschleunigungsvorgang einer Straßenbahn fließt
+ein konstanter Strom $I = 395~\mathrm A$. Dieser Beschleunigungsvorgang dauert
+$t = 15~\mathrm s$. Dabei wird eine mechanische Beschleunigungsarbeit von
+$W_\mathrm B = 3000~\mathrm{kJ}$ verrichtet. Welchen Wirkungsgrad $\eta$
+besitzen die Antriebsmotoren dieser Straßenbahn?
+
+[[ $\eta = 76{,}9~\%$ | ($\eta = 84{,}4~\%$) | $\eta = 89{,}2~\%$ | $\eta = 94{,}7~\%$ | $\eta = 100~\%$ ]]
+********************************************************************************
+
+Der Wirkungsgrad ergibt sich als Verhältnis der nutzbaren Arbeit zur gesamten
+aufgewendeten Arbeit:
+
+$$\eta = \frac{W_\mathrm{nutz}}{W_\mathrm{aufwand}} \, .$$
+
+Die nutzbare Arbeit ist im oben beschriebenen Fall die gegebene
+Beschleunigungsarbeit. Als Aufwand ist die elektrische Arbeit zu zählen, für die
+gilt
+
+$$W_\mathrm{el} = UIt \, .$$
+
+Damit ergibt sich:
+
+$$\eta = \frac{W_\mathrm B}{W_\mathrm{el}} = \frac{W_\mathrm B}{UIt} = 0{,}844 = 84{,}4~\% \, .$$
+
+********************************************************************************
+
 ## Übung 7: Optik
 ### Verständnisfragen
+
+#### Lichtbrechung
+Die folgende Grafik zeigt den Strahlenverlauf des Lichts von einer Lichtquelle
+über eine Grenzfläche zu zwei Beobachtern. An der Grenzfläche treffen zwei
+Medien mit den Brechzahlen $n_1$ und $n_2$ aufeinander (in der Darstellung durch
+unterschiedliche Farbgebung angedeutet).
+
+<figure>
+<img src="grafik_uebung/Brechungsgesetz.svg" alt="Skizze des Strahlenverlaufs an einer Grenzfläche">
+</figure>
+
+Beurteilen Sie die Richtigkeit der folgenden Aussagen zur Lichtbrechung und
+-reflexion bezogen auf die obige Darstellung.
+
+[[X]] Der Einfallswinkel $\alpha_1$ ist kleiner als der Grenzwinkel der Totalreflexion.
+[[X]] Das Licht breitet sich in den beiden Medien mit unterschiedlicher Geschwindigkeit aus.
+[[ ]] Eines der beiden Medien muss Luft sein, da Brechung und Reflexion nur an Luft-Grenzflächen auftreten können.
+[[ ]]In der Realität treten niemals reflektierter und transmittierter (gebrochener) Strahl gleichzeitig auf. Es kommt entweder zu vollständiger Reflexion oder vollständiger Transmission. In der Darstellung dürfte exakterweise auch nur ein Strahl eingezeichnet werden.
+[[X]] Da der dargestellte Strahlenverlauf von der Quelle zum Beobachter 2 dem Brechungsgesetz gehorcht, stellt er den schnellstmöglichen Lichtweg dar.
+[[ ]] Medium 2 ist optisch dichter als Medium 1, d.h. es besitzt eine höhere Brechzahl: $n_2 > n_1$.
+********************************************************************************
+
+* Der Einfallswinkel $\alpha_1$ ist kleiner als der Grenzwinkel der
+  Totalreflexion.
+
+  * **Richtig**: Andernfalls würde der transmittierte Strahl zum Beobachter 2
+    verschwinden.
+
+* Das Licht breitet sich in den beiden Medien mit unterschiedlicher
+  Geschwindigkeit aus.
+
+  * **Richtig**: Die unterschiedlichen Lichtgeschwindigkeiten in den beiden
+    Medien (ausgedrückt durch unterschiedliche Brechungsindizes) sind Ursache
+    für die Brechung des transmittierten Strahls.
+
+* Eines der beiden Medien muss Luft sein, da Brechung und Reflexion nur an
+  Luft-Grenzflächen auftreten können.
+
+  * **Falsch**: Brechung und Reflexion treten an allen Grenzflächen auf, an
+    denen zwei Medien mit unterschiedlichem Brechungsindex aufeinander treffen.
+
+* In der Realität treten niemals reflektierter und transmittierter (gebrochener)
+  Strahl gleichzeitig auf. Es kommt entweder zu vollständiger Reflexion oder
+  vollständiger Transmission. In der Darstellung dürfte exakterweise auch nur
+  ein Strahl eingezeichnet werden.
+
+  * **Falsch**: Im Allgemeinen treten Brechung und Reflexion gemeinsam auf.
+    Einzig im Fall der Totalreflexion verschwindet der gebrochene Strahl.
+
+* Da der dargestellte Strahlenverlauf von der Quelle zum Beobachter 2 dem
+  Brechungsgesetz gehorcht, stellt er den schnellstmöglichen Lichtweg dar.
+
+  * **Richtig**: Das Fermatsche Prinzip der Lichtausbreitung besagt, dass das
+    Licht den Weg mit einer extremalen (also minimalen oder maximalen) Laufzeit
+    wählt. Hier liegt – wie in den meisten Fällen – ein Minimum der Laufzeit
+    vor.
+
+* Medium 2 ist optisch dichter als Medium 1, d.h. es besitzt eine höhere
+  Brechzahl: $n_2 > n_1$.
+
+  * **Falsch**: Die Brechung am Übergang von Medium 1 zu Medium 2 erfolgt vom
+    Lot weg, d.h. der Brechungswinkel ist größer als der Einfallswinkel. Dieses
+    Verhalten tritt auf, wenn Medium 2 die kleinere Brechzahl aufweist.
+
+********************************************************************************
+
+#### Bildkonstruktion
+
+Die folgende Zeichnung enthält die Bildentstehung an einer Linse. Der Pfeil
+stellt den abzubildenden Gegenstand dar. Die senkrechte Strich-Punkt-Line
+symbolisiert die Hauptebene der (dünnen) Linse. Die waagerechte schwarze Linie
+stellt die optische Achse dar. Die drei gelben Linien veranschaulichen drei
+exemplarische Strahlenverläufe vom Gegenstand durch die Linse.
+
+<figure>
+<img src="grafik_uebung/Bildkonstruktion.svg" alt="Strahlenverläufe dreier Strahlen von einem Gegenstandspunkt ausgehend durch die Linse">
+</figure>
+
+Die folgenden Fragen beziehen sich auf die obige Darstellung. Beurteilen Sie
+deren Richtigkeit.
+
+[[X]] Es entsteht ein virtuelles Bild des Gegenstands. 		
+[[ ]] Das entstehende Bild ist verkleinert. 		
+[[ ]] Es entsteht ein kopfstehendes/seitenverkehrtes Bild. 		
+[[X]] Bei der Linse handelt es sich um eine Sammellinse. 		
+[[ ]] Die Gegenstandsweite ist identisch mit der Brennweite der Linse. 		
+[[ ]] Da die eingetragenen Lichtstrahlen sich auf der Bildseite der Linse nicht schneiden, kann die Abbildungsgleichung für diesen Fall nicht angewendet werden.
+********************************************************************************
+
+Zur Beantwortung der Fragen kann es hilfreich sein, zunächst die Skizze zu
+vervollständigen, indem das entstehende Bild eingetragen wird. Auf der Bildseite
+divergieren die eingezeichneten Strahlen. Ihre rückwärtigen Verlängerungen
+treffen sich in einem Punkt auf der Gegenstandsseite. Die dargestellten
+Strahlenverläufe entsprechen dem Wirkungsprinzip einer Lupe.
+
+<figure>
+<img src="grafik_uebung/Bildkonstruktion-Lösung.svg" alt="Vervollständigte Strahlenverläufe mit entstehendem Bild und bildseitigem Brennpunkt">
+</figure>
+
+Die drei eingezeichneten Strahlen entsprechen auf der Gegenstandsseite dem
+Brennpunktstrahl (oben, auf der Bildseite wird daraus ein Parallelstrahl), dem
+Parallelstrahl (Mitte, wird zum Brennpunktstrahl auf der Bildseite) und dem
+Mittelpunktstrahl (unten). Der Schnittpunkt des bildseitigen Brennpunktstrahls
+mit der optischen Achse markiert den (bildseitigen) Brennpunkt der Linse. Der
+gegenstandsseitige Brennpunkt liegt in gleichem Abstand von der Hauptebene.
+
+Grundsätzlich ist eine Einschätzung der Richtigkeit der oben aufgeführten
+Aussagen auch allein aus den vorgegebenen Strahlenverläufen möglich. Die
+vervollständigte Skizze vereinfacht jedoch die Beurteilung.
+
+* Es entsteht ein virtuelles Bild des Gegenstands.
+
+  * **Richtig**: Auf der rechten Seite divergieren die drei Strahlen, sodass
+    kein reelles Bild entsteht. Ihre rückwärtigen Verlängerungen treffen sich
+    jedoch auf der linken Seite der Linse in einem virtuellen Bildpunkt.
+
+* Das entstehende Bild ist verkleinert.
+  * **Falsch**: Das (virtuelle) Bild entsteht weiter links als der Gegenstand
+    und ist vergrößert. Auch ohne Bildkonstruktion ist dies aus dem oberen der
+    drei Strahlen ersichtlich, der als Parallelstrahl (auf der Bildseite) die
+    Höhe des Bildes bestimmt.
+
+* Es entsteht ein kopfstehendes/seitenverkehrtes Bild.
+
+  * **Falsch**: Die Bildkonstruktion ergibt ein aufrechtes Bild. Auch dies kann
+    bereits aus der Lage des oberen Strahls abgeleitet werden.
+
+* Bei der Linse handelt es sich um eine Sammellinse.
+
+  * **Richtig**: Da ein vergrößertes virtuelles Bild entsteht, muss eine
+    Sammellinse vorliegen. Zerstreuungslinsen erzeugen stets verkleinerte
+    Bilder. Außerdem kann dies (u.a.) aus dem mittleren der drei Strahlen
+    abgeleitet werden. Der gegenstandsseitige Parallelstrahl wird zum
+    Brennpunktstrahl, der die optische Achse im bildseitigen Brennpunkt rechts
+    von der Linse schneidet. Die Brennweite ist folglich positiv.
+
+* Die Gegenstandsweite ist identisch mit der Brennweite der Linse.
+
+  * **Falsch**: In diesem Fall würden die drei Strahlen rechts von der Linse
+    parallel verlaufen. Die Gegenstandsweite ist kleiner als die Brennweite der
+    Linse.
+
+* Da die eingetragenen Lichtstrahlen sich auf der Bildseite der Linse nicht
+  schneiden, kann die Abbildungsgleichung für diesen Fall nicht angewendet
+  werden.
+
+  * **Falsch**: Auch dieser Fall wird durch die Abbildungsgleichung erfasst. Es
+    ergibt sich eine negative Bildweite, da das (virtuelle) Bild auf
+    Gegenstandsseite entsteht.
+
+********************************************************************************
+
+#### Lupe
+
+Eine Lupe wird genutzt, um kleine Dinge vergrößert zu betrachten. Sie besteht
+aus einer einzelnen Sammellinse, die so eingesetzt wird, dass beim Blick
+hindurch ein vergrößertes, aufrechtes Bild der dahinterliegenden Objekte
+beobachtet werden kann.
+
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Magnifying_glass2.jpg/640px-Magnifying_glass2.jpg" alt="Beispielbild: Blick durch eine Lupe auf eine Briefmarke">
+<figcaption>
+Bildquelle: <a href="https://commons.wikimedia.org/wiki/User:Heptagon">Heptagon</a>, <a href="https://commons.wikimedia.org/wiki/File:Magnifying_glass2.jpg">Magnifying glass2</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="license">CC BY-SA 4.0</a>, via Wikimedia Commons
+</figcaption>
+</figure>
+
+Beurteilen Sie die Richtigkeit der folgenden Aussagen bezüglich einer Lupe.
+
+[[ ]] Das Bild, das von der Lupe erzeugt wird, befindet sich an derselben Position wie das Objekt. 		
+[[ ]] Damit die beschriebene Vergrößerungswirkung erzielt wird, muss der Abstand zwischen Lupe und Objekt größer sein als die Brennweite der Linse. 		
+[[X]] Die Lupe erzeugt ein virtuelles Bild des Objekts. 		
+[[ ]] Wenn die Lupe verkehrt herum gehalten wird, entsteht ein verkleinertes Bild des Gegenstands. 		
+********************************************************************************
+
+* Das Bild, das von der Lupe erzeugt wird, befindet sich an derselben Position
+  wie das Objekt.
+
+  * **Falsch**: Das vergrößerte Bild befindet sich hinter dem Gegenstand
+    (Bildweite ist größer als Gegenstandsweite). Dies lässt sich sowohl
+    rechnerisch anhand der Abbildungsgleichung als auch grafisch durch die
+    Bildkonstruktion überprüfen. Auch im obigen Beispielbild ist dies erkennbar:
+    Während das durch die Lupe betrachtete Bild der Briefmarke scharf abgebildet
+    wird, erscheint die Hand, die die Pinzette mit der Briefmarke hält,
+    unscharf.
+
+* Damit die beschriebene Vergrößerungswirkung erzielt wird, muss der Abstand
+  zwischen Lupe und Objekt größer sein als die Brennweite der Linse.
+
+  * **Falsch**: In diesem Fall entstünde ein reelles, kopfstehendes Bild.
+    Aufrechte, virtuelle Bilder entstehen an einer Sammellinse nur, wenn sich
+    der Gegenstand innerhalb der Brennweite befindet.
+
+* Die Lupe erzeugt ein virtuelles Bild des Objekts.
+
+  * **Richtig**: Reelle Bilder an einer Sammellinse sind stets kopfstehend. Das
+    bei der Lupe entstehende Bild kann zwar mit dem Auge oder einer Kamera
+    betrachtet werden, lässt sich jedoch nicht auf einem Schirm auffangen.
+
+* Wenn die Lupe verkehrt herum gehalten wird, entsteht ein verkleinertes Bild
+  des Gegenstands.
+
+  * **Falsch**: Die Brennweite (und damit auch die Abbildungseigenschaften)
+    einer dünnen Linse sind unabhängig von der Seitenwahl der Linse. Wird die
+    Linse verkehrt herum gehalten, erzeugt sie dennoch dasselbe Bild wie zuvor.
+
+********************************************************************************
+
+#### Beamer-Objektiv
+
+Mit einem Beamer werden digitale Bilder oder Videos auf eine Leinwand
+projiziert. Dazu befindet sich im Inneren des Beamers ein Bild-Chip, der aus den
+ankommenden digitalen Daten das zu projizierende Bild erzeugt. Das Objektiv des
+Beamers schließlich projiziert den Bild-Chip auf die Leinwand. In physikalischer
+Sprechweise handelt es sich dabei um eine optische Abbildung. Die folgenden
+Aussagen beziehen sich auf diese optische Abbildung durch das Beamer-Objektiv.
+Beurteilen Sie deren Richtigkeit. Das Objektiv kann dabei näherungsweise als
+dünne Linse aufgefasst werden.
+
+[[ ]] Es wird ein virtuelles Bild erzeugt. 		
+[[ ]] Der Abstand zwischen Bild-Chip und Hauptebene des Objektivs muss größer sein als das Doppelte der Brennweite des Objektivs. 		
+[[X]] Im Sinne der optischen Abbildung stellt der Bild-Chip den Gegenstand dar. 		
+[[X]] Damit das Bild auf der Leinwand richtig herum erscheint, muss es auf dem Bild-Chip kopfstehend und seitenverkehrt sein. 		
+[[X]] Wird die Brennweite des Objektivs verändert, so ändert sich die Größe des projizierten Bilds auf der Leinwand. 		
+[[X]] Wird das Objektiv entlang der optischen Achse verschoben, so ändern sich Gegenstands- und Bildweite. Dies kann zum Scharfstellen des Bilds genutzt werden. 		
+[[X]] Es entsteht ein vergrößertes Bild. 		
+[[ ]] Das Objektiv muss eine Zerstreuungslinse sein. 		
+********************************************************************************
+
+* Es wird ein virtuelles Bild erzeugt.
+
+  * **Falsch**: Das Bild ist reell, da es auf der Leinwand entsteht.
+
+* Der Abstand zwischen Bild-Chip und Hauptebene des Objektivs muss größer sein
+  als das Doppelte der Brennweite des Objektivs.
+
+  * **Falsch**: In diesem Fall entstünde ein verkleinertes Bild. Projektoren
+    generieren aber vergrößerte Bilder.
+
+* Im Sinne der optischen Abbildung stellt der Bild-Chip den Gegenstand dar.
+
+  * **Richtig**: Der Bild-Chip dient als Gegenstand, dessen (vergrößertes) Bild
+    auf der Leinwand sichtbar wird.
+
+* Damit das Bild auf der Leinwand richtig herum erscheint, muss es auf dem
+  Bild-Chip kopfstehend und seitenverkehrt sein.
+
+  * **Richtig**: Reelle Bilder entstehen stets kopfstehend & seitenverkehrt.
+    Damit das Bild auf der Leinwand korrekt erscheint, muss es dementsprechend
+    auf dem Bilchip „verkehrt herum“ sein.
+
+* Wird die Brennweite des Objektivs verändert, so ändert sich die Größe des
+  projizierten Bilds auf der Leinwand.
+
+  * **Richtig**: Dies wird zum Beispiel bei Zoom-Objektiven genutzt, bei denen
+    die Brennweite des Objektivs verändert wird.
+
+* Wird das Objektiv entlang der optischen Achse verschoben, so ändern sich
+  Gegenstands- und Bildweite. Dies kann zum Scharfstellen des Bilds genutzt werden.
+
+  * **Richtig**: Durch die Verschiebung ändern sich Gegenstands- und Bildweite
+    und es kann die Einstellung gesucht werden, bei der Abbildungsgleichung
+    erfüllt ist.
+
+* Es entsteht ein vergrößertes Bild.
+
+  * **Richtig**: Dies ist der Zweck eines Beamers. Der Bildchip selbst hat nur
+    eine Abmessung von wenigen Zentimetern, während das entstehende Bild mehrere
+    Meter groß sein kann.
+
+* Das Objektiv muss eine Zerstreuungslinse sein.
+
+  * **Falsch**: Zerstreuungslinsen erzeugen grundsätzlich virtuelle Bilder.
+    Reelle Bilder werden stets mit Sammellinsen erzeugt.
+
+********************************************************************************
+
+#### Fresnel’scher Doppelspiegelversuch
+
+Beim sogenannten Fresnelschen Doppelspiegelversuch wird ein Laserstrahl durch
+zwei gegeneinander verkippte Spiegel in zwei separate Lichtbündel aufgespalten
+(siehe Zeichnung). Durch eine Sammellinse werden diese beiden Lichtbündel so
+abgelenkt, dass sie sich auf einem Beobachtungsschirm überlagern.
+
+<figure>
+<img src="grafik_uebung/doppelspiegel.svg" alt="Skizze des Versuchsaufbaus">
+</figure>
+
+Bewerten Sie die Richtigkeit der nachfolgenden Aussagen über diesen Versuch.
+
+[[ ]] Dieser Versuch lässt sich nur im Teilchenmodell des Lichts verstehen. 		
+[[ ]] Der Überlagerungsbereich ist gleichmäßig ausgeleuchtet. Er erscheint heller als die Bereiche, die nur von einem Teilstrahl getroffen werden. 		
+[[X]] Der Überlagerungsbereich zeigt ein periodisches Muster aus hellen und dunklen Streifen. 		
+[[ ]] Der Versuch würde das gleiche Ergebnis liefern, wenn auf den Doppelspiegel verzichtet würde und die beiden Lichtbündel von zwei separaten Lasern erzeugt würden. 		
+[[X]] Damit ein Interferenzmuster beobachtet werden kann, muss der Gangunterschied der an einem Punkt ankommenden Teilwellen zeitlich konstant sein. 		
+[[X]] Interferenzminima treten an Stellen auf, wo der Gangunterschied der ankommenden Teilwellen $\frac{\lambda}{2}$ beträgt (oder ein ungeradzahliges Vielfaches hiervon). 		
+[[ ]] Die beiden Lichtbündel kreuzen sich in ihrem Verlauf mehrfach (siehe obige Skizze). Dabei entsteht jedesmal ein Interferenzmuster, das in den Lichtwellen „gespeichert“ ist. Die Beobachtung der Interferenzmuster ist daher auch möglich, wenn der Schirm außerhalb des Überlagerungsbereichs aufgestellt wird. 		
+[[X]] Das beobachtete Interferenzmuster entsteht, da der Gangunterschied der ankommenden Lichtwellen an jeder Stelle des Schirms unterschiedlich ist. 		
+********************************************************************************
+
+* Dieser Versuch lässt sich nur im Teilchenmodell des Lichts verstehen.
+
+  * **Falsch**: Dieses Experiment weist die Interferenz nach, die ein
+    charakteristisches Wellenphänomen ist.
+
+* Der Überlagerungsbereich ist gleichmäßig ausgeleuchtet. Er erscheint heller
+  als die Bereiche, die nur von einem Teilstrahl getroffen werden.
+
+  * **Falsch**: Im Überlagerungsbereich kommt es aufgrund von Interferenz zur
+    Ausbildung von Maxima und Minima.
+
+* Der Überlagerungsbereich zeigt ein periodisches Muster aus hellen und dunklen
+  Streifen.
+
+  * **Richtig**: Diese Maxima und Minima entstehen durch Interferenz der Wellen
+    aus den beiden Lichtbündeln.
+
+* Der Versuch würde das gleiche Ergebnis liefern, wenn auf den Doppelspiegel
+  verzichtet würde und die beiden Lichtbündel von zwei separaten Lasern erzeugt würden.
+
+  * **Falsch**: Zwei separate Lichtquellen sind nicht kohärent zueinander, d.h.
+    ihre gegenseitige Phasenbeziehung ist nicht konstant. Auf diese Weise könnte
+    kein Interferenzmuster entstehen und der Überlagerungsbereich würde
+    lediglich heller erscheinen als die Bereiche, die nur von einem Teilstrahl
+    getroffen werden.
+
+* Damit ein Interferenzmuster beobachtet werden kann, muss der Gangunterschied
+  der an einem Punkt ankommenden Teilwellen zeitlich konstant sein.
+
+  * **Richtig**: Andernfalls würden sich die Maxima und Minima permanent und
+    sehr schnell verschieben, was zu einem gleichmäßig ausgeleuchteten
+    Überlagerungsbereich führen würde. Aus diesem Grund lässt sich dieser
+    Versuch auch nicht mit zwei separaten Lichtquellen realisieren (siehe
+    vorherige Aussage).
+
+* Interferenzminima treten an Stellen auf, wo der Gangunterschied der
+  ankommenden Teilwellen $\frac{\lambda}{2}$ beträgt (oder ein ungeradzahliges
+  Vielfaches hiervon).
+
+  * **Richtig**: So treffen stets Wellenberge auf Wellentäler, was zur
+    vollständigen Auslöschung (destruktive Interferenz) führt.
+
+* Die beiden Lichtbündel kreuzen sich in ihrem Verlauf mehrfach (siehe obige
+  Skizze). Dabei entsteht jedesmal ein Interferenzmuster, das in den Lichtwellen
+  „gespeichert“ ist. Die Beobachtung der Interferenzmuster ist daher auch
+  möglich, wenn der Schirm außerhalb des Überlagerungsbereichs aufgestellt wird.
+
+  * **Falsch**: Wellen überlagern sich ungestört (Prinzip der Superposition).
+    Interferenzmuster sind nur am Ort der Überlagerung beobachtbar. Die
+    beteiligten Wellen selbst werden nicht verändert.
+
+* Das beobachtete Interferenzmuster entsteht, da der Gangunterschied der
+  ankommenden Lichtwellen an jeder Stelle des Schirms unterschiedlich ist.
+
+  * **Richtig**: Maxima entstehen an Positionen, bei denen der Gangunterschied
+    ein Vielfaches der Wellenlänge beträgt. Minima entstehen an Positionen, wo
+    der der Gangunterschied ein ungeradzahliges Vielfaches der halben
+    Wellenlänge beträgt. Durch die Abfolge unterschiedlicher Gangunterschiede in
+    der Ebene des Beobachtungsschirms entsteht das Interferenzmuster.
+
+********************************************************************************
 
 #### Einzelspalt
 Ein roter Laserstrahl trifft auf eine schmale Spaltblende. Auf einem Schirm
@@ -2674,6 +3883,120 @@ folgenden Aussagen sind richtig?
 [[X]] Zwei Teilwellen löschen sich gegenseitig aus, wenn ihr Gangunterschied ein ungeradzahliges Vielfaches der halben Wellenlänge ist: $\Delta s = \frac{2m+1}{2}\lambda$.
 [[ ]] Eine Verbreiterung des Spalts bewirkt, dass die Abstände zwischen benachbarten Maxima größer werden.
 [[ ]] Wird der ursprüngliche rote Laser gegen einen grünen ausgetauscht, so ändern sich die Positionen der Maxima und Minima nicht.
+********************************************************************************
+
+* Die größte Intensität ist im nullten Maximum zu beobachten, das sich geradlinig
+  (in Strahlrichtung) hinter dem Spalt befindet.
+
+  * **Richtig**: Die Intensitäten der Maxima höherer Ordnung sind erheblich
+    kleiner.
+
+* Die Maxima höherer Ordnung weisen alle identische Intensitäten auf, da stets
+  der gleiche Anteil an Teilwellen beiträgt.
+
+  * **Falsch**: Mit zunehmender Ordnung nimmt die Intensität der Maxima ab.
+
+* Minima entstehen an Positionen, an denen sich alle ankommenden Teilwellen
+  gegenseitig auslöschen.
+
+  * **Richtig**: Minima sind Orte vollständiger destruktiver Interferenz
+
+* Zwei Teilwellen löschen sich gegenseitig aus, wenn ihr Gangunterschied ein
+  ungeradzahliges Vielfaches der halben Wellenlänge ist:
+  $\Delta s = \frac{2m+1}{2}\lambda$.
+
+  * **Richtig**: Dann fallen jeweils Wellenberg und Wellental zusammen.
+
+* Eine Verbreiterung des Spalts bewirkt, dass die Abstände zwischen benachbarten
+  Maxima größer werden.
+
+  * **Falsch**: Die Breite der Maxima und Minima verhalten sich invers zur
+    Spaltbreite. Ein breiterer Spalt führt zu kleineren Abständen im
+    Beugungsmuster. Wird der Spalt im Vergleich zur Wellenlängen sehr groß,
+    kann schließlich kein Beugungsmuster mehr beobachtet werden.
+
+* Wird der ursprüngliche rote Laser gegen einen grünen ausgetauscht, so ändern
+  sich die Positionen der Maxima und Minima nicht.
+
+  * **Falsch**: Grünes Licht hat eine kürzere Wellenlänge als rotes. Die
+    Abstände zwischen den Maxima und Minima werden dadurch kleiner.
+
+********************************************************************************
+
+#### Beugungsmuster
+Das Licht eines roten Lasers (Wellenlänge $\lambda = 656~\mathrm{nm}$) fällt auf
+einen schmalen Einzelspalt (Spaltbreite $d = 0{,}1~\mathrm{mm}$). In einer
+Entfernung von $l = 1~\mathrm m$ hinter dem Spalt ist ein Schirm aufgestellt,
+auf dem das nachfolgende Muster beobachtet wird:
+
+<figure>
+<img src="grafik_uebung/Beugung.png" alt="Beugungsmuster">
+</figure>
+
+Beurteilen Sie die Richtigkeit der nachfolgenden Aussagen ausgehend von der oben beschriebenen Anordnung.
+
+[[ ]] Die Maxima und Minima entstehen, weil Anteile des Laserlichts an den Kanten des Spalts reflektiert werden. 		
+[[X]] Wird der rote Laser gegen einen grünen (Wellenlänge $\lambda = 532~\mathrm{nm}$) ausgetauscht, werden die Abstände zwischen den Maxima und Minima kleiner. 		
+[[ ]] Die Breite des Einzelspalts hat keinen Einfluss auf die Lage der Maxima und Minima, sondern bestimmt lediglich deren Helligkeit. 		
+[[ ]] Da das entstehende Muster (annähernd) waagerecht verläuft, muss auch der Spalt (annähernd) waagerecht orientiert sein. 		
+[[X]] Minima entstehen an Positionen, an denen sich alle ankommenden Teilwellen gegenseitig auslöschen (destruktive Interferenz). 		
+[[X]] Damit sich zwei Teilwellen gegenseitig vollständig auslöschen, muss ihr Gangunterschied ein ungeradzahliges Vielfaches der halben Wellenlänge betragen. 		
+[[X]] Die Breite der Minima und Maxima wird auch durch den Abstand zwischen Spalt und Schirm bestimmt. 		
+[[ ]] Wird der Spalt im Uhrzeigersinn gedreht, so dreht sich das entstehende Beugungsmuster gegen den Uhrzeigersinn. 		
+********************************************************************************
+
+* Die Maxima und Minima entstehen, weil Anteile des Laserlichts an den Kanten
+  des Spalts reflektiert werden.
+
+  * **Falsch**: Das Licht wird am Spalt gebeugt. Reflexion spielt hierbei keine
+    Rolle.
+
+* Wird der rote Laser gegen einen grünen (Wellenlänge
+  $\lambda = 532~\mathrm{nm}$) ausgetauscht, werden die Abstände zwischen den
+  Maxima und Minima kleiner.
+
+  * **Richtig**: Mit kleiner werdender Wellenlänge werden auch die
+    Beugungswinkel der Maxima und Minima und damit auch deren Abstände auf dem
+    Schirm kleiner.
+
+* Die Breite des Einzelspalts hat keinen Einfluss auf die Lage der Maxima und
+  Minima, sondern bestimmt lediglich deren Helligkeit.
+
+  * **Falsch**: Je breiter der Spalt, umso enger liegen Maxima und Minima
+    beieinander. Für große Spaltbreiten sind schließlich keine Beugungseffekte
+    mehr beobachtbar.
+
+* Da das entstehende Muster (annähernd) waagerecht verläuft, muss auch der Spalt
+  (annähernd) waagerecht orientiert sein.
+
+  * **Falsch**: Die Auffächerung der Strahls geschieht senkrecht zur
+    Spaltrichtung. Der Spalt verläuft also (annähernd) senkrecht.
+
+* Minima entstehen an Positionen, an denen sich alle ankommenden Teilwellen
+  gegenseitig auslöschen (destruktive Interferenz).
+
+  * **Richtig**: Auf diese Weise wird die Intensität Null.
+
+* Damit sich zwei Teilwellen gegenseitig vollständig auslöschen, muss ihr
+  Gangunterschied ein ungeradzahliges Vielfaches der halben Wellenlänge betragen.
+
+  * **Richtig**: Wenn Maximum auf Minimum trifft, kommt es zur gegenseitigen
+    Ausläschung.
+
+* Die Breite der Minima und Maxima wird auch durch den Abstand zwischen Spalt
+  und Schirm bestimmt.
+
+  * **Richtig**: Spaltbreite und Wellenlänge des Lichts bestimmen die
+    Beugungswinkel. Der Abstand zum Schirm bestimmt dann die sichtbaren
+    Abstände.
+
+* Wird der Spalt im Uhrzeigersinn gedreht, so dreht sich das entstehende
+  Beugungsmuster gegen den Uhrzeigersinn.
+
+  * **Falsch**: Das Beugungsmuster verläuft stets senkrecht zur Spaltrichtung
+    und dreht sich deshalb in die gleiche Richtung mit.
+
+********************************************************************************
 
 ### Übungsaufgaben
 
@@ -2702,9 +4025,12 @@ Geschwindigkeit von $v_\mathrm w = 0{,}9~\frac{\mathrm m}{\mathrm s}$.
 
    1. Zunächst zum Punkt $\left( 35~\mathrm m, 20~\mathrm m \right)$, danach nach
       $\vec r_\mathrm s$.
+      [[ $t_1 = 40{,}3~\mathrm s$ | ($t_1 = 41{,}2~\mathrm s$) | $t_1 = 43{,}6~\mathrm s$ ]]
    2. Zunächst zum Punkt $\left( 28{,}65~\mathrm m, 20~\mathrm m \right)$, danach nach
       $\vec r_\mathrm s$.
+      [[ ($t_2 = 40{,}3~\mathrm s$) | $t_2 = 41{,}2~\mathrm s$ | $t_2 = 43{,}6~\mathrm s$ ]]
    3. Auf geradlinigem Weg von $\left( 0, 0 \right)$ nach $\vec r_\mathrm s$.
+      [[ $t_3 = 40{,}3~\mathrm s$ | $t_3 = 41{,}2~\mathrm s$ | ($t_3 = 43{,}6~\mathrm s$) ]]
 
 2. Welchen Bezug hat diese Aufgabe zur Optik?
 
@@ -2853,6 +4179,76 @@ $$n_\mathrm W =1{,}37$$
 
 ********************************************************************************
 
+#### Lichtgeschwindigkeit
+Ein Laser-Entfernungssensor arbeitet nach folgendem Prinzip: Er sendet einzelne
+Lichtpulse aus, die am angepeilten Objekt reflektiert werden und zurück in den
+Sensor gelangen. Dort wird die Laufzeit des Lichts zwischen Aussendung und
+Eintreffen des reflektierten Lichts gemessen und anschließend in eine Entfernung
+umgerechnet, wobei die Vakuum-Lichtgeschwindigkeit zu Grunde gelegt wird.
+
+<figure>
+<img src="grafik_uebung/grafik_lichtgeschwindigkeit.svg" alt="Schematische Darstellung des in der Aufgabenstellung beschriebenen Aufbaus">
+</figure>
+
+1.  Welche Laufzeit misst der Sensor, wenn das Objekt $s = 22~\mathrm m$
+    entfernt ist?
+2.  Um welchen Betrag ändert sich die gemessene Laufzeit des Lichts, wenn sich
+    zwischen Sensor und angepeiltem Objekt eine Glasscheibe (Dicke
+    $d = 7~\mathrm{mm}$, Brechungsindex $n_\mathrm g = 1{,}58$) befindet?
+
+-----
+
+* Lösung Teil 1
+
+[[ $t=74{,}61~\mathrm{ns}$ | ($t=146{,}76~\mathrm{ns}$) | $t=218{,}22~\mathrm{ns}$ | $t=561{,}39~\mathrm{ns}$ | $t=782{,}42~\mathrm{ns}$ ]]
+********************************************************************************
+
+Da sich Licht gleichförmig ausbreitet, können die Gesetze der gleichförmigen
+Bewegung angewendet werden. Somit gilt
+
+$$t = \frac{2s}{c_0} \, ,$$
+
+wobei $c_0 = 2{,}998\cdot 10^8~\frac{\mathrm m}{\mathrm s}$ die
+Vakuumlichtgeschwindigkeit bezeichnet. Der Faktor 2 entsteht, da die Strecke $s$
+zweifach zurückgelegt wird (Hin- und Rückweg). Als Laufzeit ergibt sich
+
+$$t = \frac{2s}{c_0} = 146{,}76~\mathrm{ns} \, .$$
+
+********************************************************************************
+
+* Lösung Teil 2
+
+[[ ($\Delta t = 0{,}027~\mathrm{ns}$) | $\Delta t = 0{,}23~\mathrm{ns}$ | $\Delta t = 0{,}41~\mathrm{ns}$ | $\Delta t = 0{,}69~\mathrm{ns}$ | $\Delta t = 0{,}85~\mathrm{ns}$ ]]
+********************************************************************************
+
+Für diese Fragestellung muss lediglich der Lichtweg über die Strecke $2d$
+betrachtet werden. Der Faktor 2 entsteht auch hier wieder, da die Glasplatte
+zweimal passiert wird. Ohne Glasplatte legt das Licht diese Strecke mit der
+Geschwindigkeit $c_0$ zurück und die Laufzeit beträgt
+
+$$t_0 = \frac{2d}{c_0} \, .$$
+
+In der Glasplatte breitet sich das Licht mit der (geringeren) Geschwindigkeit
+$c_\mathrm g$ aus, für die gilt
+
+$$c_\mathrm g = \frac{c_0}{n_\mathrm g} \, .$$
+
+Die Laufzeit durch die Glasplatte beträgt damit
+
+$$t_\mathrm g = \frac{2d}{c_\mathrm g} = \frac{2dn_\mathrm g}{c_0} \, .$$
+
+Daraus folgt für die Laufzeitdifferenz, die durch das Einfügen der Glasplatte
+hervorgerufen wird:
+
+$$\begin{aligned}
+\Delta t & = t_\mathrm g - t_0 \\
+& = \frac{2dn_\mathrm g}{c_0} - \frac{2d}{c_0} \\
+& = \frac{2d}{c_0} \left( n_\mathrm g -1 \right) \\
+& = 0{,}027~\mathrm{ns} \, .
+\end{aligned}$$
+
+********************************************************************************
+
 #### Beamer-Objektiv
 Das Objektiv eines Beamers hat die Brennweite $f=100~\mathrm{mm}$. Der Chip,
 der das zu projizierende Bild im Inneren des Beamers erzeugt hat eine Breite von
@@ -2890,6 +4286,51 @@ $$b=\left(1+\frac BG\right) f = \left(1+\frac{3000~\mathrm{mm}}{30~\mathrm{mm}}\
 
 ********************************************************************************
 
+#### Porträtfotografie
+Porträtfotos werden bevorzugt mit einem Tele-Objektiv (d.h. Brennweite
+$>50~\mathrm{mm}$ bei Vollformatkameras) aufgenommen, um unschöne Verzerrungen
+zu vermeiden. Ein Hobbyfotograf möchte ein Porträt von einer Person aufnehmen.
+Aufgrund des begrenzten Platzes in seinem Fotostudio kann der Abstand zwischen
+Kamera (gemessen von der optischen Hauptebene des Objektivs) und der zu
+fotografierenden Person nicht größer als $1{,}8~\mathrm m$ sein. Welche maximale
+Brennweite kann dabei verwendet werden, wenn ein Ausschnitt von $50~\mathrm{cm}$
+Höhe erfasst werden soll? Die Kamera habe einen Vollformat-Sensor mit der Größe
+$24~\mathrm{mm} \times 36~\mathrm{mm}$ und wird selbstverständlich im Hochformat
+verwendet. Das Objektiv kann als dünne Linse behandelt werden.
+
+[[ $f = 34~\mathrm{mm}$ | $f = 53~\mathrm{mm}$ | $f = 86~\mathrm{mm}$ | ($f = 121~\mathrm{mm}$) ]]
+********************************************************************************
+
+Die Abbildungsgleichung beschreibt den Zusammenhang zwischen Brennweite $f$,
+Bildweite $b$ sowie Gegenstandsweite $g$:
+
+$$\frac{1}{f} = \frac{1}{g} + \frac{1}{b} \, .$$
+
+Da die Bildweite unbekannt ist, wird zudem der Abbildungsmaßstab genutzt:
+
+$$\frac{g}{b} = \frac{G}{\left| B \right|} \, .$$
+
+Für die Bildweite (bzw. deren Reziprokwert) ergibt sich hieraus:
+
+$$\frac{1}{b} = \frac{1}{g}\frac{G}{\left| B \right|} \, .$$
+
+Dies wird in die Abbildungsgleichung eingesetzt:
+
+$$\frac{1}{f} = \frac{1}{g} + \frac{1}{g}\frac{G}{\left| B \right|} = \frac{1}{g}\left(\frac{G}{\left| B \right|} + 1 \right) \, .$$
+
+Für die Brennweite bedeutet das:
+
+$$f = \frac{g}{\frac{G}{\left| B \right|} + 1} \, .$$
+
+Die Gegenstandsweite ist der (maximale) Abstand zwischen Objektiv und der zu
+fotografierenden Person: $g=1{,}8~\mathrm m$. Die Gegenstandsgröße ist als Höhe
+des zu erfassenden Ausschnitts gegeben: $G=50~\mathrm{cm}$. Demzufolge muss als
+Bildgröße ebenfalls die Höhe des (im Hochformat verwendeten) Bildsensors
+angesetzt werden: $|B| = 36~\mathrm{mm}$. Dies ergibt als maximale Brennweite
+
+$$f = 121~\mathrm{mm} \, .$$
+
+********************************************************************************
 
 ## Übung 8: Moderne Physik
 Das letzte Kapitel dieser Übungssammlung enthält Fragen, die über die klassische
@@ -2903,6 +4344,129 @@ Konsultationstermin oder jederzeit bei Vorlesendem oder Übungsleiter.
 
 ### Verständnisfragen
 
+#### Hallwachs-Versuch
+In der Vorlesung wurde der äußere Photoeffekt (Hallwachs-Effekt) demonstriert.
+Dazu wurden folgende Utensilien benutzt (siehe Abbildung):
+
+* Zinkplatte
+* Elektrometer (Messgerät zur Ladungsmessung), das mit der Zinkplatte verbunden ist
+* Reibzeug (PVC-Stab und Nylonstrumpf) zur elektrostatischen Aufladung
+* Bogenlampe
+
+  **Hinweis**: Das Licht der Bogenlampe enthält neben dem sichtbaren Anteil auch
+  Infrarot- (größere Wellenlängen als das sichtbare Licht) und
+  Ultraviolettstrahlung (kleinere Wellenlängen als das sichtbare Licht).
+
+*  Glasscheibe
+
+<figure>
+<img src="grafik_uebung/Hallwachs.jpg" alt="Foto des Versuchsaufbaus">
+</figure>
+
+Die Durchführung dieses Versuchs läuft wie folgt:
+
+1. Die Zinkplatte wird (bei ausgeschalteter Bogenlampe) mit dem Reibzeug
+   negativ aufgeladen.
+
+  * Beobachtung: Das Elektrometer zeigt eine Aufladung der Platte an.
+  * Die Ladung auf der Platte bleibt erhalten (keine Entladung).
+
+2. Die Platte wird mit dem Licht der Bogenlampe bestrahlt.
+
+   * Beobachtung: Das Elektrometer zeigt eine Entladung der Platte an.
+
+3. Die Zinkplatte wird (wieder bei ausgeschalteter Bogenlampe) erneut
+   aufgeladen.
+
+   * Beobachtung: Wie in Schritt 1
+
+4. Die Glasscheibe wird zwischen Lampe und Zinkplatte aufgestellt, sodass das
+   Licht zunächst diese Scheibe passieren muss, bevor es auf die Metallplatte
+   trifft.
+5. Die Bogenlampe wird wieder eingeschalten und beleuchtet durch die Glasscheibe
+   hindurch die Zinkplatte.
+
+   * Beobachtung: Es tritt keine Entladung der Platte auf.
+
+6. Die Glasscheibe wird (bei weiterhin eingeschalteter Lampe) entfernt.
+
+   * Beobachtung: Es kommt zur Entladung der Platte
+
+7. Die Glasscheibe wird wieder in den Lichtweg gebracht.
+
+   * Beobachtung: Die Entladung der Platte wird gestoppt.
+
+Beurteilen Sie die Richtigkeit der folgenden Aussagen zu diesem Versuch.
+
+[[X]] Nach der Aufladung der Platte (Schritt 1 & 3) verhindert die Austrittsarbeit des Zinks, dass Elektronen die Platte verlassen. 		
+[[X]] Für die Entladung der Platte ist nur die Ultraviolettstrahlung der Bogenlampe verantwortlich. 		
+[[X]] Die Energie, die das Licht auf ein Elektron der Platte übertragen kann, wird durch die Wellenlänge des Lichts bestimmt. 		
+[[ ]] Für die Entladung der Platte ist nur die Infrarotstrahlung der Bogenlampe verantwortlich. 		
+[[ ]] Die Glasscheibe erhöht die Austrittsarbeit der Metallplatte. 		
+[[ ]] Für die Entladung der Platte ist nur das sichtbare Licht der Bogenlampe verantwortlich. 		
+[[X]] Ein Elektron nimmt stets nur die Energie eines Lichtquants (Photons) auf. Ist dessen Energie kleiner als die Austrittsarbeit des Zinks, kann das Elektron die Platte nicht verlassen. 		
+[[ ]] Die Entladung der Platte (Schritte 2 & 6) entsteht, weil das Licht der Bogenlampe die Metallplatte erwärmt. 		
+********************************************************************************
+
+Für die Energie eines Photons mit der Frequenz f gilt:
+
+$$E_\mathrm{Ph} = hf = h\frac{c}{\lambda} \, .$$
+
+Photonen kleinerer Wellenlänge besitzen demzufolge größere Energien.
+
+* Nach der Aufladung der Platte (Schritt 1 & 3) verhindert die Austrittsarbeit
+  des Zinks, dass Elektronen die Platte verlassen.
+
+  * **Richtig**: Austrittsarbeit bezeichnet die Energiebarriere, die die
+    Elektronen (mindestens) überwinden müssen, um die Metallplatte zu verlassen.
+
+* Für die Entladung der Platte ist nur die Ultraviolettstrahlung der Bogenlampe
+  verantwortlich.
+
+  * **Richtig**: Das UV-Licht kann die Glasscheibe nicht passieren, wodurch das
+    Ausbleiben der Entladung in diesem Fall zu erklären ist. Langwelligere
+    Photonen (sichtbares und Infrarot-Licht) tragen nicht genügend Energie zur
+    Überwindung der Austrittsarbeit.
+
+* Die Energie, die das Licht auf ein Elektron der Platte übertragen kann, wird
+  durch die Wellenlänge des Lichts bestimmt.
+
+  * **Richtig**: Dies ist eine der Grundaussagen der Quantenoptik (siehe oben),
+    die durch diesen Versuch bestätigt wird.
+
+* Für die Entladung der Platte ist nur die Infrarotstrahlung der Bogenlampe
+  verantwortlich.
+
+  * **Falsch**: Nur die energiereiche UV-Strahlung führt zur Entladung (siehe
+    Aussage 2).
+
+* Die Glasscheibe erhöht die Austrittsarbeit der Metallplatte.
+
+  * **Falsch**: Die in makroskopischer Entfernung aufgestellte Platte hat
+    keinerlei Einfluss auf die Energieverhältnisse der Metallplatte.
+
+* Für die Entladung der Platte ist nur das sichtbare Licht der Bogenlampe
+  verantwortlich.
+
+  * **Falsch**: Nur die energiereiche UV-Strahlung führt zur Entladung (siehe
+    Aussage 2).
+
+* Ein Elektron nimmt stets nur die Energie eines Lichtquants (Photons) auf. Ist
+  dessen Energie kleiner als die Austrittsarbeit des Zinks, kann das Elektron
+  die Platte nicht verlassen.
+
+  * **Richtig**: Aus diesem Grund bleibt die Entladung aus, wenn das
+    energiereiche (kurzwellige) UV-Licht durch die Glasplatte blockiert wird.
+
+* Die Entladung der Platte (Schritte 2 & 6) entsteht, weil das Licht der
+  Bogenlampe die Metallplatte erwärmt.
+
+  * **Falsch**: Tatsächlich führt die Bestrahlung der Platte auch zu einer
+    Erwärmung. Diese ist jedoch viel zu gering, als dass Elektronen zur
+    thermischen Emission angeregt werden könnten.
+
+********************************************************************************
+
 #### Äußerer Photoeffekt
 Beim äußeren Photoeffekt trifft Licht auf eine Metallplatte und löst Elektronen
 aus dieser Platte heraus. Welche der folgenden Aussagen zu diesem Effekt sind
@@ -2914,6 +4478,49 @@ richtig?
 [[X]] Der Effekt tritt nur bei hinreichend kleinen Wellenlängen des bestrahlenden Lichts auf.
 [[X]] Ein Elektron nimmt stets nur die Energie eines Photons auf. Reicht dessen Energie nicht zur Freisetzung, so bleibt das Elektron in der Platte gebunden.
 [[X]] Wird ein Elektron aus der Platte freigesetzt, so besitzt es eine kinetische Energie, die der Differenz zwischen der Energie des eintreffenden Photons und der Bindungsenergie die Elektrons entspricht.
+********************************************************************************
+
+* Um Elektronen aus der Metallplatte freizusetzen, muss deren Austrittsarbeit
+  überwunden werden.
+
+  * **Richtig**: Als Austrittsarbeit wird die Energiebarriere bezeichnet, mit
+    der Elektronen in der Platte gebunden sind.
+
+* Es werden nur Elektronen aus den höchsten besetzten Energieniveaus freigesetzt.
+
+  * **Richtig**: Um Elektronen aus tieferen Energieniveaus freizusetzen, würden
+    deutlich höhere Energien benötigt, als durch Licht übertragen werden können.
+
+* Der Effekt tritt nur auf, wenn die Platte mit einer sehr hohen Lichtintensität
+  bestrahlt wird.
+
+  * **Falsch**: Der Energieübertrag auf die Elektronen wird nicht durch die
+    Intensität des Lichts bestimmt. Eine höhere Intensität erhöht zwar die Rate
+    an freigesetzten Elektronen pro Zeiteinheit, ist jedoch nicht Voraussetzung
+    für diesen Effekt.
+
+* Der Effekt tritt nur bei hinreichend kleinen Wellenlängen des bestrahlenden
+  Lichts auf.
+
+  * **Richtig**: Die Energie eines Photons ist umgekehrt proportional zu dessen
+    Wellenlänge.
+
+* Ein Elektron nimmt stets nur die Energie eines Photons auf. Reicht dessen
+  Energie nicht zur Freisetzung, so bleibt das Elektron in der Platte gebunden.
+
+  * **Richtig**: Die gebundenen Elektronen können nicht die Energie mehrerer
+    Photonen kumulieren.
+
+* Wird ein Elektron aus der Platte freigesetzt, so besitzt es eine kinetische
+  Energie, die der Differenz zwischen der Energie des eintreffenden Photons und
+  der Bindungsenergie die Elektrons entspricht.
+
+  * **Richtig**: Die „überschüssige“ Energie des Photons geht in die
+    Bewegungsenergie des freigesetzten Elektrons über. Da die kinetische Energie
+    nicht gequantelt ist, können hier beliebige Energiebeträge aufgenommen
+    werden.
+
+********************************************************************************
 
 #### Photon
 Im Rahmen der Quantenoptik werden Lichtteilchen als Photonen bezeichnet. Welche
@@ -2925,6 +4532,306 @@ der folgenden Aussagen sind korrekt?
 [[X]] Das Photon besitzt einen Impuls, der experimentell nachgewiesen werden kann.
 [[X]] Die Lichtintensität, die auf einem Sensor registriert wird, entspricht der Anzahl der Photonen, die pro Zeiteinheit auf diesen Sensor auftreffen.
 [[ ]] Photonen sind ein reines Gedankenmodell, das experimentell nicht zugänglich ist, da keine Detektion einzelner Photonen möglich ist.
+********************************************************************************
+
+* Die Energie eines Photons wird durch dessen Frequenz bzw. Wellenlänge bestimmt.
+
+  * **Richtig**: Es gilt $E_\mathrm{Ph} = hf = \frac{hc}{\lambda}$.
+
+* Ein Photon kann beliebige Anteile seiner Energie abgeben.
+
+  * **Falsch**: Photonen können nur vollständig absorbiert werden.
+
+* Das (einzelne) Photon besitzt nur Teilcheneigenschaften. Die
+  Welleneigenschaften des Lichts entstehen erst durch Überlagerung vieler
+  Photonen.
+
+  * **Falsch**: Phänomene wie die Interferenz werden auch an einzelnen Photonen
+    beobachtet. Das Photon interferiert mit sich selbst.
+
+* Das Photon besitzt einen Impuls, der experimentell nachgewiesen werden kann.
+
+  * **Richtig**: Der Compton-Effekt weist beispielsweise den Photonenimpuls
+    nach.
+* Die Lichtintensität, die auf einem Sensor registriert wird, entspricht der
+  Anzahl der Photonen, die pro Zeiteinheit auf diesen Sensor auftreffen.
+
+  * **Richtig**: Dies stellt in gewisser Weise eine Brücke zur Wellenoptik dar.
+
+* Photonen sind ein reines Gedankenmodell, das experimentell nicht zugänglich
+  ist, da keine Detektion einzelner Photonen möglich ist.
+
+  * **Falsch**: Beispielsweise können Detektoren, die auf dem äußeren
+    Photoeffekt beruhen, aus einem einzelnen Photon einen messbaren
+    Spannungspuls erzeugen.
+
+********************************************************************************
+
+#### Doppelspaltexperimente
+In einem Doppelspaltexperiment werden zwei schmale Spalte, die dicht
+nebeneinander (d.h., Spaltabstand und Spaltbreite liegen in derselben
+Größenordnung) parallel angeordnet sind, mit Licht oder einer anderen Strahlung
+beleuchtet/bestrahlt. Spaltbreite und -abstand sind dabei auf die verwendete
+Strahlung abgestimmt. Im Falle von Licht liegen beide Größen in derselben
+Größenordnung wie die Wellenlänge des Lichts. Hinter dem Doppelspalt befindet
+sich ein Messgerät, dass die Intensität der ankommenden Strahlung ortsaufgelöst
+erfassen kann. Im Falle von sichtbarem Licht kann dies auch ein
+eobachtungsschirm sein, auf dem die Lichtintensität visuell beurteilt wird.
+
+Die folgenden Aussagen beziehen sich auf Doppelspaltexperimente mit dem
+intensiven Licht eines Lasers oder einer Weißlichtquelle. Während ein Laser
+monochromatisch arbeitet (d.h., er strahlt nur Licht einer bestimmten
+Wellenlänge ab), sind im weißen Licht alle Wellenlängen des sichtbaren Bereichs
+enthalten. Beurteilen Sie die Richtigkeit der Aussagen.
+
+[[X]] Aufgrund der hohen Lichtintensität der Laserstrahlung kann in diesem Fall bereits mit bloßem Auge ein Interferenzmuster auf dem Beobachtungsschirm erkannt werden. 		
+[[X]] Bei der Verwendung von weißem Licht liegen die Maxima für die einzelnen Wellenlängen an unterschiedlichen Positionen, sodass das Licht in den Interferenzmaxima in seine Farbbestandteile aufgespalten wird.
+********************************************************************************
+
+* Aufgrund der hohen Lichtintensität der Laserstrahlung kann in diesem Fall
+  bereits mit bloßem Auge ein Interferenzmuster auf dem Beobachtungsschirm erkannt werden.
+
+  * **Richtig**: Ein einfacher Laserpointer genügt, um Interferenzmuster zu
+    erzeugen, die mit bloßem Auge erkennbar sind.
+
+* Bei der Verwendung von weißem Licht liegen die Maxima für die einzelnen
+  Wellenlängen an unterschiedlichen Positionen, sodass das Licht in den
+  Interferenzmaxima in seine Farbbestandteile aufgespalten wird.
+
+  * **Richtig**: Die Lage der Maxima und Minima hängt auch von der Wellenlänge
+    des verwendeten Lichts ab. Bei weißem Licht führt dies zu einer
+    Farbaufspaltung.
+
+********************************************************************************
+
+Die folgenden Aussagen beziehen sich auf Doppelspaltexperimente mit einzelnen
+Photonen. Die (monochromatische) Lichtquelle wird dabei so betrieben, dass sich
+niemals mehr als ein Photon in der Apparatur befindet. Beurteilen Sie die
+Richtigkeit der Aussagen.
+
+[[ ]] In diesem Fall ist kein Interferenzmuster zu erwarten, da Interferenz stets aus der Überlagerung mehrerer Photonen resultiert. 		
+[[ ]] Die experimentelle Realisierung des Doppelspaltexperiments mit einzelnen Photonen ist (bisher) nicht gelungen, da kein Detektor für Einzelphotonen existiert.
+********************************************************************************
+
+* In diesem Fall ist kein Interferenzmuster zu erwarten, da Interferenz stets
+  aus der Überlagerung mehrerer Photonen resultiert.
+
+  * **Falsch**: Interferenz ist eine Eigenschaft des einzelnen Photons. Das
+    Photon interferiert mit sich selbst.
+
+* Die experimentelle Realisierung des Doppelspaltexperiments mit einzelnen
+  Photonen ist (bisher) nicht gelungen, da kein Detektor für Einzelphotonen existiert.
+
+  * **Falsch**: Beispielsweise können Detektoren, die auf dem äußeren
+    Photoeffekt beruhen (Sekundärelektronenvervielfacher mit Photokathode,
+    engl.: Photomultiplier), aus einem ankommenden Photon einen messbaren
+    Spannungspuls erzeugen.
+
+********************************************************************************		
+
+Die folgenden Aussagen beziehen sich auf Doppelspaltexperimente mit Elektronen,
+die aus einer Kathode emittiert und anschließend durch eine angelegte Spannung
+beschleunigt werden. Um die Ausbreitung der Elektronen nicht zu stören, befindet
+sich der gesamte Aufbau hierbei unter Vakuum. Beurteilen Sie die Richtigkeit der
+Aussagen.
+
+[[ ]] Das entstehende Interferenzmuster beweist noch nicht den Wellencharakter der Elektronen, da eine Erklärung auch anhand von Streuprozessen der (als Teilchen angenommenen) Elektronen möglich ist. 		
+[[ ]] Wird die angelegte Beschleunigungsspannung vergrößert, so nehmen die Abstände zwischen den Maxima im Interferenzmuster zu.
+********************************************************************************
+
+* Das entstehende Interferenzmuster beweist noch nicht den Wellencharakter der
+  Elektronen, da eine Erklärung auch anhand von Streuprozessen der (als Teilchen
+  angenommenen) Elektronen möglich ist.
+
+  * **Falsch**: Eine Aufweitung des Elektronenstrahls kann grundsätzlich auch
+    durch Streuung begründet werden. Die Entstehung von Maxima und Minima lässt
+    sich jedoch nicht durch Streuprozesse erklären.
+
+* Wird die angelegte Beschleunigungsspannung vergrößert, so nehmen die Abstände
+  zwischen den Maxima im Interferenzmuster zu.
+
+  * **Falsch**: Mit größer werdender Beschleunigungsspannung verkleinert sich
+    die Wellenlänge der Elektronen. Folglich nehmen die Abstände im
+    Interferenzmuster ab.
+
+********************************************************************************
+
+#### Wasserstoffatom
+Das Wasserstoffatom ist das am einfachsten aufgebaute Atom: es besitzt genau ein
+Elektron in seiner Elektronenhülle. Die folgende Abbildung zeigt das zugehörige
+Energieniveauschema dieses Atoms:
+
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Wasserstoff-Termschema_einfach2.svg" alt="Energieniveauschema des Wasserstoffatoms">
+<figcaption>Bildquelle: <a href="https://commons.wikimedia.org/wiki/User:HerrvomDorf">Herbert Schletter</a> (derived from a work by <a href="https://en.wikipedia.org/wiki/de:user:Kiko2000">w:de:user:Kiko2000</a> and <a href="https://commons.wikimedia.org/wiki/User:Cepheiden">Cepheiden</a>), <a href="https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_einfach2.svg">Wasserstoff-Termschema einfach2</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="license">CC BY-SA 4.0</a></figcaption>
+</figure>
+
+Die nachfolgenden Aussagen beziehen sich auf das Wasserstoffatom und dessen
+Energieniveauschema. Beurteilen Sie deren Richtigkeit.
+
+Hinweis: Die Photonenenergien des sichtbaren Lichts liegen im Bereich zwischen
+$1{,}77~\mathrm{eV}$ und $3{,}27~\mathrm{eV}$.
+
+[[X]] Das Elektron kann im Wasserstoffatom jeden Zustand einnehmen, der im Energieniveauschema eingetragen und durch eine Hauptquantenzahl n charakterisiert ist. 		
+[[X]] Im Grundzustand befindet sich das Elektron im Zustand $n=1$.
+[[X]] Soll das Elektron von einem Ausgangsniveau in ein Niveau mit höherer Hauptquantenzahl $n$ übergehen, so muss es hierfür Energie aufnehmen. Dies kann beispielsweise durch Absorption elektromagnetischer Strahlung geschehen. 		
+[[X]] Die Strahlung, die bei einem Übergang aus einem angeregten Zustand ($n>1$) in den Grundzustand abgegeben wird, liegt grundsätzlich im Ultraviolettbereich. 		
+[[ ]] Bei keinem der möglichen Übergänge zwischen den Energieniveaus wird sichtbares Licht abgestrahlt. 		
+[[ ]] Das Elektron kann nur zwischen benachbarten Energieniveaus wechseln ($\Delta n= \pm 1$). Es kann kein Energieniveau übersprungen werden.
+********************************************************************************
+
+* Das Elektron kann im Wasserstoffatom jeden Zustand einnehmen, der im
+  Energieniveauschema eingetragen und durch eine Hauptquantenzahl n charakterisiert ist.
+
+  * **Richtig**: Das Elektron kann jeden der diskreten Zustände einnehmen,
+    jedoch keinen Zustand, der zwischen den eingetragenen Energieniveaus liegt.
+
+* Im Grundzustand befindet sich das Elektron im Zustand n=1.
+
+  * **Richtig**: Der Grundzustand ist derjenige mit der niedrigsten Energie.
+
+* Soll das Elektron von einem Ausgangsniveau in ein Niveau mit höherer
+  Hauptquantenzahl $n$ übergehen, so muss es hierfür Energie aufnehmen. Dies kann
+  beispielsweise durch Absorption elektromagnetischer Strahlung geschehen.
+
+  * **Richtig**: Die erforderliche Energiedifferenz zwischen den beteiligten
+    Energieniveaus muss dem Elektronn zugeführt werden. Absorptionsprozesse, wie
+    sie auch im sichtbaren Bereich beobachtet werden können, sind ein möglicher
+    Prozess hierfür.
+
+* Die Strahlung, die bei einem Übergang aus einem angeregten Zustand ($n>1$) in
+  den Grundzustand abgegeben wird, liegt grundsätzlich im Ultraviolettbereich.
+
+  * **Richtig**: Bereits zum nächsthöheren Energieniveau besteht eine
+    Energiedifferenz, die den Bereich des sichtbaren Lichts überschreitet.
+
+* Bei keinem der möglichen Übergänge zwischen den Energieniveaus wird sichtbares
+  Licht abgestrahlt.
+
+  * **Falsch**: Übergänge aus einem höheren Niveau nach $n=2$ emittieren
+    teilweise sichtbares Licht, wie ein Vergleich der Energieniveaus mit den
+    Energien des sichtbaren Lichts zeigt. Beim Übergang $n=3 \rightarrow n=2$
+    liegt das emittierte Licht beispielsweise im roten Spektralbereich.
+
+* Das Elektron kann nur zwischen benachbarten Energieniveaus wechseln
+  ($\Delta n= \pm 1$). Es kann kein Energieniveau übersprungen werden.
+
+  * **Falsch**: Es sind beliebige Wechsel zwischen den einzelnen Energieniveaus
+    möglich. Nur so können die verschiedenen emittierten Photonenenergien (bzw.
+    Wellenlängen) erklärt werden.
+
+********************************************************************************
+
+#### Franck-Hertz-Versuch
+Die nachfolgende Darstellung zeigt eine im Franck-Hertz-Experiment aufgenommene
+Messkurve. Aufgetragen ist die an der Auffängerelektrode gemessene Stromstärke
+$I_\mathrm E$ (in willkürlichen Einheiten) über der Beschleunigungsspannung
+$U_\mathrm B$ zwischen Kathode und Anode. Die verwendete Franck-Hertz-Röhre war
+mit Neongas gefüllt. Der gemessene Strom zeigt über die gesamte Messung einen
+Offset von $\approx 0{,}2~\mathrm{w.E.}$.
+
+<figure>
+<img src="grafik_uebung/FranckHertz.png" alt="Messkurve des Franck-Hertz-Versuchs">
+</figure>
+
+1. Markieren Sie im Diagramm
+
+   1. den Spannungsbereich, bei dem genau zwei Anregungszonen in der
+      Franck-Hertz-Röhre sichtbar sind, sowie
+   2. die Spannung, bei der die erste Anregungszone am nächsten an der Kathode
+      ist.
+
+   [[ (Lösung anzeigen) | Lösung verdeckt halten ]]
+   ********************************************************************************
+
+   Die geforderten Eintragungen sind in der folgenden Abbildung gezeigt:
+
+   <figure>
+   <img src="grafik_uebung/FranckHertz-Lösung.png" alt="Messkurve des Franck-Hertz-Versuchs mit den eingetragenen Lösungen der ersten Teilaufgabe">
+   </figure>
+
+   Erläuterung der Eintragungen:
+
+   1. Das zweite Maximum in der Messkurve markiert die kleinste Spannung, bei der
+      eine zweimalige Anregung möglich ist. Entsprechend markiert das dritte
+      Maximum die kleinste Spannung, bei der drei Anregungen geschehen. Da bei
+      diesen Spannungen die letzte Anregung gerade erst einsetzt, wird die
+      zugehörige Anregungszone noch nicht erkennbar sein. Das jeweils nachfolgende
+      Minimum kennzeichnet die Spannung, bei der die letzte Anregungszone voll
+      ausgebildet und demzufolge auch deutlich sichtbar ist. Die Festlegung der
+      Grenzen des gefragten Spannungsbereichs weist daher eine gewisse Toleranz
+      auf. Sie sollten frühestens im jeweiligen Maximum (wie oben gezeigt) und
+      spätestens im darauffolgenden Minimum angesetzt werden.
+   2. Die Anregungszonen entstehen jeweils unmittelbar vor der Anode und
+      verschieben sich mit zunehmender Spannung in Richtung Kathode. Der kleinste
+      Abstand zur Kathode ist daher bei der größten Spannung gegeben.
+
+   ********************************************************************************
+
+2. Beurteilen Sie die Richtigkeit der folgenden Aussagen, die sich alle auf den
+   Franck-Hertz-Versuch mit der oben gezeigten Messkurve beziehen.
+
+[[X]] Nur Elektronen, die nach Passieren der Anode eine hinreichend hohe kinetische Energie besitzen, können die Auffängerelektrode erreichen und so zum gemessenen Strom beitragen. 		
+[[ ]] Die Neonatome werden durch Stöße mit den Elektronen ionisiert und tragen dann als positive Ladungsträger ebenfalls zum gemessenen Strom bei. 		
+[[X]] Aus den Spannungen, bei denen Maxima bzw. Minima auftreten, lassen sich Rückschlüsse auf die Energieniveaus der Neonatome ziehen. 		
+[[ ]] Im ursprünglichen Experiment nutzten Franck und Hertz eine mit Quecksilberdampf gefüllte Röhre. Die Wahl des Füllgases hat jedoch keinen Einfluss auf die Lage der Maxima und Minima in der Messkurve. 		
+[[ ]] Da in der Messkurve mehrere Minima auftreten, müssen in den Neonatomen verschiedene Energieniveaus angeregt werden. Jedes dieser unterschiedlichen Energieniveaus ist für genau ein Minimum der Messkurve verantwortlich. 		
+[[X]] Die oben gezeigte Messkurve mit ihren charakteristisch ausgeprägten Minima ist ein Beweis für die diskreten Energieniveaus der Atome und die quantenhafte Energieübertragung.
+********************************************************************************
+
+* Nur Elektronen, die nach Passieren der Anode eine hinreichend hohe kinetische
+  Energie besitzen, können die Auffängerelektrode erreichen und so zum
+  gemessenen Strom beitragen.
+
+  * **Richtig**: Zwischen Anode und Auffängerelektrode liegt ein elektrisches
+    Gegenfeld an. Zum Überwinden dieses Gegenfelds müssen die Elektronen
+    ausreichend Energie besitzen.
+
+* Die Neonatome werden durch Stöße mit den Elektronen ionisiert und tragen dann
+  als positive Ladungsträger ebenfalls zum gemessenen Strom bei.
+
+  * **Falsch**: Die Neonatome werden angeregt, d.h. innerhalb der Atome wechseln
+    Elektronen in ein höheres Energieniveau. Eine Ionisation (Freisetzung eines
+    zuvor im Atom gebundenen Elektrons) findet nicht statt. Die hierfür nötige
+    Energie liegt deutlich über den für das Experiment relevanten
+    Anregungsenergien.
+
+* Aus den Spannungen, bei denen Maxima bzw. Minima auftreten, lassen sich
+  Rückschlüsse auf die Energieniveaus der Neonatome ziehen.
+
+  * **Richtig**: Der Abstand zwischen benachbarten Maxima widerspiegelt die
+    Energiedifferenz der an der Anregung beteiligten Energieniveaus des
+    Neonatoms.
+
+* Im ursprünglichen Experiment nutzten Franck und Hertz eine mit
+  Quecksilberdampf gefüllte Röhre. Die Wahl des Füllgases hat jedoch keinen
+  Einfluss auf die Lage der Maxima und Minima in der Messkurve.
+
+  * **Falsch**: In der Tat benutzten Franck und Hertz ursprünglich eine mit
+    Quecksilberdampf gefüllte Röhre. Dort treten die Maxima und Minima jedoch
+    bei anderen Spannungen auf, da die Energieniveaus des Quecksilber vollkommen
+    verschieden von denen des Neons sind.
+
+* Da in der Messkurve mehrere Minima auftreten, müssen in den Neonatomen
+  verschiedene Energieniveaus angeregt werden. Jedes dieser unterschiedlichen
+  Energieniveaus ist für genau ein Minimum der Messkurve verantwortlich.
+
+  * **Falsch**: Es liegt nur eine Anregung zu Grunde. Allerdings können die
+    Elektronen bei ausreichend hoher Beschleunigungsspannung diese Anregung der
+    Neonatome mehrfach auslösen, sodass mehrere Minima entstehen. Lägen
+    verschiedene Anregungsniveaus zu Grunde, würden die Maxima bzw. Minima in
+    der Messkurve nicht äquidistant auftreten.
+
+* Die oben gezeigte Messkurve mit ihren charakteristisch ausgeprägten Minima ist
+  ein Beweis für die diskreten Energieniveaus der Atome und die quantenhafte
+  Energieübertragung.
+
+  * **Richtig**: Die Maxima und Minima entstehen, weil eine Anregung der
+    Neonatome nur zwischen diskreten Energieniveaus möglich ist und die
+    erforderliche Anregungsenergie nicht in mehreren Teilportionen aufgenommen
+    werden kann.
+
+********************************************************************************
 
 ### Hausaufgaben
 
