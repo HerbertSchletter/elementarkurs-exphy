@@ -3797,17 +3797,20 @@ Licht kann offenbar nicht ausreichend Energie auf die Elektronen übertragen,
 damit diese die Austrittsarbeit überwinden könnten.
 
 Der Energieübertrag auf die Elektronen wird also bestimmt durch die Wellenlänge
-beziehungsweise Frequenz des eingestrahlten Lichts. Im Wellenmodell des Lichts
+beziehungsweise Frequenz des eingestrahlten Lichts: Höhere Frequenzen (kleinere
+Wellenlängen) führen offenbar zu größeren Energieüberträgen.
+Im Wellenmodell des Lichts
 ist dies jedoch nicht zu verstehen. Die Energie einer Welle ist bestimmt durch
 deren Amplitude: $E_\mathrm{Welle}\propto A_0^2$. Die Frequenz spielt dabei
 keine Rolle. Somit stellt das beschriebene Hallwachs-Experiment einen
-unlösbaren Widerspruch zur Wellenoptik dar.
+Widerspruch zur Wellenoptik dar.
 
-Die Erklärung dieses Effekts lieferte Albert Einstein – und erhielt hierfür den
-Physik-Nobelpreis. Dabei benutzte er die Quantenhypothese, die Max Planck
-bereits fünf Jahre zuvor aufgestellt hatte. Diese besagt, dass das Licht nicht
+Die Erklärung dieses Effekts lieferte Albert Einstein – und erhielt hierfür
+später den Physik-Nobelpreis. Dabei ging er davon aus, dass das Licht nicht
 beliebige Energiebeträge abgeben kann, sondern nur definierte
-„Energieportionen“, sogenannte Quanten. Der Energiebetrag eines solchen Quants
+„Energieportionen“, sogenannte Quanten. Diesen Ansatz hatte bereits fünf
+Jahre zuvor Max Planck in einem anderen Zusammenhang angewendet. Der
+Energiebetrag eines solchen Quants
 ist dabei bestimmt durch die Frequenz des Lichts:
 
 $$E_\mathrm{Qu} = hf = h \frac{c}{\lambda}$$
@@ -3833,41 +3836,50 @@ der emittierten Elektronen bestimmt werden. Dazu befindet sich die emittierende
 Metallschicht zusammen mit einer Gegenelektrode im Vakuum und wird dort mit
 monochromatischem Licht (d.h. Licht mit genau einer Wellenlänge) bestrahlt.
 Zwischen emittierender Schicht und Gegenelektrode wird durch Anlegen einer
-Gegenspannung $U_\mathrm G$ ein elektrisches Feld erzeugt, dass die Elektronen abbremst.
-Ist die Gegenspannung gefunden, bei der die Elektronen vollständig abgebremst
-werden, so gilt:
+Gegenspannung $U_\mathrm G$ ein elektrisches Feld erzeugt, das die Elektronen
+abbremst. Ist die Gegenspannung gefunden, bei der die Elektronen vollständig
+abgebremst werden, so gilt:
 
 $$E_\mathrm{kin} = eU_\mathrm G \, .$$
 
 #### Das Photon
 
 Handelt es sich bei den Lichtquanten nun lediglich um „Energieportionen“ einer
-kontinuierlich fortlaufenden Welle, oder sind es tatsächlich eigenständige
-Teilchen? Um dies zu untersuchen, betrachten wir die Detektion einzelner
-Lichtquanten. Tatsächlich können Detektoren, die auf dem äußeren Photoeffekt
+kontinuierlich fortlaufenden Welle, oder sind es eigenständige, real
+existierende Objekte? Diese Frage war auch historisch zunächst umstritten. Die
+Erklärung des Photoeffekts zeigt zunächst nur, dass die Energie*übertragung*
+quantisiert erfolgt. Spätere Experimente zeigten schließlich, dass das Licht
+selbst (wie jede elektromagnetische Welle) quantisiert ist. Auch unabhängig von
+der Wechselwirkung mit Elektronen oder anderer Materie liegt das Licht bei
+seiner gesamten Ausbreitung als Quanten vor. Diese Lichtquanten erhalten den
+Namen Photonen.
+
+Einen Eindruck von diesem Quantencharakter vermittelt die Detektion einzelner
+Photonen. Tatsächlich können Detektoren, die auf dem äußeren Photoeffekt
 beruhen, aus einem einzelnen auftreffenden Lichtquant einen messbaren Spannungspuls
 erzeugen. Wird ein solcher Detektor mit einer sehr geringen Lichtintensität
-bestrahlt, so können die einzelnen Lichtquanten getrennt registriert werden. Das
+bestrahlt, so können die einzelnen Photonen getrennt registriert werden. Das
 Auftreffen der Quanten auf dem Detektor geschieht dabei in völlig unregelmäßigen
 Zeitabständen.
 
-Diese Beobachtung widerspricht der Annahme einer kontinuierlichen Welle, die
-lediglich feste Energieportionen überträgt. Damit zeigen sich die Lichtquanten
-als tatsächliche Teilchen. Man spricht in diesem Zusammenhang vom Teilchenmodell
-des Lichts. Die Lichtteilchen erhalten den Namen Photonen. Die Intensität des
+Diese Beobachtung widerspricht der Vorstellung einer kontinuierlichen Welle, die
+lediglich feste Energieportionen überträgt. Nun ist diese Beobachtung allein
+noch kein zwingender Beweis; sie liefert aber einen Eindruck vom
+Quantencharakter des Lichts. Die Intensität des
 Lichts – die in der Wellenoptik mit der Amplitude der Lichtwelle verknüpft ist –
-ergibt sich in der Teilchenoptik aus der Anzahl der pro Zeiteinheit
+ergibt sich in der Quantenoptik aus der Anzahl der pro Zeiteinheit
 eintreffenden Photonen.
 
-Aus der Mechanik wissen wir, dass jedes bewegte Teilchen einen Impuls besitzt.
-Wenn Photonen den Charakter eines Teilchens aufweisen, dann sollten sie auch
-einen Impuls haben. Tatsächlich lässt sich auch für das Photon ein Impuls
-angeben, der mit seiner Frequenz verknüpft ist:
+Bisweilen werden Photonen auch als Licht*teilchen* bezeichnet. Wenn Photonen den
+Charakter eines Teilchens aufweisen, dann sollten sie auch einen Impuls haben.
+Denn aus der Mechanik wissen wir, dass jedes bewegte Teilchen einen Impuls
+besitzt. Tatsächlich lässt sich auch für das Photon ein Impuls angeben, der mit
+seiner Frequenz verknüpft ist:
 
 $$p_\mathrm{Ph} = \frac{E_\mathrm{Ph}}{c} = \frac{hf}{c} = \frac{h}{\lambda} \, .$$
 
 Dieser Photonenimpuls lässt sich in Experimenten (Stichwort:
-Compton<!-- style ="font-variant: small-caps;" -->-Effekt) nachweisen. Die
+<span style="font-variant: small-caps;">Compton</span>-Effekt) nachweisen. Die
 „Lichtmühle“ (Radiometer), die manchmal als Nachweis des Photonenimpulses
 angeführt wird, beruht jedoch auf anderen Effekten.
 
@@ -3881,19 +3893,21 @@ auch Wellen- und Teilchenmodell des Lichts nicht vollständig trennen.
 Dieser Dualismus von Wellen- und Teilcheneigenschaften zeigt sich unter anderem
 auch bei der Beobachtung von Interferenzen. Aus der Wellenoptik wissen wir, dass
 das Licht bei Durchgang durch einen Doppelspalt ein Interferenzmuster erzeugt.
-Nun werde ein solcher Doppelspalt mit so geringer Lichtintensität bestrahlt,
-dass niemals mehrere Photonen gleichzeitig den Doppelspalt passieren. Hinter dem
-Doppelspalt werden die Photonen wiederum durch den oben schon erwähnten
-Einzelphotonendetektor gezählt. Tatsächlich zeigt das Licht auch dann
-Interferenzverhalten: Je nach Detektorposition ergeben sich charakteristische
-Maxima und Minima in der Zählrate der Photonen. Interferenz entsteht also nicht
-aus der Überlagerung mehrerer Photonen, sondern ist eine Eigenschaft des
-einzelnen Photons.
+Ein solches Experiment lässt sich auch mit einzelnen Photonen durchführen:
+Aus einer speziellen Lichtquelle (Einzelphotonenquelle) treffen einzelne
+Lichtquanten auf einen Doppelspalt und werden nach dessen Passieren durch einen
+(oben schon erwähnten) Einzelphotonendetektor gezählt. Tatsächlich zeigt das
+Licht auch dann Interferenzverhalten: Je nach Detektorposition ergeben sich
+charakteristische Maxima und Minima in der Zählrate der Photonen. Interferenz
+entsteht also nicht aus der Überlagerung mehrerer Photonen, sondern ist eine
+Eigenschaft des einzelnen Photons.
 
 Um diesen Welle-Teilchen-Dualismus zu veranschaulichen, werden Photonen mitunter
 als „Wellenzüge“ endlicher Länge dargestellt. Doch auch diese Vorstellung gerät
 schnell an ihre Grenzen. Der Charakter des Lichts entzieht sich letztendlich
-unserer Vorstellung.
+unserer Vorstellung. Anschauliche Modelle des Lichts (kontinuierliche Welle
+ähnlich einer Wasserwelle, Partikelstrom ähnlich einem Sandsturm,…) können immer
+besitzen immer nur begrenzte Anwendbarkeiten.
 
 #### Wellencharakter der Elektronen
 
@@ -3921,7 +3935,8 @@ in der Graphitschicht wirkt dabei als Beugungsgitter für die Elektronen, deren
 Wellenlänge mit den Atomabständen im Graphit vergleichbar ist.
 
 Somit kann den Elektronen auch eine Wellenlänge zugeordnet werden, die mit ihrem
-Impuls verknüpft ist (Louis<!-- style ="font-variant: small-caps;" --> De<!-- style ="font-variant: small-caps;" --> Broglie<!-- style ="font-variant: small-caps;" -->, 1923):
+Impuls verknüpft ist (<span style="font-variant: small-caps;">Louis De Broglie
+</span>, 1923):
 
 $$\lambda_\mathrm e = \frac{h}{p_\mathrm e} \, .$$
 
@@ -4003,10 +4018,10 @@ andere (quantenmechanische) Gesetzmäßigkeiten gelten.
 #### Das Atommodell der Quantenphysik
 
 Die Grundaussagen des quantenphysikalischen Atommodells gehen auf
-Niels<!-- style ="font-variant: small-caps;" --> Bohr<!-- style ="font-variant: small-caps;" -->
-zurück. Dieser betrachtete die Atome noch unter den Gesetzen der klassischen
-Physik und forderte lediglich, dass für Atome einige „Ausnahmen“ von diesen
-Gesetzen gelten sollten, die unter der Bezeichnung Bohrsche Postulate
+<span style="font-variant: small-caps;">Niels Bohr</span>
+zurück. Dieser betrachtete die Atome anfangs noch unter den Gesetzen der
+klassischen Physik und forderte lediglich, dass für Atome einige „Ausnahmen“ von
+diesen Gesetzen gelten sollten, die unter der Bezeichnung Bohrsche Postulate
 zusammengefasst werden. Dies betrifft insbesondere die Aussage, dass die
 Elektronen eben nicht in den Atomkern stürzen. Damit war zwar qualitativ (und
 teilweise auch quantitativ) eine recht gute Beschreibung möglich. Eine
