@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2023.10.18
+version:  2024.08.07
 
 language: de
 
@@ -25,12 +25,19 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
 Technische Universität Chemnitz
 
-*Wintersemester 2023/2024*
+*Wintersemester 2024/2025*
 
-![Titelbild: Newtonsches Pendel](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg/800px-M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg "[Quelle: Frank Vincentz, [Mülheim adR - Am Schloss Broich - MüGa-Park - Darlington-Park 09 ies](https://commons.wikimedia.org/wiki/File:Mülheim_adR_-_Am_Schloss_Broich_-_MüGa-Park_-_Darlington-Park_09_ies.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg/800px-M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg" alt="Titelbild: Newtonsches Pendel" style="width:60em;">
+  <figcaption>
+    [Quelle: Frank Vincentz, <a href="https://commons.wikimedia.org/wiki/File:Mülheim_adR_-_Am_Schloss_Broich_-_MüGa-Park_-_Darlington-Park_09_ies.jpg">Mülheim adR - Am Schloss Broich - MüGa-Park - Darlington-Park 09 ies</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a>, via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 ## Hinweis zum Urheberrecht
-[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+<a href="http://creativecommons.org/licenses/by/4.0/">
+<img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons Lizenzvertrag">
+</a>
 
 Dieses Skriptum steht unter einer  [Creative Commons Namensnennung 4.0 International Lizenz](http://creativecommons.org/licenses/by/4.0/).
 
@@ -63,30 +70,17 @@ Dieses Skriptum wurde in [LiaScript](https://LiaScript.github.io/course/?https:/
 verfasst, einer Variante der Beschreibungssprache Markdown. Da es sich hierbei
 um eine reine Textdatei handelt, ist eine Anzeige des (unformatierten)
 Quelltexts in jedem Texteditor möglich. Die [formatierte Anzeige](https://liascript.github.io/course/?https://raw.githubusercontent.com/HerbertSchletter/elementarkurs-exphy/main/skriptum.md)
-erfolgt über den LiaScript-Interpreter, der zugleich eine Progressive Web App
+erfolgt im Browser über den LiaScript-Interpreter, der eine progressive Web-App
 darstellt.
-
-LiaScript bietet verschiedene Darstellungsformate des Inhalts an, die über das
-Symbol oben rechts ausgewählt werden können. Im Lehrbuch-Modus werden alle Texte
-angezeigt; im Präsentationsmodus werde einige Texte nicht angezeigt, sondern von
-einer computergenerierten Stimme vorgelesen. Der folgende Abschnitt (der nur im
-Lehrbuchmodus sichtbar ist) demonstriert dieses Verhalten.
-
-          --{{1}}--
-Es bleibt dem Leser überlassen, welche Darstellungsform bevorzugt wird. Wenn im
-Präsentationsmodus Seiten ohne Text auftauchen, so enthalten diese zumeist
-gesprochenen Text.
 
 ## Einführung
 
-         --{{0}}--
 Die erste Frage, die in diesem Skriptum beantwortet werden soll, bezieht sich
 auf die Zielstellung dieses Buchs. Da es sich um Lehrmaterial der Physik handelt,
 ist dies gleichbedeutent mit der Frage nach der Zielstellung der Physik. Deshalb
 findet sich unter der nachfolgenden Überschrift ‚Was ist Physik?‘ als erstes
 eine Definition dieser Naturwissenschaft, zusammen mit einigen Erläuterungen.
 
-          --{{1}}--
 Im Zentrum der Physik steht die Frage nach den Eigenschaften von Körpern und
 deren gegenseitigen Wechselwirkungen. Um sich diesem hochgesteckten Ziel zu
 nähern, hat die Physik zwei grundlegende Herangehensweisen entwickelt, die als
@@ -94,13 +88,11 @@ Experimentalphysik und Theoretische Physik bezeichnet werden. Wie der Titel
 dieses Skriptums verrät, ist der vorliegende Kurs im Bereich der
 Experimentalphysik angesiedelt.
 
-          --{{2 Deutsch Female}}--
 Kennzeichnend für die Experimentalphysik ist das namensgebende Experiment, das
 als eine gezielte Frage an die Natur aufzufassen ist. Untrennbar mit dem
 Experimentieren verbunden sind Messungen physikalischer Größen. Beide Begriffe –
 Experiment und Messung – werden in den nachfolgenden Abschnitten erläutert.
 
-          --{{3}}--
 Der letzte Abschnitt dieses ersten Kapitels lenkt den Blick auf das
 mathematische Handwerkszeug der Physik. Um die Eigenschaften eines Körpers in
 ihrem räumlichen und zeitlichen Verlauf anzugeben, werden Bezugsysteme für
@@ -318,7 +310,14 @@ der Achsen zueinander kann durch die Finger der rechten Hand ermittelt werden.
 Wie in der folgenden Abbildung dargestellt, entsprechen Daumen, Zeigefinger und
 Mittelfinger – rechtwinklig abgespreizt – der $x$-, $y$- und $z$-Achse.
 
-![Veranschaulichung der Rechte-Hand-Regel](https://upload.wikimedia.org/wikipedia/commons/2/2d/Right_hand_rule_Cartesian_axes.svg "In einem kartesischen Koordinatensystem liegen die $x$-, $y$- und $z$-Achse zueinander wie Daumen, Zeige- und Mittelfinger der rechten Hand, wenn sie rechtwinklig abgespreizt werden (Rechte-Hand-Regel). \[Quelle: User:Acdx, cmglee, [„Right hand rule Cartesian axes“](https://commons.wikimedia.org/wiki/File:Right_hand_rule_Cartesian_axes.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Right_hand_rule_Cartesian_axes.svg" alt="Veranschaulichung der Rechte-Hand-Regel" style="width:20em;">
+  <figcaption>
+    In einem kartesischen Koordinatensystem liegen die $x$-, $y$- und $z$-Achse
+    zueinander wie Daumen, Zeige- und Mittelfinger der rechten Hand, wenn sie
+    rechtwinklig abgespreizt werden (Rechte-Hand-Regel). [Quelle: User:Acdx, cmglee, <a href="https://commons.wikimedia.org/wiki/File:Right_hand_rule_Cartesian_axes.svg">„Right hand rule Cartesian axes“</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>, via Wikimedia Commons\]
+  </figcaption>
+</figure>
 
 Anstelle dieser rechtwinkligen Koordinatensysteme können auch
 Winkelkoordinatensysteme verwendet werden. In zwei Dimensionen sind dies die
@@ -337,20 +336,15 @@ eines Koordinatensystems sollte dieses für die gesamte Beschreibung beibehalten
 werden. Der Wechsel in ein anderes System ist zwar prinzipiell möglich, jedoch
 mit einem mitunter erheblichen Rechenaufwand verbunden.
 
-## Mechanik
+## Mechanik — Kinematik der Translation
 
-          --{{0}}--
 Die Mechanik ist ein Teilgebiet der klassischen Physik. Sie beschreibt die
 Bewegungseigenschaften von Körpern sowie die Wirkung von Kräften.
-In diesem Skriptum bildet die Mechanik das umfangreichste Kapitel, da
-verschiedene Bewegungsarten unterschieden und mit ihrem jeweils eigenen
-Formalismus beschrieben werden. Am Beginn steht die Beschreibung geradliniger
-Bewegungen. Dem schließen sich Rotationsbewegungen und schließlich Schwingungen
-an.
+In diesem Skriptum bildet die Mechanik den umfangreichsten Teil und ist daher
+auf mehrere Einzelkapitel aufgeteilt. Am Beginn steht die Behandlung der
+Translation, das heißt der geradlinigen Bewegungen. Dem schließen sich
+Rotationsbewegungen und schließlich Schwingungen an.
 
-
-### Kinematik
-          --{{0}}--
 Die Kinematik ist ein Teilgebiet der Mechanik. Sie befasst sich mit der
 Beschreibung der Bewegung von Körpern. Die Frage nach der Ursache einer Bewegung
 oder der Änderung eines Bewegungszustands wird nicht betrachtet. Dieses
@@ -359,14 +353,13 @@ von Bewegungsabläufen ist jedoch Voraussetzung für die nachfolgenden
 Teilgebiete, in denen die Ursachen der Bewegung ergründet werden.
 Dementsprechend sollte die Bedeutung der Kinematik nicht unterschätzt werden.
 
-        --{{1 Deutsch Female}}--
 Im Laufe dieses Kapitels werden uns einige Größen begegnen, die aus dem
 alltäglichen Sprachgebrauch bekannt sind. Dazu zählen Geschwindigkeit und
 Beschleunigung ebenso wie die Zeit und der Aufenthaltsort eines Körpers.
 Letzterer wird durch den Ortsvektor in einem Koordinatensystem mathematisch
 exakt angegeben.
 
-#### Der Ortsvektor
+### Der Ortsvektor
 Für die Bewegung eines Körpers auf geraden oder gekrümmten Bahnen spielen Form
 und Größe dieses Körpers keine Rolle und können vernachlässigt werden. Auf diese
 Weise gelangt man zum Modell des Massepunktes bzw. der Punktmasse, bei dem die
@@ -397,12 +390,12 @@ ist zeitabhängig: $\vec{r}= \vec{r}(t)$. Der Zusammenhang $\vec{r}(t)$ wird als
 Orts-Zeit-Gesetzes lassen sich grundlegende Bewegungsformen unterscheiden, die
 im Folgenden zunächst für die geradlinige Bewegung betrachtet werden.
 
-#### Geradlinige Bewegung
+### Geradlinige Bewegung
 
 Bei der Beschreibung einer geradlinigen Bewegung wird der Ortsvektor ersetzt
 durch eine skalare Positions- oder Wegangabe, z.B. $x(t)$.
 
-##### Gleichförmig geradlinige Bewegung
+#### Gleichförmig geradlinige Bewegung
 
 Eine geradlinige Bewegung wird als gleichförmig bezeichnet, wenn in gleichen
 Zeitabschnitten $\Delta t$ jeweils gleiche Strecken $\Delta x$ zurückgelegt
@@ -435,9 +428,12 @@ wobei $x_0$ die Position des Körpers (Massepunkts) zum Zeitpunkt $t=0$ angibt.
 Diese kann durch geeignete Wahl des Koordinatensystems häufig $x_0 = 0$ gesetzt
 werden.
 
-![Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung](grafik/V02_gleichfoermig.svg "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung")
+<figure>
+  <img src="grafik/V02_gleichfoermig.svg" alt="Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung">
+  <figcaption>Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichförmig geradlinigen Bewegung</figcaption>
+</figure>
 
-##### Beschleunigte geradlinige Bewegung
+#### Beschleunigte geradlinige Bewegung
 
 Bewegungen, bei denen die Geschwindigkeit nicht konstant ist, werden als
 beschleunigt bezeichnet. Das Weg-Zeit-Gesetz ist dabei keine Gerade, d.h., in
@@ -509,7 +505,11 @@ Darstellungen des Orts-Zeit-Gesetzes, Geschwindigkeits-Zeit-Gesetzes und
 Beschleunigungs-Zeit-Gesetzes wider. Für die gleichmäßig beschleunigte Bewegung
 sind diese Diagramme in der nachfolgenden Abbildung dargestellt.
 
-![Diagramme für die gleichmäßig beschleunigte geradlinige Bewegung](grafik/V02_gleichm-beschl.svg "Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme der gleichmäßig beschleunigten geradlinigen Bewegung")
+<figure>
+  <img src="grafik/V02_gleichm-beschl.svg" alt="Diagramme für die gleichmäßig beschleunigte geradlinige Bewegung">
+  <figcaption>Orts-Zeit-, Geschwindigkeits-Zeit- und Beschleunigungs-Zeit-Diagramme
+  der gleichmäßig beschleunigten geradlinigen Bewegung</figcaption>
+</figure>
 
 Ein Spezialfall der gleichmäßig beschleunigten Bewegung ist der freie Fall. Zu
 dessen Beschreibung definieren wir folgendes eindimensionale Koordinatensystem,
@@ -520,9 +520,11 @@ ersetzen (siehe Abbildung):
 -   Der Nullpunkt der $h$-Achse entspricht dem Startpunkt
     der Bewegung, d.h. $h_0=0$.
 
-![Darstellung des Koordinatensystems, das zur Beschreibung des freien Falls benutzt wird.](grafik/V02_KOOS1.svg "Darstellung des Koordinatensystems, das zur Beschreibung des freien Falls benutzt wird.")<!--
-style = "width: 2cm;"
--->
+<figure>
+  <img src="grafik/V02_KOOS1.svg" alt="Darstellung des Koordinatensystems, das zur Beschreibung des freien Falls benutzt wird." style = "width: 4.5em;">
+  <figcaption>Darstellung des Koordinatensystems, das zur Beschreibung des
+  freien Falls benutzt wird.</figcaption>
+</figure>
 
 Im freien Fall wird der Körper nach unten (d.h. in Richtung der negativen
 $h$-Achse) beschleunigt. Dabei wirkt die Fallbeschleunigung, die in der Nähe der
@@ -542,9 +544,12 @@ Orts-Zeit-Gesetz gilt dann:
 
 $$h=-\frac{g}{2}t^2 + v_0 t + h_0$$
 
-![Tafel auf dem Brocken mit den „amtlichen Wert der Erdschwerebeschleunigung“](grafik/V02_Foto-Brocken.png "Die Fallbeschleunigung $g$ ist in der Nähe der Erdoberfläche nahezu konstant, unterliegt jedoch örtlichen Schwankungen. Auf dem Brocken befindet sich diese Tafel mit dem dort bestimmten Wert $g=9{,}81000~\frac{\mathrm m}{\mathrm s^2}$.")
+<figure>
+  <img src="grafik/V02_Foto-Brocken.png" alt="Tafel auf dem Brocken mit den „amtlichen Wert der Erdschwerebeschleunigung“">
+  <figcaption>Die Fallbeschleunigung $g$ ist in der Nähe der Erdoberfläche nahezu konstant, unterliegt jedoch örtlichen Schwankungen. Auf dem Brocken befindet sich diese Tafel mit dem dort bestimmten Wert $g=9{,}81000~\frac{\mathrm m}{\mathrm s^2}$.</figcaption>
+</figure>
 
-#### Überlagerung von Bewegungen – mehrdimensionale Bewegung
+### Überlagerung von Bewegungen – mehrdimensionale Bewegung
 
 Bewegungen, die nicht geradlinig verlaufen, müssen in zwei- bzw.
 dreidimensionalen Koordinatensystemen beschrieben werden. Der Ortsvektor besitzt
@@ -587,9 +592,11 @@ Koordinatensystem mit $x$- & $z$-Achse (siehe nachfolgende Abbildung):
 
     $$\vec r_0 = \begin{pmatrix} 0 \\ h_0 \end{pmatrix}$$
 
-![Darstellung des Koordinatensystems, das zur Beschreibung des waagerechten Wurfs benutzt wird.](grafik/V02_KOOS2.svg "Darstellung des Koordinatensystems, das zur Beschreibung des waagerechten Wurfs benutzt wird.")<!--
-style = "width: 5cm;"
--->
+<figure>
+  <img src="grafik/V02_KOOS2.svg" alt="Darstellung des Koordinatensystems, das zur Beschreibung des waagerechten Wurfs benutzt wird." style = "width: 12em;">
+  <figcaption>Darstellung des Koordinatensystems, das zur Beschreibung des
+  waagerechten Wurfs benutzt wird.</figcaption>
+</figure>
 
 Diese Bewegung wird nun komponentenweise betrachtet. In $x$-Richtung liegt eine
 gleichförmige Bewegung mit der Geschwindigkeit $v_0$ vor:
@@ -636,8 +643,7 @@ Im Ergebnis ergibt sich wiederum eine parabelförmige Bahnkurve, deren
 Scheitelpunkt nicht mehr mit dem Abwurfpunkt übereinstimmt, sondern von $h_0$,
 $v_0$ und $\alpha$ abhängt.
 
-### Dynamik
-        --{{0}}--
+## Mechanik — Dynamik der Translation
 Die Dynamik befasst sich mit der Ursache von Bewegungen, oder genauer
 ausgedrückt: mit der Ursache von Bewegungszustandsänderungen. Eine solche
 Änderung eines Bewegungszustands erfordert immer das Einwirken einer Kraft. Das
@@ -645,7 +651,6 @@ quantitative Zusammenspiel von Kraft und Bewegungszustandsänderung wird durch
 die drei Newtonschen Axiome ausgedrückt, die in den ersten Abschnitten zur
 Dynamik betrachtet werden.
 
-        --{{1}}--
 Ebenfalls in den ersten Abschnitten wird der Impuls als neue Größe eingeführt.
 Zunächst dient er nur als quantitativer Ausdruck eines Bewegungszustands. Im
 weiteren Verlauf der Betrachtungen zeigt sich jedoch, dass es sich beim Impuls
@@ -653,7 +658,6 @@ um eine Erhaltungsgröße handelt. Solche Größen, die unter bestimmten
 Voraussetzungen konstant bleiben, haben immer eine große Bedeutung für die
 Beschreibung oder Berechnung von Naturvorgängen.
 
-        --{{2 Deutsch Female}}--
 Anschließend an die Betrachtung des Impulses, lenken die folgenden Abschnitte
 das Augenmerk auf den Begriff der Kraft. Dabei werden verschiedene Kräfte durch
 Formeln quantifiziert. Aufbauend auf die Kenntnis dieser Kräfte wird die Arbeit
@@ -661,13 +665,12 @@ als physikalische Größe eingeführt. Sie wird immer dann relevant, wenn ein
 Körper unter dem Einfluss einer Kraft bewegt wird. Dies geschieht beispielsweise
 beim Anheben oder bei der Beschleunigung eines Körpers.
 
-        --{{3 Deutsch Female}}--
 Die Betrachtung der Arbeit wiederum führt zu der Erkenntnis, dass ein Körper
 die an ihm verrichtete Arbeit gewissermaßen speichern kann und damit seinerseits
 in der Lage ist, Arbeit zu verrichten. Diese „gespeicherte Arbeit“ wird als
 Energie bezeichnet. Sie ist – ähnlich wie der Impuls – eine Erhaltungsgröße.
 
-#### Bewegungszustände und Bewegungszustandsänderungen
+### Bewegungszustände und Bewegungszustandsänderungen
 Den Ausgangspunkt für die Betrachtung der Dynamik bilden die beiden folgenden
 qualitativen Beobachtungen:
 
@@ -715,16 +718,18 @@ Dies bedeutet auch, dass sich die einzelnen auf einen Körper wirkenden Kräfte
 spricht man auch hier von *Superposition* der Kräfte. Umgekehrt lässt sich eine
 wirkende Kraft vektoriell in einzelne Komponenten zerlegen (siehe Abbildung).
 
-![Grafische Darstellung der vektoriellen Addition von Kräften (Kräfteparallelogramm)](grafik/V03_Kräfte.svg "Zwei Kräfte überlagern sich gemäß dem Superpositionsprinzip zu einer Gesamtkraft, die anhand der *vektoriellen* Addition zu bestimmen ist.")<!--
-style = "width: 5cm;"
--->
+<figure>
+  <img src="grafik/V03_Kräfte.svg" alt="Grafische Darstellung der vektoriellen Addition von Kräften (Kräfteparallelogramm)" style = "width: 12em;">
+  <figcaption>Zwei Kräfte überlagern sich gemäß dem Superpositionsprinzip zu
+  einer Gesamtkraft, die anhand der *vektoriellen* Addition zu bestimmen ist.
+  </figcaption>
+</figure>
 
 Mit diesen Definitionen von Impuls und Kraft können nun die anfänglichen,
 qualitativen Beobachtungen auch quantitativ ausgedrückt werden. Die
-entsprechenden Aussagen gehen auf Sir Isaac<!-- style ="font-variant: small-caps;" -->
-Newton<!-- style ="font-variant: small-caps;" --> (1643 – 1727) zurück.
+entsprechenden Aussagen gehen auf Sir <span style ="font-variant: small-caps;">Isaac Newton</span> (1643 – 1727) zurück.
 
-#### Die Newton<!-- style ="font-variant: small-caps;" -->schen Axiome
+### Die <span style ="font-variant: small-caps;">Newton</span>schen Axiome
 
 Als Axiom bezeichnet man in der Physik einen Grundsatz, der sich nicht aus
 anderen Gesetzmäßigkeiten ableiten lässt, dessen Gültigkeit jedoch durch
@@ -804,7 +809,7 @@ Schritten (hier unter der Annahme, dass die Masse des Körpers konstant bleibt):
 
 5.  Nochmalige zeitliche Integration ergibt das Orts-Zeit-Gesetz $\vec{r}(t)$.
 
-#### Systeme aus mehreren Punktmassen und ihr Impuls
+### Systeme aus mehreren Punktmassen und ihr Impuls
 
 Bisher wurden einzelne Punktmassen betrachtet, auf die in irgendeiner Weise eine
 Kraft einwirkt. Die Herkunft dieser Kraft wurde noch nicht berücksichtigt. Wir
@@ -908,14 +913,14 @@ vergleichsweise einfach bearbeiten. Wir werden dies in einem
 [späteren Kapitel](#anwendungen-der-erhaltungssätze) im Zusammenspiel mit einem
 weiteren Erhaltungssatz praktizieren.
 
-#### Kräfte
+### Kräfte
 
 Während wir in den vorangegangenen Abschnitten stets eine Kraftwirkung
 vorausgesetzt haben, ohne die Ursache dieser Kraft zu betrachten, sollen im
 Folgenden einige grundlegende Kräfte, die uns aus unserer Anschauung bereits
 bekannt sind, in Formeln gefasst werden.
 
-##### Die Gewichtskraft
+#### Die Gewichtskraft
 
 Bereits in der Kinematik hatten wir festgestellt, dass ein fallender Körper –
 unabhängig von seiner Masse $m$ – die Beschleunigung $\vec{g}$ erfährt. Gemäß
@@ -936,7 +941,7 @@ dem Mond, dessen Fallbeschleunigung nur etwa 16 % des Wertes auf der
 Erdoberfläche beträgt, die Masse eben dieselbe wie auf der Erde. Hingegen würde
 sich das Gewicht auf ca. 16 % reduzieren.
 
-##### Die Komponenten der Gewichtskraft - Hangabtriebskraft und Normalkraft
+#### Die Komponenten der Gewichtskraft - Hangabtriebskraft und Normalkraft
 
 Auf der Erdoberfläche wirkt die Gewichtskraft stets senkrecht nach unten. Bei
 einer geneigten Unterlage kann die Gewichtskraft gemäß dem Superpositionsprinzip
@@ -949,9 +954,16 @@ geneigt, so gilt für die Beträge dieser beiden Kräfte:
 $$\begin{aligned}F_\mathrm H & = F_\mathrm G \cdot \sin{\alpha} = m g \sin{\alpha} \\
 F_\mathrm N & = F_\mathrm G \cdot \cos{\alpha} = m g \cos{\alpha}\end{aligned}$$
 
-![Kräfteparallelogramm eines Körpers auf einer geneigten Unterlage mit Gewichtskraft, Normalkraft und Hangabtriebskraft](grafik/V04_FH.svg "Schematische Darstellung der Zerlegung der Gewichtskraft $\vec F_\mathrm G$ in ihre Komponenten Hangabtriebskraft $\vec F_\mathrm H$ und Normalkraft $\vec F_\mathrm N$.")<!-- style ="width: 7cm;" -->
+<figure>
+  <img src="grafik/V04_FH.svg" alt ="Kräfteparallelogramm eines Körpers auf einer geneigten Unterlage mit Gewichtskraft, Normalkraft und Hangabtriebskraft" style="width: 10emm;">
+  <figcaption>
+    Schematische Darstellung der Zerlegung der Gewichtskraft $\vec F_\mathrm G$
+    in ihre Komponenten Hangabtriebskraft $\vec F_\mathrm H$ und Normalkraft
+    $\vec F_\mathrm N$.
+  </figcaption>
+</figure>
 
-##### Die Gravitationskraft
+#### Die Gravitationskraft
 
 Gravitation ist die Anziehung zwischen Körpern (Massepunkten) aufgrund ihrer
 Masse. Befindet sich eine Masse $M$ im Koordinatenursprung, so erfährt eine
@@ -980,7 +992,7 @@ Damit folgt für die Fallbeschleunigung
 
 $$g = \Gamma\frac{M_\mathrm{Erde}}{r^2_\mathrm{Erde}} \, .$$
 
-##### Die Federkraft
+#### Die Federkraft
 
 Die Dehnung oder Stauchung einer (linearen) Feder um eine Auslenkung $\vec{x}$
 erfordert eine Kraft, die proportional zu dieser Auslenkung ist:
@@ -988,7 +1000,7 @@ erfordert eine Kraft, die proportional zu dieser Auslenkung ist:
 $$\vec{F} = k\vec{x}$$
 
 Dieser Zusammenhang wird auch als lineares Kraftgesetz oder
-Hooke<!-- style ="font-variant: small-caps;" -->sches Gesetz einer Feder
+<span style="font-variant: small-caps;">Hooke</span>sches Gesetz einer Feder
 bezeichnet. Selbstverständlich wird dabei davon ausgegangen, dass die Kraft
 entlang der Federachse angreift. Der Proportionalitätsfaktor $k$ heißt
 Federkonstante und wird in der Einheit $[k]=1~\frac{\mathrm N}{\mathrm m}$
@@ -1004,7 +1016,7 @@ $$\vec{F}_\mathrm F = -k\vec{x} \, .$$
 
 Diese Kraft wird als Federkraft bezeichnet.
 
-##### Reibungskräfte
+#### Reibungskräfte
 
 Reale Bewegungsvorgänge unterliegen stets Einflüssen, die die Bewegung hemmen,
 das heißt ihre Geschwindigkeit verringern. Solche Einflüsse werden als Reibung
@@ -1044,7 +1056,7 @@ stets so, dass sie die Bewegung hemmen. D.h., die Gleitreibung ist der
 momentanen Geschwindigkeit entgegengerichtet. Die Haftreibung ist der
 beschleunigenden Kraft entgegengesetzt.
 
-##### Die goldene Regel der Mechanik
+#### Die goldene Regel der Mechanik
 
 Es existieren verschiedene Vorrichtungen, die eine auf sie einwirkende Kraft
 sowohl in ihrer Richtung als auch in ihrem Betrag verändern können. Solche
@@ -1067,7 +1079,7 @@ Umständen konstant bleiben, sind stets von großer Bedeutung für die Beschreib
 von Naturvorgängen. Daher führen wir das Produkt aus Kraft und Weg als
 eigenständige Größe – die Arbeit $W$ – ein.
 
-#### Die Arbeit
+### Die Arbeit
 
 Wird ein Körper unter dem Einfluss einer Kraft $\vec{F}$ um das Wegelement
 $\mathrm d\vec{s}$ verschoben, so wird an ihm die **Arbeit**
@@ -1106,7 +1118,7 @@ wobei $s$ für die Länge des gesamten Verschiebewegs steht.
 Um die Bedeutung dieser physikalischen Größe besser zu verstehen, wollen wir
 anhand der uns bekannten Kräfte einige Arten der Arbeit betrachten.
 
-##### Die Beschleunigungsarbeit
+#### Die Beschleunigungsarbeit
 
 Ein Körper der Masse $m$ soll aus dem Stand auf eine Geschwindigkeit $v$
 beschleunigt werden. Dies geschehe mit einer konstanten Beschleunigung $a$ auf
@@ -1145,7 +1157,7 @@ erforderliche Arbeit:
 
 $$W_\mathrm{Beschl}= \frac{m}{2}v^2 \, .$$
 
-##### Die Hubarbeit
+#### Die Hubarbeit
 
 Ein Körper der Masse $m$ soll um eine Höhe $\Delta h$ angehoben werden. Die
 Kraft, die hierfür aufzubringen ist, entspricht der Gewichtskraft dieses
@@ -1153,14 +1165,17 @@ Körpers[^1]:
 
 $$F=mg=\mathrm{const} \, .$$
 
+Dieser Ansatz gilt auch dann noch, wenn der Körper aus der Ruhe heraus angehoben
+und dabei zunächst beschleunigt wird. Dabei wirkt anfangs eine größere
+Kraft, im Gegenzug wirkt bei Erreichen der Endhöhe eine geringere Kraft, wenn
+der Körper abgebremst wird. Diese Beiträge von zusätzlicher und verringerter Kraft kompensieren sich gegenseitig.
+
 Wir gehen weiterhin davon aus, dass der Körper senkrecht gehoben wird, also
 $\vec{F} \, || \, \mathrm d\vec{s}$. Damit ergibt sich für die Hubarbeit:
 
 $$W = F \cdot s = F \cdot \Delta h = mg\Delta h \, .$$
 
-[^1]: Tatsächlich wird im ersten Moment des Anhebens der Körper zusätzlich beschleunigt, d.h. es wirkt eine größere Kraft. Im Gegenzug wirkt eine geringere Kraft, wenn der Körper bei Erreichen der neuen Höhe abgebremst wird. Diese Beiträge von zusätzlicher und verringerter Kraft kompensieren sich jedoch gegenseitig, sodass der Ansatz der (konstanten) Gewichtskraft korrekt ist.
-
-##### Die Federspannarbeit
+#### Die Federspannarbeit
 
 Eine Feder mit der Federkonstante $k$ soll um eine Auslenkung $x_\mathrm{max}$
 gedehnt werden. Hierfür muss die Kraft $\vec{F}= k\vec{x}$ aufgewendet werden.
@@ -1174,7 +1189,7 @@ gilt:
 $$W = \int \limits_0^{x_\mathrm{max}} F \mathrm dx=
     \int \limits_0^{x_\mathrm{max}} kx\mathrm dx= \frac{1}{2}kx^2_\mathrm{max} \, .$$
 
-##### Reibungsarbeit
+#### Reibungsarbeit
 
 Wie wir oben festgestellt haben, wirken bei der Bewegung eines Körpers stets
 Reibungskräfte, die diese Bewegung hemmen, d.h. die Geschwindigkeit verringern.
@@ -1189,7 +1204,7 @@ gleitet, muss die Gleitreibung kompensiert werden. Dabei wird die Arbeit
 $$W = Fs = \mu_\mathrm G F_\mathrm N s$$
 verrichtet.
 
-#### Die Leistung
+### Die Leistung
 
 Wir haben nun verschiedene Arten der Arbeit kennen gelernt. In vielen
 Situationen ist es darüber hinaus von Interesse, in welcher Zeit eine bestimmte
@@ -1223,7 +1238,7 @@ mittlere Leistung. Beide Formeln für die Leistung sind (in der Mechanik)
 gleichwertig. Für die Berechnung einer konkreten Fragestellung wird schlicht die
 zweckmäßigere Formel ausgewählt.
 
-#### Die Energie
+### Die Energie
 
 Wenn an einem Körper Arbeit verrichtet wird, so ändert sich in irgendeiner Weise
 ein Zustand dieses Körpers. Dies kann der Bewegungszustand (im Falle der
@@ -1235,7 +1250,7 @@ die Fähigkeit eines Körpers, Arbeit zu verrichten. Abhängig vom „Zustand“
 dem die Energie im Körper gespeichert ist, unterscheidet man verschiedene Arten
 der Energie.
 
-##### Energieformen der Mechanik
+#### Energieformen der Mechanik
 
 **Kinetische Energie** (oder Bewegungsenergie) ist die Energie, die ein Körper
 aufgrund seiner Geschwindigkeit besitzt. Sie ist gleich der
@@ -1267,7 +1282,7 @@ $$E_\mathrm{Feder}= \frac{1}{2} k x^2 \, ,$$
 wobei $x$ die Dehnung oder Stauchung der Feder aus dem entspannten Zustand
 angibt.
 
-##### Energieumwandlung
+#### Energieumwandlung
 
 Ein Körper, der sich in einer gewissen Höhe $h$ befindet, besitzt dort die
 entsprechende potentielle Energie $E_\mathrm{pot}=mgh$. Im freien Fall aus
@@ -1292,7 +1307,7 @@ des Körpers am Ende identisch. Die Umwandlung von kinetischer und potentieller
 Energie geschieht unabhängig vom Weg und hängt lediglich von Anfangs- und
 Endpunkt ab.
 
-##### Energie und Reibung
+#### Energie und Reibung
 
 Was geschieht nun aber mit der Arbeit, die gegen die Reibungskraft verrichtet
 wurde? Bewegt sich ein Körper unter dem Einfluss der Reibung, ohne dass eine
@@ -1308,7 +1323,7 @@ von außen Arbeit zur Kompensation der Reibung an ihm verrichtet werden. Diese
 Arbeit ändert nicht den Bewegungszustand des Körpers, erhöht also auch nicht
 dessen Energie.
 
-##### Der Energiesatz der Mechanik
+#### Der Energiesatz der Mechanik
 
 Die vorangegangene Betrachtung zeigt, dass mechanische Energie „verloren“ gehen
 kann. Tatsächlich existieren neben kinetischer und potentieller Energie weitere
@@ -1329,16 +1344,14 @@ in verallgemeinerter Form – zusammen, so erhält man den Energiesatz der Mecha
 >
 > $$E_\mathrm{ges}=E_\mathrm{pot} + E_\mathrm{kin} = \mathrm{const} \, .$$
 
-#### Anwendungen der Erhaltungssätze
+### Anwendungen der Erhaltungssätze
 
 Wir kennen nun zwei elementare Erhaltungssätze der Mechanik: Impulssatz und
 Energiesatz. Ihre Anwendung bietet einen Ansatz zur Lösung zahlreicher
 mechanischer Probleme. Wir wollen dies an einigen Beispielen betrachten.
 
-    {{1}}
-************************************************
-
-**Beispiel 1: Pendel und Hemmungspendel**
+<section>
+#### Beispiel 1: Pendel und Hemmungspendel
 
 Ein Fadenpendel der Masse $m$ wird in eine Höhe $h_1$ ausgelenkt (die Ruhelage
 des Pendels sei in der Höhe $h=0$). Von dort losgelassen bewegt sich das Pendel
@@ -1362,13 +1375,10 @@ die erreichte Höhe des Pendelkörpers. Für die energetische Betrachtung gilt
 weiterhin die Gleichheit:
 
 $$mgh_2 = \frac{1}{2}mv^2_\mathrm{max} = mgh_1 \quad  \Rightarrow \quad  h_2 = h_1 \, .$$
+</section>
 
-*******************************************
-
-    {{2}}
-***********************************************
-
-**Beispiel 2: Zentrale Stöße**
+<section>
+#### Beispiel 2: Zentrale Stöße
 
 Als Stoß bezeichnet man in der Physik eine (beliebige) Wechselwirkung zweier
 Körper, bei der Impuls übertragen wird. Da diese Wechselwirkung der beiden
@@ -1423,10 +1433,9 @@ $$v'_1=v_1-v'_2=v_1-v_1=0 \, .$$
 
 Die beiden Körper tauschen also ihre Geschwindigkeiten: Körper 1 kommt zur Ruhe,
 Körper 2 bewegt sich mit $v_1$ weiter.
+</section>
 
-*********************************************************
-
-##### Zusammenfassung
+#### Zusammenfassung
 
 Wir kennen nun zwei grundsätzliche Herangehensweise zur Berechnung mechanischer
 Fragestellungen:
@@ -1458,18 +1467,16 @@ Welcher dieser Lösungswege im konkreten Fall zu wählen ist, hängt von der
 jeweiligen Problemstellung ab. Sind beide Ansätze anwendbar, wird
 zweckmäßigerweise der einfachere gewählt.
 
-### Rotation — Dreh- und Kreisbewegung
+## Mechanik — Rotation (Dreh- und Kreisbewegung)
 
-        --{{0}}--
 In den bisherigen Abschnitten zur Mechanik wurden geradlinige Bewegungen
-betrachtet, die zur besseren Unterscheidung im Folgenden als Translation
-bezeichnet werden sollen. Bewegungen auf gekrümmten Bahnen wurden dabei als
+betrachtet, die unter dem Begriff der Translation zusammengefasst werden.
+Bewegungen auf gekrümmten Bahnen wurden dabei als
 Superposition von geradlinigen Bewegungen aufgefasst. Darüber hinaus ist es
 sinnvoll für bestimmte Bewegungsarten eigene Größen und Gesetzmäßigkeiten zu
 formulieren. In den folgenden Abschnitten werden dies zunächst
 Rotationsbewegungen sein.
 
-        --{{1}}--
 Die Rotation ist eine Sonderform der zweidimensionalen Bewegung, zu der sowohl
 die Bewegung eines Massepunktes auf einer Kreisbahn mit festem Radius
 (Kreisbewegung) als auch die Eigenrotation eines ausgedehnten Körpers um seine
@@ -1478,20 +1485,18 @@ nicht im Modell der Punktmasse beschreiben. Hierfür wird das Modell des starren
 Körpers eingeführt. Dieser stellt eine unveränderliche (insbesondere
 unverformbare) Masseverteilung dar.
 
-        --{{2 Deutsch Female}}--
 Wann ist es aber überhaupt sinnvoll, neue Größen für eine bestimmte Bewegung zu
 definieren? Es gibt hierfür zwei Argumente: Zum einen, wenn sich die
 mathematische Beschreibung durch die neuen Größen vereinfacht. Zum anderen, wenn
 durch die neuen Größen eine anschaulichere Beschreibung möglich ist, da
 charakteristische Eigenschaften besser zum Ausdruck kommen.
 
-        --{{3 Deutsch Female}}--
 Das Vorgehen bei der Betrachtung der Rotation folgt dem gleichen Schema wie bei
 der Translation: Zunächst werden in einer kinematischen Betrachtung Größen zur
 Beschreibung dieser Bewegungsform definiert. Anschließend werden in der Dynamik
 der Rotation Bewegungszustände und ihre Änderungen betrachtet.
 
-#### Kinematik der Rotation
+### Kinematik der Rotation
 
 Bewegt sich ein Massepunkt auf einer Kreisbahn, so ändert sich permanent die
 Richtung seiner Geschwindigkeit, da diese tangential zur Kreisbahn orientiert
@@ -1499,13 +1504,17 @@ ist. Damit ist die Kreisbewegung stets eine beschleunigte Bewegung, selbst wenn
 der Betrag der Geschwindigkeit konstant ist. Damit der Geschwindigkeitsvektor
 stets tangential zur Kreisbahn verläuft, muss diese permanente Beschleunigung
 radial zum Zentrum der Kreisbahn gerichtet sein. Daher wird sie als
-Zentripetalbeschleunigung $\vec{a}_\mathrm z$ bezeichnet (siehe nachfolgende Abbildung).
+Zentripetalbeschleunigung $\vec{a}_\mathrm z$ bezeichnet (siehe nachfolgende
+Abbildung).
 
-![Schematische Darstellung der Zentripetalbeschleunigung](grafik/V06_Zentripetalbeschl.svg "Im Zeitraum $t_1 \rightarrow t_2$ ändert der Geschwindigkeitsvektor die Richtung von $\vec v_1$ zu $\vec v_2$. Dies entspricht einer zum Zentrum der Kreisbahn gerichteten Beschleunigung $\vec a_\mathrm z$.")<!--
-style = "width: 7cm;"
--->
+<figure>
+  <img src="grafik/V06_Zentripetalbeschl.svg" alt="Schematische Darstellung der Zentripetalbeschleunigung" style = "width: 18em;">
+  <figcaption>
+    Im Zeitraum $t_1 \rightarrow t_2$ ändert der Geschwindigkeitsvektor die Richtung von $\vec v_1$ zu $\vec v_2$. Dies entspricht einer zum Zentrum der Kreisbahn gerichteten Beschleunigung $\vec a_\mathrm z$.
+  </figcaption>
+</figure>
 
-##### Drehwinkel und Winkelgeschwindigkeit
+#### Drehwinkel und Winkelgeschwindigkeit
 
 Zur Beschreibung einer Kreisbewegung definieren wir ein kartesisches
 Koordinatensystem, wobei die Kreisbahn in der $(x,y)$-Ebene liegt (siehe
@@ -1513,9 +1522,12 @@ Abbildung). Der Ursprung dieses Koordinatensystems entspricht der Drehachse,
 d.h. dem Zentrum der Kreisbahn. Die Drehachse selbst ist somit identisch mit der
 $z$-Achse des Koordinatensystems.
 
-![Kartesisches Koordinatensystem zur Beschreibung der Rotation.](grafik/V06_Koordinaten.svg "Kartesisches Koordinatensystem mit einer Kreisbahn in der $(x,y)$-Ebene. Die Position des Massepunkts (rot) kann sowohl durch $(x,y)$-Koordinaten als auch anhand des Drehwinkels $\phi$ angegeben werden.")<!--
-style = "width: 6cm;"
--->
+<figure>
+  <img src="grafik/V06_Koordinaten.svg"  alt="Kartesisches Koordinatensystem zur Beschreibung der Rotation." style = "width: 15em;">
+  <figcaption>
+    Kartesisches Koordinatensystem mit einer Kreisbahn in der $(x,y)$-Ebene. Die Position des Massepunkts (rot) kann sowohl durch $(x,y)$-Koordinaten als auch anhand des Drehwinkels $\phi$ angegeben werden.
+  </figcaption>
+</figure>
 
 Neben diesen kartesischen Koordinatenachsen werden für die Kreisbewegung weitere
 wichtige Einheitsvektoren definiert (siehe folgende Abbildung): Die Richtung der
@@ -1526,9 +1538,12 @@ repräsentiert. Weiterhin wird für jeden Punkt auf der Kreisbahn der radiale
 ist, ändern radialer und tangentialer Einheitsvektor eines Massepunktes bei der
 Kreisbewegung permanent ihre Richtung.
 
-![Darstellung von axialem, radialem und tangentialem Einheitsvektor an einer Kreisbahn.](grafik/V06_Rotation_Einheitsvektoren.svg "Einheitsvektoren der Kreisbewegung: Der axiale Einheitsvektor gibt die Richtung der Drehachse an, der radiale Einheitsvektor zeigt von der Drehachse zum Massepunkt auf der Kreisbahn und der tangentiale Einheitsvektor liegt in der momentanen Position des Massepunkts an der Kreisbahn an. Diese drei Einheitsvektoren bilden ebenfalls ein Rechtssystem.")<!--
-style = "width: 6cm;"
--->
+<figure>
+  <img src="grafik/V06_Rotation_Einheitsvektoren.svg" alt="Darstellung von axialem, radialem und tangentialem Einheitsvektor an einer Kreisbahn." style = "width: 15em;">
+  <figcaption>
+    Einheitsvektoren der Kreisbewegung: Der axiale Einheitsvektor gibt die Richtung der Drehachse an, der radiale Einheitsvektor zeigt von der Drehachse zum Massepunkt auf der Kreisbahn und der tangentiale Einheitsvektor liegt in der momentanen Position des Massepunkts an der Kreisbahn an. Diese drei Einheitsvektoren bilden ebenfalls ein Rechtssystem.
+  </figcaption>
+</figure>
 
 Da der Ursprung des (kartesischen) Koordinatensystems im Zentrum der Kreisbahn
 liegt, ist folglich der Betrag des Ortsvektors $|\vec{r}|$ des betrachteten
@@ -1568,9 +1583,20 @@ Richtung gilt die Rechte-Hand-Regel: Zeigt der ausgestreckte Daumen der rechten
 Hand in Richtung des $\vec{\omega}$-Vektors, so zeigen die gekrümmten Finger
 dieser Hand die Drehrichtung des Massepunkts an (siehe Abbildung).
 
-![Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung.](grafik/V06_Winkelgeschwindigkeit.svg "Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung $\vec e_\mathrm{ax}$.")<!-- style = "width: 7cm;" -->
+<figure>
+  <img src="grafik/V06_Winkelgeschwindigkeit.svg" alt="Darstellung der Lage des Winkelgeschwindigkeitsvektors im Koordinatensystem einer Kreisbewegung." style = "width: 18em;">
+  <figcaption>
+    Die Richtung des Winkelgeschwindigkeitsvektors entspricht der Drehachse der Rotation. Gemäß dem oben definiertem Koordinatensystem ist dies identisch zur $z$-Achse beziehungsweise der axialen Richtung $\vec e_\mathrm{ax}$.
+  </figcaption>
+</figure>
 
-![Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/3/3c/Winkelgeschwindigkeit_Rechte-Hand-Regel.svg "Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an. \[Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [SVGguru](https://commons.wikimedia.org/wiki/User:SVGguru)), [Winkelgeschwindigkeit Rechte-Hand-Regel](https://commons.wikimedia.org/wiki/File:Winkelgeschwindigkeit_Rechte-Hand-Regel.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons\]")<!-- style = "width: 7cm;" -->
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Winkelgeschwindigkeit_Rechte-Hand-Regel.svg" alt="Veranschaulichung der Rechte-Hand-Regel zur Festlegung der Richtung der Winkelgeschwindigkeit" style = "width: 15em;">
+  <figcaption>
+    Rechte-Hand-Regel der Winkelgeschwindigkeit: Zeigt der Daumen der rechten Hand entlang des Winkelgeschwindigkeitsvektors (roter Pfeil), so geben die gekrümmten Finger die Bewegungsrichtung der Rotation (blauer Pfeil) an.
+    [Quelle: <a href="https://commons.wikimedia.org/wiki/User:HerrvomDorf">Herbert Schletter</a> (derived from a work by <a href="https://commons.wikimedia.org/wiki/User:SVGguru">SVGguru</a>), <a href="https://commons.wikimedia.org/wiki/File:Winkelgeschwindigkeit_Rechte-Hand-Regel.svg">Winkelgeschwindigkeit Rechte-Hand-Regel</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>, via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Mit den oben eingeführten Einheitsvektoren lässt sich die Winkelgeschwindigkeit
 folgendermaßen angeben:
@@ -1602,7 +1628,7 @@ $$\vec{v}= \dot{\vec{r}} =\vec{\omega} \times \vec{r} \, .$$
 Für den Betrag der Bahngeschwindigkeit folgt: $v=\omega r$. Ihre Richtung
 verläuft stets tangential zur Kreisbahn.
 
-##### Beschleunigung bei der Kreisbewegung
+#### Beschleunigung bei der Kreisbewegung
 
 Verläuft eine Rotation mit konstanter Winkelgeschwindigkeit, so spricht man von
 einer gleichförmigen Kreisbewegung. Wie oben bereits diskutiert, ändert sich
@@ -1688,7 +1714,7 @@ des Massepunktes, kann also keine Arbeit verrichten. Tatsächlich ergibt sich mi
 $\vec{F}_\mathrm z \perp \vec{\mathrm d s}$ für diese Kraft
 $\mathrm dW=\vec{F}_\mathrm z \cdot \vec{\mathrm ds}=0$.
 
-#### Dynamik der Rotation
+### Dynamik der Rotation
 
 Nachdem bisher Rotationsbewegungen nur beschrieben wurden, soll jetzt auch die
 Ursache dieser Bewegungen – d.h. genauer der Änderung eines
@@ -1772,7 +1798,7 @@ $$\vec{M} = J\vec{\alpha} \, .$$
 Es ist anzumerken, dass diese Formel nur bei konstantem Trägheitsmoment gilt,
 d.h. sowohl Masse als auch Bahnradius der Rotation müssen konstant sein.
 
-#### Der Drehimpuls
+### Der Drehimpuls
 
 Für die Translation wurde der Impuls definiert nach dem Schema „Trägheit $\cdot$
 Geschwindigkeit“. Wir können nach gleichem Schema eine analoge Größe für die
@@ -1823,7 +1849,7 @@ $$\begin{aligned}
 & = J\vec{\omega}
 \end{aligned}$$
 
-#### Energie der Rotation
+### Energie der Rotation
 
 Bei der Behandlung der Translation hatten wir festgestellt, dass in der Bewegung
 eines Körpers Energie gespeichert ist (= kinetische Energie). Es stellt sich die
@@ -1868,66 +1894,73 @@ den Rollradius sowie die Massenverteilung bezüglich der Drehachse – eine gro�
 Masse in weiter Entfernung von der Drehachse erzeugt ein höheres Trägheitsmoment
 und demzufolge einen höheren Anteil Rotationsenergie.
 
-#### Zusammenfassung
+### Zusammenfassung
 
 Die folgende Übersicht stellt analoge Größen von Translation und Rotation
 einander gegenüber und nennt die Zusammenhänge zwischen diesen Größen.
 
-Position eines Massepunkts
-==========================
+<section>
+#### Position eines Massepunkts
 - Translation: Ortsvektor $\vec r$ oder Weg $s$
 - Rotation: Winkel $\phi$
 - Zusammenhang: $\mathrm ds = r\cdot \mathrm d\phi$  
 
   oder: $\Delta s = r\cdot \Delta\phi$
+</section>
 
-Geschwindigkeit
-===============
+<section>
+#### Geschwindigkeit
 - Translation: $\vec v = \frac{\mathrm d\vec r}{\mathrm d t}$
 - Rotation: $|\vec{\omega}| = \frac{\mathrm d \phi}{\mathrm dt}$
 - Zusammenhang: $\vec{v} = \vec{\omega} \times \vec{r}$  
 
   beziehungsweise: $v = \omega r$
+</section>
 
-Beschleunigung
-==============
+<section>
+#### Beschleunigung
 - Translation: $\vec{a}= \frac{\mathrm d \vec{v}}{\mathrm dt} = \frac{\mathrm d^2 \vec{r}}{\mathrm dt^2}$
 - Rotation: $\vec{\alpha} = \frac{\mathrm d \vec{\omega}}{\mathrm dt}$
 - Zusammenhang: $\vec{a}_\mathrm t = \vec{\alpha} \times \vec{r}$  
 
   und $\vec{a}_\mathrm z = - \omega^2 \vec{r}$
+</section>
 
-Wechselwirkung
-==============
-- Translation: Kraft $\vec{F}$.
-- Rotation: Drehmoment $\vec{M}$.
+<section>
+#### Wechselwirkung
+- Translation: Kraft $\vec{F}$
+- Rotation: Drehmoment $\vec{M}$
 - Zusammenhang: $\vec{M}= \vec{r} \times \vec{F}$  
 
   beziehungsweise: $M = rF$, wenn $\vec{r} \perp \vec{F}$
+</section>
 
-Trägheit
-========
+<section>
+#### Trägheit
 - Translation: Masse $m$.
 - Rotation: Trägheitsmoment $J$.
 - Zusammenhang: $J = mr^2$ (Punktmasse)
+</section>
 
-2. Newtonsches Axiom
-=====================
+<section>
+#### 2. Newtonsches Axiom
 - Translation: $\int_{t_1}^{t_2} \vec{F}\mathrm dt = \Delta \vec{p}$  
 
   beziehungsweise: $\vec{F}=m\vec{a} \, \, (m=\textrm{const.})$
 - Rotation: $\int_{t_1}^{t_2} \vec{M}\mathrm dt = \Delta L$  
 
   beziehungsweise: $\vec{M}=J\vec{\alpha} \,\,(J=\textrm{const.})$
+</section>
 
-Kinetische Energie
-==================
+<section>
+#### Kinetische Energie
 - Translation: $E_\mathrm{trans}= \frac{1}{2}mv^2$
 - Rotation: $E_\mathrm{rot} = \frac{1}{2} J \omega^2$
 - Zusammenhang: $E_\mathrm{kin,gesamt} =E_\mathrm{trans} + E_\mathrm{rot}$
+</section>
 
-Impuls/ Drehimpuls
-==================
+<section>
+#### Impuls/ Drehimpuls
 - Translation: Impuls $\vec{p}= m\vec v$
 - Rotation: $\vec{L}=J \vec{\omega}$  
 
@@ -1935,10 +1968,10 @@ Impuls/ Drehimpuls
 - Zusammenhang: $\vec{L}= \vec{r} \times \vec{p}$  
 
   beziehungsweise: $L = rp$, wenn $\vec{r} \perp \vec{p}$
+</section>
 
-### Mechanische Schwingungen
+## Mechanik — Mechanische Schwingungen
 
-        --{{0}}--
 Mechanische Schwingungen sind ein Spezialfall der Bewegung, bei dem sich ein
 definierter Bewegungsablauf permanent wiederholt. Aufgrund ihres häufigen und
 vielfältigen Auftretens besitzt diese Bewegungsform eine hohe praktische
@@ -1946,7 +1979,7 @@ Bedeutung. Daher werden auch hierfür eigene Größen und Gesetze definiert, die
 die Charakteristik der Schwingung – den sich wiederholenden Bewegungsablauf –
 widerspiegeln.
 
-#### Kinematik der Schwingung
+### Kinematik der Schwingung
 Schwingungen treten nicht nur in der Mechanik, sondern in allen Teilbereichen
 der Physik auf. Entsprechend allgemein fällt die Definition einer Schwingung
 aus:
@@ -1968,9 +2001,14 @@ Rahmen dieses Kurses beschäftigen wir uns jedoch nur mit sogenannten
 harmonischen Schwingungen. Diese werden durch eine einzelne Sinus- oder
 Kosinusfunktion beschrieben.
 
-![Darstellung einer Sinus- und Kosinusschwingung in einem Diagramm](grafik/V08_Schwingung.svg "Harmonische Schwingungen lassen sich durch Sinus- oder Kosinusfunktionen darstellen. Zur Beschreibung einer Schwingung nutzt man unter Anderem die Amplitude $A_0$ und die Periodendauer T.")<!--
-style = 'width: 12cm;'
--->
+<figure>
+  <img src="grafik/V08_Schwingung.svg" alt="Darstellung einer Sinus- und Kosinusschwingung in einem Diagramm" style = "width: 30em;">
+  <figcaption>
+    Harmonische Schwingungen lassen sich durch Sinus- oder Kosinusfunktionen
+    darstellen. Zur Beschreibung einer Schwingung nutzt man unter Anderem die
+    Amplitude $A_0$ und die Periodendauer T.
+  </figcaption>
+</figure>
 
 Zur Beschreibung der Schwingung definieren wir neue Größen (siehe obige
 Abbildung):
@@ -1986,7 +2024,7 @@ Abbildung):
 
 -   $\omega=2\pi \cdot f=\frac{2\pi}{T}$ … Kreisfrequenz
 
-#### Die freie, ungedämpfte Schwingung (am Beispiel des Federschwingers)
+### Die freie, ungedämpfte Schwingung (am Beispiel des Federschwingers)
 
 Eine Schwingung wird als *frei* bezeichnet, wenn sie (nach der anfänglichen
 Auslenkung) nicht durch eine äußere Kraft angetrieben wird. Die Bezeichnung
@@ -2001,9 +2039,14 @@ Abbildung):
 - lineare Auslenkung in $x$-Richtung,
 - Ruhelage bei $x=0$.
 
-![Schematische Darstellung eines Federpendels mit dem im Text beschriebenen Koordinatensystem](grafik/V08_KOOS_Schwingung.svg "Wird ein Federpendel, dessen Ruhelage bei $x=0$ liegt, um eine Strecke $x_0$ ausgelegt, so wirkt die rücktreibende Federkraft $\vec F_\mathrm F$. [Quelle: mit freundlicher Genehmigung von Thomas Franke]")<!--
-style = 'width: 6cm;'
--->
+<figure>
+  <img src="grafik/V08_KOOS_Schwingung.svg" alt="Schematische Darstellung eines Federpendels mit dem im Text beschriebenen Koordinatensystem" style = "width: 15em;">
+  <figcaption>
+    Wird ein Federpendel, dessen Ruhelage bei $x=0$ liegt, um eine Strecke $x_0$
+    ausgelegt, so wirkt die rücktreibende Federkraft $\vec F_\mathrm F$.
+    [Quelle: mit freundlicher Genehmigung von Thomas Franke]
+  </figcaption>
+</figure>
 
 Aus der Dynamik wissen wir, dass die Feder ihrer Auslenkung die Federkraft
 entgegensetzt, d.h., es wirkt die Kraft
@@ -2070,7 +2113,7 @@ das Orts-Zeit-Gesetz des Federschwingers lautet:
 
 $$x(t) = x_0 \cdot \sin(\omega_0 t + \frac{\pi}{2}) = x_0 \cdot \cos(\omega_0 t) \, .$$
 
-##### Anmerkung zur Energie eines Federschwingers
+#### Anmerkung zur Energie eines Federschwingers
 
 Das Federpendel besitzt – je nach aktuellem Schwingungszustand –
 unterschiedliche Beträge der kinetischen und potentiellen Energie:
@@ -2102,7 +2145,7 @@ E_\mathrm{ges} & = E_\mathrm{pot} + E_\mathrm{kin}\\
 Die Gesamtenergie des Pendels bleibt also stets konstant. Sie wird nur zwischen
 kinetischer und potentieller Energie hin und her transformiert.
 
-#### Die freie gedämpfte Schwingung (am Beispiel des Federschwingers)
+### Die freie gedämpfte Schwingung (am Beispiel des Federschwingers)
 
 Um in der mathematischen Beschreibung einer Schwingung auch die Reibung zu
 berücksichtigen, muss diese als weitere Kraftkomponente aufgenommen werden. Als
@@ -2133,10 +2176,9 @@ die Schwingung verläuft (geringfügig) langsamer als im ungedämpften Fall:
 $\omega < \omega_0$.
 
 Tatsächlich tritt dieses Verhalten jedoch nur auf, wenn die Dämpfung hinreichend
-klein ist. Bei zu großer Dämpfung kann das Pendel nicht mehr schwingen[^1].
-
-[^1]: Von einer Schwingung wird gesprochen, wenn das Pendel mindestens einmal
-    seine Ruhelage durchquert.
+klein ist. Bei zu großer Dämpfung kann das Pendel nicht mehr schwingen. Von
+einer Schwingung wird gesprochen, wenn das Pendel mindestens einmal seine
+Ruhelage durchquert.
 
 Die theoretische Herleitung liefert – ebenso wie die experimentellen Befunde –
 eine Unterscheidung in drei verschiedene Bewegungsabläufe, die in Abhängigkeit
@@ -2159,7 +2201,7 @@ Der aperiodische Grenzfall besitzt große Bedeutung für Systeme, bei denen eine
 Schwingung durch geeignete Dämpfung vermieden werden soll, zum Beispiel der
 Stoßdämpfer am Auto oder die Dämpfung einer Schwingtür.
 
-#### Erzwungene Schwingungen
+### Erzwungene Schwingungen
 
 Bisher wurden Schwingungen betrachtet, die – abgesehen von der erstmaligen
 Auslenkung – ohne äußere Krafteinwirkung abliefen. Nun soll der Fall betrachtet
@@ -2190,7 +2232,6 @@ der Tacoma Narrows Bridge.
 
 ## Wärmelehre
 
-        --{{0}}--
 Die Wärmelehre beschäftigt sich mit den Zuständen und Zustandsänderungen
 thermodynamischer Systeme.
 Jeder Körper (egal ob fest, flüssig oder gasförmig) sowie jede Kombination von
@@ -2199,7 +2240,6 @@ thermodynamisches System dar. Der Zustand eines solchen Systems wird durch eine
 Reihe sogenannter Zustandsgrößen beschrieben. Diese bilden auch den ersten
 thematischen Schwerpunkt dieses Kapitels.
 
-        --{{1}}--
 Ein zweiter Schwerpunkt befasst sich mit der Betrachtung der Energie
 thermodynamischer Systeme. Neben den bekannten Energieformen der Mechanik wird
 in diesem Zusammenhang die innere Energie eines Systems eingeführt. Schließlich
@@ -2323,7 +2363,16 @@ Prozesse eine Hyperbel ($p\propto V^{-1})$, isobare Prozesse erscheinen als
 horizontale Gerade ($p=\mathrm{const}$) und isochore Prozesse als vertikale
 Gerade ($V=\mathrm{const}$).
 
-![p-V-Diagramm mit zwei Isothermen, einer Isobaren und einer Isochoren](grafik/V09_pV-Diagramm.svg "Thermodynamische Prozesse werden häufig in $p$-$V$-Diagrammen dargestellt. Isochore Prozesse ergeben dabei vertikale Geraden, isobare Prozesse entsprechen horizontalen Geraden, isotherme Prozesse ergeben Hyperbeln. Die dargestellten Isothermen entsprechen einem Mol eines idealen Gases bei Temperaturen von $300~\mathrm K$ und $500~\mathrm K$.")
+<figure>
+  <img src="grafik/V09_pV-Diagramm.svg" alt="p-V-Diagramm mit zwei Isothermen, einer Isobaren und einer Isochoren" style="width: 40em;">
+  <figcaption>
+    Thermodynamische Prozesse werden häufig in $p$-$V$-Diagrammen dargestellt.
+    Isochore Prozesse ergeben dabei vertikale Geraden, isobare Prozesse
+    entsprechen horizontalen Geraden, isotherme Prozesse ergeben Hyperbeln. Die
+    dargestellten Isothermen entsprechen einem Mol eines idealen Gases bei
+    Temperaturen von $300~\mathrm K$ und $500~\mathrm K$.
+  </figcaption>
+</figure>
 
 ### Temperatur, innere Energie und Wärme
 
@@ -2499,7 +2548,16 @@ erfolgt, also $Q \propto \Delta t$). Man beachte, dass die Anstiege der Geraden
 in den drei Bereichen unterschiedlich sind, da Eis, Wasser und Dampf
 unterschiedliche spezifische Wärmekapazitäten aufweisen.
 
-![Temperatur-Zeit-Diagramm der Phasenübergänge von Wasser bei konstanter Wärmezufuhr.](grafik/V09_Umwandlungskurve_Wasser.svg "Einer Menge an Wasser (anfangs in Form von Eis) wird kontinuierlich Wärme zugeführt. Solange keine Änderung des Aggregatzustands erfolgt, steigt die Temperatur dabei linear an. Während der Aggregatzustandsänderungen hingegen bleibt die Temperatur konstant, da die zugeführte Energie für die jeweilige Umwandslungswärme aufgewendet wird.")
+<figure>
+  <img src="grafik/V09_Umwandlungskurve_Wasser.svg" alt="Temperatur-Zeit-Diagramm der Phasenübergänge von Wasser bei konstanter Wärmezufuhr." style="width: 40em;">
+  <figcaption>
+    Einer Menge an Wasser (anfangs in Form von Eis) wird kontinuierlich Wärme
+    zugeführt. Solange keine Änderung des Aggregatzustands erfolgt, steigt die
+    Temperatur dabei linear an. Während der Aggregatzustandsänderungen hingegen
+    bleibt die Temperatur konstant, da die zugeführte Energie für die jeweilige
+    Umwandslungswärme aufgewendet wird.
+  </figcaption>
+</figure>
 
 Die zur Phasenumwandlung erforderliche Energie ist materialabhängig und als
 spezifische Umwandlungswärme $q_\mathrm u$ (beziehungsweise genauer als
@@ -2513,7 +2571,6 @@ Erwärmung um $1~\mathrm K$ erforderlichen spezifischen Wärmen.
 
 ## Elektrizitätslehre
 
-          --{{0}}--
 Die Behandlung der Elektrizitätslehre beginnt mit der Feststellung einer
 Wechselwirkung, die mit den bisherigen Erkenntnissen dieses Kurses nicht erklärt
 werden kann. Darauf aufbauend wird der Begriff der elektrischen Ladung
@@ -2524,14 +2581,12 @@ Antike wurde diese Wechselwirkung beispielsweise bei Bernstein beobachtet. Daher
 stammt auch die Bezeichnung Elektrizität: das griechische Wort für Bernstein
 lautet ‚*elektron*‘ (ἤλεκτρον).
 
-          --{{1}}--
 Im ersten Abschnitt der Elektrizitätslehre werden die Eigenschaften dieser
 Wechselwirkung und der damit verbundenen Kraft betrachtet. Insbesondere werden
 dabei auch Arbeit und Energie für diese Kraft hergeleitet. Die Ladungen
 selbst werden dabei weitgehend als ruhend angesehen. Daher wird dieser
 Teilbereich der Elektrizitätslehre als Elektrostatik bezeichnet.
 
-          --{{2 Deutsch Female}}--
 Der zweite Teilbereich der Elektrizitätslehre in diesem Physikkurs beschäftigt
 sich mit Ladungen in kontinuierlicher Bewegung, wie sie in elektrischen
 Stromkreisen auftritt. Dort werden die Grundprinzipien zur Beschreibung des
@@ -2582,10 +2637,10 @@ eines Körpers unterschieden. Wenn beispielsweise von der
 Übertragung von Ladungen gesprochen wird, bedeutet dies stets, dass
 Ladungsträger übertragen werden.
 
-#### Coulomb<!-- style ="font-variant: small-caps;" -->kraft und elektrisches Feld
+#### <span style ="font-variant: small-caps;">Coulomb</span>kraft und elektrisches Feld
 
 Die oben qualitativ beschriebene Wechselwirkung trägt den Namen elektrostatische
-oder Coulomb<!-- style ="font-variant: small-caps;" -->-Wechselwirkung.
+oder <span style ="font-variant: small-caps;">Coulomb</span>-Wechselwirkung.
 Wie in der Mechanik wird die Stärke dieser
 Wechselwirkung durch eine Kraft – die Coulombkraft – beschrieben. Um diese Kraft
 quantitativ ausdrücken zu können, wird nunmehr auch die Ladung nicht
@@ -2594,7 +2649,7 @@ eingeführt. Die **elektrische Ladung** erhält das Formelzeichen $Q$.
 
 $$\textrm{Einheit: } [Q]= 1~\mathrm{As} = 1~\mathrm C \quad \textrm{(Coulomb)}$$
 
-Aus dem Millikan<!-- style ="font-variant: small-caps;" -->-Experiment (auf
+Aus dem <span style ="font-variant: small-caps;">Millikan</span>-Experiment (auf
 dessen Behandlung hier verzichtet wird) folgt, dass die Ladung eine gequantelte
 Größe ist. D.h., es existiert eine kleinste, unteilbare Ladung, die sogenannte
 Elementarladung $e$. Jede in der Natur vorkommende Ladung ist ein ganzzahliges
@@ -2667,11 +2722,40 @@ Konventionen, die die experimentellen Beobachtungen widerspiegeln:
 
 Für Punktladungen ergeben sich damit die nachfolgend gezeigten Feldlinienbilder:
 
-![elektrische Feldlinien einer positiven Punktladung](https://upload.wikimedia.org/wikipedia/commons/9/95/VFPt_plus_thumb.svg "Feldlinienbild einer einzelnen positiven (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt plus thumb](https://commons.wikimedia.org/wiki/File:VFPt_plus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/VFPt_plus_thumb.svg" alt="elektrische Feldlinien einer positiven Punktladung">
+  <figcaption>
+    Feldlinienbild einer einzelnen positiven (Punkt-) Ladung. Die Feldstärke ist
+    unmittelbar an der Ladung am größten.
+    [Quelle: <a href="https://commons.wikimedia.org/wiki/User:Geek3">Geek3</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:VFPt_plus_thumb.svg">VFPt plus thumb</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
-![elektrische Feldlinien einer negativen Punktladung](https://upload.wikimedia.org/wikipedia/commons/d/d7/VFPt_minus_thumb.svg "Feldlinienbild einer einzelnen negativen (Punkt-) Ladung. Die Feldstärke ist unmittelbar an der Ladung am größten. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/VFPt_minus_thumb.svg" alt="elektrische Feldlinien einer negativen Punktladung">
+  <figcaption>
+    Feldlinienbild einer einzelnen negativen (Punkt-) Ladung. Die Feldstärke ist
+    unmittelbar an der Ladung am größten.
+    [Quelle:  <a href="https://commons.wikimedia.org/wiki/User:Geek3">Geek3</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:VFPt_minus_thumb.svg">VFPt minus thumb</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
-![elektrische Feldlinien zwischen positiver und negativer Punktladung](https://upload.wikimedia.org/wikipedia/commons/e/ed/VFPt_charges_plus_minus_thumb.svg "Verlauf der elektrischen Feldlinien zwischen positiver und negativer (Punkt-) Ladung. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt charges plus minus thumb](https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus_thumb.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/VFPt_charges_plus_minus_thumb.svg" alt="elektrische Feldlinien zwischen positiver und negativer Punktladung">
+  <figcaption>
+    Verlauf der elektrischen Feldlinien zwischen positiver und negativer (Punkt-) Ladung.
+    [Quelle:  <a href="https://commons.wikimedia.org/wiki/User:Geek3">Geek3</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:VFPt_charges_plus_minus_thumb.svg">VFPt charges plus minus thumb</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 #### Homogenes elektrisches Feld — Plattenkondensator
 
@@ -2684,9 +2768,18 @@ Metallplatten parallel gegenüber. Im Zentrum zwischen diesen Platten verlaufen
 die Feldlinien parallel im gleichen Abstand zueinander. Die Feldstärke ist in
 diesem Bereich nicht mehr ortsabhängig: $\vec E(\vec r)=\overrightarrow{\mathrm{const}}$.
 
-![Feldlinienbild eines Plattenkondensators](https://upload.wikimedia.org/wikipedia/commons/e/eb/VFPt_capacitor-square-plate.svg "Feldlinienbild eines Plattenkondensators: Im inneren Raum zwischen den Kondensatorplatten liegt ein homogenes elektrisches Feld vor. An den Rändern wird diese Homogenität durch Randeffekte gestört. [Quelle: [Geek3](https://commons.wikimedia.org/wiki/User:Geek3), [VFPt capacitor-square-plate](https://commons.wikimedia.org/wiki/File:VFPt_capacitor-square-plate.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons]")<!--
-style ="width: 10cm;"
--->
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/VFPt_capacitor-square-plate.svg" alt="Feldlinienbild eines Plattenkondensators" style ="width: 25em;">
+  <figcaption>
+    Feldlinienbild eines Plattenkondensators: Im inneren Raum zwischen den
+    Kondensatorplatten liegt ein homogenes elektrisches Feld vor. An den Rändern
+    wird diese Homogenität durch Randeffekte gestört.
+    [Quelle:  <a href="https://commons.wikimedia.org/wiki/User:Geek3">Geek3</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:VFPt_capacitor-square-plate.svg">VFPt capacitor-square-plate</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="license">CC BY-SA 4.0</a> ,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Die im obigen Bild gezeigte Anordnung aus zwei parallelen geladenen Platten wird
 als Plattenkondensator bezeichnet. Wie in der Darstellung erkennbar ist, treten
@@ -2774,7 +2867,7 @@ auf zwei voneinander isolierten Elektroden Ladungen gespeichert werden. Ebenso
 gilt für alle Bauformen die Proporptionalität $Q=CU$. Lediglich der Zusammenhang
 zwischen Kapazität und Geometrie des Kondensators hängt von der Bauform ab.
 
-#### Energie des elektrischen Felds – Coulomb<!-- style ="font-variant: small-caps;" -->energie
+#### Energie des elektrischen Felds – <span style="font-variant: small-caps;">Coulomb</span>energie
 
 Bewegt sich ein Ladungsträger oder ein (makroskopischer) geladener Körper durch
 ein elektrisches Feld, so geschieht dies unter permanenter Einwirkung der
@@ -2803,12 +2896,12 @@ $$\mathrm{d}\phi = \frac{1}{q}\mathrm dW \, .$$
 
 Das an dieser Stelle abstrakt eingeführte Potential $\phi$ stellt eine
 *messbare* Größe dar und beschreibt – wie auch die Feldstärke $\vec E$ – den
-felderfüllten Raum. Aus der obigen Einführung des Potentials lässt sich auch ein
-(einfacher) Zusammenhang zwischen Feldstärke und Potential ableiten:[^1]
+felderfüllten Raum. Die tiefgründigeren Beziehungen zwischen Feldstärke und
+Potential werden im Rahmen dieses Skriptums nicht detailliert betrachtet. Aus
+der obigen Einführung des Potentials lässt sich jedoch ein einfacher
+Zusammenhang zwischen Feldstärke und Potential ableiten:
 
 $$\mathrm{d}\phi = \frac{1}{q}\mathrm dW = -\vec E \vec{\mathrm{d}s} \, .$$
-
-[^1]: Tatsächlich ist der Zusammenhang zwischen elektrischem Potential $\phi$ und Feldstärke $\vec E$ weitaus tiefgründiger. Im Rahmen dieses Kurses wird dies jedoch nicht weiter betrachtet.
 
 Die Probeladung soll nun vom Anfangsort $\vec r_1$ zum Ort $\vec r_2$ bewegt
 werden. Um die gesamte Arbeit zu berechnen, müssen wir entlang des
@@ -2818,13 +2911,13 @@ $$W = \int\limits_{\vec r_1}^{\vec r_2} \mathrm{d}W = -q \int\limits_{\vec r_1}^
 = q \int\limits_{\vec r_1}^{\vec r_2} \mathrm d \phi \, .$$
 
 Aus Experimenten sowie aus einer formal-theoretischen Beschreibung des
-Coulombfeldes kann geschlussfolgert werden, dass der Wert dieses Integrals
-unabhängig ist vom konkret gewählten Weg, sondern nur von Ausgangs- und Endpunkt
-abhängt.[^2] Für die Arbeit im elektrischen Feld gilt dann:
+Coulombfeldes kann geschlussfolgert werden, dass der Wert dieses Integrals und
+somit die verrichtete Arbeit unabhängig ist vom konkret gewählten Weg. Sie hängt
+nur von Ausgangs- und Endpunkt ab – analog zur Energieumwandlung im Schwerefeld
+der Erde, für die ebenfalls eine solche Wegunabhängigkeit festgestellt wurde.
+Für die Arbeit im elektrischen Feld gilt dann:
 
 $$W = q \int\limits_{\vec r_1}^{\vec r_2} \mathrm d\phi = q \big(\phi(\vec r_2)- \phi(\vec r_1)\big) = qU \, .$$
-
-[^2]: Einen ähnlichen Sachverhalt kennen wir bereits von der Energieumwandlung im Schwerefeld der Erde.
 
 Hier findet sich der Ursprung der oben bereits eingeführten elektrischen
 Spannung: Sie entspricht der Differenz des elektrischen Potentials zwischen
@@ -2930,9 +3023,13 @@ Leiters an eine Strom- beziehungsweise Spannungsquelle angeschlossen werden. So
 entsteht ein (geschlossener) Stromkreis. Der Aufbau von Stromkreisen wird in
 Schaltbildern dargestellt (siehe Abbildung).
 
-![Einfacher Stromkreis mit Spannungsquelle und ohmschem Widerstand](grafik/V11_Stromkreis1.svg "Schaltbild eines einfachen Stromkreises mit Spannungsquelle (oben) und ohmschem Widerstand (unten).")<!--
-style ="width: 5cm;"
--->
+<figure>
+  <img src="grafik/V11_Stromkreis1.svg" alt="Einfacher Stromkreis mit Spannungsquelle und ohmschem Widerstand" style ="width: 10em;">
+  <figcaption>
+    Schaltbild eines einfachen Stromkreises mit Spannungsquelle (oben) und
+    ohmschem Widerstand (unten).
+  </figcaption>
+</figure>
 
 #### Elektrischer Widerstand
 
@@ -2953,13 +3050,25 @@ Zusammenhang $I(U)$ zwischen Spannung und Stromstärke eines Bauelements grafisc
 darstellen. Beispiele für typische Kennlinien verschiedener Bauelemente zeigt
 die folgende Abbildung.
 
-![Beispiele für Strom-Spannungs-Kennlinien elektrischer Bauelemente.](https://upload.wikimedia.org/wikipedia/commons/8/81/I_U_Kennlinien_einfach.png "Typische Strom-Spannungs-Kennlinien verschiedener Bauelemente. Die beiden linken Darstellungen weisen ohmsches Verhalten auf (konstanter Widerstand), während eine Diode (dritte Darstellung) ein Beispiel für ein nicht-ohmsches Bauelement ist. [Quelle: [Sbyrnes321](https://commons.wikimedia.org/wiki/User:Sbyrnes321), [I U Kennlinien einfach](https://commons.wikimedia.org/wiki/File:I_U_Kennlinien_einfach.png), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/I_U_Kennlinien_einfach.png" alt="Beispiele für Strom-Spannungs-Kennlinien elektrischer Bauelemente">
+  <figcaption>
+    Typische Strom-Spannungs-Kennlinien verschiedener Bauelemente. Die
+    beiden linken Darstellungen weisen ohmsches Verhalten auf (konstanter
+    Widerstand), während eine Diode (dritte Darstellung) ein Beispiel für
+    ein nicht-ohmsches Bauelement ist.
+    [Quelle: <a href="https://commons.wikimedia.org/wiki/User:Sbyrnes321">Sbyrnes321</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:I_U_Kennlinien_einfach.png">I U Kennlinien einfach</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Im einfachsten Fall ist die Kennlinie eines elektrischen Bauelements eine
 Gerade. Der Widerstand dieses Bauelements ist folglich konstant und unabhängig
 von den Betriebsbedingungen. Solche Bauelemente werden als
-ohm<!-- style ="font-variant: small-caps;" -->sche Bauelemente bezeichnet, da
-sie dem ohm<!-- style ="font-variant: small-caps;" -->schen Gesetz gehorchen:
+<span style="font-variant: small-caps;">ohm</span>sche Bauelemente bezeichnet, da
+sie dem <span style="font-variant: small-caps;">ohm</span>schen Gesetz gehorchen:
 
 $$R = \frac{U}{I}= \mathrm{const.}$$
 
@@ -3001,7 +3110,7 @@ Einflussgrößen abhängen. Z.B.:
 Diese Abhängigkeiten sind Grundlage verschiedenster Bauelemente und werden auch
 messtechnisch genutzt.
 
-#### Kirchhoff<!-- style ="font-variant: small-caps;" -->sche Regeln
+#### <span style ="font-variant: small-caps;">Kirchhoff</span>sche Regeln
 
 Elektrische Stromkreise können durch Verzweigungen beliebig komplex werden
 (siehe nachfolgende Abbildung). Sie bestehen jedoch stets aus einfachen
@@ -3010,9 +3119,13 @@ sogenannten *Knoten* miteinander verbunden sind. Zur Berechnung der Spannungen
 und Ströme in einem Stromkreis dienen die beiden Kirchhoffschen Regeln, die auch
 als Knoten- und Maschenregel bekannt sind.
 
-![Schaltbild eines verzweigten Stromkreises mit zwei Maschen und zwei Knoten.](grafik/V11_Stromkreis2.svg "Einfache Form eines verzweigten Stromkreises mit zwei Maschen und zwei Knoten.")<!--
-style ="width: 7cm;"
--->
+<figure>
+  <img src="grafik/V11_Stromkreis2.svg" alt="Schaltbild eines verzweigten Stromkreises mit zwei Maschen und zwei Knoten" style="width: 17em;">
+  <figcaption>
+    Einfache Form eines verzweigten Stromkreises mit zwei Maschen und zwei
+    Knoten.
+  </figcaption>
+</figure>
 
 Die Maschenregel gibt Auskunft über die Spannungen innerhalb einer Masche:
 
@@ -3038,7 +3151,13 @@ Reihenschaltung von Widerständen. Wir betrachten hierfür zwei ohmsche
 Widerstände. Tatsächlich gelten diese Zusammenhänge aber für beliebige
 Bauelemente.
 
-![Reihenschaltung und Parallelschaltung von zwei ohmschen Widerständen an einer Spannungsquelle](grafik/V11_Reihen-Parallelschaltung.svg "Parallelschaltung (oben) und Reihenschaltung (unten) von zwei ohmschen Bauelementen an einer Spannungsquelle.")<!-- style="width:8cm;" -->
+<figure>
+  <img src="grafik/V11_Reihen-Parallelschaltung.svg" alt="Reihenschaltung und Parallelschaltung von zwei ohmschen Widerständen an einer Spannungsquelle" style="width: 20em;">
+  <figcaption>
+    Parallelschaltung (oben) und Reihenschaltung (unten) von zwei ohmschen
+    Bauelementen an einer Spannungsquelle.
+  </figcaption>
+</figure>
 
 Bei der *Reihenschaltung* zweier Widerstände befindet sich zwischen diesen keine
 Verzweigung. Aus der Knotenregel folgt, dass durch beide Widerstände derselbe
@@ -3131,9 +3250,13 @@ Die gemeinhin als „Stromzähler“ bezeichneten Messgeräte am Hausanschluss w
 korrekterweise als Kilowattstundenzähler bezeichnet, denn sie zeigen die
 elektrische Arbeit an, wie das folgende Foto zeigt:
 
-![Foto eines Kilowattstundenzählers](grafik/V11_kWh-Zähler.jpg "Kilowattstundenzähler (umgangssprachlich Stromzähler) messen die zugeführte elektrische Arbeit, die vom Stromanbieter in Rechnung gestellt wird.")<!--
-  style="width:10cm;"
--->
+<figure>
+  <img src="grafik/V11_kWh-Zähler.jpg" alt="Foto eines Kilowattstundenzählers" style="width: 25em;">
+  <figcaption>
+    Kilowattstundenzähler (umgangssprachlich Stromzähler) messen die zugeführte
+    elektrische Arbeit, die vom Stromanbieter in Rechnung gestellt wird.
+  </figcaption>
+</figure>
 
 An einem ohmschen Widerstand wird die gesamte durch den Strom verrichtete Arbeit
 in Wärme umgewandelt und an die Umgebung abgegeben (thermische Wirkung des
@@ -3201,7 +3324,7 @@ wie jedes physikalische Modell – gewissen Einschränkungen:
 - Wechselwirkungen des Lichts mit Materie können nicht beschrieben werden.
   Hierfür wird in der Regel die Teilchenoptik benötigt.
 
-#### Ausbreitung des Lichts, Fermat<!--style="font-variant:small-caps;"-->sches Prinzip
+#### Ausbreitung des Lichts, <span style="font-variant:small-caps;">Fermat</span>sches Prinzip
 
 Innerhalb eines homogenen Mediums breitet sich Licht geradlinig, allseitig und
 gleichförmig aus. Ein Gegenstand wird für uns sichtbar, wenn Licht, das von ihm
@@ -3238,7 +3361,7 @@ zusammengefasst.
 | Diamant   |               $2{,}42$ | Optisch dicht |
 
 Im Rahmen der Strahlenoptik lässt sich die Ausbreitung des Lichts anhand des
-**Fermat<!-- style="font-variant:small-caps;" -->schen Prinzips** erklären:
+**<span style="font-variant:small-caps;">Fermat</span>schen Prinzips** erklären:
 
 > Der Lichtweg zwischen zwei Punkten verläuft stets so, dass er ein Extremum
 > hinsichtlich der Zeit hat.
@@ -3263,12 +3386,11 @@ Formulierungen äquivalent. Mathematisch betrachtet stellt das Fermatsche Prinzi
 eine Extremwertaufgabe dar. Aus seiner Anwendung folgen die geradlinige
 Ausbreitung innerhalb eines Mediums sowie das **Reflexions- und Brechungsgesetz**:
 
-
-
 > Trifft Licht auf eine Grenzfläche zwischen zwei Medien mit den Brechzahlen
 > $n_1$ und $n_2$, so wird im Allgemeinen ein Teil des Lichts reflektiert und ein
 > Teil transmittiert:
->![Schematische Darstellung des Brechungs- und Reflexionsgesetzes](grafik/V12_Brechung.svg)<!-- style="width:6cm;"-->
+> <img src="grafik/V12_Brechung.svg" alt="Schematische Darstellung des Brechungs- und Reflexionsgesetzes" style="width: 15em;">
+>
 > Für den reflektierten Strahl gilt (Reflexionsgesetz):
 >
 > $$\alpha_\mathrm r = \alpha_1$$
@@ -3324,9 +3446,23 @@ folgenden Abbildungen zeigen. Bei Zerstreuungslinsen befindet sich der
 (virtuelle) Brennpunkt auf der Einfallseite des Lichts. Die Brennweite ist dabei
 negativ ($f<0$)!
 
-![Schematische Darstellung des Strahlenverlaufes an einer Sammellinse](grafik/V12_Sammellinse.svg "An einer Sammellinse werden achsenparallele Strahlenbündel im Brennpunkt auf der optischen Achse vereinigt.")
+<figure>
+  <img src="grafik/V12_Sammellinse.svg"alt="Schematische Darstellung des Strahlenverlaufes an einer Sammellinse" style="width: 20em;">
+  <figcaption>
+    An einer Sammellinse werden achsenparallele Strahlenbündel im Brennpunkt auf
+    der optischen Achse vereinigt."
+  </figcaption>
+</figure>
 
-![Schematische Darstellung des Strahlenverlaufes an einer Zerstreuungslinse](grafik/V12_Zerstreuungslinse.svg "An einer Zerstreuungslinse wird ein achsenparalleles Strahlenbündel divergent gebrochen. Die rückwärtigen Verlängerungen der Strahlen treffen sich im Brennpunkt auf der Einfallseite des Lichts. Die Brennweite ist dabei negativ.")
+<figure>
+  <img src="grafik/V12_Zerstreuungslinse.svg" alt="Schematische Darstellung des Strahlenverlaufes an einer Zerstreuungslinse" style="width: 20em;">
+  <figcaption>
+    An einer Zerstreuungslinse wird ein achsenparalleles Strahlenbündel
+    divergent gebrochen. Die rückwärtigen Verlängerungen der Strahlen treffen
+    sich im Brennpunkt auf der Einfallseite des Lichts. Die Brennweite ist dabei
+    negativ.
+  </figcaption>
+</figure>
 
 Die Brennweite ist die entscheidende Größe zur Charakterisierung einer Linse.
 Ihr Wert wird bestimmt von der Brechzahl des Linsenmaterials sowie
@@ -3368,7 +3504,14 @@ optische Abbildung möglich ist.
 Zur Beschreibung der optischen Abbildung an einer Sammellinse werden zunächst
 einige Größen wie in der folgenden Abbildung gezeigt definiert:
 
-![Definition der Größen zur Beschreibung der optischen Abbildung an einer Sammellinse](grafik/V12_Definition-Sammellinse.svg "Definition wichtiger Größen an einer Sammellinse. Der Gegenstand befindet sich auf der Einfallseite des Lichts. Alle Abstände beziehen sich auf die Hauptebene der Linse.")
+<figure>
+  <img src="grafik/V12_Definition-Sammellinse.svg" alt="Definition der Größen zur Beschreibung der optischen Abbildung an einer Sammellinse">
+  <figcaption>
+    Definition wichtiger Größen an einer Sammellinse. Der Gegenstand befindet
+    sich auf der Einfallseite des Lichts. Alle Abstände beziehen sich auf die
+    Hauptebene der Linse.
+  </figcaption>
+</figure>
 
 Mit diesen Größen kann nun die Abbildung berechnet werden. Die
 Abbildungsgleichung verknüpft Gegenstands- und Bildweite der Abbildung mit der
@@ -3400,16 +3543,22 @@ sowie durch den Linsenmittelpunkt (Mittelpunktstrahl) verlaufen. Ob diese
 Strahlen tatsächlich zum Bild beitragen, spielt für die Bildkonstruktion keine
 Rolle. Dabei gelten die Zusammenhänge:
 
-- Ein Parallelstrahl<!-- style="color:green;" --> wird auf der Bildseite zum
+- Ein <span style="color:green;">Parallelstrahl</span> wird auf der Bildseite zum
   Brennpunktstrahl.
 
-- Der Mittelpunktstrahl<!-- style="color:red;" --> verläuft ohne Brechung durch
+- Der <span style="color:red;">Mittelpunktstrahl</span> verläuft ohne Brechung durch
   die Linse.
 
-- Der Brennpunktstrahl<!-- style="color:blue;" --> wird nach der Brechung zum
+- Der <span style="color:blue;">Brennpunktstrahl</span> wird nach der Brechung zum
   Parallelstrahl.
 
-![Konstruktion des reellen Bilds an einer Sammellinse, wenn $g\gt f$](grafik/V12_Bildkonstruktion-Sammellinse.svg "Konstruktion des reellen Bildes an einer Sammellinse, wenn $g\gt f$, anhand der Konstruktionsstrahlen (Parallel-, Mittelpunkt- uns Brennpunktstrahl).")
+<figure>
+  <img src="grafik/V12_Bildkonstruktion-Sammellinse.svg" alt="Konstruktion des reellen Bilds an einer Sammellinse, wenn $g\gt f$">
+  <figcaption>
+    Konstruktion des reellen Bildes an einer Sammellinse, wenn $g\gt f$, anhand
+    der Konstruktionsstrahlen (Parallel-, Mittelpunkt- uns Brennpunktstrahl).
+  </figcaption>
+</figure>
 
 Befindet sich der Gegenstand innerhalb der Brennweite der Linse ($g<f$) (siehe
 folgende Abbildung), so verlaufen die Strahlen nach der Brechung divergent und
@@ -3420,7 +3569,14 @@ einem virtuellen Bild. Virtuelle Bilder können nicht auf einem Schirm abgebilde
 werden, wohl aber mit dem Auge oder optischen Instrumenten betrachtet werden.
 Das virtuelle Bild an einer Sammellinse wird unter anderem bei der Lupe genutzt.
 
-![Konstruktion des virtuellen Bilds an einer Lupe](grafik/V12_Bildkonstruktion-Lupe.svg "Befindet bei einer Sammellinse der Gegenstand innerhalb der Brennweite so entsteht kein reelles Bild, sondern ein vituelles, vergrößertes und aufrechtes Bild auf der Gegenstandseite.")
+<figure>
+  <img src="grafik/V12_Bildkonstruktion-Lupe.svg" alt="Konstruktion des virtuellen Bilds an einer Lupe" style="width: 35em;">
+  <figcaption>
+    Befindet bei einer Sammellinse der Gegenstand innerhalb der Brennweite so
+    entsteht kein reelles Bild, sondern ein virtuelles, vergrößertes und
+    aufrechtes Bild auf der Gegenstandseite.
+  </figcaption>
+</figure>
 
 In der folgenden Tabelle sind die verschiedenen Abbildungskonstellationen einer
 Sammellinse mit den zugehörigen Bildeigenschaften zusammengefasst. Außerdem
@@ -3483,7 +3639,16 @@ einige bereits aus dem Zusammenhang der Schwingungen bekannt sind:
 -   $k= \frac{2\pi}{\lambda}$ … Wellenzahl, $[k]=\mathrm m^{-1}$
 -   $v_\mathrm{ph}$ … Phasengeschwindigkeit (siehe Abbildung)
 
-![Veranschaulichung von Wellenlänge und Phasengeschwindigkeit in einem Diagramm](grafik/V13_wellenausbreitung.svg "Eine harmonische Welle ist eine räumlich und zeitlich periodischer Vorgang. Sie breitet sich mit der Phasengeschwindigkeit $v_\mathrm{ph}$ im Raum aus. Die Wellenlänge $\lambda$ ist der räumliche Abstand zwischen benachbarten Stellen gleicher Phase. [Quelle: mit freundlicher Genehmigung von Thomas Franke]")<!-- style="width:15cm;"-->
+<figure>
+  <img src="grafik/V13_wellenausbreitung.svg" alt="Veranschaulichung von Wellenlänge und Phasengeschwindigkeit in einem Diagramm" style="width: 40em;">
+  <figcaption>
+    Eine harmonische Welle ist eine räumlich und zeitlich periodischer Vorgang.
+    Sie breitet sich mit der Phasengeschwindigkeit $v_\mathrm{ph}$ im Raum aus.
+    Die Wellenlänge $\lambda$ ist der räumliche Abstand zwischen benachbarten
+    Stellen gleicher Phase. [Quelle: mit freundlicher Genehmigung von Thomas
+    Franke]
+  </figcaption>
+</figure>
 
 Die Phasengeschwindigkeit ist die Ausbreitungsgeschwindigkeit der Welle. Für sie
 gilt der Zusammenhang:
@@ -3512,7 +3677,7 @@ Einzelauslenkungen an diesem Ort zu diesem Zeitpunkt:
 $$A_\mathrm{ges}(x_0,t_0) = A_1(x_0, t_0) + A_2(x_0, t_0)+ \dots$$
 
 Auf diese Weise lassen sich durch Überlagerung von Elementarwellen beliebige
-Wellenmuster erzeugen. Dies ist Grundlage des **Huygens-Fresnelschen Prinzips**:
+Wellenmuster erzeugen. Dies ist Grundlage des **<span style="font-variant:small-caps;">Huygens-Fresnel</span>schen Prinzips**:
 
 > Jeder von einer Wellenfront getroffene Punkt ist Ausgangspunkt einer neuen
 > Elementarwelle. Die neue Wellenfront ergibt sich als Einhüllende dieser
@@ -3531,7 +3696,17 @@ erklären: Die von der Kante des Hindernisses ausgehenden Elementarwellen
 erreichen auch den Raum hinter dem Hindernis. Die Strecke, um die die Welle in
 den Schattenraum eindringt, hängt ab von der Wellenlänge der jeweiligen Welle.
 
-![Simulierter Wellenverlauf an einer Kante](https://upload.wikimedia.org/wikipedia/commons/3/36/Ripple-tank-diffraction-half-plane.png "Beugung einer Welle an einem Hindernis (gelbe Linie): Hinter dem Hindernis dringen die Wellen in den geometrischen Schattenraum ein. [Quelle: [MikeRun](https://commons.wikimedia.org/wiki/User:MikeRun), [Ripple-tank-diffraction-half-plane](https://commons.wikimedia.org/wiki/File:Ripple-tank-diffraction-half-plane.png), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode), via Wikimedia Commons]")<!-- style="width:8cm;" -->
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Ripple-tank-diffraction-half-plane.png" alt="Simulierter Wellenverlauf an einer Kante" style="width: 20em;">
+  <figcaption>
+    Beugung einer Welle an einem Hindernis (gelbe Linie): Hinter dem Hindernis
+    dringen die Wellen in den geometrischen Schattenraum ein.
+    [Quelle: <a href="https://commons.wikimedia.org/wiki/User:MikeRun">MikeRun</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:Ripple-tank-diffraction-half-plane.png">Ripple-tank-diffraction-half-plane</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 #### Licht als elektromagnetische Welle
 
@@ -3547,7 +3722,18 @@ unterschiedlicher Wellenlänge vor (siehe Abbildung). Für das menschliche
 Auge sichtbar sind die Wellenlängen im Bereich
 $\lambda \approx (400 \dots 700)~\mathrm{nm}$.
 
-![Spektrum der elektromagnetischen Wellen](https://upload.wikimedia.org/wikipedia/commons/6/62/Electromagnetic_spectrum_-de_c.svg "Die Wellenlängen elektromagnetischer Wellen decken einen Bereich über viele Größenordnungen ab. Das für den Menschen sichtbare Licht nimmt nur einen sehr kleinen Teil dieses Spektrums ein. [Quelle: Horst Frank / Phrood / Anony, [Electromagnetic spectrum -de c](https://commons.wikimedia.org/wiki/File:Electromagnetic_spectrum_-de_c.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode), via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Electromagnetic_spectrum_-de_c.svg"alt="Spektrum der elektromagnetischen Wellen">
+  <figcaption>
+    Die Wellenlängen elektromagnetischer Wellen decken einen Bereich über viele
+    Größenordnungen ab. Das für den Menschen sichtbare Licht nimmt nur einen
+    sehr kleinen Teil dieses Spektrums ein.
+    [Quelle: Horst Frank / Phrood / Anony,
+    <a href="https://commons.wikimedia.org/wiki/File:Electromagnetic_spectrum_-de_c.svg">Electromagnetic spectrum -de c</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 #### Interferenz des Lichts
 
@@ -3557,7 +3743,7 @@ Wellen gleicher Wellenlänge. Sie entsteht aus der Superposition der beteiligten
 Wellen.
 
 Zum Nachweis der Interferenz des Lichts betrachten wir den auf
-Augustin<!-- style ="font-variant: small-caps;" --> Jean<!-- style ="font-variant: small-caps;" --> Fresnel<!-- style ="font-variant: small-caps;" -->
+<span style ="font-variant: small-caps;">Augustin Jean Fresnel</span>
 zurückgehenden Doppelspiegelversuch (siehe nachfolgende Abbildung). Zentraler
 Bestandteil dieses Versuchs sind zwei ebene Spiegel, die um einen sehr kleinen
 Winkel gegeneinander verkippt sind. Ein Laserstrahl wird so auf diese beiden
@@ -3569,7 +3755,15 @@ Schirm überlagern. In diesem Überlagerungsbereich beobachtet man ein
 periodisches Muster aus hellen und dunklen Linien. Es kommt also abwechselnd zur
 Verstärkung und Auslöschung der beiden Teilstrahlen.
 
-![Schematische Darstellung des Doppelspiegelversuch nach Augustin Jean Fresnel](grafik/V13_doppelspiegel.svg "Schematischer Aufbau des Fresnel<!-- style ="font-variant: small-caps;" -->schen Doppelspiegelversuchs: Ein Laserstrahl wird am Doppelspiegel in zwei Teilstrahlen aufgespalten, die anschließend durch eine Sammellinse überlagert werden.")
+<figure>
+  <img src="grafik/V13_doppelspiegel.svg" alt="Schematische Darstellung des Doppelspiegelversuch nach Augustin Jean Fresnel">
+  <figcaption>
+    Schematischer Aufbau des <span style="font-variant: small-caps;">
+    Fresnel</span>schen Doppelspiegelversuchs: Ein Laserstrahl wird am
+    Doppelspiegel in zwei Teilstrahlen aufgespalten, die anschließend durch eine
+    Sammellinse überlagert werden.
+  </figcaption>
+</figure>
 
 Ein Interferenzmaximum (d.h. ein Bereich maximaler Helligkeit auf dem
 Beobachtungsschirm) tritt an den Stellen auf, wo sich beide Wellen stets
@@ -3621,7 +3815,15 @@ Interferenzmaxima und -minima: senkrecht zur Spaltrichtung erscheint eine
 „Kette“ heller Lichtpunkte, die alle aus der Beugung und Interferenz des
 ursprünglichen Laserstrahls entstehen.
 
-![Grafische Veranschaulichung der Beugung an einem Spalt](grafik/V13_beugung-spalt.svg "Eine Lichtwelle wird nach dem Durchgang durch einen schmalen Spalt gebeugt und tritt in den geometrischen Schattenraum ein. Dabei besitzen die von den Rändern des Spalts ausgehenden Teilwellen einen gegenseitigen Gangunterschied $\Delta s_1$, der vom jeweiligen Beugungswinkel abhängt.")<!-- style="width:10cm" -->
+<figure>
+  <img src="grafik/V13_beugung-spalt.svg" alt="Grafische Veranschaulichung der Beugung an einem Spalt" style="width: 20em">
+  <figcaption>
+    Eine Lichtwelle wird nach dem Durchgang durch einen schmalen Spalt gebeugt
+    und tritt in den geometrischen Schattenraum ein. Dabei besitzen die von den
+    Rändern des Spalts ausgehenden Teilwellen einen gegenseitigen
+    Gangunterschied $\Delta s_1$, der vom jeweiligen Beugungswinkel abhängt.
+  </figcaption>
+</figure>
 
 Wir wollen die Lage dieser Maxima und Minima geometrisch anhand des
 Gangunterschieds erklären. Dazu betrachten wir zunächst die Wellen, die von den
@@ -3748,12 +3950,15 @@ als auch quantitativ mit hoher Präzision beschreiben. Scheinbar im Widerspruch
 dazu versagt die Wellenoptik bei der Beschreibung mancher
 Wechselwirkungsprozesse des Lichts hingegen völlig. Entsprechende Beobachtungen
 stellten die Physik in der zweiten Hälfte des 19. Jahrhunderts vor große Fragen
-und führten schließlich ab 1900 zur Entstehung eines neuen Modells[^1] zur
+und führten schließlich ab 1900 zur Entstehung eines neuen Modells zur
 Beschreibung des Lichts, das parallel zum Wellenmodell existiert.
 
-[^1]: Die Vorstellung, dass das Licht aus einem Strom von Teilchen besteht,
-      existierte bereits in der Antike. Wenn hier von einem neuen Modell die
-      Rede ist, so meint dies konkret die Quantenoptik in ihrer heutigen Form.
+Aus historischer Perspektive sei angemerkt, dass die Idee eines
+Teilchencharakters des Lichts bereits in der Antike existierte und auch in der
+Neuzeit ihre Vertreter fand – beispielsweise Isaac Newton.
+Dennoch kann das im Laufe des 20. Jahrhunderts entwickelte Quantenmodell als
+neu bezeichnet werden, insbesondere, da sich hier Wellen- und Teilchencharakter
+nicht ausschließen, sondern eine Dualität beider vorliegt.
 
 Für die folgenden Betrachtungen, die sich wesentlich mit Energien von Elektronen
 und von Licht beschäftigen, ist es sinnvoll, das Elektronvolt ($\mathrm{eV}$)
@@ -3766,7 +3971,7 @@ $$1~\mathrm{eV} = 1{,}602\cdot10^{-19}~\mathrm J \, .$$
 #### Quantenhafte Energieabgabe des Lichts
 
 Eines der Experimente, für das die Wellenoptik keine Erklärung bietet, ist der
-äußere Photoeffekt oder Hallwachs<!-- style ="font-variant: small-caps;" -->-Effekt.
+äußere Photoeffekt oder <span style="font-variant: small-caps;">Hallwachs</span>-Effekt.
 Eine mögliche Vorgehensweise, diesen Effekt zu beobachten, ist folgende: Eine
 Platte aus Zink wird an ein Elektrometer (Messgerät zur Ladungsmessung)
 angeschlossen und negativ aufgeladen. Es herrscht also ein Überschuss an
@@ -3968,7 +4173,7 @@ in seinen Grundzügen vorgestellt. Darauf aufbauend werden einige grundlegende
 
 Grundlegend sind Atome aus dem Atomkern und der Atomhülle, die den Kern umgibt,
 aufgebaut. Diese Erkenntnis geht zurück auf die von
-Ernest<!-- style ="font-variant: small-caps;" --> Rutherford<!-- style ="font-variant: small-caps;" -->
+<span style="font-variant: small-caps;">Ernest Rutherford</span>
 durchgeführten Streuversuche, bei denen er eine $0{,}5~\mathrm{\mu m}$ dicke
 Goldfolie (das entspricht ca. 1000 Atomlagen) mit radioaktiven $\alpha$-Teilchen
 bestrahlte. Der wesentliche Teil dieser $\alpha$-Teilchen passierte die
@@ -3984,8 +4189,24 @@ $$\begin{aligned}
 \textrm{bzw.} \quad & r_\mathrm{Kern} \approx 10^{-15}~\mathrm m \, .
 \end{aligned}$$
 
-![Das Atomium in Brüssel](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Atomium_Brussels.jpg/429px-Atomium_Brussels.jpg "Das Atomium in Brüssel besteht aus 9 Kugeln, die Eisenatome in 165-milliardenfacher Vergrößerung darstellen. Der Atomkern entspräche im selben Maßstab einer Stecknadelkuppe … [Quelle: [Sanjprak](https://commons.wikimedia.org/wiki/User:Sanjprak), [Atomium Brussels](https://commons.wikimedia.org/wiki/File:Atomium_Brussels.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode) via Wikimedia Commons]")
-![Das Kreuzfahrtschiff Harmony of the Seas](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Harmony_of_the_Seas_at_Fort_Lauderdale.jpg/640px-Harmony_of_the_Seas_at_Fort_Lauderdale.jpg "… seine Masse wäre in dieser Vergrößerung das Doppelte der Masse des Kreuzfahrtschiffs „Harmony of the Seas“. [Quelle: [Tinashocker](https://commons.wikimedia.org/wiki/User:Tinashocker), [Harmony of the Seas at Fort Lauderdale](https://commons.wikimedia.org/wiki/File:Harmony_of_the_Seas_at_Fort_Lauderdale.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Atomium_Brussels.jpg/429px-Atomium_Brussels.jpg" alt="Das Atomium in Brüssel" style="width: 25em;">
+  <figcaption>
+    Das Atomium in Brüssel besteht aus 9 Kugeln, die Eisenatome in
+    165-milliardenfacher Vergrößerung darstellen. Der Atomkern entspräche im
+    selben Maßstab einer Stecknadelkuppe …
+    </figcaption>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Harmony_of_the_Seas_at_Fort_Lauderdale.jpg/640px-Harmony_of_the_Seas_at_Fort_Lauderdale.jpg" alt="Das Kreuzfahrtschiff Harmony of the Seas" style="width: 25em;">
+  <figcaption>
+    … seine Masse wäre in dieser Vergrößerung das Doppelte der Masse des
+    Kreuzfahrtschiffs „Harmony of the Seas“.
+    [Quellen: <a href="https://commons.wikimedia.org/wiki/User:Sanjprak">Sanjprak</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:Atomium_Brussels.jpg">Atomium Brussels</a> (oben) &
+    <a href="https://commons.wikimedia.org/wiki/User:Tinashocker">Tinashocker</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:Harmony_of_the_Seas_at_Fort_Lauderdale.jpg">Harmony of the Seas at Fort Lauderdale</a> (unten),
+    beide <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>, via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Zur Veranschaulichung dieser Größen- und Massenverhältnisse sei auf das Atomium
 in Brüssel verwiesen (siehe obige Abbildung). Dieses besteht aus 9 Kugeln von
@@ -4007,7 +4228,7 @@ Kernphysik, nicht der Atomphysik. Letztere beschäftigt sich mit den Vorgängen 
 der Atomhülle.
 
 Nach den Gesetzen der klassischen Physik dürfte es keine stabilen Atome geben.
-Aufgrund der Coulomb<!-- style ="font-variant: small-caps;" -->kraft zwischen
+Aufgrund der <span style="font-variant: small-caps;">Coulomb</span>kraft zwischen
 dem Atomkern und den Elektronen müssten Letztere in den Kern „stürzen“. Der
 Aufbau der Atome lässt sich daher nur mit den Gesetzen der Quantenphysik
 erklären. Atommodelle, die auf der klassischen Physik aufbauen, sind zwar
@@ -4065,7 +4286,17 @@ Elektrons angenommen. Dessen Hauptquantenzahl ist $n=\infty$, und es gilt
 $E_{\infty}=0$. Die gebundenen Zustände ($n<\infty$) der Elektronen haben somit
 negative Energien.
 
-![Allgemeine Darstellung eines Energieniveauschemas](https://upload.wikimedia.org/wikipedia/commons/5/56/Wasserstoff-Termschema_einfach.svg "Allgemeine Darstellung eines Energieniveauschemas mit Hauptquantenzahl (links) und Energienieveaus (rechts). [Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [w:de:user:Kiko2000](https://en.wikipedia.org/wiki/de:user:Kiko2000) and [Cepheiden](https://commons.wikimedia.org/wiki/User:Cepheiden)), [Wasserstoff-Termschema einfach](https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_einfach.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Wasserstoff-Termschema_einfach.svg" alt="Allgemeine Darstellung eines Energieniveauschemas" style="width: 14em;">
+  <figcaption>
+    Allgemeine Darstellung eines Energieniveauschemas mit Hauptquantenzahl
+    (links) und Energienieveaus (rechts).
+    [Quelle: <a href="https://commons.wikimedia.org/wiki/User:HerrvomDorf">Herbert Schletter</a> (derived from a work by <a href="https://en.wikipedia.org/wiki/de:user:Kiko2000">w:de:user:Kiko2000</a> and <a href="https://commons.wikimedia.org/wiki/User:Cepheiden">Cepheiden</a>),
+    <a href="https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_einfach.svg">Wasserstoff-Termschema einfach</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Die Energieniveaus erlauben keine Rückschlüsse auf die Aufenthaltsorte oder die
 Bewegung der Elektronen im Atom. Tatsächlich existiert auch keine vorgegebene
@@ -4075,7 +4306,18 @@ Aufenthaltswahrscheinlichkeiten der Elektronen an und werden meist dargestellt
 als Raumbereiche, in denen sich das Elektron mit 90 %-iger Wahrscheinlichkeit
 aufhält.
 
-![Darstellung einiger Atomorbitale](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/AOs-3D-dots.png/640px-AOs-3D-dots.png "Im quantenmechanischen Atommodell lässt sich für die Elektronen keine definierte Position oder Bewegungsbahn angeben. Stattdessen kann für jeden Zustand das zugehörige Orbital angegeben werden als Raumbereich, in dem sich das Elektron mit 90 %-iger Wahrscheinlichkeit aufhält. [Quelle: [Benjah-bmm27](https://commons.wikimedia.org/wiki/User:Benjah-bmm27), [AOs-3D-dots](https://commons.wikimedia.org/wiki/File:AOs-3D-dots.png), als gemeinfrei gekennzeichnet, Details auf [Wikimedia Commons](https://commons.wikimedia.org/wiki/Template:PD-self)]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/AOs-3D-dots.png/640px-AOs-3D-dots.png" alt="Darstellung einiger Atomorbitale">
+  <figcaption>
+    Im quantenmechanischen Atommodell lässt sich für die Elektronen keine
+    definierte Position oder Bewegungsbahn angeben. Stattdessen kann für jeden
+    Zustand das zugehörige Orbital angegeben werden als Raumbereich, in dem sich
+    das Elektron mit 90 %-iger Wahrscheinlichkeit aufhält.
+    [Quelle: <a href="https://commons.wikimedia.org/wiki/User:Benjah-bmm27">Benjah-bmm27</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:AOs-3D-dots.png">AOs-3D-dots</a>,
+    als gemeinfrei gekennzeichnet, Details auf <a href="https://commons.wikimedia.org/wiki/Template:PD-self">Wikimedia Commons</a>]
+  </figcaption>
+</figure>
 
 #### Grundlegende Experimente der Atomphysik
 
@@ -4085,9 +4327,9 @@ vorgestellten Atommodells geführt. Die Ergebnisse dieser Experimente lassen sic
 erst durch die Anwendung dieses Atommodells qualitativ und quantitativ
 verstehen.
 
-##### Das Hallwachs<!-- style ="font-variant: small-caps;" -->-Experiment
+##### Das <span style="font-variant: small-caps;">Hallwachs</span>-Experiment
 
-Das Hallwachs<!-- style ="font-variant: small-caps;" -->-Experiment wurde
+Das <span style="font-variant: small-caps;">Hallwachs</span>-Experiment wurde
 bereits im Zusammenhang der [Quantenoptik](#quantenhafte-energieabgabe-des-lichts)
 eingehend erläutert. Dabei wurde geschlussfolgert, dass Photonen Energie auf die
 im Metall gebundenen Elektronen übertragen, die infolgedessen die
@@ -4124,12 +4366,12 @@ quantenmechanischen Berechnung:
 
 $$E_n = -h \cdot c\cdot R_\infty \cdot \frac{1}{n^2}$$
 
-mit der Rydberg<!-- style ="font-variant: small-caps;" -->-Konstante:
+mit der <span style="font-variant: small-caps;">Rydberg</span>-Konstante:
 
 $$R_\infty = 1{,}097\cdot10^{7}~\mathrm{m^{-1}} \, .$$
 
 Das Produkt $c\cdot R_\infty$ wird dabei auch als
-Rydberg<!-- style ="font-variant: small-caps;" -->-Frequenz $R_\mathrm H$
+<span style="font-variant: small-caps;">Rydberg</span>-Frequenz $R_\mathrm H$
 bezeichnet. Das resultierende Energieniveauschema ist in der folgenden Abbildung
 gezeigt. Für die ersten drei Energieniveaus ergibt sich:
 
@@ -4139,7 +4381,19 @@ E_2 & = -3{,}4~\mathrm{eV} \, ,\\
 E_3 & = -1{,}51~\mathrm{eV} \, .
 \end{aligned}$$
 
-![Termschemas des Wasserstoffatoms](https://upload.wikimedia.org/wikipedia/commons/5/50/Wasserstoff-Termschema_3.svg "Termschema des Wasserstoffatoms. Die möglichen Übergänge zwischen den Energieniveaus (hier durch Pfeile verdeutlicht) werden zu Serien zusammengefasst, die jeweils ein gemeinsames Endniveau besitzen. Emissionen im sichtbaren Bereich sind dabei nur in der Balmer-Serie zu erwarten. [Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [w:de:user:Kiko2000](https://en.wikipedia.org/wiki/de:user:Kiko2000) and [Cepheiden](https://commons.wikimedia.org/wiki/User:Cepheiden)), [Wasserstoff-Termschema 3](https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_3.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)]")<!-- style="width:14cm;" -->
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Wasserstoff-Termschema_3.svg" alt="Termschemas des Wasserstoffatoms" style="width:35em;">
+  <figcaption>
+    Termschema des Wasserstoffatoms. Die möglichen Übergänge zwischen den
+    Energieniveaus (hier durch Pfeile verdeutlicht) werden zu Serien
+    zusammengefasst, die jeweils ein gemeinsames Endniveau besitzen. Emissionen
+    im sichtbaren Bereich sind dabei nur in der Balmer-Serie zu erwarten.
+    [Quelle:  <a href="https://commons.wikimedia.org/wiki/User:HerrvomDorf">Herbert Schletter</a>
+    (derived from a work by <a href="https://en.wikipedia.org/wiki/de:user:Kiko2000">w:de:user:Kiko2000</a> and <a href="https://commons.wikimedia.org/wiki/User:Cepheiden">Cepheiden</a>),
+    <a href="https://commons.wikimedia.org/wiki/File:Wasserstoff-Termschema_3.svg">Wasserstoff-Termschema 3</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="license">CC BY-SA 4.0</a>, via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Nach den Aussagen des quantenphysikalischen Atommodells müssen die von
 Wasserstoffatomen emittierten Photonen den Differenzen dieser Energieniveaus
@@ -4154,7 +4408,17 @@ sichtbaren Bereich. Die zugehörigen Emissionswellenlängen werden als
 Balmer-Serie bezeichnet. Die folgende Abbildung zeigt eine spektrale Aufnahme
 der Balmerserie, wobei die Wellenlänge von links nach rechts zunimmt.
 
-![Spektrale Aufnahme der Balmerserie.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Visible_spectrum_of_hydrogen.jpg/799px-Visible_spectrum_of_hydrogen.jpg "Spektrale Aufnahme der Balmerserie. Die Wellenlänge nimmt von links nach rechts zu. [Quelle: [Jan Homann](https://commons.wikimedia.org/wiki/User:Jan_Homann), [Visible spectrum of hydrogen](https://commons.wikimedia.org/wiki/File:Visible_spectrum_of_hydrogen.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Visible_spectrum_of_hydrogen.jpg/799px-Visible_spectrum_of_hydrogen.jpg" alt="Spektrale Aufnahme der Balmerserie.">
+  <figcaption>
+    Spektrale Aufnahme der Balmerserie. Die Wellenlänge nimmt von links nach
+    rechts zu.
+    [Quelle:  <a href="https://commons.wikimedia.org/wiki/User:Jan_Homann">Jan Homann</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:Visible_spectrum_of_hydrogen.jpg">Visible spectrum of hydrogen</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Die größte Wellenlänge in dieser Serie ist dem Übergang mit der kleinsten
 Energiedifferenz zuzuordnen, da die Photonenenergie umgekehrt proportional zur
@@ -4205,16 +4469,27 @@ die mit den Emissionswellenlängen übereinstimmen, da die zu Grunde liegenden
 Energieniveaus dieselben sind. Dieser Effekt wird auch als Resonanzabsorption
 bezeichnet.
 
-##### Der Franck<!-- style ="font-variant: small-caps;" -->-Hertz<!-- style ="font-variant: small-caps;" -->-Versuch
+##### Der <span style="font-variant: small-caps;">Franck-Hertz</span>-Versuch
 
 Für die Anregung von Atomen – also den Übergang von Elektronen innerhalb dieses
 Atoms in ein höheres Energieniveau – existieren neben den bisher betrachteten
 Mechanismen (Gasentladung, Strahlungsabsorption) weitere mögliche Prozesse.
-Hierzu zählt die Anregung durch Elektronenstoß, die erstmals von James<!-- style ="font-variant: small-caps;" -->
-Franck<!-- style ="font-variant: small-caps;" --> und Gustav<!-- style ="font-variant: small-caps;" -->
-Hertz<!-- style ="font-variant: small-caps;" --> untersucht wurde.
+Hierzu zählt die Anregung durch Elektronenstoß, die erstmals von
+<span style="font-variant: small-caps;">James Franck</span> und
+<span style="font-variant: small-caps;">Gustav Hertz</span> untersucht wurde.
 
-![Leuchtzonen in einer neongefüllten Franck-Hertz-Röhre](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Franck-Hertz-Neon-3.png/279px-Franck-Hertz-Neon-3.png "Blick in eine in Betrieb befindliche Franck-Hertz-Röhre mit Neon-Füllung: Die Anregungszonen sind zwischen dem Steuergitter (unten) und der Anode (oben) durch ihr charakteristisches orange-rotes Leuchten erkennbar. [Quelle: [Infoczo](https://commons.wikimedia.org/wiki/User:Infoczo), [Franck-Hertz-Neon-3](https://commons.wikimedia.org/wiki/File:Franck-Hertz-Neon-3.png), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Franck-Hertz-Neon-3.png/279px-Franck-Hertz-Neon-3.png" alt="Leuchtzonen in einer neongefüllten Franck-Hertz-Röhre">
+  <figcaption>
+    Blick in eine in Betrieb befindliche Franck-Hertz-Röhre mit Neon-Füllung:
+    Die Anregungszonen sind zwischen dem Steuergitter (unten) und der Anode
+    (oben) durch ihr charakteristisches orange-rotes Leuchten erkennbar.
+    [Quelle: <a href="https://commons.wikimedia.org/wiki/User:Infoczo">Infoczo</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:Franck-Hertz-Neon-3.png">Franck-Hertz-Neon-3</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="license">CC BY-SA 4.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Zur Durchführung dieses Versuchs wird eine evakuierte Glasröhre verwendet, die
 mit einer geringen Menge eines Gases gefüllt ist. In den ursprünglichen
@@ -4231,14 +4506,31 @@ sodass die Elektronen diese passieren können und danach auf die
 Auffängerelektrode (E) treffen. Zwischen Anode und Auffängerelektrode liegt die
 Gegenspannung $U_\mathrm G$ an, die die Elektronen abbremst.
 
-![Schematischer Aufbau einer Franck-Hertz-Röhre](https://upload.wikimedia.org/wikipedia/commons/2/2b/FH_R%C3%B6hre_Ne.svg "Schematischer Aufbau einer neongefüllten Franck-Hertz-Röhre. Die Beschreibung des Aufbaus und der Abkürzungen erfolgt im Text. [Quelle: [Herbert Schletter](https://commons.wikimedia.org/wiki/User:HerrvomDorf) (derived from a work by [Sebastian Wagner](https://commons.wikimedia.org/wiki/User:RealSebix)), [FH Röhre Ne](https://commons.wikimedia.org/wiki/File:FH_Röhre_Ne.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) via Wikimedia Commons]")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/FH_R%C3%B6hre_Ne.svg" alt="Schematischer Aufbau einer Franck-Hertz-Röhre" style="width: 25em;">
+  <figcaption>
+    Schematischer Aufbau einer neongefüllten Franck-Hertz-Röhre. Die
+    Beschreibung des Aufbaus und der Abkürzungen erfolgt im Text.
+    [Quelle: <a href="https://commons.wikimedia.org/wiki/User:HerrvomDorf">Herbert Schletter</a>
+    (derived from a work by <a href="https://commons.wikimedia.org/wiki/User:RealSebix">Sebastian Wagner</a>),
+    <a href="https://commons.wikimedia.org/wiki/File:FH_Röhre_Ne.svg">FH Röhre Ne</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="license">CC BY-SA 4.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
 
 Gemessen wird im Franck-Hertz-Versuch der an der Auffängerelektrode ankommende
 Elektronenstrom $I_\mathrm E$ als Funktion der Beschleunigungsspannung
 $U_\mathrm B$. Eine entsprechende Messkurve ist in der folgenden Abbildung
 gezeigt.
 
-![Messkurve einer Franck-Hertz-Röhre.](grafik/V15_FH-kurve.png "Messkurve $I_\mathrm E (U_\mathrm B)$ einer neongefüllten Franck-Hertz-Röhre. Die Erläuterung der Abschnitte 1 bis 5 erfolgt im Text.")<!-- style="width:12cm;" -->
+<figure>
+  <img src="grafik/V15_FH-kurve.png" alt="Messkurve einer Franck-Hertz-Röhre" style="width: 28em;">
+  <figcaption>
+    Messkurve $I_\mathrm E (U_\mathrm B)$ einer neongefüllten
+    Franck-Hertz-Röhre. Die Erläuterung der Abschnitte 1 bis 5 erfolgt im Text.
+  </figcaption>
+</figure>
 
 Die einzelnen Abschnitte (im Bild durch die Zahlen 1 bis 5 markiert) dieser
 $I_\mathrm E (U_\mathrm B )$-Abhängigkeit lassen sich unter Anwendung des
