@@ -710,7 +710,7 @@ Wechselwirkung beschreibt. Ferner ist für Kräfte die vektorielle Addition
 anzuwenden. Bei mehreren auf einen Körper wirkenden Kräften ergibt sich die
 Gesamtkraft:
 
-$$\vec F_\mathrm{ges} = \vec F_1+\vec F_1+\cdots$$
+$$\vec F_\mathrm{ges} = \vec F_1+\vec F_2+\cdots$$
 
 Dies bedeutet auch, dass sich die einzelnen auf einen Körper wirkenden Kräfte
 überlagern, ohne sich gegenseitig zu beeinflussen. Wie schon bei der
