@@ -3806,14 +3806,34 @@ In vielen Fällen treten Interferenz und Beugung gemeinsam auf: Lichtwellen
 werden an einem Hindernis gebeugt und treten in den geometrischen Schattenraum
 ein. Diese gebeugten Wellen wiederum interferieren miteinander. Ein Beispiel
 hierfür ist der Durchgang des Lichts durch einen Spalt, dessen Breite mit der
-Wellenlänge des Lichts vergleichbar ist (siehe nachfolgende Abbildung). In der
-Praxis lassen sich signifikante Beugungserscheinungen beobachten, wenn die
-Spaltbreite $d<1~\mathrm{mm}$ beträgt, obgleich dies tatsächlich noch circa
-2000 Wellenlängen entspricht. Wird ein Laserstrahl auf einen solchen Spalt
-gerichtet, so beobachtet man auf einem dahinterliegenden Schirm eine Abfolge von
-Interferenzmaxima und -minima: senkrecht zur Spaltrichtung erscheint eine
-„Kette“ heller Lichtpunkte, die alle aus der Beugung und Interferenz des
-ursprünglichen Laserstrahls entstehen.
+Wellenlänge des Lichts vergleichbar ist. Wird ein Laserstrahl auf einen solchen
+Spalt gerichtet, so beobachtet man auf einem dahinterliegenden Schirm eine
+Abfolge von Interferenzmaxima und -minima: senkrecht zur Spaltrichtung
+erscheint ein „Band“ aus hellen Lichtflecken, die alle aus der Beugung und
+Interferenz des ursprünglichen Laserstrahls entstehen.
+
+<figure>
+  <img src="grafik/V13_beugung-einzelspalt.JPG" alt="Beugungsmuster eines
+    ursprünglich punktförmigen Laserspots nach Durchgang durch einen schmalen
+    Einzelspalt" style="width: 45em">
+  <figcaption>
+    Beugungsmuster am Einzelspalt: Ein ursprünglich punktförmiger Laserspot wird
+    nach Passieren eines schmalen Einzelspalts zu einem länglichen Band aus
+    Maxima und Minima verbreitert. Der zugehörige Spalt war in diesem Fall
+    senkrecht ausgerichtet.
+  </figcaption>
+</figure>
+
+In der Praxis lassen sich signifikante Beugungserscheinungen beobachten, wenn
+die Spaltbreite $d<1~\mathrm{mm}$ beträgt, obgleich dies tatsächlich noch circa
+2000 Wellenlängen entspricht. 
+
+Zur Bestimmung der Intensitätsverteilung in einem solchen Beugungsbild müsste
+über alle beteiligten (Elementar-) Wellen integriert werden (Stichwort:
+kirchhoffsches Beugungsintegral), was jedoch außerhalb des Ziels dieses
+Skriptums liegt. Die Lage der Maxima und Minima wiederum lässt sich auch ohne
+Berechnung des Beugungsintegrals rein aus geometrischen Überlegungen zum
+Gangunterschied herleiten.
 
 <figure>
   <img src="grafik/V13_beugung-spalt.svg" alt="Grafische Veranschaulichung der Beugung an einem Spalt" style="width: 20em">
@@ -3825,10 +3845,9 @@ ursprünglichen Laserstrahls entstehen.
   </figcaption>
 </figure>
 
-Wir wollen die Lage dieser Maxima und Minima geometrisch anhand des
-Gangunterschieds erklären. Dazu betrachten wir zunächst die Wellen, die von den
-beiden Rändern des Spalts ausgehen. Für einen vorgegebenen Beugungswinkel
-$\alpha$ beträgt deren Gangunterschied
+Zunächst betrachten wir die Wellen, die von den beiden Rändern des Spalts
+ausgehen. Für einen vorgegebenen Beugungswinkel $\alpha$ beträgt deren
+Gangunterschied
 
 $$\Delta s_1 = d \cdot \sin \alpha \, ,$$
 
@@ -3897,25 +3916,127 @@ $$\begin{aligned}
 \textrm{mit} \quad & m = 1, 2, 3, \dots
 \end{aligned}$$
 
-Mit diesen Formeln lässt sich die Lage der Maxima und Minima bei der Beugung am
-Spalt berechnen, nicht jedoch die Intensität an den einzelnen Stellen des
-Beugungsbilds. Es erscheint aus dieser Überlegung heraus zumindest plausibel,
-dass die Maxima mit zunehmender Ordnung immer schwächer werden, da ein immer
-kleinerer Teil der Wellen unausgelöscht bleibt.
+<section>
+##### Fazit
 
-Die Formeln für Maxima- und Minimawinkel enthalten jeweils den Ausdruck
-$\frac{1}{d}$. Mit abnehmender Spaltbreite werden die Winkel also entsprechend
-größer, und das Beugungsbild wird „auseinandergezogen“. Umgekehrt rücken für
-breitere Spalte die Maxima dichter zusammen und sind schließlich für sehr breite
-Spalte nicht mehr getrennt wahrnehmbar. Dies stellt den Übergang zur
-geometrischen Optik dar.
+Die Lage der Maxima und Minima bei der Beugung am Einzelspalt wird als Winkel
+bezogen auf die gerade Ausbreitungsrichtung angegeben:
 
-Wird die Spaltblende durch ein entsprechend kleines Loch ersetzt, so gelten die
-Maxima- und Minimabedingungen in alle Richtungen. Das Beugungsbild besteht dann
-aus konzentrischen Ringen.
+$$\alpha_\mathrm{min} = \arcsin \frac{m\lambda}{d}$$
 
-Mit ähnlichen geometrischen Überlegungen wie oben lassen sich auch die
-Interferenzmuster von Mehrfachspalten vorhersagen.
+sowie
+
+$$\alpha_\mathrm{max} = \arcsin \frac{(2m + 1) \lambda}{2d} \, ,$$
+
+wobei $m=1, 2, 3,\dots$ die Ordnung des Maximums oder Minimums angibt.
+Zusätzlich befindet sich das nullte (zentrale) Maximum gerade hinter dem Spalt
+bei $\alpha = 0$.
+
+Aus den obigen Formeln und der zugrunde liegenden Herleitung lassen sich einige
+Eigenschaften des Spalt-Beugungsbilds ableiten:
+
+* Das Beugungsmuster ist spiegelsymmetrisch um das zentrale Maximum.
+* Mit diesen Formeln lässt sich die Lage der Maxima und Minima bei der Beugung am
+  Spalt berechnen, nicht jedoch die Intensität an den einzelnen Stellen des
+  Beugungsbilds. Es erscheint aus dieser Überlegung heraus zumindest plausibel,
+  dass die Maxima mit zunehmender Ordnung immer schwächer werden, da ein immer
+  kleinerer Teil der Wellen unausgelöscht bleibt.
+* Die Formeln für Maxima- und Minimawinkel enthalten jeweils den Ausdruck
+  $\frac{1}{d}$. Mit abnehmender Spaltbreite werden die Winkel also entsprechend
+  größer, und das Beugungsbild wird „auseinandergezogen“. Umgekehrt rücken für
+  breitere Spalte die Maxima dichter zusammen und sind schließlich für sehr breite
+  Spalte nicht mehr getrennt wahrnehmbar. Dies stellt den Übergang zur
+  geometrischen Optik dar.
+* Außerdem hängt die Lage der Maxima und Minima von der Wellenlänge $\lambda$ ab:
+  Größere Wellenlängen führen zu größeren Beugungswinkeln derselben Ordnung und
+  das Beugungsbild erscheint weiter auseinandergezogen. Im Gegenzug entstehen bei
+  kürzeren Wellenlängen kompaktere Beugungsbilder mit kleinerem Abständen
+  zwischen den einzelnen Maxima.
+</section>
+
+#### Beugung an anderen Hindernissen
+
+Mit ähnlichen Überlegungen wie zuvor am Einzelspalt gezeigt lassen sich auch
+Beugungsbilder an anderen Hindernissen geometrisch erklären.
+
+<section>
+##### Lochblende
+Wird der Einzelspalt durch eine kreisrunde Lochblende ersetzt, so wird das
+auftreffende Lichtbündel nicht mehr nur in einer Richtung beschnitten, sondern
+in alle Richtungen. Folglich wird das Licht in alle Richtungen gebeugt. So
+entsteht ein Beugungsmuster, dessen Maxima und Minima in Form konzentrischer
+Ringe auftreten.
+
+<figure>
+  <img src="grafik/V13_beugung-loch-gross.JPG" alt="Beugungsbild an einer Lochblende mit großem Durchmesser" style="width: 45%">
+  <img src="grafik/V13_beugung-loch-klein.JPG" alt="Beugungsbild an einer Lochblende mit kleinem Durchmesser" style="width: 45%">
+  <figcaption>
+    Beugungsbilder von Lochblenden: Ein ursprünglich punktförmiger Laserspot
+    wird nach Passieren einer engen Lochblende zu einer konzentrischen Abfolge
+    von Minima und Maxima aufgefächert. Die beugenden Lochblenden haben einen
+    kleineren (links) beziehungsweise größeren (rechts) Durchmesser. Die
+    Intensitätsschwankungen innerhalb der Ringe entstehen durch Inhomogenitäten
+    des ursprünglichen Laserstrahls.
+  </figcaption>
+</figure>
+
+Die Überlegungen zur Lage der Maxima und Minima sind analog zu denen am
+Einzelspalt. So ergeben sich auch die identischen Formeln für die Maxima- und
+Minimawinkel, wobei diese nun nicht mehr nur in eine Richtung sondern
+konzentrisch anzuwenden sind.
+</section>
+
+<section>
+#### Doppelspalt
+Ein Doppelspalt besteht aus zwei identischen Einzelspalten, die parallel
+nebeneinander angeordnet sind. Der Abstand zwischen den Spaltmitten werde im
+Folgenden mit $D$ bezeichnet, während $d$ nach wie vor die Breite des einzelnen
+Spalts angibt.
+
+Passiert ein Lichtbündel einen solchen Doppelspalt, so wird es an beiden
+Spalten gebeugt und entsprechend aufgefächert. Diese gebeugten Lichtanteile
+wiederum überlagern sich und interferieren miteinander. Die Bestimmung der Lage
+der Maxima und Minima erfolgt mit einer ähnlichen Vorgehensweise wie bei
+Einzelspalt: Es werden wiederum Paare von Teilwellen gebildet, die entweder
+konstruktiv oder destruktiv interferieren. Diese Paare enthalten je eine
+Teilwelle aus beiden Spalten, deren gegenseitiger Abstand dem Spaltabstand $D$
+entspricht.
+
+Die weitere Vorgehensweise soll an dieser Stelle nicht ausgeführt werden. Im
+Ergebnis folgt für Maxima und Minima:
+
+$$\alpha_\mathrm{max} = \arcsin \frac{m\lambda}{D}$$
+
+sowie
+
+$$\alpha_\mathrm{min} = \arcsin \frac{(2m + 1) \lambda}{2D} \, ,$$
+
+wobei $m=0, 1, 2, 3,\dots$ die Ordnung des Maximums oder Minimums angibt. Die
+folgende Abbildung zeigt im unteren Teil das sich daraus ergebende
+Interferenzmuster.
+
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Single_slit_and_double_slit2.jpg" alt="Interferenzmuster am Einzel- und Doppelspalt" style="width: 30em">
+  <figcaption>
+    Interferenzmuster eines Einzelspalts (oben) sowie eines Doppelspalts
+    gleicher Spaltbreite (unten). Die dicht beieinander liegenden Maxima und
+    Minima im unteren Bild entstehen durch die Überlagerung von Lichtanteilen
+    aus verschiedenen Spalten. Die breiten Maxima, die in beiden Bildern
+    identisch sind, entstehen als Einzelspaltinterferenzen. [Bildquelle:
+    <a href="https://commons.wikimedia.org/wiki/User:Jordgette">Jordgette</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:Single_slit_and_double_slit2.jpg">Single slit and double slit2</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>,
+    via Wikimedia Commons]
+  </figcaption>
+</figure>
+
+In der obigen Darstellung fällt auf, dass im Interferenzbild des Doppelspalts
+auch die Maxima und Minima des Einzelspalts sichtbar sind. Tatsächlich kann in
+Bereichen, in denen aufgrund der Einzelspaltinterferenz die Intensität null
+wird, auch der Doppelspalt keine zusätzliche Intensität generieren. Die obigen
+Formeln berücksichtigen diesen Effekt jedoch nicht, sondern geben lediglich
+die Maxima und Minima der Doppelspaltinterferenz an.
+</section>
 
 ## Moderne Physik
 
