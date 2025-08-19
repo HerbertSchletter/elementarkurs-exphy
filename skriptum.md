@@ -4089,11 +4089,65 @@ beschleunigt wurde:
 
 $$1~\mathrm{eV} = 1{,}602\cdot10^{-19}~\mathrm J \, .$$
 
-#### Quantenhafte Energieabgabe des Lichts
+#### Quantisierung des Lichts
+Wir betrachten noch einmal das Doppelspaltexperiment aus dem vorangegangen
+Kapitel, führen dies nun aber mit einer extrem geringen Lichtintensität durch.
+Eine Beobachtung des Interferenzmusters mit bloßem Auge oder einer gewöhnlichen
+Kamera ist hierbei nicht möglich. Stattdessen wird ein Detektor benötigt, der
+diese geringen Intensitäten überhaupt noch nachweisen kann. Ein solcher
+Detektor – ein sogenannter Photoelektronenverfielfacher (englisch: photo
+multiplier) – misst keinen kontinuierlichen Wert einer ankommenden
+Lichtintensität, sondern registriert in sehr schneller Folge, ob ein
+Lichtsignal detektiert werden kann und zählt die so erhaltenen
+„Lichtereignisse“.
+
+In dieser Version des Doppelspaltexperiments lässt sich beobachten:
+
+1. Die einzelnen Lichtereignisse werden nicht in einer gleichmäßigen Abfolge
+    registriert, sondern in einer zufälligen. Die Zeit, die zwischen zwei
+    Ereignissen vergeht, kann sehr unterschiedlich lang sein.
+2. Die Anzahl der Lichtereignisse, die innerhalb eines vorgegebenen
+    Zeitintervalls gezählt werden, schwankt, selbst wenn keine Änderungen an
+    Detektor oder Lichtquelle vorgenommen wurden.
+3. Das Interferenzmuster lässt sich weiterhin nachweisen: Bei einer Veränderung
+    der Detektorposition ergeben sich systematische Wechsel zwischen hoher und
+    niedriger Zählrate.
+
+Die dritte Beobachtung deckt sich mit dem Wellenbild des vorherigen Kapitels.
+Die ersten beiden Beobachtungen hingegen zeigen ein „körniges“ und
+„stochastisches“ Verhalten, das in unserer klassischen Anschauung eher einem
+Teilchenschauer entspricht als einer kontinuierlich fortlaufenden Welle.
+Insofern wird dieses Verhalten unter der Bezeichnung Teilchencharakter des
+Lichts zusammengefasst.
+
+Grundkonzept des Teilchencharakters ist, dass das Licht aus einzelnen
+„Portionen“ besteht. Die elementare „Portion“ des Lichts wird als *Lichtquant*
+oder *Photon* bezeichnet. Ob ein beobachteter Lichtpuls tatsächlich aus einem
+einzelnen oder aus mehreren Photonen besteht, lässt sich nur mit entsprechendem
+experimentellen Aufwand nachweisen. Der oben beschriebene Detektor kann diese
+Unterscheidung grundsätzlich nicht treffen.
+
+Das obige Experiment zeigt auch, dass Wellen- und Teilchencharakter des Lichts
+sich nicht ausschließen, sondern gleichzeitig vorliegen. Dies wird als
+*Welle-Teilchen-Dualismus* des Lichts bezeichnet. Das Photon ist dabei weder
+Welle noch Teilchen im klassischen Sinn, sondern ein Quantenobjekt, das beide
+Eigenschaften in sich vereint. Das Setup des Experiments
+(hier bestimmt durch die Wahl der Lichtintensität) bestimmt wesentlich, welcher
+Charakter in der Messung zu Tage tritt. Ein solcher Einfluss des Experiments
+auf das Verhalten der zu untersuchenden Objekte ist ein allgemeines Phänomen
+der Quantenphysik.
+
+#### Energie der Photonen
+Im vorigen Abschnitt wurde die Quantisierung des Lichts allein aufgrund des
+„körnigen“ Verhaltens eingeführt. Besonders deutlich zeigt sie sich bei der
+Energieübertragung zwischen Licht und Materie. Historisch gesehen waren es
+gerade diese Phänomene, die gegen Ende des 19. Jahrhunderts die Grenzen des
+Wellenmodells aufzeigten.
 
 Eines der Experimente, für das die Wellenoptik keine Erklärung bietet, ist der
-äußere Photoeffekt oder <span style="font-variant: small-caps;">Hallwachs</span>-Effekt.
-Eine mögliche Vorgehensweise, diesen Effekt zu beobachten, ist folgende: Eine
+äußere Photoeffekt.
+Eine mögliche Vorgehensweise, diesen Effekt zu beobachten, ist das
+<span style="font-variant: small-caps;">Hallwachs</span>-Experiment: Eine
 Platte aus Zink wird an ein Elektrometer (Messgerät zur Ladungsmessung)
 angeschlossen und negativ aufgeladen. Es herrscht also ein Überschuss an
 Elektronen in dieser Platte, der zunächst erhalten bleibt. Wird die Platte nun
@@ -4168,72 +4222,17 @@ abgebremst werden, so gilt:
 
 $$E_\mathrm{kin} = eU_\mathrm G \, .$$
 
-#### Das Photon
-
-Handelt es sich bei den Lichtquanten nun lediglich um „Energieportionen“ einer
-kontinuierlich fortlaufenden Welle, oder sind es eigenständige, real
-existierende Objekte? Diese Frage war auch historisch zunächst umstritten. Die
-Erklärung des Photoeffekts zeigt zunächst nur, dass die Energie*übertragung*
-quantisiert erfolgt. Spätere Experimente zeigten schließlich, dass das Licht
-selbst (wie jede elektromagnetische Welle) quantisiert ist. Auch unabhängig von
-der Wechselwirkung mit Elektronen oder anderer Materie liegt das Licht bei
-seiner gesamten Ausbreitung als Quanten vor. Diese Lichtquanten erhalten den
-Namen Photonen.
-
-Einen Eindruck von diesem Quantencharakter vermittelt die Detektion einzelner
-Photonen. Tatsächlich können Detektoren, die auf dem äußeren Photoeffekt
-beruhen, aus einem einzelnen auftreffenden Lichtquant einen messbaren Spannungspuls
-erzeugen. Wird ein solcher Detektor mit einer sehr geringen Lichtintensität
-bestrahlt, so können die einzelnen Photonen getrennt registriert werden. Das
-Auftreffen der Quanten auf dem Detektor geschieht dabei in völlig unregelmäßigen
-Zeitabständen.
-
-Diese Beobachtung widerspricht der Vorstellung einer kontinuierlichen Welle, die
-lediglich feste Energieportionen überträgt. Nun ist diese Beobachtung allein
-noch kein zwingender Beweis; sie liefert aber einen Eindruck vom
-Quantencharakter des Lichts. Die Intensität des
-Lichts – die in der Wellenoptik mit der Amplitude der Lichtwelle verknüpft ist –
-ergibt sich in der Quantenoptik aus der Anzahl der pro Zeiteinheit
-eintreffenden Photonen.
-
-Bisweilen werden Photonen auch als Licht*teilchen* bezeichnet. Wenn Photonen den
-Charakter eines Teilchens aufweisen, dann sollten sie auch einen Impuls haben.
-Denn aus der Mechanik wissen wir, dass jedes bewegte Teilchen einen Impuls
-besitzt. Tatsächlich lässt sich auch für das Photon ein Impuls angeben, der mit
-seiner Frequenz verknüpft ist:
-
-$$p_\mathrm{Ph} = \frac{E_\mathrm{Ph}}{c} = \frac{hf}{c} = \frac{h}{\lambda} \, .$$
-
-Dieser Photonenimpuls lässt sich in Experimenten (Stichwort:
-<span style="font-variant: small-caps;">Compton</span>-Effekt) nachweisen. Die
+#### Impuls der Photonen
+Wenn vom Teilchencharakter des Lichts gesprochen wird, stellt sich die Frage,
+ob Photonen – analog zu klassischen Teilchen – auch einen Impuls tragen.
+Tatsächlich lässt sich ein solcher Photonenimpuls experimentell nachweisen
+(Stichwort: <span style="font-variant: small-caps;">Compton</span>-Effekt). Die
 „Lichtmühle“ (Radiometer), die manchmal als Nachweis des Photonenimpulses
 angeführt wird, beruht jedoch auf anderen Effekten.
 
-Für das Licht lässt sich also sowohl ein eindeutiger Wellencharakter (Beugung,
-Interferenz) als auch ein eindeutiger Teilchencharakter (Photonenimpuls)
-nachweisen. Das Photon ist dabei weder Welle noch Teilchen im klassischen Sinn,
-sondern ein Quantenobjekt, das beide Eigenschaften in sich vereint und – je nach
-experimentellem Aufbau – diesen oder jenen Charakter zeigt. Daher lassen sich
-auch Wellen- und Teilchenmodell des Lichts nicht vollständig trennen.
+Der Impuls eines Photons ist mit seiner Frequenz verknüpft:
 
-Dieser Dualismus von Wellen- und Teilcheneigenschaften zeigt sich unter anderem
-auch bei der Beobachtung von Interferenzen. Aus der Wellenoptik wissen wir, dass
-das Licht bei Durchgang durch einen Doppelspalt ein Interferenzmuster erzeugt.
-Ein solches Experiment lässt sich auch mit einzelnen Photonen durchführen:
-Aus einer speziellen Lichtquelle (Einzelphotonenquelle) treffen einzelne
-Lichtquanten auf einen Doppelspalt und werden nach dessen Passieren durch einen
-(oben schon erwähnten) Einzelphotonendetektor gezählt. Tatsächlich zeigt das
-Licht auch dann Interferenzverhalten: Je nach Detektorposition ergeben sich
-charakteristische Maxima und Minima in der Zählrate der Photonen. Interferenz
-entsteht also nicht aus der Überlagerung mehrerer Photonen, sondern ist eine
-Eigenschaft des einzelnen Photons.
-
-Um diesen Welle-Teilchen-Dualismus zu veranschaulichen, werden Photonen mitunter
-als „Wellenzüge“ endlicher Länge dargestellt. Doch auch diese Vorstellung gerät
-schnell an ihre Grenzen. Der Charakter des Lichts entzieht sich letztendlich
-unserer Vorstellung. Anschauliche Modelle des Lichts (kontinuierliche Welle
-ähnlich einer Wasserwelle, Partikelstrom ähnlich einem Sandsturm,…) können immer
-besitzen immer nur begrenzte Anwendbarkeiten.
+$$p_\mathrm{Ph} = \frac{E_\mathrm{Ph}}{c} = \frac{hf}{c} = \frac{h}{\lambda} \, .$$
 
 #### Wellencharakter der Elektronen
 
