@@ -3,7 +3,7 @@ author:   Herbert schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  1.1.0
+version:  2025.08.19
 
 language: de
 
@@ -308,6 +308,212 @@ $$\frac{s}{v}$$
 ## Übung 2: Kinematik und Dynamik
 
 ### Verständnisfragen
+
+#### Bewegungsdiagramme
+Ein Personenzug nähert sich seinem Endbahnhof. Auf der freien Strecke vor dem
+Bahnhof gilt eine Höchstgeschwindigkeit von
+$v_\mathrm{strecke} = 120~\frac{\mathrm{km}}{\mathrm h}$. Im Bahnhofsbereich
+darf der Zug nicht schneller als $v_\mathrm{bhf} = 40~\frac{\mathrm{km}}{\mathrm h}$
+fahren. Die nachfolgenden Teilaufgaben enthalten jeweils eine andere
+Darstellung des Bewegungsablaufs dieses Zugs, jeweils beginnend auf der freien
+Strecke bis in den Bahnhof.
+
+*Hinweis*: In jeder Teilaufgabe lassen sich die Fragen allein anhand des
+zugehörigen Diagramms beantworten, auch wenn manche Aspekte in einer anderen
+Darstellung offensichtlicher sein mögen.
+
+<section>
+##### Teil 1: Ort-Zeit-Diagramm
+
+Das folgende Diagramm zeigt des Ort-Zeit-Diagramm $s(t)$ des Zugs:
+
+<figure>
+<img src="grafik_uebung/bewegungsdiagramme_s-t.svg" alt="Ort-Zeit-Diagramm">
+<figcaption>
+  Ort-Zeit-Diagramm des Zugs.
+</figcaption>
+</figure>
+   
+Die folgenden Aussagen beziehen sich auf das oben dargestellte Diagramm.
+Beurteilen Sie deren Richtigkeit.
+
+[[X]] Das Diagramm enthält genau zwei Abschnitte mit gleichförmiger Bewegung.
+[[X]] Am Ende des dargestellten Intervalls hat der Zug angehalten.
+[[X]] Seine größte Geschwindigkeit hat der Zug in den ersten Sekunden des dargestellten Intervalls.
+[[X]] Zu keinem Zeitpunkt nimmt die Geschwindigkeit des Zugs zu.
+[[ ]] In der Mitte des dargestellten Zeitintervalls hat der Zug genau die Hälfte seines Gesamtwegs zurückgelegt.
+[[X]] Zu irgendeinem Zeitpunkt entsprach die Momentangeschwindigkeit des Zugs genau der Durchschnittsgeschwindigkeit für das gesamte dargestellte Intervall.
+*******************************************************************************
+
+- Das Diagramm enthält genau zwei Abschnitte mit gleichförmiger Bewegung.
+  
+  - **Richtig**: Bei gleichförmiger Bewegung ist die Ort-Zeit-Kurve eine Gerade.
+    Dies ist im Diagramm in den ersten 10 Sekunden sowie im Zeitintervall zwischen
+    $t\approx 50~\mathrm s$ und $t\approx 90~\mathrm s$ der Fall
+
+- Am Ende des dargestellten Intervalls hat der Zug angehalten.
+  
+  - **Richtig**: Am rechten Rand des Diagramms erreicht die Ort-Zeit-Kurve einen
+    horizontalen Verlauf.
+
+- Seine größte Geschwindigkeit hat der Zug in den ersten Sekunden des dargestellten
+  Intervalls
+
+  - **Richtig**: In den ersten 10 Sekunden ist der Anstieg der Ort-Zeit-Kurve am
+    größten.
+
+- Zu keinem Zeitpunkt nimmt die Geschwindigkeit des Zugs zu.
+
+  - **Richtig**: An keiner Stelle im Diagramm nimmt der Anstieg der Ort-Zeit-Kurve
+    zu.
+
+- In der Mitte des dargestellten Zeitintervalls hat der Zug genau die Hälfte seines
+  Gesamtwegs zurückgelegt.
+
+  - **Falsch**: Die Mitte des Zeitintervalls liegt bei $t\approx 60~\mathrm s$. Zu
+    diesem Zeitpunkt hat der Zug bereits mehr als $1250~\mathrm m$ zurückgelegt,
+    was deutlich mehr als die Hälfte der insgesamt $\approx 1800~\mathrm m$ ist.
+
+- Zu irgendeinem Zeitpunkt entsprach die Momentangeschwindigkeit des Zugs genau
+  der Durchschnittsgeschwindigkeit für das gesamte dargestellte Intervall.
+
+  - **Richtig**: Dies ist eine mathematische Notwendigkeit für eine stetige
+    Funktion. Die Durchschnittsgeschwindigkeit hat einen Wert zwischen
+    Maximalgeschwindigkeit (zu Beginn des Intervalls) und Null (am Ende des
+    Intervalls). Beim kontinuierlichen Abbremsen wird auch dieser Wert der
+    Geschwindigkeit zu irgendeinem Zeitpunkt erreicht.
+
+*******************************************************************************
+
+</section>
+<section>
+##### Teil 2: Geschwindigkeit-Zeit-Diagramm
+
+Das folgende Diagramm zeigt des Geschwindigkeit-Zeit-Diagramm $v(t)$ des Zugs:
+
+<figure>
+<img src="grafik_uebung/bewegungsdiagramme_v-t.svg" alt="Geschwindigkeit-Zeit-Diagramm">
+<figcaption>
+  Geschwindigkeit-Zeit-Diagramm des Zugs.
+</figcaption>
+</figure>
+   
+Die folgenden Aussagen beziehen sich auf das oben dargestellte Diagramm.
+Beurteilen Sie deren Richtigkeit.
+
+[[X]] Im ersten Bremsvorgang (vor Erreichen des Bahnhofsbereichs) hatte die gewählte Verzögerung einen Betrag von $8000~\frac{\mathrm{km}}{\mathrm h^2}$. (**Hinweis**: Dieser Bremsvorgang dauerte exakt $t = 36~\mathrm s$.)
+[[ ]] Beide Bremsvorgänge erfolgen mit derselben Verzögerung.
+[[ ]] Beide Bremsvorgänge dauerten gleich lang.
+[[X]] Zu Beginn der beiden Bremsvorgänge wechselt die Beschleunigung sprunghaft auf ihren Maximalwert.
+[[X]] Die Beschleunigung ist zu keinem Zeitpunkt größer als Null.
+[[X]] Beide Bremsvorgänge entsprechen einer gleichmäßig beschleunigten Bewegung.
+*******************************************************************************
+
+- Im ersten Bremsvorgang (vor Erreichen des Bahnhofsbereichs) hatte die
+  gewählte Verzögerung einen Betrag von $8000~\frac{\mathrm{km}}{\mathrm h^2}$.
+  (**Hinweis**: Dieser Bremsvorgang dauerte exakt $t = 36~\mathrm s$.)
+
+  - **Richtig**: Innerhalb von $\Delta t = 36~\mathrm s = 0{,}01~\mathrm h$
+    verringerte sich die Geschwindigkeit um $\Delta v = 80~\frac{\mathrm{km}}{\mathrm h}$.
+
+- Beide Bremsvorgänge erfolgen mit derselben Verzögerung.
+
+  - **Falsch**: Die Anstiege der Geschwindigkeit-Zeit-Kurve für die beiden
+    Bremsvorgänge sind unterschiedlich.
+
+- Beide Bremsvorgänge dauerten gleich lang.
+  
+  - **Falsch**: Die Dauer der Bremsvorgänge kann an der horizontalen Achse
+    abgelesen werden.
+
+- Zu Beginn der beiden Bremsvorgänge wechselt die Beschleunigung sprunghaft
+  auf ihren Maximalwert.
+  
+  - **Richtig**: So entsteht jeweils der scharfe „Knick“ im
+    Geschwindigkeitsverlauf.
+
+- Die Beschleunigung ist zu keinem Zeitpunkt größer als Null.
+  
+  - **Richtig**: Die Geschwindigkeit bleibt entweder konstant ($a=0$) oder
+    nimmt ab ($a<0$).
+
+- Beide Bremsvorgänge entsprechen einer gleichmäßig beschleunigten Bewegung.
+  
+  - **Richtig**: Dies ist erkennbar am linearen Verlauf der Geschwindigkeit.
+
+*******************************************************************************
+</section>
+<section>
+##### Teil 3: Geschwindigkeit-Ort-Diagramm
+
+Das folgende Diagramm zeigt des Geschwindigkeit-Ort-Diagramm $v(s)$ des Zugs:
+
+<figure>
+<img src="grafik_uebung/bewegungsdiagramme_v-s.svg" alt="Geschwindigkeit-Ort-Diagramm">
+<figcaption>
+  Geschwindigkeit-Ort-Diagramm des Zugs.
+</figcaption>
+</figure>
+
+Die folgenden Aussagen beziehen sich auf das oben dargestellte Diagramm.
+Beurteilen Sie deren Richtigkeit.
+
+[[X]] Der Zug legte insgesamt mehr als einen halben Kilomter Strecke in gleichförmiger Bewegung zurück.
+[[ ]] Das Diagramm enthält zwei Zeitabschnitte, in denen der Zug im Stillstand war.
+[[ ]] Die dargestellten Bremsvorgänge können nicht mit konstanter Beschleunigung (Verzögerung) erfolgt sein, da die zugehörigen Kurvenabschnitte gekrümmt sind.
+[[X]] Die Strecke, die der Zug mit $40~\frac{\mathrm{km}}{\mathrm h}$ zurückgelegt hat, ist größer als die, die er mit $120~\frac{\mathrm{km}}{\mathrm h}$ zurückgelegt hat.
+[[ ]] Die Fläche unter der Kurve ist ein Maß für die Beschleunigung.
+[[X]] Aus dem Diagramm lässt sich nicht unmittelbar ablesen, wieviel Zeit die einzelnen Bewegungsabschnitte in Anspruch genommen haben.
+*******************************************************************************
+
+- Der Zug legte insgesamt mehr als einen halben Kilomter Strecke in
+  gleichförmiger Bewegung zurück.
+  
+  - **Richtig**: Gleichförmige Bewegung entspricht den horizontalen Abschnitten
+    der Geschwindigkeit-Ort-Kurve. Die zurückgelegte Strecke kann als Länge
+    dieser Abschnitte auf der horizontalen Achse abgelesen werden.
+
+- Das Diagramm enthält zwei Zeitabschnitte, in denen der Zug im Stillstand war.
+
+  - **Falsch**: Erst am Ende der Kurve kommt der Zug zum Stillstand. Die
+    horizontalen Abschnitte im Kurvenverlauf entsprechen einer gleichförmigen
+    Bewegung.
+
+- Die dargestellten Bremsvorgänge können nicht mit konstanter Beschleunigung
+  (Verzögerung) erfolgt sein, da die zugehörigen Kurvenabschnitte gekrümmt
+  sind.
+  
+  - **Falsch**: Eine konstante Beschleunigung führt zwar im $v(t)$-Diagramm zu
+    einem linearen Verlauf, nicht jedoch im $v(s)$-Diagramm, da die in gleichen
+    Zeitabschnitten zurückgelegten Strecken abnehmen (mit abnehmender
+    Geschwindigkeit). Ein nichtlinearer Geschwindigkeitsverlauf in diesem
+    Diagramm kann daher nicht als Beweis einer ungleichmäßigen Beschleunigung
+    dienen. Tatsächlich wurde die Kurve im Diagramm für konstante
+    Beschleunigungen während der Bremsphasen erstellt.
+
+- Die Strecke, die der Zug mit $40~\frac{\mathrm{km}}{\mathrm h}$ zurückgelegt
+  hat, ist größer als die, die er mit $120~\frac{\mathrm{km}}{\mathrm h}$#
+  zurückgelegt hat.
+  
+  - **Richtig**: Dies folgt aus der Vergleich der Längen der beiden
+    horizontalen Kurvenabschnitte.
+
+- Die Fläche unter der Kurve ist ein Maß für die Beschleunigung.
+  
+  - **Falsch**: Die Beschleunigung ist die zeitliche Ableitung der
+    Geschwindigkeit und kann in diesem Diagramm nicht unmittelbar abgelesen
+    werden. Die Fläche unter Kurve müsste einer Größe der Art $s\cdot v$
+    („Weg $\times$ Geschwindigkeit“) entsprechen, die jedoch in der Regel keine
+    Aussagekraft besitzt.
+
+- Aus dem Diagramm lässt sich nicht unmittelbar ablesen, wieviel Zeit die
+  einzelnen Bewegungsabschnitte in Anspruch genommen haben.
+  
+  - **Richtig**: Das Diagramm zeigt keine Zeitabhängigkeit. Die dargestellte
+    Ortsabhängigkeit müsste erst anhand der Geschwindigkeit umgerechnet werden.
+
+*******************************************************************************
+</section>
 
 #### Züge
 
