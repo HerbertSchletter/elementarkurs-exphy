@@ -1791,10 +1791,10 @@ $$F=\frac{\Delta p}{t_\mathrm s} = \frac{m_\mathrm W v}{t_\mathrm s} = 14~\mathr
 Zur Bestimmung der Geschossgeschwindigkeit eines Luftgewehrs wird ein
 ballistisches Pendel verwendet: Dabei trifft das Projektil aus kurzer Entfernung
 auf einen freischwingend aufgehängten Kugelfangkasten und bleibt in diesem
-stecken. Dieser wird dabei um eine horizontale Strecke von $s=5{,}5~\mathrm{cm}$
-ausgelenkt. Die Masse des Projektils beträgt $m_\mathrm P=0{,}5~\mathrm g$, die
-des Kugelfangs $m_\mathrm K = 400~\mathrm g$. Die Pendellänge des Kugelfangs
-beträgt $l= 750~\mathrm{mm}$.
+stecken. Dieser wird dabei um eine horizontale Strecke von $s=6{,}8~\mathrm{cm}$
+ausgelenkt. Die Masse des Projektils beträgt $m_\mathrm P=0{,}524~\mathrm g$, die
+des Kugelfangs $m_\mathrm K = 346~\mathrm g$. Die Pendellänge des Kugelfangs
+beträgt $l= 752~\mathrm{mm}$.
 
 1.  Bestimmen Sie die Geschwindigkeit $v_\mathrm P$ des Projektils.
 
@@ -1850,7 +1850,7 @@ Daraus lässt sich die Höhe des Pendels im Umkehrpunkt ermitteln:
 $$\begin{aligned}
     (l-h)^2 & = l^2 - s^2 \\
     l-h & = \sqrt{l^2-s^2} \\
-    h & = l-\sqrt{l^2-s^2} = 2{,}02~\mathrm{mm} \, .
+    h & = l-\sqrt{l^2-s^2} = 3{,}08~\mathrm{mm} \, .
 \end{aligned}$$
 
 Die zweite Lösung $h=l+\sqrt{l^2-s^2}$ wurde dabei übergangen, da $h<l$ sein
@@ -1862,7 +1862,7 @@ ein, so folgt:
 $$\begin{aligned}
 v'_\mathrm K & = \sqrt{2gh} \\
 & = \sqrt{2g\left(l-\sqrt{l^2-s^2}\right)} \\
-& = 0{,}2~\frac{\mathrm m}{\mathrm s} \, .
+& = 0{,}246~\frac{\mathrm m}{\mathrm s} \, .
 \end{aligned}$$
 
 Dies wiederum wird eingesetzt in die aus dem Impulssatz gefolgerte Gleichung für
@@ -1871,7 +1871,7 @@ die anfängliche Projektilgeschwindigkeit:
 $$\begin{aligned}
 v_\mathrm P & = \frac{m_\mathrm P + m_\mathrm K}{m_\mathrm P}v'_\mathrm K \\
 & = \frac{m_\mathrm P + m_\mathrm K}{m_\mathrm P}\sqrt{2g\left(l-\sqrt{l^2-s^2}\right)} \\
-& = 160{,}2~\frac{\mathrm m}{\mathrm s} \, .
+& = 162{,}6~\frac{\mathrm m}{\mathrm s} \, .
 \end{aligned}$$
 
 ********************************************************************************
@@ -1887,12 +1887,12 @@ $$E_\mathrm{kin,max} = \frac 12 m_\mathrm P v_\mathrm{max}^2$$
 ergibt sich für die gegebene Projektilmasse eine maximale
 Geschossgeschwindigkeit
 
-$$v_\mathrm{max} = \sqrt{\frac{2E_\mathrm{kin.max}}{m_\mathrm P}} = 173{,}2~\frac{\mathrm m}{\mathrm s} \, .$$
+$$v_\mathrm{max} = \sqrt{\frac{2E_\mathrm{kin.max}}{m_\mathrm P}} = 169{,}2~\frac{\mathrm m}{\mathrm s} \, .$$
 
 Alternativ kann aus der oben ermittelten Geschossgeschwindigkeit die
 Mündungsenergie dieses Luftgewehrs bestimmt werden:
 
-$$E_\mathrm P = \frac 12 m_\mathrm P v_\mathrm P^2 = 6{,}4~\mathrm J \, .$$
+$$E_\mathrm P = \frac 12 m_\mathrm P v_\mathrm P^2 = 6{,}93~\mathrm J \, .$$
 
 Beide Rechnungen führen zu der Schlussfolgerung, dass das Luftgewehr im
 zulässigen Bereich arbeitet und diesen recht gut ausnutzt.
