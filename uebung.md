@@ -1806,7 +1806,7 @@ beträgt $l= 752~\mathrm{mm}$.
 -----
 
 *  Antwort Teilaufgabe 1:
-[[ $v_\mathrm P = 38{,}6~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm P = 84{,}4~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm P = 117{,}9~\frac{\mathrm m}{\mathrm s}$ | ($v_\mathrm P = 160{,}2~\frac{\mathrm m}{\mathrm s}$) ]]
+[[ $v_\mathrm P = 38{,}6~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm P = 84{,}4~\frac{\mathrm m}{\mathrm s}$ | $v_\mathrm P = 117{,}9~\frac{\mathrm m}{\mathrm s}$ | ($v_\mathrm P = 162{,}6~\frac{\mathrm m}{\mathrm s}$) ]]
 ********************************************************************************
 
 Beim Stoß des Projektils mit dem Kugelfang wird Impuls und Energie übertragen.
