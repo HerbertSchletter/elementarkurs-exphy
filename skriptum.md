@@ -28,7 +28,7 @@ Technische Universität Chemnitz
 *Wintersemester 2025/2026*
 
 <figure>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg/800px-M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg" alt="Titelbild: Newtonsches Pendel" style="width:60em;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg/960px-M%C3%BClheim_adR_-_Am_Schloss_Broich_-_M%C3%BCGa-Park_-_Darlington-Park_09_ies.jpg" alt="Titelbild: Newtonsches Pendel" style="width:60em;">
   <figcaption>
     [Quelle: Frank Vincentz, <a href="https://commons.wikimedia.org/wiki/File:Mülheim_adR_-_Am_Schloss_Broich_-_MüGa-Park_-_Darlington-Park_09_ies.jpg">Mülheim adR - Am Schloss Broich - MüGa-Park - Darlington-Park 09 ies</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">CC BY-SA 3.0</a>, via Wikimedia Commons]
   </figcaption>
