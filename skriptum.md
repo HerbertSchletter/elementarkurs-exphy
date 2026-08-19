@@ -3,7 +3,7 @@ author:   Herbert Schletter
 
 email:    herbert.schletter@physik.tu-chemnitz.de
 
-version:  2025.09.25
+version:  2026.08.19
 
 language: de
 
@@ -1603,11 +1603,10 @@ folgendermaßen angeben:
 
 $$\vec\omega = \frac{\mathrm d \phi}{\mathrm d t}\cdot\vec e_\mathrm{ax} \, .$$
 
-Weiterhin kann natürlich auch für die Kreisbewegung eine (translatorische)
+Weiterhin kann natürlich auch für die Kreisbewegung die (translatorische)
 Geschwindigkeit $\vec{v}$ als zeitliche Änderung des Ortsvektors $\vec{r}$
-angegeben werden. Zur besseren Unterscheidung wird sie als Bahngeschwindigkeit
-bezeichnet. Für sie gilt in Komponentenschreibweise bei konstantem Bahnradius
-$r$:
+angegeben werden. Für sie gilt in Komponentenschreibweise bei konstantem
+Bahnradius $r$:
 
 $$\begin{aligned}
 \vec{v} & = \frac{\mathrm{d}}{\mathrm dt}\vec{r} = \frac{\mathrm d}{\mathrm dt} \left[ r \cdot \begin{pmatrix} \cos \phi \\ \sin \phi \end{pmatrix} \right] \\
@@ -1625,15 +1624,15 @@ $\vec{\omega} \times \vec{r}$. Es gilt also (bei konstantem Bahnradius):
 
 $$\vec{v}= \dot{\vec{r}} =\vec{\omega} \times \vec{r} \, .$$
 
-Für den Betrag der Bahngeschwindigkeit folgt: $v=\omega r$. Ihre Richtung
+Für den Betrag der Geschwindigkeit folgt: $v=\omega r$. Ihre Richtung
 verläuft stets tangential zur Kreisbahn.
 
 #### Beschleunigung bei der Kreisbewegung
 
 Verläuft eine Rotation mit konstanter Winkelgeschwindigkeit, so spricht man von
 einer gleichförmigen Kreisbewegung. Wie oben bereits diskutiert, ändert sich
-auch in diesem Fall die Bahngeschwindigkeit. Es liegt also eine (Bahn-)
-Beschleunigung vor.
+auch in diesem Fall der Geschwindigkeitsvektor $\vec v$. Es liegt also eine
+(translatorische) Beschleunigung vor.
 
 Im allgemeinen Fall kann sich auch die Winkelgeschwindigkeit der Rotation
 ändern. In diesem Fall definiert man die Winkelbeschleunigung $\vec{\alpha}$
@@ -1655,23 +1654,23 @@ $$\begin{aligned}
 \omega(t) & = \alpha t + \omega_0 \\
 \phi (t) & = \frac{\alpha}{2} t^2 + \omega_0 t +\phi_0\end{aligned}$$
 
-Für die Bahnbeschleunigung als zeitliche Änderung der Bahngeschwindigkeit ergibt
-sich:
+Für die (translatorische) Beschleunigung $\vec a$ als zeitliche Änderung der
+Geschwindigkeit ergibt sich:
 
 $$\vec{a} = \dot{\vec{v}} = \frac{\mathrm d}{\mathrm d t } (\vec{\omega} \times \vec{r}) = \dot{\vec{\omega}} \times \vec{r} + \vec{\omega} \times \dot{\vec{r}}$$
 
-Die Bahnbeschleunigung enthält also zwei Komponenten. Für den ersten Ausdruck
+Die Beschleunigung enthält also zwei Komponenten. Für den ersten Ausdruck
 erhalten wir mit $\dot{\vec{\omega}}= \vec{\alpha}$:
 
 $$\dot{\vec{\omega}} \times \vec{r} = \vec{\alpha} \times  \vec{r}
     =\alpha r\cdot\left(\vec e_\mathrm{ax}\times\vec e_\mathrm{rad}\right)
     = \alpha r \cdot \vec{e}_\mathrm{tang} \equiv \vec{a}_\mathrm t \, .$$
 
-Dies ist die Tangentialkomponente der Bahnbeschleunigung, die eine Änderung des
-Betrages der Bahngeschwindigkeit verursacht. Sie tritt nur bei Vorliegen einer
+Dies ist die Tangentialkomponente der Beschleunigung, die eine Änderung des
+Betrages der Geschwindigkeit verursacht. Sie tritt nur bei Vorliegen einer
 Winkelbeschleunigung auf.
 
-Für die zweite Komponente der Bahnbeschleunigung erhalten wir:
+Für die zweite Komponente der Beschleunigung erhalten wir:
 
 $$\vec{\omega} \times \dot{\vec{r}} = \vec{\omega} \times (\vec{\omega} \times \vec{r}) \, .$$
 
@@ -1689,26 +1688,26 @@ $\vec{\omega} \cdot \vec{r}= 0$ und es gilt:
 
 $$\vec{\omega} \times\dot{\vec{r}} = -\omega^2 \vec{r} \equiv \vec{a}_\mathrm r \, .$$
 
-Dies ist die Radialkomponente der Bahnbeschleunigung. Sie ist stets zum
+Dies ist die Radialkomponente der Beschleunigung. Sie ist stets zum
 Koordinatenursprung gerichtet und somit identisch mit der eingangs bereits
 qualitativ hergeleiteten Zentripetalbeschleunigung $\vec{a}_\mathrm z$. Diese
 Komponente bewirkt eine permanente Richtungs-, jedoch keine Betragsänderung der
-Bahngeschwindigkeit. Für ihren Betrag gilt (mit $v=\omega r$):
+Geschwindigkeit. Für ihren Betrag gilt (mit $v=\omega r$):
 
 $$a_\mathrm r = \omega^2 r = \frac{v^2}{r} \, .$$
 
 Gemäß dem zweiten Newtonschen Axiom existiert zu jeder translatorischen
-Beschleunigung eine Kraft. Folglich muss auch zu den beiden Komponenten der
-Bahnbeschleunigung die zugehörige tangentiale und radiale Kraftkomponente
+Beschleunigung eine Kraft. Folglich muss auch zu den beiden oben hergeleiteten
+Komponenten die zugehörige tangentiale und radiale Kraftkomponente
 vorliegen. Die tangentiale Kraftkomponente ändert den Betrag der
-Bahngeschwindigkeit und damit die kinetische Energie des Massepunkts. Sie
+Geschwindigkeit und damit die kinetische Energie des Massepunkts. Sie
 verrichtet also Beschleunigungsarbeit, wie auch aus der Definition der Arbeit
 $\mathrm dW=\vec{F} \cdot \vec{\mathrm d s}$ mit
 $\vec{F} \, || \, \vec{\mathrm ds}$ beziehungsweise
 $\vec{F} \, || \, \vec{v}$ folgt.
 
 Die radiale Komponente der Kraft bewirkt lediglich eine Richtungsänderung der
-Bahngeschwindigkeit. Analog zur Zentripetalbeschleunigung heißt diese Kraft
+Geschwindigkeit. Analog zur Zentripetalbeschleunigung heißt diese Kraft
 Zentripetalkraft $\vec{F}_\mathrm z$. Sie ändert nicht die kinetische Energie
 des Massepunktes, kann also keine Arbeit verrichten. Tatsächlich ergibt sich mit
 $\vec{F}_\mathrm z \perp \vec{\mathrm d s}$ für diese Kraft
